@@ -1,0 +1,45 @@
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #7D4698 !default;
+$purple-dark: #59316B !default;
+$pink:    #e83e8c !default;
+$red:     #EF243E !default;
+$orange:  #fd7e14 !default;
+$yellow:  #FFBF00 !default;
+$green:   #01AB35 !default;
+$teal:    #20c997 !default;
+$cyan:    #00A5BB !default;
+
+$white:    #fff !default;
+$gray-100: #F8F9FA !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #848E97 !default;
+$gray-700: #495057 !default;
+$gray-800: #333A41 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$primary:       $purple !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $purple-dark !default;
+
+$navbar-dark-color:                 $white !default;
+$navbar-light-color:                $purple-dark !default;
+
+// Local docs variables
+$bd-purple:        #563d7c !default;
+$bd-purple-bright: lighten(saturate($bd-purple, 5%), 15%) !default;
+$bd-purple-light:  lighten(saturate($bd-purple, 5%), 45%) !default;
+$bd-dark:          #2a2730 !default;
+$bd-download:      #ffe484 !default;
+$bd-info:          #5bc0de !default;
+$bd-warning:       #f0ad4e !default;
+$bd-danger:        #d9534f !default;

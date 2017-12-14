@@ -1,2 +1,12 @@
 [project]
 name = portal
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.es]
+name = Spanish
+url_prefix = /es/
+locale = es_ES

@@ -1,6 +1,8 @@
-title: Welcome to portal!
+title: How Can we help? | Tor Project | Support
 ---
 body:
 
 This is a basic demo website that shows how to use Lektor for a basic
 website with some pages and a blog.
+---
+_template: jumbotron.html

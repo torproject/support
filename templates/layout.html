@@ -1,29 +1,39 @@
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — portal</title>
-<body>
+<link rel="stylesheet" href="{{ '/static/bootstrap.css'|url }}">
+<title>{% block title %}{% endblock %}</title>
+<body class="no-gutters">
   <header>
-    <h1>portal</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
+    <nav class="navbar navbar-no-logo navbar-expand-lg navbar-dark fixed-top bg-primary">
+        <a class="navbar-brand" href="/">
+          <img src="{{ '/static/images/tor-logo.svg'|url }}" >
+          <span class="sr-only">Tor Logo</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            {% for id, item in bag('menu').items() %}
+              <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+                 <a class="nav-link" href="{{ item.path }}">{{ item.label }}
+                   {% if this.is_child_of(item.path) %}
+                      <span class="sr-only">(current)</span>
+                   {% endif %}
+                 </a>
+              </li>
+            {% endfor %}
+          </ul>
+          <a class="btn btn-light offset-md-1">Download Tor Browser</a>
+        </div>
+
     </nav>
   </header>
-  <div class="page">
-    {% block body %}{% endblock %}
-  </div>
+  {% block body %}{% endblock %}
   <footer>
     &copy; Copyright 2017 by Tor Project.
+    <script src="{{ '/static/js/jquery-3.2.1.min.js'|url }}" ></script>
+    <script src="{{ '/static/js/popper.min.js'|url }}" ></script>
+    <script src="{{ '/static/js/bootstrap.min.js'|url }}" ></script>
   </footer>
 </body>
