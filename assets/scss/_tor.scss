@@ -7,18 +7,57 @@ body {
   padding-top: 3.5rem;
 }
 
+/* Reset */
+
 .no-border {
   border: none;
+}
+
+.no-background {
+  background-image: none !important;
 }
 
 /*
  * Typography
  */
+
+@font-face {
+  font-family: Source Sans Pro;
+  src: url('fonts/SourceSansPro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: Source Serif Pro;
+  src: url('fonts/SourceSansPro/SourceSansPro-Italic.ttf');
+}
+
+@font-face {
+  font-family: Source Light Pro;
+  src: url('fonts/SourceSansPro/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+  font-family: Source Serif Light Pro;
+  src: url('fonts/SourceSansPro/SourceSansPro-LightItalic.ttf');
+}
+
 h1 {
   padding-bottom: 9px;
   padding-top: 40px;
   margin-bottom: 20px;
   border-bottom: 1px solid #eee;
+}
+
+.font-weight-light {
+  font-family: Source Light Pro !important;
+}
+
+.display-5 {
+  font-size: 1.5em;
+}
+
+.display-6 {
+  font-size: 1.3em
 }
 
 /*
@@ -29,10 +68,6 @@ h1 {
   background-repeat: no-repeat;
   background-position: 10px 12px;
   margin-bottom: 0;
-}
-
-.navbar-no-logo {
-  background-image: none;
 }
 
 .navbar-brand {
@@ -80,29 +115,6 @@ h1 {
 }
 
 /*
- * Header/Jumbotron
- */
-
- .jumbotron {
-   padding-top: 6rem;
-   padding-bottom: 6rem;
-   margin-bottom: 0;
-   background-color: #fff;
- }
-
- .jumbotron p:last-child {
-   margin-bottom: 0;
- }
-
- .jumbotron-heading {
-   font-weight: 300;
- }
-
- .jumbotron .container {
-   max-width: 40rem;
- }
-
-/*
  * Dashboard
  */
 
@@ -121,6 +133,10 @@ h1 {
  */
 .form-wide {
   width: 100% !important;
+
+  input {
+    padding: 20px !important;
+  }
 }
 
 //

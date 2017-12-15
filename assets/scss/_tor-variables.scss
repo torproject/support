@@ -43,3 +43,11 @@ $bd-download:      #ffe484 !default;
 $bd-info:          #5bc0de !default;
 $bd-warning:       #f0ad4e !default;
 $bd-danger:        #d9534f !default;
+
+// Fonts -  Source Sans Pro
+$font-family-sans-serif:      "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-serif:           "Source Serif Pro", -apple-system, "Georgia", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace:       "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+$mark-bg:                     $bd-purple-light;

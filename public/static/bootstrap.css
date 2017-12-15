@@ -27,26 +27,11 @@ body {
 @font-face {
   font-family: Source Serif Pro;
   src: url("fonts/SourceSansPro/SourceSansPro-Italic.ttf"); }
-@font-face {
-  font-family: Source Light Pro;
-  src: url("fonts/SourceSansPro/SourceSansPro-Light.ttf"); }
-@font-face {
-  font-family: Source Serif Light Pro;
-  src: url("fonts/SourceSansPro/SourceSansPro-LightItalic.ttf"); }
 h1 {
   padding-bottom: 9px;
   padding-top: 40px;
   margin-bottom: 20px;
   border-bottom: 1px solid #eee; }
-
-.font-weight-light {
-  font-family: Source Light Pro !important; }
-
-.display-5 {
-  font-size: 1.5em; }
-
-.display-6 {
-  font-size: 1.3em; }
 
 /*
  * Nav
@@ -110,8 +95,6 @@ h1 {
  */
 .form-wide {
   width: 100% !important; }
-  .form-wide input {
-    padding: 20px !important; }
 
 .bd-callout {
   padding: 1.25rem;
