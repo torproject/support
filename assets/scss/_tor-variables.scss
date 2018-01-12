@@ -6,7 +6,7 @@ $pink:    #e83e8c !default;
 $red:     #EF243E !default;
 $orange:  #fd7e14 !default;
 $yellow:  #FFBF00 !default;
-$green:   #01AB35 !default;
+$green:   #68B044 !default;
 $teal:    #20c997 !default;
 $cyan:    #00A5BB !default;
 
@@ -23,7 +23,7 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 $primary:       $purple !default;
-$secondary:     $gray-600 !default;
+$secondary:     $gray-800 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -35,19 +35,22 @@ $navbar-dark-color:                 $white !default;
 $navbar-light-color:                $purple-dark !default;
 
 // Local docs variables
-$bd-purple:        #563d7c !default;
+$bd-purple:        #7D4698 !default;
 $bd-purple-bright: lighten(saturate($bd-purple, 5%), 15%) !default;
 $bd-purple-light:  lighten(saturate($bd-purple, 5%), 45%) !default;
-$bd-dark:          #2a2730 !default;
+$bd-dark:          #59316B !default;
 $bd-download:      #ffe484 !default;
 $bd-info:          #5bc0de !default;
 $bd-warning:       #f0ad4e !default;
 $bd-danger:        #d9534f !default;
 
 // Fonts -  Source Sans Pro
-$font-family-sans-serif:      "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$font-family-serif:           "Source Serif Pro", -apple-system, "Georgia", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$font-family-monospace:       "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:            $font-family-sans-serif !default;
+$font-family-sans:      "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-serif:     "Source Serif Pro", -apple-system, "Georgia", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:      $font-family-sans !default;
 
-$mark-bg:                     $bd-purple-light;
+$mark-bg:               $bd-purple-light;
+
+// Tables
+$table-accent-bg: $bd-purple-light;

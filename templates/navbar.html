@@ -1,0 +1,23 @@
+<nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary">
+  <a class="navbar-brand" href="/">
+    <img src="{{ '/static/images/tor-logo.svg' }}" >
+    <span class="sr-only">Tor Logo</span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      {% for id, item in bag('menu').items() %}
+      <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+        <a class="display-6 font-weight-light nav-link" href="{{ item.path|url }}">{{ bag('menu-alt', this.alt, id) }}
+          {% if this.is_child_of(item.path) %}
+          <span class="sr-only">(current)</span>
+          {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="btn-lg text-primary btn-outline-dark bg-white btn-light offset-md-1">Download Tor Browser</a>
+  </div>
+</nav>

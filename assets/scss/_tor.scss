@@ -3,7 +3,7 @@
  */
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-body {
+.page {
   padding-top: 3.5rem;
 }
 
@@ -17,6 +17,10 @@ body {
   background-image: none !important;
 }
 
+.content-scroll {
+  position: relative;
+}
+
 /*
  * Typography
  */
@@ -27,37 +31,176 @@ body {
 }
 
 @font-face {
-  font-family: Source Serif Pro;
-  src: url('fonts/SourceSansPro/SourceSansPro-Italic.ttf');
-}
-
-@font-face {
-  font-family: Source Light Pro;
+  font-family: Source Sans Pro Light;
   src: url('fonts/SourceSansPro/SourceSansPro-Light.ttf');
 }
 
 @font-face {
-  font-family: Source Serif Light Pro;
-  src: url('fonts/SourceSansPro/SourceSansPro-LightItalic.ttf');
+  font-family: Source Sans Pro Bold;
+  src: url('fonts/SourceSansPro/SourceSansPro-Bold.ttf');
 }
 
-h1 {
-  padding-bottom: 9px;
-  padding-top: 40px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
+@font-face {
+  font-family: Source Serif Pro;
+  src: url('fonts/SourceSerifPro/SourceSerifPro-Regular.ttf');
 }
 
-.font-weight-light {
-  font-family: Source Light Pro !important;
+@font-face {
+  font-family: Source Code Pro;
+  src: url('fonts/SourceCodePro/SourceCodePro-Regular.ttf');
 }
 
+@font-face {
+  font-family: Tor Icons;
+  src: url('fonts/TorIcons/tor-icons.eot?#iefix') format('embedded-opentype'),
+  url('fonts/TorIcons/tor-icons.woff2') format('woff2'),
+  url('fonsts/TorIcons/tor-icons.woff') format('woff'),
+  url('fonts/TorIcons/tor-icons.ttf') format('truetype'),
+  url('fonts/TorIcons/tor-icons.svg?#tor-icons') format('svg');
+}
+
+.ti:before {
+    font-family: Tor Icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+}
+
+.ti-authority:before {
+    content: "\f101";
+}
+.ti-badexit:before {
+    content: "\f102";
+}
+.ti-bridge:before {
+    content: "\f103";
+}
+.ti-country:before {
+    content: "\f104";
+}
+.ti-directory:before {
+    content: "\f105";
+}
+.ti-exit:before {
+    content: "\f106";
+}
+.ti-fallbackdir:before {
+    content: "\f107";
+}
+.ti-fast:before {
+    content: "\f108";
+}
+.ti-fingerprint:before {
+    content: "\f109";
+}
+.ti-guard:before {
+    content: "\f10a";
+}
+.ti-hibernating:before {
+    content: "\f10b";
+}
+.ti-hsdir:before {
+    content: "\f10c";
+}
+.ti-ipv4:before {
+    content: "\f10d";
+}
+.ti-ipv6:before {
+    content: "\f10e";
+}
+.ti-ipv6exit:before {
+    content: "\f10f";
+}
+.ti-noedconsensus:before {
+    content: "\f110";
+}
+.ti-notrecommended:before {
+    content: "\f111";
+}
+.ti-onion-alt:before {
+    content: "\f112";
+}
+.ti-onion:before {
+    content: "\f113";
+}
+.ti-reachableipv4:before {
+    content: "\f114";
+}
+.ti-reachableipv6:before {
+    content: "\f115";
+}
+.ti-relay:before {
+    content: "\f116";
+}
+.ti-running:before {
+    content: "\f117";
+}
+.ti-stable:before {
+    content: "\f118";
+}
+.ti-tshirt:before {
+    content: "\f119";
+}
+.ti-unmeasured:before {
+    content: "\f11a";
+}
+.ti-unreachableipv4:before {
+    content: "\f11b";
+}
+.ti-unreachableipv6:before {
+    content: "\f11c";
+}
+.ti-v2dir:before {
+    content: "\f11d";
+}
+.ti-valid:before {
+    content: "\f11e";
+}
+
+.font-family-serif {
+  font-family: $font-family-serif !important;
+}
+
+.font-weight-light  { font-family: Source Sans Pro Light }
+
+.font-weight-bold   { font-family: Source Sans Pro Bold  }
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $purple;
+}
+p {
+  font-size: 1.3rem; // We need at least 18px minuim +_+
+  color: $gray-900;
+  line-height: 2rem;
+}
 .display-5 {
   font-size: 1.5em;
 }
-
 .display-6 {
   font-size: 1.3em
+}
+mark,.mark {
+  color: $purple;
+}
+
+.bd-sidebar{
+  border: 0 !important;
+}
+.bd-toc{
+  order: 0 !important;
+}
+#components-nav .nav-pills .nav-link,
+#visuals-nav .nav-pills .nav-link{
+  border-radius: 0;
+}
+#components-nav .nav-pills .nav-link.active,
+#visuals-nav .nav-pills .nav-link.active{
+  background-color: $white;
+  color: $purple;
+  border-left: 2px solid $purple;
+  font-weight: bold;
 }
 
 /*
@@ -67,7 +210,6 @@ h1 {
   background-image: url('./images/onion-bg.svg');
   background-repeat: no-repeat;
   background-position: 10px 12px;
-  margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -140,6 +282,27 @@ h1 {
 }
 
 //
+// Badges
+//
+.badge{
+  text-transform: uppercase;
+}
+
+//
+// Breadcrumbs
+//
+.breadcrumb{
+  background-color: $white;
+}
+
+//
+// Tables
+//
+.table-striped td{
+  border: 0 !important;
+}
+
+//
 // Callouts
 //
 .bd-callout {
@@ -178,6 +341,23 @@ h1 {
 .bd-callout-info { @include bs-callout-variant($bd-info); }
 .bd-callout-warning { @include bs-callout-variant($bd-warning); }
 .bd-callout-danger { @include bs-callout-variant($bd-danger); }
+
+// Styleguide Nav Update
+
+// All levels of nav
+.bd-sidebar .nav > li > a {
+  font-size: 100%;
+  color: rgba(0, 0, 0, .85);
+}
+
+.bd-sidebar .nav > li > a:hover {
+  color: $purple !important;
+  text-decoration: none;
+}
+
+#bd-docs-nav{
+  padding-top: 2rem;
+}
 
 // stylelint-disable declaration-block-single-line-max-declarations
 

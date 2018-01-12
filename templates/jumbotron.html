@@ -20,23 +20,7 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <nav class="col-sm-3 col-md-2 d-none d-sm-block section-nav bg-white sidebar">
-            <ul class="nav nav-pills flex-column">
-              {% for id, item in bag('menu').items() %}
-                <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active" {% else %} class="toc-entry toc-h2"{% endif %}>
-                  <a class="nav-link" href="{{ item.path|url }}">{{ item.label }}</a>
-                </li>
-  	            {% set docs = site.get(item.path) %}
-                {% for child in docs.children recursive %}
-                  <li{% if this._path == child._path %} class="toc-entry toc-h4 active" {% else %} class="toc-entry toc-h4"{% endif
-                  %}>{{ get_link(child) }}
-                  {% if this.is_child_of(child) %}
-                    <ul>{{ loop(child.children) }}</ul>
-                  {% endif %}
-                {% endfor %}
-              {% endfor %}
-            </ul>
-          </nav>
+          {% include 'sidenav.html' %}
           <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
             {{ this.body }}
           </main>

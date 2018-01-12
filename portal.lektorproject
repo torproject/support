@@ -1,5 +1,7 @@
 [project]
-name = portal
+name = support
+url = https://support.torproject.org/
+url_style = absolute
 
 [alternatives.en]
 name = English
