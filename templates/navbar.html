@@ -8,9 +8,9 @@
   </button>
   <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      {% for id, item in bag('menu').items() %}
+      {% for id, item in bag('menu', this.alt).items() %}
       <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-        <a class="display-6 font-weight-light nav-link" href="{{ item.path|url }}">{{ bag('menu-alt', this.alt, id) }}
+        <a class="display-6 font-weight-light nav-link" href="{{ item.path|url }}">{{ item.label }}
           {% if this.is_child_of(item.path) %}
           <span class="sr-only">(current)</span>
           {% endif %}

@@ -1,23 +1,62 @@
 {
-    "about": {
-	"path": "/about"
+    "en": {
+	"about": {
+	    "path": "/about",
+	    "label": "About"
+	},
+	"documentation": {
+	    "path": "/docs",
+	    "label": "Documentation"
+	},
+	"press": {
+	    "path": "/press",
+	    "label": "Press"
+	},
+	"blog": {
+	    "path": "https://blog.torproject.org",
+	    "label": "Blog"
+	},
+	"newsletter": {
+	    "path": "https://newsletter.torproject.org",
+	    "label": "Newsletter"
+	},
+	"volunteer": {
+	    "path": "/volunteer",
+	    "label": "Volunteer"
+	},
+	"contact": {
+	    "path": "/contact",
+	    "label": "Contact"
+	}
     },
-    "documentation": {
-	"path": "/docs"
-    },
-    "press": {
-	"path": "/press"
-    },
-    "blog": {
-	"path": "https://blog.torproject.org"
-    },
-    "newsletter": {
-	"path": "https://newsletter.torproject.org"
-    },
-    "volunteer": {
-	"path": "/volunteer"
-    },
-    "contact": {
-	"path": "/contact"
+    "es": {
+	"about": {
+	    "path": "/acerca",
+	    "label": "Acerca"
+	},
+	"documentation": {
+	    "path": "/docs",
+	    "label": "Documentation"
+	},
+	"press": {
+	    "path": "/prensa",
+	    "label": "Prensa"
+	},
+	"blog": {
+	    "path": "https://blog.torproject.org",
+	    "label": "Blog"
+	},
+	"newsletter": {
+	    "path": "https://newsletter.torproject.org",
+	    "label": "Newsletter"
+	},
+	"volunteer": {
+	    "path": "/voluntarios",
+	    "label": "Voluntarios"
+	},
+	"contact": {
+	    "path": "/contactos",
+	    "label": "Contactos"
+	}
     }
 }

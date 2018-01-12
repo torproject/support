@@ -1,8 +1,8 @@
 <nav class="col-sm-3 col-md-2 d-none d-sm-block section-nav bg-white sidebar">
   <ul class="nav nav-pills flex-column">
-    {% for id, item in bag('menu').items() %}
+    {% for id, item in bag('menu', this.alt).items() %}
     <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active" {% else %} class="toc-entry toc-h2"{% endif %}>
-      <a class="nav-link" href="{{ item.path|url }}">{{ bag('menu-alt', this.alt, id) }}</a>
+      <a class="nav-link" href="{{ item.path|url }}">{{ item.label }}</a>
     </li>
     {% set docs = site.get(item.path) %}
     {% for child in docs.children recursive %}
