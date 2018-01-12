@@ -1,0 +1,23 @@
+{
+    "about": {
+	"path": "/about"
+    },
+    "documentation": {
+	"path": "/docs"
+    },
+    "press": {
+	"path": "/press"
+    },
+    "blog": {
+	"path": "https://blog.torproject.org"
+    },
+    "newsletter": {
+	"path": "https://newsletter.torproject.org"
+    },
+    "volunteer": {
+	"path": "/volunteer"
+    },
+    "contact": {
+	"path": "/contact"
+    }
+}
