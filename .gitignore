@@ -3,9 +3,7 @@ scss
 .sass-cache
 .DS_Store
 
-public/.lektor
-public/javascript
-public/scss
+public
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
