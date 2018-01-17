@@ -2,7 +2,387 @@ title: How Can we help? | Tor Project | Support
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
+<div id="topics" data-children=".item">
+  <div class="item">
+    <h3 class="text-primary">
+      <a data-toggle="collapse" data-parent="#topics" href="#faq" role="button" aria-expanded="true" aria-controls="faq">
+        Most Frequently Asked Questions
+      </a>
+    </h3>
+    <div id="faq" class="collapse show" role="tabpanel">
+      <div id="faqAccordion" data-children=".question">
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#faqAccordion" href="#question1" role="button" aria-expanded="true" aria-controls="question1">
+              When I use Tor Browser, will anyone be able to tell which websites I visit?
+            </a>
+	  </h4>
+          <div id="question1" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+              Tor Browser prevents people from knowing the websites you visit. Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor.
+            </p>
+          </div>
+        </div>
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#faqAccordion" href="#question2" role="button" aria-expanded="true" aria-controls="question2">
+              Our website is blocked by a censor. Can Tor Browser help users access our website?
+            </a>
+	  </h4>
+          <div id="question2" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+             Tor Browser can certainly help people access your website in places where it is blocked. Most of the time, simply downloading the ​Tor Browser and then using it to navigate to the blocked site will allow access. In places where there is heavy censorship, we have a number of censorship circumvention options available, including ​pluggable transports. For more information, please see the ​Tor Browser User Manual section on censorship. ​
+            </p>
+          </div>
+        </div>
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#faqAccordion" href="#question3" role="button" aria-expanded="true" aria-controls="question3">
+              Should I install a new add-on or extension in Tor Browser, like AdBlock Plus or uBlock Origin?
+            </a>
+	  </h4>
+          <div id="question3" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+              It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise both your privacy and your security. Plus, Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — which give you added protection.
+            </p>
+          </div>
+        </div>
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#faqAccordion" href="#question4" role="button" aria-expanded="true" aria-controls="question4">
+              Which platforms is Tor Browser available for?
+            </a>
+	  </h4>
+          <div id="question4" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	       Tor Browser is currently available on Windows, Linux and OSX. For Android, The Guardian Project maintains the Tor-powered apps Orbot and Orfox. There is no official version of Tor for iOS yet, though we recommend Onion Browser.
+    	    </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#faqAccordion" href="#question5" role="button" aria-expanded="true" aria-controls="question5">
+              Can I use a VPN with Tor?
+            </a>
+	  </h4>
+          <div id="question5" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	       Generally speaking, we don't recommend using a VPN with Tor unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy. Learn more about combining Tor + VPN. 
+	    </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item">
+    <h3 class="text-primary">
+      <a data-toggle="collapse" data-parent="#topics" href="#tor-browser" role="button" aria-expanded="true" aria-controls="tor-browser">
+        Tor Browser
+      </a>
+    </h3>
+    <div id="tor-browser" class="collapse show" role="tabpanel">
+      <div id="tor-browserAccordion" data-children=".question">
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question6" role="button" aria-expanded="true" aria-controls="question6">
+              What are the most common issues with the latest stable version of Tor Browser?
+            </a>
+	  </h4>
+          <div id="question6" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues. If you started having issues with your Tor Browser after an update, check out ​<a href="https://blog.torproject.org">https://blog.torproject.org</a> for the most recent stable Tor Browser post to see if your issue is listed.
+	    </p>
+          </div>
+        </div>
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question7" role="button" aria-expanded="true" aria-controls="question7">
+              Why is the first IP address in my relay circuit always the same?
+            </a>
+	  </h4>
+          <div id="question7" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      That is normal Tor behavior. The first relay in your circuit is called an "entry guard" or "guard.” It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this <a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">blog post</a> and <a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">paper</a> on entry guards.
+            </p>
+          </div>
+        </div>
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question8" role="button" aria-expanded="true" aria-controls="question8">
+	      When I use Tor Browser, will anyone be able to tell which websites I visit?
+            </a>
+	  </h4>
+          <div id="question8" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Tor Browser prevents people from knowing the websites you visit. Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor.
+            </p>
+          </div>
+        </div>
+        <div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question9" role="button" aria-expanded="true" aria-controls="question9">
+              Why is Tor Browser built from Firefox and not some other browser?
+            </a>
+	  </h4>
+          <div id="question9" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Tor Browser is a modified version of Firefox specifically designed for use with Tor. A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security. While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it. <a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a>.
+    	    </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question10" role="button" aria-expanded="true" aria-controls="question10">
+              Can I still use another browser, like Chrome or Firefox, when I'm using Tor Browser?
+            </a>
+	  </h4>
+          <div id="question10" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      You can certainly use another browser while you are also using Tor Browser. However, you should know that the privacy properties of Tor Browser will not be present in the other browser. Be careful when switching back and forth between Tor and a less safe browser, because you may accidentally use the other browser for something you intended to do using Tor.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question11" role="button" aria-expanded="true" aria-controls="question11">
+	      Can I make Tor Browser my default browser?
+            </a>
+	  </h4>
+          <div id="question11" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Unfortunately, there is no supported way to make Tor Browser your default browser.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question12" role="button" aria-expanded="true" aria-controls="question12">
+	      My favorite website is blocking access over Tor.
+            </a>
+	  </h4>
+          <div id="question12" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	    Sorry to hear that you can't visit the website you wanted! Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:
+	    "Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
+In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
+If you are unable to connect to an onion service, please see [#IcannotreachX.onion I cannot reach X.onion!]
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question13" role="button" aria-expanded="true" aria-controls="question13">
+	      Our website is blocked by a censor. Can Tor Browser help users access our website?
+            </a>
+	  </h4>
+          <div id="question13" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Tor Browser can certainly help people access your website in places where it is blocked. Most of the time, simply downloading the ​<a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a> and then using it to navigate to the blocked site will allow access. In places where there is heavy censorship we have a number of censorship circumvention options available, including ​<a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a>. For more information, please see the <a href="https://tb-manual.torproject.org/en-US/">​Tor Browser User Manual</a> section on <a href="https://tb-manual.torproject.org/en-US/circumvention.html">censorship</a>. ​
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question14" role="button" aria-expanded="true" aria-controls="question14">
+	      Can I make Tor Browser my default browser?
+            </a>
+	  </h4>
+          <div id="question14" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Unfortunately, there is no supported way to make Tor Browser your default browser.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question15" role="button" aria-expanded="true" aria-controls="question15">
+	      Can I use Tor with a browser besides Tor Browser?
+            </a>
+	  </h4>
+          <div id="question15" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      We strongly recommend against using Tor in any browser other than Tor Browser. Using Tor in another browser can leave you vulnerable without the privacy protections of Tor Browser.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question16" role="button" aria-expanded="true" aria-controls="question16">
+	      My antivirus or malware protection is blocking me from accessing Tor Browser.
+            </a>
+	  </h4>
+          <div id="question16" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked. Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar. Next, exclude the following processes: 
+	    </p>
+	    <p class="mb-3">
+	      <ul>For Windows
+	      	<li>firefox.exe</li>
+		<li>tor.exe</li>
+		<li>obfs4proxy.exe (if you use bridges)</li>
+	      </ul>
+	      <ul>For OS X
+	        <li>TorBrowser</li>
+		<li>tor.real</li>
+		<li>obfs4proxy (if you use bridges)</li>
+	      </ul>	
+	    </p>
+	    <p class="mb-3">
+	      Finally, restart Tor Browser.
+            </p>
+          </div>
+	</div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question17" role="button" aria-expanded="true" aria-controls="question17">
+	      I downloaded and installed Tor Browser for Windows, but now I can't find it.
+            </a>
+	  </h4>
+          <div id="question17" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      The file you download and run prompts you for a destination. If you don't remember what this destination was, it's most likely your Downloads or Desktop folder. The default setting in the Windows installer also creates a shortcut for you on your Desktop, though be aware that you may have accidentally unticked the option to create a shortcut. If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in. Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.
+            </p>
+          </div>
+	</div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question18" role="button" aria-expanded="true" aria-controls="question18">
+	      Can I use Flash player in Tor Browser?
+            </a>
+	  </h4>
+          <div id="question18" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Flash is disabled in Tor Browser, and we recommend you do not enable it. We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware. Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question19" role="button" aria-expanded="true" aria-controls="question19">
+  	      Does using Tor Browser protect other applications on my computer?
+            </a>
+	  </h4>
+          <div id="question19" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Only Tor Browser's traffic will be routed over the Tor network. Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected. They need to be configured separately to use Tor. If you need to be sure that all traffic will go through the Tor network, take a look at the ​<a href="https://tails.boum.org/">Tails live operating system</a> which you can start on almost any computer from a USB stick or a DVD.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question20" role="button" aria-expanded="true" aria-controls="question20">
+	      Should I install a new add-on or extension in Tor Browser, like AdBlock Plus or uBlock Origin?
+            </a>
+	  </h4>
+          <div id="question20" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise both your privacy and your security. Plus, Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — which give you added protection.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question21" role="button" aria-expanded="true" aria-controls="question21">
+	      Can I download Tor Browser for ChromeOS?
+            </a>
+	  </h4>
+          <div id="question21" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Unfortunately, we don't yet have a version of Tor Browser for ChromeOS.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question22" role="button" aria-expanded="true" aria-controls="question22">
+	      Can I pick which country I'm exiting from?
+            </a>
+	  </h4>
+          <div id="question22" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Modifying the way that Tor creates its circuits is strongly discouraged. You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity. If the outcome you want is simply to be able to access resources that are only available in one country, you may want to consider using a VPN instead of using Tor. Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question23" role="button" aria-expanded="true" aria-controls="question23">
+	      Is it safe to run Tor Browser and another browser at the same time?
+            </a>
+	  </h4>
+          <div id="question23" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      If you run Tor Browser and another browser at the same time, it won't affect Tor's performance or privacy properties. However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question24" role="button" aria-expanded="true" aria-controls="question24">
+	      Is there support for *BSD?
+            </a>
+	  </h4>
+          <div id="question24" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Sorry, but there is currently no official support for running Tor Browser on *BSD. There is something called the TorBSD project, but their Tor Browser is out of date and cannot be used safely.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question25" role="button" aria-expanded="true" aria-controls="question25">
+	      Where can I get bridges?
+            </a>
+	  </h4>
+          <div id="question25" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time. If you need other bridges, you can get them at our ​<a href="https://bridges.torproject.org/">Bridges website</a>. For more information about bridges, see the <a href="https://tb-manual.torproject.org/en-US/bridges.html">​Tor Browser manual</a>.
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question26" role="button" aria-expanded="true" aria-controls="question26">
+	      Tor Browser won't connect.
+            </a>
+	  </h4>
+          <div id="question26" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock. Please make sure your system clock and timezone are set accurately. If this doesn't fix the problem, see the ​Troubleshooting page on the <a href="https://tb-manual.torproject.org/en-US/bridges.html">​Tor Browser manual</a>.
+	    </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question27" role="button" aria-expanded="true" aria-controls="question27">
+	      How do I view Tor Browser message log?
+            </a>
+	  </h4>
+          <div id="question27" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Click the button labelled “Copy Tor Log To Clipboard” that appears in the dialog window when Tor Browser is first connecting to the network. If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard."
+            </p>
+          </div>
+        </div>
+	<div class="question">
+	  <h4 class="text-primary">
+            <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="#question28" role="button" aria-expanded="true" aria-controls="question28">
+	      Is Tor Browser slower than other browsers?
+            </a>
+	  </h4>
+          <div id="question28" class="collapse show" role="tabpanel">
+            <p class="mb-3">
+	      Using Tor Browser can sometimes be slower than other browsers. The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency. You can help improve the speed of the network by running your own relay, or encouraging others to do so. That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.
+            </p>
+          </div>
+        </div>	
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 ---
 _template: jumbotron.html
+
