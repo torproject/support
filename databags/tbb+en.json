@@ -70,7 +70,97 @@
 	"control": "tbb-12",
 	"title": "Can I use Flash player in Tor Browser?",
 	"description": "<p class=\"mb-3\">Flash is disabled in Tor Browser, and we recommend you do not enable it. We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware. Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.</p>"
+    },
+    "tbb-13": {
+	"id": "#tbb-13",
+	"control": "tbb-13",
+	"title": "Does using Tor Browser protect other applications on my computer?",
+	"description": "<p class=\"mb-3\"> Only Tor Browser's traffic will be routed over the Tor network. Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected. They need to be configured separately to use Tor. If you need to be sure that all traffic will go through the Tor network, take a look at the ​<a href=\"https://tails.boum.org/\">Tails live operating system</a> which you can start on almost any computer from a USB stick or a DVD.</p>"
+    },
+    "tbb-14": {
+	"id": "#tbb-14",
+	"control": "tbb-14",
+	"title": "Should I install a new add-on or extension in Tor Browser, like AdBlock Plus or uBlock Origin?",
+	"description": "<p class=\"mb-3\">It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise both your privacy and your security. Plus, Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — which give you added protection.</p>"
+    },
+    "tbb-15": {
+	"id": "#tbb-15",
+	"control": "tbb-15",
+	"title": "Can I download Tor Browser for ChromeOS?",
+	"description": "<p class=\"mb-3\">Unfortunately, we don't yet have a version of Tor Browser for ChromeOS.</p>"
+    },
+    "tbb-16": {
+	"id": "#tbb-16",
+	"control": "tbb-16",
+	"title": "Can I pick which country I'm exiting from?",
+	"description": "<p class=\"mb-3\">Modifying the way that Tor creates its circuits is strongly discouraged. You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity. If the outcome you want is simply to be able to access resources that are only available in one country, you may want to consider using a VPN instead of using Tor. Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.</p>"
+    },
+    "tbb-17": {
+	"id": "#tbb-17",
+	"control": "tbb-17",
+	"title": "Is it safe to run Tor Browser and another browser at the same time?",
+	"description": "<p class=\"mb-3\">If you run Tor Browser and another browser at the same time, it won't affect Tor's performance or privacy properties. However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.</p>"
+    },  
+    "tbb-18": {
+	"id": "#tbb-18",
+	"control": "tbb-18",
+	"title": "Is there support for *BSD?",
+	"description": "<p class=\"mb-3\">Sorry, but there is currently no official support for running Tor Browser on *BSD. There is something called the TorBSD project, but their Tor Browser is out of date and cannot be used safely.</p>"
+    },  
+    "tbb-19": {
+	"id": "#tbb-19",
+	"control": "tbb-19",
+	"title": "Where can I get bridges?",
+	"description": "<p class=\"mb-3\">Some bridges are built in to Tor Browser, and you can use those bridges by choosing \"configure\" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time. If you need other bridges, you can get them at our ​<a href=\"https://bridges.torproject.org/\">Bridges website</a>. For more information about bridges, see the <a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">​Tor Browser manual</a>.</p>"
+    },
+    "tbb-20": {
+	"id": "#tbb-20",
+	"control": "tbb-20",
+	"title": "Tor Browser won't connect.",
+	"description": "<p class=\"mb-3\">One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock. Please make sure your system clock and timezone are set accurately. If this doesn't fix the problem, see the ​Troubleshooting page on the <a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">​Tor Browser manual</a>.</p>"
+    },
+    "tbb-21": {
+	"id": "#tbb-21",
+	"control": "tbb-21",
+	"title": "How do I view Tor Browser message log?",
+	"description": "<p class=\"mb-3\">Click the button labelled \"Copy Tor Log To Clipboard\" that appears in the dialog window when Tor Browser is first connecting to the network. If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then \"Open Network Settings\", then \"Copy Tor Log To Clipboard.\".</p>"
+    },
+    "tbb-22": {
+	"id": "#tbb-22",
+	"control": "tbb-22",
+	"title": "Is Tor Browser slower than other browsers?",
+	"description": "<p class=\"mb-3\">Using Tor Browser can sometimes be slower than other browsers. The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency. You can help improve the speed of the network by running your own relay, or encouraging others to do so. That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.</p>"
+    },
+    "tbb-23": {
+	"id": "#tbb-23",
+	"control": "tbb-23",
+	"title": "What search engine comes with Tor Browser and how does it protect my privacy?",
+	"description": "<p class=\"mb-3\">DuckDuckGo is the default search engine in Tor Browser. DuckDuckGo does not track its users nor does it store any data about user searches.</p>"
+    },
+    "tbb-24": {
+	"id": "#tbb-24",
+	"control": "tbb-24",
+	"title": "I'm having a problem with DuckDuckGo.",
+	"description": "<p class=\"mb-3\">Please see the ​<a href=\"https://duck.co/help\">DuckDuckGo support portal</a>. If you believe this is a Tor Browser issue, please report it on our ​<a href=\"https://trac.torproject.org/\">bug tracker</a>.</p>"
+    },
+    "tbb-25": {
+	"id": "#tbb-25",
+	"control": "tbb-25",
+	"title": "I'm having a problem with NoScript.",
+	"description": "<p class=\"mb-3\">Please see the ​<a href=\"https://noscript.net/faq\">NoScript FAQ</a>. If you believe this is a Tor Browser issue, please report it on our ​<a href=\"https://trac.torproject.org/\">bug tracker</a>.</p>"
+    },
+    "tbb-26": {
+	"id": "#tbb-26",
+	"control": "tbb-26",
+	"title": "I'm having a problem with HTTPS Everywhere.",
+	"description": "<p class=\"mb-3\">Please see the ​<a href=\"https://www.eff.org/https-everywhere/faq\">HTTPS Everywhere</a>. If you believe this is a Tor Browser issue, please report it on our ​<a href=\"https://trac.torproject.org/\">bug tracker</a>.</p>"
+    },
+    "tbb-27": {
+	"id": "#tbb-27",
+	"control": "tbb-27",
+	"title": "How do I update Tor Browser?",
+	"description": "<p class=\"mb-3\">You can update Tor Browser as soon as a new version is released.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image4.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Tor Browser will prompt you to update the software once a new version has been released.</h4><p class=\"card-text\">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p></div></div></div><p class=\"mb-3\">You may see a written indication when Tor Browser opens telling you that an update is available.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Card title</h4><p class=\"card-text\">Card text</p></div></div></div><p class=\"mb-3\">Tor browser will install the updates.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Card title</h4><p class=\"card-text\">Card text</p></div></div></div>"
     }
     
-    
 }
+
