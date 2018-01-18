@@ -1,0 +1,10 @@
+{
+    "tbb-1": {
+	"id": "#tbb-1",
+	"control": "tbb-1",
+	"title": "What are the most common issues with the latest stable version of Tor Browser?",
+	"description": "<p class=\"mb-3\">
+	    Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues. If you started having issues with your Tor Browser after an update, check out ​<a href=\"https://blog.torproject.org\">https://blog.torproject.org</a> for the most recent stable Tor Browser post to see if your issue is listed.
+	  </p>"
+    }
+}
