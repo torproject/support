@@ -6,11 +6,11 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse justify-content-md-center pt-2" id="navbarSupportedContent">
     <ul class="navbar-nav">
       {% for id, item in bag('menu', this.alt).items() %}
       <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-        <a class="display-6 font-weight-light nav-link" href="{{ item.path|url }}">{{ item.label }}
+        <a class="nav-link" href="{{ item.path|url }}">{{ item.label }}
           {% if this.is_child_of(item.path) %}
           <span class="sr-only">(current)</span>
           {% endif %}
@@ -19,5 +19,5 @@
       {% endfor %}
     </ul>
   </div>
-  <a class="btn-lg text-primary btn-outline-dark bg-white btn-light pull-right">Download Tor Browser</a>
+  <a class="btn text-primary bg-white btn-light pull-right mt-2"><i class="glyphicon-glyphicon-arrow-down"></i>Download Tor Browser</a>
 </nav>

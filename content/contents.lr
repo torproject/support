@@ -5,9 +5,9 @@ body:
 <div id="topics" data-children=".item">
   <div class="item">
     <h3 class="text-primary">
-      <a data-toggle="collapse" data-parent="#topics" href="#faq" role="button" aria-expanded="true" aria-controls="faq">
+      <h6 class="text-muted" data-toggle="collapse" data-parent="#topics" href="#faq" role="button" aria-expanded="true" aria-controls="faq">
         Most Frequently Asked Questions
-      </a>
+      </h6>
     </h3>
     <div id="faq" class="collapse show" role="tabpanel">
       <div id="faqAccordion" data-children=".question">
@@ -67,7 +67,7 @@ body:
 	  </h4>
           <div id="question5" class="collapse show" role="tabpanel">
             <p class="mb-3">
-	       Generally speaking, we don't recommend using a VPN with Tor unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy. Learn more about combining Tor + VPN. 
+	       Generally speaking, we don't recommend using a VPN with Tor unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy. Learn more about combining Tor + VPN.
 	    </p>
           </div>
         </div>
@@ -213,7 +213,7 @@ If you are unable to connect to an onion service, please see [#IcannotreachX.oni
 	  </h4>
           <div id="question16" class="collapse show" role="tabpanel">
             <p class="mb-3">
-	      Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked. Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar. Next, exclude the following processes: 
+	      Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked. Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar. Next, exclude the following processes:
 	    </p>
 	    <p class="mb-3">
 	      <ul>For Windows
@@ -225,7 +225,7 @@ If you are unable to connect to an onion service, please see [#IcannotreachX.oni
 	        <li>TorBrowser</li>
 		<li>tor.real</li>
 		<li>obfs4proxy (if you use bridges)</li>
-	      </ul>	
+	      </ul>
 	    </p>
 	    <p class="mb-3">
 	      Finally, restart Tor Browser.
@@ -375,7 +375,7 @@ If you are unable to connect to an onion service, please see [#IcannotreachX.oni
 	      Using Tor Browser can sometimes be slower than other browsers. The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency. You can help improve the speed of the network by running your own relay, or encouraging others to do so. That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.
             </p>
           </div>
-        </div>	
+        </div>
       </div>
     </div>
   </div>
@@ -385,4 +385,3 @@ If you are unable to connect to an onion service, please see [#IcannotreachX.oni
 
 ---
 _template: jumbotron.html
-
