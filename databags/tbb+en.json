@@ -3,8 +3,74 @@
 	"id": "#tbb-1",
 	"control": "tbb-1",
 	"title": "What are the most common issues with the latest stable version of Tor Browser?",
-	"description": "<p class=\"mb-3\">
-	    Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues. If you started having issues with your Tor Browser after an update, check out ​<a href=\"https://blog.torproject.org\">https://blog.torproject.org</a> for the most recent stable Tor Browser post to see if your issue is listed.
-	  </p>"
+	"description": "<p class=\"mb-3\">Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues. If you started having issues with your Tor Browser after an update, check out ​<a href=\"https://blog.torproject.org\">https://blog.torproject.org</a> for the most recent stable Tor Browser post to see if your issue is listed.</p>"
+    },
+    "tbb-2": {
+	"id": "#tbb-2",
+	"control": "tbb-2",
+	"title": "Why is the first IP address in my relay circuit always the same?",
+	"description": "<p class=\"mb-3\">That is normal Tor behavior. The first relay in your circuit is called an \"entry guard\" or \"guard.\" It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this <a href=\"https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters\">blog post</a> and <a href=\"https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf\">paper</a> on entry guards.</p>"
+    },
+    "tbb-3": {
+	"id": "#tbb-3",
+	"control": "tbb-3",
+	"title": "When I use Tor Browser, will anyone be able to tell which websites I visit?",
+	"description": "<p class=\"mb-3\">Tor Browser prevents people from knowing the websites you visit. Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor.</p>"
+    },
+    "tbb-4": {
+	"id": "#tbb-4",
+	"control": "tbb-4",
+	"title": "Why is Tor Browser built from Firefox and not some other browser",
+	"description": "<p class=\"mb-3\">Tor Browser is a modified version of Firefox specifically designed for use with Tor. A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security. While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it. <a href=\"https://www.torproject.org/projects/torbrowser/design/\">Learn more about the design of Tor Browser</a>.</p>"
+    },
+    "tbb-5": {
+	"id": "#tbb-5",
+	"control": "tbb-5",
+	"title": "Can I still use another browser, like Chrome or Firefox, when I am using Tor Browser",
+	"description": "<p class=\"mb-3\">You can certainly use another browser while you are also using Tor Browser. However, you should know that the privacy properties of Tor Browser will not be present in the other browser. Be careful when switching back and forth between Tor and a less safe browser, because you may accidentally use the other browser for something you intended to do using Tor.</p>"
+    },
+    "tbb-6": {
+	"id": "#tbb-6",
+	"control": "tbb-6",
+	"title": "Can I make Tor Browser my default browser?",
+	"description": "<p class=\"mb-3\">Unfortunately, there is no supported way to make Tor Browser your default browser.</p>"
+    },
+    "tbb-7": {
+	"id": "#tbb-7",
+	"control": "tbb-7",
+	"title": "My favorite website is blocking access over Tor.",
+	"description": "<p class=\"mb-3\">Sorry to hear that you can't visit the website you wanted! Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:<br />\"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you.\"<br />In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended). If you are unable to connect to an onion service, please see [#IcannotreachX.onion I cannot reach X.onion!]</p>"
+    },
+    "tbb-8": {
+	"id": "#tbb-8",
+	"control": "tbb-8",
+	"title": "Our website is blocked by a censor. Can Tor Browser help users access our website?",
+	"description": "<p class=\"mb-3\">Tor Browser can certainly help people access your website in places where it is blocked. Most of the time, simply downloading the ​<a href=\"https://www.torproject.org/download/download-easy.html.en\">Tor Browser</a> and then using it to navigate to the blocked site will allow access. In places where there is heavy censorship we have a number of censorship circumvention options available, including ​<a href=\"https://www.torproject.org/docs/pluggable-transports.html.en\">pluggable transports</a>. For more information, please see the <a href=\"https://tb-manual.torproject.org/en-US/\">​Tor Browser User Manual</a> section on <a href=\"https://tb-manual.torproject.org/en-US/circumvention.html\">censorship</a>.</p>"
+    },
+    "tbb-9": {
+	"id": "#tbb-9",
+	"control": "tbb-9",
+	"title": "Can I use Tor with a browser besides Tor Browser?",
+	"description": "<p class=\"mb-3\">We strongly recommend against using Tor in any browser other than Tor Browser. Using Tor in another browser can leave you vulnerable without the privacy protections of Tor Browser.</p>"
+    },
+    "tbb-10": {
+	"id": "#tbb-10",
+	"control": "tbb-10",
+	"title": "My antivirus or malware protection is blocking me from accessing Tor Browser.",
+	"description": "<p class=\"mb-3\">Most antivirus or malware protection allows the user to \"whitelist\" certain processes that would otherwise be blocked. Please open your antivirus or malware protection software and look in the settings for a \"whitelist\" or something similar. Next, exclude the following processes:</p><p class=\"mb-3\"><ul>For Windows<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe (if you use bridges)</li></ul><ul>For OS X<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy (if you use bridges)</li></ul></p><p class=\"mb-3\">Finally, restart Tor Browser.</p>"
+    },
+    "tbb-11": {
+	"id": "#tbb-11",
+	"control": "tbb-11",
+	"title": "I downloaded and installed Tor Browser for Windows, but now I can't find it.",
+	"description": "<p class=\"mb-3\">The file you download and run prompts you for a destination. If you don't remember what this destination was, it's most likely your Downloads or Desktop folder. The default setting in the Windows installer also creates a shortcut for you on your Desktop, though be aware that you may have accidentally unticked the option to create a shortcut. If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in. Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.</p>"
+    },
+    "tbb-12": {
+	"id": "#tbb-12",
+	"control": "tbb-12",
+	"title": "Can I use Flash player in Tor Browser?",
+	"description": "<p class=\"mb-3\">Flash is disabled in Tor Browser, and we recommend you do not enable it. We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware. Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.</p>"
     }
+    
+    
 }
