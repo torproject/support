@@ -20,6 +20,11 @@
 	    "control": "tor-mobile",
 	    "label": "Tor Mobile"
 	},
+	"gettor": {
+	    "path": "#gettor",
+	    "control": "gettor",
+	    "label": "GetTor"
+	},
 	"connecting": {
 	    "path": "#connecting-to-tor",
 	    "control": "connecting-to-tor",
@@ -71,6 +76,11 @@
 	    "path": "#tor-mobile",
 	    "control": "tor-mobile",
 	    "label": "Tor Mobile"
+	},
+	"gettor": {
+	    "path": "#gettor",
+	    "control": "gettor",
+	    "label": "GetTor"
 	},
 	"connecting": {
 	    "path": "#connecting-to-tor",
