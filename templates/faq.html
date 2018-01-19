@@ -1,0 +1,27 @@
+<div class="item">
+  <h3 class="text-primary">
+    <a data-toggle="collapse" data-parent="#topics" href="#faq" role="button" aria-expanded="true" aria-controls="faq">
+      Most Frequently Asked Questions
+    </a>
+  </h3>
+  <div id="faq" class="collapse show" role="tabpanel">
+    <div id="faqAccordion" data-children=".question">
+      {% set faqbag = 'faq+' + this.alt %}
+      {% for id, item in bag(faqbag).items() %}
+        <div class="question">
+	<h4 class="text-primary">
+          <a data-toggle="collapse" data-parent="#faqAccordion" href="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
+	    {{ item.title }}
+          </a>
+	</h4>
+        <div id="{{ item.control }}" class="collapse show" role="tabpanel">
+          {{ item.description|safe }}
+        </div>
+      </div>
+      
+    {% endfor %}
+      
+     
+    </div>
+  </div>
+</div>

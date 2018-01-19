@@ -2,6 +2,7 @@ title: How Can we help? | Tor Project | Support
 ---
 body:
 
+<<<<<<< HEAD
 <div id="topics" data-children=".item">
   <div class="item">
     <h3 class="text-primary">
@@ -385,3 +386,11 @@ If you are unable to connect to an onion service, please see [#IcannotreachX.oni
 
 ---
 _template: jumbotron.html
+=======
+
+---
+_template: jumbotron.html
+
+
+
+>>>>>>> 0bc944934d4031350a2742b75980a9922ea84694

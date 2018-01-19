@@ -1,0 +1,25 @@
+<div class="item">
+  <h3 class="text-primary">
+    <a data-toggle="collapse" data-parent="#topics" href="#connecting-to-tor" role="button" aria-expanded="true" aria-controls="connecting-to-tor">
+      Connecting To Tor
+    </a>
+  </h3>
+  <div id="connecting-to-tor" class="collapse show" role="tabpanel">
+    <div id="connecting-to-torAccordion" data-children=".question">
+      {% set connbag = 'connecting+' + this.alt %}
+      {% for id, item in bag(connbag).items() %}
+        <div class="question">
+	<h4 class="text-primary">
+          <a data-toggle="collapse" data-parent="#connecting-to-torAccordion" href="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
+	    {{ item.title }}
+          </a>
+	</h4>
+        <div id="{{ item.control }}" class="collapse show" role="tabpanel">
+          {{ item.description|safe }}
+        </div>
+      </div>
+      
+    {% endfor %}
+    </div>
+  </div>
+</div>
