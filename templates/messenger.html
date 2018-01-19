@@ -6,45 +6,20 @@
   </h3>
   <div id="tor-messenger" class="collapse show" role="tabpanel">
     <div id="tor-messengerAccordion" data-children=".question">
-      <div class="question">
+      {% set msgbag = 'tormessenger+' + this.alt %}
+      {% for id, item in bag(msgbag).items() %}
+        <div class="question">
 	<h4 class="text-primary">
-          <a data-toggle="collapse" data-parent="#tor-messengerAccordion" href="#question48" role="button" aria-expanded="true" aria-controls="question48">
-	    Does Tor Project make an application for private chat?
+          <a data-toggle="collapse" data-parent="#tor-messengerAccordion" href="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
+	    {{ item.title }}
           </a>
 	</h4>
-        <div id="question48" class="collapse show" role="tabpanel">
-          <p class="mb-3">
-	    Yes! Tor Messenger, though still in beta, is a cross-platform chat program that aims to be secure by default and sends all of its traffic over Tor. It supports a wide variety of transport networks, including XMPP, IRC, Twitter, and others; enables Off-the-Record (OTR) Messaging automatically; has an easy-to-use graphical user interface; and a secure automatic updater.
-	  </p>
-          <p class="mb-3">
-	    See this <a href="https://blog.torproject.org/category/tags/tor-messenger">Tor Messenger blog post</a> for more information.
-          </p>
+        <div id="{{ item.control }}" class="collapse show" role="tabpanel">
+          {{ item.description|safe }}
         </div>
       </div>
-      <div class="question">
-	<h4 class="text-primary">
-          <a data-toggle="collapse" data-parent="#tor-messengerAccordion" href="#question49" role="button" aria-expanded="true" aria-controls="question49">
-	    What platforms is Tor Messenger available on?
-          </a>
-	</h4>
-        <div id="question49" class="collapse show" role="tabpanel">
-          <p class="mb-3">
-	    Tor Messenger (beta) is currently available on Linux, Windows, and OSX.
-          </p>
-        </div>
-      </div>
-      <div class="question">
-	<h4 class="text-primary">
-          <a data-toggle="collapse" data-parent="#tor-messengerAccordion" href="#question50" role="button" aria-expanded="true" aria-controls="question50">
-	    Where can I download Tor Messenger?
-          </a>
-	</h4>
-        <div id="question50" class="collapse show" role="tabpanel">
-          <p class="mb-3">
-	    While the Tor Messenger remains in beta, the latest downloads can be found on our wiki.
-          </p>
-        </div>
-      </div>
+      
+    {% endfor %}
     </div>
   </div>
 </div>

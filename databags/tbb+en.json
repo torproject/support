@@ -160,7 +160,95 @@
 	"control": "tbb-27",
 	"title": "How do I update Tor Browser?",
 	"description": "<p class=\"mb-3\">You can update Tor Browser as soon as a new version is released.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image4.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Tor Browser will prompt you to update the software once a new version has been released.</h4><p class=\"card-text\">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p></div></div></div><p class=\"mb-3\">You may see a written indication when Tor Browser opens telling you that an update is available.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Card title</h4><p class=\"card-text\">Card text</p></div></div></div><p class=\"mb-3\">Tor browser will install the updates.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Card title</h4><p class=\"card-text\">Card text</p></div></div></div>"
+    },
+    "tbb-28": {
+	"id": "#tbb-28",
+	"control": "tbb-28",
+	"title": "How do I uninstall Tor Browser?",
+	"description": "<p class=\"mb-3\">Removing Tor Browser from your system is simple:</p><p class=\"mb-3\"><ol><li>Locate your Tor Browser folder or application. The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process). On Linux, there is no default location, however the folder will be named \"tor-browser_en-US\" if you are running the English Tor Browser.</li><li>Delete the Tor Browser folder or application.</li><li>Empty your Trash.</li></ol></p><p class=\"mb-3\">Note that your operating system’s standard “Uninstall” utility is not used.</p>"
+    },
+    "tbb-29": {
+	"id": "#tbb-29",
+	"control": "tbb-29",
+	"title": "Is there a way to change the IP address that Tor Browser assigns me for a particular site?",
+	"description": "<p class=\"mb-3\">Tor Browser has two ways to change your relay circuit — \"New Identity\" and “New Tor Circuit for this Site\". Both options are located in the Torbutton (little green onion) menu.</p><h5>New Identity</h5><p class=\"mb-3\">This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking \"New Identity\".</p><h5>New Tor Circuit for this Site</h5><p class=\"mb-3\">This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image1.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Card title</h4><p class=\"card-text\">Card text</p></div></div></div>"
+    },
+    "tbb-30": {
+	"id": "#tbb-30",
+	"control": "tbb-30",
+	"title": "A website (bank, email provider, etc..) locks me out whenever I use Tor, what can I do?",
+	"description": "<p class=\"mb-3\">Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation. You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations. Contact your provider and ask them if they provide 2FA.</p>"
+    },
+    "tbb-31": {
+	"id": "#tbb-31",
+	"control": "tbb-31",
+	"title": "Which platforms is Tor Browser available for?",
+	"description": "<p class=\"mb-3\">Tor Browser is currently available on Windows, Linux and OSX. For Android, The Guardian Project maintains the Tor-powered apps Orbot and Orfox. There is no official version of Tor for iOS yet, though we recommend Onion Browser.</p>"
+    },
+    "tbb-32": {
+	"id": "#tbb-32",
+	"control": "tbb-32",
+	"title": "Can I set Tor Browser as my default browser?",
+	"description": "<p class=\"mb-3\">There is currently no supported method for setting Tor Browser as your default browser. The Tor Browser works hard to isolate itself from the rest of your system, and the steps for making it the default browser are unreliable. This means sometimes a website would load in the Tor Browser, and sometimes it would load in another browser, this type of behavior can be dangerous and anonymity-breaking.</p>"
+    },
+    "tbb-33": {
+	"id": "#tbb-33",
+	"control": "tbb-33",
+	"title": "Does running Tor Browser make me a relay?",
+	"description": "<p class=\"mb-3\">Running Tor Browser does not make you act as a relay in the network. This means that your computer will not be used to route traffic for others. If you'd like to become a relay, please see our <a href=\"https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam/Support#Operator\">operator documents</a>.</p>"
+    },
+    "tbb-34": {
+	"id": "#tbb-34",
+	"control": "tbb-34",
+	"title": "Why does Tor Browser ship with Javascript enabled?",
+	"description": "<p class=\"mb-3\">We configure NoScript to allow JavaScript by default in Tor Browser because many websites will not work with JavaScript disabled. Most users would give up on Tor entirely if we disabled Javascript by default because it would cause so many problems for them.</p><p class=\"mb-3\">Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving Javascript enabled by default. For users who want to have Javascript disabled on all HTTP sites by default, we recommend changing your Tor Browser's security slider (in the Tor Browser Onion menu under \"Security Settings\"). The low/default setting allows Javascript, but the medium and high levels both block Javascript on HTTP sites.</p>"
+    },
+    "tbb-35": {
+	"id": "#tbb-35",
+	"control": "tbb-35",
+	"title": "Can you get rid of all the captchas?",
+	"description": "<p class=\"mb-3\">Unfortunately, some websites deliver CAPTCHAS to Tor users, and we are not able to remove CAPTCHAs from websites. The best thing to do in these cases is to contact the website owners, and inform them that their CAPTCHAs are preventing users such as yourself from using their services.</p>"
+    },
+    "tbb-36": {
+	"id": "#tbb-36",
+	"control": "tbb-36",
+	"title": "Can I run multiple instances of Tor Browser?",
+	"description": "<p class=\"mb-3\">We do not recommend running multiple instances of Tor Browser, and may not work as anticipated on many platforms.</p>"
+    },
+    "tbb-37": {
+	"id": "#tbb-37",
+	"control": "tbb-37",
+	"title": "I need Tor Browser in a language that's not English.",
+	"description": "<p class=\"mb-3\">We currently offer Tor Browser in the following languages:</p><p class=\"mb-3\"><ul><li>English (en-US)</li><li>\"العربية\" (ar)</li><li>Deutsch (de)</li><li>Español (es-ES)</li><li> فارسى (fa)</li><li>Français (fr)</li><li>Italiano (it)</li><li>日本語 (ja)</li><li>Korean (ko)</li><li>Nederlands (nl)</li><li>Polish (pl)</li><li>Português (pt-BR)</li><li>Русский (ru)</li><li>Türkçe (tr)</li><li>Vietnamese (vi)</li><li>简体字 (zh-CN)</li></ul></p>"
+    },
+    "tbb-38": {
+	"id": "#tbb-38",
+	"control": "tbb-38",
+	"title": "Will my network admin be able to tell I'm using Tor Browser?",
+	"description": "<p class=\"mb-3\">When using Tor / Tor Browser, we do not make the guarantee that no one will be able to determine you are using Tor. Rather, the goal is that no one will know what you are doing with Tor. Using pluggable transports can make identifying Tor traffic more difficult, but not impossible.</p>"
+    },
+    "tbb-39": {
+	"id": "#tbb-39",
+	"control": "tbb-39",
+	"title": "Will my network admin be able to tell I'm using Tor Browser?",
+	"description": "<p class=\"mb-3\">When using Tor / Tor Browser, we do not make the guarantee that no one will be able to determine you are using Tor. Rather, the goal is that no one will know what you are doing with Tor. Using pluggable transports can make identifying Tor traffic more difficult, but not impossible.</p>"
+    },
+    "tbb-40": {
+	"id": "#tbb-40",
+	"control": "tbb-40",
+	"title": "Does Tor Browser use a different circuit for each website?",
+	"description": "<p class=\"mb-3\">In Tor Browser, every domain gets its own circuit. ​<a href=\"https://www.torproject.org/projects/torbrowser/design/#identifier-linkability\">The Design and Implementation of Tor Browser</a> document has further details regarding this issue.</p>"
+    },
+    "tbb-41": {
+	"id": "#tbb-41",
+	"control": "tbb-41",
+	"title": "Why did my search engine switch to DuckDuckGo?",
+	"description": "<p class=\"mb-3\">With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine. For a while now, Disconnect has had no access to Google search results which we used in Tor Browser. Disconnect being more of a meta search engine which allows users to choose between different search providers fell back to delivering Bing search results which were basically unacceptable quality-wise.</p>"
+    },
+     "tbb-42": {
+	"id": "#tbb-42",
+	"control": "tbb-42",
+	"title": "Why does my Tor Browser say something about Firefox not working?",
+	"description": "<p class=\"mb-3\">Tor Browser is built using ​<a href=\"https://www.mozilla.org/en-US/firefox/organizations/\">Firefox ESR</a>, so errors regarding Firefox may occur. Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for. If you are running an anti-virus, please see [linkto: My antivirus/malware protection is blocking me from accessing Tor Browser], it is common for anti-virus / anti-malware software to cause this type of issue.</p>"
     }
-    
 }
-

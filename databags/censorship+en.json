@@ -1,0 +1,26 @@
+{
+    "censorship-1": {
+	"id": "#censorship-1",
+	"control": "censorship-1",
+	"title": "Our website is blocked by a censor. Can Tor Browser help users access our website?",
+	"description": "<p class=\"mb-3\">Duplicate answer.</p>"
+    },
+    "censorship-2": {
+	"id": "#censorship-2",
+	"control": "censorship-2",
+	"title": "My favorite website is blocking access over Tor?",
+	"description": "<p class=\"mb-3\">Duplicate answer.</p>"
+    },
+    "censorship-3": {
+	"id": "#censorship-3",
+	"control": "censorship-3",
+	"title": "How do I download Tor if the torproject.org is blocked?",
+	"description": "<p class=\"mb-3\">Duplicate answer.</p>"
+    },
+    "censorship-4": {
+	"id": "#censorship-4",
+	"control": "censorship-4",
+	"title": "What is a bridge?",
+	"description": "<p class=\"mb-3\">Duplicate answer.</p>"
+    }
+}
