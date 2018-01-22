@@ -1,11 +1,11 @@
 <div class="item">
-  <h3 class="text-primary">
-    <a data-toggle="collapse" data-parent="#topics" href="#connecting-to-tor" role="button" aria-expanded="true" aria-controls="connecting-to-tor">
-      Connecting To Tor
-    </a>
-  </h3>
   <div id="connecting-to-tor" class="collapse show" role="tabpanel">
     <div id="connecting-to-torAccordion" data-children=".question">
+      <h3 class="text-primary">
+	<a data-toggle="collapse" data-parent="#topics" href="#connecting-to-tor" role="button" aria-expanded="true" aria-controls="connecting-to-tor">
+	  Connecting To Tor
+	</a>
+      </h3>
       {% set connbag = 'connecting+' + this.alt %}
       {% for id, item in bag(connbag).items() %}
         <div class="question">

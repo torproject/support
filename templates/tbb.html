@@ -1,11 +1,11 @@
 <div class="item">
-  <h3 class="text-primary">
-    <a data-toggle="collapse" data-parent="#topics" href="#tor-browser" role="button" aria-expanded="true" aria-controls="tor-browser">
-      Tor Browser
-    </a>
-  </h3>
   <div id="tor-browser" class="collapse show" role="tabpanel">
     <div id="tor-browserAccordion" data-children=".question">
+      <h3 class="text-primary">
+	<a data-toggle="collapse" data-parent="#topics" href="#tor-browser" role="button" aria-expanded="true" aria-controls="tor-browser">
+	  Tor Browser
+	</a>
+      </h3>
       {% set tbbbag = 'tbb+' + this.alt %}
       {% for id, item in bag(tbbbag).items() %}
         <div class="question">

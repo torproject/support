@@ -1,11 +1,11 @@
 <div class="item">
-  <h3 class="text-primary">
-    <a data-toggle="collapse" data-parent="#topics" href="#censorship" role="button" aria-expanded="true" aria-controls="censorship">
-      Censorship
-    </a>
-  </h3>
   <div id="censorship" class="collapse show" role="tabpanel">
     <div id="censorshipAccordion" data-children=".question">
+      <h3 class="text-primary">
+	<a data-toggle="collapse" data-parent="#topics" href="#censorship" role="button" aria-expanded="true" aria-controls="censorship">
+	  Censorship
+	</a>
+      </h3>
       {% set censorshipbag = 'censorship+' + this.alt %}
       {% for id, item in bag(censorshipbag).items() %}
         <div class="question">

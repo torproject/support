@@ -8,7 +8,6 @@
  * Base structure
  */
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-
 .page {
   padding-top: 3.5rem; }
 
@@ -22,21 +21,6 @@
 .content-scroll {
   position: relative; }
 
-/*
- * Document - We will move it to a new css
- */
-.question{
-  padding: 1rem 0;
-}
-.navbar{
-  padding: 1rem !important;
-}
-.form-wide input {
-    padding: 10px !important;
-}
-.sidebar{
-  top: 0px !important;
-}
 /*
  * Typography
  */

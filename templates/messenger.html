@@ -1,11 +1,11 @@
 <div class="item">
-  <h3 class="text-primary">
-    <a data-toggle="collapse" data-parent="#topics" href="#tor-messenger" role="button" aria-expanded="true" aria-controls="tor-messenger">
-      Tor Messenger
-    </a>
-  </h3>
   <div id="tor-messenger" class="collapse show" role="tabpanel">
     <div id="tor-messengerAccordion" data-children=".question">
+      <h3 class="text-primary">
+	<a data-toggle="collapse" data-parent="#topics" href="#tor-messenger" role="button" aria-expanded="true" aria-controls="tor-messenger">
+	  Tor Messenger
+	</a>
+      </h3>
       {% set msgbag = 'tormessenger+' + this.alt %}
       {% for id, item in bag(msgbag).items() %}
         <div class="question">

@@ -1,11 +1,11 @@
 <div class="item">
-  <h3 class="text-primary">
-    <a data-toggle="collapse" data-parent="#topics" href="#tor-mobile" role="button" aria-expanded="true" aria-controls="tor-mobile">
-      Tor Mobile
-    </a>
-  </h3>
   <div id="tor-mobile" class="collapse show" role="tabpanel">
     <div id="tor-mobileAccordion" data-children=".question">
+      <h3 class="text-primary">
+	<a data-toggle="collapse" data-parent="#topics" href="#tor-mobile" role="button" aria-expanded="true" aria-controls="tor-mobile">
+	  Tor Mobile
+	</a>
+      </h3>
       {% set tormobilebag = 'tormobile+' + this.alt %}
       {% for id, item in bag(tormobilebag).items() %}
         <div class="question">
