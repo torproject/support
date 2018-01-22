@@ -1,25 +1,25 @@
 <div class="item">
-  <div id="tor-browser" class="collapse show" role="tabpanel">
+  <h3 class="text-primary">
+    <a data-toggle="collapse"  href="#tor-browser" role="button" data-target="#tor-browser" aria-expanded="true" aria-controls="tor-browser">
+      Tor Browser
+    </a>
+  </h3>
+  <div id="tor-browser" class="collapse show" role="tabpanel" data-parent="#topics">
     <div id="tor-browserAccordion" data-children=".question">
-      <h3 class="text-primary">
-	<a data-toggle="collapse" data-parent="#topics" href="#tor-browser" role="button" aria-expanded="true" aria-controls="tor-browser">
-	  Tor Browser
-	</a>
-      </h3>
       {% set tbbbag = 'tbb+' + this.alt %}
       {% for id, item in bag(tbbbag).items() %}
-        <div class="question">
+      <div class="question">
 	<h4 class="text-primary">
-          <a data-toggle="collapse" data-parent="#tor-browserAccordion" href="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
+          <a data-toggle="collapse" href="{{ item.id }}" data-target="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
 	    {{ item.title }}
           </a>
 	</h4>
-        <div id="{{ item.control }}" class="collapse show" role="tabpanel">
+        <div id="{{ item.control }}" data-parent="#tor-browserAccordion" class="collapse show" role="tabpanel">
           {{ item.description|safe }}
         </div>
       </div>
       
-    {% endfor %}
+      {% endfor %}
       
       
     </div>

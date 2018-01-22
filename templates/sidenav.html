@@ -4,7 +4,7 @@
     {% set topicbag = 'topics+' + this.alt %}
     {% for id, item in bag(topicbag).items() %}
       <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active" {% else %} class="toc-entry toc-h2"{% endif %}>
-        <a data-toggle="collapse" role="button"  aria-controls="{{ item.control }}" class="nav-link" href="{{ item.path }}">{{ item.label }}</a>
+        <a data-toggle="collapse" role="button" data-target="{{ item.path }}" aria-controls="{{ item.control }}" class="nav-link" href="{{ item.path }}">{{ item.label }}</a>
       </li>
       
     {% endfor %}

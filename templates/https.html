@@ -1,20 +1,20 @@
 <div class="item">
-  <div id="https" class="collapse show" role="tabpanel">
+  <h3 class="text-primary">
+    <a data-toggle="collapse" href="#https" role="button" data-target="#https" aria-expanded="true" aria-controls="https">
+      Https
+    </a>
+  </h3>
+  <div id="https" class="collapse show" role="tabpanel" data-parent="#topics">
     <div id="httpsAccordion" data-children=".question">
-      <h3 class="text-primary">
-	<a data-toggle="collapse" data-parent="#topics" href="#https" role="button" aria-expanded="true" aria-controls="https">
-	  Https
-	</a>
-      </h3>
       {% set httpsbag = 'https+' + this.alt %}
       {% for id, item in bag(httpsbag).items() %}
       <div class="question">
 	<h4 class="text-primary">
-          <a data-toggle="collapse" data-parent="#httpsAccordion" href="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
+          <a data-toggle="collapse" href="{{ item.id }}" data-target="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
 	    {{ item.title }}
           </a>
 	</h4>
-        <div id="{{ item.control }}" class="collapse show" role="tabpanel">
+        <div id="{{ item.control }}" class="collapse show" role="tabpanel" data-parent="#httpsAccordion">
           {{ item.description|safe }}
         </div>
       </div>
