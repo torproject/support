@@ -1,8 +1,10 @@
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: sidebar.\A        Load path: /home/hiro/Workspace/portal/assets/scss\A         on line 45 of assets/scss/bootstrap.scss\A \A 40: @import \"tooltip\";\A 41: @import \"popover\";\A 42: @import \"carousel\";\A 43: @import \"utilities\";\A 44: @import \"component-examples\";\A 45: @import \"sidebar\";"; }
-
+/*!
+ * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*
  * Base structure
  */
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
@@ -7290,4 +7292,3 @@ a.text-dark:focus, a.text-dark:hover {
   background-color: transparent; }
 
 /*# sourceMappingURL=bootstrap.css.map */
->>>>>>> add-css-portal
