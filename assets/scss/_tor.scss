@@ -442,3 +442,15 @@ mark,.mark {
 .text-primary-light {
   color: $bd-purple-light;
 }
+
+.dropdown{
+  display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-12 d-flex justify-content-center">
       <div class="col-6 offset-1">
-	        <p class="mb-5 mt-5 text-white"><span class="font-weight-bold">Our mission:</span> to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.
+	<p class="mb-5 mt-5 text-white"><span class="font-weight-bold">Our mission:</span> to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.
       </div>
       <div class="col-2 offset-1 mt-5">
         <ul class="nav flex-column">
@@ -10,9 +10,9 @@
           {% for id, item in bag(menubag).items() %}
           <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
             <a class="nav-link text-light" href="{{ item.path|url }}">{{ item.label }}
-                    {% if this.is_child_of(item.path) %}
-                    <span class="sr-only">(current)</span>
-                    {% endif %}
+              {% if this.is_child_of(item.path) %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
             </a>
           </li>
           {% endfor %}
@@ -21,25 +21,25 @@
     </div>
     <div class="col-12 d-flex justify-content-center">
       <div class="col-8 mt-5 pb-5 border">
-        	<p class="text-primary-light text-uppercase">Subscribe to our Newsletter</p>
-          <p class="text-light">Get monthly updates and opportunities from the Tor Project</p>
-        	<p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase font-weight-bold active" role="button" aria-pressed="true">Sign up</a></p>
+        <p class="text-primary-light text-uppercase">Subscribe to our Newsletter</p>
+        <p class="text-light">Get monthly updates and opportunities from the Tor Project</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase font-weight-bold active" role="button" aria-pressed="true">Sign up</a></p>
       </div>
     </div>
 
     <div class="col-12 d-flex justify-content-center">
       <div class="col-6 mt-5 mb-5">
-	       <p class="text-primary-light">Trademark, copyright notices, and rules for use by third parties can be found in our <a href="#" class="text-primary-light"><u>FAQ</u></a>.</p>
+	<p class="text-primary-light">Trademark, copyright notices, and rules for use by third parties can be found in our <a href="#" class="text-primary-light"><u>FAQ</u></a>.</p>
       </div>
       <div class="col-1 text-right mt-5 mb-5">
-	       <p class="text-primary-light">Language</p>
+	<p class="text-primary-light">Language</p>
       </div>
       <div class="col-1 mt-5 mb-5">
-	       <div class="btn-group">
-      	 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="btn-group dropdown">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       	    English
-      	 </button>
-      	 <div class="dropdown-menu">
+      	  </button>
+      	  <div class="dropdown-menu">
       	    <a class="dropdown-item" href="#">Action</a>
       	    <a class="dropdown-item" href="#">Another action</a>
       	    <a class="dropdown-item" href="#">Something else here</a>
@@ -59,14 +59,14 @@
 
       $(document).ready(function(){
 
-        var hideAll = function() {
-         $('.collapse').collapse();
-        };
-        $.when( hideAll() ).done( function() {
+      var hideAll = function() {
+      $('.collapse').collapse();
+      };
+      $.when( hideAll() ).done( function() {
       
-          $('#faq').addClass('show');
-        } );
-  
+      $('#faq').addClass('show');
+      } );
+      
       });
 
     </script>

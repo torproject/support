@@ -502,6 +502,15 @@ mark, .mark {
 .text-primary-light {
   color: #e6d5ee; }
 
+.dropdown {
+  display: block; }
+
+.dropdown-menu {
+  display: none; }
+
+.dropdown:hover .dropdown-menu {
+  display: block; }
+
 /* Support Portal Styles
 *
 */
@@ -519,6 +528,10 @@ mark, .mark {
 
 .footer a.nav-link {
   padding: 0.2rem; }
+
+footer .border {
+  border: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important; }
 
 :root {
   --blue: #007bff;
