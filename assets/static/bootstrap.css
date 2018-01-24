@@ -499,6 +499,9 @@ mark, .mark {
   content: "PM> ";
   user-select: none; }
 
+.text-primary-light {
+  color: #e6d5ee; }
+
 /* Support Portal Styles
 *
 */

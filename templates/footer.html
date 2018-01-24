@@ -1,19 +1,67 @@
-<div class="col-8 offset-2">
-  <p class="mt-5 mb-5">&copy; Copyright 2017 by <a href="https://torproject.org" title="The Tor Project, INC." target="_blank">The Tor Project.</a> <span class="text-muted">The Tor Project is a US 501(c)(3) non-profit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.</span>
-  </p>
-</div>
+<div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-4 offset-1">
+	<p class="mt-5 mb-5 text-white"><span class="font-weight-bold">Our mission:</span> to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.
+      </div>
+      
+      <div class="col-2 offset-1">
+	<ul class="nav flex-column">
+	  {% set menubag = 'menu+' + this.alt %}
+	  {% for id, item in bag(menubag).items() %}
+	  <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+	    <a class="nav-link text-light" href="{{ item.path|url }}">{{ item.label }}
+              {% if this.is_child_of(item.path) %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+	    </a>
+	  </li>
+	  {% endfor %}
+	</ul>
+      </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-6">
+	<p class="mt-5 mb-5 text-primary-light text-uppercase">Subscribe to our Newsletter</p>
+        <p class="mt-5 mb-5 text-light">Get monthly updates and opportunities from the Tor Project</p>
+	<p class="mt-5 mb-5"><a class="btn btn-lg btn-dark mt-2 text-white text-uppercase font-weight-bold active" role="button" aria-pressed="true">Sign up</a></p>
+      </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-4">
+	<p class="mt-5 mb-5 text-primary-light">Trademark, copyright notices, and rules for use by third parties can be found in our <a href="#" class="text-primary-light"><u>FAQ</u></a>.</p>
+      </div>
+      <div class="col-2">
+	<p class="mt-5 mb-5 text-primary-light">Language</p>
+      </div>
+      <div class="col-4">
+	<div class="btn-group">
+	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    English
+	  </button>
+	  <div class="dropdown-menu">
+	    <a class="dropdown-item" href="#">Action</a>
+	    <a class="dropdown-item" href="#">Another action</a>
+	    <a class="dropdown-item" href="#">Something else here</a>
+	    <div class="dropdown-divider"></div>
+	    <a class="dropdown-item" href="#">Separated link</a>
+	  </div>
+	</div>
+      </div>
+    </div>
 
-<script src="{{ '/static/js/jquery-3.2.1.min.js'|asseturl }}" ></script>
-<script src="{{ '/static/js/popper.min.js'|asseturl }}" ></script>
-<script src="{{ '/static/js/bootstrap.bundle.min.js'|asseturl }}" ></script>
-<script src="{{ '/static/js/scrollspy.min.js'|asseturl }}" ></script>
-<script src="{{ '/static/js/collapse.min.js'|asseturl }}" ></script>
-<script type="text/javascript">
+    <script src="{{ '/static/js/jquery-3.2.1.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/popper.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/bootstrap.bundle.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/scrollspy.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/collapse.min.js'|asseturl }}" ></script>
+    <script type="text/javascript">
 
 
-  $(document).ready(function(){
+      $(document).ready(function(){
 
-    $('.collapse').collapse();
+      $('.collapse').collapse();
 
-  });
-</script>
+      });
+    </script>
+  </div>
