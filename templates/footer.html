@@ -56,11 +56,17 @@
     <script src="{{ '/static/js/collapse.min.js'|asseturl }}" ></script>
     <script type="text/javascript">
 
-
       $(document).ready(function(){
 
-      $('.collapse').collapse();
-
+        var hideAll = function() {
+         $('.collapse').collapse();
+        };
+        $.when( hideAll() ).done( function() {
+      
+          $('#faq').addClass('show');
+        } );
+  
       });
+
     </script>
   </div>

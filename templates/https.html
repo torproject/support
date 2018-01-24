@@ -1,11 +1,10 @@
 <div class="item">
   <h3 class="text-primary">
-    <a data-toggle="collapse" href="#https" role="button" data-target="#https" aria-expanded="true" aria-controls="https">
-      Https
-    </a>
+    <a data-toggle="collapse" href="#https" role="button" data-target="#https" aria-expanded="true" aria-controls="https"></a>
   </h3>
   <div id="https" class="collapse show" role="tabpanel" data-parent="#topics">
     <div id="httpsAccordion" data-children=".question">
+      <h2 class="text-muted text-uppercase">Https</h2>
       {% set httpsbag = 'https+' + this.alt %}
       {% for id, item in bag(httpsbag).items() %}
       <div class="question">
