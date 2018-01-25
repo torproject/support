@@ -53,5 +53,10 @@
 	"path": "#miscellaneus",
 	"control": "miscellaneus",
 	"label": "Miscellaneus"
+    },
+    "contact": {
+	"path": "#contact",
+	"control": "contact",
+	"label": "Contact"
     }
 }
