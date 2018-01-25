@@ -2,13 +2,13 @@
   <h3 class="text-primary">
     <a data-toggle="collapse" href="#censorship" data-target="#censorship" role="button" aria-expanded="true" aria-controls="censorship"></a>
   </h3>
-  <div id="censorship" class="collapse show" role="tabpanel" data-parent="#topics">    
+  <div id="censorship" class="collapse show swing" role="tabpanel" data-parent="#topics">    
     <div id="censorshipAccordion" data-children=".question">
       <h2 class="text-muted text-uppercase">Censorship</h2>
       {% set censorshipbag = 'censorship+' + this.alt %}
       {% for id, item in bag(censorshipbag).items() %}
-        <div class="question">
-	<h4 class="text-primary">
+      <div class="question">
+  	<h4 class="text-primary">
           <a data-toggle="collapse" href="{{ item.id }}" data-target="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
 	    {{ item.title }}
           </a>
@@ -18,6 +18,7 @@
         </div>
       </div>
       
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>

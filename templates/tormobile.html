@@ -2,12 +2,12 @@
   <h3 class="text-primary">
     <a data-toggle="collapse" href="#tor-mobile" data-target="#tor-mobile" role="button" aria-expanded="true" aria-controls="tor-mobile"></a>
   </h3>
-  <div id="tor-mobile" class="collapse show" role="tabpanel" data-parent="#topics">
+  <div id="tor-mobile" class="collapse show swing" role="tabpanel" data-parent="#topics">
     <div id="tor-mobileAccordion" data-children=".question">
       <h2 class="text-muted text-uppercase">Tor Mobile</h2>
       {% set tormobilebag = 'tormobile+' + this.alt %}
       {% for id, item in bag(tormobilebag).items() %}
-        <div class="question">
+      <div class="question">
 	<h4 class="text-primary">
           <a data-toggle="collapse" data-target="{{ item.id }}" href="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
 	    {{ item.title }}
@@ -18,7 +18,7 @@
         </div>
       </div>
       
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </div>
