@@ -4,7 +4,7 @@
   </h3>
   <div id="contact" class="collapse show swing" role="tabpanel" data-parent="#topics">
     <div id="contactAccordion" data-children=".question">
-      <h2 class="text-muted text-uppercase">Contact</h2>
+      <h5 class="text-muted text-uppercase">Contact</h5>
 
       <p class="mb-3">Don't see your question answered here? The best way to contact the Tor support team is to reach out to us on ​<mark><a href="https://www.torproject.org/about/contact.html.en#irc">IRC in #tor on OFTC</a></mark>. If you've never been on IRC before, ​<mark><a href="https://wiki.mozilla.org/IRC">here are some instructions to get started</a></mark>. These instructions are for a Mozilla IRC server, so instead of irc.mozilla.org you'll use OFTC. The OFTC server addresses are: irc.oftc.net:6667 (alternative ports: 6668-6670, 7000) or irc.oftc.net:6697 for SSL (alternative port: 9999) (we recommend SSL).</p>
 
@@ -14,7 +14,7 @@
       
       {% set contactbag = 'contact+' + this.alt %}
       {% for id, item in bag(contactbag).items() %}
-        <div class="question">
+      <div class="question">
 	<h4 class="text-primary">
           <a data-toggle="collapse" href="{{ item.id }}" data-target="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
 	    {{ item.title }}
@@ -25,9 +25,7 @@
         </div>
       </div>
       
-    {% endfor %}
-      
-     
+      {% endfor %}
     </div>
   </div>
 </div>
