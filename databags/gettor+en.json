@@ -3,7 +3,7 @@
 	"id": "#gettor-1",
 	"control": "gettor-1",
 	"title": "How do I download Tor if the torproject.org is blocked?",
-	"description": "<p class=\"mb-3\">If you can't download Tor through our ​<a href=\"https://www.torproject.org\">website</a>, you can get a copy of Tor delivered to you via GetTor. GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and Github.</p>"
+	"description": "<p class=\"mb-3\">If you can't download Tor through our ​<mark><a href=\"https://www.torproject.org\">website</a></mark>, you can get a copy of Tor delivered to you via GetTor. GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and Github.</p>"
     },
     "gettor-2": {
 	"id": "#gettor-2",
@@ -15,7 +15,7 @@
 	"id": "#gettor-3",
 	"control": "gettor-3",
 	"title": "To use GetTor via Twitter.",
-	"description": "<p class=\"mb-3\">To get links for downloading Tor Browser, send a direct message to ​<a href=\"https://twitter.com/get_tor\">@get_tor</a> with one of the following codes in it (you don't need to follow the account):</p><p class=\"mb-3\"><ul><li>Linux</li><li>OSX</li><li>Windows</li></ul></p>"
+	"description": "<p class=\"mb-3\">To get links for downloading Tor Browser, send a direct message to ​<mark><a href=\"https://twitter.com/get_tor\">@get_tor</a></mark> with one of the following codes in it (you don't need to follow the account):</p><p class=\"mb-3\"><ul><li>Linux</li><li>OSX</li><li>Windows</li></ul></p>"
     },
     "gettor-4": {
 	"id": "#gettor-4",

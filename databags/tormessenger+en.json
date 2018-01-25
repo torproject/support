@@ -3,7 +3,7 @@
 	"id": "#messenger-1",
 	"control": "messenger-1",
 	"title": "Does Tor Project make an application for private chat?",
-	"description": "<p class=\"mb-3\">Yes! Tor Messenger, though still in beta, is a cross-platform chat program that aims to be secure by default and sends all of its traffic over Tor. It supports a wide variety of transport networks, including XMPP, IRC, Twitter, and others; enables Off-the-Record (OTR) Messaging automatically; has an easy-to-use graphical user interface; and a secure automatic updater.</p><p class=\"mb-3\">See this <a href=\"https://blog.torproject.org/category/tags/tor-messenger\">Tor Messenger blog post</a> for more information.</p>"
+	"description": "<p class=\"mb-3\">Yes! Tor Messenger, though still in beta, is a cross-platform chat program that aims to be secure by default and sends all of its traffic over Tor. It supports a wide variety of transport networks, including XMPP, IRC, Twitter, and others; enables Off-the-Record (OTR) Messaging automatically; has an easy-to-use graphical user interface; and a secure automatic updater.</p><p class=\"mb-3\">See this <mark><a href=\"https://blog.torproject.org/category/tags/tor-messenger\">Tor Messenger blog post</a></mark> for more information.</p>"
     },
     "messenger-2": {
 	"id": "#messenger-2",
