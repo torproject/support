@@ -4,7 +4,7 @@
   </h3>
   <div id="connecting-to-tor" class="collapse show swing" role="tabpanel" data-parent="#topics">
     <div id="connecting-to-torAccordion" data-children=".question">
-      <h2 class="text-muted text-uppercase">Connecting to Tor</h2>
+      <h5 class="text-muted text-uppercase mb-3">Connecting to Tor</h5>
       {% set connbag = 'connecting+' + this.alt %}
       {% for id, item in bag(connbag).items() %}
         <div class="question">
@@ -17,7 +17,7 @@
           {{ item.description|safe }}
         </div>
       </div>
-      
+
     {% endfor %}
     </div>
   </div>

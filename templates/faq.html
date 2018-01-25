@@ -4,7 +4,7 @@
   </h3>
   <div id="faq" class="collapse show swing" role="tabpanel" data-parent="#topics">
     <div id="faqAccordion" data-children=".question">
-      <h2 class="text-muted text-uppercase">Most Frequently Asked Questions</h2>
+      <h5 class="text-muted text-uppercase mb-3">Most Frequently Asked Questions</h5>
       {% set faqbag = 'faq+' + this.alt %}
       {% for id, item in bag(faqbag).items() %}
         <div class="question">
@@ -17,10 +17,10 @@
           {{ item.description|safe }}
         </div>
       </div>
-      
+
     {% endfor %}
-      
-     
+
+
     </div>
   </div>
 </div>
