@@ -4,7 +4,7 @@
   </h3>
   <div id="tor-mobile" class="collapse show swing" role="tabpanel" data-parent="#topics">
     <div id="tor-mobileAccordion" data-children=".question">
-      <h2 class="text-muted text-uppercase">Tor Mobile</h2>
+      <h5 class="text-muted text-uppercase mb-3">Tor Mobile</h5>
       {% set tormobilebag = 'tormobile+' + this.alt %}
       {% for id, item in bag(tormobilebag).items() %}
       <div class="question">
@@ -17,7 +17,7 @@
           {{ item.description|safe }}
         </div>
       </div>
-      
+
       {% endfor %}
     </div>
   </div>

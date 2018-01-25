@@ -4,7 +4,7 @@
   </h3>
   <div id="https" class="collapse show" role="tabpanel" data-parent="#topics">
     <div id="httpsAccordion" data-children=".question">
-      <h2 class="text-muted text-uppercase">Https</h2>
+      <h5 class="text-muted text-uppercase mb-3">Https</h5>
       {% set httpsbag = 'https+' + this.alt %}
       {% for id, item in bag(httpsbag).items() %}
       <div class="question">
@@ -17,7 +17,7 @@
           {{ item.description|safe }}
         </div>
       </div>
-      
+
       {% endfor %}
     </div>
   </div>
