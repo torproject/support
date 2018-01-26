@@ -21,3 +21,20 @@ footer .border{
   border: 0 !important;
   border-bottom: 1px solid rgba(255,255,255,0.3) !important;
 }
+
+.sidetopics {
+  position: fixed !important;
+  margin-top: 400px;
+  height: 500px;
+  background: transparent;
+}
+
+#topics {
+  min-height: 500px;
+  margin-bottom: 200px;
+}
+
+.footer {
+  position: relative;
+  z-index:99999999999;
+}
