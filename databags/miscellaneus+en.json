@@ -8,7 +8,7 @@
     "miscellaneus-2": {
 	"id": "#miscellaneus-2",
 	"control": "miscellaneus-2",
-	"title": "What don't you prevent bad people from doing bad things when using Tor?",
+	"title": "Why don't you prevent bad people from doing bad things when using Tor?",
 	"description": "<p class=\"mb-3\">Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us. We hate that there are some people who use Tor to do terrible things, but we can't do anything to get rid of them without also undermining the human rights activists, journalists, abuse survivors, and other people who use Tor for good things. If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.</p>"
     },
      "miscellaneus-3": {
@@ -82,5 +82,11 @@
 	"control": "miscellaneus-14",
 	"title": "How do I volunteer with Tor Project?",
 	"description": "<p class=\"mb-3\">Please see our <mark><a href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">​volunteer page</a></mark> for how to get involved!</p>"
+    },
+    "miscellaneus-15": {
+	"id": "#miscellaneus-15",
+	"control": "miscellaneus-15",
+	"title": "How can I donate to Tor Project?",
+	"description": "<p class=\"mb-3\">Thank you for your support! You can find more information about donating on our <mark><a href=\"https://donate.torproject.org/donor-faq\">​donor FAQe</a></mark>.</p>"
      }
 }

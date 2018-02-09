@@ -22,5 +22,11 @@
 	"control": "tormobile-4",
 	"title": "How do I run Tor on Windows Phone?",
 	"description": "<p class=\"mb-3\">There is currently no supported method for running Tor on Windows Phone.</p>"
-    }
+    },
+     "tormobile-5": {
+	"id": "#tormibile-5",
+	"control": "tormobile-5",
+	"title": "When is Tor Browser for Android being released?",
+	"description": "<p class=\"mb-3\">We are currently working on Tor Browser for Android, and you may see alpha releases appear over the coming months. Please watch our blog for future announcements and details regarding this project.</p>"
+     }
 }

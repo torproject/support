@@ -39,7 +39,13 @@
 	"id": "#tbb-7",
 	"control": "tbb-7",
 	"title": "My favorite website is blocking access over Tor.",
-	"description": "<p class=\"mb-3\">Sorry to hear that you can't visit the website you wanted! Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:<br />\"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you.\"<br />In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended). If you are unable to connect to an onion service, please see [#IcannotreachX.onion I cannot reach X.onion!]</p>"
+	"description": "<p class=\"mb-3\">Sorry to hear that you can't visit the website you wanted! Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:<br />\"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you.\"<br />In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended). If you are unable to connect to an onion service, please see <a href=\"http://127.0.0.1:5000/#onionservices-3\">I cannot reach X.onion!</a></p>"
+    },
+    "tbb-7-1": {
+	"id": "#tbb-7-1",
+	"control": "tbb-7-1",
+	"title": "I’m having trouble using features on Facebook, Twitter, or some other website when I’m using Tor Browser.",
+	"description": "<p class=\"mb-3\">Sometimes Javascript-heavy websites can have functional issues over Tor Browser. The simplest fix is to click on the “onion menu,” then click on the security slider. Set your security to “low.”</p>"
     },
     "tbb-8": {
 	"id": "#tbb-8",
@@ -68,7 +74,7 @@
     "tbb-12": {
 	"id": "#tbb-12",
 	"control": "tbb-12",
-	"title": "Can I use Flash player in Tor Browser?",
+	"title": "Can I use Flash in Tor Browser?",
 	"description": "<p class=\"mb-3\">Flash is disabled in Tor Browser, and we recommend you do not enable it. We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware. Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.</p>"
     },
     "tbb-13": {
@@ -105,30 +111,30 @@
 	"id": "#tbb-18",
 	"control": "tbb-18",
 	"title": "Is there support for *BSD?",
-	"description": "<p class=\"mb-3\">Sorry, but there is currently no official support for running Tor Browser on *BSD. There is something called the TorBSD project, but their Tor Browser is out of date and cannot be used safely.</p>"
+	"description": "<p class=\"mb-3\">Sorry, but there is currently no official support for running Tor Browser on *BSD. There is something called the TorBSD project, but their Tor Browser is not officially supported.</p>"
     },  
     "tbb-19": {
 	"id": "#tbb-19",
 	"control": "tbb-19",
-	"title": "Where can I get bridges?",
-	"description": "<p class=\"mb-3\">Some bridges are built in to Tor Browser, and you can use those bridges by choosing \"configure\" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time. If you need other bridges, you can get them at our ​<mark><a href=\"https://bridges.torproject.org/\">Bridges website</a></mark>. For more information about bridges, see the <mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">​Tor Browser manual</a></mark>.</p>"
+	"title": "I can’t connect to Tor Browser, is my network censored?",
+	"description": "<p class=\"mb-3\">You might be on a censored network, and so you should try using bridges. Some bridges are built in to Tor Browser, and you can use those bridges by choosing \"configure\" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time. If you need other bridges, you can get them at our ​<mark><a href=\"https://bridges.torproject.org/\">Bridges website</a></mark>. For more information about bridges, see the <mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">​Tor Browser manual</a></mark>.</p>"
     },
     "tbb-20": {
 	"id": "#tbb-20",
 	"control": "tbb-20",
-	"title": "Tor Browser won't connect.",
+	"title": "Tor Browser won't connect, but it doesn’t seem to be an issue with censorship.",
 	"description": "<p class=\"mb-3\">One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock. Please make sure your system clock and timezone are set accurately. If this doesn't fix the problem, see the ​Troubleshooting page on the <mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">​Tor Browser manual</a></mark>.</p>"
     },
     "tbb-21": {
 	"id": "#tbb-21",
 	"control": "tbb-21",
 	"title": "How do I view Tor Browser message log?",
-	"description": "<p class=\"mb-3\">Click the button labelled \"Copy Tor Log To Clipboard\" that appears in the dialog window when Tor Browser is first connecting to the network. If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then \"Open Network Settings\", then \"Copy Tor Log To Clipboard.\".</p>"
+	"description": "<p class=\"mb-3\">Click the button labelled \"Copy Tor Log To Clipboard\" that appears in the dialog window when Tor Browser is first connecting to the network. If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then \"Open Network Settings\", then \"Copy Tor Log To Clipboard.\". Once you have copied the log, you will be able to paste it into a text editor or email client.</p>"
     },
     "tbb-22": {
 	"id": "#tbb-22",
 	"control": "tbb-22",
-	"title": "Is Tor Browser slower than other browsers?",
+	"title": "How can I make Tor run faster? Is Tor Browser slower than other browsers?",
 	"description": "<p class=\"mb-3\">Using Tor Browser can sometimes be slower than other browsers. The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency. You can help improve the speed of the network by running your own relay, or encouraging others to do so. That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.</p>"
     },
     "tbb-23": {
@@ -195,7 +201,7 @@
 	"id": "#tbb-33",
 	"control": "tbb-33",
 	"title": "Does running Tor Browser make me a relay?",
-	"description": "<p class=\"mb-3\">Running Tor Browser does not make you act as a relay in the network. This means that your computer will not be used to route traffic for others. If you'd like to become a relay, please see our <mark><a href=\"https://trac.torproject.org/projects/tor/wiki/org/teams/CommunityTeam/Support#Operator\">operator documents</a></mark>.</p>"
+	"description": "<p class=\"mb-3\">Running Tor Browser does not make you act as a relay in the network. This means that your computer will not be used to route traffic for others. If you'd like to become a relay, please see our <mark><a href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay Guide</a></mark>.</p>"
     },
     "tbb-34": {
 	"id": "#tbb-34",
@@ -250,5 +256,5 @@
 	"control": "tbb-42",
 	"title": "Why does my Tor Browser say something about Firefox not working?",
 	"description": "<p class=\"mb-3\">Tor Browser is built using ​<mark><a href=\"https://www.mozilla.org/en-US/firefox/organizations/\">Firefox ESR</a></mark>, so errors regarding Firefox may occur. Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for. If you are running an anti-virus, please see [linkto: My antivirus/malware protection is blocking me from accessing Tor Browser], it is common for anti-virus / anti-malware software to cause this type of issue.</p>"
-    }
+     }
 }

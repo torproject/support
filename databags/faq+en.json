@@ -21,7 +21,7 @@
 	"id": "#faq-4",
 	"control": "faq-4",
 	"title": "Which platforms is Tor Browser available for?",
-	"description": "<p class=\"mb-3\">Tor Browser is currently available on Windows, Linux and OSX. For Android, The Guardian Project maintains the Tor-powered apps Orbot and Orfox. There is no official version of Tor for iOS yet, though we recommend Onion Browser.</p>"
+	"description": "<p class=\"mb-3\">Tor Browser is currently available on Windows, Linux and macOS (OS X). For Android, The Guardian Project maintains the Tor-powered apps Orbot and Orfox. There is no official version of Tor for iOS yet, though we recommend Onion Browser.</p>"
     },
     "faq-5": {
 	"id": "#faq-5",
