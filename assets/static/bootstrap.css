@@ -511,6 +511,9 @@ mark, .mark {
 .dropdown:hover .dropdown-menu {
   display: block; }
 
+.hamburger:hover .hamburger-menu {
+  display: block; }
+
 /* Support Portal Styles
 *
 */
