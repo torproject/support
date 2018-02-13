@@ -4,11 +4,11 @@
 	"label": "About"
     },
     "documentation": {
-	"path": "/docs",
+	"path": "https://www.torproject.org/docs/documentation.html.en",
 	"label": "Documentation"
     },
     "press": {
-	"path": "/press",
+	"path": "https://www.torproject.org/press/press.html.en",
 	"label": "Press"
     },
     "blog": {
@@ -20,7 +20,7 @@
 	"label": "Newsletter"
     },
     "volunteer": {
-	"path": "/volunteer",
+	"path": "https://www.torproject.org/getinvolved/volunteer.html.en",
 	"label": "Volunteer"
     },
     "contact": {

@@ -458,3 +458,38 @@ mark,.mark {
 .hamburger:hover .hamburger-menu {
     display: block;
 }
+
+a.side-nav.active {
+    color: $primary !important;
+}
+
+
+
+.smalltopics {
+    display: none;
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(md) {
+    .sidetopics {
+        display: none;
+    }
+    .smalltopics {
+        display: block;
+	width: 100%;
+
+	button {
+	    width: 100%;
+	}
+    }
+
+    .burger-menu {
+      display: none;
+    }
+
+    .burger:hoover .burger-menu {
+      display: block;
+      border-bottom: 1px solid $gray-200;
+    }
+}

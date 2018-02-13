@@ -5,8 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import "tor-variables";
-@import "tor";
-@import "portal";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -42,6 +40,7 @@
 @import "popover";
 @import "carousel";
 @import "utilities";
-@import "component-examples";
+@import "tor";
+@import "portal";
 @import "sidebar";
-
+@import "component-examples";
