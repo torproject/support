@@ -12,7 +12,7 @@
 	{% set menubag = 'menu+' + this.alt %}
 	{% for id, item in bag(menubag).items() %}
 	<li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-          <a class="nav-link" href="{{ item.path|url }}">{{ item.label }}
+          <a class="nav-link" href="{{ item.path }}">{{ item.label }}
             {% if this.is_child_of(item.path) %}
             <span class="sr-only">(current)</span>
             {% endif %}
@@ -33,6 +33,6 @@
 	<a class="dropdown-item" href="#">Separated link</a>
       </div>
     </div>
-    <a class="btn text-primary bg-white btn-light pull-right mt-2"><i class="glyphicon-glyphicon-arrow-down"></i>Download Tor Browser</a>
+    <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/download-easy.html.en"><i class="glyphicon-glyphicon-arrow-down"></i>Download Tor Browser</a>
   </div>
 </nav>
