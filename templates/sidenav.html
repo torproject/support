@@ -2,9 +2,9 @@
   <div class="justify-content-md-center mx-auto">
     <a class="text-primary bg-white font-weight-bold d-block burger" href="#collapseTopicsNav">
       Topics
-    
+
       <button class="btn text-primary bg-white font-weight-bold dropdown-toggle d-block" type="button" id="dropdownMenuButtonTopics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    
+
       </button>
     </a>
     <div class="burger-menu" id="collapseTopicsNav" aria-labelledby="dropdownMenuButtonTopics">
@@ -14,7 +14,7 @@
 	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
 	  <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ item.path }}">{{ item.label }}</a>
 	</li>
-	
+
 	{% endfor %}
     </div>
     <hr/>
@@ -28,7 +28,7 @@
     <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
       <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ item.path }}">{{ item.label }}</a>
     </li>
-    
+
     {% endfor %}
   </ul>
 </nav>

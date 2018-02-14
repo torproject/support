@@ -484,10 +484,10 @@ samp {
   font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
-  padding: 0.2rem 0.4rem;
-  font-size: 90%;
-  color: #bd4147;
-  background-color: #F8F9FA;
+  padding: 0.5rem 0.5rem;
+  font-size: 80%;
+  color: lightgreen;
+  background-color: #333A41;
   border-radius: 0.25rem; }
   a > code {
     padding: 0;
@@ -495,8 +495,8 @@ code {
     background-color: inherit; }
 
 kbd {
-  padding: 0.2rem 0.4rem;
-  font-size: 90%;
+  padding: 0.5rem 0.5rem;
+  font-size: 80%;
   color: #fff;
   background-color: #212529;
   border-radius: 0.2rem; }
@@ -509,8 +509,8 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 90%;
-  color: #212529; }
+  font-size: 80%;
+  color: lightgreen; }
   pre code {
     padding: 0;
     font-size: inherit;
@@ -6625,6 +6625,12 @@ mark, .mark {
 
 .bd-callout + .bd-callout {
   margin-top: -.25rem; }
+
+pre {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: lightgreen;
+  background: #333A41; }
 
 .bd-callout-info {
   border-left-color: #5bc0de; }
