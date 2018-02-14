@@ -1,19 +1,19 @@
 <div class="item">
   <h3 class="text-primary">
-    <a data-toggle="collapse" href="#onion-services" role="button" data-target="#onion-services" aria-expanded="true" aria-controls="onion-services"></a>
+    <a href="#onion-services" role="button"></a>
   </h3>
-  <div id="onion-services" class="collapse show swing" role="tabpanel" data-parent="#topics">
+  <div id="onion-services" role="tabpanel" data-parent="#topics">
     <div id="onion-servicesAccordion" data-children=".question">
       <h5 class="text-muted text-uppercase">Onion Services</h5>
       {% set onionservicesbag = 'onionservices+' + this.alt %}
       {% for id, item in bag(onionservicesbag).items() %}
       <div class="question">
 	<h4 class="text-primary">
-          <a data-toggle="collapse" href="{{ item.id }}" data-target="{{ item.id }}" role="button" aria-expanded="true" aria-controls="{{ item.control }}">
+          <a data-toggle="collapse" href="{{ item.id }}" data-target="{{ item.id }}" role="button" aria-expanded="false" aria-controls="{{ item.control }}">
 	    {{ item.title }}
           </a>
 	</h4>
-        <div id="{{ item.control }}" class="collapse show" role="tabpanel" data-parent="#onion-servicesAccordion">
+        <div id="{{ item.control }}" class="collapse" role="tabpanel" data-parent="#onion-servicesAccordion">
           {{ item.description|safe }}
         </div>
       </div>

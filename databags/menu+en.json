@@ -24,7 +24,7 @@
 	"label": "Volunteer"
     },
     "contact": {
-	"path": "/contact",
+	"path": "#contact",
 	"label": "Contact"
     }
 
