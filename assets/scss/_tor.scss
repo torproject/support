@@ -490,6 +490,9 @@ a.side-nav.active {
           padding-left: 2em;
 	  font-size: 1.2em;
 	  text-decoration: none;
+	  button {
+              float: right;
+	  }
     }
 
     #collapseTopicsNav:target {
