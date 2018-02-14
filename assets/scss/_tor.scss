@@ -455,7 +455,7 @@ mark,.mark {
     display: block;
 }
 
-.hamburger:hover .hamburger-menu {
+#navbarSupportedContent:target {
     display: block;
 }
 
@@ -471,25 +471,30 @@ a.side-nav.active {
 
 
 // Small devices (landscape phones, less than 768px)
-@include media-breakpoint-down(md) {
-    .sidetopics {
-        display: none;
+@include media-breakpoint-down(lg) {
+    nav.sidetopics {
+        display: none !important;
+	visibility: hidden !important;
     }
     .smalltopics {
         display: block;
 	width: 100%;
 
-	button {
-	    width: 100%;
-	}
     }
 
     .burger-menu {
-      display: none;
+          display: none;
     }
 
-    .burger:hoover .burger-menu {
-      display: block;
-      border-bottom: 1px solid $gray-200;
+    .burger {
+          padding-left: 2em;
+	  font-size: 1.2em;
+	  text-decoration: none;
+    }
+
+    #collapseTopicsNav:target {
+          display: block;
+	  padding: 20px;
+	  
     }
 }

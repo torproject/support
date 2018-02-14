@@ -6860,7 +6860,7 @@ mark, .mark {
 .dropdown:hover .dropdown-menu {
   display: block; }
 
-.hamburger:hover .hamburger-menu {
+#navbarSupportedContent:target {
   display: block; }
 
 a.side-nav.active {
@@ -6869,22 +6869,26 @@ a.side-nav.active {
 .smalltopics {
   display: none; }
 
-@media (max-width: 991px) {
-  .sidetopics {
-    display: none; }
+@media (max-width: 1199px) {
+  nav.sidetopics {
+    display: none !important;
+    visibility: hidden !important; }
 
   .smalltopics {
     display: block;
     width: 100%; }
-    .smalltopics button {
-      width: 100%; }
 
   .burger-menu {
     display: none; }
 
-  .burger:hoover .burger-menu {
+  .burger {
+    padding-left: 2em;
+    font-size: 1.2em;
+    text-decoration: none; }
+
+  #collapseTopicsNav:target {
     display: block;
-    border-bottom: 1px solid #e9ecef; } }
+    padding: 20px; } }
 /* Support Portal Styles
 *
 */
