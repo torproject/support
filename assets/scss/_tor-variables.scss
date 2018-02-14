@@ -54,3 +54,12 @@ $mark-bg:               $bd-purple-light;
 
 // Tables
 $table-accent-bg: $bd-purple-light;
+
+//// Code
+$code-font-size:                    80% !default;
+$code-padding-y:                    .5rem !default;
+$code-padding-x:                    .5rem !default;
+$code-color:                        lightgreen !default;
+$code-bg:                           $gray-800 !default;
+
+$pre-color:                         lightgreen !default;

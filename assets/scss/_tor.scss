@@ -331,6 +331,14 @@ mark,.mark {
   margin-top: -.25rem;
 }
 
+// Code
+pre {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: $pre-color;
+  background: $code-bg;
+}
+
 // Variations
 @mixin bs-callout-variant($color) {
   border-left-color: $color;
@@ -498,6 +506,6 @@ a.side-nav.active {
     #collapseTopicsNav:target {
           display: block;
 	  padding: 20px;
-	  
+
     }
 }
