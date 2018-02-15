@@ -4,7 +4,7 @@
   </h3>
   <div id="faq" role="tabpanel" data-parent="#topics">
     <div id="faqAccordion" data-children=".question">
-      <h5 class="text-muted text-uppercase mb-3">Most Frequently Asked Questions</h5>
+      <h5 class="text-muted text-uppercase mb-3 p-0">Most Frequently Asked Questions</h5>
       {% set faqbag = 'faq+' + this.alt %}
       {% for id, item in bag(faqbag).items() %}
         <div class="question">

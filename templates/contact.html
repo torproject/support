@@ -8,10 +8,10 @@
 
       <p class="mb-3">Don't see your question answered here? The best way to contact the Tor support team is to reach out to us on ​<mark><a href="https://www.torproject.org/about/contact.html.en#irc">IRC in #tor on OFTC</a></mark>. If you've never been on IRC before, ​<mark><a href="https://wiki.mozilla.org/IRC">here are some instructions to get started</a></mark>. These instructions are for a Mozilla IRC server, so instead of irc.mozilla.org you'll use OFTC. The OFTC server addresses are: irc.oftc.net:6667 (alternative ports: 6668-6670, 7000) or irc.oftc.net:6697 for SSL (alternative port: 9999) (we recommend SSL).</p>
 
-      
+
       <p class="mb-3">Once you get connected and create a nickname, you can join the channel #tor. ​<mark><a href="https://web.archive.org/web/20160911070100/http://www.irchelp.org:80/irchelp/irctutorial.html">More info on getting started on IRC</a></mark>. and here's some info on ​<mark><a href="https://wiki.debian.org/GettingHelpOnIrc">IRC conventions and etiquette</a></mark>. Once you're on the channel, simply ask your question, be patient, and whoever is available will help you.</p>
 
-      
+
       {% set contactbag = 'contact+' + this.alt %}
       {% for id, item in bag(contactbag).items() %}
       <div class="question">
@@ -24,7 +24,7 @@
           {{ item.description|safe }}
         </div>
       </div>
-      
+
       {% endfor %}
     </div>
   </div>

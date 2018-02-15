@@ -2,26 +2,17 @@
 *
 */
 
-.question {
-  padding: 0.75rem 0;
-}
 .section-nav {
   padding-top: 0 !important;
+  border: 0 !important;
 }
 .sidebar{
   top: 0 !important;
+  border: 0 !important;
 }
 .toc-entry a:hover {
   color: #59316B !important;
 }
-.footer a.nav-link {
-  padding: 0.2rem;
-}
-footer .border{
-  border: 0 !important;
-  border-bottom: 1px solid rgba(255,255,255,0.3) !important;
-}
-
 .sidetopics {
   position: fixed !important;
   margin-top: 400px;
@@ -32,8 +23,35 @@ footer .border{
   min-height: 500px;
   margin-bottom: 200px;
 }
-
+#topics h5{
+  padding-top: 7rem;
+}
+.question {
+  padding: 0.75rem 0;
+}
 .footer {
   position: relative;
   z-index:99999999999;
 }
+.footer a.nav-link {
+  padding: 0.2rem;
+}
+footer .border{
+  border: 0 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+
+
+ @include media-breakpoint-down(sm) {
+   .display-4 {
+     font-size: 2rem;
+   }
+ }
+
+ @include media-breakpoint-up(md) {
+ }
+
+ @include media-breakpoint-up(lg) {
+
+ }
