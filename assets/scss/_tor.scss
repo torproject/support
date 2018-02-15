@@ -479,33 +479,17 @@ a.side-nav.active {
 
 
 // Small devices (landscape phones, less than 768px)
-@include media-breakpoint-down(lg) {
+@include media-breakpoint-down(md) {
     nav.sidetopics {
         display: none !important;
 	visibility: hidden !important;
     }
-    .smalltopics {
+
+    nav.smalltopics {
         display: block;
-	width: 100%;
-
-    }
-
-    .burger-menu {
-          display: none;
-    }
-
-    .burger {
-          padding-left: 2em;
-	  font-size: 1.2em;
-	  text-decoration: none;
-	  button {
-              float: right;
-	  }
-    }
-
-    #collapseTopicsNav:target {
-          display: block;
-	  padding: 20px;
-
+	width:100%;
+	button.navbar-toggler {
+            float: right;
+	}
     }
 }
