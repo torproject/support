@@ -2,9 +2,9 @@
  * Base structure
  */
 
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
+/* Move down content because we have a fixed navbar that is 4.5rem tall */
 .page {
-  padding-top: 3.5rem;
+  padding-top: 4.5rem;
 }
 
 /* Reset */
@@ -58,6 +58,31 @@
   url('fonts/TorIcons/tor-icons.ttf') format('truetype'),
   url('fonts/TorIcons/tor-icons.svg?#tor-icons') format('svg');
 }
+
+.font-family-serif {
+  font-family: $font-family-serif !important;
+}
+
+.font-weight-light  { font-family: Source Sans Pro Light }
+
+.font-weight-bold   { font-family: Source Sans Pro Bold  }
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $purple;
+}
+p {
+  font-size: 1.3rem; // We need at least 18px minuim +_+
+  color: $gray-900;
+  line-height: 2rem;
+}
+mark,.mark {
+  color: $purple;
+}
+
+
+/** Icons **/
 
 .ti:before {
     font-family: Tor Icons !important;
@@ -157,34 +182,6 @@
     content: "\f11e";
 }
 
-.font-family-serif {
-  font-family: $font-family-serif !important;
-}
-
-.font-weight-light  { font-family: Source Sans Pro Light }
-
-.font-weight-bold   { font-family: Source Sans Pro Bold  }
-
-h6 {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: $purple;
-}
-p {
-  font-size: 1.3rem; // We need at least 18px minuim +_+
-  color: $gray-900;
-  line-height: 2rem;
-}
-.display-5 {
-  font-size: 1.5em;
-}
-.display-6 {
-  font-size: 1.3em
-}
-mark,.mark {
-  color: $purple;
-}
-
 .bd-sidebar{
   border: 0 !important;
 }
@@ -213,7 +210,7 @@ mark,.mark {
 }
 
 .navbar-brand {
-  padding-left: 80px;
+  /*padding-left: 80px;*/
   span {
     font-size: 0.6em;
     display: flex;
@@ -471,8 +468,6 @@ a.side-nav.active {
     color: $primary !important;
 }
 
-
-
 .smalltopics {
     display: none;
 }
@@ -482,30 +477,25 @@ a.side-nav.active {
 @include media-breakpoint-down(lg) {
     nav.sidetopics {
         display: none !important;
-	visibility: hidden !important;
+	      visibility: hidden !important;
     }
     .smalltopics {
         display: block;
-	width: 100%;
-
+	      width: 100%;
     }
-
     .burger-menu {
-          display: none;
+        display: none;
     }
-
     .burger {
-          padding-left: 2em;
-	  font-size: 1.2em;
-	  text-decoration: none;
+        padding-left: 2em;
+	      font-size: 1.2em;
+	      text-decoration: none;
 	  button {
-              float: right;
-	  }
+        float: right;
+	     }
     }
-
     #collapseTopicsNav:target {
-          display: block;
-	  padding: 20px;
-
+        display: block;
+	      padding: 20px;
     }
 }
