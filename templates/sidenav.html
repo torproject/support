@@ -1,4 +1,4 @@
-<nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white fixed">
+<nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white fixed burger">
   <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
     Topics
   </a>
@@ -6,7 +6,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <div class="collapse navbar-collapse" id="navbarSupportedTopicsContent">
+  <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
     <ul class="nav nav-pills flex-column">
       {% set topicbag = 'topics+' + this.alt %}
       {% for id, item in bag(topicbag).items() %}

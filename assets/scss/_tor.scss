@@ -200,6 +200,11 @@ mark,.mark {
   font-weight: bold;
 }
 
+
+.jumbotron {
+  margin-top: -50px;
+}
+
 /*
  * Nav
  */
@@ -460,7 +465,7 @@ pre {
     display: block;
 }
 
-#navbarSupportedContent:target {
+.hamburger:hover .hamburger-menu {
     display: block;
 }
 
@@ -486,5 +491,9 @@ a.side-nav.active {
 	button.navbar-toggler {
             float: right;
 	}
+    }
+
+    .burger:hover .burger-menu {
+        display: block;
     }
 }

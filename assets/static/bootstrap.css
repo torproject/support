@@ -6527,6 +6527,9 @@ mark, .mark {
   border-left: 2px solid #7D4698;
   font-weight: bold; }
 
+.jumbotron {
+  margin-top: -50px; }
+
 /*
  * Nav
  */
@@ -6861,7 +6864,7 @@ pre {
 .dropdown:hover .dropdown-menu {
   display: block; }
 
-#navbarSupportedContent:target {
+.hamburger:hover .hamburger-menu {
   display: block; }
 
 a.side-nav.active {
@@ -6879,7 +6882,10 @@ a.side-nav.active {
     display: block;
     width: 100%; }
     nav.smalltopics button.navbar-toggler {
-      float: right; } }
+      float: right; }
+
+  .burger:hover .burger-menu {
+    display: block; } }
 /* Support Portal Styles
 *
 */

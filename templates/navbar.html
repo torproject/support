@@ -1,9 +1,9 @@
-<nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary hamburger">
+`<nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary hamburger">
   <a class="navbar-brand" href="/">
     <img src="{{ '/static/images/tor-logo.svg' }}" >
     <span class="sr-only">Tor Logo</span>
   </a>
-  <button class="btn navbar-toggler" type="button" data-toggle="collapse" href="#navbarSupportedContent" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
@@ -11,14 +11,14 @@
       <ul class="navbar-nav">
       	{% set menubag = 'menu+' + this.alt %}
       	{% for id, item in bag(menubag).items() %}
-      	<li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-                <a class="nav-link" href="{{ item.path }}">{{ item.label }}
-                  {% if this.is_child_of(item.path) %}
-                  <span class="sr-only">(current)</span>
-                  {% endif %}
-                </a>
-      	</li>
-	      {% endfor %}
+      	  <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+            <a class="nav-link" href="{{ item.path }}">{{ item.label }}
+              {% if this.is_child_of(item.path) %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+      	  </li>
+	{% endfor %}
       </ul>
     </div>
     <div class="mt-2 btn-group dropdown pr-2">
