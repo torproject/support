@@ -487,7 +487,7 @@ code {
   padding: 0.5rem 0.5rem;
   font-size: 80%;
   color: lightgreen;
-  background-color: #333A41;
+  background-color: black;
   border-radius: 0.25rem; }
   a > code {
     padding: 0;
@@ -6413,7 +6413,9 @@ p {
 mark, .mark {
   color: #7D4698; }
 
-/** Icons **/
+/*
+ * Icons
+ */
 .ti:before {
   font-family: Tor Icons !important;
   font-style: normal;
@@ -6625,7 +6627,7 @@ pre {
   padding: 0.5rem;
   margin-top: 1rem;
   color: lightgreen;
-  background: #333A41; }
+  background: black; }
 
 .bd-callout-info {
   border-left-color: #5bc0de; }
@@ -6870,28 +6872,16 @@ a.side-nav.active {
 .smalltopics {
   display: none; }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
   nav.sidetopics {
     display: none !important;
     visibility: hidden !important; }
 
-  .smalltopics {
+  nav.smalltopics {
     display: block;
     width: 100%; }
-
-  .burger-menu {
-    display: none; }
-
-  .burger {
-    padding-left: 2em;
-    font-size: 1.2em;
-    text-decoration: none; }
-    .burger button {
-      float: right; }
-
-  #collapseTopicsNav:target {
-    display: block;
-    padding: 20px; } }
+    nav.smalltopics button.navbar-toggler {
+      float: right; } }
 /* Support Portal Styles
 *
 */
