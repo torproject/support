@@ -82,9 +82,7 @@ mark,.mark {
 }
 
 
-/*
- * Icons
- */
+/** Icons **/
 
 .ti:before {
     font-family: Tor Icons !important;
@@ -479,12 +477,24 @@ a.side-nav.active {
     display: none;
 }
 
+.chevron {
+    height: 50px;
+    width: 50px;
+}
+
+.chevron-up {
+    display: none;
+}
+
+.chevron-down {
+    display: block;
+}
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(md) {
     nav.sidetopics {
         display: none !important;
-	      visibility: hidden !important;
+	visibility: hidden !important;
     }
 
     nav.smalltopics {
@@ -497,5 +507,13 @@ a.side-nav.active {
 
     .burger:hover .burger-menu {
         display: block;
+    }
+
+    .burger:hover .chevron-up {
+        display: block;
+    }
+
+    .burger:hover .chevron-down{
+        display: none;
     }
 }

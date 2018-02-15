@@ -487,7 +487,7 @@ code {
   padding: 0.5rem 0.5rem;
   font-size: 80%;
   color: lightgreen;
-  background-color: #333A41;
+  background-color: black;
   border-radius: 0.25rem; }
   a > code {
     padding: 0;
@@ -6628,7 +6628,7 @@ pre {
   padding: 0.5rem;
   margin-top: 1rem;
   color: lightgreen;
-  background: #333A41; }
+  background: black; }
 
 .bd-callout-info {
   border-left-color: #5bc0de; }
@@ -6873,6 +6873,16 @@ a.side-nav.active {
 .smalltopics {
   display: none; }
 
+.chevron {
+  height: 50px;
+  width: 50px; }
+
+.chevron-up {
+  display: none; }
+
+.chevron-down {
+  display: block; }
+
 @media (max-width: 991px) {
   nav.sidetopics {
     display: none !important;
@@ -6885,7 +6895,13 @@ a.side-nav.active {
       float: right; }
 
   .burger:hover .burger-menu {
-    display: block; } }
+    display: block; }
+
+  .burger:hover .chevron-up {
+    display: block; }
+
+  .burger:hover .chevron-down {
+    display: none; } }
 /* Support Portal Styles
 *
 */
