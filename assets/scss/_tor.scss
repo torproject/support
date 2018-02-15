@@ -225,6 +225,13 @@ mark,.mark {
 /*
  * Sidebar
  */
+
+.scrollContainer {
+  scroll-snap-type: mandatory;
+  scroll-snap-destination: 100px;
+  scroll-snap-points-y: repeat(100%);
+}
+
 .sidebar {
   position: fixed;
   top: 51px;
@@ -235,6 +242,7 @@ mark,.mark {
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
   border-right: 1px solid #eee;
+  scroll-snap-coordinate: 0px 51px;
 }
 
 .sidebar .nav {
@@ -483,7 +491,7 @@ a.side-nav.active {
 }
 
 .chevron-up {
-    display: none;
+    display: none !important;
 }
 
 .chevron-down {
@@ -510,7 +518,7 @@ a.side-nav.active {
     }
 
     .burger:hover .chevron-up {
-        display: block;
+        display: block !important;
     }
 
     .burger:hover .chevron-down{

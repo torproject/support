@@ -6547,6 +6547,11 @@ mark, .mark {
 /*
  * Sidebar
  */
+.scrollContainer {
+  scroll-snap-type: mandatory;
+  scroll-snap-destination: 100px;
+  scroll-snap-points-y: repeat(100%); }
+
 .sidebar {
   position: fixed;
   top: 51px;
@@ -6557,7 +6562,8 @@ mark, .mark {
   overflow-x: hidden;
   overflow-y: auto;
   /* Scrollable contents if viewport is shorter than content. */
-  border-right: 1px solid #eee; }
+  border-right: 1px solid #eee;
+  scroll-snap-coordinate: 0px 51px; }
 
 .sidebar .nav {
   margin-bottom: 20px; }
@@ -6878,7 +6884,7 @@ a.side-nav.active {
   width: 50px; }
 
 .chevron-up {
-  display: none; }
+  display: none !important; }
 
 .chevron-down {
   display: block; }
@@ -6898,7 +6904,7 @@ a.side-nav.active {
     display: block; }
 
   .burger:hover .chevron-up {
-    display: block; }
+    display: block !important; }
 
   .burger:hover .chevron-down {
     display: none; } }
