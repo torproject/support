@@ -6859,8 +6859,8 @@ pre {
   margin: 0 auto;
   display: block;
   overflow-y: scroll;
-  height: 95%;
-  width: 97%;
+  height: 950px;
+  width: 97;
   scroll-behavior: smooth; }
 
 .dropdown {
