@@ -226,11 +226,6 @@ mark,.mark {
  * Sidebar
  */
 
-.scrollContainer {
-  scroll-snap-type: mandatory;
-  scroll-snap-destination: 100px;
-  scroll-snap-points-y: repeat(100%);
-}
 
 .sidebar {
   position: fixed;
@@ -242,7 +237,6 @@ mark,.mark {
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
   border-right: 1px solid #eee;
-  scroll-snap-coordinate: 0px 51px;
 }
 
 .sidebar .nav {
@@ -461,6 +455,15 @@ pre {
   color: $bd-purple-light;
 }
 
+#topics {
+  margin: 0 auto;
+  display: block;
+  overflow-y: scroll;
+  height: 95%;
+  width: 97%;
+  scroll-behavior: smooth;
+}
+
 .dropdown{
   display: block;
 }
@@ -473,7 +476,7 @@ pre {
     display: block;
 }
 
-.hamburger:hover .hamburger-menu {
+.hamburger:hover + .hamburger-menu {
     display: block;
 }
 
@@ -508,12 +511,14 @@ a.side-nav.active {
     nav.smalltopics {
         display: block;
 	width:100%;
-	button.navbar-toggler {
-            float: right;
-	}
     }
 
-    .burger:hover .burger-menu {
+    .burger button {
+        float: right !important;
+	margin-top: -50px;
+    }
+
+    .burger:hover + .burger-menu {
         display: block;
     }
 

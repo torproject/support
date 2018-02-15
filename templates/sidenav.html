@@ -1,35 +1,39 @@
-<nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white fixed burger">
-  <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
-    Topics
-  </a>
-  <button class="navbar-toggler chevron" type="button" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="oi oi-chevron-top chevron-up"></span>
-    <span class="oi oi-chevron-bottom chevron-down"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+<div class="container-fluid">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white sticky">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+      Topics
+    </a>
+    <div class="burger">
+      <button class="navbar-toggler chevron" type="button" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="oi oi-chevron-top chevron-up"></span>
+	<span class="oi oi-chevron-bottom chevron-down"></span>
+      </button>
+    </div>   
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	{% set topicbag = 'topics+' + this.alt %}
+	{% for id, item in bag(topicbag).items() %}
+	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
+	  <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ item.path }}">{{ item.label }}</a>
+	</li>
+
+	{% endfor %}
+    </div>
+    
+    <hr />
+  </nav>
+
+
+  <nav class="col-sm-3 col-md-2 d-none d-sm-block section-nav bg-white sidebar sidetopics fixed" id="sidenav-topics">
+    <h4 class="text-primary offset-md-1">Topics</h4> 
     <ul class="nav nav-pills flex-column">
       {% set topicbag = 'topics+' + this.alt %}
       {% for id, item in bag(topicbag).items() %}
-      <li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
+      <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
 	<a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ item.path }}">{{ item.label }}</a>
       </li>
 
       {% endfor %}
-  </div>
-  <hr />
-</nav>
-
-
-<nav class="col-sm-3 col-md-2 d-none d-sm-block section-nav bg-white sidebar sidetopics" id="sidenav-topics">
-  <h4 class="text-primary offset-md-1">Topics</h4> 
-  <ul class="nav nav-pills flex-column">
-    {% set topicbag = 'topics+' + this.alt %}
-    {% for id, item in bag(topicbag).items() %}
-    <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
-      <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ item.path }}">{{ item.label }}</a>
-    </li>
-
-    {% endfor %}
-  </ul>
-</nav>
+    </ul>
+  </nav>
+</div>

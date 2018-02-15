@@ -6547,11 +6547,6 @@ mark, .mark {
 /*
  * Sidebar
  */
-.scrollContainer {
-  scroll-snap-type: mandatory;
-  scroll-snap-destination: 100px;
-  scroll-snap-points-y: repeat(100%); }
-
 .sidebar {
   position: fixed;
   top: 51px;
@@ -6562,8 +6557,7 @@ mark, .mark {
   overflow-x: hidden;
   overflow-y: auto;
   /* Scrollable contents if viewport is shorter than content. */
-  border-right: 1px solid #eee;
-  scroll-snap-coordinate: 0px 51px; }
+  border-right: 1px solid #eee; }
 
 .sidebar .nav {
   margin-bottom: 20px; }
@@ -6861,6 +6855,14 @@ pre {
 .text-primary-light {
   color: #e6d5ee; }
 
+#topics {
+  margin: 0 auto;
+  display: block;
+  overflow-y: scroll;
+  height: 95%;
+  width: 97%;
+  scroll-behavior: smooth; }
+
 .dropdown {
   display: block; }
 
@@ -6870,7 +6872,7 @@ pre {
 .dropdown:hover .dropdown-menu {
   display: block; }
 
-.hamburger:hover .hamburger-menu {
+.hamburger:hover + .hamburger-menu {
   display: block; }
 
 a.side-nav.active {
@@ -6897,10 +6899,12 @@ a.side-nav.active {
   nav.smalltopics {
     display: block;
     width: 100%; }
-    nav.smalltopics button.navbar-toggler {
-      float: right; }
 
-  .burger:hover .burger-menu {
+  .burger button {
+    float: right !important;
+    margin-top: -50px; }
+
+  .burger:hover + .burger-menu {
     display: block; }
 
   .burger:hover .chevron-up {
@@ -6915,16 +6919,12 @@ a.side-nav.active {
   padding-top: 0 !important;
   border: 0 !important; }
 
-.sidebar {
-  top: 0 !important;
-  border: 0 !important; }
-
 .toc-entry a:hover {
   color: #59316B !important; }
 
 .sidetopics {
   position: fixed !important;
-  margin-top: 400px;
+  margin-top: 353px;
   height: 500px;
   background: transparent; }
 

@@ -1,38 +1,41 @@
-`<nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary hamburger">
+`<nav class="navbar no-background navbar-expand-lg navbar-dark fixed-top bg-primary">
   <a class="navbar-brand" href="/">
     <img src="{{ '/static/images/tor-logo.svg' }}" >
     <span class="sr-only">Tor Logo</span>
   </a>
-  <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
-    <div class="justify-content-md-center mx-auto pt-2">
-      <ul class="navbar-nav">
-      	{% set menubag = 'menu+' + this.alt %}
-      	{% for id, item in bag(menubag).items() %}
+  <div class="hamburger">
+    <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   </div>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="justify-content-md-center mx-auto pt-2">
+	<ul class="navbar-nav">
+      	  {% set menubag = 'menu+' + this.alt %}
+      	  {% for id, item in bag(menubag).items() %}
       	  <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
             <a class="nav-link" href="{{ item.path }}">{{ item.label }}
               {% if this.is_child_of(item.path) %}
-                <span class="sr-only">(current)</span>
+              <span class="sr-only">(current)</span>
               {% endif %}
             </a>
       	  </li>
-	{% endfor %}
-      </ul>
-    </div>
-    <div class="mt-2 btn-group dropdown pr-2">
-      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	English
-      </button>
-      <div class="dropdown-menu">
-	<a class="dropdown-item" href="#">Spanish</a>
-	<a class="dropdown-item" href="#">French</a>
-	<a class="dropdown-item" href="#">Something else here</a>
-	<div class="dropdown-divider"></div>
-	<a class="dropdown-item" href="#">Separated link</a>
+	  {% endfor %}
+	</ul>
       </div>
+      <div class="mt-2 btn-group dropdown pr-2">
+	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  English
+	</button>
+	<div class="dropdown-menu">
+	  <a class="dropdown-item" href="#">Spanish</a>
+	  <a class="dropdown-item" href="#">French</a>
+	  <a class="dropdown-item" href="#">Something else here</a>
+	  <div class="dropdown-divider"></div>
+	  <a class="dropdown-item" href="#">Separated link</a>
+	</div>
+      </div>
+      <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/download-easy.html.en"><i class="glyphicon-glyphicon-arrow-down"></i>Download Tor Browser</a>
     </div>
-    <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/download-easy.html.en"><i class="glyphicon-glyphicon-arrow-down"></i>Download Tor Browser</a>
-  </div>
+ 
 </nav>
