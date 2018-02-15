@@ -4,7 +4,7 @@
   </h3>
   <div id="miscellaneus" role="tabpanel" data-parent="#topics">
     <div id="miscellaneusAccordion" data-children=".question">
-      <h5 class="text-muted text-uppercase">Miscellaneus</h5>
+      <h5 class="text-muted text-uppercase">Miscellaneous</h5>
       {% set miscbag = 'miscellaneus+' + this.alt %}
       {% for id, item in bag(miscbag).items() %}
       <div class="question">
@@ -17,7 +17,7 @@
           {{ item.description|safe }}
         </div>
       </div>
-      
+
       {% endfor %}
     </div>
   </div>
