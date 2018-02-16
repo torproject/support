@@ -519,15 +519,17 @@ a.side-nav.active {
 .chevron {
     height: 50px;
     width: 50px;
-    margin: -10px;
+    margin: -10px -1px 1px -1px;
 }
 
 .chevron-up {
     display: none !important;
+    top: 10px !important;
 }
 
 .chevron-down {
     display: block;
+    top: 10px !important;
 }
 
 // Small devices (landscape phones, less than 768px)

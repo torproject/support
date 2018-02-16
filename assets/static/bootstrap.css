@@ -6907,13 +6907,15 @@ a.side-nav.active {
 .chevron {
   height: 50px;
   width: 50px;
-  margin: -10px; }
+  margin: -10px -1px 1px -1px; }
 
 .chevron-up {
-  display: none !important; }
+  display: none !important;
+  top: 10px !important; }
 
 .chevron-down {
-  display: block; }
+  display: block;
+  top: 10px !important; }
 
 @media (max-width: 991px) {
   nav.sidetopics {
