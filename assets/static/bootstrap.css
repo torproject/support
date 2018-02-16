@@ -6872,7 +6872,11 @@ pre {
 .dropdown:hover .dropdown-menu {
   display: block; }
 
-.hamburger:hover + .hamburger-menu {
+.hamburger .navbar-toggler {
+  margin-left: 93%;
+  margin-top: -10%; }
+
+.hamburger:hover .hamburger-menu {
   display: block; }
 
 a.side-nav.active {
@@ -6904,7 +6908,7 @@ a.side-nav.active {
     float: right !important;
     margin-top: -50px; }
 
-  .burger:hover + .burger-menu {
+  .burger:hover .burger-menu {
     display: block; }
 
   .burger:hover .chevron-up {

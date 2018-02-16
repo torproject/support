@@ -8,18 +8,18 @@
 	<span class="oi oi-chevron-top chevron-up"></span>
 	<span class="oi oi-chevron-bottom chevron-down"></span>
       </button>
-    </div>   
-    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
-      <ul class="nav nav-pills flex-column">
-	{% set topicbag = 'topics+' + this.alt %}
-	{% for id, item in bag(topicbag).items() %}
-	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
-	  <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ item.path }}">{{ item.label }}</a>
-	</li>
+      
+      <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+	<ul class="nav nav-pills flex-column">
+	  {% set topicbag = 'topics+' + this.alt %}
+	  {% for id, item in bag(topicbag).items() %}
+	  <li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
+	    <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ item.path }}">{{ item.label }}</a>
+	  </li>
 
-	{% endfor %}
-    </div>
-    
+	  {% endfor %}
+      </div>
+    </div> 
     <hr />
   </nav>
 

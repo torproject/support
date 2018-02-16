@@ -476,7 +476,13 @@ pre {
     display: block;
 }
 
-.hamburger:hover + .hamburger-menu {
+
+.hamburger .navbar-toggler {
+    margin-left: 93%;
+    margin-top: -10%;
+}
+
+.hamburger:hover .hamburger-menu {
     display: block;
 }
 
@@ -513,12 +519,14 @@ a.side-nav.active {
 	width:100%;
     }
 
+
+
     .burger button {
         float: right !important;
 	margin-top: -50px;
     }
 
-    .burger:hover + .burger-menu {
+    .burger:hover .burger-menu {
         display: block;
     }
 
