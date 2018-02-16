@@ -9,7 +9,7 @@
     </button>
     <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
       <div class="justify-content-md-center mx-auto pt-2">
-	<ul class="navbar-nav">
+	<ul class="navbar-nav offset-md-3 ">
       	  {% set menubag = 'menu+' + this.alt %}
       	  {% for id, item in bag(menubag).items() %}
       	  <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>

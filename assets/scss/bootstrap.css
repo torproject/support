@@ -6413,9 +6413,7 @@ p {
 mark, .mark {
   color: #7D4698; }
 
-/*
- * Icons
- */
+/** Icons **/
 .ti:before {
   font-family: Tor Icons !important;
   font-style: normal;
@@ -6528,6 +6526,9 @@ mark, .mark {
   color: #7D4698;
   border-left: 2px solid #7D4698;
   font-weight: bold; }
+
+.jumbotron {
+  margin-top: -50px; }
 
 /*
  * Nav
@@ -6854,6 +6855,14 @@ pre {
 .text-primary-light {
   color: #e6d5ee; }
 
+#topics {
+  margin: 0 auto;
+  display: block;
+  overflow-y: scroll;
+  height: 950px;
+  width: 97;
+  scroll-behavior: smooth; }
+
 .dropdown {
   display: block; }
 
@@ -6863,7 +6872,11 @@ pre {
 .dropdown:hover .dropdown-menu {
   display: block; }
 
-#navbarSupportedContent:target {
+.hamburger .navbar-toggler {
+  margin-left: 93%;
+  margin-top: -10%; }
+
+.hamburger:hover .hamburger-menu {
   display: block; }
 
 a.side-nav.active {
@@ -6871,6 +6884,16 @@ a.side-nav.active {
 
 .smalltopics {
   display: none; }
+
+.chevron {
+  height: 50px;
+  width: 50px; }
+
+.chevron-up {
+  display: none !important; }
+
+.chevron-down {
+  display: block; }
 
 @media (max-width: 991px) {
   nav.sidetopics {
@@ -6880,8 +6903,19 @@ a.side-nav.active {
   nav.smalltopics {
     display: block;
     width: 100%; }
-    nav.smalltopics button.navbar-toggler {
-      float: right; } }
+
+  .burger button {
+    float: right !important;
+    margin-top: -50px; }
+
+  .burger:hover .burger-menu {
+    display: block; }
+
+  .burger:hover .chevron-up {
+    display: block !important; }
+
+  .burger:hover .chevron-down {
+    display: none; } }
 /* Support Portal Styles
 *
 */
@@ -6889,16 +6923,17 @@ a.side-nav.active {
   padding-top: 0 !important;
   border: 0 !important; }
 
-.sidebar {
-  top: 0 !important;
-  border: 0 !important; }
+nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #7D4698;
+  background-color: #fff;
+  font-weight: bold; }
 
 .toc-entry a:hover {
   color: #59316B !important; }
 
 .sidetopics {
   position: fixed !important;
-  margin-top: 400px;
+  margin-top: 353px;
   height: 500px;
   background: transparent; }
 

@@ -6,7 +6,11 @@
   padding-top: 0 !important;
   border: 0 !important;
 }
-
+#sidenav-topics .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #7D4698;
+    background-color: #fff;
+    font-weight: bold;
+}
 .toc-entry a:hover {
   color: #59316B !important;
 }
