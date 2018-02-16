@@ -6872,12 +6872,31 @@ pre {
 .dropdown:hover .dropdown-menu {
   display: block; }
 
-.hamburger .navbar-toggler {
-  margin-left: 93%;
-  margin-top: -10%; }
+label {
+  cursor: pointer; }
 
-.hamburger:hover .hamburger-menu {
+#menu-toggle {
+  display: none;
+  /* hide the checkbox */ }
+
+#nav-toggle {
+  display: none;
+  /* hide the checkbox */ }
+
+.side-toggler {
+  float: right !important; }
+
+#menu-toggle:checked + .burger-menu {
   display: block; }
+
+#nav-toggle:checked + .hamburger-menu {
+  display: block; }
+
+.navbar-toggler:hover .chevron-up {
+  display: block !important; }
+
+.navbar-toggler:hover .chevron-down {
+  display: none; }
 
 a.side-nav.active {
   color: #7D4698 !important; }
@@ -6887,7 +6906,8 @@ a.side-nav.active {
 
 .chevron {
   height: 50px;
-  width: 50px; }
+  width: 50px;
+  margin: -10px; }
 
 .chevron-up {
   display: none !important; }
@@ -6902,20 +6922,7 @@ a.side-nav.active {
 
   nav.smalltopics {
     display: block;
-    width: 100%; }
-
-  .burger button {
-    float: right !important;
-    margin-top: -50px; }
-
-  .burger:hover .burger-menu {
-    display: block; }
-
-  .burger:hover .chevron-up {
-    display: block !important; }
-
-  .burger:hover .chevron-down {
-    display: none; } }
+    width: 100%; } }
 /* Support Portal Styles
 *
 */
