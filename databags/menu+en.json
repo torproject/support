@@ -1,6 +1,6 @@
 {
     "about": {
-	"path": "/about",
+	"path": "https://www.torproject.org/about/overview.html.en",
 	"label": "About"
     },
     "documentation": {
@@ -19,13 +19,8 @@
 	"path": "https://newsletter.torproject.org",
 	"label": "Newsletter"
     },
-    "volunteer": {
-	"path": "https://www.torproject.org/getinvolved/volunteer.html.en",
-	"label": "Volunteer"
-    },
     "contact": {
-	"path": "#contact",
+	"path": "https://www.torproject.org/about/contact.html.en",
 	"label": "Contact"
     }
-
 }
