@@ -15,10 +15,10 @@
   color: #59316B !important;
 }
 .sidetopics {
-  position: fixed !important;
-  margin-top: 340px;
-  height: 500px;
   background: transparent;
+  position: sticky;
+  top: 114px;
+  padding-top: inherit;
 }
 #topics {
   min-height: 500px;

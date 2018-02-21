@@ -63,22 +63,6 @@
 
       $('.show').collapse();
 
-      $(function() {
-
-        $(window).scroll(function(){
-
-          var pTop = $(window).scrollTop()
-          if( pTop > 250 ){
-     	    snap(70);
-          }
-          else { snap(320); }
-	});
-      });
-
-      function snap(pix){
-        $('.sidetopics').css('margin-top', pix + 'px')
-      }
-
 
     </script>
   </div>

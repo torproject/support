@@ -6547,28 +6547,21 @@ mark, .mark {
 /*
  * Sidebar
  */
-.sidebar {
-  position: fixed;
-  top: 51px;
-  bottom: 0;
-  left: 0;
+.sidetopics {
   z-index: 1000;
   padding: 20px 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  /* Scrollable contents if viewport is shorter than content. */
   border-right: 1px solid #eee; }
 
-.sidebar .nav {
+.sidetopics .nav {
   margin-bottom: 20px; }
 
-.sidebar .nav-item {
+.sidetopics .nav-item {
   width: 100%; }
 
-.sidebar .nav-item + .nav-item {
+.sidetopics .nav-item + .nav-item {
   margin-left: 0; }
 
-.sidebar .nav-link {
+.sidetopics .nav-link {
   border-radius: 0; }
 
 .toc-h4 {
@@ -6917,14 +6910,17 @@ a.side-nav.active {
   display: block;
   top: 10px !important; }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   nav.sidetopics {
     display: none !important;
     visibility: hidden !important; }
 
   nav.smalltopics {
     display: block;
-    width: 100%; } }
+    width: 100%;
+    position: sticky;
+    top: 114px;
+    padding-top: inherit; } }
 /* Support Portal Styles
 *
 */
@@ -6941,10 +6937,10 @@ a.side-nav.active {
   color: #59316B !important; }
 
 .sidetopics {
-  position: fixed !important;
-  margin-top: 340px;
-  height: 500px;
-  background: transparent; }
+  background: transparent;
+  position: sticky;
+  top: 114px;
+  padding-top: inherit; }
 
 #topics {
   min-height: 500px;

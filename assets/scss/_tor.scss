@@ -227,31 +227,25 @@ mark,.mark {
  */
 
 
-.sidebar {
-  position: fixed;
-  top: 51px;
-  bottom: 0;
-  left: 0;
+.sidetopics {
   z-index: 1000;
   padding: 20px 0;
-  overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
   border-right: 1px solid #eee;
 }
 
-.sidebar .nav {
+.sidetopics .nav {
   margin-bottom: 20px;
 }
 
-.sidebar .nav-item {
+.sidetopics .nav-item {
   width: 100%;
 }
 
-.sidebar .nav-item + .nav-item {
+.sidetopics .nav-item + .nav-item {
   margin-left: 0;
 }
 
-.sidebar .nav-link {
+.sidetopics .nav-link {
   border-radius: 0;
 }
 
@@ -533,7 +527,7 @@ a.side-nav.active {
 }
 
 // Small devices (landscape phones, less than 768px)
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(sm) {
     nav.sidetopics {
         display: none !important;
 	visibility: hidden !important;
@@ -542,6 +536,9 @@ a.side-nav.active {
     nav.smalltopics {
         display: block;
 	width:100%;
+	position: sticky;
+	top: 114px;
+	padding-top: inherit;
     }
 
 
