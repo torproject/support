@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="{{ '/static/fonts/open-iconic/font/css/open-iconic-bootstrap.css'|asseturl }}">
 
 <title>{% block title %}{% endblock %}</title>
-<body class="no-gutters">
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
   <header>
     {% include 'navbar.html' %}
   </header>
