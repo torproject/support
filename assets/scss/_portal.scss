@@ -12,7 +12,7 @@
     font-weight: bold;
 }
 .toc-entry a:hover {
-  color: #59316B !important;
+  color: $purple !important;
 }
 .sidetopics {
   background: transparent;
@@ -47,6 +47,11 @@ footer .border{
  @include media-breakpoint-down(sm) {
    .display-4 {
      font-size: 2rem;
+   }
+   .toc-entry a {
+       display: block;
+       padding: 0.5rem 0;
+       font-size: 1.2rem;
    }
  }
 
