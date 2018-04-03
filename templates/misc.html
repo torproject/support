@@ -1,11 +1,11 @@
 <div class="item">
   <h3 class="text-primary">
-    <a href="#miscellaneus" role="button"></a>
+    <a href="#misc" role="button"></a>
   </h3>
-  <div id="miscellaneus" role="tabpanel" data-parent="#topics">
-    <div id="miscellaneusAccordion" data-children=".question">
-      <h5 class="text-muted text-uppercase">Miscellaneous</h5>
-      {% set miscbag = 'miscellaneus+' + this.alt %}
+  <div id="misc" role="tabpanel" data-parent="#topics">
+    <div id="misc" data-children=".question">
+      <h5 class="text-muted text-uppercase">Misc</h5>
+      {% set miscbag = 'misc+' + this.alt %}
       {% for id, item in bag(miscbag).items() %}
       <div class="question">
 	<h4 class="text-primary">
@@ -13,7 +13,7 @@
 	    {{ item.title }}
           </a>
 	</h4>
-        <div id="{{ item.control }}" class="collapse show" role="tabpanel" data-parent="#miscellaneusAccordion">
+        <div id="{{ item.control }}" class="collapse show" role="tabpanel" data-parent="#miscAccordion">
           {{ item.description|safe }}
         </div>
       </div>

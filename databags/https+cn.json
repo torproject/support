@@ -1,0 +1,8 @@
+{
+    "https-1": {
+	"id": "#https-1",
+	"control": "https-1",
+	"title": "当我使用Tor时，窃听者能够获取我分享给网站的信息（登陆信息或者其他以这种格式传递的信息）吗？",
+	"description": "<p class=\"mb-3\">Tor保护您的隐私！将会阻止窃听者获取您访问网站的讯息。但是，使用HTTP协议传输的未被加密的信息可能依旧会被出口中继的掌控者，或是监视出口中继与目标站点流量的人所拦截。如果您访问的网站使用的是HTTPS协议，那么从出口中继流出的数据将会被加密 ，窃听者无法解析这些数据</p><div class=\"row\"><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image2.png\" alt=\"https\"><div class=\"card-body\"><h4 class=\"card-title\"> 如果您正在使用HTTPS协议，您访问网站将由\"​https://”开始。</h4></div></div></div><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\"><div class=\"card-body\"><h4 class=\"card-title\"> 这个动画展示了，在不使用Tor浏览器以及HTTPS加密的情况下，您的信息是如何对窃听者可见的。</h4></div></div></div></div>"
+    }
+}

@@ -8,6 +8,11 @@ name = English
 primary = yes
 locale = en_US
 
+[alternatives.cn]
+name = Chinese
+url_prefix = /cn/
+locale = zh_CN
+
 [alternatives.es]
 name = Spanish
 url_prefix = /es/

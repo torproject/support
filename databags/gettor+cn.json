@@ -1,0 +1,26 @@
+{
+    "gettor-1": {
+	"id": "#获取tor-1",
+	"control": "获取tor-1",
+	"title": "torproject.org 被屏蔽了，怎么下载 Tor？",
+	"description": "<p class=\"mb-3\">如果无法通过我们的<mark><a href=\"https://www.torproject.org\">网站</a></mark>下载 Tor，你可以通过 GetTor 获取 Tor。GetTor 会自动发送下载 Tor Browser 最新版本的链接，由 Dropbox、Google Drive、GitHub 等更难受到审查的网站进行分发。"
+    },
+    "gettor-2": {
+	"id": "#获取tor-2",
+	"control": "获取tor-2",
+	"title": "通过邮箱使用GetTor。",
+	"description": "向gettor@torproject.org发送邮件。在邮件内容里写下你的操作系统（如Windows，MacOS（OS X），或者linux）并发送。GetTor会发送回复邮件，包含下载Tor Browser的链接，加密签名（核实下载时所需）［加密签名的学术性定义链接；核实步骤］，生成加密签名的密钥，以及包裹的校验和。你可能会有“32-bit”和“64-bit”两个版本的软件可供选择：这取决于你正使用的电脑型号；查阅电脑文档以了解更多。"
+    },
+    "gettor-3": {
+	"id": "#获取tor-3",
+	"control": "获取tor-3",
+	"title": "通过Twitter使用GetTor",
+	"description": "<p class=\"mb-3\">请直接发送包含以下信息的其中一条的私信<p class=\"mb-3\"><ul><li> Linux</li>MacOS(OS X)<li><li>Windows</li></ul></p>到<mark><a href=\"https://twitter.com/get_tor\">@get_tor</a></mark>。您不需要关注这个账号。"
+    },
+    "gettor-4": {
+	"id": "#获取tor-4",
+	"control": "获取tor-4",
+	"title": "通过 XMPP (Tor Messenger, Jitsi, CoyIM)使用GetTor。",
+	"description": "<p class=\"mb-3\">获取下载Tor浏览器的连接, 发送一条信息到 gettor@toproject(dot)org 包含以下的其中一条信息：</p><p class=\"mb-3\"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>"
+    }
+}

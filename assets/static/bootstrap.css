@@ -6933,7 +6933,7 @@ a.side-nav.active {
   font-weight: bold; }
 
 .toc-entry a:hover {
-  color: #59316B !important; }
+  color: #7D4698 !important; }
 
 .sidetopics {
   background: transparent;
@@ -6964,7 +6964,12 @@ footer .border {
 
 @media (max-width: 767px) {
   .display-4 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  .toc-entry a {
+    display: block;
+    padding: 0.4rem 0 !important;
+    font-size: 1.3rem; } }
 .bd-toc {
   order: 2;
   padding-top: 1.5rem;

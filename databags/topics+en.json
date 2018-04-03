@@ -49,9 +49,9 @@
 	"control": "onion-services",
 	"label": "Onion Services"
     },
-    "miscellaneus": {
-	"path": "#miscellaneus",
-	"control": "miscellaneus",
-	"label": "Miscellaneus"
+    "misc": {
+	"path": "#misc",
+	"control": "misc",
+	"label": "misc"
     }
 }
