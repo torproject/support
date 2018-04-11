@@ -1,14 +1,17 @@
 <div >
-  {% include 'faq.html' %}
-  {% include 'tbb.html' %}
-  {% include 'messenger.html' %}
-  {% include 'tormobile.html' %}
-  {% include 'gettor.html' %}
-  {% include 'connecting.html' %}
-  {% include 'censorship.html' %}
-  {% include 'https.html' %}
-  {% include 'operators.html' %}
-  {% include 'onionservices.html' %}
-  {% include 'misc.html' %}
-  {% include 'contact.html' %}
+  {% set topicbag = 'topics+' + this.alt %}
+	{% for id, item in bag(topicbag).items() %}
+    <div class="item">
+      <h3 class="text-primary">
+        <a href="{{ item.path }}" role="button"></a>
+      </h3>
+      <div id="{{ item.control }}" role="tabpanel" data-parent="#topics">
+        <div id="{{ item.control }}Accordion" data-children=".question">
+          <h5 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', this.alt, 'direction') }}">{{ item.label }}</h5>
+          {% set itemtemplate = id + '.html' %}
+          {% include itemtemplate %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
 </div>

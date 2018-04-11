@@ -9,7 +9,7 @@
 	"id": "#tbb-2",
 	"control": "tbb-2",
 	"title": "为什么我连接的中继回路，第一个IP地址总是相同的呢？",
-	"description": "<p class=\"mb-3\">这是Tor的常规操作。您连接的中继回路中的第一个节点通常被称为“入口节点”或是“护卫”。它是一个快速且稳定的节点，并且将会在您的中继回路中维持两到三个月，用来抵挡破解匿名攻击。回路中剩下的部分将会在您访问不同网站时更改，以达成Tor的隐私防护目的。了解更多有关入口节点是如何工作的，请查阅有关入口节点的<mark><a href=\"https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters\">博客条目</a></mark>与<mark><a href=\"https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf\">论文</a></mark>。</p>"
+	"description": "<p class=\"mb-3\">这是Tor的常规操作。您连接的中继回路中的第一个节点通常被称为\"入口节点\"或是\"护卫\"。它是一个快速且稳定的节点，并且将会在您的中继回路中维持两到三个月，用来抵挡破解匿名攻击。回路中剩下的部分将会在您访问不同网站时更改，以达成Tor的隐私防护目的。了解更多有关入口节点是如何工作的，请查阅有关入口节点的<mark><a href=\"https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters\">博客条目</a></mark>与<mark><a href=\"https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf\">论文</a></mark>。</p>"
     },
     "tbb-3": {
 	"id": "#tbb-3",
@@ -39,13 +39,13 @@
 	"id": "#tbb-7",
 	"control": "tbb-7",
 	"title": "我最爱的网站屏蔽来自 Tor 的访问。",
-	"description": "<p class=\"mb-3\">不能访问你想要的网站真是遗憾呢！有些网站屏蔽了 Tor 因为他们无法分辨出普通 Tor 用户和机器人的区别。根据过去的经验，想要让网站解封来自 Tor 的访问最有效的方法是由用户直接联系网站管理员。也许这样的消息就可以成功：<br />“嗨，在用 Tor Browser 的时候发现你的网站 xyz.com 不允许来自 Tor 的访问，希望你可以重新考虑这个决定。全球各地很多人都在使用 Tor 来保护隐私和对抗审查，屏蔽 Tor 的同时你也屏蔽了强权国家中想自由访问互联网的用户、需要隐藏自己的记者和检举者、想躲避网络跟踪的研究者和普通用户。请站在支持在线隐私和网络自由的立场上，允许 Tor 用户访问 xyz.com，谢谢！”<br />另外，银行这类比较敏感的网站经常进行地区范围的屏蔽。如果你平时只在某个特定的国家使用他们的服务，从其他国家进行访问时你的账号可能就会被冻结。如无法连接 onion 服务，请参阅 <a href=\"http://127.0.0.1:5000/#onionservices-3\">无法连接 x.onion！</a></p>"
+	"description": "<p class=\"mb-3\">不能访问你想要的网站真是遗憾呢！有些网站屏蔽了 Tor 因为他们无法分辨出普通 Tor 用户和机器人的区别。根据过去的经验，想要让网站解封来自 Tor 的访问最有效的方法是由用户直接联系网站管理员。也许这样的消息就可以成功：<br />\"嗨，在用 Tor Browser 的时候发现你的网站 xyz.com 不允许来自 Tor 的访问，希望你可以重新考虑这个决定。全球各地很多人都在使用 Tor 来保护隐私和对抗审查，屏蔽 Tor 的同时你也屏蔽了强权国家中想自由访问互联网的用户、需要隐藏自己的记者和检举者、想躲避网络跟踪的研究者和普通用户。请站在支持在线隐私和网络自由的立场上，允许 Tor 用户访问 xyz.com，谢谢！\"<br />另外，银行这类比较敏感的网站经常进行地区范围的屏蔽。如果你平时只在某个特定的国家使用他们的服务，从其他国家进行访问时你的账号可能就会被冻结。如无法连接 onion 服务，请参阅 <a href=\"#onionservices-3\">无法连接 x.onion！</a></p>"
     },
     "tbb-7-1": {
 	"id": "#tbb-7-1",
 	"control": "tbb-7-1",
 	"title": "我在用tor访问Facebook，Twitter或者其他的网站的时候无法使用它们的功能。",
-	"description": "<p class=\"mb-3\">有时候用tor浏览器访问一些包含许多JavaScript的网站会出现功能性的问题。最简单解决这个问题的办法是点击“洋葱目录”，然后点击安全性滑条。将您的安全性设置到“低”。"
+	"description": "<p class=\"mb-3\">有时候用tor浏览器访问一些包含许多JavaScript的网站会出现功能性的问题。最简单解决这个问题的办法是点击\"洋葱目录\"，然后点击安全性滑条。将您的安全性设置到\"低\"。"
     },
     "tbb-8": {
 	"id": "#tbb-8",
@@ -63,7 +63,7 @@
 	"id": "#tbb-10",
 	"control": "tbb-10",
 	"title": "一些反病毒程序和恶意程序防护软件禁止我使用tor浏览器。",
-	"description": "<p class=\"mb-3\">绝大部分的杀毒软件都允许用户设置白名单来准许特定的程序运行。请打开您的杀毒软件然后寻找“白名单”设置或与之类似的东西。之后，输入以下程序</p><p class=\"mb-3\"><ul>Windows平台<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe(如果您使用网桥）</li></ul><ul> OS X平台<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy（如果您使用网桥）</li></ul></p><p class=\"mb-3\">最后，重启tor浏览器。</p>"
+	"description": "<p class=\"mb-3\">绝大部分的杀毒软件都允许用户设置白名单来准许特定的程序运行。请打开您的杀毒软件然后寻找\"白名单\"设置或与之类似的东西。之后，输入以下程序</p><p class=\"mb-3\"><ul>Windows平台<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe(如果您使用网桥）</li></ul><ul> OS X平台<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy（如果您使用网桥）</li></ul></p><p class=\"mb-3\">最后，重启tor浏览器。</p>"
     },
     "tbb-11": {
 	"id": "#tbb-11",
@@ -171,13 +171,13 @@
 	"id": "#tbb-28",
 	"control": "tbb-28",
 	"title": "How do I uninstall Tor Browser?",
-	"description": "<p class=\"mb-3\">Removing Tor Browser from your system is simple:</p><p class=\"mb-3\"><ol><li>Locate your Tor Browser folder or application. The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process). On Linux, there is no default location, however the folder will be named \"tor-browser_en-US\" if you are running the English Tor Browser.</li><li>Delete the Tor Browser folder or application.</li><li>Empty your Trash.</li></ol></p><p class=\"mb-3\">Note that your operating system’s standard “Uninstall” utility is not used.</p>"
+	"description": "<p class=\"mb-3\">Removing Tor Browser from your system is simple:</p><p class=\"mb-3\"><ol><li>Locate your Tor Browser folder or application. The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process). On Linux, there is no default location, however the folder will be named \"tor-browser_en-US\" if you are running the English Tor Browser.</li><li>Delete the Tor Browser folder or application.</li><li>Empty your Trash.</li></ol></p><p class=\"mb-3\">Note that your operating system’s standard \"Uninstall\" utility is not used.</p>"
     },
     "tbb-29": {
 	"id": "#tbb-29",
 	"control": "tbb-29",
 	"title": "Is there a way to change the IP address that Tor Browser assigns me for a particular site?",
-	"description": "<p class=\"mb-3\">Tor Browser has two ways to change your relay circuit — \"New Identity\" and “New Tor Circuit for this Site\". Both options are located in the Torbutton (little green onion) menu.</p><h5>New Identity</h5><p class=\"mb-3\">This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking \"New Identity\".</p><h5>New Tor Circuit for this Site</h5><p class=\"mb-3\">This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image1.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Card title</h4><p class=\"card-text\">Card text</p></div></div></div>"
+	"description": "<p class=\"mb-3\">Tor Browser has two ways to change your relay circuit — \"New Identity\" and \"New Tor Circuit for this Site\". Both options are located in the Torbutton (little green onion) menu.</p><h5>New Identity</h5><p class=\"mb-3\">This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking \"New Identity\".</p><h5>New Tor Circuit for this Site</h5><p class=\"mb-3\">This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.</p><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image1.png\" alt=\"New release alert\"><div class=\"card-body\"><h4 class=\"card-title\">Card title</h4><p class=\"card-text\">Card text</p></div></div></div>"
     },
     "tbb-30": {
 	"id": "#tbb-30",

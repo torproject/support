@@ -1,0 +1,32 @@
+{
+    "tormobile-1": {
+	"id": "#tormobile-1",
+	"control": "tormobile-1",
+	"title": "Puc executar el Tor en un dispositiu Android?",
+	"description": "<p class=\"mb-3\">The Guardian Project proporciona el Tor en Android. Podeu trobar més informació als llocs webs de l'<mark><a href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> i l'<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>. L'Orfox és per a navegar per internet, i l'Orbot pot encaminar altres aplicacions del vostre telèfon Android a través de la xarxa Tor.</p>"
+    },
+    "tormobile-2": {
+	"id": "#tormobile-2",
+	"control": "tormobile-2",
+	"title": "Qui és The Guardian Project?",
+	"description": "<p class=\"mb-3\">The Guardian Project manté el Tor (i altres aplicacions de privacitat) en Android. Podeu trobar més informació al <mark><a href=\"https://guardianproject.info/\">lloc web de The Guardian Project</a></mark>.</p>"
+    },
+    "tormobile-3": {
+	"id": "#tormobile-3",
+	"control": "tormobile-3",
+	"title": "Puc executar el Tor en un dispositiu iOS?",
+	"description": "<p class=\"mb-3\">Us recomanem una aplicació per a iOS anomenada Onion Browser, que és de codi obert, encamina a través del Tor, i el seu desenvolupament es troba molt lligat al Projecte Tor. Tanmateix, Apple exigeix als navegadors d'iOS utilitzar una cosa anomenada Webkit, que impedeix a l'Onion Broswer tenir les mateixes proteccions de privadesa que el Tor Browser. <mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor\">Més informació sobre l'Onion Browser</a></mark>.</p>"
+    },
+    "tormobile-4": {
+	"id": "#tormobile-4",
+	"control": "tormobile-4",
+	"title": "Com puc executar el Tor al Windows Phone?",
+	"description": "<p class=\"mb-3\">Actualment no hi ha cap mètode per a executar el Tor al Windows Phone.</p>"
+    },
+     "tormobile-5": {
+	"id": "#tormobile-5",
+	"control": "tormobile-5",
+	"title": "Quan s'alliberarà el Tor Browser per a l'Android?",
+	"description": "<p class=\"mb-3\">Estem treballant actualment en el Tor Browser per a l'Android, i potser s'alliberaran versions alfa en els propers mesos. Mireu el nostre <mark><a href=\"https://blog.torproject.org\">blog</a></mark> per a futurs anuncis i detalls relacionats amb aquest projecte.</p>"
+     }
+}

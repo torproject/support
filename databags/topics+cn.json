@@ -49,9 +49,9 @@
 	"control": "洋葱服务",
 	"label": "洋葱服务"
     },
-    "miscellaneus": {
-	"path": "#miscellaneus",
-	"control": "miscellaneus",
-	"label": "Miscellaneus"
+    "misc": {
+	"path": "#misc",
+	"control": "misc",
+	"label": "Misc"
     }
 }

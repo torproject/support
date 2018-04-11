@@ -1,0 +1,32 @@
+{
+    "tormobile-1": {
+	"id": "#tormobile-1",
+	"control": "tormobile-1",
+	"title": "Apakah saya dapat menjalankan Tor di alat Android?",
+	"description": "<p class=\"mb-3\">Tor untuk Android disediakan Guardian Project. Ada info lebih lanjut tentang <mark><a href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark>dan<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>di situs masing-masing. Orbot adalah untuk browsing Internet dan Orfox dapat mengalihkan lalu-lintas Internet aplikasi lain di Android ke jaringan Tor.</p>"
+    },
+    "tormobile-2": {
+	"id": "#tormobile-2",
+	"control": "tormobile-2",
+	"title": "Siapa itu Guardian Project?",
+	"description": "<p class=\"mb-3\">The Guardian Project memelihara Tor (dan aplikasi privasi lain) di Android. Info lebih lanjut dapat dibaca di <mark><a href=\"https://guardianproject.info/\">situs web Guardian Project</a></mark>.</p>"
+    },
+    "tormobile-3": {
+	"id": "#tormobile-3",
+	"control": "tormobile-3",
+	"title": "Apakah saya dapat menjalankan Tor di alat IOS?",
+	"description": "<p class=\"mb-3\">Kami merekomendasikan aplikasi IOS bernama Onion Browser, yang berlisensi open source, yang menggunakan jaringan Tor, dan dikembangkan oleh pihak yang bekerja-sama secara dekat dengan Tor Project. Namun, Apple mengharuskan peramban di IOS untuk menggunakan Webkit, yang menghalangi Onion Browser memiliki tingkat pelrindungan privasi yang sama dengan Tor Browser. <mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor\">Pelajari lebih banyak tentang Onion Browser </a></mark>.</p>"
+    },
+    "tormobile-4": {
+	"id": "#tormobile-4",
+	"control": "tormobile-4",
+	"title": "Bagaimana cara menjalankan Tor di Wndows Phone?",
+	"description": "<p class=\"mb-3\">Saat ini belum ada metode untuk menjalankan Tor di Windows Phone.</p>"
+    },
+     "tormobile-5": {
+	"id": "#tormobile-5",
+	"control": "tormobile-5",
+	"title": "Kapan Tor Browser untuk Android dirilis?",
+	"description": "<p class=\"mb-3\">Saat ini kami sedang mengerjakan Tor Browser untuk Android, dan Anda mungkin akan mendapay rilis versi alpha di bulan-bulan mendatang. Silakan pantau <mark><a href=\"https://blog.torproject.org\">blog</a></mark>kami untuk melihat pengumuman dan detail tentang proyek ini.</p>"
+     }
+}

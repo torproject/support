@@ -1,0 +1,8 @@
+{
+    "https-1": {
+	"id": "#https-1",
+	"control": "https-1",
+	"title": "Quan utilitzo el Tor, poden esbrinar la informació que comparteixo amb els llocs web, com ara la informació d'inici de sessió i les coses que escric als formularis?",
+	"description": "<p class=\"mb-3\">El Tor us protegeix la vostra navegació de mirades indiscretes als llocs web que visiteu. Tanmateix, la informació enviada sense xifrar a Internet mitjançant HTTP bàsic, encara es pot interceptar pels relés dels operadors de de sortida o qualsevol persona que observi el trànsit entre el relé de sortida i el lloc web de destinació. Si el lloc que esteu visitant utilitza HTTPS, el trànsit que deixeu al relé de sortida es xifrarà i no serà visible.</p><div class=\"row\"><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image2.png\" alt=\"https\"><div class=\"card-body\"><h4 class=\"card-title\">Si utilitzeu HTTPS, aleshores l'URL del vostre lloc web començarà amb «https://».</h4></div></div></div><div class=\"col-md-6\"><div class=\"card\"><img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\"><div class=\"card-body\"><h4 class=\"card-title\">Aquesta visualització mostra quina informació és visible amb i sense el Tor i el xifrat HTTPS.</h4></div></div></div></div>"
+    }
+}

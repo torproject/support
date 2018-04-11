@@ -1,0 +1,57 @@
+{
+    "faq": {
+	"path": "#faq",
+	"control": "faq",
+	"label": "Preguntes Preguntades Més Frequents"
+    },
+    "tbb": {
+	"path": "#tor-browser",
+	"control": "tor-browser",
+	"label": "Tor Browser"
+    },
+    "tormessenger": {
+	"path": "#tor-messenger",
+	"control": "tor-messenger",
+	"label": "Tor Messenger"
+    },
+    "tormobile": {
+	"path": "#tor-mobile",
+	"control": "tor-mobile",
+	"label": "Tor Mobile"
+    },
+    "gettor": {
+	"path": "#gettor",
+	"control": "gettor",
+	"label": "GetTor"
+    },
+    "connecting": {
+	"path": "#connecting-to-tor",
+	"control": "connecting-to-tor",
+	"label": "Connexió al Tor"
+    },
+    "censorship": {
+	"path": "#censorship",
+	"control": "censorship",
+	"label": "Censura"
+    },
+    "https": {
+	"path": "#https",
+	"control": "https",
+	"label": "HTTPS"
+    },
+    "operators": {
+	"path": "#operators",
+	"control": "operators",
+	"label": "Operadors"
+    },
+    "onionservices": {
+	"path": "#onion-services",
+	"control": "onion-services",
+	"label": "Onion Services"
+    },
+    "misc": {
+	"path": "#misc",
+	"control": "misc",
+	"label": "Miscel·lània"
+    }
+}

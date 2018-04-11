@@ -1,0 +1,14 @@
+{
+    "contact-1": {
+	"id": "#contact-1",
+	"control": "contact-1",
+	"title": "How do I reach the Tor Project press person?",
+	"description": "<p class=\"mb-3\">Sending an email to press@… is the best way to reach a press person.</p>"
+    },
+    "contact-2": {
+	"id": "#contact-2",
+	"control": "contact-2",
+	"title": "How do I report a bug or some other issue?",
+	"description": "<p class=\"mb-3\">Bug reporting is done through filing tickets on our ​<mark><a href=\"https://trac.torproject.org/projects/tor\">bug tracker</a></mark>. Unless it is a security bug, then email tor-security@.</p>"
+    }
+}

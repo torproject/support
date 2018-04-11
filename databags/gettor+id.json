@@ -1,0 +1,26 @@
+{
+    "gettor-1": {
+	"id": "#gettor-1",
+	"control": "gettor-1",
+	"title": "Bagaimana cara mengunduh Tor jika torproject.org diblokir?",
+	"description": "<p class=\"mb-3\">Jika Anda tidak dapat mengunduh Tor dari <mark><a href=\"https://www.torproject.org\">situs web kami</a></mark>, Tor dapat dikirim kepada Anda melalui GetTor. GetTor adalah service yang yang otomatis merespon pesan berisi tautan ke versi terakhir Tor Browser, yang dihosting di lokasi beragam sehingga kemungkinan kecil disensor, seperti Dropbox, Google Drive, dan Github.</p>"
+    },
+    "gettor-2": {
+	"id": "#gettor-2",
+	"control": "gettor-2",
+	"title": "Menggunakan GetTor lewat email:",
+	"description": "<p class=\"mb-3\">Kirim email ke gettor@torproject.org.. Tulis sistem operasi yang digunakan (seperti Windows, MacOS (OSX), atau Linux) di isi pesan lalu kirimkan emailnya. GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh paket Tor Browser, tanda tangan kriptografi (diperlukan untuk memverikasi unduhan), [tautan ke definisi glossary dari tanda tangan kriptografi; instruksi untuk verifikasi], sidik jari yang akan digunakan untuk membuat tanda tangan, dan paket checksum. Anda akan di tawarkan dengan  dua pilihan  perangkat lunak: '32 bit\" atau 64 bit. Pilihan ini tergantung dengan model komputer yang anda gunakan; silakan baca dokumentasi tentang komputer Anda untuk informasi lebih lanjut.</p>"
+    },
+    "gettor-3": {
+	"id": "#gettor-3",
+	"control": "gettor-3",
+	"title": "Mengunakan GetTor melalui Twitter",
+	"description": "<p class=\"mb-3\">Untuk mendapatkan tautan untuk mengunduh Tor Browser, kirim DM ke <mark><a href=\"https://twitter.com/get_tor\">@get_to</a></mark>yang berisi salah satu kode berikut ini (Anda tidak perlu mengikuti akun Twitter tersebut): </p><p class=\"mb-3\"><ul><li>Linux </li><li> MacOS (OS X) </li><li> Windows </li></ul></p>"
+    },
+    "gettor-4": {
+	"id": "#gettor-4",
+	"control": "gettor-4",
+	"title": "Menggunakan GetTor melalui XMPP (Tor Messenger, Jitsi, CoyIM).",
+	"description": "<p class=\"mb-3\">Untuk mendapatkan tautan untuk mengunduh Tor Browser, kirim pesan ke  gettor@toproject(dot)org yang berisi salah satu kode berikut ini: </p><p class=\"mb-3\"><ul><li>Linux</li><li>MacOS (OS X) </li><li>Windows </li></ul></p>"
+    }
+}

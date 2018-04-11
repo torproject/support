@@ -1,0 +1,26 @@
+{
+    "gettor-1": {
+	"id": "#gettor-1",
+	"control": "gettor-1",
+	"title": "Wie kann ich Tor herunterladen, wenn torproject.org blockiert ist?",
+	"description": "<p class=\"mb-3\">Wenn du Tor über unsere <mark><a href=\"https://www.torproject.org\">Website</a></mark> nicht herunterladen kannst, ist es möglich sich einen alternativen Download-Link von Tor über GetTor zusenden zu lassen. GetTor ist ein Dienst der automatisch auf Nachrichten mit Links zur aktuellsten Version des Tor Browsers antwortet, die an verschiedenen Orten wie Dropbox, Google Drive und GitHub gehostet werden.</p>"
+    },
+    "gettor-2": {
+	"id": "#gettor-2",
+	"control": "gettor-2",
+	"title": "Um GetTor über E-Mail zu nutzen.",
+	"description": "<p class=\"mb-3\">Sende eine E-Mail an gettor@torproject.org mit dem gewünschten Betriebssystem im Betreff (z.B. Windows, MacOS oder Linux) und GetTor wird mit einer E-Mail antworten, die die Download-Links enthalten, um das Tor-Browser-Paket herunterladen zu können. Im Paket enhalten sind neben dem Tor Browser selbst die Kryptographische Signatur, welche benötigt wird um die heruntergeladenen Inhalte zu verifizieren ([link to glossary definition of cryptographic signature; instructions for verification]), sowie der Fingerabdruck, der benutzt wurde um die Signatur zu erzeugen und die Paket-Prüfsumme. Unter Umständen wird Ihnen eine Auswahl zwischen der 32-bit oder 64-bit Anwendung angeboten, dies hängt vom Modell des Computers ab, den Sie benutzen.</p>"
+    },
+    "gettor-3": {
+	"id": "#gettor-3",
+	"control": "gettor-3",
+	"title": "Um GetTor über Twitter zu nutzen.",
+	"description": "<p class=\"mb-3\">Um Links zum Herunterladen von Tor Browser zu erhalten, sende eine direkte Nachricht an <mark><a href=\"https://twitter.com/get_tor\">@get_tor</a></mark>mit einem der folgenden Codes darin (du musst dafür dem Konto nicht folgen):</p><p class=\"mb-3\"><ul><li>Linux</li>, <li>MacOS (OS X)</li> oder <li>Windows</li></ul></p>"
+    },
+    "gettor-4": {
+	"id": "#gettor-4",
+	"control": "gettor-4",
+	"title": "Um GetTor über XMPP (Tor Messenger, Jitsi, CoyIM) zu nutzen.",
+	"description": "<p class=\"mb-3\">Um Links zum Herunterladen von Tor Browser zu erhalten, sende eine Nachricht an gettor@toproject(dot)org mit einem der folgenden Codes darin:</p><p class=\"mb-3\"><ul><li>Linux</li>, <li>MacOS (OS X)</li> oder <li>Windows</li></ul></p>"
+    }
+}

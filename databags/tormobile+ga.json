@@ -1,0 +1,32 @@
+{
+    "tormobile-1": {
+	"id": "#tormobile-1",
+	"control": "tormobile-1",
+	"title": "An féidir Tor a úsáid ar ghléas Android?",
+	"description": "<p class=\"mb-3\">Is féidir. Is é an Guardian Project a sholáthraíonn Tor ar Android. Gheobhaidh tú tuilleadh eolais ar na leathanaigh Ghréasáin ​<mark><a href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> agus <mark><a href=\"https://guardianproject.info/apps/orfox/\">​Orfox</a></mark>. Úsáidtear Orbot chun an Gréasán a bhrabhsáil, agus athródaíonn Orfox aipeanna eile ar do ghléas Android trí líonra Tor.</p>"
+    },
+    "tormobile-2": {
+	"id": "#tormobile-2",
+	"control": "tormobile-2",
+	"title": "Cad é an Guardian Project?",
+	"description": "<p class=\"mb-3\">Forbraíonn an Guardian Project Tor ar Android (agus aipeanna eile a bhaineann le príobháideachas). Is féidir leat tuilleadh eolais a fháil ar shuíomh Gréasáin ​<mark><a href=\"https://guardianproject.info/\">an Guardian Project</a></mark>.</p>"
+    },
+    "tormobile-3": {
+	"id": "#tormobile-3",
+	"control": "tormobile-3",
+	"title": "An féidir liom Tor a úsáid ar ghléas iOS?",
+	"description": "<p class=\"mb-3\"> Is féidir. Molaimid aip iOS darb ainm Onion Browser. Tá an cód oscailte, úsáideann sé ródúchán Tor, agus oibríonn an príomhfhorbróir i ndlúthpháirt le Tionscadal Tor. Mar sin féin, éilíonn Apple go n-úsáidfidh gach brabhsálaí ar iOS an t-inneall Webkit, agus dá bharr sin níl Onion Browser chomh héifeachtach le Brabhsálaí Tor ó thaobh cúrsaí príobháideachais. <mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor\">Tuilleadh eolas faoi Onion Browser</a></mark>.</p>"
+    },
+    "tormobile-4": {
+	"id": "#tormobile-4",
+	"control": "tormobile-4",
+	"title": "Conas a úsáidtear Tor ar Windows Phone?",
+	"description": "<p class=\"mb-3\">Níl aon bhealach ann faoi láthair chun Tor a úsáid ar Windows Phone.</p>"
+    },
+     "tormobile-5": {
+	"id": "#tormobile-5",
+	"control": "tormobile-5",
+	"title": "Cathain a bheidh Brabhsálaí Tor ar Android ar fáil?",
+	"description": "<p class=\"mb-3\">Táimid ag obair ar Bhrabhsálaí Tor ar Android faoi láthair, agus is dócha go bhfeicfidh tú leaganacha alfa ag teacht amach sna míonna amach romhainn. Coinnigh súil ar <mark><a href=\"https://blog.torproject.org\">ár mblag</a></mark> le haghaidh fógraí a bhaineann leis an togra seo.</p>"
+     }
+}

@@ -1,0 +1,20 @@
+{
+    "messenger-1": {
+	"id": "#messenger-1",
+	"control": "messenger-1",
+	"title": "Чи проект Tor має застосунок для приватного чату?",
+	"description": "<p class=\"mb-3\">Так! Tor Messenger, хоча він все ще в бета-версії, є крос-платформенною програмою чату, яка націлена на безпеку за умовчанням і надсилає весь трафік через Tor. Він підтримує широкий спектр транспортних мереж, включаючи XMPP, IRC, Twitter та інші; автоматично встановлює автоматичну обробку повідомлень (OTR); має простий у використанні графічний користувальницький інтерфейс; і безпечне автоматичне оновлення.</p><p class=\"mb-3\">Дивіться цей <mark><a href=\"https://blog.torproject.org/category/tags/tor-messenger\">блог Tor Messenger</a></mark> для отримання додаткової інформації.</p>"
+    },
+    "messenger-2": {
+	"id": "#messenger-2",
+	"control": "messenger-2",
+	"title": "Які платформи доступні для Tor Messenger?",
+	"description": "<p class=\"mb-3\">Tor Messenger (бета) наразі доступний на Linux, Windows і OSX.</p>"
+    },
+    "messenger-3": {
+	"id": "#messenger-3",
+	"control": "messenger-3",
+	"title": "Де я можу завантажити Tor Messenger?",
+	"description": "<p class=\"mb-3\">Хоча Tor Messenger все ще в бета-версії, останні завантаження можна знайти на нашій вікі.</p>"
+    }
+}

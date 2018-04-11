@@ -6,6 +6,7 @@ url_style = absolute
 [alternatives.en]
 name = English
 primary = yes
+url_prefix = /
 locale = en_US
 
 [alternatives.cn]

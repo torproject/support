@@ -1,0 +1,32 @@
+{
+    "faq-1": {
+	"id": "#faq-1",
+	"control": "faq-1",
+	"title": "Cuando use el Navegador Tor, ¿alguien podrá determinar qué páginas web visito?",
+	"description": "<p class=\"mb-3\">El Navegador Tor evita que la gente conozca los sitios web que visita. Algunas entidades, como su Proveedor de Servicios de Internet (ISP), pueden ser capaces de ver que está usando Tor.</p>"
+    },
+    "faq-2": {
+	"id": "#faq-2",
+	"control": "faq-2",
+	"title": "Nuestro sitio web está bloqueado por un censor. ¿El Navegador Tor puede ayudar a los usuarios a acceder a nuestro sitio web?",
+	"description": "<p class=\"mb-3\">El Navegador Tor ciertamente puede ayudar a que la gente acceda a su sitio web desde lugares donde está bloqueado. La mayoría de las veces se logrará el acceso simplemente descargando el Navegador Tor y luego usándolo para navegar hacia el sitio bloqueado. En lugares donde hay una fuerte censura, tenemos distintas opciones de elusión disponibles, incluyendo transportes intercambiables. Para más información, por favor, vea la sección sobre elusión de la censura del Manual de Usuario del Navegador Tor.</p>"
+    },
+    "faq-3": {
+	"id": "#faq-3",
+	"control": "faq-3",
+	"title": "¿Debería instalar un nuevo complemento o extensión en el Navegador Tor, como AdBlock Plus o uBlock Origin?",
+	"description": "<p class=\"mb-3\">Instalar nuevos complementos en el Navegador Tor está firmemente desaconsejado, porque pueden comprometer tanto su privacidad como su seguridad. Además, el Navegador Tor ya viene con dos complementos instalados — HTTPS Everywhere y NoScript — que le brindan protección añadida.</p>"
+    },
+    "faq-4": {
+	"id": "#faq-4",
+	"control": "faq-4",
+	"title": "¿Para qué plataformas está disponible el Navegador Tor?",
+	"description": "<p class=\"mb-3\">El Navegador Tor actualmente está disponible para Windows, Linux y macOS (OS X). Para Android, The Guardian Project se encarga de mantener las aplicaciones Orbot y Orfox, basadas en Tor. Todavía no hay una versión oficial de Tor para iOS, aunque recomendamos Onion Browser.</p>"
+    },
+    "faq-5": {
+	"id": "#faq-5",
+	"control": "faq-5",
+	"title": "¿Puedo usar una VPN con Tor?",
+	"description": "<p class=\"mb-3\">Normalmente no recomendamos usar una VPN con Tor a menos que sea un usuario avanzado que sepa como configurar ambos de forma que no comprometa su privacidad. Conozca más acerca de combinar Tor + VPN</p>"
+    }
+}

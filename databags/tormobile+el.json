@@ -1,0 +1,32 @@
+{
+    "tormobile-1": {
+	"id": "#tormobile-1",
+	"control": "tormobile-1",
+	"title": "Μπορώ να τρέξω το Tor σε μια συσκευή Android;",
+	"description": "Το Tor για Android παρέχεται από το The Guardian Project. Περισσότερες πληροφορίες μπορείτε να βρείτε στις ιστοσελίδες <mark><a href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> και <mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>. Το Orbot είναι για περιήγηση στο Web και το Orfox μπορεί να δρομολογήσει άλλες εφαρμογές στο Android κινητό σας μέσω του δικτύου Tor.<p class=\"mb-3\">"
+    },
+    "tormobile-2": {
+	"id": "#tormobile-2",
+	"control": "tormobile-2",
+	"title": "Ποιος είναι ο Guardian Project;",
+	"description": "<p class=\"mb-3\">Το Guardian Project διατηρεί το Tor (και άλλες εφαρμογές απορρήτου) για Android. Περισσότερες πληροφορίες μπορείτε να βρείτε στην <mark><a href=\"https://guardianproject.info/\">ιστοσελίδα του Guardian Project</a></mark>.</p>"
+    },
+    "tormobile-3": {
+	"id": "#tormobile-3",
+	"control": "tormobile-3",
+	"title": "Μπορώ να τρέξω τον Tor σε μια συσκευή iOS;",
+	"description": "<p class=\"mb-3\">Συνιστούμε μια εφαρμογή iOS που ονομάζεται Onion Browser, η οποία είναι ανοιχτού κώδικα, χρησιμοποιεί δρομολόγηση Tor και αναπτύσσεται από κάποιον που συνεργάζεται στενά με το Tor Project. Ωστόσο, η Apple απαιτεί προγράμματα περιήγησης στο iOS να χρησιμοποιούν κάτι που ονομάζεται Webkit, το οποίο εμποδίζει το Onion Browser να έχει τις ίδιες προστασίες απορρήτου με το Tor Browser. <mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor\">Μάθετε περισσότερα σχετικά με το Onion Browser</a></mark>.</p>"
+    },
+    "tormobile-4": {
+	"id": "#tormobile-4",
+	"control": "tormobile-4",
+	"title": "Πώς μπορώ να τρέξω το Tor σε Windows Phone;",
+	"description": "<p class=\"mb-3\">Αυτήν τη στιγμή δεν υπάρχει υποστηριζόμενη μέθοδος για εκτέλεση του Tor σε Windows Phone.</p>"
+    },
+     "tormobile-5": {
+	"id": "#tormobile-5",
+	"control": "tormobile-5",
+	"title": "Πότε θα κυκλοφορήσει ο Tor Browser για Android;",
+	"description": "<p class=\"mb-3\">Αυτή τη στιγμή δουλεύουμε στο Tor Browser για Android και ενδέχεται να δείτε τις κυκλοφορίες alpha να εμφανίζονται τους επόμενους μήνες. Παρακολουθήστε το <mark><a href=\"https://blog.torproject.org\">ιστολόγιό</a></mark> μας για μελλοντικές ανακοινώσεις και λεπτομέρειες σχετικά με αυτό το έργο.</p>"
+     }
+}

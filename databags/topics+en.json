@@ -52,6 +52,6 @@
     "misc": {
 	"path": "#misc",
 	"control": "misc",
-	"label": "misc"
+	"label": "Misc"
     }
 }

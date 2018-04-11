@@ -1,0 +1,32 @@
+{
+    "tormobile-1": {
+	"id": "#tormobile-1",
+	"control": "tormobile-1",
+	"title": "Puis-je utiliser Tor sur un appareil Android ?",
+	"description": "<p class=\"mb-3\">Tor sur Android est proposé par le Projet Guardian. De plus amples renseignements se trouvent sur les pages Web d’​<mark><a href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> et d’<mark><a href=\"https://guardianproject.info/apps/orfox/\">​Orfox</a></mark>.Orbot peut acheminer les autres applis de votre téléphone Android par le réseau Tor et Orfox permet de naviguer sur le Web.</p>"
+    },
+    "tormobile-2": {
+	"id": "#tormobile-2",
+	"control": "tormobile-2",
+	"title": "Qui est le Projet Guardian ?",
+	"description": "<p class=\"mb-3\">Le projet Guardian maintient Tor (et d’autres applications de confidentialité) sur Android. De plus amples renseignements se trouvent sur le <mark><a href=\"https://guardianproject.info/\">site Web du Projet Guardian</a></mark>.</p>"
+    },
+    "tormobile-3": {
+	"id": "#tormobile-3",
+	"control": "tormobile-3",
+	"title": "Puis-je utiliser Tor sur un appareil iOS ?",
+	"description": "<p class=\"mb-3\"> Nous recommandons une appli iOS appelée navigateur Onion qui est à code source ouvert, utilise le routage Tor et est développée par une personne qui coopère étroitement avec le Projet Tor. Cependant, Apple exige que les navigateurs, sur iOS, utilisent quelque chose appelé « Webkit » qui empêche au navigateur Onion de proposer la même protection de la confidentialité que le navigateur Tor. <mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor\">En apprendre davantage sur le navigateur Onion</a></mark>.</p>"
+    },
+    "tormobile-4": {
+	"id": "#tormobile-4",
+	"control": "tormobile-4",
+	"title": "Comment puis-je utiliser Tor sur Windows Phone ?",
+	"description": "<p class=\"mb-3\">Il n'existe actuellement aucun moyen pris en charge  d’utiliser Tor sur Windows Phone.</p>"
+    },
+     "tormobile-5": {
+	"id": "#tormobile-5",
+	"control": "tormobile-5",
+	"title": "Quand le navigateur Tor pour Android paraîtra-t-il ?",
+	"description": "<p class=\"mb-3\">Nous travaillons actuellement sur le navigateur Tor pour Android. Des versions de test alpha pourraient apparaître dans les mois à venir. Veuillez surveiller la publication d’annonces futures et de plus amples renseignements concernant ce projet sur notre <mark><a href=\"https://blog.torproject.org\">blogue</a></mark>.</p>"
+     }
+}

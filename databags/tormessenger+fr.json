@@ -1,0 +1,20 @@
+{
+    "messenger-1": {
+	"id": "#messager-1",
+	"control": "messager-1",
+	"title": "Le projet Tor offre-t-il une application confidentielle de clavardage ?",
+	"description": "<p class=\"mb-3\">Oui ! Le messager Tor, bien que toujours en version bêta, est un programme multiplateforme de clavardage qui tend à être sécurisé par défaut et envoie tout son trafic par Tor. Il prend en charge une grande variété de réseaux de transport dont XMPP, IRC, Twitter et autres ; les messages sont automatiquement confidentiels (OTR) ; il offre une interface utilisateur graphique conviviale ; ainsi qu’un programme de mise à jour automatique et sécurisé.</p><p class=\"mb-3\">Consulter les <mark><a href=\"https://blog.torproject.org/category/tags/tor-messenger\">billets de blogue sur le messager Tor (en anglais)</a></mark> pour de plus amples renseignements.</p>"
+    },
+    "messenger-2": {
+	"id": "#messager-2",
+	"control": "messager-2",
+	"title": "Sur quelles plateformes le messager Tor est-il proposé ?",
+	"description": "<p class=\"mb-3\">le messager Tor (bêta) est actuellement proposé pour Linux, Windows et OS X.</p>"
+    },
+    "messenger-3": {
+	"id": "#messager-3",
+	"control": "messager-3",
+	"title": "Où puis-je télécharger le messager Tor ?",
+	"description": "<p class=\"mb-3\">Bien que le messager Tor soit encore en version bêta, les derniers téléchargements se trouvent sur notre wiki.</p>"
+    }
+}

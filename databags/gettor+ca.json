@@ -1,0 +1,26 @@
+{
+    "gettor-1": {
+	"id": "#gettor-1",
+	"control": "gettor-1",
+	"title": "Com puc baixar el Tor si el torproject.org està blocat?",
+	"description": "<p class=\"mb-3\">Si no podeu baixar el Tor a través del nostre <mark><a href=\"https://www.torproject.org\">lloc web</a></mark>, podeu obtindre'n una copia a través del GetTor. El GetTor és un servei que respon automàticament als missatges amb enllaços a la última versió del Tor Browser, hostatjada en una gran varietat d'ubicacions que segurament no estiguin blocades, com ara Dropbox, Google Drive i Github.</p>"
+    },
+    "gettor-2": {
+	"id": "#gettor-2",
+	"control": "gettor-2",
+	"title": "Per a utilitzar el GetTor via correu electrònic.",
+	"description": "<p class=\"mb-3\">Envieu un correu electrònic a gettor@torproject.org. Escriviu el vostre sistema operatiu (p.e. Windows, macOS o Linux) en el cos del missatge i envieu-lo. El GetTor us respondrà amb un altre correu que contindrà els enllaços des dels que podreu baixar el Tor Browser, la signatura criptogràfica (necessària per a verificar la baixada) [enllaç a la definició del glossari de la signatura criptogràfica, instruccions per a la verificació], l'empremta de la clau utilitzada per a crear la signatura, i la suma de verificació del paquet. Se us oferirà triar entre programari de «32-bit» o «64-bit»: depèn del model de l'ordinador que esteu utilitzant; consulteu la seva documentació per a més informació.</p>"
+    },
+    "gettor-3": {
+	"id": "#gettor-3",
+	"control": "gettor-3",
+	"title": "Per a utilitzar el GetTor via Twitter.",
+	"description": "<p class=\"mb-3\">Per a obtenir enllaços per a baixar el Tor Browser, envieu un missatge directe a <mark><a href=\"https://twitter.com/get_tor\">@get_tor</a></mark> amb un dels codis següents (no cal que seguiu eixe compte):</p> <p class=\"mb-3\"><ul><li>Linux</li><li>macOS (OS X)</li><li>Windows</li></ul></p>"
+    },
+    "gettor-4": {
+	"id": "#gettor-4",
+	"control": "gettor-4",
+	"title": "Per a utilitzar el GetTor via XMPP (Tor Messenger, Jitsi, CoyIM).",
+	"description": "<p class=\"mb-3\">Per a obtenir enllaços per a baixar el Tor Browser, envieu un missatge a gettor@torproject(dot)org amb un dels codis següents:</p><p class=\"mb-3\"><ul><li>Linux</li><li>macOS (OS X)</li><li>Windows</li></ul></p>"
+    }
+}

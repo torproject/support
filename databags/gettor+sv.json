@@ -1,0 +1,26 @@
+{
+    "gettor-1": {
+	"id": "#gettor-1",
+	"control": "gettor-1",
+	"title": "Hur laddar jag ner Tor om torproject.org är spärrad?",
+	"description": "<p class=\"mb-3\">Om du inte kan ladda ner Tor på vår ​<mark><a href=\"https://www.torproject.org\">webbsajt</a></mark>, så kan du få Tor levererat till dig via GetTor. GetTor är en tjänst som automatiskt svarar på meddelanden med länkar till den senaste versionen av Tor Browser, som finns på flera olika platser som sannolikt inte är censurerade, till exempel Dropbox, Google Drive och Github.</p>"
+    },
+    "gettor-2": {
+	"id": "#gettor-2",
+	"control": "gettor-2",
+	"title": "För att använda GetTor via e-post.",
+	"description": "<p class=\"mb-3\">Skicka e-post till gettor@torproject.org. Skriv ditt operativsystem (exempelvis windows, MacOS (OS X) eller linux) i meddelandet och skicka. GetTor svarar med ett e-postmeddelande med länkar från vilka du kan hämta Tor Browser-paketet, kryptografiska signaturen (behövs för att verifiera hämtningen), fingeravtryck av den nyckel som används för att göra signaturen och paketets kontrollsumma. Du kan erbjudas ett val av \\\"32-bitars\\\" eller \\\"64-bitars\\\" programvara: detta beror på vilken modell av datorn du använder.</p>"
+    },
+    "gettor-3": {
+	"id": "#gettor-3",
+	"control": "gettor-3",
+	"title": "Använda GetTor via Twitter.",
+	"description": "<p class=\"mb-3\">För att få länkar för att ladda ner Tor Browser, skicka ett direktmeddelande till ​<mark><a href=\"https://twitter.com/get_tor\">@get_tor</a></mark> med en av följande koder i meddelandet (du måste inte följa kontot):</p><p class=\"mb-3\"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>"
+    },
+    "gettor-4": {
+	"id": "#gettor-4",
+	"control": "gettor-4",
+	"title": "Använda GetTor via XMPP (Tor Messenger, Jitsi, CoyIM).",
+	"description": "<p class=\"mb-3\">För att få länkar för att ladda ner Tor Browser, skicka ett meddelande till gettor@toproject(punkt)org med en av följande koder i meddelandet:</p><p class=\"mb-3\"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>"
+    }
+}

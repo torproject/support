@@ -1,0 +1,26 @@
+{
+    "gettor-1": {
+	"id": "#gettor-1",
+	"control": "gettor-1",
+	"title": "Cum descarc Tor dacă torproject.org e blocat?",
+	"description": "<p class=\"mb-3\">Dacă nu poți descărca Tor din ​<mark><a href=\"https://www.torproject.org\">website</a></mark>, poți obține o o copie a Tor prin intermediul GetTor. GetTor e un serviciu care răspunde automat la mesaje cu legături către ultima versiune de Tor Browser stocata într-o varietate de locuri mai puțin probabil de a fi cenzurate, cum ar fi Dropbox, Google Drive sau Github.</p>"
+    },
+    "gettor-2": {
+	"id": "#gettor-2",
+	"control": "gettor-2",
+	"title": "Cum folosești GetTor prin email.",
+	"description": "<p class=\"mb-3\">Trimite un email la gettor@torproject.org. Scrie sistemul tău de operare (Windows, MacOS (OS X), or linux) în corpul mesajului și trimite. GetTor va răspunde cu un email conținînd link-uri de unde poți descărca Tor Browser, semnătura digitală (necesară pentru a verifica descărcarea) [link spre definiția semnăturii digitale; instrucțiuni de verificare], amprenta cheii folosite la semnătură, și suma de control a pachetului. Ți se pot oferi variante ale softului pe \"32-bit\" sau \"64-bit\": aceasta depinde de modelul computerului pe care îl folosești; verifică documentația computerului pentru a afla mai multe.</p>"
+    },
+    "gettor-3": {
+	"id": "#gettor-3",
+	"control": "gettor-3",
+	"title": "Cum folosești GetTor prin Twitter.",
+	"description": "<p class=\"mb-3\">Pentru a obține link-uri de descărcare pentru Tor Browser, trimite un mesaj direct la<mark><a href=\"https://twitter.com/get_tor\">@get_tor</a></mark> cu unul din următoarele coduri (nu e necesar să urmărești contul):</p><p class=\"mb-3\"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>"
+    },
+    "gettor-4": {
+	"id": "#gettor-4",
+	"control": "gettor-4",
+	"title": "Cum folosești GetTor prin XMPP (Tor Messenger, Jitsi, CoyIM).",
+	"description": "<p class=\"mb-3\">Pentru a obține link-uri de descărcare pentru Tor Browser prin XMPP, trimite un mesaj la gettor@toproject(dot)org cu unul din următoarele coduri:</p><p class=\"mb-3\"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>"
+    }
+}

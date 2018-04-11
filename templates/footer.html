@@ -34,15 +34,14 @@
       <div class="col-sm-2 mt-5 d-none d-sm-block">
         <div class="btn-group dropdown float-right">
       	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      	    English
+            {{ bag('alternatives', this.alt, 'language') }}
       	  </button>
       	  <div class="dropdown-menu">
-      	    <a class="dropdown-item" href="#">Action</a>
-      	    <a class="dropdown-item" href="#">Another action</a>
-      	    <a class="dropdown-item" href="#">Something else here</a>
-      	    <div class="dropdown-divider"></div>
-      	    <a class="dropdown-item" href="#">Separated link</a>
-      	  </div>
+            {% for id, item in bag('alternatives').items() %}
+              {% if this.alt != id %}
+    	          <a class="dropdown-item" href="{{ item.url }}">{{ item.language }}</a>
+              {% endif %}
+            {% endfor %}
       	</div>
       </div>
     </div>

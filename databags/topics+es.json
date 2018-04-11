@@ -2,12 +2,12 @@
     "faq": {
 	"path": "#faq",
 	"control": "faq",
-	"label": "Most Frequently Asked Questions"
+	"label": "Preguntas más frecuentes"
     },
     "tbb": {
 	"path": "#tor-browser",
 	"control": "tor-browser",
-	"label": "Tor Browser"
+	"label": "Navegador Tor"
     },
     "tormessenger": {
 	"path": "#tor-messenger",
@@ -27,12 +27,12 @@
     "connecting": {
 	"path": "#connecting-to-tor",
 	"control": "connecting-to-tor",
-	"label": "Connecting To Tor"
+	"label": "Conectar a Tor"
     },
     "censorship": {
 	"path": "#censorship",
 	"control": "censorship",
-	"label": "Censorship"
+	"label": "Censura"
     },
     "https": {
 	"path": "#https",
@@ -42,16 +42,16 @@
     "operators": {
 	"path": "#operators",
 	"control": "operators",
-	"label": "Operators"
+	"label": "Operadores"
     },
     "onionservices": {
 	"path": "#onion-services",
 	"control": "onion-services",
-	"label": "Onion Services"
+	"label": "Servicios onion"
     },
     "misc": {
 	"path": "#misc",
 	"control": "misc",
-	"label": "misc"
+	"label": "Varios"
     }
 }

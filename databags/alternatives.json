@@ -1,0 +1,20 @@
+{
+  "en": {
+    "direction": "text-left",
+    "order": "order-last",
+    "url": "/",
+    "language": "English"
+  },
+  "cn": {
+    "direction": "text-right",
+    "order": "order-first",
+    "url": "/cn/",
+    "language": "Chinese"
+  },
+  "es": {
+    "direction": "text-left",
+    "order": "order-last",
+    "url": "/es/",
+    "language": "Español"
+  }
+}
