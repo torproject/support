@@ -1,4 +1,6 @@
 {% extends "layout.html" %}
+{% from "macros/topic.html" import render_topic %}
+
 {% block body %}
     <div class="page">
       <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
@@ -10,7 +12,7 @@
                 <div class="col-12 input-group p-0">
                   <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="Search .." aria-label="Search">
                   <span class="input-group-btn">
-                    <button class="btn btn-light" type="submit">Search</button>
+                    <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
                   </span>
                 </div>
               </div>
@@ -22,8 +24,13 @@
         <div class="row flex-xl-nowrap">
           {% include 'sidenav.html' %}
           <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 {{ bag('alternatives', this.alt, 'order') }}">
+	    <div id="topics">
+	    {% for item in this.children %}
+	      {{ render_topic(item, this) }}
 
-	    {% include 'topics.html' %}
+	    {% endfor %}
+	    </div>
+	   <!-- {% include 'topics.html' %} -->
 
             {{ this.body }}
           </main>
