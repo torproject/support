@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Para quais sistemas operacionais o Tor Browser está disponível?
+---
+description: 
+<p class="mb-3">O Tor Browser está atualmente disponível para Windows, Linux e macOS (OS X). Para Androoid, The Guardian Project mantém os aplicativos providos pelo Tor chamados Orbot e Orfox. Não há nenhuma versão oficial do Tor para iOS ainda, apesar de recomendarmos o Onion Browser. </p>

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Le fait d’utiliser le navigateur Tor fait-il de moi un relais ?
+---
+description: 
+<p class="mb-3">L’utilisation du navigateur Tor ne vous fait pas agir en tant que relais dans le réseau. Cela signifie que votre ordinateur ne sera pas utilisé pour acheminer le trafic des autres. Si vous souhaitez devenir un relais, veuillez consulter notre <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guide sur les relais Tor</a></mark> (en anglais).</p>

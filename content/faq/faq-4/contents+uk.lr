@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Які платформи доступні для браузера Tor?
+---
+description: 
+<p class="mb-3">Браузер Tor наразі доступний у Windows, Linux та macOS (OS X). Для Андроїда, The Guardian Project підтримує Tor-ові застосунки Orbot і Orfox. Ще немає офіційної версії Tor для iOS, хоча ми рекомендуємо браузер Onion.</p>

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Saat menggunakan Tor Browser, apakah pihak lain dapat mengetahui situs web yang saya kunjungi?
+---
+description: 
+<p class="mb-3">Tor Browser mencegah pihak lain mengetahui situs web yang Anda kunjungi. Beberapa pihak seperti Penyedia Jasa Internet (Internet Service Provider, ISP) mungkin akan mengetahui Anda sedang menggunakan Tor.</p>

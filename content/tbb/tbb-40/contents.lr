@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Does Tor Browser use a different circuit for each website?
+---
+description: 
+<p class="mb-3">In Tor Browser, every domain gets its own circuit. ​<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document has further details regarding this issue.</p>

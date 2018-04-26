@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Använda GetTor via Twitter.
+---
+description: 
+<p class="mb-3">För att få länkar för att ladda ner Tor Browser, skicka ett direktmeddelande till ​<mark><a href="https://twitter.com/get_tor">@get_tor</a></mark> med en av följande koder i meddelandet (du måste inte följa kontot):</p><p class="mb-3"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>

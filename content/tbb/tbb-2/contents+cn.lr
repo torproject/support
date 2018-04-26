@@ -1,0 +1,6 @@
+_model: question 
+---
+title: 我的网站被审查机构屏蔽了，Tor Browser 能帮助用户访问我的网站吗？
+---
+description: 
+<p class="mb-3">Tor Browser 当然可以帮助人们在网络受审查的地区访问被屏蔽的网站。大多数时候只需要下载<mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser </a></mark>并使用它进行浏览即可。在网络审查十分严格的地区，我们还提供了许多规避措施，例如<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>。请参阅<mark><a href="https://tb-manual.torproject.org/en-US/">Tor Browser 用户手册</a></mark>的<mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">审查</a></mark>章节以获得更多信息。

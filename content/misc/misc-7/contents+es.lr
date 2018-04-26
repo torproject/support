@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Puedo usar Tor con bittorrent?
+---
+description: 
+<p class="mb-3">No recomendamos usar Tor con bittorrent. Para más detalles lee nuestro <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">artículo del blog sobre este tema</a></mark>.</p>

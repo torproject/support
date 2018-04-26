@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Mon antivirus ou ma protection contre les programmes malveillants m’empêche d’accéder au navigateur Tor.
+---
+description: 
+<p class=" mb-3">La plupart des antivirus ou des protections contre les programmes malveillants permettent aux utilisateurs de mettre en liste blanche certains processus qui pourraient autrement être bloqués. Ouvrez votre logiciel antivirus ou de protection contre les programmes malveillants et cherchez dans les paramètres une liste blanche ou quelque chose de semblable. Excluez ensuite les processus suivants :</p><p class=" mb-3"><ul>Pour Windows<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe (si vous utilisez des ponts)</li></ul><ul>Pour macOS (OS X)<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy (si vous utilisez des ponts)</li></ul></p><p class=" mb-3">Enfin, redémarrez le navigateur Tor.</p>

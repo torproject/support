@@ -1,0 +1,6 @@
+_model: question 
+---
+title: J’ai une raison impérieuse de suivre un utilisateur de Tor à la trace. Pouvez-vous m’aider ?
+---
+description: 
+<p class="mb-3">Les développeurs de Tor ne peuvent rien faire pour suivre les utilisateurs de Tor à la trace. Les mêmes protections qui empêchent les personnes mal intentionnées de percer l’anonymat de Tor nous empêchent aussi de suivre les utilisateurs à la trace.</p>

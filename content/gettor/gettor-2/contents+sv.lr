@@ -1,0 +1,6 @@
+_model: question 
+---
+title: För att använda GetTor via e-post.
+---
+description: 
+<p class="mb-3">Skicka e-post till gettor@torproject.org. Skriv ditt operativsystem (exempelvis windows, MacOS (OS X) eller linux) i meddelandet och skicka. GetTor svarar med ett e-postmeddelande med länkar från vilka du kan hämta Tor Browser-paketet, kryptografiska signaturen (behövs för att verifiera hämtningen), fingeravtryck av den nyckel som används för att göra signaturen och paketets kontrollsumma. Du kan erbjudas ett val av \"32-bitars\" eller \"64-bitars\" programvara: detta beror på vilken modell av datorn du använder.</p>

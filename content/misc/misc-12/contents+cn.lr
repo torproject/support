@@ -1,0 +1,6 @@
+_model: question 
+---
+title: 我能修改tor网络中的跳跃次数吗？
+---
+description: 
+<p class="mb-3">现在路径长度被锁定为三加上您路径中敏感的节点数量。也就是说，在正常的状况下这是三。不过如果您正在访问洋葱服务或者.exit地址，它可能会更多。</p><p class="mb-3"We don't want to encourage people to use paths longer than this as it increases load on the network without (as far as we can tell) providing any more security. Also, using paths longer than 3 could harm anonymity, first because it makes<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">安全攻击</a></mark>会变得更加容易。而且这只有少数用户才拥有的路径长度也会变成辨识您身份的符号。</p>

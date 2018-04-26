@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Mon administrateur réseau saura-t-il que j’utilise le navigateur Tor ?
+---
+description: 
+<p class="mb-3">Lorsque vous utilisez Tor ou le navigateur Tor, nous ne garantissons pas que personne ne puisse déterminer que vous utilisez Tor. L’objectif est plutôt que personne ne sache ce que vous faites avec Tor. L’utilisation des transports enfichables peut compliquer l’identification du trafic de Tor, mais il n’est pas impossible de l’identifier.</p>

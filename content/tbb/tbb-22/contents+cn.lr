@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Why did my search engine switch to DuckDuckGo?
+---
+description: 
+<p class="mb-3">With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine. For a while now, Disconnect has had no access to Google search results which we used in Tor Browser. Disconnect being more of a meta search engine which allows users to choose between different search providers fell back to delivering Bing search results which were basically unacceptable quality-wise.</p>

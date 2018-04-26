@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Quel moteur de recherche est configuré avec le navigateur Tor et comment protège-t-il mes renseignements personnels ?
+---
+description: 
+<p class="mb-3">DuckDuckGo est le moteur de recherche par défaut dans le navigateur Tor. DuckDuckGo ne suit pas ses utilisateurs à la trace ni n’enregistre aucune donnée sur les recherches des utilisateurs.</p>

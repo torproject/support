@@ -1,0 +1,8 @@
+_model: question 
+---
+title: Je ne peux pas accéder à X.onion !
+---
+description: 
+<p class="mb-3">Si vous ne pouvez pas atteindre le service oignon que vous souhaitez, assurez-vous d’avoir saisi correctement l’adresse oignon de 16 caractères. Toute erreur, même minime, empêchera le navigateur Tor d’atteindre le site. Si vous n’arrivez toujours pas à vous connecter au service oignon, veuillez ressayer ultérieurement. Il pourrait y avoir un problème temporaire de connexion ou les exploitants du site pourraient l’avoir désactivé sans avertissement.</p><p class="mb-3">Vous pouvez aussi vous assurer que vous arrivez à accéder à d’autres services oignon en vous connectant au service oignon de <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>.</p>
+
+

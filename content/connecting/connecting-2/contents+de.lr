@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Ich kann X.onion nicht erreichen!
+---
+description: 
+<p class="mb-3">Wenn du den gewünschten Onion-Dienst nicht erreichen kannst, stelle sicher, dass du die 16 Zeichen lange Onion-Adresse richtig eingegeben hast: Sogar ein kleiner Tippfehler verhindert, dass Tor-Browser die Website finden kann. Wenn du dich dann mit dem Onion-Dienst immer noch nicht verbinden kannst, versuche es später noch einmal. Es kann vorübergehende Verbindungsprobleme im Netz geben oder die Seitenbetreiber haben ohne Vorwarnung die Seite vom Netz genommen.</p><p class="mb-3">Du kannst auch überprüfen, ob es dir grundsätzlich möglich ist Onion-Dienste zu nutzen, in dem du dich mit <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>s Onion-Dienst verbindest.</p>

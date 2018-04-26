@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Tengo una razón imperiosa para trazar a un usuario de Tor. ¿Me puede ayudar?
+---
+description: 
+<p class="mb-3">No hay nada que los desarrolladores de Tor puedan hacer para trazar a los usuarios de Tor. Las mismas protecciones que evitan que indeseables rompan el anonimato de Tor nos impiden a nosotros rastrear usuarios.</p>

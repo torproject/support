@@ -1,8 +1,0 @@
-{
-    "https-1": {
-	"id": "#https-1",
-	"control": "https-1",
-	"title": "Während ich Tor benutze, können Lauscher immer noch die Informationen sehen, die ich mit Webseiten teile, wie Login-Informationen und Dinge, die ich in Formulare eintippe?",
-	"description": "Tor stoppt Lauscher davor über die Seiten die du besuchst zu lernen. Allerdings können Informationen, die unverschlüsselt über das Internet mit Hilfe von Plain-HTTP gesendet werden, weiterhin von den Betreibern der Exit-server oder jedem, der den Verkehr zwischen Ihrem Exit-server und Ihrer Ziel-seite beobachtet, abgefangen werden. Wenn die Seite, die Sie besuchen, HTTPS verwendet, dann wird der Verkehr, der Ihr Exit-server verlässt, verschlüsselt und ist für Lauscher nicht sichtbar. Wenn Sie HTTPS verwenden, beginnt Ihre Internetseiten-URL mit \"https://\". Diese Visualisierung zeigt, welche Informationen für Lauscher mit und ohne Tor Browser und HTTPS-Verschlüsselung sichtbar sind."
-    }
-}

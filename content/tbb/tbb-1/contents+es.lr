@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿El administrador de mi red podrá determinar que estoy usando el Navegador Tor?
+---
+description: 
+<p class="mb-3">Al usar Tor / Navegador Tor, no procuramos la garantía de que nadie podrá determinar que está usando Tor. En su lugar, la meta es que nadie sepa lo que está haciendo con Tor. Usar transportes intercambiables (pluggable transports) puede hacer que identificar el tráfico de Tor sea más difícil, pero no imposible.</p>

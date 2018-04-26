@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Té el Projecte Tor cap aplicació per a conversar de manera privada?
+---
+description: 
+<p class="mb-3">Sí! El Tor Messenger, que encara es troba en versió beta, és un programa de xat multi-plataforma que prova de ser privat de manera predeterminada i envia tot el seu tràfic a través de Tor. És compatible amb una gran varietat de xarxes de transport, incloent-hi XMPP, IRC, Twitter, i altres; té una interfície gràfica fàcil d'utilitzar; i un actualitzador automàtic.</p><p class="mb-3">Mireu aquesta <mark><a href="https://blog.torproject.org/category/tags/tor-messenger">publicació sobre el Tor Messenger</a></mark> per a més informació.</p>

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: 我无法访问X.onion！
+---
+description: 
+<p class=\"mb-3\">如果您无法访问洋葱站点，请确认您输入了正确的，16位的网址：即使一个微小的错误也会阻止Tor浏览器访问这个站点。如果您还是无法访问这个网站，请稍后重试。这可能是暂时性的问题，或者网站管理员未给出标示就下线了网站。</p><p class=\"mb-3\">您也可以通过访问<a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>的洋葱站点来确认您的浏览器配置正确。

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Μπορώ να τρέξω τον Tor σε μια συσκευή iOS;
+---
+description: 
+<p class="mb-3">Συνιστούμε μια εφαρμογή iOS που ονομάζεται Onion Browser, η οποία είναι ανοιχτού κώδικα, χρησιμοποιεί δρομολόγηση Tor και αναπτύσσεται από κάποιον που συνεργάζεται στενά με το Tor Project. Ωστόσο, η Apple απαιτεί προγράμματα περιήγησης στο iOS να χρησιμοποιούν κάτι που ονομάζεται Webkit, το οποίο εμποδίζει το Onion Browser να έχει τις ίδιες προστασίες απορρήτου με το Tor Browser. <mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">Μάθετε περισσότερα σχετικά με το Onion Browser</a></mark>.</p>

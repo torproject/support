@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Puedo ejecutar múltiples instancias del Navegador Tor?
+---
+description: 
+<p class="mb-3">No recomendamos ejecutar múltiples instancias del Navegador Tor, pueden no funcionar como se espera en muchas plataformas.</p>

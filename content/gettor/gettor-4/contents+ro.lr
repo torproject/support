@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Cum folosești GetTor prin XMPP (Tor Messenger, Jitsi, CoyIM).
+---
+description: 
+<p class="mb-3">Pentru a obține link-uri de descărcare pentru Tor Browser prin XMPP, trimite un mesaj la gettor@toproject(dot)org cu unul din următoarele coduri:</p><p class="mb-3"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>

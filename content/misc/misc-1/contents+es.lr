@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Estoy teniendo un problema actualizando o usando Vidalia.
+---
+description: 
+<p class="mb-3">Vidalia ya no es mantenido ni está soportado. Una gran porción de las características que ofrecía Vidalia ahora están integradas en el propio Navegador Tor.</p>

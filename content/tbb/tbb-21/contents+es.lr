@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Por qué mi Navegador Tor menciona algo sobre que Firefox no funciona?
+---
+description: 
+<p class="mb-3">El Navegador Tor se desarrolló usando ​<mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, así que pueden ocurrir errores relacionados con Firefox. Asegúrate de que ninguna otra instancia del Navegador Tor se está ejecutando, y que has extraído el Navegador Tor en una ubicación para la que su usuario tiene los permisos correctos. Si estás ejecutando un antivirus, por favor, lee [linkto: Mi antivirus o protección contra malware está impidiéndome acceder al Navegador Tor], es común que el software antivirus / antimalware provoque este tipo de problemas.</p>

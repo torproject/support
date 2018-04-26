@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Tor项目有提供可以防护隐私的应用吗？
+---
+description: 
+<p class="mb-3">有的！Tor Messenger，尽管它还在测试阶段。它是一个跨平台的聊天项目，旨在保护您的隐私。它通过将聊天中产生的数据使用tor网络传输来确保您的信息安全。该项目已经支持多种聊天协议，包括XMPP, IRC, Twitter等等。它支持不留记录的即时通讯，安全的自动更新，拥有易用的图形界面。</p><p class="mb-3">查看这个<mark><a href="https://blog.torproject.org/category/tags/tor-messenger">Tor Messenger 博客</a></mark>或许更多信息。</p>

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Unsere Website wird blockiert. Kann Tor Browser den Benutzern helfen, die Website trotzdem zu erreichen?
+---
+description: 
+<p class="mb-3">Tor Browser kann dabei helfen Menschen Zugang zu deiner Webseite an Orten zu verschaffen, wo diese blockiert wird. In den meisten Fällen genügt es, Tor Browser herunterzuladen und mit ihm zur blockierten Seite zu navigieren um Zugang zu erhalten. Für Orte mit aufwändigen Zensurmaßnahmen verfügen wir über einen Satz an Zensurumgehungsoptionen, einschließlich austauschbarer Übertragungsarten. Für weitere Informationen dazu öffne die Tor Browser-Benutzeranleitung im Abschnitt Zensur.</p>

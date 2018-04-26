@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¡No puedo conectar a X.onion!
+---
+description: 
+<p class="mb-3">Si no puede alcanzar el servicio onion que desea, asegúrese de que ha introducido correctamente la dirección onion de 16 caracteres: incluso un pequeño error evitará que el Navegador Tor logre alcanzar el sitio. Si aún así no puede conectar al servicio onion, por favor, inténtelo de nuevo más tarde. Puede haber un problema temporal con la conexión, o los operadores del sitio pueden haberle permitido desconectar sin avisar.</p><p class="mb-3">También puede asegurarse de que es capaz de acceder a otros servicios onion conectando al servicio onion de <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>.</p>

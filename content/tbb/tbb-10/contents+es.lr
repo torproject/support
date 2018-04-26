@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Puedo usar otro navegador como Chrome o Firefox cuando estoy usando el Navegador Tor?
+---
+description: 
+<p class="mb-3">Desde luego puedes usar otro navegador mientras estás usando, también, el Navegador Tor. Sin embargo, debes de saber que las propiedades de privacidad del Navegador Tor no estarán presentes en el otro navegador (cuyo tráfico no viajará a través de la red Tor). Ten cuidado al cambiar de uno a otro entre el Navegador Tor y un navegador menos seguro, porque accidentalmente puedes usar el otro navegador para algo que tratas de hacer usando Tor.</p>

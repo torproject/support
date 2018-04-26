@@ -1,0 +1,6 @@
+_model: question 
+---
+title: *BSD est-il pris en charge ?
+---
+description: 
+<p class="mb-3">Désolé, mais il n’y a actuellement aucune prise en charge officielle pour exécuter le navigateur Tor sur *BSD. Il existe quelque chose appelé le Projet TorBSD, mais leur navigateur Tor n’est pas pris en charge officiellement.</p>

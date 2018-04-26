@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Por qué no evitan que gente indeseable haga maldades cuando usa Tor?
+---
+description: 
+<p class="mb-3">Tor está diseñado para defender los derechos humanos y la privacidad evitando que cualquiera censure cosas, incluso nosotros. Aborrecemos que haya algunas personas que usen Tor para hacer cosas terribles, pero no podemos hacer nada para librarnos de ellos sin socavar también los activistas pro derechos humanos, periodistas, supervivientes de abuso, y otras personas que usan Tor para cosas buenas. Si queremos evitar que ciertas personas usen Tor, básicamente estaríamos añadiendo una puerta trasera al software, lo que dejaría vulnerables a nuestros usuarios a ataques de regímenes opresivos y otros adversarios.</p>

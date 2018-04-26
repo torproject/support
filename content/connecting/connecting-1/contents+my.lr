@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Pelayar Tor tidak dapat bersambung, tetapi ia bukanlah isu berkenaan penapisan.
+---
+description: 
+<p class="mb-3">Salah satu masalah utama yang menyebabkan ralat sambungan dalam Pelayar Tor ialah jam sistem yang salah. Sila pastikan jam sistem dan zon waktu anda telah ditetapkan dengan betul. Jika masalah ini masih berlaku, sila rujuk laman Pencarisilapan di dalam <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">​panduan Pelayar Tor</a></mark>.</p>

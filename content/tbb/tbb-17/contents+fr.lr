@@ -1,0 +1,31 @@
+_model: question 
+---
+title: Comment puis-je mettre le navigateur Tor à jour ?
+---
+description: 
+<p class="mb-3">Vous pouvez mettre le navigateur Tor à jour dès qu’une nouvelle version paraît.</p><div class="col-md-6">
+
+<div class="card">
+<img class="card-img-top" src="/static/images/image4.png" alt="Alerte de nouvelle version"><div class="card-body">
+<h4 class="card-title">Le navigateur Tor vous invitera à mettre le logiciel à jour dès qu’une nouvelle version est parue.</h4>
+<p class="card-text">L’icône de BoutonTor (le petit oignon vert dans le coin supérieur droit du navigateur) affichera un triangle jaune.</p></div>
+</div>
+</div>
+<p class="mb-3">Lors du démarrage du navigateur Tor, vous pourriez voir une indication écrite vous avisant qu’une mise à jour est proposée.</p><div class="col-md-6">
+
+<div class="card">
+<img class="card-img-top" src="/static/images/image5.png" alt="Alerte de nouvelle version"><div class="card-body">
+<h4 class="card-title">Titre de la carte</h4>
+<p class="card-text">Texte de la carte</p></div>
+</div>
+</div>
+<p class="mb-3">Le navigateur Tor installera les mises à jour.</p><div class="col-md-6">
+
+<div class="card">
+<img class="card-img-top" src="/static/images/image3.png" alt="Alerte de nouvelle version"><div class="card-body">
+<h4 class="card-title">Titre de la carte</h4>
+<p class="card-text">Texte de la carte</p></div>
+</div>
+</div>
+
+

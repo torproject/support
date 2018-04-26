@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Mi antivirus o protección contra malware está impidiéndome acceder al Navegador Tor.
+---
+description: 
+<p class="mb-3">La mayoría de los antivirus o protecciones contra malware permiten que el usuario añada a la "lista blanca" ciertos procesos que de otro modo serían bloqueados. Por favor, abre tu antivirus o protección contra malware, y echa un vistazo a la configuración en busca de una "lista blanca" (whitelist) or algo similar. A continuación, excluye los siguientes procesos:</p><p class="mb-3"><ul>Para Windows<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe (si usa puentes de red)</li></ul><ul>Para OS X<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy (si usa puentes de red)</li></ul></p><p class="mb-3">Finalmente reinicia el Navegador Tor.</p>

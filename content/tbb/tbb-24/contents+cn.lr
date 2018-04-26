@@ -1,0 +1,6 @@
+_model: question 
+---
+title: 我在用tor访问Facebook，Twitter或者其他的网站的时候无法使用它们的功能。
+---
+description: 
+<p class="mb-3">有时候用tor浏览器访问一些包含许多JavaScript的网站会出现功能性的问题。最简单解决这个问题的办法是点击"洋葱目录"，然后点击安全性滑条。将您的安全性设置到"低"。

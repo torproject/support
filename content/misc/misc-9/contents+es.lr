@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Tor conserva registros?
+---
+description: 
+<p class="mb-3">Tor no conserva ningún registro que pueda identificar a un usuario concreto. Tomamos algunas mediciones seguras acerca de cómo funciona la red, que puede revisar en <mark><a href="https://metrics.torproject.org/">​Tor Metrics</a></mark>.</p>

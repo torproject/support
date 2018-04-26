@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Puis-je utiliser Tor avec un autre navigateur que le navigateur Tor ?
+---
+description: 
+<p class="mb-3">Nous recommandons fortement de ne pas utiliser Tor avec un autre navigateur que le navigateur Tor. Utiliser Tor avec un autre navigateur pourrait vous rendre vulnérable, sans la protection de la confidentialité du navigateur Tor.</p>

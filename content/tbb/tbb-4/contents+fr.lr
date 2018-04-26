@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Pourquoi la première adresse IP de mon circuit de relais est-elle toujours la même ?
+---
+description: 
+<p class="mb-3">C’est un comportement normal de Tor. Le premier relais de votre circuit est appelé « garde d’entrée » ou « garde ». C’est un relais rapide et stable qui reste le premier relais de votre circuit pendant 2 à 3 mois afin d’offrir une protection contre une attaque connue de rupture d’anonymat. Le reste de votre circuit change pour chaque nouveau site Web que vous visitez et ces circuits fournissent, ensemble, la protection complète de la confidentialité offerte par Tor. Pour de plus amples renseignements sur le fonctionnement des gardes relais, consulter ce <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">billet de blogue</a></mark> et cet <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">article</a></mark> (en anglais) sur les gardes d’entrée.</p>

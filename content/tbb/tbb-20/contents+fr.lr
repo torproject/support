@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Comment puis-je désinstaller le navigateur Tor ?
+---
+description: 
+<p class="mb-3">Il est facile de supprimer le navigateur Tor de votre système :</p><p class="mb-3"><ol><li>Trouvez le dossier de votre navigateur Tor ou l’application. Sous Windows, l’emplacement par défaut est le bureau ; sous macOS, c’est le dossier Applications (sous macOS, vous devez le déplacer dans le dossier Applications quand vous terminez le processus d’installation). Sous Linux, il n’y a pas d’emplacement par défaut, cependant le dossier s’appellera « tor-browser_fr » si vous utilisez le navigateur Tor en français.</li><li>Supprimez le dossier ou l’application du navigateur Tor.</li><li>Videz votre corbeille.</li></ol></p><p class="mb-3">Notez que l’utilitaire habituel de désinstallation de votre système d’exploitation n’est pas utilisé.</p>

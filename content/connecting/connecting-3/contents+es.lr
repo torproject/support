@@ -1,0 +1,23 @@
+_model: question 
+---
+title: Estoy teniendo problemas conectando a Tor, y no logro averiguar qué es lo que está mal.
+---
+description: 
+Si tienes problemas para conectarte, por favor selecciona la opción "copiar el registro de Tor al portapapeles". Luego pega el registro Tor en un archivo de texto u otro documento. Deberías ver uno de estos errores comunes de registro (busca las siguientes líneas en tu registro Tor): Error común de registro #1: Fallo de conexión proxy 2017-10-29 09:23:40.800[NOTICE] Abriendo socks en 127.0.0.1:9150
+2017-10-29 09:23:47.900[NOTICE] Bootstrapped 5%: Conexión al servidor de directorios
+2017-10-29 09:23:47.900[NOTICE] Bootstrapped 10%: Finaliza hankshake con el servidor de directorios
+2017-10-29 09:24:08.900[ADVERTENCIA] Cliente proxy: incapaz de conectarse a xx... xxx... xxx. xx: xxxxx ("fallo general del servidor SOCKS")
+2017-10-29 09:24:08.900[ADVERTENCIA] Cliente proxy: incapaz de conectarse a xx... xxx... xxx. xx: xxxxx ("fallo general del servidor SOCKS")
+2017-10-29 09:24:08.900[ADVERTENCIA] Cliente proxy: incapaz de conectar toxx.. xxx.. xxx. xx: xxxxxxx ("fallo general del servidor SOCKS") Si ves líneas como estas en tu registro Tor, significa que no te estás conectando a un proxy SOCKS. Si se requiere un proxy SOCKS para la configuración de red, asegúrate de introducir correctamente los datos del proxy. Error de registro común #2: No se puede llegar a los relés de guardia 11/1/2017 21:11:43 PM. 500[AVISO] Abriendo el socks en 127.0.0.1:9150
+11/1/2017 21:11:44 PM. 300[AVISO] Bootstrapped 80%: Conexión a la red Tor
+11/1/2017 21:11:44 PM. 300[ADVERTENCIA] No encontramos nodo para el salto 0 de nuestro camino. Descartar este circuito.
+11/1/2017 21:11:44 PM. 500[AVISO] Bootstrapped 85%: Acabando el  handshake con el primer salto
+11/1/2017 21:11:11:45 PM. 300[ADVERTENCIA] No se ha encontrado nodo para el salto 0 de nuestra ruta. Descartando este circuito: si ves líneas como estas en tu registro Tor, significa que tu Tor no se conectó al primer nodo del circuito Tor. Esto podría significar que estás en una red censurada. Error de registro común #3: No se pudo completar el handshake TLS 13-11-17 19:52:24:24.300[ATENCIÓN) Bootstrapped 10%: Finalizar handshake con el servidor de directorios
+13-11-17 19:53:49.300[ADVERTENCIA] Problema con el bootstrapping. Atascado al 10%: Acabando handshake con el servidor de directorios. (HECHO; HECHO; conteo 10; recomendación; host[host] en xxx. xxx. xxx. xxx. xx: xxx)
+13-11-17 19:53:49.300[ATENCIÓN] 10 conexiones han fallado:
+13-11-17 19:53:49.300[ADVERTENCIA] 9 conexiones caidas en estado handshaking (TLS) con estado SSL SSLv2/v3 lea servidor hola A en HANDSHAKE
+13-11-17 19:53:49.300[ADVERTENCIA] 1 conexiones muertas en estado connect()ing con estado SSL (sin objeto SSL) Si ves líneas como esta en tu registro de Tor, significa que Tor no pudo completar un handshake TLS con las competencias del directorio. Error de registro común #4: Desviación del reloj 19.11.2017 00:04:47.400[ATENCIÓN] Intérprete de socks de apertura en 127.0.0.0.1:9150
+19.11.2017 00:04:48.000[ADVERTENCIA] Bootstrapped 5%: Conexión al servidor de directorios
+19.11.2017 00:04:48.200[ADVERTENCIA] Bootstrapped 10%: Finalizando el handshake con el servidor de directorios
+19.11.2017 00:04:48.800[ADVERTENCIA] Celda de NETINFO recibida con tiempo sesgado (OR: xxx. xx. xx. xx: xxxx): Parece que nuestro reloj está atrasado 1 día, 0 horas, 1 minutos, o que el suyo está adelantado.
+Tor requiere un reloj preciso para funcionar: por favor, comprueba tus ajustes de hora, zona horaria y fecha Si ves líneas como esta en tu registro Tor, significa que el reloj de tu sistema es incorrecto. Asegúrate de que tu reloj está ajustado correctamente, incluyendo la zona horaria. A continuación, reinicia Tor.

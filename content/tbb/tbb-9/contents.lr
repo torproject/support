@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Can I use Tor with a browser besides Tor Browser?
+---
+description: 
+<p class="mb-3">We strongly recommend against using Tor in any browser other than Tor Browser. Using Tor in another browser can leave you vulnerable without the privacy protections of Tor Browser.</p>

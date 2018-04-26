@@ -1,0 +1,6 @@
+_model: question 
+---
+title: 常见于最新稳定版本的Tor浏览器的问题是什么？
+---
+description: 
+<p class="mb-3">当我们发布最新稳定版本的Tor浏览器时，都会发布一个包含该版本特性与已知问题的博客。如果您在升级后使用Tor浏览器时出现问题，请查阅<mark><a href="https://blog.torproject.org">https://blog.torproject.org </a></mark>。您的问题可能会被包含在我们发布的有关最新稳定版本Tor浏览器的博客中。</p>

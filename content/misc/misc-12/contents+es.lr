@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Puedo cambiar el número de saltos que usa Tor?
+---
+description: 
+<p class="mb-3">Ahora mismo la longitud de la ruta está internamente codificada en 3 más el número de nodos en tu ruta que sean sensibles. Esto en casos normales es 3, pero por ejemplo, si estás accediendo a un servicio onion o a una dirección ".exit" podrían ser más.</p><p class="mb-3"No queremos animar a que la gente use rutas más largas que esta, ya que incrementaría la carga de la red sin (hasta donde podemos decir) proporcionar más seguridad. Además, usar rutas más largas que 3 podría dañar el anonimato, en primer lugar, porque facilita los ataques de <mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denegación de seguridad</a></mark>, y en segundo, porque podría actuar como un identificador si sólo un pequeño número de usuarios tiene la misma longitud de ruta que tú.</p>

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Notre site Web est bloqué par un censeur. Le navigateur Tor peut-il aider les utilisateurs à accéder à notre site Web ?
+---
+description: 
+<p class="mb-3">Le navigateur Tor peut certainement aider les utilisateurs à accéder à votre site Web où il est bloqué. La plupart du temps, il suffira de télécharger le <mark><a href="https://www.torproject.org/download/download-easy.html.en">navigateur Tor</a></mark>et de l’utiliser pour naviguer vers le site bloqué pour y accéder. Pour les endroits soumis à une censure forte, de nombreuses options de contournement sont offertes, dont les ​<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark>. Pour de plus amples renseignements, veuillez consulter la rubrique sur la <mark><a href="https://tb-manual.torproject.org/fr/circumvention.html">censure</a></mark> du <mark><a href="https://tb-manual.torproject.org/fr/">​guide d’utilisation du navigateur Tor</a></mark>.</p>

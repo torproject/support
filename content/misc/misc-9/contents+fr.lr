@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Est-ce Tor que conserve des journaux ?
+---
+description: 
+<p class="mb-3">Tor ne conserve aucun journal qui pourrait identifier un utilisateur particulier. Nous effectuons des mesures sans risque du fonctionnement du réseau, que vous pouvez consulter sur notre site de mesures <mark><a href="https://metrics.torproject.org/">​« Tor Metrics »</a></mark>.</p>

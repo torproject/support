@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Puis-je utiliser le navigateur Tor et un autre navigateur en même temps en toute sécurité ?
+---
+description: 
+<p class="mb-3">Si vous utilisez le navigateur Tor et un autre navigateur en même temps, cela n’affectera pas les performances ni les propriétés de confidentialité de Tor. Gardez cependant à l’esprit que votre autre navigateur n’assure pas la confidentialité de votre activité, et vous pourriez utiliser cet autre navigateur non confidentiel par accident pour effectuer quelque chose que vous souhaitiez faire avec le navigateur Tor.</p>

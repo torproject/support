@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Comment puis-je accélérer Tor ? Le navigateur Tor est-il plus lent que les autres navigateurs ?
+---
+description: 
+<p class="mb-3">L’utilisation du navigateur Tor peut parfois s’avérer plus lente que les autres navigateurs. Le réseau Tor répond à plus d’un million d’utilisateurs par jour, avec seulement 6 000 relais pour acheminer tout leur trafic. La charge sur chaque serveur peut parfois causer une latence. Vous pouvez aider à améliorer la vitesse du réseau en exécutant votre propre relais ou en encourageant les autres à le faire. Cela dit, Tor est beaucoup plus rapide que par le passé, et en fait, vous ne remarquerez peut-être aucun ralentissement par rapport aux autres navigateurs.</p>

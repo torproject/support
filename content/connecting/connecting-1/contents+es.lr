@@ -1,0 +1,6 @@
+_model: question 
+---
+title: El Navegador Tor no conecta, pero no parece ser un problema con la censura.
+---
+description: 
+<p class="mb-3">Uno de los problemas más habituales que causa errores de conexión en el Navegador Tor es un reloj del sistema incorrectamente ajustado. Por favor, asegúrate de que el reloj de tu sistema y tu zona horaria están configurados correctamente. Si esto no soluciona tu problema, dirígete a la página de Solución de Problemas en el <mark><a href="https://tb-manual.torproject.org/es-ES/bridges.html">manual del Navegador Tor</a></mark></p>

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Puedo usar una VPN con Tor?
+---
+description: 
+<p class="mb-3">En términos generales, no recomendamos usar una VPN con Tor a menos que seas un usuario avanzado que sabe cómo configurar ambos de forma que no comprometa su privacidad. Puedes encontrar más información detallada sobre Tor + VPN en <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">​nuestro wiki</a></mark>.</p>

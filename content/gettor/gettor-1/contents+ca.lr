@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Com puc baixar el Tor si el torproject.org està blocat?
+---
+description: 
+<p class="mb-3">Si no podeu baixar el Tor a través del nostre <mark><a href="https://www.torproject.org">lloc web</a></mark>, podeu obtindre'n una copia a través del GetTor. El GetTor és un servei que respon automàticament als missatges amb enllaços a la última versió del Tor Browser, hostatjada en una gran varietat d'ubicacions que segurament no estiguin blocades, com ara Dropbox, Google Drive i Github.</p>

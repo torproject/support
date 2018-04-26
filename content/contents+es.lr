@@ -1,7 +1,8 @@
-title: Como podemos ayudarte? | Tor Project | Support
+_discoverable: yes
 ---
-body:
-
-Esta es un web basica de demo que muestra como utilizar Lektor en un sitio con algunas paginas y un blog.
+_model: showcase
 ---
 _template: jumbotron.html
+---
+title: Como podemos ayudarte? | Tor Project | Support
+---

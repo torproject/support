@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Usar GetTor vía correo electrónico.
+---
+description: 
+<p class="mb-3">Envíe un correo a gettor@torproject.org. Indique su sistema operativo (como Windows, MacOS (OS X), o Linux) en el cuerpo del mensaje, y envíelo. GetTor responderá con un correo conteniendo enlaces desde los que puede descargar el Navegador Tor, la firma criptográfica (necesaria para verificar la descarga) [enlace a la definición de glosario de la firma criptográfica; instrucciones para la verificación], la huella de validación (fingerprint) de la clave usada para crear la firma, y la suma de verificación (checksum) del paquete. Puede que le sea ofrecida una elección entre software de "32-bits" o "64-bits": esto depende del modelo concreto de equipo que esté usando; consulte documentación sobre su computadora para averiguar más.</p>

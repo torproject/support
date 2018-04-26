@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Menggunakan GetTor melalui XMPP (Tor Messenger, Jitsi, CoyIM).
+---
+description: 
+<p class="mb-3">Untuk mendapatkan pautan muat turun Pelayar Tor, hantar mesej kepada gettor@toproject(dot)org dengan salah satu kod berikut di dalamnya:</p><p class="mb-3"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>

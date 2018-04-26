@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Cómo desinstalo el Navegador Tor?
+---
+description: 
+<p class="mb-3">Eliminar el Navegador Tor de tu sistema es simple:</p><p class="mb-3"><ol><li>Localiza tu carpeta o aplicación de Navegador Tor. La ubicación predeterminada en Windows es el Escritorio; en macOS es la carpeta Aplicaciones (en macOS, tiene que moverlo a la carpeta Aplicaciones cuando completa el proceso de instalación). En Linux, no hay ubicación predeterminada, no obstante la carpeta se llama "tor-browser_en-US" si estás ejecutando el Navegador Tor en inglés.</li><li>Elimina la carpeta o aplicación de Navegador Tor.</li><li>Vacía la Papelera.</li></ol></p><p class="mb-3">Observa que no se usa la utilidad "Desinstalar" estándar de tu sistema operativo.</p>

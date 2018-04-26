@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Чи можу я запустити Tor на Андроїді?
+---
+description: 
+<p class="mb-3">Tor на Андроїд надається проектом The Guardian. Більш детальну інформацію можна знайти на веб-сторінках <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> і <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>. Orbot призначений для перегляду веб-сторінок, а Orfox може спрямовувати інші застосунки на вашому мобільному через мережу Tor.</p>

@@ -1,0 +1,23 @@
+_model: question 
+---
+title: Ik ondervind problemen bij het verbinding maken met Tor, en ik vind maar niet wat er fout gaat.
+---
+description: 
+<p class="mb-3">Als u problemen ondervindt bij het verbinden, selecteert u de optie om "Tor log naar klembord te kopiëren". Plak vervolgens het Tor-log in een tekstbestand of een ander document. U zou een van deze Vaak voorkomend logfouten moeten zien (kijk naar de volgende regels in uw Tor-logboek): </p><h5>Vaak voorkomend logboekfout # 1: Proxy-verbindingsfout</h5><p class="mb-3"><pre><code> 2017-10-29 09: 23: 40.800 [LET OP] Opening Socks luisteraar op 127.0.0.1 : 9150 
+ 2017-10-29 09: 23: 47.900 [LET OP] Bootstrapped 5%: verbinden met directoryserver 
+ 2017-10-29 09: 23: 47.900 [LETICE] Bootstrap 10%: handshake beëindigen met directoryserver 
+ 09-10-09 09: 24: 08.900 [WARN] Proxy-client: kan geen verbinding maken met xx..xxx..xxx.xx: xxxxx ("algemene SOCKS-serverstoring") 
+ 09-10-09 09: 24: 08.900 [WARN] Proxy-client: kan geen verbinding maken met xx..xxx..xxx.xx: xxxxx ("algemene SOCKS-serverstoring") 
+ 09-10-09 09: 24: 08.900 [WARN] Proxy-client: kan toxx..xxx..xxx.xx: xxxxx niet verbinden ("algemene SOCKS-serverstoring") </code></pre></p><p class="mb-3">Als u dergelijke lijnen in uw Tor-logboek ziet, is dit betekent dat u geen verbinding kunt maken met een SOCKS-proxy. Als een SOCKS-proxy vereist is voor uw netwerkconfiguratie, moet u ervoor zorgen dat u uw proxy-gegevens correct hebt ingevoerd. Als een SOCKS-proxy niet vereist is, of als u het niet zeker weet, probeer dan verbinding te maken met het Tor-netwerk zonder een SOCKS-proxy.</p><h5>Gebruikslog fout # 2: Kan relais niet bereiken</h5><p class="mb-3"><pre><code> 11/1/2017 21:11:43 PM .500 [LET OP] Luisteraar luisterpositie openen op 127.0.0.1:9150 
+ 11/1/2017 21:11:44 PM.300 [LET OP] Bootstrapped 80%: Verbinding maken met het Tor-netwerk 
+ 11/1/2017 21:11:44 PM.300 [WARN] Kan knooppunt voor hop 0 van ons pad niet vinden. Dit circuit weggooien. 
+ 11/1/2017 21:11:44 PM.500 [LET OP] Bootstrap 85%: Handshake beëindigen met eerste hop 
+ 11/1/2017 21:11:45 PM.300 [WARN] Kan knooppunt niet vinden voor hop 0 van ons pad. Dit circuit verwijderen.</code></pre></p><p class="mb-3">Als u dergelijke lijnen in uw Tor-logboek ziet, betekent dit dat uw Tor geen verbinding kon maken met het eerste knooppunt in het Tor-circuit. Dit kan betekenen dat u zich op een netwerk bevindt dat gecensureerd is. Probeer te verbinden met bruggen, en dat zou het probleem moeten verhelpen.</p><h5> Algemene logfout # 3: Kan TLS-handshake niet voltooien</h5><p class="mb-3"><pre><code> 13-11-17 19: 52: 24.300 [LET OP] Bootstrap 10%: handshake beëindigen met directoryserver 
+ 13-11-17 19: 53: 49.300 [WARN] Probleem met bootstrappen. Vastgelopen met 10%: handshake beëindigen met directoryserver. (GEDAAN, GEDAAN, aantal 10; advieswaarschuwing; host [host] op xxx.xxx.xxx.xx: xxx) 
+ 13-11-17 19: 53: 49.300 [WARN] 10 verbindingen zijn mislukt: 
+ 13-11-17 19: 53: 49.300 [WARN] 9 verbindingen stierven in staatshandshaking (TLS) met SSL-status SSLv2 / v3 lezen server hallo A in HANDSHAKE 
+ 13-11-17 19: 53: 49.300 [WARN] 1 verbindingen zijn overleden in state connect () ing met SSL-staat (No SSL-object) </code></pre></p><p class="mb-3">Als u dergelijke lijnen in uw Tor-logboek ziet, betekent dat Tor een TLS-handshake niet kon voltooien met de directory-autoriteiten. Het gebruik van bruggen lost dit waarschijnlijk op.</p><h5>Veel logboekfout # 4: Klok skew</h5><p class="mb-3"><pre><code> 19.11.2017 00: 04: 47.400 [LET OP] Opening Socks luisteraar op 127.0.0.1:9150 
+  19.11.2017 00: 04: 48.000 [LET OP] Bootstrap 5%: verbinding maken met directoryserver 
+  19.11.2017 00: 04: 48.200 [LET OP] Bootstrap 10%: handshake beëindigen met directoryserver 
+  19.11.2017 00: 04: 48.800 [WARN] NETINFO-cel ontvangen met scheve tijd (OF: xxx.xx.x.xx: xxxx): het lijkt erop dat onze klok 1 dag, 0 uur, 1 minuut achterloopt, of die van hen liggen voor de deur. 
+  Tor vereist een nauwkeurige klok om te werken: controleer uw tijd-, tijdzone- en datuminstellingen.</code></pre></p><p class="mb-3">Als u lijnen zoals deze in uw Tor-logboek ziet, betekent dit dat uw systeemklok onjuist is. Zorg ervoor dat uw klok correct is ingesteld, inclusief de juiste tijdzone. Start dan Tor opnieuw. </p>

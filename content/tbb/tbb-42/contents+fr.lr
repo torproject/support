@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Le navigateur Tor utilise-t-il un circuit différent pour chaque site Web ?
+---
+description: 
+<p class="mb-3">Dans le navigateur Tor, chaque domaine obtient son propre circuit. ​Vous trouverez de plus amples renseignements à ce sujet dans le document <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">La conception et la mise en œuvre du navigateur Tor</a></mark> (en anglais).</p>

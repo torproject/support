@@ -1,0 +1,6 @@
+_model: question 
+---
+title: J'ai un problème avec HTTPS partout.
+---
+description: 
+<p class="mb-3">Veuillez consulter la ​<mark><a href="https://www.eff.org/https-everywhere/faq">FAQ de HTTPS partout</a></mark>. Si vous croyez que le problème provient du navigateur Tor, veuillez le signaler sur notre ​<mark><a href=\\\"https://trac.torproject.org/\\\">gestionnaire de bogues</a></mark>.</p>

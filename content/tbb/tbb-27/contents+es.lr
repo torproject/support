@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Me convierto en un repetidor al ejecutar el Navegador Tor?
+---
+description: 
+<p class="mb-3">Ejecutar el Navegador Tor no te hace actuar como un repetidor en la red. Esto significa que tu ordenador no se usará para enrutar el tráfico de otros. Si deseas convertirse en un repetidor, por favor, mira nuestra <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guía de repetidor Tor</a></mark>.</p>

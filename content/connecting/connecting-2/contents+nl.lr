@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Ik kan X.onion niet bereiken!
+---
+description: 
+<p class="mb-3">Als u de gewenste onion service niet kunt bereiken, moet u ervoor zorgen dat u het onion adres van 16 tekens correct hebt ingevoerd: zelfs een kleine fout zal ervoor zorgen dat Tor Browser de site niet kan bereiken. Als u nog steeds geen verbinding kunt maken met de onion service, probeert u het later opnieuw. Er kan een tijdelijke verbinding probleem zijn, of de site exploitanten kunnen hebben toegestaan dat het offline gaan zonder waarschuwing.</p><p class="mb-3"> U kunt er ook voor zorgen dat u in staat om toegang te krijgen tot andere diensten ui door verbinding te maken <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>'s Onion Service.</p>

@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Para qué plataformas está disponible el Navegador Tor?
+---
+description: 
+<p class="mb-3">El Navegador Tor actualmente está disponible para Windows, Linux y macOS (OS X). Para Android, The Guardian Project se encarga de mantener las aplicaciones Orbot y Orfox, basadas en Tor. Todavía no hay una versión oficial de Tor para iOS, aunque recomendamos Onion Browser.</p>

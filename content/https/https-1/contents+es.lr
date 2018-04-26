@@ -1,0 +1,24 @@
+_model: question 
+---
+title: Cuando estoy usando Tor, ¿alguien a la escucha todavía puede ver la información que comparto con los sitios web, como la información de inicio de sesión y las cosas que escribo en los formularios?
+---
+description: 
+<p class="mb-3">Tor protege contra que alguien a la escucha conozca los sitios que visita. Sin embargo, la información enviada sin cifrar por Internet usando HTTP simple todavía puede ser interceptada por los operadores de los repetidores de salida o cualquiera que observe el tráfico entre su repetidor de salida y su sitio web de destino. Si el sitio que está visitando usa HTTPS, el tráfico que abandona su repetidor de salida estará cifrado, y no será visible para quien se encuentre a la escucha.</p><div class="row">
+<div class="col-md-6">
+
+<div class="card">
+<img class="card-img-top" src="/static/images/image2.png" alt="https"><div class="card-body">
+<h4 class="card-title">Si está usando HTTPS, la URL de su sitio web comenzará con "​https://".</h4>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+
+<div class="card">
+<img class="card-img-top" src="/static/images/image6.png" alt="https"><div class="card-body">
+<h4 class="card-title">Esta visualización muestra qué información es visible para alguien a la escucha con y sin el Navegador Tor y el cifrado HTTPS.</h4>
+</div>
+</div>
+</div>
+</div>
+

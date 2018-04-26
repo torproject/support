@@ -1,0 +1,6 @@
+_model: question 
+---
+title: 一些反病毒程序和恶意程序防护软件禁止我使用tor浏览器。
+---
+description: 
+<p class="mb-3">绝大部分的杀毒软件都允许用户设置白名单来准许特定的程序运行。请打开您的杀毒软件然后寻找"白名单"设置或与之类似的东西。之后，输入以下程序</p><p class="mb-3"><ul>Windows平台<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe(如果您使用网桥）</li></ul><ul> OS X平台<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy（如果您使用网桥）</li></ul></p><p class="mb-3">最后，重启tor浏览器。</p>

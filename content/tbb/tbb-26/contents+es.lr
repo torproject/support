@@ -1,0 +1,6 @@
+_model: question 
+---
+title: ¿Puedo establecer el Navegador Tor como mi navegador predeterminado?
+---
+description: 
+<p class="mb-3">Actualmente no hay ningún método soportado para establecer el Navegador Tor como tu navegador predeterminado. El Navegador Tor hace muchos esfuerzos para aislarse del resto de tu sistema operativo, y el procedimiento para convertirlo en tu navegador predeterminado no es fiable. Esto significa que a veces un sitio web cargaría en el Navegador Tor, y a veces cargaría en otro navegador, este tipo de comportamiento puede ser peligroso y es susceptible de romper el anonimato.</p>

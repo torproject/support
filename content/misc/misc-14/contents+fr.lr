@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Puis-je utiliser un RPV avec Tor ?
+---
+description: 
+<p class="mb-3">De manière générale, nous ne recommandons pas d’utiliser un RPV avec Tor à moins que vous ne soyez un utilisateur expérimenté qui sait comment configurer l’un et l’autre sans compromettre la confidentialité. De plus amples renseignements sur Tor + RPV se trouvent sur <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">​notre wiki</a></mark>.</p>

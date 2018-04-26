@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Cum folosești GetTor prin email.
+---
+description: 
+<p class="mb-3">Trimite un email la gettor@torproject.org. Scrie sistemul tău de operare (Windows, MacOS (OS X), or linux) în corpul mesajului și trimite. GetTor va răspunde cu un email conținînd link-uri de unde poți descărca Tor Browser, semnătura digitală (necesară pentru a verifica descărcarea) [link spre definiția semnăturii digitale; instrucțiuni de verificare], amprenta cheii folosite la semnătură, și suma de control a pachetului. Ți se pot oferi variante ale softului pe "32-bit" sau "64-bit": aceasta depinde de modelul computerului pe care îl folosești; verifică documentația computerului pentru a afla mai multe.</p>
