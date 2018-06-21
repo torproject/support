@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Onze website wordt geblokkeerd door een censor. Kan Tor Browser gebruikers helpen toegang tot onze website te krijgen?
+---
+description: 
+<p class="mb-3">Tor Browser kan mensen zeker helpen toegang te krijgen tot uw website op plaatsen waar deze is geblokkeerd. Meestal gewoon downloaden van de <mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> en dan gebruik het om te navigeren naar de geblokkeerde site en zal toegang toestaan. Op plaatsen waar sprake is van zware censuur hebben we een aantal opties voor censuurontwijking beschikbaar, waaronder <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">inplugbare transports</a></mark>. Voor meer informatie, zie de <mark><a href="https://tb-manual.torproject.org/en-US/"> Tor Browser Gebruiker Manual</a></mark> hoofdstuk over <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">censorship</a></mark>.</p>

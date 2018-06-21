@@ -9,12 +9,12 @@ primary = yes
 url_prefix = /
 locale = en_US
 
-[alternatives.cn]
-name = Chinese
-url_prefix = /cn/
-locale = zh_CN
+[alternatives.fr]
+name = français
+url_prefix = /fr/
+locale = fr_FR
 
 [alternatives.es]
-name = Spanish
+name = español
 url_prefix = /es/
 locale = es_ES

@@ -1,6 +1,8 @@
-_model: topic
+_discoverable: yes
 ---
-title: Tor Mobile
+_model: showcase
 ---
-key:4
+_template: jumbotron.html
+---
+title: Como podemos ayudarte? | Tor Project | Support
 ---

@@ -5,18 +5,18 @@
 	"label": "Questions les plus fréquentes"
     },
     "tbb": {
-	"path": "#navigateur-tor",
-	"control": "navigateur-tor",
+	"path": "#tbb",
+	"control": "tbb",
 	"label": "Le navigateur Tor"
     },
     "tormessenger": {
-	"path": "#messager-tor",
-	"control": "tor-messenger",
+	"path": "#tormessager",
+	"control": "tormessenger",
 	"label": "Le messager Tor"
     },
     "tormobile": {
-	"path": "#tor-mobile",
-	"control": "tor-mobile",
+	"path": "#tormobile",
+	"control": "tormobile",
 	"label": "Tor Mobile"
     },
     "gettor": {
@@ -25,13 +25,13 @@
 	"label": "GetTor"
     },
     "connecting": {
-	"path": "#connexion-à-tor",
-	"control": "connexion-à-tor",
+	"path": "#connectingtotor",
+	"control": "connectingtotor",
 	"label": "Connexion à Tor"
     },
     "censorship": {
-	"path": "#censure",
-	"control": "censure",
+	"path": "#censorship",
+	"control": "censorship",
 	"label": "Censure"
     },
     "https": {
@@ -40,18 +40,18 @@
 	"label": "HTTPS"
     },
     "operators": {
-	"path": "#opérateurs",
-	"control": "opérateurs",
+	"path": "#operators",
+	"control": "operators",
 	"label": "Opérateurs"
     },
     "onionservices": {
-	"path": "#services-oignon",
-	"control": "services-oignon",
+	"path": "#onionservices",
+	"control": "onionservices",
 	"label": "Les services oignon"
     },
     "misc": {
-	"path": "#divers",
-	"control": "divers",
+	"path": "#misc",
+	"control": "misc",
 	"label": "Divers"
     }
 }

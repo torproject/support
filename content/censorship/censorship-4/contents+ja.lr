@@ -1,0 +1,6 @@
+_model: question 
+---
+title: torproject.orgがブロックされている場合、どのようにTorをダウンロードできますか？
+---
+description: 
+<p class="mb-3">私たちの<mark><a href="https://www.torproject.org">WEBサイト</a></a>からTorをダウンロードできない場合、GetTorによってTorをダウンロードできます。GetTor は最新バージョンの Torブラウザー へのリンクをメッセージで自動的に返信するサービスです。ファイルは Dropbox，Google Drive および GitHub といったさまざまな検閲される可能性が低い場所でホストされています。 </p>

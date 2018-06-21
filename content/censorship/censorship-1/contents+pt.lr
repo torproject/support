@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Eu não consigo me conectar ao Navegador Tor, minha rede está censurada?
+---
+description: 
+<p class="mb-3">Você deve estar em uma internet censurada, e por isso você deve tentar usar pontes. Algumas pontes já são feitas para o Navegador Tor, e você pode usar estas pontes selecionando "configurar" (e seguir os passos) na janela de inicialização do Tor que aparece quando você abre o Navegador Tor pela primeira vez. Se você precisar de outras pontes, você pode consegui-las em nosso <mark><a href="https://bridges.torproject.org/">website de Pontes</a></mark>. Para mais informações sobre pontes, veja o <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">manual do Navegador Tor</a></mark>.</p>

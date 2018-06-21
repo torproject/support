@@ -3,4 +3,4 @@ _model: question
 title: Tengo problemas al usar algunas opciones en Facebook, Twitter, o algún otro sitio cuando utilizo el Navegador Tor.
 ---
 description: 
-<p class="mb-3">Algunos sitios con mucho contenido JavaScript pueden presentar problemas de funcionalidad en el Navegador Tor. La solución mas simple es pulsar en el "la cebolla", luego en el selector de seguridad, y ponlo en "bajo".</p>
+<p class="mb-3">Algunos sitios con mucho contenido JavaScript pueden presentar problemas de funcionalidad en el Navegador Tor. La solución mas simple es pulsar en el "la cebolla", luego en el selector de seguridad, y ponlo en “bajo”.</p>

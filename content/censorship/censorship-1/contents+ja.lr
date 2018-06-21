@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Torブラウザーに接続できません。私のネットワークは検閲されていますか？
+---
+description: 
+<p class="mb-3">検閲されるネットワークに接続している可能性があるので、ブリッジを使って試してみて下さい。あるブリッジはTorブラウザーに組み込まれるから、初めてTorブラウザーを開く時に表示されるTor Launcherウィンドウにある「設定」を選択して下さい（そしてプロンプトに従って下さい）。他のブリッジが必要なら、私たちの<mark><a href="https://bridges.torproject.org/">ブリッジWEBサイト</a></mark>から手に入れることができます。詳細については、<mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Torブラウザーのユーザーマニュアル</a></mark>にブリッジに関する章を調べて下さい。</p>

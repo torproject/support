@@ -1,0 +1,7 @@
+_model: question 
+---
+title: Je n'arrive pas à me connecter au Navigateur Tor, mon réseau est-il censuré ?
+---
+description: 
+<p class="mb-3">Il se peut que vous soyez sur un réseau censuré et que vous deviez tenter d’utiliser des ponts. Des ponts sont intégrés au Navigateur Tor et vous pouvez utiliser ces ponts en choisissant « Configurer » (puis en suivant les indications) dans la fenêtre du lanceur Tor qui surgit quand vous ouvrez le Navigateur Tor pour la première fois. S’il vous faut d’autres ponts, vous pouvez en obtenir sur notre ​<mark><a href="https://bridges.torproject.org/">site Web BridgeDB</a></mark>. Pour de plus amples renseignements concernant les ponts, consulter le <mark><a href="https://tb-manual.torproject.org/fr/bridges.html">​guide d’utilisation du Navigateur Tor</a></mark>.</p>
+

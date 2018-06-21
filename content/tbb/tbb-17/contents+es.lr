@@ -3,28 +3,4 @@ _model: question
 title: ¿Cómo actualizo el Navegador Tor?
 ---
 description: 
-<p class="mb-3">Puedes actualizar el Navegador Tor en cuanto se publica una nueva versión.</p><div class="col-md-6">
-
-<div class="card">
-<img class="card-img-top" src="/static/images/image4.png" alt="Alerta de nueva versión"><div class="card-body">
-<h4 class="card-title">El Navegador Tor te solicitará que actualices el software una vez se haya publicado una nueva versión.</h4>
-<p class="card-text">El icono de Torbutton (la pequeña cebolla verde en la esquina superior izquierda del navegador) mostrará un triángulo amarillo.</p></div>
-</div>
-</div>
-<p class="mb-3">Puede que vea una indicación escrita cuando se abra el Navegador Tor diciéndote que hay una actualización disponible.</p><div class="col-md-6">
-
-<div class="card">
-<img class="card-img-top" src="/static/images/image5.png" alt="Alerta de nueva versión"><div class="card-body">
-<h4 class="card-title">Título de la tarjeta</h4>
-<p class="card-text">Texto de la tarjeta</p></div>
-</div>
-</div>
-<p class="mb-3">El Navegador Tor instalará la actualizaciones..</p><div class="col-md-6">
-
-<div class="card">
-<img class="card-img-top" src="/static/images/image3.png" alt="Alerta de nueva versión"><div class="card-body">
-<h4 class="card-title">Título de la tarjeta</h4>
-<p class="card-text">Texto de la tarjeta</p></div>
-</div>
-</div>
-
+<p class="mb-3">Puedes actualizar el Navegador Tor en cuanto se publica una nueva versión.</p><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image4.png" alt="Alerta de nueva versión"><div class="card-body"><h4 class="card-title">El Navegador Tor te solicitará que actualices el software una vez se haya publicado una nueva versión.</h4><p class="card-text">El icono de Torbutton (la pequeña cebolla verde en la esquina superior izquierda del navegador) mostrará un triángulo amarillo.</p></div></div></div><p class="mb-3">Puede que vea una indicación escrita cuando se abra el Navegador Tor diciéndote que hay una actualización disponible.</p><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image5.png" alt="Alerta de nueva versión"><div class="card-body"><h4 class="card-title">Título de la tarjeta</h4><p class="card-text">Texto de la tarjeta</p></div></div></div><p class="mb-3">El Navegador Tor instalará la actualizaciones..</p><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image3.png" alt="Alerta de nueva versión"><div class="card-body"><h4 class="card-title">Título de la tarjeta</h4><p class="card-text">Texto de la tarjeta</p></div></div></div>

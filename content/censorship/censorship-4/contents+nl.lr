@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Hoe kan ik Tor downloaden als het torproject.org is geblokkeerd?
+---
+description: 
+<p class="mb-3">Als u Tor niet via onze <mark><a href="https://www.torproject.org">website</a></mark> kunt downloaden, kunt u via GetTor een exemplaar van Tor aan u laten bezorgen. GetTor is een service die automatisch reageert op berichten met links naar de nieuwste versie van Tor Browser, gehost op verschillende locaties die minder vaak worden gecensureerd, zoals Dropbox, Google Drive en Github.</p>

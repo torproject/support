@@ -12,7 +12,7 @@ description:
  2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure") 
  2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")</code></pre></p><p class="mb-3">Jika Anda melihat baris seperti ini, Anda gagal terkoneksi ke proxy SOCKS. Jika proxy SOCKS diperlukan di pengaturan jaringan Anda, silakan pastikan Anda telah memasukkan detail proxy dengan akurat. Jika proxy SOCKS tidak diperlukan, atau Anda tidak yakin bahwa proxy SOCKS diperlukan, silakan coba tanpa proxy SOCKS.
 
-</p><h5>Common log error #2: Can’t reach guard relays</h5><p class="mb-3"><pre><code> 11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+<p><h5>Common log error #2: Can’t reach guard relays</h5><p class="mb-3"><pre><code> 11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
  11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
  11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit. 
  11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 

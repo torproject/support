@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Ich kann mich nicht mit Tor Browser verbinden, ist mein Netzwerk zensiert?
+---
+description: 
+<p class="mb-3">Du befindest dich möglicherweise in einem zensierten Netzwerk und solltes daher versuchen Brücken zu verwenden. Einige Brücken sind in Tor Browser eingebaut und du kannst sie im Tor Browser-Startfenster, das erscheint, wenn du Tor Browser das erste Mal startest, über "Konfigurieren" (und die folgende Dialoge) auswählen. Wenn du andere Brücken benötigst, kannst du diese auf unserer <mark><a href="https://bridges.torproject.org/">Brücken-Website</a></mark> erhalten. Für weitere Informationen über Brücken, lies den Abschnitt in der <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser-Anleitung</a></mark>.</p>

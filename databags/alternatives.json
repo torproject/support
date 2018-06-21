@@ -5,16 +5,16 @@
     "url": "/",
     "language": "English"
   },
-  "cn": {
-    "direction": "text-right",
-    "order": "order-first",
-    "url": "/cn/",
-    "language": "Chinese"
+  "fr": {
+    "direction": "text-left",
+    "order": "order-last",
+    "url": "/fr/",
+    "language": "français"
   },
   "es": {
     "direction": "text-left",
     "order": "order-last",
     "url": "/es/",
-    "language": "Español"
+    "language": "español"
   }
 }

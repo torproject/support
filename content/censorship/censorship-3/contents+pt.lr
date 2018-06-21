@@ -1,0 +1,6 @@
+_model: question 
+---
+title: Eu não consigo conectar ao Tor Browser, a minha rede está censurada?
+---
+description: 
+<p class="mb-3">Você pode estar em uma rede censurada e, assim, você deveria tentar usar bridges. Algumas bridges são construídas no Tor Browser e você pode usá-las escolhendo "configure" (e seguir as instruções) na janela Tor Launcher que aparece quando você abre o Tor Browser pela primeira vez. Se você precisar de outras bridges, você pode consegui-las em nosso <mark><a href="https://bridges.torproject.org/">Bridges website </a></mark>. Para mais informações sobre bridges, veja o <a href="https://tb-manual.torproject.org/en-US/bridges.html">manual do Tor Browser </a><mark>.</mark>

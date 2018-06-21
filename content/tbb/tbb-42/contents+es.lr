@@ -3,4 +3,4 @@ _model: question
 title: ¿El Navegador Tor usa un circuito diferente para cada sitio web?
 ---
 description: 
-<p class="mb-3">En el Navegador Tor, cada dominio obtiene su propio circuito. El documento ​<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> tiene detalles adicionales en relación a este problema.</p>
+<p class="mb-3">En el Navegador Tor, cada dominio obtiene su propio circuito. El documento ​<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability"> The Design and Implementation of Tor Browser</a></mark> tiene detalles adicionales en relación a este problema.</p>
