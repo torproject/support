@@ -2,5 +2,7 @@ _model: question
 ---
 title: Nuestro sitio web está bloqueado por un censor. ¿El Navegador Tor puede ayudar a los usuarios a acceder a nuestro sitio web?
 ---
+seo_slug: tor-puede-ayudar-usuarios-acceder-sitio-web
+---
 description: 
 <p class="mb-3">El Navegador Tor ciertamente puede ayudar a que la gente acceda a su sitio web desde lugares donde está bloqueado. La mayoría de las veces se logrará el acceso simplemente descargando el Navegador Tor y luego usándolo para navegar hacia el sitio bloqueado. En lugares donde hay una fuerte censura, tenemos distintas opciones de elusión disponibles, incluyendo transportes intercambiables. Para más información, por favor, vea la sección sobre elusión de la censura del Manual de Usuario del Navegador Tor.</p>

@@ -1,6 +1,6 @@
 _model: question 
 ---
-title: J’ai téléchargé et installé le navigateur Tor pour Windows, mais maintenant je ne peux pas le trouver.
+title: I’m having trouble using features on Facebook, Twitter, or some other website when I’m using Tor Browser.
 ---
 description: 
-<p class="mb-3">Le fichier que vous téléchargez et exécutez vous demande une destination. Si vous ne vous souvenez pas de cette destination, c’est probablement votre dossier Téléchargements ou Bureau, mais gardez à l’esprit que vous pourriez accidentellement avoir décoché l’option de créer un raccourci. Si vous ne le trouvez pas dans aucun de ces deux dossiers, téléchargez-le de nouveau et cherchez l’invite qui vous demande de choisir un répertoire dans lequel le télécharger. Choisissez un répertoire dont vous vous souviendrez facilement, et une fois que le téléchargement est terminé, vous devriez y voir un dossier Navigateur Tor.</p>
+<p class="mb-3">Sometimes Javascript-heavy websites can have functional issues over Tor Browser. The simplest fix is to click on the "onion menu," then click on the security slider. Set your security to "low."</p>

@@ -2,6 +2,8 @@ _model: question
 ---
 title: How do I run an exit relay on Debian?
 ---
+seo_slug: how-do-i-run-an-exit
+---
 description: 
 <p class="mb-3">For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.</p><p class="mb-3"><ol><li>Review our <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Exit relay guidelines</a></mark></li><li>Run "apt-get install tor" (as root).</li><li>Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.</li><li>Edit /etc/tor/torrc to look like the following:<pre><code>## Set the nickname of this relay
 Nickname ididnteditheconfig

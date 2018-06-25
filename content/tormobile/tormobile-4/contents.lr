@@ -2,5 +2,7 @@ _model: question
 ---
 title: How do I run Tor on Windows Phone?
 ---
+seo_slug: run-tor-on-windows-phone
+---
 description: 
 <p class="mb-3">There is currently no supported method for running Tor on Windows Phone.</p>

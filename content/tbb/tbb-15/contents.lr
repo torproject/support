@@ -2,5 +2,7 @@ _model: question
 ---
 title: Can I download Tor Browser for ChromeOS?
 ---
+seo_slug: download-tor-browser-chromeos
+---
 description: 
 <p class="mb-3">Unfortunately, we don't yet have a version of Tor Browser for ChromeOS.</p>

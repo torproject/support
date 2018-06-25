@@ -2,6 +2,8 @@ _model: question
 ---
 title: How do I run a middle or guard relay on Debian?
 ---
+seo_slug: how-do-i-run-a-middle-or-guard-relay
+---
 description: 
 <p class="mb-3">For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.</p><p class="mb-3"><ol><li>Run "apt-get install tor" (as root).</li><li>Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.</li><li>Edit /etc/tor/torrc to look like the following:
 <pre><code>## The IP address or hostname for incoming connections (leave commented and Tor will guess)

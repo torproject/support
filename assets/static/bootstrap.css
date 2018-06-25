@@ -6860,10 +6860,17 @@ pre {
   display: block; }
 
 .dropdown-menu {
+  margin: 0;
   display: none; }
 
 .dropdown:hover .dropdown-menu {
   display: block; }
+
+.dropdown .btn {
+  border-radius: 0; }
+
+.btn {
+  text-transform: capitalize; }
 
 label {
   cursor: pointer; }

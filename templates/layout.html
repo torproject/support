@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ '/static/bootstrap.css'|asseturl }}">
 <link rel="stylesheet" href="{{ '/static/fonts/open-iconic/font/css/open-iconic-bootstrap.css'|asseturl }}">
 
-<title>{% block title %}{{ this.title }}{% endblock %}</title>
+<title>{% block title %}{{ this.title }}{% endblock %} | Tor Project | Support</title>
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
   <header>
     {% include 'navbar.html' %}
@@ -12,7 +12,7 @@
   <div class="page">
     <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
       <div class="container-fluid text-center">
-        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">How can we help?</h1>
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">{{ this.title }}</h1>
         <!-- {% include 'search.html' %} -->
       </div>
     </div>

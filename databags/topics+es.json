@@ -25,13 +25,13 @@
 	"label": "GetTor"
     },
     "connecting": {
-	"path": "#connecting-to-tor",
-	"control": "connecting-to-tor",
+	"path": "#connectar-a-tor",
+	"control": "connectar-a-tor",
 	"label": "Conectar a Tor"
     },
     "censorship": {
-	"path": "#censorship",
-	"control": "censorship",
+	"path": "#censura",
+	"control": "censura",
 	"label": "Censura"
     },
     "https": {
@@ -40,18 +40,18 @@
 	"label": "HTTPS"
     },
     "operators": {
-	"path": "#operators",
-	"control": "operators",
+	"path": "#operadores",
+	"control": "operadores",
 	"label": "Operadores"
     },
     "onionservices": {
-	"path": "#onion-services",
-	"control": "onion-services",
+	"path": "#servicios-onion",
+	"control": "servicios-onion",
 	"label": "Servicios onion"
     },
     "misc": {
-	"path": "#misc",
-	"control": "misc",
+	"path": "#varios",
+	"control": "varios",
 	"label": "Varios"
     }
 }

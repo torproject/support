@@ -26,12 +26,12 @@
     </div>
     <div class="mt-2 btn-group dropdown pr-2">
       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	       {{ bag('alternatives', this.alt, 'language') }}
+	{{ bag('alternatives', this.alt, 'language') }}
       </button>
       <div class="dropdown-menu">
         {% for id, item in bag('alternatives').items() %}
           {% if this.alt != id %}
-	          <a class="dropdown-item" href="{{ item.url }}">{{ item.language }}</a>
+	    <a class="dropdown-item" href="{{ item.url }}">{{ item.language }}</a>
           {% endif %}
         {% endfor %}
     </div>

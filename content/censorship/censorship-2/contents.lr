@@ -2,6 +2,8 @@ _model: question
 ---
 title: My favorite website is blocking access over Tor.
 ---
+seo_slug: website-is-blocking-access-over-tor
+---
 description:
 
 <p class="mb-3">Sorry to hear that you can't visit the website you wanted! Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:

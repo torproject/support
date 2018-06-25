@@ -2,6 +2,8 @@ _model: question
 ---
 title: Estoy teniendo problemas conectando a Tor, y no logro averiguar qué es lo que está mal.
 ---
+seo_slug: estoy-teniendo-problemas-connectando-a-tor
+---
 description: 
 Si tienes problemas para conectarte, por favor selecciona la opción "copiar el registro de Tor al portapapeles". Luego pega el registro Tor en un archivo de texto u otro documento. Deberías ver uno de estos errores comunes de registro (busca las siguientes líneas en tu registro Tor): Error común de registro #1: Fallo de conexión proxy 2017-10-29 09:23:40.800[NOTICE] Abriendo socks en 127.0.0.1:9150
 2017-10-29 09:23:47.900[NOTICE] Bootstrapped 5%: Conexión al servidor de directorios

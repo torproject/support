@@ -2,6 +2,8 @@ _model: question
 ---
 title: How do I run a middle or guard relay on FreeBSD or HardenedBSD?
 ---
+seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
+---
 description: 
 <p class="mb-3">For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a>.</p><p class="mb-3"><ol><li>Run "pkg install tor" (as root).</li><li>Make sure your clock, date, and timezone are set correctly. Enabling ntpd is suggested.</li><li>Edit /usr/local/etc/tor/torrc to look like the following:<pre><code>## Set the nickname of this relay
 Nickname ididnteditheconfig

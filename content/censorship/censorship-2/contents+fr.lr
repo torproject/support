@@ -1,6 +1,8 @@
 _model: question 
 ---
 title: J’éprouve des difficultés à me connecter à Tor et je n’arrive pas à comprendre ce qui ne va pas.
+--
+seo_slug: j-eprouve-des-difficultes-a-me-connecter-a-tor
 ---
 description: 
 <p class="mb-3">Si vous éprouvez des difficultés à vous connecter, veuillez sélectionner l’option « Copier le journal de Tor dans le presse-papiers ». Collez ensuite le journal de Tor dans un fichier texte ou un autre document. Vous devriez trouver l’une de ces erreurs de journal habituelles (cherchez les lignes suivantes dans votre journal de Tor) :</p><h5>Erreur habituelle de journal no1 : échec de connexion au mandataire</h5><p class="mb-3"><pre><code> 2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150

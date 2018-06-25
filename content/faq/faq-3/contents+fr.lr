@@ -2,5 +2,7 @@ _model: question
 ---
 title: Quand j’utilise le navigateur Tor, quelqu’un peut-il savoir quel site Web je visite ?
 ---
+seo_slug: quelquun-peut-il-savoir-que-site-web-visite
+---
 description: 
 <p class="mb-3">Le navigateur Tor empêche quiconque de savoir quel site Web vous visitez. Certaines entités telles que votre fournisseur d'accès Internet (FAI) pourraient voir que vous utilisez Tor.</p>

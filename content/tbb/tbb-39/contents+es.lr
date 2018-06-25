@@ -1,6 +1,6 @@
 _model: question 
 ---
-title: He descargado e instalado el Navegador Tor para Windows, pero ahora no puedo encontrarlo.
+title: I’m having trouble using features on Facebook, Twitter, or some other website when I’m using Tor Browser.
 ---
 description: 
-<p class="mb-3">El fichero que descargas y ejecutas te solicita un destino. Si no recuerdas cuál fue este destino, lo más probable es que se encuentre en tu carpeta Descargas o Escritorio. La configuración predeterminada en el instalador de Windows también crea un atajo en tu Escritorio, aunque debes tener en cuenta que accidentalmente puedes haber desmarcado esta opción para crear el atajo. Si no puedes encontrarlo en ninguna de esas carpetas, descárgalo de nuevo y busca el mensaje que te pide que escojas un directorio en el que descargarlo. Elige una ubicación de directorio que puedas recordar fácilmente, y una vez finalice la descarga deberías ver una carpeta de Navegador Tor allí.</p>
+<p class="mb-3">Sometimes Javascript-heavy websites can have functional issues over Tor Browser. The simplest fix is to click on the "onion menu," then click on the security slider. Set your security to "low."</p>

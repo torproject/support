@@ -2,6 +2,8 @@ _model: question
 ---
 title: I am having trouble connecting to Tor, and I can’t figure out what’s wrong.
 ---
+seo_slug: having-trouble-connecting-to-tor
+---
 description: 
 <p class="mb-3">If you’re having trouble connecting, please select the option to "copy Tor log to clipboard." Then paste the Tor log into a text file or other document. You should see one of these common log errors (look for the following lines in your Tor log):</p><h5>Common log error #1: Proxy connection failure</h5><p class="mb-3"><pre><code> 2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
  2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server 

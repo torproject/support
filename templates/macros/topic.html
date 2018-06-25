@@ -1,11 +1,13 @@
 {% from "macros/question.html" import render_question %}
 {% macro render_topic(item, alternative) %}
+{% set b_alt = 'topics+'+alternative %}
+{% set t = bag(b_alt, item._id) %}
 <div class="item">
   <h3 class="text-primary">
-    <a href="#{{ item._id }}" role="button"></a>
+    <a href="{{ t.path }}" role="button"></a>
   </h3>
-  <div id="{{ item._id }}" role="tabpanel" data-parent="#topics">
-    <div id="{{ item._id }}Accordion" data-children=".question">
+  <div id="{{ t.control }}" role="tabpanel" data-parent="#topics">
+    <div id="{{ t.control }}Accordion" data-children=".question">
       <h5 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ item.title }}</h5>
       {% for q in item.children %}
         {{ render_question(q, item._id, alternative) }}
