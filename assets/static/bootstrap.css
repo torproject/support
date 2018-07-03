@@ -6649,6 +6649,14 @@ pre {
 #bd-docs-nav {
   padding-top: 2rem; }
 
+.anchor-spacer:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: 6em;
+  margin-top: -6em; }
+
 .hll {
   background-color: #ffc; }
 
@@ -6930,6 +6938,10 @@ a.side-nav.active {
 /* Support Portal Styles
 *
 */
+.question {
+  position: relative;
+  padding-top: 50px; }
+
 .section-nav {
   padding-top: 0 !important;
   border: 0 !important; }

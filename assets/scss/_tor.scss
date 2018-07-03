@@ -365,6 +365,12 @@ pre {
   padding-top: 2rem;
 }
 
+// Spacers //
+
+.anchor-spacer:before {
+  content: ''; display: block; position: relative; width: 0; height: 6em; margin-top: -6em
+}
+
 // stylelint-disable declaration-block-single-line-max-declarations
 
 .hll { background-color: #ffc; }
