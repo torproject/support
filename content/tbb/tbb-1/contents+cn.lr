@@ -1,6 +1,6 @@
-_model: question 
+_model: question
 ---
 title: Will my network admin be able to tell I'm using Tor Browser?
 ---
-description: 
-<p class="mb-3">When using Tor / Tor Browser, we do not make the guarantee that no one will be able to determine you are using Tor. Rather, the goal is that no one will know what you are doing with Tor. Using pluggable transports can make identifying Tor traffic more difficult, but not impossible.</p>
+description:
+<p class="mb-3">When using Tor Browser, no one can see the websites that you visit. However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.</p>

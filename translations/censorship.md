@@ -5,7 +5,6 @@ title: Our website is blocked by a censor. Can Tor Browser help users access our
 seo_slug: our-website-is-blocked-by-a-censor
 ---
 description:
-
 <p class="mb-3">Tor Browser can certainly help people access your website in places where it is blocked. Most of the time, simply downloading the ​<mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> and then using it to navigate to the blocked site will allow access. In places where there is heavy censorship we have a number of censorship circumvention options available, including ​<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>. For more information, please see the <mark><a href="https://tb-manual.torproject.org/en-US/">​Tor Browser User Manual</a></mark> section on <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">censorship</a></mark>.</p>
 
 
@@ -30,17 +29,17 @@ description:
 
 _model: question
 ---
-title: My favorite website is blocking access over Tor.
+title: A website I am trying to reach is blocking access over Tor.
 ---
 seo_slug: website-is-blocking-access-over-tor
 ---
 description:
-
-<p class="mb-3">Sorry to hear that you can't visit the website you wanted! Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:
+<p class="mb-3">Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:
 <br />
-Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you.
+"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
 <br />
 In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended). If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a></p>
+
 
 _model: question
 ---
@@ -54,8 +53,8 @@ description:
 <p class="mb-3">
 <pre>
 <code>
-2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
-2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server 
+2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150
+2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server
 2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
 2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
 2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
@@ -82,9 +81,9 @@ If you see lines like these in your Tor log, it means your Tor failed to connect
 <p class="mb-3">
 <pre>
 <code>
-13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
-13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 
-13-11-17 19:53:49.300 [WARN] 10 connections have failed: 
+13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
+13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx)
+13-11-17 19:53:49.300 [WARN] 10 connections have failed:
  13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
 13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 </code>
@@ -156,17 +155,17 @@ description:
 
 _model: question
 ---
-title: My favorite website is blocking access over Tor.
+title: A website I am trying to reach is blocking access over Tor.
 ---
 seo_slug: website-is-blocking-access-over-tor
 ---
 description:
-
-<p class="mb-3">Sorry to hear that you can't visit the website you wanted! Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:
+<p class="mb-3">Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic. The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly. Something like this might do the trick:
 <br />
-Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you.
+"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site. I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship. By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking. Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
 <br />
 In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended). If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a></p>
+
 
 _model: question
 ---
@@ -180,8 +179,8 @@ description:
 <p class="mb-3">
 <pre>
 <code>
-2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
-2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server 
+2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150
+2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server
 2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
 2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
 2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
@@ -208,9 +207,9 @@ If you see lines like these in your Tor log, it means your Tor failed to connect
 <p class="mb-3">
 <pre>
 <code>
-13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
-13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 
-13-11-17 19:53:49.300 [WARN] 10 connections have failed: 
+13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
+13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx)
+13-11-17 19:53:49.300 [WARN] 10 connections have failed:
  13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
 13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 </code>
@@ -240,3 +239,12 @@ seo_slug: is-my-network-censored
 description:
 <p class="mb-3">You might be on a censored network, and so you should try using bridges. Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time. If you need other bridges, you can get them at our ​<mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>. For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">​Tor Browser manual</a></mark>.</p>
 
+
+_model: question
+---
+title: What is a bridge?
+---
+seo_slug: what-is-a-bridge
+---
+description:
+<p class="mb-3">Bridge relays are Tor relays that are not listed in the public Tor directory. That means that ISPs or governments trying to block access to the Tor network can't simply block all bridges. Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.</p><p class="mb-3">A bridge is just a normal relay with a slightly different configuration. See (link to How do I run a bridge) for instructions.</p><p class="mb-3">Several countries, including China and Iran, have found ways to detect and block connections to Tor bridges. <mark>​<a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.</p><p class="mb-3">Setting up an obfsproxy bridge requires an additional software package and additional configurations. See ​our page on <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark> for more info.</p>
