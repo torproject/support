@@ -1,57 +1,57 @@
 {
-    "faq": {
-	"path": "#faq",
-	"control": "שאלות נפוצות",
-	"label": "השאלות הנפוצות ביותר"
-    },
-    "tbb": {
-	"path": "#tor-browser",
-	"control": "דפדפן־tor",
-	"label": "דפדפן Tor"
-    },
-    "tormessenger": {
-	"path": "#tor-messenger",
-	"control": "שליח־tor",
-	"label": "שליח Tor"
-    },
-    "tormobile": {
-	"path": "#tor-mobile",
-	"control": "tor־נייד",
-	"label": "Tor נייד"
-    },
-    "gettor": {
-	"path": "#gettor",
-	"control": "gettor",
-	"label": "GetTor"
-    },
-    "connecting": {
-	"path": "#connecting-to-tor",
-	"control": "התחברות־אל־tor",
-	"label": "התחברות אל Tor"
-    },
-    "censorship": {
-	"path": "#censorship",
-	"control": "צנזורה",
-	"label": "צנזורה"
-    },
-    "https": {
-	"path": "#https",
-	"control": "https",
-	"label": "HTTPS"
-    },
-    "operators": {
-	"path": "#operators",
-	"control": "מתפעלים",
-	"label": "מתפעלים"
-    },
-    "onionservices": {
-	"path": "#onion-services",
-	"control": "שירותי־בצל",
-	"label": "שירותי בצל"
-    },
-    "misc": {
-	"path": "#misc",
-	"control": "שונות",
-	"label": "שונות"
-    }
+  "faq": {
+    "path": "#faq",
+    "control": "שאלות נפוצות",
+    "label": "השאלות הנפוצות ביותר"
+  },
+  "tbb": {
+    "path": "#tor-browser",
+    "control": "דפדפן־tor",
+    "label": "דפדפן Tor"
+  },
+  "tormessenger": {
+    "path": "#tor-messenger",
+    "control": "שליח־tor",
+    "label": "שליח Tor"
+  },
+  "tormobile": {
+    "path": "#tor-mobile",
+    "control": "tor־נייד",
+    "label": "Tor נייד"
+  },
+  "gettor": {
+    "path": "#gettor",
+    "control": "gettor",
+    "label": "GetTor"
+  },
+  "connecting": {
+    "path": "#connecting-to-tor",
+    "control": "התחברות־אל־tor",
+    "label": "התחברות אל Tor"
+  },
+  "censorship": {
+    "path": "#censorship",
+    "control": "צנזורה",
+    "label": "צנזורה"
+  },
+  "https": {
+    "path": "#https",
+    "control": "https",
+    "label": "HTTPS"
+  },
+  "operators": {
+    "path": "#operators",
+    "control": "מתפעלים",
+    "label": "מתפעלים"
+  },
+  "onionservices": {
+    "path": "#onion-services",
+    "control": "שירותי־בצל",
+    "label": "שירותי בצל"
+  },
+  "misc": {
+    "path": "#misc",
+    "control": "שונות",
+    "label": "שונות"
+  }
 }

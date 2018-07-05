@@ -1,57 +1,57 @@
 {
-    "faq": {
-	"path": "#faq",
-	"control": "faq",
-	"label": "Most Frequently Asked Questions"
-    },
-    "tbb": {
-	"path": "#tor-browser",
-	"control": "tor-browser",
-	"label": "Peramban Tor"
-    },
-    "tormessenger": {
-	"path": "#tor-messenger",
-	"control": "tor-messenger",
-	"label": "Tor Messenger"
-    },
-    "tormobile": {
-	"path": "#tor-mobile",
-	"control": "tor-mobile",
-	"label": "Tor Mobile"
-    },
-    "gettor": {
-	"path": "#gettor",
-	"control": "gettor",
-	"label": "GetTor"
-    },
-    "connecting": {
-	"path": "#connecting-to-tor",
-	"control": "connecting-to-tor",
-	"label": "Terhubung ke Tor"
-    },
-    "censorship": {
-	"path": "#censorship",
-	"control": "sensor",
-	"label": "Sensor"
-    },
-    "https": {
-	"path": "#https",
-	"control": "https",
-	"label": "HTTPS"
-    },
-    "operators": {
-	"path": "#operators",
-	"control": "operators",
-	"label": "Operator"
-    },
-    "onionservices": {
-	"path": "#onion-services",
-	"control": "onion-services",
-	"label": "Layanan Onion"
-    },
-    "misc": {
-	"path": "#misc",
-	"control": "misc",
-	"label": "Lain-lain"
-    }
+  "faq": {
+    "path": "#faq",
+    "control": "faq",
+    "label": "Most Frequently Asked Questions"
+  },
+  "tbb": {
+    "path": "#tor-browser",
+    "control": "tor-browser",
+    "label": "Peramban Tor"
+  },
+  "tormessenger": {
+    "path": "#tor-messenger",
+    "control": "tor-messenger",
+    "label": "Tor Messenger"
+  },
+  "tormobile": {
+    "path": "#tor-mobile",
+    "control": "tor-mobile",
+    "label": "Tor Mobile"
+  },
+  "gettor": {
+    "path": "#gettor",
+    "control": "gettor",
+    "label": "GetTor"
+  },
+  "connecting": {
+    "path": "#connecting-to-tor",
+    "control": "connecting-to-tor",
+    "label": "Terhubung ke Tor"
+  },
+  "censorship": {
+    "path": "#censorship",
+    "control": "sensor",
+    "label": "Sensor"
+  },
+  "https": {
+    "path": "#https",
+    "control": "https",
+    "label": "HTTPS"
+  },
+  "operators": {
+    "path": "#operators",
+    "control": "operators",
+    "label": "Operator"
+  },
+  "onionservices": {
+    "path": "#onion-services",
+    "control": "onion-services",
+    "label": "Layanan Onion"
+  },
+  "misc": {
+    "path": "#misc",
+    "control": "misc",
+    "label": "Lain-lain"
+  }
 }

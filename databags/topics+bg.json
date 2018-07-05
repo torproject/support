@@ -1,57 +1,57 @@
 {
-    "faq": {
-	"path": "#чзв",
-	"control": "ЧЗВ",
-	"label": "Често задавани въпроси"
-    },
-    "tbb": {
-	"path": "#тор-браузър",
-	"control": "тор-браузър",
-	"label": "Tor Browser"
-    },
-    "tormessenger": {
-	"path": "#тор-месенджър",
-	"control": "тор-месенджър",
-	"label": "Тор Месенджър"
-    },
-    "tormobile": {
-	"path": "#тор-мобилен",
-	"control": "тор-мобилен",
-	"label": "Тор Мобилен"
-    },
-    "gettor": {
-	"path": "#gettor",
-	"control": "gettor",
-	"label": "GetTor"
-    },
-    "connecting": {
-	"path": "#свързване-към-тор",
-	"control": "свързване-към-тор",
-	"label": "Свързване към Тор"
-    },
-    "censorship": {
-	"path": "#цензура",
-	"control": "цензура",
-	"label": "Цензура"
-    },
-    "https": {
-	"path": "#https",
-	"control": "https",
-	"label": "HTTPS"
-    },
-    "operators": {
-	"path": "#оператори",
-	"control": "оператори",
-	"label": "Оператори"
-    },
-    "onionservices": {
-	"path": "#onion-услуги",
-	"control": "onion-услуги",
-	"label": "Onion услуги"
-    },
-    "misc": {
-	"path": "#разни",
-	"control": "разни",
-	"label": "Разни"
-    }
+  "faq": {
+    "path": "#чзв",
+    "control": "ЧЗВ",
+    "label": "Често задавани въпроси"
+  },
+  "tbb": {
+    "path": "#тор-браузър",
+    "control": "тор-браузър",
+    "label": "Tor Browser"
+  },
+  "tormessenger": {
+    "path": "#тор-месенджър",
+    "control": "тор-месенджър",
+    "label": "Тор Месенджър"
+  },
+  "tormobile": {
+    "path": "#тор-мобилен",
+    "control": "тор-мобилен",
+    "label": "Тор Мобилен"
+  },
+  "gettor": {
+    "path": "#gettor",
+    "control": "gettor",
+    "label": "GetTor"
+  },
+  "connecting": {
+    "path": "#свързване-към-тор",
+    "control": "свързване-към-тор",
+    "label": "Свързване към Тор"
+  },
+  "censorship": {
+    "path": "#цензура",
+    "control": "цензура",
+    "label": "Цензура"
+  },
+  "https": {
+    "path": "#https",
+    "control": "https",
+    "label": "HTTPS"
+  },
+  "operators": {
+    "path": "#оператори",
+    "control": "оператори",
+    "label": "Оператори"
+  },
+  "onionservices": {
+    "path": "#onion-услуги",
+    "control": "onion-услуги",
+    "label": "Onion услуги"
+  },
+  "misc": {
+    "path": "#разни",
+    "control": "разни",
+    "label": "Разни"
+  }
 }

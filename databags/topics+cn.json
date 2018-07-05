@@ -1,57 +1,57 @@
 {
-    "faq": {
-	"path": "#常见问题",
-	"control": "常见问题",
-	"label": "常见问题"
-    },
-    "tbb": {
-	"path": "#tor浏览器",
-	"control": "tor浏览器",
-	"label": "tor浏览器"
-    },
-    "tormessenger": {
-	"path": "#tor-messenger",
-	"control": "tor-messenger",
-	"label": "Tor Messenger"
-    },
-    "tormobile": {
-	"path": "#tor-mobile",
-	"control": "tor-mobile",
-	"label": "Tor Mobile"
-    },
-    "gettor": {
-	"path": "#gettor",
-	"control": "gettor",
-	"label": "GetTor"
-    },
-    "connecting": {
-	"path": "#connecting-to-tor",
-	"control": "connecting-to-tor",
-	"label": "Connecting To Tor"
-    },
-    "censorship": {
-	"path": "#censorship",
-	"control": "censorship",
-	"label": "Censorship"
-    },
-    "https": {
-	"path": "#https",
-	"control": "https",
-	"label": "HTTPS"
-    },
-    "operators": {
-	"path": "#选项",
-	"control": "选项",
-	"label": "选项"
-    },
-    "onionservices": {
-	"path": "#洋葱服务",
-	"control": "洋葱服务",
-	"label": "洋葱服务"
-    },
-    "misc": {
-	"path": "#misc",
-	"control": "misc",
-	"label": "Misc"
-    }
+  "faq": {
+    "path": "#常见问题",
+    "control": "常见问题",
+    "label": "常见问题"
+  },
+  "tbb": {
+    "path": "#tor浏览器",
+    "control": "tor浏览器",
+    "label": "tor浏览器"
+  },
+  "tormessenger": {
+    "path": "#tor-messenger",
+    "control": "tor-messenger",
+    "label": "Tor Messenger"
+  },
+  "tormobile": {
+    "path": "#tor-mobile",
+    "control": "tor-mobile",
+    "label": "Tor Mobile"
+  },
+  "gettor": {
+    "path": "#gettor",
+    "control": "gettor",
+    "label": "GetTor"
+  },
+  "connecting": {
+    "path": "#connecting-to-tor",
+    "control": "connecting-to-tor",
+    "label": "Connecting To Tor"
+  },
+  "censorship": {
+    "path": "#censorship",
+    "control": "censorship",
+    "label": "Censorship"
+  },
+  "https": {
+    "path": "#https",
+    "control": "https",
+    "label": "HTTPS"
+  },
+  "operators": {
+    "path": "#选项",
+    "control": "选项",
+    "label": "选项"
+  },
+  "onionservices": {
+    "path": "#洋葱服务",
+    "control": "洋葱服务",
+    "label": "洋葱服务"
+  },
+  "misc": {
+    "path": "#misc",
+    "control": "misc",
+    "label": "Misc"
+  }
 }

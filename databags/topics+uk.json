@@ -1,57 +1,57 @@
 {
-    "faq": {
-	"path": "#ЧАП",
-	"control": "ЧАП",
-	"label": "Найбільш ЧАсті Питання"
-    },
-    "tbb": {
-	"path": "#tor-браузер",
-	"control": "tor-браузер",
-	"label": "Tor браузер"
-    },
-    "tormessenger": {
-	"path": "#tor-messenger",
-	"control": "tor-messenger",
-	"label": "Tor Messenger"
-    },
-    "tormobile": {
-	"path": "#мобільний-tor",
-	"control": "мобільний-tor",
-	"label": "Мобільний Tor"
-    },
-    "gettor": {
-	"path": "#отриматитор",
-	"control": "отриматитор",
-	"label": "GetTor"
-    },
-    "connecting": {
-	"path": "#під'єднання-до-tor",
-	"control": "під'єднання-до-tor",
-	"label": "Під'єднання до Tor"
-    },
-    "censorship": {
-	"path": "#цензура",
-	"control": "цензура",
-	"label": "Цензура"
-    },
-    "https": {
-	"path": "#https",
-	"control": "https",
-	"label": "HTTPS"
-    },
-    "operators": {
-	"path": "#оператори",
-	"control": "оператори",
-	"label": "Оператори"
-    },
-    "onionservices": {
-	"path": "#служби-onion",
-	"control": "служби-onion",
-	"label": "Служби Onion"
-    },
-    "misc": {
-	"path": "#різне",
-	"control": "різне",
-	"label": "Різне"
-    }
+  "faq": {
+    "path": "#ЧАП",
+    "control": "ЧАП",
+    "label": "Найбільш ЧАсті Питання"
+  },
+  "tbb": {
+    "path": "#tor-браузер",
+    "control": "tor-браузер",
+    "label": "Tor браузер"
+  },
+  "tormessenger": {
+    "path": "#tor-messenger",
+    "control": "tor-messenger",
+    "label": "Tor Messenger"
+  },
+  "tormobile": {
+    "path": "#мобільний-tor",
+    "control": "мобільний-tor",
+    "label": "Мобільний Tor"
+  },
+  "gettor": {
+    "path": "#отриматитор",
+    "control": "отриматитор",
+    "label": "GetTor"
+  },
+  "connecting": {
+    "path": "#під'єднання-до-tor",
+    "control": "під'єднання-до-tor",
+    "label": "Під'єднання до Tor"
+  },
+  "censorship": {
+    "path": "#цензура",
+    "control": "цензура",
+    "label": "Цензура"
+  },
+  "https": {
+    "path": "#https",
+    "control": "https",
+    "label": "HTTPS"
+  },
+  "operators": {
+    "path": "#оператори",
+    "control": "оператори",
+    "label": "Оператори"
+  },
+  "onionservices": {
+    "path": "#служби-onion",
+    "control": "служби-onion",
+    "label": "Служби Onion"
+  },
+  "misc": {
+    "path": "#різне",
+    "control": "різне",
+    "label": "Різне"
+  }
 }
