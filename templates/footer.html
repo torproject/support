@@ -60,7 +60,9 @@
         $(this).addClass('active');
       });
 
-      $('.show').collapse();
+      if($('.show').length !== 1 ) {
+        $('.show').collapse();
+      }
 
       // Coming from search result page click
       if(window.location.hash !== "") {
