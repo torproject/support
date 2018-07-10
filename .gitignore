@@ -5,6 +5,10 @@ node_modules
 
 public
 
+*.egg-info
+
+__pycache__
+
 ### Emacs ###
 # -*- mode: gitignore; -*-
 *~
