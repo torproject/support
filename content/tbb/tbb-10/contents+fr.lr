@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je quand même utiliser un autre navigateur comme Chrome ou Firefox quand j’utilise le navigateur Tor ?
+title: My antivirus or malware protection is blocking me from accessing Tor Browser.
 ---
-description: 
-<p class="mb-3">Vous pouvez assurément utiliser un autre navigateur alors que vous utilisez aussi le navigateur Tor. Mais vous devez cependant savoir que les propriétés de confidentialité du navigateur Tor seront absentes de l’autre navigateur. Soyez prudent en basculant du navigateur Tor à un autre navigateur moins sécurisé, car vous pourriez accidentellement utiliser l’autre navigateur pour quelque chose que vous pensiez faire avec Tor.</p>
+seo_slug: antivirus-blocking-tor
+---
+description:
+<p class="mb-3">Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked. Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar. Next, exclude the following processes:</p><p class="mb-3"><ul>For Windows<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe (if you use bridges)</li></ul><ul>For OS X<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy (if you use bridges)</li></ul></p><p class="mb-3">Finally, restart Tor Browser. This should fix the issues you're experiencing. Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.</p>

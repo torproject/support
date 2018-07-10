@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je utiliser le logo de Tor sur mon produit ?
+title: Why don't you prevent bad people from doing bad things when using Tor?
 ---
-description: 
-<p class="mb-3">Vous trouverez tous les renseignements à ce sujet sur la <mark><a href="https://www.torproject.org/docs/trademark-faq.html">​FAQ de notre marque de commerce</a></mark>.</p>
+seo_slug: prevent-bad-people-doing-bad-things-with-tor
+---
+description:
+<p class="mb-3">Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us. We hate that there are some people who use Tor to do terrible things, but we can't do anything to get rid of them without also undermining the human rights activists, journalists, abuse survivors, and other people who use Tor for good things. If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.</p>

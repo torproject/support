@@ -1,6 +1,9 @@
-_model: question 
+_model: question
 ---
-title: Comment puis-je devenir bénévole auprès du Projet Tor ?
+title: Can I change the number of hops Tor uses?
 ---
-description: 
-<p class="mb-3">Notre page <mark><a href="https://www.torproject.org/getinvolved/volunteer.html.en">​Devenir bénévole</a></mark> (en anglais) explique comment s’impliquer.</p>
+seo_slug: change-the-number-of-hops-tor-uses
+---
+description:
+<p class="mb-3">Right now the path length is hard-coded at 3 plus the number of nodes in your path that are sensitive. That is, in normal cases it's 3, but for example if you're accessing an onion service or a ".exit" address it could be more.</p>
+<p class="mb-3">We don't want to encourage people to use paths longer than this as it increases load on the network without (as far as we can tell) providing any more security. Also, using paths longer than 3 could harm anonymity, first because it makes<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denial of security</a></mark> ttacks easier, and second because it could act as an identifier if only a small number of users have the same path length as you.</p>

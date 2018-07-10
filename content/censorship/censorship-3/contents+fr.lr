@@ -1,9 +1,9 @@
-_model: question 
+_model: question
 ---
-title: Je n'arrive pas à me connecter au Navigateur Tor, mon réseau est-il censuré ?
+title: How do I download Tor if the torproject.org is blocked?
 ---
-seo_slug: je-n-arrive-pas-a-me-connecter-a-tor
+seo_slug: how-do-i-download-tor-if-torproject-org-is-blocked
 ---
-description: 
-<p class="mb-3">Il se peut que vous soyez sur un réseau censuré et que vous deviez tenter d’utiliser des ponts. Des ponts sont intégrés au Navigateur Tor et vous pouvez utiliser ces ponts en choisissant « Configurer » (puis en suivant les indications) dans la fenêtre du lanceur Tor qui surgit quand vous ouvrez le Navigateur Tor pour la première fois. S’il vous faut d’autres ponts, vous pouvez en obtenir sur notre ​<mark><a href="https://bridges.torproject.org/">site Web BridgeDB</a></mark>. Pour de plus amples renseignements concernant les ponts, consulter le <mark><a href="https://tb-manual.torproject.org/fr/bridges.html">​guide d’utilisation du Navigateur Tor</a></mark>.</p>
+description:
 
+<p class="mb-3">If you can't download Tor through our ​<mark><a href=\"https://www.torproject.org\">website</a></mark>, you can get a copy of Tor delivered to you via GetTor. GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and Github.</p>

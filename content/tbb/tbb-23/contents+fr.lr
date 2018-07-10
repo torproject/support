@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je exécuter le navigateur Tor plusieurs fois en même temps ?
+title: What search engine comes with Tor Browser and how does it protect my privacy?
 ---
-description: 
-<p class="mb-3">Nous ne recommandons pas d’exécuter le navigateur Tor plusieurs fois en même temps, ce qui pourrait ne pas fonctionner comme souhaité sur plusieurs plateformes.</p>
+seo_slug: search-engine-tor-browser
+---
+description:
+<p class="mb-3">DuckDuckGo is the default search engine in Tor Browser. DuckDuckGo does not track its users nor does it store any data about user searches.</p>

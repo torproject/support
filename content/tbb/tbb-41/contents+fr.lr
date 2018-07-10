@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Est-ce que l’utilisation du navigateur Tor protège les autres applications sur mon ordinateur ?
+title: Why did my search engine switch to DuckDuckGo?
 ---
-description: 
-<p class="mb-3"> Seul le trafic du navigateur Tor sera acheminé par le réseau Tor. Les connexions de toutes les autres applications sur votre système (des autres navigateurs notamment) ne seront pas acheminées par le réseau Tor ni ne seront protégées. Elles doivent être configurées séparément pour utiliser Tor. Si vous avez besoin de vous assurer que tout le trafic passe par le réseau Tor, jetez un coup d’œil au ​<mark><a href="https://tails.boum.org/">système d’exploitation autonome Tails</a></mark> que vous pouvez lancer sur presque n’importe quel ordinateur à partir d’une clé USB ou d’un DVD.</p>
+seo_slug: why-is-tor-using-duckduckgo
+---
+description:
+<p class="mb-3">With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine. For a while now, Disconnect has had no access to Google search results which we used in Tor Browser. Since Disconnect is more of a meta search engine which allows users to choose between different search providers, it fell back to delivering Bing search results which were basically unacceptable quality-wise.</p>

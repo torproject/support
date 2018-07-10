@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Pourquoi n’empêchez-vous pas les personnes mal intentionnées de commettre des méfaits en utilisant Tor ?
+title: The files on my computer have been locked, and someone is demanding I download Tor Browser to pay a ransom for my files!
 ---
-description: 
-<p class="mb-3">Tor est conçu pour défendre les droits de la personne et la confidentialité en empêchant quiconque de censurer quoi que ce soit, ce qui s’applique aussi à nous. Nous détestons que certaines personnes qui utilisent Tor fassent des choses horribles, mais nous ne pouvons rien faire pour nous en débarrasser sans porter atteinte aux activistes des droits de la personne, aux journalistes, aux survivants de violence et autres personnes qui utilisent Tor à de fins louables. Si nous voulions empêcher certaines personnes d’utiliser Tor, nous ajouterions essentiellement une porte dérobée aux logiciels, ce qui exposerait nos utilisateurs vulnérables aux attaques de régimes condamnables et autres adversaires.</p>
+seo_slug: someone-asks-to-download-tor-browser-to-unlock-my-files
+---
+description:
+<p class="mb-3">We are so sorry, but you have been infected with malware. The Tor Project did not create this malware. The malware authors are asking you to download Tor Browser presumably to contact them anonymously with the ransom they're demanding from you. If this is your first introduction to Tor Browser, we understand that you might think we're bad people who enable even worse people. But please consider that our software is used every day for a wide variety of purposes by ​human rights activists, journalists, domestic violence survivors, whistleblowers, law enforcement officers, and many others. Unfortunately, the protection that our software can provide to these groups of people can also be abused by criminals and malware authors. The Tor Project does not support or condone the use of our software for malicious purposes.</p>

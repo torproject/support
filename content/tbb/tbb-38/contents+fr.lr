@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Mon antivirus ou ma protection contre les programmes malveillants m’empêche d’accéder au navigateur Tor.
+title: Will my network admin be able to tell I'm using Tor Browser?
 ---
-description: 
-<p class=" mb-3">La plupart des antivirus ou des protections contre les programmes malveillants permettent aux utilisateurs de mettre en liste blanche certains processus qui pourraient autrement être bloqués. Ouvrez votre logiciel antivirus ou de protection contre les programmes malveillants et cherchez dans les paramètres une liste blanche ou quelque chose de semblable. Excluez ensuite les processus suivants :</p><p class=" mb-3"><ul>Pour Windows<li>firefox.exe</li><li>tor.exe</li><li>obfs4proxy.exe (si vous utilisez des ponts)</li></ul><ul>Pour macOS (OS X)<li>TorBrowser</li><li>tor.real</li><li>obfs4proxy (si vous utilisez des ponts)</li></ul></p><p class=" mb-3">Enfin, redémarrez le navigateur Tor.</p>
+seo_slug: network-admin-know-i-am-using-tor
+---
+description:
+<p class="mb-3">When using Tor Browser, no one can see the websites that you visit. However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.</p>

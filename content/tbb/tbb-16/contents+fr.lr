@@ -1,7 +1,8 @@
-_model: question 
+_model: question
 ---
-title: J'ai un problème avec DuckDuckGo.
+title: Can I pick which country I'm exiting from?
 ---
-description: 
-<p class="mb-3">Veuillez consulter la ​<mark><a href="https://duck.co/help">page d’assistance de DuckDuckGo</a></mark>. Si vous croyez que le problème provient du navigateur Tor, veuillez le signaler sur notre ​<mark><a href="https://trac.torproject.org/">gestionnaire de bogues</a></mark>.</p>
-
+seo_slug: pick-which-country-i-am-exiting
+---
+description:
+<p class="mb-3">Modifying the way that Tor creates its circuits is strongly discouraged. You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity. If the outcome you want is simply to be able to access resources that are only available in one country, you may want to consider using a VPN instead of using Tor. Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.</p>

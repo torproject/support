@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je télécharger le navigateur Tor pour Chrome OS ?
+title: Can you get rid of all the captchas?
 ---
-description: 
-<p class="mb-3">Malheureusement, nous n’avons pas encore de version du navigateur Tor pour Chrome OS.</p>
+seo_slug: get-rid-of-captchas
+---
+description:
+<p class="mb-3">Unfortunately, some websites deliver CAPTCHAS to Tor users, and we are not able to remove CAPTCHAs from websites. The best thing to do in these cases is to contact the website owners, and inform them that their CAPTCHAs are preventing users such as yourself from using their services.</p>

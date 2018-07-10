@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Les fichiers sur mon ordinateur ont été verrouillée et quelqu'un demande que je télécharge le navigateur Tor pour payer une rançon pour mes fichiers !
+title: Does Tor keep logs?
 ---
-description: 
-<p class="mb-3">Nous sommes désolés, mais vous avez été infecté par un rançongiciel. Le projet Tor n’a pas créé ce rançongiciel. Les auteurs du rançongiciel vous demandent de télécharger le navigateur Tor pour probablement les contacter de manière anonyme avec la rançon qu’ils vous demandent. Si c’est la première fois que vous entendez parler du navigateur Tor, nous comprenons que vous pensez que nous sommes des personnes mal intentionnées qui ouvrent la porte à des personnes encore pires. Mais veuillez prendre en considération que nos logiciels sont utilisés tous les jours à des fins les plus diverses par des activistes des droits de la personne, des journalistes, des survivants de violence familiale, des lanceurs d’alerte, des représentants des forces de l’ordre et bien d’autres. Malheureusement, la protection que nos logiciels peut fournir à ces groupes de personnes peut aussi être détournée par des criminels et des auteurs de programmes malveillants. Le Projet Tor n’appuie ni ne cautionne l’utilisation de nos logiciels à des fins malveillantes.</p>
+seo_slug: does-tor-keep-logs
+---
+description:
+<p class="mb-3">Tor doesn't keep any logs that could identify a particular user. We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">​Tor Metrics</a></mark>.</p>

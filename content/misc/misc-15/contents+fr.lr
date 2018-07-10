@@ -1,7 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Comment puis-je partager des fichiers anonymement avec Tor ?
+title: How can I donate to Tor Project?
 ---
-description: 
-<p class="mb-3">De nombreux nœuds de sortie sont configurés pour bloquer certains types de trafic de partage de fichiers tels que BitTorrent. BitTorrent en particulier <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">​n’est pas anonyme avec Tor</a></mark>.</p><p class="mb-3"><mark><a href="https://onionshare.org/">OnionShare</a></mark> est une bonne option pour partager des fichiers avec Tor.</p>
-
+seo_slug: donate-tor-project
+---
+description:
+<p class="mb-3">Thank you for your support! You can find more information about donating on our <mark><a href="https://donate.torproject.org/donor-faq">​donor FAQ</a></mark>.</p>

@@ -1,6 +1,8 @@
-_model: topic 
+_model: topic
 ---
 title: HTTPS
 ---
-key:8
+seo_slug: https
+---
+key: 8
 ---

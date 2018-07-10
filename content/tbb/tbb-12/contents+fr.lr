@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Le navigateur Tor n’arrive pas à se connecter, mais il ne semble pas que ce soit un problème de censure.
+title: Can I use Flash in Tor Browser?
 ---
-description: 
-<p class="mb-3">L’un des problèmes les plus courants qui entraîne des erreurs de connexion dans le navigateur Tor est une horloge système qui n’est pas à l’heure. Veuillez vous assurer que votre horloge système et votre fuseau horaire sont réglés avec précision. Si le problème persiste, voir la page Dépannage du <mark><a href="https://tb-manual.torproject.org/fr/bridges.html">​guide du navigateur Tor</a></mark>.</p>
+seo_slug: using-flash-tor-browser
+---
+description:
+<p class="mb-3">Flash is disabled in Tor Browser, and we recommend you do not enable it. We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware. Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.</p>

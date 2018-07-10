@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je utiliser Tor avec un autre navigateur que le navigateur Tor ?
+title: When I use Tor Browser, will anyone be able to tell which websites I visit?
 ---
-description: 
-<p class="mb-3">Nous recommandons fortement de ne pas utiliser Tor avec un autre navigateur que le navigateur Tor. Utiliser Tor avec un autre navigateur pourrait vous rendre vulnérable, sans la protection de la confidentialité du navigateur Tor.</p>
+seo_slug: tell-which-website-are-visited-while-using-tor-browser
+---
+description:
+<p class="mb-3">Tor Browser prevents people from knowing the websites you visit. Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. </p>

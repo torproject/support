@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Comment puis-je visualiser le journal de messages du navigateur Tor ?
+title: I downloaded and installed Tor Browser for Windows, but now I can't find it.
 ---
-description: 
-<p class="mb-3">Cliquez sur le bouton « Copier le journal de Tor dans le presse-papiers » qui apparaît dans la fenêtre de dialogue quand le navigateur Tor se connecte initialement au réseau. Si le navigateur est déjà ouvert, cliquez sur l’icône BoutonTor (le petit oignon vert en haut à gauche de l’écran), sur « Paramètres du réseau Tor », puis sur « Copier le journal de Tor dans le presse-papiers ». Une fois que vous aurez copié le journal, vous pourrez le coller dans un éditeur de texte ou un client de courriel.</p>
+seo_slug: cannot-find-tor-on-windows
+---
+description:
+<p class="mb-3">The file you download and run prompts you for a destination. If you don't remember what this destination was, it's most likely your Downloads or Desktop folder. The default setting in the Windows installer also creates a shortcut for you on your Desktop, though be aware that you may have accidentally unticked the option to create a shortcut. If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in. Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.</p>

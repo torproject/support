@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Le projet Tor offre-t-il une application confidentielle de clavardage ?
+title: Does Tor Project make an application for private chat?
 ---
-description: 
-<p class="mb-3">Oui ! Le messager Tor, bien que toujours en version bêta, est un programme multiplateforme de clavardage qui tend à être sécurisé par défaut et envoie tout son trafic par Tor. Il prend en charge une grande variété de réseaux de transport dont XMPP, IRC, Twitter et autres ; les messages sont automatiquement confidentiels (OTR) ; il offre une interface utilisateur graphique conviviale ; ainsi qu’un programme de mise à jour automatique et sécurisé.</p><p class="mb-3">Consulter les <mark><a href="https://blog.torproject.org/category/tags/tor-messenger">billets de blogue sur le messager Tor (en anglais)</a></mark> pour de plus amples renseignements.</p>
+seo_slug: tor-project-app-for-private-chat
+---
+description:
+<p class="mb-3">No. After eleven beta releases, we discontinued support of <a href="https://blog.torproject.org/sunsetting-tor-messenger">Tor Messenger</a>. We still believe in Tor's ability to be used in a messaging app, but we don't have the resources to make it happen right now. Do you? <mark><a href="https://www.torproject.org/about/contact.html.en">Contact us</a></mark>.</p>

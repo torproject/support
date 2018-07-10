@@ -2,6 +2,8 @@ _model: question
 ---
 title: What is a .onion or what are onion services?
 ---
+seo_slug: what-is-a-dot-onion
+---
 description:
 <p class="mb-3">
 Onion services allow people to browsebut also to publish anonymously, including publishing anonymous websites. Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with SecureDrop or OnionShare, safer software updates, and more secure ways to reach popular websites like Facebook.</p>

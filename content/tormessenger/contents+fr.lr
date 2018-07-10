@@ -1,6 +1,8 @@
-_model: topic 
+_model: topic
 ---
-title: Le messager Tor
+title: Tor Messenger
 ---
-key:3
+seo_slug: tor-messenger
+---
+key: 3
 ---

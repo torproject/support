@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Je n'arrive pas à me connecter au navigateur Tor, mon réseau est-il censuré ?
+title: Which platforms is Tor Browser available for?
 ---
-description: 
-<p class="mb-3">Il se peut que vous soyez sur un réseau censuré et que vous deviez tenter d’utiliser des ponts. Des ponts sont intégrés au navigateur Tor et vous pouvez utiliser ces ponts en choisissant « Configurer » (puis en suivant les indications) dans la fenêtre du lanceur Tor qui surgit quand vous ouvrez le navigateur Tor pour la première fois. S’il vous faut d’autres ponts, vous pouvez en obtenir sur notre ​<mark><a href="https://bridges.torproject.org/">site Web BridgeDB</a></mark>. Pour de plus amples renseignements concernant les ponts, consulter le <mark><a href="https://tb-manual.torproject.org/fr/bridges.html">​guide d’utilisation du navigateur Tor</a></mark>.</p>
+seo_slug: which-platform-tor-browser-available
+---
+description:
+<p class="mb-3">Tor Browser is currently available on Windows, Linux and OSX. For Android, The Guardian Project maintains the Tor-powered apps Orbot and Orfox. There is no official version of Tor for iOS yet, though we recommend Onion Browser.</p>

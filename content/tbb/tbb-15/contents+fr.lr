@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: J'ai un problème avec NoScript.
+title: Can I download Tor Browser for ChromeOS?
 ---
-description: 
-<p class="mb-3">Veuillez consulter la ​<mark><a href="https://noscript.net/faq">FAQ de NoScript FAQ</a></mark>. Si vous croyez que le problème provient du navigateur Tor, veuillez le signaler sur notre ​<mark><a href=\"https://trac.torproject.org/\">gestionnaire de bogues</a></mark>.</p>
+seo_slug: download-tor-browser-chromeos
+---
+description:
+<p class="mb-3">Unfortunately, we don't yet have a version of Tor Browser for ChromeOS.</p>

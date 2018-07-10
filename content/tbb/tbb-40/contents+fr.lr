@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je utiliser Flash dans le navigateur Tor ?
+title: Does Tor Browser use a different circuit for each website?
 ---
-description: 
-<p class="mb-3">Flash est désactivé dans le navigateur Tor et nous vous recommandons de ne pas l’activer. Nous ne pensons pas qu’il soit sécuritaire d’utiliser Flash dans quelque navigateur que ce soit. C’est un logiciel qui présente de grands risques de sécurité et qui pourrait compromettre vos renseignements personnels, mais aussi vous servir des programmes malveillants.</p>9
+seo_slug: different-circuit-each-website
+---
+description:
+<p class="mb-3">In Tor Browser, every new domain gets its own circuit. ​​<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document further explains the thinking behind this design.</p>

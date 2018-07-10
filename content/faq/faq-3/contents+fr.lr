@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Quand j’utilise le navigateur Tor, quelqu’un peut-il savoir quel site Web je visite ?
+title: Should I install a new add-on or extension in Tor Browser, like AdBlock Plus or uBlock Origin?
 ---
-seo_slug: quelquun-peut-il-savoir-que-site-web-visite
+seo_slug: install-add-on-extension-tor-browser
 ---
-description: 
-<p class="mb-3">Le navigateur Tor empêche quiconque de savoir quel site Web vous visitez. Certaines entités telles que votre fournisseur d'accès Internet (FAI) pourraient voir que vous utilisez Tor.</p>
+description:
+<p class="mb-3">It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security. Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.</p>

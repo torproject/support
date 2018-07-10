@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Quel moteur de recherche est configuré avec le navigateur Tor et comment protège-t-il mes renseignements personnels ?
+title: Does using Tor Browser protect other applications on my computer?
 ---
-description: 
-<p class="mb-3">DuckDuckGo est le moteur de recherche par défaut dans le navigateur Tor. DuckDuckGo ne suit pas ses utilisateurs à la trace ni n’enregistre aucune donnée sur les recherches des utilisateurs.</p>
+seo_slug: tor-browser-protecting-other-apps
+---
+description:
+<p class="mb-3"> Only Tor Browser's traffic will be routed over the Tor network. Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected. They need to be configured separately to use Tor. If you need to be sure that all traffic will go through the Tor network, take a look at the ​<mark><a href="https://tails.boum.org/">Tails live operating system</a></mark> which you can start on almost any computer from a USB stick or a DVD.</p>

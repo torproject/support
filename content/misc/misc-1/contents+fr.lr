@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: J’éprouve des difficultés à mettre à jour ou à utiliser Vidalia.
+title: I have a compelling reason to trace a Tor user. Can you help?
 ---
-description: 
-<p class="mb-3">Vidalia n’est plus maintenue ni prise en charge. Une grande partie des fonctions qu’offrait Vidalia a maintenant été intégrée dans le navigateur Tor même.</p>
+seo_slug: tracing-tor-user
+---
+description:
+<p class="mb-3">There is nothing the Tor developers can do to trace Tor users. The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.</p>

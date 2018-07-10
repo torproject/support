@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Notre site Web est bloqué par un censeur. Le navigateur Tor peut-il aider les utilisateurs à accéder à notre site Web ?
+title: Why is the first IP address in my relay circuit always the same?
 ---
-description: 
-<p class="mb-3">Le navigateur Tor peut certainement aider les utilisateurs à accéder à votre site Web où il est bloqué. La plupart du temps, il suffira de télécharger le <mark><a href="https://www.torproject.org/download/download-easy.html.en">navigateur Tor</a></mark>et de l’utiliser pour naviguer vers le site bloqué pour y accéder. Pour les endroits soumis à une censure forte, de nombreuses options de contournement sont offertes, dont les ​<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark>. Pour de plus amples renseignements, veuillez consulter la rubrique sur la <mark><a href="https://tb-manual.torproject.org/fr/circumvention.html">censure</a></mark> du <mark><a href="https://tb-manual.torproject.org/fr/">​guide d’utilisation du navigateur Tor</a></mark>.</p>
+seo_slug: first-address-relay-circuit
+---
+description:
+<p class="mb-3">That is normal Tor behavior. The first relay in your circuit is called an "entry guard" or "guard." It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">blog post</a></mark> and <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">paper</a></mark> on entry guards.</p>

@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: J'éprouve des difficultés à utiliser des fonctions sur Facebook, Twitter ou d'autres sites Web quand j’utilise le navigateur Tor.
+title: I'm having a problem with DuckDuckGo.
 ---
-description: 
-<p class="mb-3">Les sites Web faisant particulièrement appel à JavaScript peuvent parfois présenter des problèmes de fonctionnement avec le navigateur Tor. Pour corriger cela, il suffit de cliquer sur le menu oignon puis sur le curseur de sécurité. Réglez le niveau de sécurité à Normal.</p>
+seo_slug: problem-with-duckduckgo
+---
+description:
+<p class="mb-3">Please see the ​<mark><a href="https://duck.co/help">DuckDuckGo support portal</a></mark>. If you believe this is a Tor Browser issue, please report it on our ​<mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.</p>

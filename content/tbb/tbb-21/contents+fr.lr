@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Pourquoi mon navigateur Tor me dit-il que quelque chose ne fonctionne pas avec Firefox ?
+title: How do I view Tor Browser message log?
 ---
-description: 
-<p class="mb-3">Le navigateur Tor est développé en utilisant ​<mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark> (page en anglais), et il est donc possible que des erreurs surviennent au sujet de Firefox. Veuillez vous assurer qu’un autre navigateur Tor n’est pas en cours d’exécution et que vous avez extrait le navigateur Tor dans un emplacement pour lequel votre utilisateur détient les bonnes permissions. Si vous utilisez un antivirus, veuillez consulter [linkto: My antivirus/malware protection is blocking me from accessing Tor Browser]. Il n’est pas rare que des antivirus ou des logiciels antiprogrammes malveillants causent ce genre de situation.</p>
+seo_slug: view-tor-browser-message-log
+---
+description:
+<p class="mb-3">Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network. If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard.". Once you have copied the log, you will be able to paste it into a text editor or email client.</p>

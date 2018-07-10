@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Notre site Web est bloqué par un censeur. Le navigateur Tor peut-il aider les utilisateurs à accéder à notre site Web ?
+title: When I use Tor Browser, will anyone be able to tell which websites I visit?
 ---
-seo_slug: tor-peut-il-aider-les-utilisateurs-a-acceder-a-site-web
+seo_slug: will-anyone-be-able-to-tell-which-website-i-visit
 ---
-description: 
-<p class="mb-3">Le navigateur Tor peut certainement aider les utilisateurs à accéder à votre site Web où il est bloqué. La plupart du temps, il suffira de télécharger le navigateur Tor et de l’utiliser pour naviguer vers le site bloqué pour y accéder. Pour les endroits soumis à une censure forte, de nombreuses options de contournement sont offertes, dont les transports enfichables. Pour de plus amples renseignements, veuillez consulter la rubrique sur la censure du guide d’utilisation du navigateur Tor.</p>
+description:
+<p class="mb-3">Tor Browser prevents people from knowing the websites you visit. Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. </p>

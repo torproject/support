@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je définir le navigateur Tor comme navigateur par défaut ?
+title: I'm having a problem with HTTPS Everywhere.
 ---
-description: 
-<p class="mb-3">Il n’existe actuellement aucune méthode prise en charge pour définir le navigateur Tor comme navigateur par défaut. Le navigateur Tor s’efforce de s’isoler du reste de votre système, et les étapes pour le rendre navigateur par défaut ne sont pas fiables. Cela signifie que parfois un site Web se chargerait dans le navigateur Tor, et parfois il se chargerait dans un autre navigateur. Ce genre de comportement peut être dangereux et compromettre l’anonymat.</p>
+seo_slug: problem-with-https-everywhere
+---
+description:
+<p class="mb-3">Please see the ​<mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere</a></mark>. If you believe this is a Tor Browser issue, please report it on our ​<mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.</p>

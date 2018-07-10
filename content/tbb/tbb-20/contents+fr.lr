@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Comment puis-je désinstaller le navigateur Tor ?
+title: Tor Browser won't connect, but it doesn’t seem to be an issue with censorship.
 ---
-description: 
-<p class="mb-3">Il est facile de supprimer le navigateur Tor de votre système :</p><p class="mb-3"><ol><li>Trouvez le dossier de votre navigateur Tor ou l’application. Sous Windows, l’emplacement par défaut est le bureau ; sous macOS, c’est le dossier Applications (sous macOS, vous devez le déplacer dans le dossier Applications quand vous terminez le processus d’installation). Sous Linux, il n’y a pas d’emplacement par défaut, cependant le dossier s’appellera « tor-browser_fr » si vous utilisez le navigateur Tor en français.</li><li>Supprimez le dossier ou l’application du navigateur Tor.</li><li>Videz votre corbeille.</li></ol></p><p class="mb-3">Notez que l’utilitaire habituel de désinstallation de votre système d’exploitation n’est pas utilisé.</p>
+seo_slug: tor-browser-will-not-connect-no-censorship
+---
+description:
+<p class="mb-3">One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock. Please make sure your system clock and timezone are set accurately. If this doesn't fix the problem, see the ​Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">​Tor Browser manual</a></mark>.</p>

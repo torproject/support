@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Le Projet Tor offre-t-il des services de courriel ou autres services Web de protection de la confidentialité ?
+title: Can I use the Tor logo in my product?
 ---
-description: 
-<p class="mb-3">Non, nous ne fournissons aucun service en ligne. Une liste (en anglais) de tous nos projets de logiciels se trouve sur notre <mark><a href="https://www.torproject.org/projects/projects.html.en">​page de projets</a></mark>.</p>
+seo_slug: using-tor-logo
+---
+description:
+<p class="mb-3">You can read all about that on our <mark><a href="https://www.torproject.org/docs/trademark-faq.html">​Trademark faq page</a></mark>.</p>

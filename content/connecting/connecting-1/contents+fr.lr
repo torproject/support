@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Le navigateur Tor n’arrive pas à se connecter, mais il ne semble pas que ce soit un problème de censure.
+title: Tor Browser won't connect, but it doesn’t seem to be an issue with censorship.
 ---
-seo_slug: le-navigateur-tor-narrive-pas-a-se-connecter
+seo_slug: tor-browser-wont-connect
 ---
-description: 
-<p class="mb-3">L’un des problèmes les plus courants qui entraîne des erreurs de connexion dans le navigateur Tor est une horloge système qui n’est pas à l’heure. Veuillez vous assurer que votre horloge système et votre fuseau horaire sont réglés avec précision. Si le problème persiste, voir la page Dépannage du <mark><a href="https://tb-manual.torproject.org/fr/bridges.html">​guide du navigateur Tor</a></mark>.</p>
+description:
+<p class="mb-3">One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock. Please make sure your system clock and timezone are set accurately. If this doesn't fix the problem, see the ​Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">​Tor Browser manual</a></mark>.</p>

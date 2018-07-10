@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Comment puis-je télécharger Tor si torproject.org est bloqué ?
+title: I can’t connect to Tor Browser, is my network censored?
 ---
-seo_slug: comment-puis-je-telecharger-tor-si-torproject-org-est-bloque
+seo_slug: cant-connect-to-tor-browser
 ---
-description: 
-<p class="mb-3">Si vous ne pouvez pas télécharger Tor à partir de notre <mark><a href="https://www.torproject.org">site Web</a></mark>, une exemplaire de Tor peut vous être livré par GetTor. GetTor est un service qui répond automatiquement aux messages en incluant des liens vers la dernière version du Navigateur Tor, hébergée en divers endroits tels que Dropbox, Google Disque et GitHub.</p>
+description:
+<p class="mb-3">You might be on a censored network, and so you should try using bridges. Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time. If you need other bridges, you can get them at our ​<mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>. For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">​Tor Browser manual</a></mark>.</p>

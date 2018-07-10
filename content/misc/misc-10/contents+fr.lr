@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Comment puis-je faire un don au projet Tor ?
+title: Does the Tor Project offer hosting?
 ---
-description: 
-<p class="mb-3">Nous vous remercions de votre soutien ! De plus amples renseignements sur les dons se trouvent dans notre <mark><a href="https://donate.torproject.org/donor-faq">​FAQ pour les donateurs</a></mark> (en anglais).</p>
+seo_slug: does-tor-project-offer-hosting
+---
+description:
+<p class="mb-3">No, the Tor Project does not offer hosting services.</p>

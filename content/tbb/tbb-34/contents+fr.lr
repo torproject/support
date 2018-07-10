@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Devrais-je installer une nouvelle extension dans le navigateur Tor, comme AdBlock Plus or uBlock Origin ?
+title: Why does Tor Browser ship with Javascript enabled?
 ---
-description: 
-<p class="mb-3">Il est fortement déconseillé d'installer de nouvelles extensions dans le navigateur Tor, car elles peuvent compromettre à la fois la confidentialité et votre sécurité. De plus, deux extensions sont déjà préinstallées dans le navigateur Tor, HTTPS partout et NoScript, pour une protection accrue.</p>
+seo_slug: tor-browser-js-enabled-default
+---
+description:
+<p class="mb-3">We configure NoScript to allow JavaScript by default in Tor Browser because many websites will not work with JavaScript disabled. Most users would give up on Tor entirely if we disabled Javascript by default because it would cause so many problems for them.</p><p class="mb-3">Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving Javascript enabled by default. For users who want to have Javascript disabled on all HTTP sites by default, we recommend changing your Tor Browser's security slider (in the Tor Browser Onion menu under "Security Settings"). The low/default setting allows Javascript, but the medium and high levels both block Javascript on HTTP sites.</p>

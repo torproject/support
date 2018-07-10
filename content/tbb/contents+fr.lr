@@ -1,6 +1,8 @@
-_model: topic 
+_model: topic
 ---
-title: Le navigateur Tor
+title: Tor Browser
 ---
-key:2
+seo_slug: tor-browser
+---
+key: 2
 ---

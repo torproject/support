@@ -1,6 +1,9 @@
-_model: question 
+_model: question
 ---
-title: Le navigateur Tor utilise-t-il un circuit différent pour chaque site Web ?
+title: Why does my Tor Browser say something about Firefox not working?
 ---
-description: 
-<p class="mb-3">Dans le navigateur Tor, chaque domaine obtient son propre circuit. ​Vous trouverez de plus amples renseignements à ce sujet dans le document <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">La conception et la mise en œuvre du navigateur Tor</a></mark> (en anglais).</p>
+seo_slug: tor-browser-firefox-not-working-error
+---
+description:
+<p class="mb-3">Tor Browser is built using ​<mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, so errors regarding Firefox may occur. Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for. If you are running an anti-virus, please see <mark><a href="http://support.torproject.org/#tbb-10">My antivirus/malware protection is blocking me from accessing Tor Browser</a></mark>, it is common for anti-virus / anti-malware software to cause this type of issue.</p>
+p>

@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je utiliser Tor avec BitTorrent ?
+title: Does Tor Project offer email service or other privacy protecting web services?
 ---
-description: 
-<p class="mb-3">Nous ne recommandons pas l’utilisation de Tor avec BitTorrent. Pour de plus amples renseignements, consulter notre <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">​billet de blogue à ce sujet</a></mark>.</p>
+seo_slug: does-tor-project-offer-email-or-privacy-protecting-web-services
+---
+description:
+<p class="mb-3">No, we don't provide any online services. A list of all of our software projects can be found on our <mark><a href="https://www.torproject.org/projects/projects.html.en">​projects page</a></mark>.</p>

@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Pourquoi mon moteur de recherche est-il passé à DuckDuckGo ?
+title: How can I make Tor run faster? Is Tor Browser slower than other browsers?
 ---
-description: 
-<p class="mb-3">Avec la parution du navigateur Tor 6.0.6, DuckDuckGo est devenu le moteur de recherche principal. Depuis quelque temps déjà, Disconnect n’accédait plus aux résultats de recherche provenant de Google que nous avons utilisés dans le navigateur Tor. Disconnect, qui est plus un métamoteur de recherche permettant aux utilisateurs de choisir entre différents fournisseurs de recherche, a commencé à servir des résultats de recherche provenant de Bing qui étaient essentiellement inacceptables sur le plan de la qualité.</p>
+seo_slug: make-tor-faster
+---
+description:
+<p class="mb-3">Using Tor Browser can sometimes be slower than other browsers. The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency. You can help improve the speed of the network by running your own relay, or encouraging others to do so. That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.</p>

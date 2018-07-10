@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je choisir mon pays de sortie ?
+title: Can I run multiple instances of Tor Browser?
 ---
-description: 
-<p class="mb-3">Il est fortement déconseillé de changer la façon dont Tor crée ses circuits. En laissant Tor sélectionner la route, vous obtenez la meilleure sécurité que Tor puisse fournir ; remplacer les nœuds d’entrée et de sortie peut compromettre votre anonymat. Si le résultat recherché est de simplement accéder aux ressources qui ne sont proposées que dans un pays, vous pourriez envisager d’utiliser un RPV au lieu de Tor. Veuillez noter que les RPV ne proposent pas les mêmes propriétés de confidentialité que Tor, mais ils aident à résoudre certains problèmes de restriction par géolocalisation.</p>
+seo_slug: run-multible-instances-of-tor-browser
+---
+description:
+<p class="mb-3">We do not recommend running multiple instances of Tor Browser, and may not work as anticipated on many platforms.</p>

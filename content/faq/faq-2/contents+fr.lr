@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Devrais-je installer une nouvelle extension dans le navigateur Tor, comme AdBlock Plus or uBlock Origin ?
+title: Our website is blocked by a censor. Can Tor Browser help users access our website?
 ---
-seo_slug: installer-nouvelle-extension-navigateur-tor
+seo_slug: can-tor-help-users-access-website
 ---
-description: 
-<p class="mb-3">Il est fortement déconseillé d'installer de nouvelles extensions dans le navigateur Tor, car elles peuvent compromettre à la fois vos renseignements personnels et votre sécurité. De plus, deux extensions sont déjà préinstallées dans le navigateur Tor, HTTPS partout et NoScript, pour une protection accrue.</p>
+description:
+<p class="mb-3">Tor Browser can certainly help people access your website in places where it is blocked. Most of the time, simply downloading the ​<mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> and then using it to navigate to the blocked site will allow access. In places where there is heavy censorship we have a number of censorship circumvention options available, including ​<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>. For more information, please see the <mark><a href="https://tb-manual.torproject.org/en-US/">​Tor Browser User Manual</a></mark> section on <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">censorship</a></mark>.</p>

@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Quand le navigateur Tor pour Android paraîtra-t-il ?
+title: How do I run Tor on Windows Phone?
 ---
-description: 
-<p class="mb-3">Nous travaillons actuellement sur le navigateur Tor pour Android. Des versions de test alpha pourraient apparaître dans les mois à venir. Veuillez surveiller la publication d’annonces futures et de plus amples renseignements concernant ce projet sur notre <mark><a href="https://blog.torproject.org">blogue</a></mark>.</p>
+seo_slug: run-tor-on-windows-phone
+---
+description:
+<p class="mb-3">There is currently no supported method for running Tor on Windows Phone.</p>

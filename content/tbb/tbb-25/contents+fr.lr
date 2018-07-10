@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
-title: J'ai besoin du navigateur Tor dans une langue et qui n'est pas le français.
+title: I'm having a problem with NoScript.
 ---
-description: 
-<p class="mb-3">Nous offrons actuellement le navigateur Tor dans les langues suivantes :</p><p class="mb-3"><ul><li>English (en-US)</li><li>"العربية" (ar)</li><li>Deutsch (de)</li><li>Español (es-ES)</li><li> فارسى (fa)</li><li>Français (fr)</li><li>Italiano (it)</li><li>日本語 (ja)</li><li>Korean (ko)</li><li>Nederlands (nl)</li><li>Polish (pl)</li><li>Português (pt-BR)</li><li>Русский (ru)</li><li>Türkçe (tr)</li><li>Vietnamese (vi)</li><li>简体字 (zh-CN)</li></ul></p>
-
-
+seo_slug: problem-noscript
+---
+description:
+<p class="mb-3">Please see the ​<mark><a href="https://noscript.net/faq">NoScript FAQ</a></mark>. If you believe this is a Tor Browser issue, please report it on our ​<mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.</p>

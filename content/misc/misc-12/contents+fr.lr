@@ -1,7 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Puis-je changer le nombre de sauts utilisés par Tor ?
+title: How can I share files anonymously through Tor?
 ---
-description: 
-<p class="mb-3">La longueur du chemin est actuellement figée dans le code à 3 plus le nombre de nœuds délicats dans votre chemin. C’est-à-dire que pour les cas normaux c’est 3, mais possiblement plus si vous accédez par exemple à un service oignon ou à une adresse « .exit ».</p><p class="mb-3"> Nous ne voulons pas encourager l’utilisation de chemins plus longs, car cela augmente la charge du réseau sans (d’après ce que nous pouvons voir) fournir une sécurité accrue. De plus, utiliser des chemins plus longs que 3 pourrait nuire à l’anonymat, d’abord parce que cela facilite les <mark> <a href="https://www.freehaven.net/anonbib/#ccs07-doa">attaques par saturation </a> </mark>, et aussi parce que cela pourrait être utilisé pour vous identifier si seulement quelques utilisateurs utilisent la même longueur de chemin que vous.</p>
-
+seo_slug: share-files-anonymously-through-tor
+---
+description:
+<p class="mb-3">Many exit nodes are configured to block certain types of file sharing traffic, such as bittorrent. Bittorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">​not anonymous over Tor</a></mark>.</p><p class="mb-3">For sharing files through Tor, ​<mark><a href="https://onionshare.org/">OnionShare</a></mark> is a good option.</p>

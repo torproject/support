@@ -1,6 +1,8 @@
-_model: question 
+_model: question
 ---
-title: Notre site Web est bloqué par un censeur. Le Navigateur Tor peut-il aider les utilisateurs à accéder à notre site Web ?
+title: I can’t connect to Tor Browser, is my network censored?
 ---
-description: 
-<p class="mb-3">Le Navigateur Tor peut certainement aider les utilisateurs à accéder à votre site Web où il est bloqué. La plupart du temps, il suffira de télécharger le <mark><a href="https://www.torproject.org/download/download-easy.html.en">Navigateur Tor</a></mark>et de l’utiliser pour naviguer vers le site bloqué pour y accéder. Pour les endroits soumis à une censure forte, de nombreuses options de contournement sont offertes, dont les ​<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark>. Pour de plus amples renseignements, veuillez consulter la rubrique sur la <mark><a href="https://tb-manual.torproject.org/fr/circumvention.html">censure</a></mark> du <mark><a href="https://tb-manual.torproject.org/fr/">​guide d’utilisation du Navigateur Tor</a></mark>.</p>
+seo_slug: is-my-network-censored
+---
+description:
+<p class="mb-3">You might be on a censored network, and so you should try using bridges. Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time. If you need other bridges, you can get them at our ​<mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>. For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">​Tor Browser manual</a></mark>.</p>
