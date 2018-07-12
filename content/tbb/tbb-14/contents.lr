@@ -5,4 +5,5 @@ title: Should I install a new add-on or extension in Tor Browser, like AdBlock P
 seo_slug: installing-add-on-extensions-tor-browser
 ---
 description:
-<p class="mb-3">It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security. Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.</p>
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.
