@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-13 15:15+CET\n"
+"POT-Creation-Date: 2018-07-13 16:10+CET\n"
 "PO-Revision-Date: 2018-07-13 15:15+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -3220,4 +3220,31 @@ msgstr ""
 msgid ""
 "A large portion of the features Vidalia offered have now been integrated "
 "into Tor Browser itself."
+msgstr ""
+
+#: templates/footer.html:32
+msgid ""
+"Trademark, copyright notices, and rules for use by third parties can be "
+"found in our <a href=\"https://www.torproject.org/docs/trademark-faq\" "
+"target=\"_blank\" class=\"text-primary-light\"><u>FAQ</u></a>."
+msgstr ""
+
+#: templates/layout.html:7
+msgid "Tor Project | Support"
+msgstr ""
+
+#: templates/navbar.html:4
+msgid "Tor Logo"
+msgstr ""
+
+#: templates/navbar.html:40
+msgid "Download Tor Browser"
+msgstr ""
+
+#: templates/search.html:5
+msgid "Search"
+msgstr ""
+
+#: templates/macros/question.html:11
+msgid "Permalink"
 msgstr ""
