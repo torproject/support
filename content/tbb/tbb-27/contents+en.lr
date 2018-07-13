@@ -5,7 +5,7 @@ title: How do I update Tor Browser?
 seo_slug: updating-tor-browser
 ---
 description:
-<p class="mb-3">You can update Tor Browser as soon as a new version is released.</p>
+You can update Tor Browser as soon as a new version is released.
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
@@ -15,7 +15,7 @@ description:
     </div>
   </div>
 </div>
-<p class="mb-3">You may see a written indication when Tor Browser opens telling you that an update is available.</p>
+You may see a written indication when Tor Browser opens telling you that an update is available.
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
@@ -25,7 +25,7 @@ description:
     </div>
   </div>
 </div>
-<p class="mb-3">Tor browser will install the updates.</p>
+Tor browser will install the updates.
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
