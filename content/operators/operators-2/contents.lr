@@ -10,7 +10,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 * Review our <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Exit relay guidelines</a></mark>
 * Run "apt-get install tor" (as root).
 * Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following
+* Edit /etc/tor/torrc to look like the following:
 
 
     ## Set the nickname of this relay
