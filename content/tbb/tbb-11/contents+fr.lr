@@ -1,6 +1,6 @@
 _model: question
 ---
-title: I downloaded and installed Tor Browser for Windows, but now I can't find it.
+title: J’ai téléchargé et installé le Navigateur Tor pour Windows, mais maintenant je ne peux pas le trouver.
 ---
 seo_slug: cannot-find-tor-on-windows
 ---
@@ -11,4 +11,4 @@ If you don't remember what this destination was, it's most likely your Downloads
 The default setting in the Windows installer also creates a shortcut for you on your Desktop, though be aware that you may have accidentally unticked the option to create a shortcut.
 
 If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
-Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.
+Choisissez un répertoire dont vous vous souviendrez facilement, et une fois que le téléchargement est terminé, vous devriez y voir un dossier Navigateur Tor.

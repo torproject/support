@@ -1,9 +1,9 @@
 _model: question
 ---
-title: I'm having a problem with HTTPS Everywhere.
+title: Tengo un problema con HTTPS Everywhere.
 ---
 seo_slug: problem-with-https-everywhere
 ---
 description:
-Please see the <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere</a></mark>.
-If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.
+Por favor, mira las ​<mark><a href="https://www.eff.org/https-everywhere/faq">preguntas frecuentes (FAQ) de HTTPS Everywhere</a></mark>.
+Si crees que este es un problema del navegador Tor, por favor, repórtalo en nuestro ​<mark><a href="https://trac.torproject.org/">seguidor de fallos</a></mark>.

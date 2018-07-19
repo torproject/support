@@ -1,14 +1,14 @@
 _model: question
 ---
-title: Should I run an exit relay from home?
+title: ¿Debería tener un repetidor de salida en mi casa?
 ---
 seo_slug: run-exit-from-home
 ---
 description:
 No.
-If law enforcement becomes interested in traffic from your exit relay, it's possible that officers will seize your computer.
-For that reason, it's best not to run your exit relay in your home or using your home internet connection.
+Si las fuerzas de seguridad se interesan en el tráfico de tu repetidor de salida, es posible que los agentes confisquen tu ordenador.
+Por esa razón, es mejor no hacer funcionar el repetidor de salida en tu casa o usando la conexión a Internet de tu casa.
 
-Instead, consider running your exit relay in a commercial facility that is supportive of Tor.
-Have a separate IP address for your exit relay, and don't route your own traffic through it.
+En su lugar, considera ejecutar tu repetidor de salida en una instalación comercial que apoye a Tor.
+Ten una dirección IP separada para tu repetidor de salida y no enrutes tu propio tráfico a través de esta.
 Of course, you should avoid keeping any sensitive or personal information on the computer hosting your exit relay.

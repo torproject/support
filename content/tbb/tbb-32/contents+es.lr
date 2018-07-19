@@ -1,10 +1,10 @@
 _model: question
 ---
-title: Can I set Tor Browser as my default browser?
+title: ¿Puedo establecer el Tor Browser como mi navegador predeterminado?
 ---
 seo_slug: setting-tor-browser-as-default
 ---
 description:
-There is currently no supported method for setting Tor Browser as your default browser.
-The Tor Browser works hard to isolate itself from the rest of your system, and the steps for making it the default browser are unreliable.
-This means sometimes a website would load in the Tor Browser, and sometimes it would load in another browser, this type of behavior can be dangerous and anonymity-breaking.
+Actualmente no hay ningún método soportado para establecer el navegador Tor como tu navegador predeterminado.
+El Tor Browser hace muchos esfuerzos para aislarse del resto de tu sistema operativo, y el procedimiento para convertirlo en tu navegador predeterminado no es fiable.
+Esto significa que a veces un sitio web cargaría en el Tor Browser, y a veces cargaría en otro navegador, este tipo de comportamiento puede ser peligroso y es susceptible de romper el anonimato.

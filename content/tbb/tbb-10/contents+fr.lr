@@ -1,6 +1,6 @@
 _model: question
 ---
-title: My antivirus or malware protection is blocking me from accessing Tor Browser.
+title: Mon antivirus ou ma protection contre les programmes malveillants m’empêche d’accéder au Navigateur Tor.
 ---
 seo_slug: antivirus-blocking-tor
 ---
@@ -20,6 +20,6 @@ Next, exclude the following processes:
   * tor.real
   * obfs4proxy (if you use bridges)
 
-Finally, restart Tor Browser.
+<Enfin, redémarrez le Navigateur Tor.
 This should fix the issues you're experiencing.
 Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

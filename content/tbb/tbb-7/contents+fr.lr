@@ -7,13 +7,13 @@ seo_slug: website-blocking-access-over-tor
 description:
 Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
 The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+Ce qui suit pourrait suffire :
 
 "Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
 I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
-By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
+En bloquant les utilisateurs de Tor, vous bloquez vraisemblablement des personnes se trouvant dans des pays où règne la répression et qui souhaitent utiliser un Internet libre, des journalistes et des chercheurs qui ne veulent pas être découverts, des lanceurs d’alerte, des activistes et des personnes ordinaires qui ne veulent pas être suivies à la trace par des tiers invasifs.
 Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com.
 Thank you."
 
-In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
+Dans le cas de banques ou autres sites Web délicats, il est aussi habituel de constater un blocage d’après la position géographique (si une banque sait que vous accédez habituellement à ses services à partir d’un pays et que vous vous connectez soudainement à partir d’un relais de sortie situé de l’autre côté de la planète, votre compte pourrait être verrouillé ou suspendu).
 If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a>

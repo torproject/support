@@ -19,3 +19,14 @@ locale = fr_FR
 name = español
 url_prefix = /es/
 locale = es_ES
+
+[alternatives.it]
+name = Italiano
+url_prefix = /it/
+locale = it_IT
+
+
+[alternatives.ro]
+name = română
+url_prefix = /ro/
+locale = ro_RO

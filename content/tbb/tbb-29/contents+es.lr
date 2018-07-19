@@ -1,31 +1,31 @@
 _model: question
 ---
-title: Is there a way to change the IP address that Tor Browser assigns me for a particular site?
+title: ¿Hay alguna forma de cambiar la dirección IP que el Tor Browser me asigna para un sitio en concreto?
 ---
 seo_slug: change-ip-address
 ---
 description:
-Tor Browser has two ways to change your relay circuit — "New Identity" and "New Tor Circuit for this Site".
-Both options are located in the Torbutton (little green onion) menu.
+El navegador Tor ofrece dos formas de cambiar su circuito de repetidores - “New Identity” (Nueva identidad) y “New Tor Circuit for this Site” (Nuevo circuito de repetidores para este sitio).
+Las dos opciones se encuentran en el menú "Torbutton" (pequeña cebolla verde).
 
-##### New Identity
+##### Nueva identidad
 
-This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
-Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections.
-Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
+Esta opción es útil, si quieres evitar que la actividad de tu navegador se vincule a lo que estuviste haciendo antes.
+Con seleccionarlo puedes cerrar todas tus pestañas y ventanas, borrar toda la información privada como cookies e historial de búsqueda, y hacer uso de un nuevo circuito de Tor para todas las conexiones.
+El navegador Tor te advertirá de que todas las actividades y descargas serán detenidas, por lo tanto ten esto en cuenta antes de pulsar en “Nueva Identidad”.
 
-##### New Tor Circuit for this Site
+##### Nuevo circuito de Tor para esta página
 
-This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
-Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
-Other open tabs and windows from the same website will use the new circuit as well once they are reloaded.
-This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+Esta opción es útil si el repetidor de salida que estás usando no puede conectarse al sitio web que requiere, o no se está cargando adecuadamente.
+Al seleccionarlo, causará que la pestaña o ventana actualmente activa se recargue sobre un nuevo circuito de Tor.
+Otras pestañas y ventanas abiertas del mismo sitio web también usarán el nuevo circuito una vez que se recarguen.
+Esta opción no limpia ninguna información privada ni desvincula tu actividad, tampoco afecta a tus conexiones actuales a otros sitios web.
 
 <div class="col-md-6">
 <div class="card">
-<img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body">
-<h4 class="card-title">Card title</h4>
-<p class="card-text">Card text</div>
+<img class="card-img-top" src="/static/images/image1.png" alt="Alerta de nueva versión"><div class="card-body">
+<h4 class="card-title">Título de la tarjeta</h4>
+<p class="card-text">Texto de la tarjeta</div>
 </div>
 </div>
 

@@ -1,6 +1,6 @@
 _model: question
 ---
-title: When I'm using Tor, can eavesdroppers still see the information I share with websites, like login information and things I type into forms?
+title: Quand j’utilise Tor, les systèmes d’écoute peuvent-ils encore voir les renseignements que je partage avec les sites Web, comme les renseignements de connexion et ce que je tape dans les formulaires ?
 ---
 seo_slug: can-eavesdroppers-see-information-i-share
 ---
@@ -22,7 +22,7 @@ If the site you are visiting uses HTTPS, then the traffic leaving your exit rela
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
+        <h4 class="card-title">Cette représentation montre quels renseignements sont visibles aux systèmes d’écoute avec et sans le Navigateur Tor et le chiffrement HTTPS.</h4>
       </div>
     </div>
   </div>

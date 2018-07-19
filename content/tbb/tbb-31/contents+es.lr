@@ -1,10 +1,10 @@
 _model: question
 ---
-title: Which platforms is Tor Browser available for?
+title: ¿Para qué plataformas está disponible el Tor Browser?
 ---
 seo_slug: which-platform-tor-browser-available
 ---
 description:
-Tor Browser is currently available on Windows, Linux and OSX.
-For Android, The Guardian Project maintains the Tor-powered apps Orbot and Orfox.
-There is no official version of Tor for iOS yet, though we recommend Onion Browser.
+Actualmente el navegador Tor está disponible para Windows, Linux y OSX.
+Para Android, The Guardian Project se encarga de mantener las aplicaciones Orbot y Orfox, basadas en Tor. 
+Todavía no hay una versión oficial de Tor para iOS, aunque recomendamos Onion Browser.

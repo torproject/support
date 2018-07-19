@@ -1,37 +1,37 @@
 _model: question
 ---
-title: How do I update Tor Browser?
+title: Comment puis-je mettre le Navigateur Tor à jour ?
 ---
 seo_slug: updating-tor-browser
 ---
 description:
-You can update Tor Browser as soon as a new version is released.
+Vous pouvez mettre le Navigateur Tor à jour dès qu’une nouvelle version paraît.
 <div class="col-md-6">
   <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
+    <img class="card-img-top" src="/static/images/image5.png" alt="Alerte de nouvelle version">
     <div class="card-body">
-      <h4 class="card-title">Tor Browser will prompt you to update the software once a new version has been released.</h4>
-      <p class="card-text">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p>
+      <h4 class="card-title">Le Navigateur Tor vous invitera à mettre le logiciel à jour dès qu’une nouvelle version est parue.</h4>
+      <p class="card-text">L’icône de BoutonTor (le petit oignon vert dans le coin supérieur droit du navigateur) affichera un triangle jaune.</p>
     </div>
   </div>
 </div>
-You may see a written indication when Tor Browser opens telling you that an update is available.
+Lors du démarrage du Navigateur Tor, vous pourriez voir une indication écrite vous avisant qu’une mise à jour est proposée.
 <div class="col-md-6">
   <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
+    <img class="card-img-top" src="/static/images/image3.png" alt="Alerte de nouvelle version">
     <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
+      <h4 class="card-title">Titre de la carte</h4>
+      <p class="card-text">Texte de la carte</p>
     </div>
   </div>
 </div>
 Tor browser will install the updates.
 <div class="col-md-6">
   <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
+    <img class="card-img-top" src="/static/images/image3.png" alt="Alerte de nouvelle version">
     <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
+      <h4 class="card-title">Titre de la carte</h4>
+      <p class="card-text">Texte de la carte</p>
     </div>
   </div>
 </div>
