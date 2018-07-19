@@ -1,0 +1,9 @@
+_model: question
+---
+title: ¿Pueden quitar todos los CAPTCHAs?
+---
+seo_slug: get-rid-of-captchas
+---
+description:
+Desafortunadamente, algunos sitios web presentan CAPTCHAs a los usuarios de Tor, y no podemos eliminar estos CAPTCHAs de los sitios.
+Lo mejor que podemos hacer en estos casos es contactar con los propietarios de los sitios web, e informarles de que sus CAPTCHAs están evitando que usuarios como tú usen sus servicios.

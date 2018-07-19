@@ -1,0 +1,25 @@
+_model: question
+---
+title: Mi antivirus o protección contra malware está impidiéndome acceder al Tor Browser.
+---
+seo_slug: antivirus-blocking-tor
+---
+description:
+La mayoría de los antivirus o protecciones contra malware permiten que el usuario añada a la "lista blanca" ciertos procesos que de otro modo serían bloqueados.
+Por favor, abre tu antivirus o protección contra malware, y echa un vistazo a la configuración en busca de una "lista blanca" (whitelist) or algo similar.
+A continuación, excluye los siguientes procesos:
+
+* Para Windows
+  * firefox.exe
+  * tor.exe
+  * obfs4proxy.exe (si usas puentes 
+
+
+* MacOS (OS X)
+  * TorBrowser
+  * tor.real
+  * obfs4proxy (si usas puentes de red)
+
+Finalmente, reinicia el navegador Tor.
+Esto debería solucionar los problemas que estás teniendo.
+Ten en cuenta que algunos clientes antivirus, como Kaspersky, también pueden bloquear Tor en el firewall.

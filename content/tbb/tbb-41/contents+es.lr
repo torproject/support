@@ -1,0 +1,10 @@
+_model: question
+---
+title: ¿Por qué se cambió mi motor de búsqueda a DuckDuckGo?
+---
+seo_slug: why-is-tor-using-duckduckgo
+---
+description:
+Con la publicación del Tor Browser 6.0.6, hemos cambiado a DuckDuckGo como nuestro motor de búsqueda principal.
+Hace ya tiempo que Disconnect no ha tenido acceso a los resultados de búsqueda de Google que usabamos en el Tor Browser.
+Siendo Disconnect más parecido a un meta motor de búsqueda que permite a los usuarios elegir diferentes proveedores de búsqueda, recurrió a mostrar sólo los resultados de búsqueda de Bing que son básicamente inaceptables en cuestión de calidad.

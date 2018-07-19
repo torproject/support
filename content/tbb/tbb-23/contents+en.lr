@@ -1,0 +1,9 @@
+_model: question
+---
+title: What search engine comes with Tor Browser and how does it protect my privacy?
+---
+seo_slug: search-engine-tor-browser
+---
+description:
+DuckDuckGo is the default search engine in Tor Browser.
+DuckDuckGo does not track its users nor does it store any data about user searches.

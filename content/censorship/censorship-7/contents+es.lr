@@ -1,0 +1,18 @@
+_model: question
+---
+title: ¿Qué son los puentes?
+---
+seo_slug: what-is-a-bridge
+---
+description:
+Los repetidores puente son repetidores Tor que no están listados en el directorio público de Tor.
+That means that ISPs or governments trying to block access to the Tor network can't simply block all bridges.
+Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
+
+Un puente es sólo un repetidor normal con una configuración ligeramente diferente.
+See (link to How do I run a bridge) for instructions.
+
+Varios países, incluyendo China e Irán, han encontrado formas de detectar y bloquear conexiones a los puentes Tor.
+Los puentes de <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> resuelven este problema añadiendo otra capa de ofuscación.
+La configuración de un puente obfsproxy requiere un paquete de software adicional y configuraciones adicionales.
+Para más información, mira nuestra página sobre <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transportes intercambiables</a></mark>.
