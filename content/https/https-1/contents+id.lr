@@ -1,7 +1,0 @@
-_model: question 
----
-title: Saat saya menggunakan Tor, akankah pihak-pihak yang menguping melihat informasi yang saya bagikan di situs-situs, seperti informasi login dan hal-hal yang saya masukkan ke dalam formulir?
----
-description: 
-<p class="mb-3">Tor  melindungi Anda dari pihak-pihak yang ingin mengetahui situs yang Anda kunjungi. Namun, informasi tidak terenkripsi yang terkirim lewat Internet menggunakan HTTP polos, tetap dapat ditangkap oleh operator exit relay atau siapapun yang mengamati lalu-lintas antara exit relay dan situs tujuan. Jika situsnya menggunakan HTTPS, lalu-lintas keluar dari exit relay akan terenkripsi dan tidak terlihat oleh pihak ketiga. </p><div class="row"><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image2.png" alt="https"><div class="card-body"><h4 class="card-title"> Jika Anda menggunakan HTTPS, URL situs Anda akan dimulai dengan 
-"​https://".</h4></div></div></div><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image6.png" alt="https"><div class="card-body"><h4 class="card-title"> Visualisasi ini menunjukkan informasi yang terlihat oleh para penguping, menggunakan dan tidak menggunakan Tor Browser dan enkripsi HTTPS. </h4></div></div></div></div>

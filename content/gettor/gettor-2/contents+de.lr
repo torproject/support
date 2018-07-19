@@ -1,6 +1,0 @@
-_model: question 
----
-title: Um GetTor über E-Mail zu nutzen.
----
-description: 
-<p class="mb-3">Sende eine E-Mail an gettor@torproject.org mit dem gewünschten Betriebssystem im Betreff (z.B. Windows, MacOS oder Linux) und GetTor wird mit einer E-Mail antworten, die die Download-Links enthalten, um das Tor-Browser-Paket herunterladen zu können. Im Paket enhalten sind neben dem Tor Browser selbst die Kryptographische Signatur, welche benötigt wird um die heruntergeladenen Inhalte zu verifizieren ([link to glossary definition of cryptographic signature; instructions for verification]), sowie der Fingerabdruck, der benutzt wurde um die Signatur zu erzeugen und die Paket-Prüfsumme. Unter Umständen wird Ihnen eine Auswahl zwischen der 32-bit oder 64-bit Anwendung angeboten, dies hängt vom Modell des Computers ab, den Sie benutzen.</p>

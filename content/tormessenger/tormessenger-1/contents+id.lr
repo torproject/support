@@ -1,6 +1,0 @@
-_model: question 
----
-title: Apakah Tor Project membuat aplikasi untuk chatting privat?
----
-description: 
-<p class="mb-3">Ya! Tor Messenger, walau masih versi beta, adalah program lintas platform yang bertujuan untuk menjadi aman secara default dan mengirim lalu-lintasnya melalui Tor. Ia mendukung banyak jaringan transport termasuk XMPP, IRC, Twitter, dan lainnya; otomatis membuat pengiriman pesan tidak terekam (OTR, off-the-record); memiliki antar muka grafis yang mudah digunakan; dan alat pembaru otomatis yang aman. </p><p class="mb-3">Lihat ini <mark><a href="https://blog.torproject.org/category/tags/tor-messenger"> posting blog dari Tor Messenger </a></mark>untuk informasi lebih lanjut.</p>

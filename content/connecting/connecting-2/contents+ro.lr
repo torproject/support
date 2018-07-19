@@ -1,6 +1,0 @@
-_model: question 
----
-title: Nu pot ajunge la X.onion!
----
-description: 
-<p class="mb-3">Dacă nu poți ajunge la serviciul onion dorit, asigură-te că ai introdus cele 16 caractere din adresa onion corect - chiar și cea mai mică eroare va împiedica Tor Browser să ajungă la site. Dacă tot nu poți ajunge la serviciul onion, încearcă mai târziu. E posibil să fie o problemă temporară de conexiune sau operatorii site-ului l-au deconectat fără avertizare. </p><p class="mb-3">Poți să te asiguri că alte servicii onion sunt accesibile conectându-te la serviciul onion al <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>.</p>

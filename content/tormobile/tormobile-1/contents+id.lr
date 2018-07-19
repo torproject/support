@@ -1,6 +1,0 @@
-_model: question 
----
-title: Apakah saya dapat menjalankan Tor di alat Android?
----
-description: 
-<p class="mb-3">Tor untuk Android disediakan Guardian Project. Ada info lebih lanjut tentang <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark>dan<mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>di situs masing-masing. Orbot adalah untuk browsing Internet dan Orfox dapat mengalihkan lalu-lintas Internet aplikasi lain di Android ke jaringan Tor.</p>

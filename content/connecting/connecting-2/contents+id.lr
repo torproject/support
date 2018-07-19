@@ -1,6 +1,0 @@
-_model: question 
----
-title: Tidak dapat terhubung ke X.onion!
----
-description: 
-<p class="mb-3">Jika Anda tidak dapat terhubung ke sebuah onion service yang diinginkan, pastikan Anda telah dengan tepat memasukkan 16-karakter alamat onion-nya. Bahkan kesalahan sedikit akan membuat Tor Browser tidak dapat terhubung ke situs yang dimaksud. Jika Anda tetap tidak dapat terhubung, silakan coba lagi nanti. Mungkin ada masalah sedikit di situsnya, atau operator situsnya sedang membuat situsnya menjadi offline tanpa pemberitahuan. </p><p class="mb-3">Anda juga dapat memastikan jika Anda juga dapat terhubung ke situs onion service lain dengan mencoba terhubung ke <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>.

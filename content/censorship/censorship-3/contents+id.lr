@@ -1,6 +1,0 @@
-_model: question 
----
-title: Saya tidak bisa terhubung ke Tor Browser, apakah jaringan saya terkena sensor?
----
-description: 
-<p class="mb-3">Anda mungkin berada di jaringan yang terdampak sensor, sehingga Anda seharusnya menggunakan bridge yang terintegrasi di Tor Browser. Anda dapat menggunakannya dengan memilih "configure" (lalu setelah beberapa pemberitahuan) di jendela launcher Tor yang muncul setelah Anda menjalankan Tor Browser. Jika Anda memerlukan bridge lain, Anda dapat memperolehnya di <mark><a href="https://bridges.torproject.org/">situs web bridge kami </a></mark>. Untuk info lebih lanjut tentang bridge, silakan baca <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">petunjuk Tor Browser </a></mark>.</p>

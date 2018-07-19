@@ -1,6 +1,0 @@
-_model: question 
----
-title: На каких платформах работает Tor Browser?
----
-description: 
-<p class="mb-3">На данный момент Tor Browser работает на Windows, Linux и macOS (OS X). The Guardian Project предоставляет основанные на Tor приложения Orbot and Orfox для Android . Пока не существует офицальной версии Tor для iOS, хотя мы рекомендуем Onion Browser.</p>

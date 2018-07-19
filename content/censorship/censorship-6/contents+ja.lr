@@ -1,6 +1,0 @@
-_model: question 
----
-title: 私たちのWEBサイトは検閲によりブロックされました。TorブラウザーはユーザーのWEBサイトへのアクセスを助けてくれますか？
----
-description: 
-<p class="mb-3">あなたのサイトがブロックされる場合、Torブラウザーが人は確実にアクセスできるよう助ける。大抵の場合、<mark><a href="https://www.torproject.org/download/download-easy.html.en">Torブラウザー</a></mark>を利用してサイトのアドレスにアクセスするだけで十分です。より厳しい検閲がある場合、<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">Pluggable Transport</a></mark>など様々な迂回方法があります。詳細については、<mark><a href="https://tb-manual.torproject.org/en-US/">Torブラウザーのユーザーマニュアル</a></mark>に<mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">検閲</a></mark>に関する章を調べて下さい。</p>

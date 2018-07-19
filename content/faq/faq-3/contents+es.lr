@@ -1,9 +1,0 @@
-_model: question
----
-title: ¿Debería instalar un nuevo complemento o extensión en el Tor Browser, como AdBlock Plus o uBlock Origin?
----
-seo_slug: install-add-on-extension-tor-browser
----
-description:
-Se desaconseja vivamente la instalación de nuevos complementos en el Navegador Tor, ya que pueden comprometer tu privacidad y seguridad.
-El Navegador Tor ya trae instalado dos complementos - HTTPS Everywhere y NoScript - y añadir cualquier otra cosa podría desanonimizarte.

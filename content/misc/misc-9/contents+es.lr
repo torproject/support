@@ -1,9 +1,0 @@
-_model: question
----
-title: Tengo un problema actualizando o usando Vidalia.
----
-seo_slug: having-a-problem-updating-vidalia
----
-description:
-Vidalia ya no se mantiene ni está soportado.
-Una gran parte de las características que ofrecía Vidalia ahora están integradas en el propio Tor Browser.

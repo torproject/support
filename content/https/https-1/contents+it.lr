@@ -1,6 +1,0 @@
-_model: question 
----
-title: Quando uso Tor, può qualcuno intercettare le informazioni che condivido con i siti, come le informazioni di accesso e i dati inseriti nei moduli?
----
-description: 
-<p class="mb-3">Tor protegge contro gli intercettatori dal sapere i siti che visiti. Comunque, le informazioni inviate su internet usando il protocollo HTTP possono essere intercettate da operatori di relay di uscita (exit node) o chiunque stia osservando il traffico tra il relay di uscita e il sito web di destinazione. Se il sito che stai visitando usa HTTPS, allora il traffico che lascia il relay di uscita sarà cifrato, e non sarà visibile da possibili intercettatori.</p><div class="row"><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image2.png" alt="https"><div class="card-body"><h4 class="card-title">Se stai usando HTTPS, l'URL del sito web inizierà con "https://".</h4></div></div></div><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image6.png" alt="https"><div class="card-body"><h4 class="card-title">Questa visualizzazione mostra quale informazione è visibile agli intercettatori con e senza il Browser Tor e la cifratura HTTPS.</h4></div></div></div></div>

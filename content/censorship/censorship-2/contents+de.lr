@@ -1,6 +1,0 @@
-_model: question 
----
-title: Ich habe Probleme mich mit Tor zu verbinden und kann die Ursache nicht finden.
----
-description: 
-<p class="mb-3">Wenn du Verbindungsprobleme hast, wähle bitte die Option "Tor-Protokoll in die Zwischenablage kopieren" aus. Füge dann das Tor-Protokoll in eine Textdatei oder ein anderes Dokument ein. Du solltest nun einen der folgenden verbreiteten Fehlereinträge sehen (suche nach foldenden Zeilen in deinem Tor-Protokoll):</p><h5>Üblicher Fehlereintrag #1: Proxy connection failure</h5><p class="mb-3"><pre><code>

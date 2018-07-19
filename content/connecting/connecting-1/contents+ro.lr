@@ -1,6 +1,0 @@
-_model: question 
----
-title: Tor Browser nu se conectează, dar nu pare a fi o problemă de cenzură.
----
-description: 
-<p class="mb-3">Una din cele mai frecvente cauze pentru problemele de conectare ale Tor Browser este ora sistemului incorectă. Verifică dacă ora și fusul orar sunt setate corect. Dacă aceasta nu rezolvă problema, urmează indicațiile de Depanare din <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">​manualul Tor Browser</a></mark>.</p>

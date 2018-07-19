@@ -1,6 +1,0 @@
-_model: question 
----
-title: Tor浏览器没有连接上互联网，但这似乎并不是因为网络管控造成的问题。
----
-description: 
-<p class="mb-3">造成Tor连接失败的最常见的问题之一是系统时间设置错误。请确认您的系统时间以及时区设置正确。如果这个问题还没有被解决，请查看位于<mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor浏览器手册</a></mark>的故障排查界面。</p>

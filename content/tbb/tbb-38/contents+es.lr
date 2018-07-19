@@ -1,9 +1,0 @@
-_model: question
----
-title: ¿El administrador de mi red podrá determinar que estoy usando el Tor Browser?
----
-seo_slug: network-admin-know-i-am-using-tor
----
-description:
-Cuando se utiliza el navegador Tor, nadie puede ver los sitios web que visitas.
-Sin embargo, tu proveedor de servicio o administradores de red pueden ser capaces de ver que te estás conectando a la red Tor, aunque no sabrán lo que estás haciendo cuando llegues allí.

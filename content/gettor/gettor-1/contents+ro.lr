@@ -1,6 +1,0 @@
-_model: question 
----
-title: Cum descarc Tor dacă torproject.org e blocat?
----
-description: 
-<p class="mb-3">Dacă nu poți descărca Tor din ​<mark><a href="https://www.torproject.org">website</a></mark>, poți obține o o copie a Tor prin intermediul GetTor. GetTor e un serviciu care răspunde automat la mesaje cu legături către ultima versiune de Tor Browser stocata într-o varietate de locuri mai puțin probabil de a fi cenzurate, cum ar fi Dropbox, Google Drive sau Github.</p>

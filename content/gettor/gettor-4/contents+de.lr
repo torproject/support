@@ -1,6 +1,0 @@
-_model: question 
----
-title: Um GetTor über XMPP (Tor Messenger, Jitsi, CoyIM) zu nutzen.
----
-description: 
-<p class="mb-3">Um Links zum Herunterladen von Tor Browser zu erhalten, sende eine Nachricht an gettor@toproject(dot)org mit einem der folgenden Codes darin:</p><p class="mb-3"><ul><li>Linux</li>, <li>MacOS (OS X)</li> oder <li>Windows</li></ul></p>

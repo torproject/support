@@ -1,6 +1,0 @@
-_model: question 
----
-title: Saya tidak dapat mencapai X.onion!
----
-description: 
-<p class="mb-3">Jika anda masih tidak dapat mencapai servis onion yang dikehendaki, pastikan anda telah memasukkan alamat onion 16-aksara dengan betul: walaupun dengan kesilapan kecil akan menghentikan Pelayar Tor mencapai laman. Jika anda masih tidak dapat menyambung ke servis onion, cuba sekali lagi. Kadangkala ia merupakan masalah sambungan sementara, atau operator laman telah menjadi luar talian tanpa apa-apa amaran.</p><p class="mb-3">Anda juga perlu pastikan dapat mencapai servis onion lain dengan menyambung ke Servis Onion <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>.</p>

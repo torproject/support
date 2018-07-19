@@ -1,6 +1,0 @@
-_model: question 
----
-title: Non posso raggiungere X.onion!
----
-description: 
-<p class="mb-3">Se non riesci a raggiungere il sito che desideri, assicurati di aver inserito correttamente l'indirizzo a 16 caratteri: anche un piccolo errore può impedire al Tor Browser di raggiungere il sito. Se non riesci ancora a connetterti al sito, riprova più tardi. Potrebbe esserci un problema di connessione temporaneo, oppure gli operatori del sito lo hanno lasciato andare offline senza lasciare preavviso.</p><p class="mb-3">Puoi anche provare a connetterti a <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a> per vedere se riesci ad accedere ad altri siti.</p>

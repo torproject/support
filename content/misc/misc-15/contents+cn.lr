@@ -1,6 +1,0 @@
-_model: question 
----
-title: 我该怎么使用tor匿名的分享文件？
----
-description: 
-<p class="mb-3">许多出口节点都被设置为禁止某些特定类型的文件分享流量，比如比特流。在某些特定的情况下，tor与比特流结合使用无法维持匿名状态。</p><p class="mb-3">如果您希望使用tor来分享文件，<mark><a href="https://onionshare.org/">OnionShare</a></mark>是一个好选择。</p>

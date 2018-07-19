@@ -1,6 +1,0 @@
-_model: question 
----
-title: Tor Browser tidak dapat tersambung, tapi ini tampaknya bukan akibat sensor oleh pihak lain.
----
-description: 
-<p class="mb-3">Salah satu masalah umum yang menyebabkan kegagalan koneksi di Tor Browser adalah jam sistem operasi yang tidak tepat. Silakan pastikan jam di sistem operasi dan zona waktu diatur dengan tepat di komputer Anda. Jika ini tidak memperbaiki masalah koneksi, lihat halaman Troubleshooting di <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">petunjuk Tor Browser</a></mark>.</p>

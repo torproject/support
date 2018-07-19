@@ -1,6 +1,0 @@
-_model: question 
----
-title: torproject.org 被屏蔽了，怎么下载 Tor？
----
-description: 
-<p class="mb-3">如果无法通过我们的<mark><a href="https://www.torproject.org">网站</a></mark>下载 Tor，你可以通过 GetTor 获取 Tor。GetTor 会自动发送下载 Tor Browser 最新版本的链接，由 Dropbox、Google Drive、GitHub 等更难受到审查的网站进行分发。</p>

@@ -1,6 +1,0 @@
-_model: question 
----
-title: 我能在iOS设备上使用tor吗？
----
-description: 
-<p class="mb-3">我们推荐一个iOS上的应用洋葱浏览器（Onion Browser），它是一个应用tor网络的开源软件，由一群与tor项目工作关系紧密的人开发。但是苹果要求运行在iOS平台上的浏览器必须使用webkit内核，这让洋葱浏览器不能使用与tor浏览器同样的安全保护手段。<mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">了解更多关于洋葱浏览器</a></mark>。</p>

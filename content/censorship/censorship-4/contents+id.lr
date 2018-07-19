@@ -1,6 +1,0 @@
-_model: question 
----
-title: Bagaimana cara mengunduh Tor jika torproject.org diblokir?
----
-description: 
-<p class="mb-3">Jika Anda tidak dapat mengunduh Tor dari <mark><a href="https://www.torproject.org">situs kami</a></mark>, Tor dapat dikirim kepada Anda melalui GetTor. GetTor adalah service yang yang otomatis merespon pesan berisi tautan ke versi terakhir Tor Browser, yang dihosting di lokasi beragam sehingga kemungkinan kecil disensor, seperti Dropbox, Google Drive, dan Github.</p>

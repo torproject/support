@@ -1,6 +1,0 @@
-_model: question 
----
-title: Agus Brabhsálaí Tor in úsáid agam, an bhfuil cúléisteoirí in ann an fhaisnéis a sheolaim chuig suímh Ghréasáin a fheiceáil, mar shampla focail fhaire nó faisnéis a chuirim i bhfoirmeacha?
----
-description: 
-<p class="mb-3">Níl cúléisteoirí in ann na suímh a dtugann tú cuairt orthu a fheiceáil nuair a úsáideann tú Tor. Mar sin féin, nuair a sheolann tú faisnéis neamhchriptithe trasna an Idirlín thar HTTP, is féidir le hoibreoirí an athsheachadáin deiridh, nó le haon duine atá ag féachaint ar an trácht idir an athsheachadán deiridh agus an suíomh Gréasáin, an trácht sin a fheiceáil. Má úsáideann an suíomh HTTPS, beidh an trácht idir an athsheachadán deiridh agus an suíomh criptithe, agus ní bheidh cúléisteoirí in ann é a fheiceáil.</p><div class="row"><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image2.png" alt="https"><div class="card-body"><h4 class="card-title">Má tá tú ag úsáid HTTPS, feicfidh tú "​https://" ag tús an URL.</h4></div></div></div><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image6.png" alt="https"><div class="card-body"><h4 class="card-title">Léiríonn an pictiúr seo an t-eolas is féidir le cúléisteoirí a fheiceáil le agus gan Brabhsálaí Tor agus criptiúchán HTTPS.</h4></div></div></div></div>

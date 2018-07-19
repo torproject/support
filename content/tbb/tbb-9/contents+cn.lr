@@ -1,6 +1,0 @@
-_model: question 
----
-title: 为什么Tor浏览器是基于火狐而不是其他的浏览器呢？
----
-description: 
-<p class="mb-3">Tor浏览器是火狐某个版本的修改版，专门设定服务于Tor网络。我们做了大量工作来打造这个浏览器，包括颁布补丁来提升它的安全性以及隐私防护能力。使用其他浏览器来访问Tor理论上来说是可行的，但是您可能会暴露在潜在的攻击以及信息泄露的危险之下，所以我们强力不推荐您这么做。<mark><a href="https://www.torproject.org/projects/torbrowser/design/">了解更多有关Tor浏览器的设计</a></mark>。</p>

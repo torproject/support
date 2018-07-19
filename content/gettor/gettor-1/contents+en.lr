@@ -1,9 +1,0 @@
-_model: question
----
-title: How do I download Tor if the torproject.org is blocked?
----
-seo_slug: how-to-download-tor-if-torproject-org-is-blocked
----
-description:
-If you can't download Tor through our <mark><a href="https://www.torproject.org">website</a></mark>, you can get a copy of Tor delivered to you via GetTor.
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and Github.

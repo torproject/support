@@ -1,6 +1,0 @@
-_model: question 
----
-title: Tor Browser non si connette, ma non sembra che sia dovuto alla censura.
----
-description: 
-<p class="mb-3">Uno dei problemi più comuni che causano errori di connessione in Tor Browser è un orologio di sistema errato. Assicurati che l'orologio di sistema e il fuso orario siano impostati correttamente. Se ciò non risolve il problema, consultare la pagina Risoluzione dei problemi su <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">manuale di Tor Browser</a></mark>.</p>

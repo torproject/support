@@ -1,6 +1,0 @@
-_model: question 
----
-title: tor会留存日志吗？
----
-description: 
-<p class="mb-3">tor不会留存可以辨别特定用户的日志。我们会存留一些关于网络功能的日志，用于提高安全性，您可以在<mark><a href="https://metrics.torproject.org/">tor的量度</a></mark>中查看到。</p>

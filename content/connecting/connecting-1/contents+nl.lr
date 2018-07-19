@@ -1,6 +1,0 @@
-_model: question 
----
-title: Tor Browser maakt geen verbinding, maar het lijkt geen probleem te zijn met censuur.
----
-description: 
-<p class="mb-3">Een van de meest voorkomende problemen die verbindingsfouten in Tor Browser veroorzaken, is een onjuiste systeemklok. Zorg ervoor dat uw systeemklok en tijdzone nauwkeurig zijn ingesteld. Als dit het probleem niet oplost, zie de pagina Problemen oplossen op de <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html"> Tor Browser manual</a></mark>.</p>

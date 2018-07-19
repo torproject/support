@@ -1,6 +1,0 @@
-_model: question 
----
-title: Bagaimana saya boleh memuat turun Tor jika torproject.org telah disekat?
----
-description: 
-<p class="mb-3">Jika anda tidak boleh memuat turun Tor melalui ​<mark><a href="https://www.torproject.org">laman sesawang</a></mark> kami, anda boleh dapatkan satu salinan Tor yang dihantar terus menerusi GetTor. GetTor merupakan servis yang membalas secara automatik mesej dengan pautan ke versi terkini Pelayar Tor, telah dihos dengan pada pelbagai lokasi yang berkemungkinan tidak ditapis, seperti Dropbox, Google Drive, dan Github.</p>

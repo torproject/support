@@ -1,6 +1,0 @@
-_model: question 
----
-title: 通过 XMPP (Tor Messenger, Jitsi, CoyIM)使用GetTor。
----
-description: 
-<p class="mb-3">获取下载Tor浏览器的连接, 发送一条信息到 gettor@toproject(dot)org 包含以下的其中一条信息：</p><p class="mb-3"><ul><li>Linux</li><li>MacOS (OS X)</li><li>Windows</li></ul></p>

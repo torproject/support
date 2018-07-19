@@ -1,6 +1,0 @@
-_model: question 
----
-title: 我能在Tor浏览器里安装拓展程序吗？例如AdBlock Plus以及uBlock Origin?
----
-description: 
-<p class="mb-3">我们强烈不推荐您在Tor浏览器中安装新的拓展程序，因为它们会侵犯您的隐私以及降低安全度。Tor浏览器已经内置了两个拓展——HTTPS Everywhere和NoScript——将会进一步保护您的隐私。

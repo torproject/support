@@ -1,6 +1,0 @@
-_model: question 
----
-title: Quando eu uso Tor, alguém que me espie pode ver as informações que eu compartilho com websites, como aquelas de logins ou de formulários que eu preencho?
----
-description: 
-<p class="mb-3">Tor impede que outras pessoas de saberem quais sites você consulta. Mesmo assim, informações envidas sem criptografia por sites que utilizam HTTP podem ser interceptadas por operados de relés de saída ou por qualquer pessoa que acompanhe o tráfego entre o seu relé de saída e o site que você consulta. Se o site que você estiver consultando utilizar HTTPS, o tráfego que sair do seu relé de saída será criptografado e, assim, invisível a pessoas que espionem. </p><div class="row"><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image2.png" alt="https"><div class="card-body"><h4 class="card-title"> se você estiver usando HTTPS, a URL do seu website começará com "​https://".</h4></div></div></div><div class="col-md-6"><div class="card"><img class="card-img-top" src="/static/images/image6.png" alt="https"><div class="card-body"><h4 class="card-title">Esta visualização mostra quais informações são visíveis às pessoas que espionem como ou sem o Navegador Tor e criptografia HTTPS.</h4></div></div></div></div>
