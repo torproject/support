@@ -5,7 +5,7 @@ title: Non posso raggiungere X.onion!
 seo_slug: non-posso-raggiungere-x-dot-onion
 ---
 description:
-If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+Se non puoi raggiungere il servizio onion desiderato, assicurati di avere inserito correttamente l'indirizzo di 16 caratteri o, nel formato più recente, di 56 caratteri: anche un minimo errore impedirà a Tor Browser di raggiungere il sito.
 Se non sei ancora in grado di connetterti al servizio onion, per favore riprova più tardi.
 Potrebbe esserci un problema temporaneo di connessione, o gli operatori del sito potrebbero averlo messo offline senza avviso.
 

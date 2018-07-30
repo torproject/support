@@ -6,5 +6,5 @@ seo_slug: অতি-প্রচলিত বিষয়-সর্বশেষ-
 ---
 description:
 যখনও আমরা টর ব্রাউজারের একটি নতুন স্থিতিকাল সংস্করণটি মুক্তি দিই, আমরা একটি ব্লগ পোস্ট লিখি যা তার নতুন বৈশিষ্ট্যগুলি এবং পরিচিত সমস্যাগুলির বিবরণ দেয়।
-If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+আপনি যদি আপডেটের পরে আপনার টর ব্রাউজারের সাথে সমস্যাগুলি শুরু করেন তবে আপনার সাম্প্রতিকতম টর ব্রাউজার পোস্টের জন্য <mark><a href="https://blog.torproject.org">blog.torproject.org</a></mark> দেখুন। আপনার সমস্যা তালিকাভুক্ত কিনা তা দেখতে।
 যদি আপনার ইস্যুটি তালিকাভুক্ত না হয়, তাহলে আপনি কি ঘটছে তা নিয়ে একটি <mark><a href="https://trac.torproject.org">বাগ প্রতিবেদন</a></mark> করুন।
