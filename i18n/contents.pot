@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-19 10:08+CET\n"
+"POT-Creation-Date: 2018-08-06 18:05+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -223,11 +223,11 @@ msgstr ""
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
-#: http://localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lr:question.description)
 msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
+"Tor Browser already comes installed with two add-ons — <mark><a href="
+"\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> and "
+"<mark><a href=\"https://noscript.net/\">NoScript</a></mark> — and adding "
+"anything else could deanonymize you."
 msgstr ""
 
 #: http://localhost/faq/faq-3/
@@ -244,25 +244,29 @@ msgstr ""
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
-msgid "Tor Browser is currently available on Windows, Linux and macOS (OS X)."
+msgid ""
+"Tor Browser is currently available on <mark><a href=\"https://www.torproject."
+"org/download/download-easy.html.en#windows\">Windows</a></mark>, <mark><a "
+"href=\"https://www.torproject.org/download/download-easy.html.en#linux"
+"\">Linux</a></mark> and <mark><a href=\"https://www.torproject.org/download/"
+"download-easy.html.en#mac\">macOS (OS X)</a></mark>."
 msgstr ""
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
-"For Android, The Guardian Project maintains the Tor-powered apps Orbot and "
-"Orfox."
+"For <mark><a href=\"https://www.torproject.org/docs/android.html.en"
+"\">Android</a></mark>, <mark><a href=\"https://guardianproject.info/\">The "
+"Guardian Project</a></mark> maintains the Tor-powered apps <mark><a href="
+"\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> and <mark><a "
+"href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 msgstr ""
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"There is no official version of Tor for iOS yet, though we recommend "
+"<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 msgstr ""
 
 #: http://localhost/faq/faq-5/
@@ -317,7 +321,7 @@ msgstr ""
 #: (content/tbb/tbb-1/contents+en.lr:question.description)
 msgid ""
 "If you started having issues with your Tor Browser after an update, check "
-"out <mark><a href=\"https://blog.torproject.org></a>blog.torproject.org</"
+"out <mark><a href=\"https://blog.torproject.org>blog.torproject.org</a></"
 "mark> for the most recent stable Tor Browser post to see if your issue is "
 "listed."
 msgstr ""
@@ -535,6 +539,13 @@ msgid "tor-browser-protecting-other-apps"
 msgstr ""
 
 #: http://localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lr:question.description)
+msgid ""
+"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
+"NoScript — and adding anything else could deanonymize you."
+msgstr ""
+
+#: http://localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lr:question.seo_slug)
 msgid "installing-add-on-extensions-tor-browser"
 msgstr ""
@@ -635,8 +646,9 @@ msgstr ""
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
 msgid ""
-"There is something called the TorBSD project, but their Tor Browser is not "
-"officially supported."
+"There is something called the <mark><a href=\"https://www.torbsd.org/"
+"\">TorBSD project</a></mark>, but their Tor Browser is not officially "
+"supported."
 msgstr ""
 
 #: http://localhost/tbb/tbb-18/
@@ -773,8 +785,6 @@ msgstr ""
 
 #: http://localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lr:question.description)
-#: http://localhost/connecting/connecting-1/
-#: (content/connecting/connecting-1/contents+en.lr:question.description)
 msgid ""
 "If this doesn't fix the problem, see the Troubleshooting page on the "
 "<mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">Tor "
@@ -864,14 +874,17 @@ msgstr ""
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.description)
-msgid "DuckDuckGo is the default search engine in Tor Browser."
+msgid ""
+"<mark><a href=\"https://duckduckgo.com/\">DuckDuckGo</a></mark> is the "
+"default search engine in Tor Browser."
 msgstr ""
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.description)
 msgid ""
 "DuckDuckGo does not track its users nor does it store any data about user "
-"searches."
+"searches. Learn more about <mark><a href=\"https://duckduckgo.com/privacy"
+"\">DuckDuckGo privacy policy</a></mark>."
 msgstr ""
 
 #: http://localhost/tbb/tbb-23/
@@ -1255,6 +1268,20 @@ msgid "Tor Browser is currently available on Windows, Linux and OSX."
 msgstr ""
 
 #: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
+msgid ""
+"For Android, The Guardian Project maintains the Tor-powered apps Orbot and "
+"Orfox."
+msgstr ""
+
+#: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
+msgid ""
+"There is no official version of Tor for iOS yet, though we recommend Onion "
+"Browser."
+msgstr ""
+
+#: http://localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lr:question.seo_slug)
 msgid "which-platform-tor-browser-available"
 msgstr ""
@@ -1374,7 +1401,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.description)
 msgid ""
-"Unfortunately, some websites deliver CAPTCHAS to Tor users, and we are not "
+"Unfortunately, some websites deliver CAPTCHAs to Tor users, and we are not "
 "able to remove CAPTCHAs from websites."
 msgstr ""
 
@@ -2029,12 +2056,10 @@ msgstr ""
 
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-3/
-#: (content/censorship/censorship-3/contents+en.lr:question.description)
 msgid ""
 "GetTor is a service that automatically responds to messages with links to "
 "the latest version of Tor Browser, hosted at a variety of locations that are "
-"less likely to be censored, such as Dropbox, Google Drive, and Github."
+"less likely to be censored, such as Dropbox, Google Drive, and GitHub."
 msgstr ""
 
 #: http://localhost/gettor/gettor-1/
@@ -2063,9 +2088,9 @@ msgstr ""
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
 msgid ""
 "GetTor will respond with an email containing links from which you can "
-"download Tor Browser, the cryptographic signature (needed for verifying the "
-"download) [link to glossary definition of cryptographic signature; "
-"instructions for verification], the fingerprint of the key used to make the "
+"download Tor Browser, the cryptographic signature (needed for <mark><a href="
+"\"https://www.torproject.org/docs/verifying-signatures.html.en\">verifying "
+"the download</a></mark>), the fingerprint of the key used to make the "
 "signature, and the package’s checksum."
 msgstr ""
 
@@ -2136,6 +2161,14 @@ msgstr ""
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.seo_slug)
 msgid "to-use-gettor-via-xmpp"
+msgstr ""
+
+#: http://localhost/connecting/connecting-1/
+#: (content/connecting/connecting-1/contents+en.lr:question.description)
+msgid ""
+"If this doesn't fix the problem, see the Troubleshooting page on the "
+"<mark><a href=\"https://tb-manual.torproject.org/en-US/troubleshooting.html"
+"\">Tor Browser manual</a></mark>."
 msgstr ""
 
 #: http://localhost/connecting/connecting-1/
@@ -2503,6 +2536,14 @@ msgid "website-is-blocking-access-over-tor"
 msgstr ""
 
 #: http://localhost/censorship/censorship-3/
+#: (content/censorship/censorship-3/contents+en.lr:question.description)
+msgid ""
+"GetTor is a service that automatically responds to messages with links to "
+"the latest version of Tor Browser, hosted at a variety of locations that are "
+"less likely to be censored, such as Dropbox, Google Drive, and Github."
+msgstr ""
+
+#: http://localhost/censorship/censorship-3/
 #: (content/censorship/censorship-3/contents+en.lr:question.seo_slug)
 msgid "how-do-i-download-tor-if-torproject-org-is-blocked"
 msgstr ""
@@ -2551,7 +2592,9 @@ msgstr ""
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
-msgid "See (link to How do I run a bridge) for instructions."
+msgid ""
+"See <mark><a href=\"#operators-6\">How do I run a bridge</a></mark> for "
+"instructions."
 msgstr ""
 
 #: http://localhost/censorship/censorship-7/
@@ -2908,8 +2951,6 @@ msgstr ""
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "After a few hours (to give it enough time to propagate), you can query Atlas "
 "to see whether your relay has successfully registered in the network."
@@ -2960,10 +3001,12 @@ msgstr ""
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "After a few hours (to give it enough time to propagate), you can query "
-"<mark><a href=\"https://atlas.torproject.org/\">Atlas</a></mark> to see "
-"whether your relay has successfully registered in the network."
+"<mark><a href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></"
+"mark> to see whether your relay has successfully registered in the network."
 msgstr ""
 
 #: http://localhost/operators/operators-2/

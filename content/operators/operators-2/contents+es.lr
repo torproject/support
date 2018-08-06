@@ -40,7 +40,7 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
   Si no ves este mensaje, quiere decir que tu repetidor no es accesible desde el exterior.
   Deberías volver a comprobar tu cortafuegos, comprobar que la IP y los puertos que especificastes en torrc son los correctos, etc.
 * When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
-  Después de unas horas (para concederle suficiente tiempo para reproducirse), puedes consultar a <mark><a href="https://atlas.torproject.org/">Atlas</a></mark> para ver si tu repetidor se ha registrado correcctamente en la red.
+  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
   Si no lo has hecho, vuelve a comprobar los cortafuegos, la IP y los puertos.
 
 Considera si deseas cambiar a la <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">política de salida Reducida</a></mark>.

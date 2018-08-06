@@ -10,7 +10,7 @@ That means that ISPs or governments trying to block access to the Tor network ca
 Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
 
 A bridge is just a normal relay with a slightly different configuration.
-See (link to How do I run a bridge) for instructions.
+See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
 
 Several countries, including China and Iran, have found ways to detect and block connections to Tor bridges.
 <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.

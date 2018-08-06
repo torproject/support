@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-18 18:56+CET\n"
+"POT-Creation-Date: 2018-08-06 17:12+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Eduardo Carmona <eduardocgcadiz@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/1519/es/)\n"
@@ -251,14 +251,12 @@ msgstr ""
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
-#: http://localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lr:question.description)
 msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
+"Tor Browser already comes installed with two add-ons — <mark><a href="
+"\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> and "
+"<mark><a href=\"https://noscript.net/\">NoScript</a></mark> — and adding "
+"anything else could deanonymize you."
 msgstr ""
-"El Navegador Tor ya trae instalado dos complementos - HTTPS Everywhere y "
-"NoScript - y añadir cualquier otra cosa podría desanonimizarte."
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.seo_slug)
@@ -274,32 +272,30 @@ msgstr "¿Para qué plataformas está disponible el Tor Browser?"
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
-msgid "Tor Browser is currently available on Windows, Linux and macOS (OS X)."
+msgid ""
+"Tor Browser is currently available on <mark><a href=\"https://www.torproject."
+"org/download/download-easy.html.en#windows\">Windows</a></mark>, <mark><a "
+"href=\"https://www.torproject.org/download/download-easy.html.en#linux"
+"\">Linux</a></mark> and <mark><a href=\"https://www.torproject.org/download/"
+"download-easy.html.en#mac\">macOS (OS X)</a></mark>."
 msgstr ""
-"El Tor Browser actualmente está disponible para Windows, Linux y macOS (OS "
-"X)."
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
-"For Android, The Guardian Project maintains the Tor-powered apps Orbot and "
-"Orfox."
+"For <mark><a href=\"https://www.torproject.org/docs/android.html.en"
+"\">Android</a></mark>, <mark><a href=\"https://guardianproject.info/\">The "
+"Guardian Project</a></mark> maintains the Tor-powered apps <mark><a href="
+"\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> and <mark><a "
+"href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 msgstr ""
-"Para Android, The Guardian Project se encarga de mantener las aplicaciones "
-"Orbot y Orfox, basadas en Tor. "
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"There is no official version of Tor for iOS yet, though we recommend "
+"<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 msgstr ""
-"Todavía no hay una versión oficial de Tor para iOS, aunque recomendamos "
-"Onion Browser."
 
 #: http://localhost/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lr:question.title)
@@ -364,14 +360,10 @@ msgstr ""
 #: (content/tbb/tbb-1/contents+en.lr:question.description)
 msgid ""
 "If you started having issues with your Tor Browser after an update, check "
-"out <mark><a href=\"https://blog.torproject.org></a>blog.torproject.org</"
+"out <mark><a href=\"https://blog.torproject.org>blog.torproject.org</a></"
 "mark> for the most recent stable Tor Browser post to see if your issue is "
 "listed."
 msgstr ""
-"Si comenzaste a tener problemas con tu Tor Browser tras actualizar, revisa ​"
-"<mark><a href=\"https://blog.torproject.org\">https://blog.torproject.org</"
-"a></mark> en busca del artículo del Tor Browser estable más reciente para "
-"ver si aparece tu problema."
 
 #: http://localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lr:question.description)
@@ -623,6 +615,15 @@ msgid "tor-browser-protecting-other-apps"
 msgstr ""
 
 #: http://localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lr:question.description)
+msgid ""
+"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
+"NoScript — and adding anything else could deanonymize you."
+msgstr ""
+"El Navegador Tor ya trae instalado dos complementos - HTTPS Everywhere y "
+"NoScript - y añadir cualquier otra cosa podría desanonimizarte."
+
+#: http://localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lr:question.seo_slug)
 msgid "installing-add-on-extensions-tor-browser"
 msgstr ""
@@ -742,11 +743,10 @@ msgstr ""
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
 msgid ""
-"There is something called the TorBSD project, but their Tor Browser is not "
-"officially supported."
+"There is something called the <mark><a href=\"https://www.torbsd.org/"
+"\">TorBSD project</a></mark>, but their Tor Browser is not officially "
+"supported."
 msgstr ""
-"Hay algo llamado proyecto TorBSD, pero su Tor Browser no está soportado "
-"oficialmente."
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.seo_slug)
@@ -912,8 +912,6 @@ msgstr ""
 
 #: http://localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lr:question.description)
-#: http://localhost/connecting/connecting-1/
-#: (content/connecting/connecting-1/contents+en.lr:question.description)
 msgid ""
 "If this doesn't fix the problem, see the Troubleshooting page on the "
 "<mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">Tor "
@@ -1031,20 +1029,18 @@ msgstr ""
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.description)
-msgid "DuckDuckGo is the default search engine in Tor Browser."
+msgid ""
+"<mark><a href=\"https://duckduckgo.com/\">DuckDuckGo</a></mark> is the "
+"default search engine in Tor Browser."
 msgstr ""
-"DuckDuckGo es el motor de búsqueda predeterminado en el Tor Browser. "
-"DuckDuckGo no rastrea a sus usuarios ni almacena ningún dato acerca de las "
-"búsquedas de los usuarios.</p>"
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.description)
 msgid ""
 "DuckDuckGo does not track its users nor does it store any data about user "
-"searches."
+"searches. Learn more about <mark><a href=\"https://duckduckgo.com/privacy"
+"\">DuckDuckGo privacy policy</a></mark>."
 msgstr ""
-"DuckDuckGo no rastrea a sus usuarios ni almacena ningún dato sobre las "
-"búsquedas de los usuarios."
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.seo_slug)
@@ -1497,6 +1493,24 @@ msgstr ""
 "Actualmente el navegador Tor está disponible para Windows, Linux y OSX."
 
 #: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
+msgid ""
+"For Android, The Guardian Project maintains the Tor-powered apps Orbot and "
+"Orfox."
+msgstr ""
+"Para Android, The Guardian Project se encarga de mantener las aplicaciones "
+"Orbot y Orfox, basadas en Tor. "
+
+#: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
+msgid ""
+"There is no official version of Tor for iOS yet, though we recommend Onion "
+"Browser."
+msgstr ""
+"Todavía no hay una versión oficial de Tor para iOS, aunque recomendamos "
+"Onion Browser."
+
+#: http://localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lr:question.seo_slug)
 msgid "which-platform-tor-browser-available"
 msgstr ""
@@ -1642,11 +1656,9 @@ msgstr "¿Pueden quitar todos los CAPTCHAs?"
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.description)
 msgid ""
-"Unfortunately, some websites deliver CAPTCHAS to Tor users, and we are not "
+"Unfortunately, some websites deliver CAPTCHAs to Tor users, and we are not "
 "able to remove CAPTCHAs from websites."
 msgstr ""
-"Desafortunadamente, algunos sitios web presentan CAPTCHAs a los usuarios de "
-"Tor, y no podemos eliminar estos CAPTCHAs de los sitios."
 
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.description)
@@ -2413,17 +2425,11 @@ msgstr ""
 
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-3/
-#: (content/censorship/censorship-3/contents+en.lr:question.description)
 msgid ""
 "GetTor is a service that automatically responds to messages with links to "
 "the latest version of Tor Browser, hosted at a variety of locations that are "
-"less likely to be censored, such as Dropbox, Google Drive, and Github."
+"less likely to be censored, such as Dropbox, Google Drive, and GitHub."
 msgstr ""
-"GetTor es un servicio que responde automáticamente a los mensajes con "
-"enlaces a la versión más reciente del Tor Browser, alojada en distintas "
-"ubicaciones, que es menos probable que estén censuradas, como Dropbox, "
-"Google Drive, y GitHub."
 
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.seo_slug)
@@ -2453,16 +2459,11 @@ msgstr ""
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
 msgid ""
 "GetTor will respond with an email containing links from which you can "
-"download Tor Browser, the cryptographic signature (needed for verifying the "
-"download) [link to glossary definition of cryptographic signature; "
-"instructions for verification], the fingerprint of the key used to make the "
+"download Tor Browser, the cryptographic signature (needed for <mark><a href="
+"\"https://www.torproject.org/docs/verifying-signatures.html.en\">verifying "
+"the download</a></mark>), the fingerprint of the key used to make the "
 "signature, and the package’s checksum."
 msgstr ""
-"GetTor responderá con un correo electrónico que contiene enlaces desde los "
-"que puedes descargar Tor Browser, la firma criptográfica (necesaria para "
-"verificar la descarga)[enlace a la definición del glosario de firma "
-"criptográfica; instrucciones para la verificación], la huella de la clave "
-"utilizada para hacer la firma, y la suma de comprobación del paquete."
 
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
@@ -2539,6 +2540,14 @@ msgstr ""
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.seo_slug)
 msgid "to-use-gettor-via-xmpp"
+msgstr ""
+
+#: http://localhost/connecting/connecting-1/
+#: (content/connecting/connecting-1/contents+en.lr:question.description)
+msgid ""
+"If this doesn't fix the problem, see the Troubleshooting page on the "
+"<mark><a href=\"https://tb-manual.torproject.org/en-US/troubleshooting.html"
+"\">Tor Browser manual</a></mark>."
 msgstr ""
 
 #: http://localhost/connecting/connecting-1/
@@ -2978,6 +2987,18 @@ msgid "website-is-blocking-access-over-tor"
 msgstr ""
 
 #: http://localhost/censorship/censorship-3/
+#: (content/censorship/censorship-3/contents+en.lr:question.description)
+msgid ""
+"GetTor is a service that automatically responds to messages with links to "
+"the latest version of Tor Browser, hosted at a variety of locations that are "
+"less likely to be censored, such as Dropbox, Google Drive, and Github."
+msgstr ""
+"GetTor es un servicio que responde automáticamente a los mensajes con "
+"enlaces a la versión más reciente del Tor Browser, alojada en distintas "
+"ubicaciones, que es menos probable que estén censuradas, como Dropbox, "
+"Google Drive, y GitHub."
+
+#: http://localhost/censorship/censorship-3/
 #: (content/censorship/censorship-3/contents+en.lr:question.seo_slug)
 msgid "how-do-i-download-tor-if-torproject-org-is-blocked"
 msgstr ""
@@ -3030,7 +3051,9 @@ msgstr ""
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
-msgid "See (link to How do I run a bridge) for instructions."
+msgid ""
+"See <mark><a href=\"#operators-6\">How do I run a bridge</a></mark> for "
+"instructions."
 msgstr ""
 
 #: http://localhost/censorship/censorship-7/
@@ -3431,8 +3454,6 @@ msgstr ""
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "After a few hours (to give it enough time to propagate), you can query Atlas "
 "to see whether your relay has successfully registered in the network."
@@ -3491,14 +3512,13 @@ msgstr ""
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "After a few hours (to give it enough time to propagate), you can query "
-"<mark><a href=\"https://atlas.torproject.org/\">Atlas</a></mark> to see "
-"whether your relay has successfully registered in the network."
+"<mark><a href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></"
+"mark> to see whether your relay has successfully registered in the network."
 msgstr ""
-"Después de unas horas (para concederle suficiente tiempo para reproducirse), "
-"puedes consultar a <mark><a href=\"https://atlas.torproject.org/\">Atlas</"
-"a></mark> para ver si tu repetidor se ha registrado correcctamente en la red."
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
@@ -4426,6 +4446,50 @@ msgid "Permalink"
 msgstr ""
 
 #~ msgid ""
+#~ "Tor Browser is currently available on Windows, Linux and macOS (OS X)."
+#~ msgstr ""
+#~ "El Tor Browser actualmente está disponible para Windows, Linux y macOS "
+#~ "(OS X)."
+
+#~ msgid ""
+#~ "If you started having issues with your Tor Browser after an update, check "
+#~ "out <mark><a href=\"https://blog.torproject.org></a>blog.torproject.org</"
+#~ "mark> for the most recent stable Tor Browser post to see if your issue is "
+#~ "listed."
+#~ msgstr ""
+#~ "Si comenzaste a tener problemas con tu Tor Browser tras actualizar, "
+#~ "revisa ​<mark><a href=\"https://blog.torproject.org\">https://blog."
+#~ "torproject.org</a></mark> en busca del artículo del Tor Browser estable "
+#~ "más reciente para ver si aparece tu problema."
+
+#~ msgid ""
+#~ "There is something called the TorBSD project, but their Tor Browser is "
+#~ "not officially supported."
+#~ msgstr ""
+#~ "Hay algo llamado proyecto TorBSD, pero su Tor Browser no está soportado "
+#~ "oficialmente."
+
+#~ msgid "DuckDuckGo is the default search engine in Tor Browser."
+#~ msgstr ""
+#~ "DuckDuckGo es el motor de búsqueda predeterminado en el Tor Browser. "
+#~ "DuckDuckGo no rastrea a sus usuarios ni almacena ningún dato acerca de "
+#~ "las búsquedas de los usuarios.</p>"
+
+#~ msgid ""
+#~ "DuckDuckGo does not track its users nor does it store any data about user "
+#~ "searches."
+#~ msgstr ""
+#~ "DuckDuckGo no rastrea a sus usuarios ni almacena ningún dato sobre las "
+#~ "búsquedas de los usuarios."
+
+#~ msgid ""
+#~ "Unfortunately, some websites deliver CAPTCHAS to Tor users, and we are "
+#~ "not able to remove CAPTCHAs from websites."
+#~ msgstr ""
+#~ "Desafortunadamente, algunos sitios web presentan CAPTCHAs a los usuarios "
+#~ "de Tor, y no podemos eliminar estos CAPTCHAs de los sitios."
+
+#~ msgid ""
 #~ "Orbot is for web browsing, and Orfox can route other apps on your Android "
 #~ "phone over the Tor network."
 #~ msgstr ""
@@ -4433,8 +4497,31 @@ msgstr ""
 #~ "en tu teléfono Android sobre la red Tor."
 
 #~ msgid ""
+#~ "GetTor will respond with an email containing links from which you can "
+#~ "download Tor Browser, the cryptographic signature (needed for verifying "
+#~ "the download) [link to glossary definition of cryptographic signature; "
+#~ "instructions for verification], the fingerprint of the key used to make "
+#~ "the signature, and the package’s checksum."
+#~ msgstr ""
+#~ "GetTor responderá con un correo electrónico que contiene enlaces desde "
+#~ "los que puedes descargar Tor Browser, la firma criptográfica (necesaria "
+#~ "para verificar la descarga)[enlace a la definición del glosario de firma "
+#~ "criptográfica; instrucciones para la verificación], la huella de la clave "
+#~ "utilizada para hacer la firma, y la suma de comprobación del paquete."
+
+#~ msgid ""
 #~ "2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx.."
 #~ "xxx..xxx.xx:xxxxx  (\"general SOCKS server failure\")"
 #~ msgstr ""
 #~ "2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx.."
 #~ "xxx..xxx.xx:xxxxx  (\"general SOCKS server failure\")"
+
+#~ msgid ""
+#~ "After a few hours (to give it enough time to propagate), you can query "
+#~ "<mark><a href=\"https://atlas.torproject.org/\">Atlas</a></mark> to see "
+#~ "whether your relay has successfully registered in the network."
+#~ msgstr ""
+#~ "Después de unas horas (para concederle suficiente tiempo para "
+#~ "reproducirse), puedes consultar a <mark><a href=\"https://atlas."
+#~ "torproject.org/\">Atlas</a></mark> para ver si tu repetidor se ha "
+#~ "registrado correcctamente en la red."
