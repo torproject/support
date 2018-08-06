@@ -176,7 +176,7 @@ url_prefix = /tr/
 locale = tr_TR
 
 [alternatives.uk]
-name = українська (ukrajins'ka)
+name = українська (ukrajins\'ka)
 url_prefix = /uk/
 locale = uk_UK
 

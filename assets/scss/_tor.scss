@@ -475,6 +475,8 @@ pre {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    overflow-y: scroll;
+    max-height: 350px;
 }
 
 .dropdown .btn {

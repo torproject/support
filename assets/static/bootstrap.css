@@ -6872,7 +6872,9 @@ pre {
   display: none; }
 
 .dropdown:hover .dropdown-menu {
-  display: block; }
+  display: block;
+  overflow-y: scroll;
+  max-height: 350px; }
 
 .dropdown .btn {
   border-radius: 0; }
