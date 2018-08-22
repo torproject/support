@@ -1,0 +1,9 @@
+_model: question
+---
+title: У меня проблемы с обновлением или использованием Vidalia.
+---
+seo_slug: having-a-problem-updating-vidalia
+---
+description:
+Vidalia больше не разрабатывается и не поддерживается.
+Значительная часть функционала Vidalia сегодня интегрирована в Tor Browser.
