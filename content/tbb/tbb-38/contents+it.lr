@@ -1,0 +1,9 @@
+_model: question
+---
+title: Il mio amministratore di rete è in grado di capire se sto usando Tor Browser?
+---
+seo_slug: l'amministratore-di-rete-sa-che-utilizzo-tor
+---
+description:
+Quanto utilizzi Tor Browser, nessuno può vedere i siti che visiti.
+Tuttativa, il tuo service provider o l'amministratore di rete possono capire che ti stai connettendo al network Tor, anche se non potranno sapere cosa farai una volta connesso.

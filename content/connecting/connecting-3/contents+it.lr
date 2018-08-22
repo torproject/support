@@ -1,0 +1,12 @@
+_model: question
+---
+title: Non posso raggiungere X.onion!
+---
+seo_slug: impossibile-raggiungere-x-onion
+---
+description:
+Se non riesci a raggiungere il servizio onion che desideri, accertati di aver inserito correttamente i 16 caratteri dell'indirizzo onion: anche un piccolo errore impedirà a Tor Browser di raggiungere il sito.
+Se non sei ancora in grado di connetterti al servizio onion, per favore riprova più tardi.
+Potrebbe esserci un problema temporaneo di connessione, o gli operatori del sito potrebbero averlo messo offline senza avviso.
+
+Puoi anche assicurarti di poter accedere ai servizi Onion connettendoti al <a href="http://3g2upl4pq6kufc4m.onion">servizio onion di DuckDuckGo</a>

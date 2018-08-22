@@ -1,0 +1,8 @@
+_model: question
+---
+title: Posso eseguire diverse istanze di Tor Browser?
+---
+seo_slug: eseguire-istanze-multiple-di-tor-browser
+---
+description:
+Non raccomandiamo di eseguire diverse istanze di Tor Browser, su molte piattaforme potrebbero non funzionare come previsto.

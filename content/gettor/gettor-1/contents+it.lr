@@ -1,0 +1,9 @@
+_model: question
+---
+title: Come posso scaricare Tor se torproject.org viene bloccato?
+---
+seo_slug: come-scaricare-tor-se-torproject-org-è-bloccato
+---
+description:
+Se non riesci a scaricare Tor dal nostro <mark><a href="https://www.torproject.org">sito web</a></mark>, puoi ottenere una copia di Tor tramite GetTor.
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.
