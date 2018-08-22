@@ -2,10 +2,10 @@ _model: question
 ---
 title: Qu’est-ce qu’un .onion et que sont les services oignon ?
 ---
-seo_slug: what-is-a-dot-onion
+seo_slug: qu-est-ce-qu-un-point-onion
 ---
 description:
-Onion services allow people to browse but also to publish anonymously, including publishing anonymous websites.
-Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with SecureDrop or OnionShare, safer software updates, and more secure ways to reach popular websites like Facebook.
+Les services oignons permettent aux gens de naviguer, mais aussi de publier dans l'anonymat, y compris la publication de sites Web anonymes.
+Les services oignons sont aussi utilisés pour permettre la messagerie et le partage de fichiers sans métadonnées, des interactions plus sûres entre des journalistes et leurs sources avec SecureDrop ou OnionShare, des mises à jour logicielles plus sûres, et des manières plus sécuritaires d'atteindre des sites populaires comme Facebook.
 
-These services use the special-use tld .onion (instead of .com,.net,.org,etc..) and are only accessible through the Tor network.
+Ces services utilisent le domaine de premier niveau spécial .onion (au lieu de .com, .net, .org, etc...) et ne sont accessibles que par le réseau Tor.

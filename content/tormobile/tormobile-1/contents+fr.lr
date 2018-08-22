@@ -2,9 +2,9 @@ _model: question
 ---
 title: Puis-je utiliser Tor sur un appareil Android ?
 ---
-seo_slug: run-tor-on-android
+seo_slug: utiliser-tor-sur-android
 ---
 description:
-Tor on Android is provided by The Guardian Project.
-More information can be found on the <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> and <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark> web pages.
-Orfox is for web browsing, and Orbot can route other apps on your Android phone over the Tor network.
+Tor pour Android est fourni par le Projet Guardian.
+De l'information supplémentaire est disponible sur les pages Web d'<mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> et d'<mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>.
+Orfox est conçu pour la navigation Web, et Orbot peut router le trafic d'autres applications sur votre téléphone Android via le réseau Tor.

@@ -2,11 +2,11 @@ _model: question
 ---
 title: Notre site Web est bloqué par un censeur. Le Navigateur Tor peut-il aider les utilisateurs à accéder à notre site Web ?
 ---
-seo_slug: our-website-is-blocked-by-a-censor
+seo_slug: notre-site-est-bloque-par-un-censeur
 ---
 description:
-Tor Browser can certainly help people access your website in places where it is blocked.
-Most of the time, simply downloading the <mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> and then using it to navigate to the blocked site will allow access.
-Pour les endroits soumis à une censure forte, de nombreuses options de contournement sont offertes, dont les ​<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark>.
+Le Navigateur Tor peut tout à fait aider les gens à accéder à votre site Web depuis des endroits où il est bloqué.
+La plupart du temps, le simple fait de télécharger le <mark><a href="https://www.torproject.org/download/download-easy.html.en">Navigateur Tor</a></mark>et de l'utiliser pour naviguer jusqu'au site bloqué permettra l'accès.
+Pour les endroits soumis à une lourde censure, de nombreuses options de contournement sont disponibles, dont les ​<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark>.
 
-For more information, please see the <mark><a href="https://tb-manual.torproject.org/en-US/">Tor Browser User Manual</a></mark> section on <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">censorship</a></mark>.
+Pour plus d'information, veuillez vous référer à la section du <mark><a href="https://tb-manual.torproject.org/en-US/">manuel d'utilisateur du Navigateur Tor</a></mark> concernant la <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">censure</a></mark>.

@@ -2,7 +2,7 @@ _model: question
 ---
 title: Puis-je exécuter le Navigateur Tor plusieurs fois en même temps ?
 ---
-seo_slug: run-multible-instances-of-tor-browser
+seo_slug: lancer-plusieurs-instances-du-navigateur-tor
 ---
 description:
 Nous ne recommandons pas d’exécuter le Navigateur Tor plusieurs fois en même temps, ce qui pourrait ne pas fonctionner comme souhaité sur plusieurs plateformes.

@@ -2,7 +2,7 @@ _model: question
 ---
 title: Quel moteur de recherche est configuré avec le Navigateur Tor et comment protège-t-il mes renseignements personnels ?
 ---
-seo_slug: search-engine-tor-browser
+seo_slug: moteur-de-recherche-navigateur-tor
 ---
 description:
 <mark><a href="https://duckduckgo.com/">DuckDuckGo</a></mark> is the default search engine in Tor Browser.

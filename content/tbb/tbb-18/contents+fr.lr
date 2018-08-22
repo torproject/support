@@ -2,7 +2,7 @@ _model: question
 ---
 title: *BSD est-il pris en charge ?
 ---
-seo_slug: is-there-support-for-bsd
+seo_slug: bsd-est-il-pris-en-charge
 ---
 description:
 Désolé, mais il n’y a actuellement aucune prise en charge officielle pour exécuter le Navigateur Tor sur *BSD.

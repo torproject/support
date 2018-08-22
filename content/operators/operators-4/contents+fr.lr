@@ -1,19 +1,19 @@
 _model: question
 ---
-title: How do I make sure that I'm using the correct packages on Ubuntu?
+title: Comment puis-je être certain que j'utilise les bons paquets sous Ubuntu ?
 ---
-seo_slug: using-correct-packages
+seo_slug: utiliser-les-bons-paquets
 ---
 description:
-* Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
-* Determine your Ubuntu version by running the following command:
+* N'utilisez pas les paquets dans les dépôts d'Ubuntu. Ils ne sont pas mis à jours avec régularité. Si vous les utilisez, vous manquerez d'importants correctifs de stabilité et de sécurité.
+* Déterminez votre version d'Ubuntu en exécutant la commande suivante :
        $ sb_release -c
-* As root, add the following lines to /etc/apt/sources.list. Use the version you found in the previous step for <version>.
+* En tant que super-utilisateur, ajoutez les lignes suivantes au fichier /etc/apt/sources.list. Utilisez la version que vous avez trouvé à l'étape précédente à la place de <version>.
        $ deb http://deb.torproject.org/torproject.org <version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
-* Add the gpg key used to sign the packages by running the following commands:
+* Ajoutez la clé gpg utilisée pour signer les paquets en exécutant les commandes suivantes :
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-* Run the following commands to install tor and check its signatures:
+* Exécutez les commandes suivantes pour installer tor et vérifier ses signatures :
        $ sudo apt-get update
        $ sudo apt-get install tor deb.torproject.org-keyring
