@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Cómo puedo compartir ficheros anónimamente a través de Tor?
 ---
-seo_slug: share-files-anonymously-through-tor
+seo_slug: compartir-archivos-de-forma-anónima-con-tor
 ---
 description:
 Muchos nodos de salida están configurados para bloquear ciertos tipos de tráfico de compartición de ficheros, como bittorrent.

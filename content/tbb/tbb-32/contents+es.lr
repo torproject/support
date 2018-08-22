@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Puedo establecer el Tor Browser como mi navegador predeterminado?
 ---
-seo_slug: setting-tor-browser-as-default
+seo_slug: configurando-tor-por-defecto
 ---
 description:
 Actualmente no hay ningún método soportado para establecer el navegador Tor como tu navegador predeterminado.

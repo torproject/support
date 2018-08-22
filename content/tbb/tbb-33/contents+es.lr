@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Me convierto en un repetidor al ejecutar el Tor Browser?
 ---
-seo_slug: running-tor-browser-make-me-relay
+seo_slug: correr-navegador-tor-me-convierte-en-un-repetidor
 ---
 description:
 Ejecutar el Tor Browser no te hace actuar como un repetidor en la red.

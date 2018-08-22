@@ -2,12 +2,12 @@ _model: question
 ---
 title: ¿Qué son los puentes?
 ---
-seo_slug: what-is-a-bridge
+seo_slug: qué-es-un-puente
 ---
 description:
 Los repetidores puente son repetidores Tor que no están listados en el directorio público de Tor.
-That means that ISPs or governments trying to block access to the Tor network can't simply block all bridges.
-Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
+Esto significa que los ISPs o gobiernos que intentan bloquear el acceso a la red Tor no pueden simplemente bloquear todos los puentes.
+Los puentes son útiles para los usuarios de Tor bajo regímenes opresivos, y para la gente que quiere una capa extra de seguridad porque les preocupa que alguien reconozca que están contactando con una dirección IP pública de Tor.
 
 Un puente es sólo un repetidor normal con una configuración ligeramente diferente.
 See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.

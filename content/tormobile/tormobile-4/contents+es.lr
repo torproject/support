@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Cómo uso Tor en Windows Phone?
 ---
-seo_slug: run-tor-on-windows-phone
+seo_slug: ejecutar-tor-en-windows-phone
 ---
 description:
 Actualmente no existe un método soportado para ejecutar Tor sobre Windows Phone.

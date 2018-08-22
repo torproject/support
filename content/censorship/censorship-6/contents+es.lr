@@ -2,7 +2,7 @@ _model: question
 ---
 title: No puedo conectar al navegador Tor, ¿está censurada mi red?
 ---
-seo_slug: is-my-network-censored
+seo_slug: está-mi-red-censurada
 ---
 description:
 Podrías estar en una red censurada, así que deberías intentar usar puentes.

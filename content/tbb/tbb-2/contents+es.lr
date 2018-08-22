@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Por qué la primera dirección IP en mi circuito de repetidores es siempre la misma?
 ---
-seo_slug: first-address-relay-circuit
+seo_slug: primera-dirección-del-circuito-de-repetidores
 ---
 description:
 Ese es el comportamiento normal de Tor.

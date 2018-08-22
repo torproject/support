@@ -2,7 +2,7 @@ _model: question
 ---
 title: He oído de sitios web que sólo son accesibles con Tor. ¿Qué son estos sitios web, y cómo puedo acceder a ellos?
 ---
-seo_slug: accessing-websites-that-are-only-accessible-over-tor
+seo_slug: accediendo-a-sitioswebs-solo-accesibles-por-tor
 ---
 description:
 Los sitios web sólo accesibles con Tor se llaman "onions" y terminan con el TLD (dominio de primer nivel) .onion.

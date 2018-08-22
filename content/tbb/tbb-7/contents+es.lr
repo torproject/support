@@ -2,12 +2,12 @@ _model: question
 ---
 title: Un sitio web que quiero abrir está bloqueando el acceso a través de Tor.
 ---
-seo_slug: website-blocking-access-over-tor
+seo_slug: sitio-web-bloquea-acceso-por-tor
 ---
 description:
 Algunas veces los sitios web bloquean a los usuarios de Tor ya que no pueden distinguir entre el usuario medio de Tor y el tráfico automatizado.
 Lo más, que hemos podido conseguir para que los sitios desbloqueen a los usuarios de Tor es hacer que los usuarios se pongan en contacto con los administradores del sitio directamente.
-Algo así sería la solución:
+Algo así podría ayudar:
 
 "Intenté acceder a tu sitio xyz.com mientras usaba el Tor Browser y descubrí que no permites a los usuarios de Tor acceder a tu sitio.
 Te pido que reconsideres esta decisión; Tor lo usa gente de todo el mundo para proteger su privacidad y luchar contra la censura.
