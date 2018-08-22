@@ -4,6 +4,18 @@ url = https://support.torproject.org/
 url_style = absolute
 locale = en_US
 
+[alternatives.bn_BD]
+name = Bengali
+primary = yes
+url_prefix = /
+locale = bn_BD
+
+[alternatives.de]
+name = Deutsch
+primary = yes
+url_prefix = /
+locale = de
+
 [alternatives.en]
 name = English
 primary = yes
@@ -24,3 +36,33 @@ locale = fr_FR
 name = Indonesia
 url_prefix = /id/
 locale = id_ID
+
+[alternatives.it]
+name = Indonesia
+url_prefix = /it/
+locale = it
+
+[alternatives.bn_BD]
+name = Bengali
+url_prefix = /bn/
+locale = bn_BD
+
+[alternatives.de]
+name = Deutsch
+url_prefix = /de/
+locale = de
+
+[alternatives.he]
+name = Ivrit
+url_prefix = /he/
+locale = he
+
+[alternatives.pt_BR]
+name = Portugueis (Brasil)
+url_prefix = /pt_BR/
+locale = pt_BR
+
+[alternatives.ru]
+name = Russian
+url_prefix = /ru/
+locale = ru
