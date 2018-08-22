@@ -1,0 +1,9 @@
+_model: question
+---
+title: Can I use Tor with bittorrent?
+---
+seo_slug: tor-bittorrent
+---
+description:
+We do not recommend using Tor with bittorrent.
+আরও বিস্তারিত জানার জন্য, আমাদের <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">ব্লগ পোস্টটি বিষয়টিতে</a></mark> দেখুন।

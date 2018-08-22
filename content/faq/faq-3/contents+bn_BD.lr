@@ -1,0 +1,9 @@
+_model: question
+---
+title: আমার অ্যাডব্লক প্লাস বা ইউব্লক এর মত একটি নতুন অ্যাড অন বা এক্সটেনশন টর ব্রাউজারে ইনস্টল করা উচিত?
+---
+seo_slug: install-add-on-extension-tor-browser
+---
+description:
+এটি টর ব্রাউজারে নতুন অ্যাড-অন ইনস্টল করতে নিরুৎসাহিত হয়, কারণ তারা আপনার গোপনীয়তা এবং নিরাপত্তা নিয়ে আপস করতে পারে
+Tor Browser already comes installed with two add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> and <mark><a href="https://noscript.net/">NoScript</a></mark> — and adding anything else could deanonymize you.

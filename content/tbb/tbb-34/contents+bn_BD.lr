@@ -1,0 +1,13 @@
+_model: question
+---
+title: Why does Tor Browser ship with Javascript enabled?
+---
+seo_slug: tor-browser-js-enabled-default
+---
+description:
+We configure NoScript to allow JavaScript by default in Tor Browser because many websites will not work with JavaScript disabled.
+Most users would give up on Tor entirely if we disabled Javascript by default because it would cause so many problems for them.
+Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving Javascript enabled by default.
+
+ডিফল্ট হিসাবে সব HTTP সাইটগুলিতে জাভাস্ক্রিপ্ট নিষ্ক্রিয় করতে চান এমন ব্যবহারকারীদের জন্য, আমরা আপনার টর ব্রাউজারের নিরাপত্তা স্লাইডার পরিবর্তন করার পরামর্শ দিই (টর ব্রাউজারের "নিরাপত্তা সেটিংস" মেনুর মেনুতে)।
+নিম্ন / ডিফল্ট সেটিংস জাভাস্ক্রিপ্ট দেয়, তবে মাধ্যম এবং উচ্চ স্তরের এইচপি সাইটগুলি ব্লক জাভাস্ক্রিপ্ট।
