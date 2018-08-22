@@ -1,0 +1,9 @@
+_model: question
+---
+title: O Tor mantém registros?
+---
+seo_slug: tor-mantem-registros
+---
+description:
+Tor não mantém qualquer tipo de registro que permita a identificação de um usuário específico.
+Nós, de fato, efetuamos algumas mensurações seguras sobre o funcionamento da rede, que você pode conferir na página de <mark><a href="https://metrics.torproject.org/">Métricas do Tor</a></mark>.
