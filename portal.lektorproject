@@ -66,3 +66,6 @@ locale = pt_BR
 name = Russian
 url_prefix = /ru/
 locale = ru
+
+[packages]
+lektor-i18n = 0.2
