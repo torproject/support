@@ -1,0 +1,12 @@
+_model: question
+---
+title: Apakah saya dapat mengubah jumlah hop yang digunakan Tor?
+---
+seo_slug: change-the-number-of-hops-tor-uses 
+---
+description:
+Saat ini panjangnya path terkode dalam 3 plus jumlah node di path Anda yang sensitif.
+Yaitu, di keadaan normal, adalah 3, tapi misalnya jika Anda mengakses sebuah onion service atau sebuah alamat ".exit", jumlah ini dapat lebih besar.
+
+Kami tidak ingin mendorong orang untuk menggunakan path lebih panjang dari ini karena akan meningkatkan beban jaringan (sejauh yang kami ketahui) tanpa menambah keamanan.
+Selain itu, menggunakan jalur yang lebih panjang dari 3 dapat membahayakan anonimitas, pertama karena itu membuat serangan<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">penolakan keamanan</a></mark> lebih mudah, dan kedua karena itu dapat bertindak sebagai suatu identifier jika hanya sejumlah kecil pengguna memiliki jalan panjang yang sama seperti Anda.

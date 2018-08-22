@@ -1,0 +1,46 @@
+_model: question
+---
+title: Bagaimana cara menjalankan relay keluar pada Debian?
+---
+seo_slug: how-do-i-run-an-exit 
+---
+description:
+Untuk sumber daya paling mendalam tentang menjalankan relay, lihat <mark> <a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Panduan Tor Relay</a> </mark> .
+
+* Baca <mark> <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">pedoman relay keluar </a></mark>
+* Jalankan "apt-get install tor" (sebagai root).
+* Pastikan jam, tanggal, dan zona waktu ditetapkan dengan benar. Instal paket ntp atau openntpd (atau yang serupa) untuk membuat jam akurat.
+* Edit / etc / tor / torrc agar terlihat seperti berikut:
+
+
+    ## Membuat julukan untuk relay ini
+    Nickname ididnteditheconfig 
+
+    ## Set info kontak Anda sendiri
+    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com> 
+
+    ORPort 9001 
+    DirPort 9030 
+
+    ## Alamat IP atau nama host untuk koneksi masuk (biarkan dalam bentuk komentar dan Tor akan menebak)
+    #Address noname.example.com 
+
+    ## Atur tingkat bandwidth Anda (biarkan dalam bentuk komentar dan Tor akan berjalan tanpa batas bandwidth)
+    #RelayBandwidthRate 30 MBytes 
+    #RelayBandwidthBurst 100 MBytes 
+
+    ## Jika Anda mengendalikan beberapa relay, masukkan mereka ke dalam relay family
+    #MyFamily $keyid,$keyid,... 
+
+
+* Jalankan "service tor reload" (sebagai root)
+Setelah relay Anda terhubung ke jaringan, itu akan mencoba untuk menentukan apakah port yang dikonfigurasi dapat dicapai dari luar.
+  Langkah ini biasanya cepat, tetapi mungkin perlu waktu beberapa menit.
+  Cari entri log di /var/log/syslog seperti contohnya "Pengujian otomatis menunjukkan ORPort Anda dapat dijangkau dari luar. Bagus sekali."
+  Jika Anda tidak melihat pesan ini, itu berarti Anda relay tidak dapat dijangkau dari luar.
+  Anda sebaiknya memeriksa ulang firewall Anda, periksa bahwa IP dan Port Anda yang ditentukan dalam torrc sudah benar, dll.
+Ketika itu menegaskan bahwa portnya terjangkau, itu akan meng-upload "Deskripsi server" kepada pihak berwenang direktori agar client tahu alamat, port, key, dll yang digunakan relay Anda.
+  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Jika belum, periksa ulang firewall, IP, dan port.
+
+Pertimbangkan jika Anda ingin beralih ke <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Pengurangan kebijakan keluar</a></mark>.

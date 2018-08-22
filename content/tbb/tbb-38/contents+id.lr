@@ -1,0 +1,9 @@
+_model: question
+---
+title: Apakah admin jaringan saya dapat mengetahui bahwa saya sedang menggunakan Tor Browser?
+---
+seo_slug: network-admin-know-i-am-using-tor 
+---
+description:
+Saat menggunakan Tor Browser, tidak ada yang bisa melihat situs web yang Anda kunjungi.
+Namun, penyedia layanan atau admin jaringan Anda mungkin dapat melihat bahwa Anda tersambung ke jaringan Tor, meskipun mereka tidak akan tahu apa yang Anda lakukan ketika Anda menggunakannya.

@@ -1,0 +1,15 @@
+_model: question
+---
+title: Bagaimana cara mencopot pemasangan Tor Browser?
+---
+seo_slug: uninstall-tor-browser 
+---
+description:
+Mencopot Tor Browser pada sistem Anda sangat mudah:
+
+*Cari folder atau aplikasi Tor Browser Anda.
+  Lokasi default pada Windows adalah Desktop; pada macOS adalah folder aplikasi (pada macOS, Anda harus memindahkannya ke Applications folder ketika Anda menyelesaikan proses instalasi).
+Di Linux, tidak ada lokasi tertentu, tapi folder akan dinamakan "tor-browser_en-US" jika Anda menjalankan versi Inggris Tor Browser.
+* Hapus folder atau aplikasi Tor Browser.
+* Kosongkan tempat sampah
+Perhatikan bahwa utilitas standar bernama "Uninstall" di operating sistem Anda tidak digunakan

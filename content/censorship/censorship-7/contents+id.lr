@@ -1,0 +1,18 @@
+_model: question
+---
+title: Apa itu bridge atau jembatan?
+---
+seo_slug: what-is-a-bridge 
+---
+description:
+Jembatan relay adalah Tor relay yang tidak tercantum dalam direktori Tor publik.
+Itu berarti bahwa ISP atau pemerintah yang berusaha untuk memblokir akses ke jaringan Tor tidak dapat memblokir semua jembatan.
+Jembatan berguna bagi pengguna Tor di bawah rezim yang menindas, dan bagi orang-orang yang menginginkan lapisan keamanan tambahan karena mereka khawatir seseorang akan mengenali bahwa saat mereka menghubungi alamat IP relay Tor publik.
+
+Jembatan adalah hanya sebuah relay normal dengan konfigurasi yang sedikit berbeda.
+See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
+
+Beberapa negara, termasuk Tiongkok dan Iran, telah menemukan cara untuk mendeteksi dan memblokir koneksi ke jembatan Tor.
+<mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> Jembatan mengatasi ini dengan menambahkan lapisan obfuscation.
+Mengkonfigurasi sebuah jembatan obfsproxy memerlukan paket software dan konfigurasi tambahan.
+Lihat halaman <mark> <a href="https://www.torproject.org/docs/pluggable-transports.html.en">transportasi pluggable</a> </mark> untuk info lebih lanjut.

@@ -1,0 +1,12 @@
+_model: question
+---
+title: Situs web kami diblokir sensor. Apakah Tor Browser dapat membantu pengguna kami dalam meng-akses situs web kami?
+---
+seo_slug: website-blocked-by-censor-can-tor-browser-help 
+---
+description:
+Tor Browser dapat membantu dalam akses situs web Anda dari tempat yang terblokir.
+Umumnya hanya unduh <mark><a href=\"https://www.torproject.org/download/download-easy.html.en\">Tor Browser </a></mark>dan gunakannya untuk membuka akses situs yang terblokir.
+Di tempat-tempat yang mengalami sensor berat, tersedia beberapa pilihan yang mengatasinya, termasuk <mark><a href=\"https://www.torproject.org/docs/pluggable-transports.html.en\">pluggable transport </a></mark>.
+
+Untuk info lebih lanjut, silakan baca bagian <mark><a href=\"https://tb-manual.torproject.org/en-US/\">Tor Browser Manual </a></mark>di bagian <mark><a href=\"https://tb-manual.torproject.org/en-US/circumvention.html\">censorship</a></mark>.</p>

@@ -1,0 +1,10 @@
+_model: question
+---
+title: Apa masalah-masalah paling umum pada versi stabil termutakhir di Tor Browser?
+---
+seo_slug: most-common-issues-latest-stable-tor-browser 
+---
+description:
+Setiap kali kami merilis versi stabil baru Tor Browser, kami menulis posting blog yang merinci fitur-fiturnya yang baru dan masalah yang diketahui.
+If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+Jika masalah Anda tidak terdaftar, silahkan mengajukan <mark><a href="https://trac.torproject.org">laporan bug</a></mark> tentang apa yang Anda alami.

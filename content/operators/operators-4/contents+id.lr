@@ -1,0 +1,19 @@
+_model: question
+---
+title: Bagaimana cara memastikan bahwa saya menggunakan paket yang benar pada Ubuntu?
+---
+seo_slug: using-correct-packages 
+---
+description:
+* Jangan gunakan paket di repositori Ubuntu. Mereka tidak dapat diperbarui secara andal. Jika Anda menggunakannya, Anda akan kehilangan perbaikan stabilitas dan keamanan yang penting.
+* Cari versi Ubuntu Anda dengan menjalankan perintah berikut:
+       $ sb_release -c 
+* Sebagai root, tambahkan baris berikut ke /etc/apt/sources.list. Gunakan versi yang Anda ditemukan di langkah sebelumnya untuk <version>.
+       $ deb http://deb.torproject.org/torproject.org <version> main 
+       $ deb-src http://deb.torproject.org/torproject.org <version> main 
+* Tambahkan kunci gpg untuk menandatangani paket dengan menjalankan perintah berikut:
+       $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 
+       $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add - 
+* Jalankan perintah berikut untuk memasang tor dan memeriksa tanda tangannya:
+       $ sudo apt-get update 
+       $ sudo apt-get install tor deb.torproject.org-keyring 
