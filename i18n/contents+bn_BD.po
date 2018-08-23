@@ -1155,6 +1155,8 @@ msgid ""
 "<p class=\"card-text\">The Torbutton icon (the little green onion in the top"
 " left corner of the browser) will display a yellow triangle.</p>"
 msgstr ""
+"<p class=\"card-text\">Torbutton আইকন (ব্রাউজারের উপরের বাঁ কোণে ছোট সবুজ "
+"পেঁয়াজ) একটি হলুদ ত্রিভুজ প্রদর্শন করবে ।</p>"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
@@ -1180,23 +1182,25 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New "
 "release alert\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New "
+"release alert\">"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "<h4 class=\"card-title\">Card title</h4>"
-msgstr ""
+msgstr "<h4 class=\"card-title\">কার্ডের শিরোনাম</h4>"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
 msgid "<p class=\"card-text\">Card text</p>"
-msgstr ""
+msgstr "<p class=\"card-text\">কার্ড পাঠ্য</p>"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
 msgid "Tor browser will install the updates."
-msgstr ""
+msgstr "টর ব্রাউজার হালনাগাদ সংস্থাপন করবে ।"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
@@ -1204,16 +1208,18 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"New "
 "release alert\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"New "
+"release alert\">"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.seo_slug)
 msgid "updating-tor-browser"
-msgstr ""
+msgstr "updating-tor-browser"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.title)
 msgid "How do I uninstall Tor Browser?"
-msgstr ""
+msgstr "আমি কিভাবে টর ব্রাউজার অসংস্থাপন করব?"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
@@ -1232,6 +1238,9 @@ msgid ""
 "Applications folder (on macOS, you have to move it into the Applications "
 "folder when you complete the installation process)."
 msgstr ""
+"Windows-এ ডিফল্ট অবস্থানটি হল ডেস্কটপ; macOS এটি অ্যাপ্লিকেশন ফোল্ডার (অন "
+"macOS, আপনি ইনস্টলেশন প্রক্রিয়া সম্পূর্ণ করার সময় অ্যাপ্লিকেশন ফোল্ডারে "
+"এটি সরাতে হবে)."
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
@@ -1239,6 +1248,8 @@ msgid ""
 "On Linux, there is no default location, however the folder will be named "
 "\"tor-browser_en-US\" if you are running the English Tor Browser."
 msgstr ""
+"লিনাক্সে, কোন ডিফল্ট অবস্থান নেই, তবে ফোল্ডারটি \"টর-browser_en-ইউএস \"-এর "
+"নাম হবে যদি আপনি ইংরেজী টর ব্রাউজার চালাচ্ছেন ।"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
@@ -1248,7 +1259,7 @@ msgstr "* টর ব্রাউজার ফোল্ডার বা অ্য
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
 msgid "* Empty your Trash."
-msgstr ""
+msgstr "* আবর্জনা খালি করুন ।"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
@@ -1256,11 +1267,13 @@ msgid ""
 "* Note that your operating system’s standard \"Uninstall\" utility is not "
 "used."
 msgstr ""
+"* লক্ষ্য করুন যে আপনার অপারেটিং সিস্টেমের স্ট্যান্ডার্ড \"আনইনস্টল \" "
+"ইউটিলিটি ব্যবহার করা হয় না."
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.seo_slug)
 msgid "uninstall-tor-browser"
-msgstr ""
+msgstr "uninstall-tor-browser"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.title)
@@ -1268,6 +1281,8 @@ msgid ""
 "Is there a way to change the IP address that Tor Browser assigns me for a "
 "particular site?"
 msgstr ""
+"এই IP ঠিকানা পরিবর্তন করার কোন উপায় আছে যে টর ব্রাউজার আমাকে একটি নির্দিষ্ট"
+" সাইটের জন্য নিমিত্তে দেয়?"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1275,16 +1290,18 @@ msgid ""
 "Tor Browser has two ways to change your relay circuit — \"New Identity\" and"
 " \"New Tor Circuit for this Site\"."
 msgstr ""
+"টর ব্রাউজার আপনার রিলে বর্তনী পরিবর্তন করার দুইটি উপায় আছে — \"নতুন পরিচয় "
+"\" এবং \"নতুন টর বর্তনী এই সাইট \"."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "Both options are located in the Torbutton (little green onion) menu."
-msgstr ""
+msgstr "উভয় অপশন Torbutton (ছোট সবুজ পেঁয়াজ) মেনুতে অবস্থিত রয়েছে ।"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "##### New Identity"
-msgstr ""
+msgstr "# # # # নতুন পরিচয়"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1292,6 +1309,8 @@ msgid ""
 "This option is useful if you want to prevent your subsequent browser "
 "activity from being linkable to what you were doing before."
 msgstr ""
+"আপনি যদি আপনার পরবর্তী ব্রাউজার কার্যকলাপকে linkable করা থেকে বিরত রাখতে চান"
+" তাহলে এই অপশনটি দরকারী ।"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1300,6 +1319,9 @@ msgid ""
 "information such as cookies and browsing history, and use new Tor circuits "
 "for all connections."
 msgstr ""
+"নির্বাচন করুন এটি আপনার সকল ট্যাব এবং windows বন্ধ করবে, কুকিজ এবং ব্রাউজিং "
+"ইতিহাস যেমন সকল গোপনীয় তথ্য মুছে ফেলবে এবং সকল সংযোগের জন্য নতুন টর বর্তনী "
+"ব্যবহার করুন ।"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1307,11 +1329,13 @@ msgid ""
 "Tor Browser will warn you that all activity and downloads will be stopped, "
 "so take this into account before clicking \"New Identity\"."
 msgstr ""
+"টর ব্রাউজার আপনাকে সতর্ক করবে যে সকল ক্রিয়াকলাপ এবং ডাউনলোড বন্ধ হয়ে যাবে,"
+" তাই \"নতুন পরিচয় \"-এ ক্লিক করার আগে এটিকে অ্যাকাউন্টে নিন ।"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "##### New Tor Circuit for this Site"
-msgstr ""
+msgstr "# # # # # নিউ টর সার্কিট এই সাইটের জন্য"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1319,6 +1343,8 @@ msgid ""
 "This option is useful if the exit relay you are using is unable to connect "
 "to the website you require, or is not loading it properly."
 msgstr ""
+"যদি প্রস্থান রিলে আপনি ব্যবহার করছেন তাহলে এই বিকল্পটি দরকারী, অথবা আপনার "
+"প্রয়োজন ওয়েবসাইটে সংযোগ করতে অক্ষম, অথবা এটি সঠিকভাবে লোড করা নেই ।"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1326,6 +1352,8 @@ msgid ""
 "Selecting it will cause the currently-active tab or window to be reloaded "
 "over a new Tor circuit."
 msgstr ""
+"এটি নির্বাচন করার জন্য বর্তমানে সক্রিয় ট্যাব বা উইন্ডো একটি নতুন টর "
+"সার্কিটে লোড করা হবে ।"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1333,6 +1361,8 @@ msgid ""
 "Other open tabs and windows from the same website will use the new circuit "
 "as well once they are reloaded."
 msgstr ""
+"একই ওয়েবসাইট থেকে অন্যান্য খোলা ট্যাব এবং windows নতুন সার্কিট ব্যবহার "
+"করবে, যা পুনরায় লোড করা হবে."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1340,6 +1370,8 @@ msgid ""
 "This option does not clear any private information or unlink your activity, "
 "nor does it affect your current connections to other websites."
 msgstr ""
+"এই বিকল্পটি কোনো গোপনীয় তথ্য বা আপনার সক্রিয়তার যোগসূত্রকে পরিষ্কার করে না"
+" এবং এটি আপনার বর্তমান সংযোগে অন্যান্য ওয়েবসাইটে প্রভাব ফেলে না ।"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1347,21 +1379,23 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image1.png\" alt=\"New "
 "release alert\"><div class=\"card-body\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/image1.png\" alt=\"New "
+"release alert\"><div class=\"card-body\">"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "<p class=\"card-text\">Card text</div>"
-msgstr ""
+msgstr "<p class=\"card-text\">কার্ড পাঠ্য</div>"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.seo_slug)
 msgid "change-ip-address"
-msgstr ""
+msgstr "change-ip-address"
 
 #: http//localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lrquestion.seo_slug)
 msgid "tell-which-website-are-visited-while-using-tor-browser"
-msgstr ""
+msgstr "tell-which-website-are-visited-while-using-tor-browser"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.title)
@@ -1369,6 +1403,8 @@ msgid ""
 "A website (bank, email provider, etc..) locks me out whenever I use Tor, "
 "what can I do?"
 msgstr ""
+"একটি ওয়েবসাইট (ব্যাংক, ইমেল প্রদানকারী ইত্যাদি) আমাকে যখন টর ব্যবহার করে "
+"তখন আমাকে লক করে দেয়, আমি কি করতে পারি?"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.description)
@@ -1376,6 +1412,8 @@ msgid ""
 "Tor Browser often makes your connection appear as though it is coming from "
 "an entirely different part of the world."
 msgstr ""
+"টর ব্রাউজার প্রায়ই আপনার কানেকশন প্রদর্শিত হয় যেন এটি বিশ্বের একটি "
+"সম্পূর্ণ ভিন্ন অংশ থেকে আসছে ।"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.description)
@@ -1383,6 +1421,8 @@ msgid ""
 "Some websites, such as banks or email providers, might interpret this as a "
 "sign that your account has been compromised, and lock you out."
 msgstr ""
+"কিছু ওয়েবসাইট, যেমন ব্যাংক বা ইমেইল প্রদানকারী, আপনার অ্যাকাউন্টটি "
+"সংকটাপন্ন হয়েছে, এবং আপনাকে তালাবদ্ধ করে তা ব্যাখ্যা করতে পারে ।"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.description)
@@ -1391,6 +1431,9 @@ msgid ""
 "procedure for account recovery, or contacting the operators and explaining "
 "the situation."
 msgstr ""
+"এটি সমাধান করার একমাত্র উপায় হচ্ছে সাইটের সুপারিশকৃত পদ্ধতি অনুসরণ করে "
+"অ্যাকাউন্ট পুনরুদ্ধারের জন্য, অথবা অপারেটরদের সাথে যোগাযোগ করা এবং পরিস্থিতি"
+" ব্যাখ্যা করা ।"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.description)
@@ -1399,16 +1442,20 @@ msgid ""
 "authentication, which is a much better security option than IP-based "
 "reputations."
 msgstr ""
+"যদি আপনার সরবরাহকারী 2-ফ্যাক্টর প্রমাণীকরণ প্রস্তাব করে, তাহলে IP ভিত্তিক "
+"reputations চেয়ে অনেক উন্নত নিরাপত্তা বিকল্প আছে."
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.description)
 msgid "Contact your provider and ask them if they provide 2FA."
 msgstr ""
+"আপনার প্রদানকারীর সাথে যোগাযোগ করুন এবং যদি তারা 2FA প্রদান করে তাহলে "
+"তাদেরকে জিজ্ঞাসা করুন ।"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.seo_slug)
 msgid "website-locks-torbrowser-out"
-msgstr ""
+msgstr "website-locks-torbrowser-out"
 
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.description)
@@ -1418,12 +1465,12 @@ msgstr "টর ব্রাউজার বর্তমানে উইন্ড
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.seo_slug)
 msgid "which-platform-tor-browser-available"
-msgstr ""
+msgstr "which-platform-tor-browser-available"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.title)
 msgid "Can I set Tor Browser as my default browser?"
-msgstr ""
+msgstr "আমি কি আমার ডিফল্ট ব্রাউজার হিসেবে টর ব্রাউজার সেট করতে পারি?"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.description)
@@ -1431,6 +1478,8 @@ msgid ""
 "There is currently no supported method for setting Tor Browser as your "
 "default browser."
 msgstr ""
+"আপনার ডিফল্ট ব্রাউজার হিসেবে টর ব্রাউজার সেটিং করার জন্য বর্তমানে কোন "
+"সমর্থিত পন্থা নেই ।"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.description)
@@ -1438,6 +1487,8 @@ msgid ""
 "The Tor Browser works hard to isolate itself from the rest of your system, "
 "and the steps for making it the default browser are unreliable."
 msgstr ""
+"টর ব্রাউজার আপনার সিস্টেম বাকি থেকে নিজেকে সাবমেরিনকে জানিয়ে দাও করতে কঠোর "
+"পরিশ্রম করে, এবং ডিফল্ট ব্রাউজারটি তৈরি করার পদক্ষেপটি অবিশ্বস্ত ।"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.description)
@@ -1446,27 +1497,31 @@ msgid ""
 "it would load in another browser, this type of behavior can be dangerous and"
 " anonymity-breaking."
 msgstr ""
+"এর মানে কখনও কখনো একটি ওয়েবসাইট টর ব্রাউজারে লোড করা হয়, আবার কখনো এটি "
+"অন্য একটি ব্রাউজারে লোড হয়ে যায়, এই ধরনের আচরণ বিপজ্জনক ও সনদে হতে পারে ।"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.seo_slug)
 msgid "setting-tor-browser-as-default"
-msgstr ""
+msgstr "setting-tor-browser-as-default"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.title)
 msgid "Does running Tor Browser make me a relay?"
-msgstr ""
+msgstr "টর ব্রাউজার কি আমাকে রিলে করে তোলে?"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.description)
 msgid "Running Tor Browser does not make you act as a relay in the network."
-msgstr ""
+msgstr "টর ব্রাউজার চালনা আপনাকে নেটওয়ার্কে রিলে হিসেবে কাজ করে না ।"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.description)
 msgid ""
 "This means that your computer will not be used to route traffic for others."
 msgstr ""
+"এর মানে হলো আপনার কম্পিউটার অন্যদের জন্য রুটে চলাচলের কাজে ব্যবহার করা হবে "
+"না ।"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.description)
@@ -1475,16 +1530,19 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a></mark>."
 msgstr ""
+"যদি আপনি একটি রিলে হতে চান, অনুগ্রহ করে আমাদের <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">টর রিলে"
+" গাইড</a></mark> দেখুন ।"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.seo_slug)
 msgid "running-tor-browser-make-me-relay"
-msgstr ""
+msgstr "running-tor-browser-make-me-relay"
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.title)
 msgid "Why does Tor Browser ship with Javascript enabled?"
-msgstr ""
+msgstr "কেন জাভাস্ক্রিপ্ট-এর ব্রাউজার শিপ সক্রিয় আছে?"
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.description)
@@ -1492,6 +1550,8 @@ msgid ""
 "We configure NoScript to allow JavaScript by default in Tor Browser because "
 "many websites will not work with JavaScript disabled."
 msgstr ""
+"আমরা জাভাস্ক্রিপ্ট ব্রাউজারে ডিফল্ট অনুসারে NoScript কনফিগার করতে পারি কারণ "
+"অনেক ওয়েবসাইট জাভাস্ক্রিপ্ট অক্ষমের সাথে কাজ করবে না."
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.description)
@@ -1499,6 +1559,8 @@ msgid ""
 "Most users would give up on Tor entirely if we disabled Javascript by "
 "default because it would cause so many problems for them."
 msgstr ""
+"বেশীরভাগ ব্যবহারকারী যদি আমাদের সাথে জাভাস্ক্রিপ্ট নিষ্ক্রিয় করে দেয়, "
+"তাহলে তাদের জন্য অনেক সমস্যা সৃষ্টি হবে ।"
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.description)
@@ -1507,6 +1569,9 @@ msgid ""
 "making it usable for the majority of people, so for now, that means leaving "
 "Javascript enabled by default."
 msgstr ""
+"পরিশেষে, আমরা টর ব্রাউজারকে নিরাপদ হিসেবে গড়ে তুলতে চাই, যখন বেশীরভাগ "
+"মানুষের জন্য এটি ব্যবহার করা সম্ভব, তাই এখন, এর মানে হল জাভাস্ক্রিপ্ট থেকে "
+"সক্রিয় হওয়া ।"
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.description)
@@ -1531,12 +1596,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-js-enabled-default"
-msgstr ""
+msgstr "tor-browser-js-enabled-default"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.title)
 msgid "Can you get rid of all the captchas?"
-msgstr ""
+msgstr "সব captchas থেকে মুক্তি পেতে পারেন?"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1544,6 +1609,8 @@ msgid ""
 "Unfortunately, some websites deliver CAPTCHAS to Tor users, and we are not "
 "able to remove CAPTCHAs from websites."
 msgstr ""
+"দুর্ভাগ্যবশত, কিছু ওয়েবসাইট CAPTCHAS-তে পৌঁছে দেয়, আর আমরা ওয়েবসাইট থেকে "
+"CAPTCHAS সরিয়ে নিতে পারি না ।"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1552,16 +1619,19 @@ msgid ""
 "inform them that their CAPTCHAs are preventing users such as yourself from "
 "using their services."
 msgstr ""
+"এসব ক্ষেত্রে সবচেয়ে ভালো কাজ হচ্ছে ওয়েবসাইট মালিকদের সাথে যোগাযোগ করা এবং "
+"তাদেরকে জানানো যে তাদের CAPTCHAs ব্যবহারকারীদের নিজেদের সেবা ব্যবহার থেকে "
+"বিরত রাখে ।"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.seo_slug)
 msgid "get-rid-of-captchas"
-msgstr ""
+msgstr "get-rid-of-captchas"
 
 #: http//localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lrquestion.title)
 msgid "Can I run multiple instances of Tor Browser?"
-msgstr ""
+msgstr "আমি কি টর ব্রাউজারের একাধিক নজির চালাতে পারি?"
 
 #: http//localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lrquestion.description)
@@ -1569,16 +1639,18 @@ msgid ""
 "We do not recommend running multiple instances of Tor Browser, and may not "
 "work as anticipated on many platforms."
 msgstr ""
+"আমরা টর ব্রাউজারের বহুবিধ দৃষ্টান্ত চালু করার সুপারিশ করি না এবং অনেক "
+"প্ল্যাটফর্মে অভাবিত হিসেবে কাজ নাও করতে পারি ।"
 
 #: http//localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lrquestion.seo_slug)
 msgid "run-multible-instances-of-tor-browser"
-msgstr ""
+msgstr "run-multible-instances-of-tor-browser"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.title)
 msgid "I need Tor Browser in a language that's not English."
-msgstr ""
+msgstr "আমি এমন ভাষায় টর ব্রাউজার চাই যা ইংরেজী নয় ।"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1663,22 +1735,25 @@ msgstr "* Vietnamese (vi)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* 简体字 (zh-CN)"
-msgstr ""
+msgstr "* 简体字 (zh-CN)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.seo_slug)
 msgid "need-tor-browser-language-not-english"
-msgstr ""
+msgstr "need-tor-browser-language-not-english"
 
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.title)
 msgid "Will my network admin be able to tell I'm using Tor Browser?"
 msgstr ""
+"আমার নেটওয়ার্ক অ্যাডমিন কি বলতে সক্ষম হবে যে আমি টর ব্রাউজার ব্যবহার করছি ?"
 
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.description)
 msgid "When using Tor Browser, no one can see the websites that you visit."
 msgstr ""
+"টর ব্রাউজার ব্যবহার করার সময়, আপনি যে ওয়েবসাইটগুলি দেখেন তা কেউ দেখতে পায়"
+" না ।"
 
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.description)
@@ -1694,7 +1769,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.seo_slug)
 msgid "network-admin-know-i-am-using-tor"
-msgstr ""
+msgstr "network-admin-know-i-am-using-tor"
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.title)
@@ -1702,6 +1777,8 @@ msgid ""
 "I’m having trouble using features on Facebook, Twitter, or some other "
 "website when I’m using Tor Browser."
 msgstr ""
+"আমি যখন টর ব্রাউজার ব্যবহার করি তখন আমি ফেসবুক, টুইটার, অথবা অন্য কোন "
+"ওয়েবসাইটে ফিচার ব্যবহার করতে সমস্যা হচ্ছে ।"
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.description)
@@ -1709,6 +1786,8 @@ msgid ""
 "Sometimes Javascript-heavy websites can have functional issues over Tor "
 "Browser."
 msgstr ""
+"মাঝে মাঝে জাভাস্ক্রিপ্ট-হেভি ওয়েবসাইট টর ব্রাউজারে কার্যকরি বিষয় থাকতে "
+"পারে ।"
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.description)
@@ -1716,20 +1795,21 @@ msgid ""
 "The simplest fix is to click on the \"onion menu,\" then click on the "
 "security slider."
 msgstr ""
+"সহজ ফিক্স \"পিয়াজ মেনু, \"-এ ক্লিক করুন এবং নিরাপত্তা স্লাইডারে ক্লিক করুন."
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.description)
 msgid "Set your security to \"Standard\"."
-msgstr ""
+msgstr "আপনার সিকিউরিটি \"স্ট্যান্ডার্ড \"-এ সেট করুন."
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-issues-facebook-twitter-websites"
-msgstr ""
+msgstr "tor-browser-issues-facebook-twitter-websites"
 
 #: http//localhost/tbb/tbb-4/ (content/tbb/tbb-4/contents+en.lrquestion.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
-msgstr ""
+msgstr "কেন Firefox থেকে নির্মিত টর ব্রাউজার এবং অন্য কোন ব্রাউজার নয়?"
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.description)
@@ -1737,6 +1817,8 @@ msgid ""
 "Tor Browser is a modified version of Firefox specifically designed for use "
 "with Tor."
 msgstr ""
+"টর ব্রাউজার হল ফায়ারফক্সের একটি পরিবর্তিত সংস্করণ বিশেষ করে টর ব্যবহারের "
+"জন্য ডিজাইন করা হয়েছে ।"
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.description)
@@ -1744,6 +1826,8 @@ msgid ""
 "A lot of work has been put into making the Tor Browser, including the use of"
 " extra patches to enhance privacy and security."
 msgstr ""
+"গোপনীয়তা এবং নিরাপত্তা বাড়াতে অতিরিক্ত প্যাচ ব্যবহার সহ টর ব্রাউজার তৈরি "
+"করে অনেক কাজ করা হয়েছে ।"
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.description)
@@ -1752,6 +1836,9 @@ msgid ""
 "open yourself up to potential attacks or information leakage, so we strongly"
 " discourage it."
 msgstr ""
+"যখন এটি প্রযুক্তিগত অন্যান্য ব্রাউজারের সাথে টর ব্যবহার করা সম্ভব, আপনি "
+"নিজেকে সম্ভাব্য আক্রমণ বা তথ্য তেজস্ক্রিয়তার করতে পারেন, তাই আমরা তা "
+"দৃঢ়ভাবে নিরুৎসাহিত করি ।"
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.description)
@@ -1760,21 +1847,23 @@ msgid ""
 "href=\"https://www.torproject.org/projects/torbrowser/design/\">Learn more "
 "about the design of Tor Browser</a></mark>."
 msgstr ""
+"<mark><a href=\"https://www.torproject.org/projects/torbrowser/design/\">টর "
+"ব্রাউজারের নকশা সম্পর্কে আরও জানুন ।</a></mark>"
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-is-built-from-firefox-why"
-msgstr ""
+msgstr "tor-browser-is-built-from-firefox-why"
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.title)
 msgid "Does Tor Browser use a different circuit for each website?"
-msgstr ""
+msgstr "টর ব্রাউজার কি প্রতিটি ওয়েবসাইটের জন্য আলাদা বর্তনী ব্যবহার করে?"
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.description)
 msgid "In Tor Browser, every new domain gets its own circuit."
-msgstr ""
+msgstr "টর ব্রাউজারে প্রতিটি নতুন ডোমেইন নিজস্ব সার্কিট পায় ।"
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.description)
@@ -1784,16 +1873,19 @@ msgid ""
 "Browser</a></mark> document further explains the thinking behind this "
 "design."
 msgstr ""
+"<mark><a href=\"https://www.torproject.org/projects/torbrowser/design"
+"/#identifier-linkability\">টর ব্রাউজার নথির নকশা এবং বাস্তবায়ন</a></mark> "
+"এই নকশার পেছনে চিন্তার ব্যাখ্যা করে ।"
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.seo_slug)
 msgid "different-circuit-each-website"
-msgstr ""
+msgstr "different-circuit-each-website"
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.title)
 msgid "Why did my search engine switch to DuckDuckGo?"
-msgstr ""
+msgstr "কেন আমার সার্চ ইঞ্জিন সুইচ DuckDuckGo?"
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.description)
@@ -1801,6 +1893,8 @@ msgid ""
 "With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the "
 "primary search engine."
 msgstr ""
+"টর ব্রাউজারের 6.0.6 প্রকাশের সাথে সাথে আমরা প্রাথমিক অনুসন্ধান ইঞ্জিন হিসেবে"
+" DuckDuckGo পরিবর্তন করি ।"
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.description)
@@ -1808,6 +1902,8 @@ msgid ""
 "For a while now, Disconnect has had no access to Google search results which"
 " we used in Tor Browser."
 msgstr ""
+"এখন থেকে, সংযোগ বিচ্ছিন্ন করার জন্য গুগল অনুসন্ধানের ফলাফলে কোন প্রবেশাধিকার"
+" নেই যা আমরা টর ব্রাউজারে ব্যবহার করেছি ।"
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.description)
@@ -1823,12 +1919,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.seo_slug)
 msgid "why-is-tor-using-duckduckgo"
-msgstr ""
+msgstr "why-is-tor-using-duckduckgo"
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.title)
 msgid "Why does my Tor Browser say something about Firefox not working?"
-msgstr ""
+msgstr "আমার টর ব্রাউজার কেন ফায়ারফক্স কাজ করছে না?"
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.description)
@@ -1837,6 +1933,9 @@ msgid ""
 "US/firefox/organizations/\">Firefox ESR</a></mark>, so errors regarding "
 "Firefox may occur."
 msgstr ""
+"টর ব্রাউজার <mark><a href=\"https://www.mozilla.org/en-"
+"US/firefox/organizations/\">ফায়ারফক্স ESR</a></mark> ব্যবহার করে তৈরি করা "
+"হয়, তাই firefox সম্পর্কে ত্রুটি দেখা দিতে পারে ।"
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.description)
@@ -1857,23 +1956,31 @@ msgid ""
 "protection is blocking me from accessing Tor Browser</a></mark>, it is "
 "common for anti-virus / anti-malware software to cause this type of issue."
 msgstr ""
+"আপনি যদি অ্যান্টি-ভাইরাস চালাচ্ছেন, তাহলে দয়া করে দেখুন <mark><a "
+"href=\"http://support.torproject.org/#tbb-10\">আমার "
+"অ্যান্টিভাইরাস/ম্যালওয়্যার সুরক্ষা আমাকে টর ব্রাউজারে প্রবেশ থেকে আটকাতে "
+"যাচ্ছে</a></mark>, এটা সাধারণ অ্যান্টি-ভাইরাস/এন্টি ম্যালওয়্যার "
+"সফটওয়্যারের জন্য এই ধরনের ইস্যু ।"
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-firefox-not-working-error"
-msgstr ""
+msgstr "tor-browser-firefox-not-working-error"
 
 #: http//localhost/tbb/tbb-5/ (content/tbb/tbb-5/contents+en.lrquestion.title)
 msgid ""
 "Can I still use another browser, like Chrome or Firefox, when I am using Tor"
 " Browser?"
 msgstr ""
+"আমি কি এখনও ক্রোম বা Firefox-এর মতো আরেকটি ব্রাউজার ব্যবহার করতে পারি, যখন "
+"আমি টর ব্রাউজার ব্যবহার করি?"
 
 #: http//localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.description)
 msgid ""
 "You can certainly use another browser while you are also using Tor Browser."
 msgstr ""
+"আপনি টর ব্রাউজার ব্যবহার করার সময় আপনি অন্য ব্রাউজার ব্যবহার করতে পারেন ।"
 
 #: http//localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.description)
@@ -1881,6 +1988,8 @@ msgid ""
 "However, you should know that the privacy properties of Tor Browser will not"
 " be present in the other browser."
 msgstr ""
+"তবে, আপনার জানা উচিত যে টর ব্রাউজারের গোপনীয়তা বিশিষ্টতা অন্য ব্রাউজারে "
+"উপস্থিত থাকবে না ।"
 
 #: http//localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.description)
@@ -1889,10 +1998,12 @@ msgid ""
 "browser, because you may accidentally use the other browser for something "
 "you intended to do using Tor."
 msgstr ""
+"আপনি টর ব্যবহার করার উদ্দেশ্যে যে কোন কিছুর জন্য আপনি অন্য ব্রাউজার ব্যবহার "
+"করতে পারেন, কারণ আপনি যে কোন কিছুর জন্য আপনার জন্য কিছু করতে পারবেন ।"
 
 #: http//localhost/tbb/tbb-6/ (content/tbb/tbb-6/contents+en.lrquestion.title)
 msgid "Can I make Tor Browser my default browser?"
-msgstr ""
+msgstr "আমি কি আমার ডিফল্ট ব্রাউজারকে টর ব্রাউজার বানাতে পারি?"
 
 #: http//localhost/tbb/tbb-6/
 #: (content/tbb/tbb-6/contents+en.lrquestion.description)
@@ -1900,11 +2011,12 @@ msgid ""
 "Unfortunately, there is no supported way to make Tor Browser your default "
 "browser."
 msgstr ""
+"দুর্ভাগ্যবশত, আপনার ডিফল্ট ব্রাউজারে টর ব্রাউজার তৈরি করার কোনো সমর্থন নেই ।"
 
 #: http//localhost/tbb/tbb-6/
 #: (content/tbb/tbb-6/contents+en.lrquestion.seo_slug)
 msgid "make-tor-browser-default-browser"
-msgstr ""
+msgstr "make-tor-browser-default-browser"
 
 #: http//localhost/tbb/tbb-7/ (content/tbb/tbb-7/contents+en.lrquestion.title)
 #: http//localhost/censorship/censorship-2/
@@ -1922,6 +2034,8 @@ msgid ""
 "Sometimes websites will block Tor users because they can't tell the "
 "difference between the average Tor user and automated traffic."
 msgstr ""
+"অনেক সময় ওয়েবসাইট টর ব্যবহারকারীদের আবদ্ধ করবে কারণ তারা গড়পড়তা টর "
+"ব্যবহারকারী এবং স্বচালিত ট্রাফিকের মধ্যে পার্থক্য বলতে পারে না ।"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -1931,6 +2045,8 @@ msgid ""
 "The best success we've had in getting sites to unblock Tor users is getting "
 "users to contact the site administrators directly."
 msgstr ""
+"টর ব্যবহারকারী বন্ধ করার জন্য আমরা যে সব সেরা সাফল্য পেয়েছি তা সরাসরি সাইট "
+"প্রশাসকদের সাথে যোগাযোগ করার জন্য ব্যবহারকারীরা পাচ্ছে ।"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -1947,6 +2063,9 @@ msgid ""
 "\"Hi! I tried to access your site xyz.com while using Tor Browser and "
 "discovered that you don't allow Tor users to access your site."
 msgstr ""
+" \"হাই! আমি টর ব্রাউজার ব্যবহার করার সময় আপনার সাইট xyz.com প্রবেশ করার "
+"চেষ্টা করেছি, যাতে আপনি টর ব্যবহারকারীদের আপনার সাইটে প্রবেশ করার অনুমতি না "
+"দেন ।"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -1956,6 +2075,8 @@ msgid ""
 "I urge you to reconsider this decision; Tor is used by people all over the "
 "world to protect their privacy and fight censorship."
 msgstr ""
+"আমি আপনাকে এই সিদ্ধান্ত বিবেচনা করতে অনুরোধ করছি; টর সারা বিশ্বের মানুষকে "
+"তাদের গোপনীয়তা রক্ষা ও যুদ্ধ করার জন্য ব্যবহার করছে ।"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -1967,6 +2088,10 @@ msgid ""
 "want to protect themselves from discovery, whistleblowers, activists, and "
 "ordinary people who want to opt out of invasive third party tracking."
 msgstr ""
+"টর ব্যবহারকারীদের আবদ্ধ করে, আপনি সম্ভবত দমনমূলক দেশে মানুষকে অবরুদ্ধ করে "
+"রাখেন, যারা বিনামূল্যে ইন্টারনেট, সাংবাদিক এবং গবেষকদের ব্যবহার করতে চান "
+"যারা whistleblowers থেকে নিজেকে রক্ষা করতে চান, যারা ইনভেসিভ থেকে অপ্ট আউট "
+"করতে চায় । তৃতীয় পক্ষের ট্র্যাকিং ।"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -1974,11 +2099,13 @@ msgid ""
 "Please take a strong stance in favor of digital privacy and internet "
 "freedom, and allow Tor users access to xyz.com."
 msgstr ""
+"অনুগ্রহ করে ডিজিটাল গোপনীয়তা এবং ইন্টারনেট স্বাধীনতার অনুগ্রহে শক্তিশালী "
+"অবস্থান গ্রহণ করুন এবং টর ব্যবহারকারীদের xyz.com প্রবেশ করতে দিন ।"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
 msgid "Thank you.\""
-msgstr ""
+msgstr "ধন্যবাদ । \""
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2004,20 +2131,22 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a "
 "href=\"#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
+"আপনি যদি কোন পেঁয়াজের সেবায় সংযোগ করতে না পারেন, তাহলে দেখে নিন <a "
+"href=\"#onionservices-3\">আমি X-এ পৌঁছাতে পারছি না</a> ।"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.seo_slug)
 msgid "website-blocking-access-over-tor"
-msgstr ""
+msgstr "website-blocking-access-over-tor"
 
 #: http//localhost/tbb/tbb-8/
 #: (content/tbb/tbb-8/contents+en.lrquestion.seo_slug)
 msgid "website-blocked-by-censor-can-tor-browser-help"
-msgstr ""
+msgstr "website-blocked-by-censor-can-tor-browser-help"
 
 #: http//localhost/tbb/tbb-9/ (content/tbb/tbb-9/contents+en.lrquestion.title)
 msgid "Can I use Tor with a browser besides Tor Browser?"
-msgstr ""
+msgstr "আমি কি টর ব্রাউজার ছাড়াও কোন ব্রাউজারের সাথে ব্যবহার করতে পারি?"
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.description)
@@ -2025,6 +2154,8 @@ msgid ""
 "We strongly recommend against using Tor in any browser other than Tor "
 "Browser."
 msgstr ""
+"টর ব্রাউজার ছাড়া অন্য কোন ব্রাউজারে টর ব্যবহারের বিরুদ্ধে আমরা দৃঢ়ভাবে "
+"সুপারিশ করছি ।"
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.description)
@@ -2032,11 +2163,13 @@ msgid ""
 "Using Tor in another browser can leave you vulnerable without the privacy "
 "protections of Tor Browser."
 msgstr ""
+"অন্য ব্রাউজারে টর ব্যবহার করে আপনি টর ব্রাউজারের গোপনীয়তা সুরক্ষা ছাড়া "
+"আপনাকে অরক্ষিত অবস্থায় ফেলে দিতে পারেন ।"
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.seo_slug)
 msgid "using-tor-with-a-browser-besides-tor-browser"
-msgstr ""
+msgstr "using-tor-with-a-browser-besides-tor-browser"
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.title)
@@ -2050,6 +2183,9 @@ msgid ""
 "href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
 "Messenger</a>."
 msgstr ""
+"না. এগারো বেটা রিলিজ করার পর, আমরা সেবাটি পূর্বে <a "
+"href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
+"Messenger</a> বন্ধ সমর্থন করি ।"
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2057,6 +2193,8 @@ msgid ""
 "We still believe in Tor's ability to be used in a messaging app, but we "
 "don't have the resources to make it happen right now."
 msgstr ""
+"আমরা এখনো একটি মেসেজিং অ্যাপে ব্যবহার করার ক্ষমতার কথা বিশ্বাস করি, কিন্তু "
+"এই মুহূর্তে এটা করার জন্য আমাদের সম্পদ নেই ।"
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2065,11 +2203,14 @@ msgid ""
 "href=\"https://www.torproject.org/about/contact.html.en\">Contact "
 "us</a></mark>."
 msgstr ""
+"তুমি কি? <mark><a "
+"href=\"https://www.torproject.org/about/contact.html.en\">আমাদের সাথে "
+"যোগাযোগ করুন</a></mark> ।"
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.seo_slug)
 msgid "tor-project-app-for-private-chat"
-msgstr ""
+msgstr "tor-project-app-for-private-chat"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.title)
@@ -2080,6 +2221,7 @@ msgstr "আমি একটি অ্যান্ড্রয়েড ডিভ
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
 msgid "Tor on Android is provided by The Guardian Project."
 msgstr ""
+"অ্যান্ড্রয়েড-এর উপর টর প্রদান করা হয় গার্ডিয়ান প্রজেক্টের মাধ্যমে ।"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -2089,6 +2231,10 @@ msgid ""
 "<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark> "
 "web pages."
 msgstr ""
+"<mark><a href=\"https://guardianproject.info/apps/orbot/\">অরবট</a></mark> "
+"এবং <mark><a "
+"href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark> ওয়েব "
+"পৃষ্ঠাতে আরো তথ্য পাওয়া যাবে ।"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -2096,11 +2242,13 @@ msgid ""
 "Orfox is for web browsing, and Orbot can route other apps on your Android "
 "phone over the Tor network."
 msgstr ""
+"Orfox ওয়েব ব্রাউজিং-এর জন্য, এবং অরবট আপনার অ্যান্ড্রয়েড ফোনে অন্যান্য "
+"অ্যাপ-কে অন্যান্য অ্যাপস হতে পারে ।"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.seo_slug)
 msgid "run-tor-on-android"
-msgstr ""
+msgstr "run-tor-on-android"
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.title)
@@ -2115,11 +2263,15 @@ msgid ""
 "href=\"https://guardianproject.info/\">Guardian Project's "
 "website</a></mark>."
 msgstr ""
+"গার্ডিয়ান প্রকল্পটি অ্যান্ড্রয়েড-এ টর (এবং অন্যান্য গোপনীয়তা "
+"অ্যাপ্লিকেশন) বজায় রাখে । <mark><a "
+"href=\"https://guardianproject.info/\">গার্ডিয়ান প্রজেক্টের "
+"ওয়েবসাইটে</a></mark> আরও তথ্য পাওয়া যাবে ।"
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.seo_slug)
 msgid "who-is-the-guardian-project"
-msgstr ""
+msgstr "who-is-the-guardian-project"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.title)
@@ -2133,6 +2285,9 @@ msgid ""
 " routing, and is developed by someone who works closely with the Tor "
 "Project."
 msgstr ""
+"আমরা একটি আইওএস অ্যাপ নামে একটি iOS অ্যাপের সুপারিশ করি, যা ওপেন সোর্স, টর "
+"সমন্বয়করণ ব্যবহার করে, এবং এমন একজনের দ্বারা বিকশিত হয় যারা টর প্রকল্পের "
+"সাথে ঘনিষ্ঠভাবে কাজ করে ।"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2141,6 +2296,9 @@ msgid ""
 "which prevents Onion Browser from having the same privacy protections as Tor"
 " Browser."
 msgstr ""
+"তবে অ্যাপলের জন্য আইওএস-এর ব্রাউজার প্রয়োজন, যা Webkit নামে কিছু ব্যবহার "
+"করতে চায়, যা থেকে পেঁয়াজ ব্রাউজারকে একই গোপনীয়তা রক্ষা করে টর ব্রাউজার "
+"হিসেবে ।"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2148,11 +2306,13 @@ msgid ""
 "<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-"
 "more-ios-tor\">Learn more about Onion Browser</a></mark>."
 msgstr ""
+"<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-"
+"more-ios-tor\">পেঁয়াজের ব্রাউজার সম্পর্কে আরও জানুন</a></mark> ।"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.seo_slug)
 msgid "run-tor-on-ios"
-msgstr ""
+msgstr "run-tor-on-ios"
 
 #: http//localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lrquestion.title)
@@ -2168,7 +2328,7 @@ msgstr "বর্তমানে উইন্ডোজ ফোনের টর্
 #: http//localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lrquestion.seo_slug)
 msgid "run-tor-on-windows-phone"
-msgstr ""
+msgstr "run-tor-on-windows-phone"
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.title)
@@ -2181,6 +2341,8 @@ msgid ""
 "We are currently working on Tor Browser for Android, and you may see alpha "
 "releases appear over the coming months."
 msgstr ""
+"আমরা বর্তমানে অ্যান্ড্রয়েডের জন্য টর ব্রাউজারে কাজ করছি, আর আপনি হয়ত আগামী"
+" মাসগুলোতে আলফার মুক্তি দেখতে পাবেন ।"
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.description)
@@ -2189,11 +2351,13 @@ msgid ""
 "href=\"https://blog.torproject.org\">blog</a></mark> for future "
 "announcements and details regarding this project."
 msgstr ""
+"এই প্রকল্প সম্পর্কে ভবিষ্যৎ ঘোষণা এবং বিস্তারিত জানতে অনুগ্রহ করে আমাদের "
+"<mark><a href=\"https://blog.torproject.org\">ব্লগ</a></mark> দেখুন ।"
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-for-android"
-msgstr ""
+msgstr "tor-browser-for-android"
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.title)
@@ -2211,6 +2375,10 @@ msgid ""
 "href=\"https://www.torproject.org\">website</a></mark>, you can get a copy "
 "of Tor delivered to you via GetTor."
 msgstr ""
+"যদি আপনি আমাদের <mark><a "
+"href=\"https://www.torproject.org\">ওয়েবসাইটের</a></mark> মাধ্যমে টর "
+"ডাউনলোড করতে না পারেন, তাহলে আপনি জেটটি মাধ্যমে আপনার কাছে পাঠানো টর এর একটি"
+" কপি পাবেন ।"
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.description)
@@ -2221,11 +2389,14 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations that are"
 " less likely to be censored, such as Dropbox, Google Drive, and Github."
 msgstr ""
+"জেটটি হল এমন একটি পরিষেবা যা স্বয়ংক্রিয়ভাবে টর ব্রাউজারের সর্বশেষ সংস্করণে"
+" সংযোগ দেয়, এমন বিভিন্ন স্থানে হোস্ট করা হয়েছে যা সেন্সর করার সম্ভাবনা কম,"
+" যেমন-ড্রপ, Google ড্রাইভ এবং গিটহাব ।"
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.seo_slug)
 msgid "how-to-download-tor-if-torproject-org-is-blocked"
-msgstr ""
+msgstr "how-to-download-tor-if-torproject-org-is-blocked"
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.title)
@@ -2235,7 +2406,7 @@ msgstr "ইমেইলের মাধ্যমে GetTor ব্যবহার
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
 msgid "Send an email to gettor@torproject.org."
-msgstr ""
+msgstr "gettor@torproject.org কাছে একটি ই-মেইল প্রেরণ করুন ।"
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
@@ -2243,6 +2414,8 @@ msgid ""
 "Write your operating system (such as windows, MacOS (OS X), or linux) in the"
 " body of the message and send."
 msgstr ""
+"আপনার অপারেটিং সিস্টেম (যেমন windows, MacOS (ওএস X), বা লিনাক্স)-এর শরীরে "
+"মেসেজ এবং সেন্ড করে লিখুন ।"
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
@@ -2253,6 +2426,10 @@ msgid ""
 "instructions for verification], the fingerprint of the key used to make the "
 "signature, and the package’s checksum."
 msgstr ""
+"জেটটি এমন একটি ইমেইল সহ সাড়া দেবে যা আপনি টর ব্রাউজার ডাউনলোড করতে পারেন, "
+"ক্রিপ্টোগ্রাফিক স্বাক্ষর (ডাউনলোড করার জন্য প্রয়োজন) [ক্রিপ্টোগ্রাফিক "
+"স্বাক্ষরের শব্দকোষ সংজ্ঞার লিঙ্ক; যাচাইয়ের জন্য নির্দেশাবলী], স্বাক্ষরের "
+"জন্য ব্যবহৃত চাবি, এবং প্যাকেজের চেকসাম ।"
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
@@ -2261,11 +2438,14 @@ msgid ""
 "depends on the model of the computer you are using; consult documentation "
 "about your computer to find out more."
 msgstr ""
+"আপনাকে হয়ত \"32-বিট \" অথবা \"64-বিট \" সফ্টওয়্যার প্রদান করা হতে পারে: এই"
+" কম্পিউটারের মডেলের উপর নির্ভর করে আপনি ব্যবহার করছেন; আরও জানার জন্য আপনার "
+"কম্পিউটার সম্পর্কে ডকুমেন্টেশন সম্পর্কে আলোচনা করুন ।"
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.seo_slug)
 msgid "to-use-gettor-via-email"
-msgstr ""
+msgstr "to-use-gettor-via-email"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.title)
@@ -2279,32 +2459,35 @@ msgid ""
 "href=\"https://twitter.com/get_tor\">@get_tor</a></mark> with one of the "
 "following codes in it (you don't need to follow the account):"
 msgstr ""
+"টর ব্রাউজার ডাউনলোড করার জন্য লিঙ্ক পেতে একটি সরাসরি বার্তা প্রেরণ করুন এতে "
+"নিম্নোক্ত একটি কোডের সাথে @get_tor (আপনার অ্যাকাউন্টটি অনুসরণ করার প্রয়োজন "
+"নেই):"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.description)
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.description)
 msgid "* Linux"
-msgstr ""
+msgstr "* Linux"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.description)
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.description)
 msgid "* MacOS (OS X)"
-msgstr ""
+msgstr "* MacOS (OS X)"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.description)
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.description)
 msgid "* Windows"
-msgstr ""
+msgstr "* Windows"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.seo_slug)
 msgid "to-use-gettor-via-twitter"
-msgstr ""
+msgstr "to-use-gettor-via-twitter"
 
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.title)
@@ -2317,16 +2500,18 @@ msgid ""
 "To get links for downloading Tor Browser, send a message to "
 "gettor@toproject(dot)org with one of the following codes in it:"
 msgstr ""
+"টর ব্রাউজার ডাউনলোড করার জন্য লিংক পেতে একটি বার্তা পাঠান জেটটি @ toproject "
+"(ডট) org এর মধ্যে একটি নিম্নোক্ত কোডের সাথে:"
 
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.seo_slug)
 msgid "to-use-gettor-via-xmpp"
-msgstr ""
+msgstr "to-use-gettor-via-xmpp"
 
 #: http//localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-wont-connect"
-msgstr ""
+msgstr "tor-browser-wont-connect"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.title)
@@ -2344,13 +2529,15 @@ msgid ""
 "If you’re having trouble connecting, please select the option to \"copy Tor "
 "log to clipboard.\""
 msgstr ""
+"যদি আপনার সাথে সংযোগ করতে সমস্যা হয়, অনুগ্রহ করে -এ \"টর লগ\" অনুলিপি "
+"ক্লিপবোর্ডে নির্বাচন করুন । \""
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "Then paste the Tor log into a text file or other document."
-msgstr ""
+msgstr "এরপর টর লগ-ইন টেক্সট ফাইল বা অন্যান্য নথিতে প্রতিলেপন করুন ।"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2360,13 +2547,15 @@ msgid ""
 "You should see one of these common log errors (look for the following lines "
 "in your Tor log):"
 msgstr ""
+"আপনি এই সাধারণ লগ-ইন একটি ত্রুটি দেখতে পারেন (আপনার টর লগ-ইন নিম্নলিখিত "
+"লাইনগুলো দেখুন):"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "###### Common log error #1: Proxy connection failure"
-msgstr ""
+msgstr "# # # # # সাধারণ লগ-ইন ত্রুটি #1: প্রক্সি সংযোগ বিফলতা"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2375,6 +2564,7 @@ msgstr ""
 msgid ""
 "2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"2017-10-29 ০৯:২৩:40.800 [বিজ্ঞপ্তি] 127.0.0.1-এর উদ্বোধনী মোজা শুনুন: 9150"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2384,6 +2574,8 @@ msgid ""
 "2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory "
 "server"
 msgstr ""
+"2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory "
+"server"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2393,6 +2585,8 @@ msgid ""
 "2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with "
 "directory server"
 msgstr ""
+"2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2402,6 +2596,8 @@ msgid ""
 "2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to "
 "xx..xxx..xxx.xx:xxxxx (\"general SOCKS server failure\")"
 msgstr ""
+"2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to "
+"xx..xxx..xxx.xx:xxxxx (\"general SOCKS server failure\")"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2411,6 +2607,8 @@ msgid ""
 "2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect "
 "toxx..xxx..xxx.xx:xxxxx  (\"general SOCKS server failure\")"
 msgstr ""
+"2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect "
+"toxx..xxx..xxx.xx:xxxxx  (\"general SOCKS server failure\")"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2421,6 +2619,10 @@ msgid ""
 "connect to a SOCKS proxy. If a SOCKS proxy is required for your network "
 "setup, then please make sure you’ve entered your proxy details correctly."
 msgstr ""
+"যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, এর মানে আপনি একটি মোজা "
+"প্রক্সির সাথে সংযোগ করতে ব্যর্থ হন । যদি আপনার নেটওয়ার্ক সেটআপের জন্য একটি "
+"মোজা প্রক্সি প্রয়োজন হয়, তবে অনুগ্রহ করে নিশ্চিত করুন যে আপনি আপনার "
+"প্রক্সি বিবরণ সঠিকভাবে প্রবেশ করিয়েছেন ।"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2430,13 +2632,15 @@ msgid ""
 "If a SOCKS proxy is not required, or you’re not sure,  please try connecting"
 " to the Tor network without a SOCKS proxy."
 msgstr ""
+"যদি কোন মোজা প্রক্সি প্রয়োজন হয় না, অথবা আপনি নিশ্চিত না হন, দয়া করে একটি"
+" মোজা প্রক্সি ছাড়াই টর নেটওয়ার্কে সংযোগ করার চেষ্টা করুন ।"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #2: Can’t reach guard relays"
-msgstr ""
+msgstr "##### Common log error #2: Can’t reach guard relays"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2445,6 +2649,7 @@ msgstr ""
 msgid ""
 "11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2454,6 +2659,8 @@ msgid ""
 "11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor "
 "network"
 msgstr ""
+"11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor "
+"network"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2463,6 +2670,8 @@ msgid ""
 "11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. "
 "Discarding this circuit."
 msgstr ""
+"11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. "
+"Discarding this circuit."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2472,6 +2681,8 @@ msgid ""
 "11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake "
 "with first hop"
 msgstr ""
+"11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake "
+"with first hop"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2481,6 +2692,8 @@ msgid ""
 "11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. "
 "Discarding this circuit."
 msgstr ""
+"11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. "
+"Discarding this circuit."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2490,6 +2703,8 @@ msgid ""
 "If you see lines like these in your Tor log, it means your Tor failed to "
 "connect to the first node in the Tor circuit."
 msgstr ""
+"If you see lines like these in your Tor log, it means your Tor failed to "
+"connect to the first node in the Tor circuit."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2504,13 +2719,14 @@ msgstr "এর মানে হল যে আপনি সেন্সর কর
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "Please try connecting with bridges, and that should fix the problem."
 msgstr ""
+"অনুগ্রহ করে সেতুর সাথে সংযোগের চেষ্টা করুন, এবং সমস্যাটি ঠিক করা উচিত ।"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #3: Failed to complete TLS handshake"
-msgstr ""
+msgstr "##### Common log error #3: Failed to complete TLS handshake"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2520,6 +2736,8 @@ msgid ""
 "13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with "
 "directory server"
 msgstr ""
+"13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2530,6 +2748,9 @@ msgid ""
 "handshake with directory server. (DONE; DONE; count 10; recommendation warn;"
 " host [host] at xxx.xxx.xxx.xx:xxx)"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing "
+"handshake with directory server. (DONE; DONE; count 10; recommendation warn;"
+" host [host] at xxx.xxx.xxx.xx:xxx)"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2546,6 +2767,8 @@ msgid ""
 "13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) "
 "with SSL state SSLv2/v3 read server hello A in HANDSHAKE"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) "
+"with SSL state SSLv2/v3 read server hello A in HANDSHAKE"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2559,6 +2782,12 @@ msgid ""
 "error #4: Clock skew</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] "
 "Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with "
+"SSL state (No SSL object)</code></pre>If you see lines like this in your Tor"
+" log, it means that Tor failed to complete a TLS handshake with the "
+"directory authorities. Using bridges will likely fix this.<h5>Common log "
+"error #4: Clock skew</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] "
+"Opening Socks listener on 127.0.0.1:9150"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2568,6 +2797,8 @@ msgid ""
 "19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory "
 "server"
 msgstr ""
+"19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory "
+"server"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2577,6 +2808,8 @@ msgid ""
 "19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
 "directory server"
 msgstr ""
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2587,6 +2820,9 @@ msgid ""
 "(OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours,"
 " 1 minutes, or that theirs is ahead."
 msgstr ""
+"19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time "
+"(OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours,"
+" 1 minutes, or that theirs is ahead."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2607,6 +2843,8 @@ msgid ""
 "If you see lines like this in your Tor log, it means your system clock is "
 "incorrect."
 msgstr ""
+"যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, তার মানে আপনার সিস্টেম ঘড়ি "
+"ভুল ।"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2616,13 +2854,15 @@ msgid ""
 "Please make sure your clock is set accurately, including the correct "
 "timezone. Then restart Tor."
 msgstr ""
+"অনুগ্রহ করে নিশ্চিত করুন যে আপনার ঘড়িটি সঠিকভাবে নির্ধারণ করা আছে, যার "
+"মধ্যে রয়েছে সঠিক অঞ্চল । তারপর টর পুনরায় শুরু করুন ।"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.seo_slug)
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.seo_slug)
 msgid "having-trouble-connecting-to-tor"
-msgstr ""
+msgstr "having-trouble-connecting-to-tor"
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.title)
@@ -2640,6 +2880,9 @@ msgid ""
 "entered the 16-character onion address correctly: even a small mistake will "
 "stop Tor Browser from being able to reach the site."
 msgstr ""
+"আপনি যদি পেঁয়াজের সেবায় পৌঁছাতে না পারেন, তাহলে নিশ্চিত করুন যে আপনি ১৬ "
+"অক্ষরের পেঁয়াজের ঠিকানা সঠিকভাবে প্রবেশ করিয়েছেন: এমনকি একটি ছোট ভুল এই "
+"সাইটে পৌঁছে যাওয়া থেকে টর ব্রাউজার বন্ধ করে দেবে ।"
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.description)
@@ -2649,6 +2892,8 @@ msgid ""
 "If you are still unable to connect to the onion service, please try again "
 "later."
 msgstr ""
+"আপনি যদি এখনও পেঁয়াজের সেবায় যুক্ত হতে না পারেন, তবে অনুগ্রহ করে পরে আবার "
+"চেষ্টা করুন ।"
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.description)
@@ -2668,16 +2913,19 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>'s "
 "Onion Service."
 msgstr ""
+"আপনি <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>-এর পেঁয়াজের "
+"সেবায় যুক্ত হয়ে অন্যান্য পেঁয়াজের সেবায় প্রবেশ করতে পারবেন কিনা তা "
+"নিশ্চিত করতে পারবেন ।"
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.seo_slug)
 msgid "cannot-reach-x-onion"
-msgstr ""
+msgstr "cannot-reach-x-onion"
 
 #: http//localhost/censorship/censorship-1/
 #: (content/censorship/censorship-1/contents+en.lrquestion.seo_slug)
 msgid "our-website-is-blocked-by-a-censor"
-msgstr ""
+msgstr "our-website-is-blocked-by-a-censor"
 
 #: http//localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lrquestion.description)
@@ -2685,31 +2933,34 @@ msgid ""
 "Please take a strong stance in favor of digital privacy and internet "
 "freedom, and allow Tor users access to xyz.com. Thank you.\""
 msgstr ""
+"অনুগ্রহ করে ডিজিটাল গোপনীয়তা এবং ইন্টারনেট স্বাধীনতার অনুগ্রহে শক্তিশালী "
+"অবস্থান গ্রহণ করুন এবং টর ব্যবহারকারীদের xyz.com প্রবেশ করতে দিন । ধন্যবাদ ।"
+" \""
 
 #: http//localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lrquestion.seo_slug)
 msgid "website-is-blocking-access-over-tor"
-msgstr ""
+msgstr "website-is-blocking-access-over-tor"
 
 #: http//localhost/censorship/censorship-3/
 #: (content/censorship/censorship-3/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-download-tor-if-torproject-org-is-blocked"
-msgstr ""
+msgstr "how-do-i-download-tor-if-torproject-org-is-blocked"
 
 #: http//localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lrquestion.seo_slug)
 msgid "cant-connect-to-tor-browser"
-msgstr ""
+msgstr "cant-connect-to-tor-browser"
 
 #: http//localhost/censorship/censorship-6/
 #: (content/censorship/censorship-6/contents+en.lrquestion.seo_slug)
 msgid "is-my-network-censored"
-msgstr ""
+msgstr "is-my-network-censored"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.title)
 msgid "What is a bridge?"
-msgstr ""
+msgstr "ব্রিজ কি?"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2717,6 +2968,7 @@ msgid ""
 "Bridge relays are Tor relays that are not listed in the public Tor "
 "directory."
 msgstr ""
+"ব্রিজ relays হল টর relays যা সর্বজনীন টর নির্দেশিকায় তালিকাভুক্ত নয় ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2724,6 +2976,8 @@ msgid ""
 "That means that ISPs or governments trying to block access to the Tor "
 "network can't simply block all bridges."
 msgstr ""
+"অর্থাৎ আইএসপি বা সরকার টর নেটওয়ার্কে প্রবেশাধিকার আটকানোর চেষ্টা করে শুধু "
+"সব সেতু বন্ধ করতে পারে না ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2732,6 +2986,9 @@ msgid ""
 "who want an extra layer of security because they're worried somebody will "
 "recognize that they are contacting a public Tor relay IP address."
 msgstr ""
+"ব্রিজটি অত্যাচারী শাসকদের অধীনে থাকা ব্যবহারকারীদের জন্য উপকারী, এবং যারা "
+"নিরাপত্তার একটি অতিরিক্ত স্তর চান তাদের জন্য এই সেতুটি তারা জানতে পারবে যে "
+"তারা একটি সর্বজনীন টর রিলে IP ঠিকানার সাথে যোগাযোগ করছে ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2742,7 +2999,7 @@ msgstr "একটি সেতু একটি সামান্য ভিন�
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
 msgid "See (link to How do I run a bridge) for instructions."
-msgstr ""
+msgstr "নির্দেশনার জন্য আমি কিভাবে সেতু চালাতে পারি তা দেখুন (লিংক) ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2750,6 +3007,8 @@ msgid ""
 "Several countries, including China and Iran, have found ways to detect and "
 "block connections to Tor bridges."
 msgstr ""
+"চীন ও ইরান সহ বেশ কয়েকটি দেশ টর ব্রিজের কাছে কানেকশন শনাক্ত ও ব্লক করার "
+"উপায় খুঁজে পেয়েছে ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2758,6 +3017,9 @@ msgid ""
 "href=\"https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt\">Obfsproxy</a></mark>"
 " bridges address this by adding another layer of obfuscation."
 msgstr ""
+"<mark><a "
+"href=\"https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt\">Obfsproxy</a></mark>"
+" ব্রিজ obfuscation অন্য লেয়ার যোগ করে এর ঠিকানা ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2765,6 +3027,8 @@ msgid ""
 "Setting up an obfsproxy bridge requires an additional software package and "
 "additional configurations."
 msgstr ""
+"একটি obfsproxy সেতু বিন্যাসন একটি অতিরিক্ত সফটওয়্যার প্যাকেজ এবং অতিরিক্ত "
+"কনফিগারেশন প্রয়োজন ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2772,11 +3036,13 @@ msgid ""
 "See our page on <mark><a href=\"https://www.torproject.org/docs/pluggable-"
 "transports.html.en\">pluggable transports</a></mark> for more info."
 msgstr ""
+"আরও তথ্যের জন্য <mark><a href=\"https://www.torproject.org/docs/pluggable-"
+"transports.html.en\">ব্যবহারযোগ্য পরিবহনে</a></mark> আমাদের পৃষ্ঠাটি দেখুন ।"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.seo_slug)
 msgid "what-is-a-bridge"
-msgstr ""
+msgstr "what-is-a-bridge"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.title)
@@ -2790,7 +3056,7 @@ msgstr ""
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
 msgid "Tor protects eavesdroppers from learning sites that you visit."
-msgstr ""
+msgstr "টর আপনার দর্শনীয় সাইট থেকে eavesdroppers রক্ষা করে ।"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2799,6 +3065,9 @@ msgid ""
 " still be intercepted by exit relay operators or anyone observing the "
 "traffic between your exit relay and your destination website."
 msgstr ""
+"তবে, সাধারণ HTTP ব্যবহার করে ইন্টারনেটের মাধ্যমে এনক্রিপ্ট করা তথ্য এখনও "
+"রিলে অপারেটর থেকে প্রস্থান করে আঁড়ি হতে পারে অথবা কেউ আপনার প্রস্থান রিলে "
+"এবং আপনার গন্তব্য ওয়েবসাইটের মধ্যে চলাচলের পর্যবেক্ষণ করে ।"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2806,6 +3075,8 @@ msgid ""
 "If the site you are visiting uses HTTPS, then the traffic leaving your exit "
 "relay will be encrypted, and won't be visible to eavesdroppers."
 msgstr ""
+"যদি আপনি যে সাইটটি দেখেন আপনি HTTPS ব্যবহার করেন, তাহলে আপনার প্রস্থান রিলে "
+"ছেড়ে আসা ট্রাফিক এনক্রিপ্ট হয়ে যাবে এবং eavesdroppers দেখতে হবে না."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2815,7 +3086,7 @@ msgstr "<div class=\"row\">"
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
 msgid "<img class=\"card-img-top\" src=\"/static/images/image2.png\" alt=\"https\">"
-msgstr ""
+msgstr "<img class=\"card-img-top\" src=\"/static/images/image2.png\" alt=\"https\">"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2823,11 +3094,13 @@ msgid ""
 "<h4 class=\"card-title\">If you are using HTTPS, your website URL will begin"
 " with \"https://\".</h4>"
 msgstr ""
+"<h4 class=\"card-title\">আপনি যদি HTTPS ব্যবহার করেন, তাহলে আপনার ওয়েবসাইট "
+"ইউআরএল \"https://\" দ্বারা শুরু হবে.</h4>"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
 msgid "<img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\">"
-msgstr ""
+msgstr "<img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\">"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2836,16 +3109,18 @@ msgid ""
 "visible to eavesdroppers with and without Tor Browser and HTTPS "
 "encryption.</h4>"
 msgstr ""
+"<h4 class=\"card-title\">এই রূপকল্পন প্রদর্শন করে যে eavesdroppers সাথে এবং "
+"টর ব্রাউজার এবং HTTPS এনক্রিপশন ছাড়া কি তথ্য দৃশ্যমান."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.seo_slug)
 msgid "can-eavesdroppers-see-information-i-share"
-msgstr ""
+msgstr "can-eavesdroppers-see-information-i-share"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.title)
 msgid "How do I run a middle or guard relay on Debian?"
-msgstr ""
+msgstr "আমি কিভাবে ডেবিয়ান উপর একটি মিডল বা গার্ড রিলে চালান?"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2856,13 +3131,16 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a></mark>."
 msgstr ""
+"<a href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">একটি"
+" রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark>টর রিলে "
+"গাইড</mark></mark> দেখুন ।"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor\" (as root)."
-msgstr ""
+msgstr "* Run \"apt-get install tor\" (as root)."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2872,6 +3150,8 @@ msgid ""
 "* Make sure your clock, date, and timezone are set correctly. Install the "
 "ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"* নিশ্চিত করুন যে আপনার ঘড়ি, তারিখ এবং সময়-নির্ধারিত আছে । এই ntp বা "
+"openntpd (বা অনুরূপ) প্যাকেজ ইনস্টল করুন."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2880,7 +3160,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Edit /etc/tor/torrc to look like the following:"
-msgstr ""
+msgstr "*/etc/tor/torrc সম্পাদনা করুন নিচের দিকে:"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2892,6 +3172,8 @@ msgid ""
 "## The IP address or hostname for incoming connections (leave commented and "
 "Tor will guess)"
 msgstr ""
+"# # অন্তর্গামী সংযোগের জন্য IP ঠিকানা অথবা হোস্ট (ম্যারেজ মন্তব্য এবং টর "
+"অনুমান করা হবে)"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2900,7 +3182,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#Address noname.example.com"
-msgstr ""
+msgstr "#Address noname.example.com"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2911,7 +3193,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set the nickname of this relay"
-msgstr ""
+msgstr "# # এই রিলে ডাকনাম সেট করুন"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2922,7 +3204,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Nickname ididnteditheconfig"
-msgstr ""
+msgstr "ডাকনাম ididnteditheconfig"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2933,7 +3215,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set your own contact info"
-msgstr ""
+msgstr "# # নিজের যোগাযোগের তথ্য সেট করুন"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2944,7 +3226,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
-msgstr ""
+msgstr "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2962,7 +3244,7 @@ msgstr "## যদি আপনি একাধিক রিলে নিয়�
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "#MyFamily $keyid,$keyid,..."
-msgstr ""
+msgstr "#MyFamily $keyid,$keyid,..."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2973,7 +3255,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ORPort 9001"
-msgstr ""
+msgstr "ORPort 9001"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2982,7 +3264,7 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "DirPort 9030"
-msgstr ""
+msgstr "DirPort 9030"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2994,6 +3276,8 @@ msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
 msgstr ""
+"# # # # # # আপনার ব্যান্ডউইথ রেট নির্ধারণ করুন (কোন মন্তব্য এবং টর বিনা "
+"ব্যান্ডউইথ ক্যাপ ছাড়াই চালানো হবে)"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3004,7 +3288,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#RelayBandwidthRate 30 MBytes"
-msgstr ""
+msgstr "#RelayBandwidthRate 30 MBytes"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3015,21 +3299,21 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#RelayBandwidthBurst 100 MBytes"
-msgstr ""
+msgstr "#RelayBandwidthBurst 100 MBytes"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "ExitPolicy reject *:*"
-msgstr ""
+msgstr "ExitPolicy reject *:*"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)"
-msgstr ""
+msgstr "* Run \"service tor reload\" (as root)"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3043,6 +3327,8 @@ msgid ""
 "* After your relay connects to the network, it will try to determine whether"
 " the ports you configured are reachable from the outside."
 msgstr ""
+"* আপনার রিলে নেটওয়ার্কের সাথে সংযুক্ত হওয়ার পর, এটি পাওয়া যাচ্ছে বাইরে "
+"থেকে আপনার কনফিগার করা পোর্ট কিনা তা নির্ধারণ করার চেষ্টা করবে ।"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3053,7 +3339,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "This step is usually fast, but it may take a few minutes."
-msgstr ""
+msgstr "এই ধাপটি সাধারণত দ্রুত হয়, কিন্তু কিছু সময় লাগতে পারে ।"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3061,6 +3347,8 @@ msgid ""
 "Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"/var/log/syslog লগ-ইন দেখুন যেমন \"আত্ম পরীক্ষা নির্দেশ করে আপনার ORPort "
+"বাইরে থেকে পাওয়া যাচ্ছে. চমৎকার । \""
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3074,6 +3362,8 @@ msgid ""
 "If you don't see this message, it means that your relay is not reachable "
 "from the outside."
 msgstr ""
+"আপনি যদি এই বার্তাটি দেখতে না পান, তার মানে হল যে আপনার রিলে বাইরে থেকে "
+"পাওয়া যাচ্ছে নয় ।"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3087,6 +3377,8 @@ msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
 msgstr ""
+"আপনার torrc আপনি যে আইপি এবং পোর্ট উল্লেখ করেছেন তা সঠিক কিনা তা পরীক্ষা করে"
+" দেখতে আপনার ফায়ারওয়াল পুনরায় পরীক্ষা করা উচিত ।"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3095,6 +3387,9 @@ msgid ""
 " to the directory authorities to let clients know what address, ports, keys,"
 " etc your relay is using."
 msgstr ""
+"যখন এটি পাওয়া যাচ্ছে, এটি একটি \"সার্ভার বর্ণনাকারী \"-কে নির্দেশিকা "
+"কর্তৃপক্ষের কাছে আপলোড করবে যা কোন ঠিকানা, পোর্ট, কী ইত্যাদি আপনার রিলে "
+"ব্যবহার করছে তা জানার জন্য ।"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3114,17 +3409,17 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "If it hasn't, re-check firewalls, IP and ports again."
-msgstr ""
+msgstr "যদি তা না হয়, পুনরায় চেক ফায়ারওয়াল, আইপি এবং পোর্ট আবার."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-relay"
-msgstr ""
+msgstr "how-do-i-run-a-middle-or-guard-relay"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.title)
 msgid "How do I run an exit relay on Debian?"
-msgstr ""
+msgstr "আমি কিভাবে ডেবিয়ান একটি প্রস্থান রিলে চালান?"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3132,7 +3427,7 @@ msgid ""
 "* Review our <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">Exit"
 " relay guidelines</a></mark>"
-msgstr ""
+msgstr "* আমাদের প্রস্থান রিলে নির্দেশিকা পর্যালোচনা করুন"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3140,6 +3435,8 @@ msgid ""
 "Look for a log entry in your /var/log/syslog such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"আপনার/var/log/syslog লগ এন্ট্রির জন্য দেখুন যেমন \"স্ব-পরীক্ষা নির্দেশ করুন "
+"আপনার ORPort বাইরে থেকে পাওয়া যাচ্ছে । চমৎকার । \""
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3150,6 +3447,9 @@ msgid ""
 "descriptor\" to the directory authorities to let clients know what address, "
 "ports, keys, etc your relay is using."
 msgstr ""
+"* যখন এটি নিশ্চিত হয় যে এটি পাওয়া যাচ্ছে, এটি একটি \"সার্ভার বর্ণনাকারী "
+"\"-কে নির্দেশিকা কর্তৃপক্ষের কাছে আপলোড করবে যা কোন ঠিকানা, পোর্ট, কী "
+"ইত্যাদি আপনার রিলে ব্যবহার করছে তা জানার জন্য ।"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3168,17 +3468,18 @@ msgid ""
 "Consider if you'd like to switch to the <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">Reduced"
 " exit policy</a></mark>."
-msgstr ""
+msgstr "আপনি যদি কমাতে প্রস্থান নীতি পরিবর্তন করতে চান, তাহলে বিবেচনা করুন."
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-an-exit"
-msgstr ""
+msgstr "how-do-i-run-an-exit"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.title)
 msgid "How do I run a middle or guard relay on FreeBSD or HardenedBSD?"
 msgstr ""
+"আমি কিভাবে ফ্রিবিএসডি-তে বা HardenedBSD উপর একটি মিডল বা গার্ড রিলে চালাবেন?"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3187,23 +3488,25 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a>."
 msgstr ""
+"একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, টর রিলে গাইড "
+"দেখুন ।"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr ""
+msgstr "* Run \"pkg install tor\" (as root)."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Make sure your clock, date, and timezone are set correctly."
-msgstr ""
+msgstr "* নিশ্চিত করুন যে আপনার ঘড়ি, তারিখ এবং সময়-নির্ধারিত আছে ।"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Enabling ntpd is suggested."
-msgstr ""
+msgstr "ntpd চালূ রাখার পরামর্শ দেওয়া হয়েছে ।"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3218,7 +3521,7 @@ msgstr "RunAsDaemon 1"
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Log notice file /var/log/tor/notices.log"
-msgstr ""
+msgstr "লগ-ইন নোটিশ ফাইল/var/log/tor/notices.log"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3230,7 +3533,7 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"service tor start\" (as root)"
-msgstr ""
+msgstr "* Run \"service tor start\" (as root)"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3238,16 +3541,18 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"/var/log/tor/notices.log লগ-ইন দেখুন যেমন \"আত্ম পরীক্ষা নির্দেশ করে আপনার "
+"ORPort বাইরে থেকে পাওয়া যাচ্ছে. চমৎকার । \""
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-on-freebsd"
-msgstr ""
+msgstr "how-do-i-run-a-middle-or-guard-on-freebsd"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
 msgid "How do I make sure that I'm using the correct packages on Ubuntu?"
-msgstr ""
+msgstr "আমি কিভাবে উবুন্টুর সঠিক প্যাকেজ ব্যবহার করছি তা কিভাবে নিশ্চিত করব?"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3256,16 +3561,20 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
+"* উবুন্টুর repositories প্যাকেজ ব্যবহার করবেন না । তাদের হালনাগাদ করা "
+"নির্ভরযোগ্যভাবে নয় । এগুলো ব্যবহার করলে গুরুত্বপূর্ণ স্থিতিশীলতা ও "
+"নিরাপত্তা সংশোধনের সুযোগ হাতছাড়া হবে ।"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Determine your Ubuntu version by running the following command:"
 msgstr ""
+"* নিম্নোক্ত কমান্ড চালানোর মাধ্যমে আপনার উবুন্টু ভার্সন নির্ধারণ করুন:"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "$ sb_release -c"
-msgstr ""
+msgstr "$ sb_release -c"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3273,16 +3582,18 @@ msgid ""
 "* As root, add the following lines to /etc/apt/sources.list. Use the version"
 " you found in the previous step for <version>."
 msgstr ""
+"* root হিসেবে, নিম্নোক্ত পংক্তি/etc/apt/sources.list. করুন পূর্ববর্তী "
+"পদক্ষেপের জন্য আপনি যে সংস্করণটি খুঁজে পেয়েছেন তা ব্যবহার করুন ।"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "$ deb http://deb.torproject.org/torproject.org <version> main"
-msgstr ""
+msgstr "$ deb http://deb.torproject.org/torproject.org <version> main"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "$ deb-src http://deb.torproject.org/torproject.org <version> main"
-msgstr ""
+msgstr "$ deb-src http://deb.torproject.org/torproject.org <version> main"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3290,6 +3601,8 @@ msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
 msgstr ""
+"* নিম্নোক্ত আদেশগুলি চালানোর মাধ্যমে প্যাকেজ স্বাক্ষর করতে ব্যবহৃত gpg কী "
+"ব্যবহার করুন:"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3305,16 +3618,18 @@ msgstr ""
 msgid ""
 "$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 msgstr ""
+"$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Run the following commands to install tor and check its signatures:"
 msgstr ""
+"* টর ইনস্টল করতে নিম্নোক্ত আদেশগুলি চালান এবং এর স্বাক্ষর পরীক্ষা করুন:"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "$ sudo apt-get update"
-msgstr ""
+msgstr "$ sudo apt-get update"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3324,52 +3639,52 @@ msgstr "$ sudo apt-get install tor deb.torproject.org-keyring"
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.seo_slug)
 msgid "using-correct-packages"
-msgstr ""
+msgstr "using-correct-packages"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.title)
 msgid "How do I run a obfs4 bridge on Debian?"
-msgstr ""
+msgstr "আমি কিভাবে ডেবিয়ান উপর obfs4 সেতু চালাতে পারি?"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
-msgstr ""
+msgstr "* Run \"apt-get install tor obfs4proxy\" (as root)."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Install the ntp or openntpd (or similar) package to keep it that way."
-msgstr ""
+msgstr "এই ntp বা openntpd (বা অনুরূপ) প্যাকেজ ইনস্টল করুন."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "BridgeRelay 1"
-msgstr ""
+msgstr "BridgeRelay 1"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
-msgstr ""
+msgstr "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ExtORPort auto"
-msgstr ""
+msgstr "ExtORPort auto"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-msgstr ""
+msgstr "# # # # আপনার ব্যান্ডউইথ রেট নির্ধারণ করুন (চটজলদি এবং টর ছাড়া চলবে"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "bandwidth caps)"
-msgstr ""
+msgstr "ব্যান্ডউইথ ক্যাপ)"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)."
-msgstr ""
+msgstr "* Run \"service tor reload\" (as root)."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3386,16 +3701,18 @@ msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
+"* এছাড়াও আপনাকে বার্তা \"রেজিস্টার্ড সার্ভার ট্রান্সপোর্ট\" obfs4 ' \"-এ "
+"দেখা উচিত যে obfs4proxy কার্যকরি ।"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-obfs4-bridge-debian"
-msgstr ""
+msgstr "how-do-i-run-a-obfs4-bridge-debian"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
 msgid "Should I run an exit relay from home?"
-msgstr ""
+msgstr "আমি কি বাড়ি থেকে প্রস্থান রিলে চালান?"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3408,6 +3725,8 @@ msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
+"যদি আইন প্রয়োগকারী সংস্থা আপনার প্রস্থান রিলে থেকে ট্রাফিকের প্রতি আগ্রহী "
+"হয়ে ওঠে, তাহলে এটা সম্ভব যে অফিসাররা আপনার কম্পিউটারকে পাকড়াও করবে ।"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3415,6 +3734,8 @@ msgid ""
 "For that reason, it's best not to run your exit relay in your home or using "
 "your home internet connection."
 msgstr ""
+"সে কারণে, আপনার বাড়িতে আপনার প্রস্থান রিলে চালানো বা আপনার হোম ইন্টারনেট "
+"সংযোগ ব্যবহার করাই শ্রেয় ।"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3422,6 +3743,7 @@ msgid ""
 "Instead, consider running your exit relay in a commercial facility that is "
 "supportive of Tor."
 msgstr ""
+"এর পরিবর্তে, আপনার প্রস্থান রিলে একটি বাণিজ্যিক সুবিধা, যা টর সমর্থন করে."
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3429,6 +3751,8 @@ msgid ""
 "Have a separate IP address for your exit relay, and don't route your own "
 "traffic through it."
 msgstr ""
+"আপনার প্রস্থান রিলে জন্য একটি পৃথক IP ঠিকানা আছে এবং এর মাধ্যমে আপনার নিজস্ব"
+" ট্রাফিক রুটে চলবে না ।"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3436,11 +3760,13 @@ msgid ""
 "Of course, you should avoid keeping any sensitive or personal information on"
 " the computer hosting your exit relay."
 msgstr ""
+"অবশ্যই, আপনার প্রস্থান রিলে করার জন্য কম্পিউটারের কোন সংবেদনশীল বা ব্যক্তিগত"
+" তথ্য রাখা এড়িয়ে চলা উচিত ।"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.seo_slug)
 msgid "run-exit-from-home"
-msgstr ""
+msgstr "run-exit-from-home"
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.title)
@@ -3457,6 +3783,8 @@ msgid ""
 "Websites that are only accessible over Tor are called \"onions\" and end in "
 "the TLD .onion."
 msgstr ""
+"যে ওয়েবসাইটগুলি শুধুমাত্র টিএলডি হয় \"পেঁয়াজ \" বলা হয় এবং শেষ হয়. "
+"পেঁয়াজ."
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3464,11 +3792,13 @@ msgid ""
 "For example, the DuckDuckGo onion is <a "
 "href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a>."
 msgstr ""
+"যেমন, DuckDuckGo পেঁয়াজ <a "
+"href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a> ।"
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
 msgid "You can access these websites by using Tor Browser."
-msgstr ""
+msgstr "আপনি টর ব্রাউজার ব্যবহার করে এই ওয়েবসাইটগুলি এক্সেস করতে পারেন."
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3476,11 +3806,13 @@ msgid ""
 "The addresses must be shared with you by the website host, as onions are not"
 " indexed in search engines in the typical way that vanilla websites are."
 msgstr ""
+"এই ঠিকানাগুলো অবশ্যই ওয়েবসাইটের হোস্ট দ্বারা আপনার সাথে শেয়ার করতে হবে, "
+"যেমন পেঁয়াজ, ভ্যানিলা ওয়েবসাইটগুলোর অনুসন্ধান ইঞ্জিনে বিষয়সূচি নেই ।"
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.seo_slug)
 msgid "accessing-websites-that-are-only-accessible-over-tor"
-msgstr ""
+msgstr "accessing-websites-that-are-only-accessible-over-tor"
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.title)
@@ -3493,6 +3825,8 @@ msgid ""
 "Onion services allow people to browse but also to publish anonymously, "
 "including publishing anonymous websites."
 msgstr ""
+"পেঁয়াজ পরিষেবা লোকজন নাম প্রকাশ করতে সম্মতি দেয় কিন্তু অনামী ওয়েবসাইট "
+"প্রকাশ সহ,"
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -3502,6 +3836,10 @@ msgid ""
 " or OnionShare, safer software updates, and more secure ways to reach "
 "popular websites like Facebook."
 msgstr ""
+"SecureDrop বা OnionShare, নিরাপদ সফটওয়্যার আপডেট এবং Facebook-এর মতো "
+"জনপ্রিয় ওয়েব সাইটে পৌঁছানোর জন্য, সাংবাদিকদের মধ্যে নিরাপদ চ্যাট এবং ফাইল "
+"শেয়ারিং-এর মাধ্যমে তাজা যোগাযোগ এবং আরও নিরাপদ উপায়ের জন্য পেঁয়াজের "
+"পরিষেবাগুলি নির্ভর করে ।"
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -3515,7 +3853,7 @@ msgstr ""
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.seo_slug)
 msgid "what-is-a-dot-onion"
-msgstr ""
+msgstr "what-is-a-dot-onion"
 
 #: http//localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lrquestion.description)
@@ -3524,21 +3862,25 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo's onion "
 "service</a>."
 msgstr ""
+"আপনি DuckDuckGo-এর পেঁয়াজের সেবায় যুক্ত হয়ে অন্যান্য পেঁয়াজের সেবায় "
+"প্রবেশ করতে পারবেন কিনা তা নিশ্চিত করতে পারবেন ।"
 
 #: http//localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lrquestion.seo_slug)
 msgid "i-cannot-reach-x-dot-onion"
-msgstr ""
+msgstr "i-cannot-reach-x-dot-onion"
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.title)
 msgid "I have a compelling reason to trace a Tor user. Can you help?"
 msgstr ""
+"একজন টর ব্যবহারকারী খুঁজে বের করার জন্য আমার একটি কারণ আছে । সাহায্য করতে "
+"পারেন?"
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.description)
 msgid "There is nothing the Tor developers can do to trace Tor users."
-msgstr ""
+msgstr "টর ব্যবহারকারী খুঁজে পাওয়া যায় না ।"
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.description)
@@ -3546,16 +3888,18 @@ msgid ""
 "The same protections that keep bad people from breaking Tor's anonymity also"
 " prevent us from tracking users."
 msgstr ""
+"এই একই সুরক্ষা যারা টর এর সনদে বাধা দেয়, তারা আমাদের ব্যবহারকারীদের "
+"ট্র্যাকিং করা থেকে বিরত রাখে ।"
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.seo_slug)
 msgid "tracing-tor-user"
-msgstr ""
+msgstr "tracing-tor-user"
 
 #: http//localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lrquestion.title)
 msgid "Does the Tor Project offer hosting?"
-msgstr ""
+msgstr "টর প্রকল্প কি হোস্ট করার প্রস্তাব দেয়?"
 
 #: http//localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lrquestion.description)
@@ -3565,12 +3909,12 @@ msgstr "না, টর প্রজেক্ট হোস্টিং পরি�
 #: http//localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lrquestion.seo_slug)
 msgid "does-tor-project-offer-hosting"
-msgstr ""
+msgstr "does-tor-project-offer-hosting"
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.title)
 msgid "Can I change the number of hops Tor uses?"
-msgstr ""
+msgstr "আমি কি hops সংখ্যা পরিবর্তন করতে পারি?"
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3578,6 +3922,8 @@ msgid ""
 "Right now the path length is hard-coded at 3 plus the number of nodes in "
 "your path that are sensitive."
 msgstr ""
+"এই মুহূর্তে পথটির দৈর্ঘ্য হার্ড-কোড ৩ প্লাস-এ আপনার পথে নোড সংখ্যা "
+"সংবেদনশীল."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3585,6 +3931,8 @@ msgid ""
 "That is, in normal cases it's 3, but for example if you're accessing an "
 "onion service or a \".exit\" address it could be more."
 msgstr ""
+"অর্থাৎ, স্বাভাবিক ক্ষেত্রে এটা ৩, কিন্তু উদাহরণস্বরূপ আপনি যদি একটি পেঁয়াজ "
+"সার্ভিস বা স অ্যাক্সেস করেন. \"প্রস্থান করুন\" ঠিকানাটি আরও হতে পারে."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3593,6 +3941,9 @@ msgid ""
 "increases load on the network without (as far as we can tell) providing any "
 "more security."
 msgstr ""
+"আমরা মানুষকে এর চেয়ে বেশি পথ ব্যবহার করতে উৎসাহিত করতে চাই না, যেহেতু এটি "
+"নেটওয়ার্কের উপর লোডশেডিং বাড়িয়ে দেয় (যতদূর আমরা বলতে পারি) আর কোন "
+"নিরাপত্তা প্রদান করতে পারি না ।"
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3603,16 +3954,20 @@ msgid ""
 " identifier if only a small number of users have the same path length as "
 "you."
 msgstr ""
+"এছাড়াও, 3 এর বেশী পথ ব্যবহার করে, প্রথমে কারণ এটি নিরাপত্তা আক্রমণের "
+"makesdenial সহজ, এবং দ্বিতীয়ত কারণ এটি একটি শনাক্তকারী হিসেবে কাজ করতে পারে"
+" যদি শুধুমাত্র অল্প সংখ্যক ব্যবহারকারীর যদি আপনার মতো একই পথের দৈর্ঘ্য থাকে "
+"।"
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.seo_slug)
 msgid "change-the-number-of-hops-tor-uses"
-msgstr ""
+msgstr "change-the-number-of-hops-tor-uses"
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.title)
 msgid "How can I share files anonymously through Tor?"
-msgstr ""
+msgstr "কিভাবে আমি টর দ্বারা বেনামে ফাইল শেয়ার করতে পারি?"
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
@@ -3620,13 +3975,15 @@ msgid ""
 "Many exit nodes are configured to block certain types of file sharing "
 "traffic, such as bittorrent."
 msgstr ""
+"অনেক বহির্গমন নোড নির্দিষ্ট ধরনের ফাইল শেয়ারিং ট্রাফিক বন্ধ করতে কনফিগার "
+"করা হয়েছে, যেমন bittorrent."
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
 msgid ""
 "Bittorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
-msgstr ""
+msgstr "নির্দিষ্ট Bittorrent নয় ।"
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
@@ -3640,12 +3997,12 @@ msgstr ""
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.seo_slug)
 msgid "share-files-anonymously-through-tor"
-msgstr ""
+msgstr "share-files-anonymously-through-tor"
 
 #: http//localhost/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lrquestion.title)
 msgid "How do I volunteer with Tor Project?"
-msgstr ""
+msgstr "আমি কিভাবে টর প্রকল্পের সাথে স্বেচ্ছাসেবক করব?"
 
 #: http//localhost/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lrquestion.description)
@@ -3654,11 +4011,14 @@ msgid ""
 "href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">volunteer "
 "page</a></mark> for how to get involved!"
 msgstr ""
+"কিভাবে এর সাথে সম্পৃক্ত হওয়া যায় তার জন্য দয়া করে আমাদের <mark><a "
+"href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">স্বেচ্ছাসেবক"
+" পৃষ্ঠাটি</a></mark> দেখুন!"
 
 #: http//localhost/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lrquestion.seo_slug)
 msgid "volunteer-with-tor-project"
-msgstr ""
+msgstr "volunteer-with-tor-project"
 
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.title)
@@ -3676,16 +4036,18 @@ msgid ""
 "You can find more information about donating on our <mark><a "
 "href=\"https://donate.torproject.org/donor-faq\">donor FAQ</a></mark>."
 msgstr ""
+"আপনি আমাদের <mark><a href=\"https://donate.torproject.org/donor-faq\">দাতা "
+"FAQ</a></mark> সম্পর্কে আরো তথ্য পেতে পারেন."
 
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.seo_slug)
 msgid "donate-tor-project"
-msgstr ""
+msgstr "donate-tor-project"
 
 #: http//localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.title)
 msgid "Why don't you prevent bad people from doing bad things when using Tor?"
-msgstr ""
+msgstr "আপনি টর ব্যবহার করার সময় খারাপ মানুষকে বাধা দেন না কেন?"
 
 #: http//localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.description)
@@ -3693,6 +4055,8 @@ msgid ""
 "Tor is designed to defend human rights and privacy by preventing anyone from"
 " censoring things, even us."
 msgstr ""
+"টর মানবাধিকার এবং গোপনীয়তা রক্ষার জন্য পরিকল্পিত, এমনকি আমাদের censoring "
+"থেকে কাউকে বাধা প্রদান করে ।"
 
 #: http//localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.description)
@@ -3702,6 +4066,10 @@ msgid ""
 "rights activists, journalists, abuse survivors, and other people who use Tor"
 " for good things."
 msgstr ""
+"আমরা ঘৃণা করি যে কিছু লোক আছে যারা টর ব্যবহার করে ভয়ানক কিছু করার জন্য, "
+"কিন্তু আমরা তাদের থেকে মুক্তি পেতে কিছুই করতে পারি না, মানবাধিকার কর্মী, "
+"সাংবাদিক, undermining, যারা বেঁচে আছে তারা যারা ভালো কাজের জন্য টর ব্যবহার "
+"করে ।"
 
 #: http//localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.description)
@@ -3710,11 +4078,14 @@ msgid ""
 "adding a backdoor to the software, which would open up our vulnerable users "
 "to attacks from bad regimes and other adversaries."
 msgstr ""
+"আমরা যদি backdoor ব্যবহার থেকে নির্দিষ্ট কিছু মানুষকে অবরুদ্ধ করতে চাই, আমরা"
+" মূলত সফটওয়্যারের সাথে যুক্ত হতে পারি, যা আমাদের অরক্ষিত ব্যবহারকারীদের "
+"খারাপ শাসকদের এবং অন্যান্য প্রতিপক্ষ থেকে আক্রমণের জন্য উন্মুক্ত করবে ।"
 
 #: http//localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.seo_slug)
 msgid "prevent-bad-people-doing-bad-things-with-tor"
-msgstr ""
+msgstr "prevent-bad-people-doing-bad-things-with-tor"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.title)
@@ -3727,6 +4098,8 @@ msgid ""
 "Tor is funded by a number of different sponsors including US federal "
 "agencies, private foundations, and individual donors."
 msgstr ""
+"টর যুক্তরাষ্ট্রের ফেডারেল এজেন্সি, প্রাইভেট ফাউন্ডেশন এবং ব্যক্তি দাতা সহ "
+"বিভিন্ন স্পন্সরের বেশ কয়েকটি ।"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -3749,6 +4122,8 @@ msgid ""
 "We feel that talking openly about our funders and funding model is the best "
 "way to maintain trust with our community."
 msgstr ""
+"আমরা অনুভব করি যে আমাদের funders এবং তহবিলের মডেল সম্পর্কে খোলাখুলি কথা বলা "
+"আমাদের সমাজের উপর আস্থা বজায় রাখার সর্বোত্তম উপায় ।"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -3756,21 +4131,23 @@ msgid ""
 "We are always seeking more diversity in our funding sources, especially from"
 " foundations and individuals."
 msgstr ""
+"আমরা সব সময় আমাদের তহবিলের উৎস, বিশেষ করে ফাউন্ডেশন এবং ব্যক্তি থেকে আরো "
+"বৈচিত্র্য কামনা করি ।"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.seo_slug)
 msgid "tor-funding"
-msgstr ""
+msgstr "tor-funding"
 
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.title)
 msgid "Can I use Tor with bittorrent?"
-msgstr ""
+msgstr "আমি কি bittorrent সাথে টর ব্যবহার করতে পারি?"
 
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.description)
 msgid "We do not recommend using Tor with bittorrent."
-msgstr ""
+msgstr "আমরা bittorrent সাথে টর ব্যবহার করার সুপারিশ করি না ।"
 
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.description)
@@ -3786,7 +4163,7 @@ msgstr ""
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.seo_slug)
 msgid "tor-bittorrent"
-msgstr ""
+msgstr "tor-bittorrent"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.title)
@@ -3800,7 +4177,7 @@ msgstr ""
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
 msgid "We are so sorry, but you have been infected with malware."
-msgstr ""
+msgstr "আমরা খুবই দুঃখিত, কিন্তু আপনি ম্যালওয়্যার আক্রান্ত হয়েছেন ।"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -3809,6 +4186,9 @@ msgid ""
 "you to download Tor Browser presumably to contact them anonymously with the "
 "ransom they're demanding from you."
 msgstr ""
+"টর প্রকল্প এই ম্যালওয়্যার তৈরি করেনি । ম্যালওয়্যার লেখক আপনাকে অনুরোধ করছে"
+" যে তারা আপনার কাছ থেকে মুক্তিপণ দাবি করছে তাদের সাথে যোগাযোগ করতে টর "
+"ব্রাউজার সম্ভবতঃ ডাউনলোড করতে ।"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -3816,6 +4196,8 @@ msgid ""
 "If this is your first introduction to Tor Browser, we understand that you "
 "might think we're bad people who enable even worse people."
 msgstr ""
+"এটা যদি আপনার প্রথম পরিচয় ব্রাউজারে হয়, আমরা বুঝতে পারি যে আমরা খারাপ "
+"মানুষ যারা এমনকি আরো বেশী খারাপ মানুষ সক্ষম."
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -3826,6 +4208,11 @@ msgid ""
 "Unfortunately, the protection that our software can provide to these groups "
 "of people can also be abused by criminals and malware authors."
 msgstr ""
+"কিন্তু অনুগ্রহ করে মনে করুন যে আমাদের সফ্টওয়্যার প্রতিদিন ব্যবহার করা হয় "
+"মানবাধিকার কর্মী, সাংবাদিক, গার্হস্থ্য সহিংসতার whistleblowers, আইন "
+"প্রয়োগকারী কর্মকর্তা, এবং আরো অনেক কিছুর জন্য । দুর্ভাগ্যবশত, আমাদের "
+"সফ্টওয়্যার যারা এই সব গ্রুপে সরবরাহ করতে পারে তারা অপরাধী এবং ম্যালওয়্যার "
+"লেখকদের অপব্যবহার করতে পারে ।"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -3833,11 +4220,13 @@ msgid ""
 "The Tor Project does not support or condone the use of our software for "
 "malicious purposes."
 msgstr ""
+"টর প্রকল্প আমাদের সফটওয়্যারের ক্ষতিকর উদ্দেশ্যে ব্যবহার বা condone সমর্থন "
+"করে না ।"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.seo_slug)
 msgid "someone-asks-to-download-tor-browser-to-unlock-my-files"
-msgstr ""
+msgstr "someone-asks-to-download-tor-browser-to-unlock-my-files"
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.title)
@@ -3848,6 +4237,7 @@ msgstr "টর্স্ট কি লগ রাখে?"
 #: (content/misc/misc-6/contents+en.lrquestion.description)
 msgid "Tor doesn't keep any logs that could identify a particular user."
 msgstr ""
+"টর এমন কোনো লগ রাখবেন না যা কোন নির্দিষ্ট ব্যবহারকারী সনাক্ত করতে পারে."
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.description)
@@ -3856,11 +4246,14 @@ msgid ""
 "can check out at <mark><a href=\"https://metrics.torproject.org/\">Tor "
 "Metrics</a></mark>."
 msgstr ""
+"নেটওয়ার্ক ফাংশন কিভাবে আপনি <mark><a "
+"href=\"https://metrics.torproject.org/\">টর মেট্রিকগুলো</a></mark> চেক করতে "
+"পারেন তার কিছু নিরাপদ পরিমাপ আমরা গ্রহণ করি."
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.seo_slug)
 msgid "does-tor-keep-logs"
-msgstr ""
+msgstr "does-tor-keep-logs"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.title)
@@ -3868,11 +4261,13 @@ msgid ""
 "Does Tor Project offer email service or other privacy protecting web "
 "services?"
 msgstr ""
+"টর প্রকল্প কি ইমেল সার্ভিস বা অন্যান্য গোপনীয়তাকে ওয়েব সার্ভিসকে সুরক্ষা "
+"প্রদান করে?"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.description)
 msgid "No, we don't provide any online services."
-msgstr ""
+msgstr "না, আমরা কোনো অনলাইন সেবা প্রদান করি না ।"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.description)
@@ -3881,11 +4276,14 @@ msgid ""
 "href=\"https://www.torproject.org/projects/projects.html.en\">projects "
 "page</a></mark>."
 msgstr ""
+"আমাদের সকল সফটওয়্যার প্রজেক্টের একটি তালিকা আমাদের <mark><a "
+"href=\"https://www.torproject.org/projects/projects.html.en\">প্রকল্পগুলো "
+"পৃষ্ঠায়</a></mark> পাওয়া যাবে ।"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.seo_slug)
 msgid "does-tor-project-offer-email-or-privacy-protecting-web-services"
-msgstr ""
+msgstr "does-tor-project-offer-email-or-privacy-protecting-web-services"
 
 #: http//localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lrquestion.title)
@@ -3942,6 +4340,10 @@ msgid ""
 "availability and use, and furthering their scientific and popular "
 "understanding."
 msgstr ""
+"মুক্ত এবং উন্মুক্ত সোর্স সনদে এবং গোপনীয়তা প্রযুক্তিকে সমর্থন এবং তাদের "
+"নিষিদ্ধ প্রাপ্যতা এবং ব্যবহার এবং তাদের বৈজ্ঞানিক এবং জনপ্রিয় বোঝাপড়ার "
+"মাধ্যমে মানবাধিকার এবং স্বাধীনতাকে ফিরিয়ে আনতে এবং তাদের মানবাধিকার ও "
+"স্বাধীনতায় হস্তক্ষেপ করা ।"
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"

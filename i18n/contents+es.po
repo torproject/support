@@ -1483,7 +1483,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.seo_slug)
 msgid "website-locks-torbrowser-out"
-msgstr "web-bloqueada-al-navegador-tor"
+msgstr "web-bloquea-navegador-tor"
 
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.description)
@@ -1660,7 +1660,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.seo_slug)
 msgid "get-rid-of-captchas"
-msgstr "deshacerse-de-los-captachas"
+msgstr "deshacerse-de-los-captchas"
 
 #: http//localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lrquestion.title)
@@ -1774,7 +1774,7 @@ msgstr "* 简体字 (zh-CN)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.seo_slug)
 msgid "need-tor-browser-language-not-english"
-msgstr "necesitas-navegador-tor-no-en-inglés"
+msgstr "necesito-navegador-tor-no-en-inglés"
 
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.title)
@@ -3441,7 +3441,7 @@ msgid ""
 "specified in your torrc are correct, etc."
 msgstr ""
 "Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos "
-"que especificastes en torrc son los correctos, etc."
+"que especificaste en torrc son los correctos, etc."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
