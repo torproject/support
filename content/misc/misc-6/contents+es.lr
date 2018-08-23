@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Tor conserva registros?
 ---
-seo_slug: does-tor-keep-logs
+seo_slug: conserva-tor-registros
 ---
 description:
 Tor no conserva ningún registro que pueda identificar a un usuario concreto.

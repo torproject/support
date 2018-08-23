@@ -1,8 +1,8 @@
 _model: question
 ---
-title: ¿El administrador de mi red podrá determinar que estoy usando el Tor Browser?
+title: ¿Podría el administrador de mi red determinar que estoy usando el Navegador Tor?
 ---
-seo_slug: network-admin-know-i-am-using-tor
+seo_slug: el-administrador-de-red-sabe-que-estoy-usando-tor
 ---
 description:
 Cuando se utiliza el navegador Tor, nadie puede ver los sitios web que visitas.

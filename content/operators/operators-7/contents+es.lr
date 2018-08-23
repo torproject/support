@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Debería tener un repetidor de salida en mi casa?
 ---
-seo_slug: run-exit-from-home
+seo_slug: ejecutar-salir
 ---
 description:
 No.
@@ -11,4 +11,4 @@ Por esa razón, es mejor no hacer funcionar el repetidor de salida en tu casa o 
 
 En su lugar, considera ejecutar tu repetidor de salida en una instalación comercial que apoye a Tor.
 Ten una dirección IP separada para tu repetidor de salida y no enrutes tu propio tráfico a través de esta.
-Of course, you should avoid keeping any sensitive or personal information on the computer hosting your exit relay.
+Por supuesto, debes evitar mantener cualquier información sensible o personal en el ordenador que hospeda tu repetidor de salida.

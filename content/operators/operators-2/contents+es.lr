@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Cómo puedo ejecutar un repetidor de salida en Debian?
 ---
-seo_slug: how-do-i-run-an-exit
+seo_slug: cómo-puedo-hacer-una-salida
 ---
 description:
 Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guía de repetidores de Tor</a>.
@@ -13,7 +13,7 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
 * Edita /etc/tor/torrc para que tenga el siguiente aspecto:
 
 
-    Ajusta ahí la seguridad a "Standard".
+    ## Ajustar el nickname de este repetidor
     Nickname ididnteditheconfig
 
     ## Set your own contact info
@@ -22,10 +22,10 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
     ORPort 9001
     DirPort 9030
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ## La dirección IP o nombre de host para las conexiones entrantes (deja comentado y Tor adivinará)
     #Address noname.example.com
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Fija tu ancho de banda (deja comentado y Tor se ejecutará sin límites de ancho de banda)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
@@ -35,12 +35,12 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
 
 * Ejecuta "service tor reload" (como root).
 * Después de que tu repetidor se conecte a la red, intentará determinar si los puertos configurados son accesibles desde el exterior.
-  This step is usually fast, but it may take a few minutes.
+  Este paso suele ser rápido, pero puede tomar algunos minutos.
   * Busca una entrada de registro en /var/log/syslog como "La autoprueba indica que tu ORPort es accesible desde el exterior. Excelente."
   Si no ves este mensaje, quiere decir que tu repetidor no es accesible desde el exterior.
-  Deberías volver a comprobar tu cortafuegos, comprobar que la IP y los puertos que especificastes en torrc son los correctos, etc.
-* When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+  Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos que especificastes en torrc son los correctos, etc.
+* Cuando confirma que es accesible, subirá un "descriptor de servidor" a las autoridades del directorio para que los clientes sepan qué dirección, puertos, claves, etc. está usando tu repetidor.
   After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-  Si no lo has hecho, vuelve a comprobar los cortafuegos, la IP y los puertos.
+  Si no lo has hecho, vuelve a comprobar los firewalls, la IP y los puertos.
 
 Considera si deseas cambiar a la <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">política de salida Reducida</a></mark>.

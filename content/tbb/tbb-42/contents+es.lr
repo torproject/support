@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Por qué mi Navegador Tor menciona algo sobre que Firefox no funciona?
 ---
-seo_slug: tor-browser-firefox-not-working-error
+seo_slug: error-navegador-firefox-tor
 ---
 description:
 El Tor Browser se desarrolló usando ​<mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, así que pueden ocurrir errores relacionados con Firefox.

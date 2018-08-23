@@ -2,7 +2,7 @@ _model: question
 ---
 title: Estoy teniendo problemas conectando a Tor, y no logro averiguar qué es lo que está mal.
 ---
-seo_slug: having-trouble-connecting-to-tor
+seo_slug: problemas-conectando-a-tor
 ---
 description:
 
@@ -21,11 +21,11 @@ Deberías ver uno de estos errores de registro comunes (busca las siguientes lí
 Si ves líneas como estas en tu registro Tor, significa que no se está conectando a un proxy SOCKS. Si se requiere un proxy SOCKS para la configuración de la red, asegúrate de que has introducido los datos del proxy correctamente.
 Si no se requiere un proxy SOCKS, o no estás seguro, por favor intenta conectarte a la red Tor sin un proxy SOCKS.
 
-##### Error de registro común #2: No se puede llegar a los relés de guardia
+##### Error de registro común #2: No se puede llegar a los repetidores de guardia
 
-    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks escuchados en 127.0.0.1:9150 
+    11/1/2017 21:11:43 PM.500 [NOTICE] oyente Opening Socks en 127.0.0.1:9150 
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Conectando a la red Tor 
-    11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit. 
+    11/1/2017 21:11:45 PM.300 [WARN] No se ha encontrado el nodo para el salto 0 de nuestra trayectoria. Descartando este circuito. 
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] No se ha encontrado el nodo para el salto 0 de nuestra trayectoria. Descartando este circuito.
 

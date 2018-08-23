@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Cómo puedo ejecutar un puente obfs4 en Debian?
 ---
-seo_slug: how-do-i-run-a-obfs4-bridge-debian
+seo_slug: cómo-puedo-ejecutar-un-puente-obfs4-en-debian
 ---
 description:
 * Ejecuta "apt-get install tor obfs4proxy" (como root).
@@ -11,10 +11,10 @@ description:
 * Edita /etc/tor/torrc para que tenga el siguiente aspecto:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ## La dirección IP o nombre de host para las conexiones entrantes (deja comentado y Tor adivinará)
     #Address noname.example.com
 
-    Ajusta ahí la seguridad a "Standard".
+    ## Ajustar el nickname de este repetidor
     Nickname ididnteditheconfig
 
     ## Set your own contact info
@@ -25,15 +25,14 @@ description:
     ExtORPort auto
     ORPort 9001
 
-    ## Set your bandwidth rate (leave commented and Tor will run without
-    límites al ancho de banda)
+    ## Fija tu ancho de banda (deja comentado y Tor se ejecutará sin límites de ancho de banda)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
 * Ejecuta "service tor reload" (como root).
 * Después de que tu repetidor se conecte a la red, intentará determinar si los puertos configurados son accesibles desde el exterior.
-  This step is usually fast, but it may take a few minutes.
+  Este paso suele ser rápido, pero puede tomar algunos minutos.
 * Busca una entrada de registro en /var/log/syslog como "La autoprueba indica que tu ORPort es accesible desde el exterior. Excelente."
   Si no ves este mensaje, quiere decir que tu repetidor no es accesible desde el exterior.
-  Deberías volver a comprobar tu cortafuegos, comprobar que la IP y los puertos que especificastes en torrc son los correctos, etc.
-* You should also see the message "Registered server transport 'obfs4'" indicating that obfs4proxy is functional.
+  Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos que especificastes en torrc son los correctos, etc.
+* También deberías ver el mensaje "Registered server transport 'obfs4'" indicando que obfs4proxy es funcional.

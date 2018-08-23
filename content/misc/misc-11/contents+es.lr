@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Puedo cambiar el número de saltos que usa Tor?
 ---
-seo_slug: change-the-number-of-hops-tor-uses
+seo_slug: cambiar-el-número-de-saltos-de-los-usuarios-de-tor
 ---
 description:
 Ahora mismo la longitud de la ruta está internamente codificada en 3 más el número de nodos en tu ruta que sean sensibles.

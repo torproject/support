@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Hay soporte para *BSD?
 ---
-seo_slug: is-there-support-for-bsd
+seo_slug: hay-soporte-para-bsd
 ---
 description:
 Lo sentimos, pero actualmente no hay soporte oficial para ejecutar el navegador Tor sobre *BSD.

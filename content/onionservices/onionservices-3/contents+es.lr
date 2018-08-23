@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¡No puedo entrar en X.onion!
 ---
-seo_slug: i-cannot-reach-x-dot-onion
+seo_slug: no-puedo-alcanzar-el-punto-x-de-onion
 ---
 description:
 Si no puedes alcanzar el servicio onion que deseas, asegúrate de que has introducido la dirección onion de 16 caracteres correctamente: un pequeño error evitará que el navegador Tor sea capaz de alcanzar el sitio.
