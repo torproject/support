@@ -2,10 +2,10 @@ _model: question
 ---
 title: Comment puis-je accélérer Tor ? Le Navigateur Tor est-il plus lent que les autres navigateurs ?
 ---
-seo_slug: make-tor-faster
+seo_slug: rendre-tor-plus-rapide
 ---
 description:
-Using Tor Browser can sometimes be slower than other browsers.
+L'utilisation du Navigateur Tor peut parfois s'avérer plus lente que les autres navigateurs.
 Le réseau Tor répond à plus d’un million d’utilisateurs par jour, avec seulement 6 000 relais pour acheminer tout leur trafic.
 Vous pouvez aider à améliorer la vitesse du réseau en exécutant votre propre relais ou en encourageant les autres à le faire.
-That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.
+Cela dit, Tor est beaucoup plus rapide qu'auparavant, et en pratique, vous ne remarquerez peut-être aucun ralentissement par rapport aux autres navigateurs.

@@ -1,46 +1,46 @@
 _model: question
 ---
-title: How do I run an exit relay on Debian?
+title: Comment puis-je installer un relais de sortie sous Debian ?
 ---
-seo_slug: how-do-i-run-an-exit
+seo_slug: comment-puis-je-gerer-une-sortie
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+Pour l'information la plus détaillée concernant la gestion d'un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guide sur les relais Tor</a></mark>.
 
-* Review our <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Exit relay guidelines</a></mark>
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* Passez en revue nos <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">lignes directrices concernant les relais de sortie</a></mark>
+* Exécutez "apt-get install tor" (comme super-utilisateur)
+* Assurez vous que votre horloge, la date et votre fuseau horaire sont réglés correctement. Installez le paquet ntp ou openntpd (ou similaire) pour que cela reste le cas.
+* Éditez /etc/tor/torrc pour qu'il ressemble à cela :
 
 
-    ## Set the nickname of this relay
+    ## Définissez le surnom de ce relais
     Nickname ididnteditheconfig
 
-    ## Set your own contact info
+    ## Définissez votre propre information de contact
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
     ORPort 9001
     DirPort 9030
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
-    #Address noname.example.com
+    ## L'adresse IP ou le nom d'hôte pour les connexions entrantes (laissez commenté et Tor déterminera cela)
+    #Adresse noname.example.com
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s'exécutera sans limite de bande passante)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-    ## If you control multiple relays, include then in the family
+    ## Si vous contrôlez plusieurs relais, incluez les dans la famille
     #MyFamily $keyid,$keyid,...
 
 
-* Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-  This step is usually fast, but it may take a few minutes.
-  Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-  If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
-* When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+* Exécutez "service tor reload" (comme super-utilisateur)
+* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l'extérieur.
+  Cette étape est habituellement rapide, mais elle pourrait prendre quelques minutes.
+  Cherchez une entrée de journal dans votre /var/log/syslog qui ressemble à « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
+  Si vous me voyez pas ce message, cela signifie que votre relais n'est pas accessible depuis l'extérieur.
+  Vous devriez à nouveau vérifier vos pare-feux, que l'IP et les ports que vous avez spécifié dans votre torrc sont corrects, etc.
+Lorsqu'il a confirmé qu'il était accessible, il téléversera un « descriptif de serveur » vers les autorités de répertoire pour que les clients sachent quelle adresse, quels ports, quelles clés, etc votre relais utilise.
   After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-  If it hasn't, re-check firewalls, IP and ports again.
+  Si ce n'est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos ports.
 
-Consider if you'd like to switch to the <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Reduced exit policy</a></mark>.
+Prenez en considération la possibilité de basculer vers la <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Politique de sortie réduite</a></mark>.

@@ -2,9 +2,9 @@ _model: question
 ---
 title: J'éprouve des difficultés à utiliser des fonctions sur Facebook, Twitter ou d'autres sites Web quand j’utilise le Navigateur Tor.
 ---
-seo_slug: tor-browser-issues-facebook-twitter-websites
+seo_slug: navigateur-tor-problemes-sites-facebook-twitter
 ---
 description:
-Sometimes Javascript-heavy websites can have functional issues over Tor Browser.
-The simplest fix is to click on the "onion menu," then click on the security slider.
-Set your security to "Standard".
+Les sites Web faisant particulièrement appel à JavaScript peuvent parfois présenter des problèmes de fonctionnement avec le Navigateur Tor.
+Pour corriger cela, il suffit de cliquer sur le menu oignon puis sur le curseur de sécurité.
+Réglez votre niveau de sécurité à « Normal ».

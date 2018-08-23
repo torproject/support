@@ -2,8 +2,8 @@ _model: question
 ---
 title: J’ai une raison impérieuse de suivre un utilisateur de Tor à la trace. Pouvez-vous m’aider ?
 ---
-seo_slug: tracing-tor-user
+seo_slug: suivre-utilisateur-de-tor
 ---
 description:
-There is nothing the Tor developers can do to trace Tor users.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.
+Les développeurs de Tor ne peuvent rien faire pour tracer les utilisateurs de Tor.
+Les mêmes protections qui empêchent les personnes mal intentionnées de percer l’anonymat de Tor nous empêchent aussi de suivre les utilisateurs.

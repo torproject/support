@@ -2,7 +2,7 @@ _model: question
 ---
 title: Puis-je faire du Navigateur Tor mon navigateur par défaut ?
 ---
-seo_slug: make-tor-browser-default-browser
+seo_slug: rendre-navigateur-tor-navigateur-par-defaut
 ---
 description:
-Unfortunately, there is no supported way to make Tor Browser your default browser.
+Il n’existe malheureusement aucune façon prise en charge de faire du Navigateur Tor votre navigateur par défaut.

@@ -2,11 +2,11 @@ _model: question
 ---
 title: Puis-je changer le nombre de sauts utilisés par Tor ?
 ---
-seo_slug: change-the-number-of-hops-tor-uses
+seo_slug: changer-le-nombre-de-sauts-que-tor-utilise
 ---
 description:
-Right now the path length is hard-coded at 3 plus the number of nodes in your path that are sensitive.
-That is, in normal cases it's 3, but for example if you're accessing an onion service or a ".exit" address it could be more.
+En ce moment la longueur des chemins est fixée dans le code à 3 plus le nombre de nœuds sur votre chemin qui sont sensibles.
+C'est-à-dire qu'en temps normal c'est 3, mais que si vous accédez à un service oignon ou à une adresse en « .exit » ça pourrait être plus.
 
 Nous ne voulons pas encourager l’utilisation de chemins plus longs, car cela augmente la charge du réseau sans (d’après ce que nous pouvons voir) fournir une sécurité accrue.
-Also, using paths longer than 3 could harm anonymity, first because it makes<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denial of security</a></mark> attacks easier, and second because it could act as an identifier if only a small number of users have the same path length as you.
+De plus, utiliser des chemins plus longs que 3 pourrait nuire à l'anonymat, d'une part parce que ça rend les attaques de <mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">déni de sécurité</a></mark> plus faciles, et d'autre part parce que ça pourrait être un signe distinctif si seul un petit nombre d'utilisateurs utilisait la même longueur de chemin que vous.
