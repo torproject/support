@@ -1,18 +1,18 @@
 # Translators:
-# French language coordinator <french.coordinator@rbox.me>, 2018
-# Emma Peel, 2018
-# Brendan Abolivier <transifex@brendanabolivier.com>, 2018
+# AO French coordinator <ao@localizationlab.org>, 2018
 # Madeline Earp <madelineearp@gmail.com>, 2018
 # Simon-Olivier Morneau <smorn026@uottawa.ca>, 2018
 # Towinet, 2018
 # N W, 2018
+# Emma Peel, 2018
+# Brendan Abolivier <transifex@brendanabolivier.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-19 10:08+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: N W, 2018\n"
+"Last-Translator: Brendan Abolivier <transifex@brendanabolivier.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: http//localhost/ (content/contents+en.lrshowcase.title)
 msgid "How can we help?"
-msgstr "Comment pouvons-nous vous aider?"
+msgstr "Comment pouvons-nous vous aider ?"
 
 #: http//localhost/faq/ (content/faq/contents+en.lrtopic.title)
 msgid "Most Frequently Asked Questions"
@@ -120,8 +120,8 @@ msgstr "divers"
 msgid ""
 "When I use Tor Browser, will anyone be able to tell which websites I visit?"
 msgstr ""
-"Quand j’utilise le Navigateur Tor, quelqu’un peut-il savoir quel site Web je"
-" visite ?"
+"Si j’utilise le Navigateur Tor, quelqu’un peut-il savoir quel site Web je "
+"visite ?"
 
 #: http//localhost/faq/faq-1/
 #: (content/faq/faq-1/contents+en.lrquestion.description)
@@ -129,7 +129,7 @@ msgstr ""
 #: (content/tbb/tbb-3/contents+en.lrquestion.description)
 msgid "Tor Browser prevents people from knowing the websites you visit."
 msgstr ""
-"Le Navigateur Tor permet d'empêcher que d'autres personnes connaissent les "
+"Le Navigateur Tor permet d’empêcher que d’autres personnes connaissent les "
 "sites que vous visitez."
 
 #: http//localhost/faq/faq-1/
@@ -141,14 +141,14 @@ msgid ""
 "see that you're using Tor, but they won't know where you're going when you "
 "do."
 msgstr ""
-"Certaines organisations, comme votre Fournisseur d'Accès à Internet (FAI), "
+"Certaines organisations, comme votre Fournisseur d’Accès à Internet (FAI), "
 "peuvent voir que vous utilisez Tor, mais ils ne sont pas en mesure de "
-"connaître votre destination quand c'est le cas."
+"connaître votre destination quand c’est le cas."
 
 #: http//localhost/faq/faq-1/
 #: (content/faq/faq-1/contents+en.lrquestion.seo_slug)
 msgid "will-anyone-be-able-to-tell-which-website-i-visit"
-msgstr "quelqu-un-peut-il-savoir-quel-site-web-je-visite"
+msgstr "quelqu’un-peut-il-savoir-quel-site-web-je-visite"
 
 #: http//localhost/faq/faq-2/ (content/faq/faq-2/contents+en.lrquestion.title)
 #: http//localhost/tbb/tbb-8/ (content/tbb/tbb-8/contents+en.lrquestion.title)
@@ -186,10 +186,10 @@ msgid ""
 "Browser</a></mark> and then using it to navigate to the blocked site will "
 "allow access."
 msgstr ""
-"La plupart du temps, le simple fait de télécharger le <mark><a "
+"La plupart du temps, il suffira de télécharger le <mark><a "
 "href=\"https://www.torproject.org/download/download-"
-"easy.html.en\">Navigateur Tor</a></mark>et de l'utiliser pour naviguer "
-"jusqu'au site bloqué permettra l'accès."
+"easy.html.en\">Navigateur Tor</a></mark> et de l’utiliser pour naviguer vers"
+" le site bloqué pour y accéder."
 
 #: http//localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lrquestion.description)
@@ -203,8 +203,8 @@ msgid ""
 "href=\"https://www.torproject.org/docs/pluggable-"
 "transports.html.en\">pluggable transports</a></mark>."
 msgstr ""
-"Pour les endroits soumis à une lourde censure, de nombreuses options de "
-"contournement sont disponibles, dont les ​<mark><a "
+"Pour les endroits soumis à une forte censure, de nombreuses options de "
+"contournement sont offertes, dont les ​<mark><a "
 "href=\"https://www.torproject.org/docs/pluggable-"
 "transports.html.en\">transports enfichables</a></mark>."
 
@@ -220,15 +220,16 @@ msgid ""
 " <mark><a href=\"https://tb-manual.torproject.org/en-"
 "US/circumvention.html\">censorship</a></mark>."
 msgstr ""
-"Pour plus d'information, veuillez vous référer à la section du <mark><a "
-"href=\"https://tb-manual.torproject.org/en-US/\">manuel d'utilisateur du "
-"Navigateur Tor</a></mark> concernant la <mark><a href=\"https://tb-"
-"manual.torproject.org/en-US/circumvention.html\">censure</a></mark>."
+"Pour de plus amples renseignements, veuillez consulter la rubrique sur la "
+"<mark><a href=\"https://tb-manual.torproject.org/en-"
+"US/circumvention.html\">censure</a></mark> du <mark><a href=\"https://tb-"
+"manual.torproject.org/en-US/\">​guide d’utilisation du Navigateur "
+"Tor</a></mark>."
 
 #: http//localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lrquestion.seo_slug)
 msgid "can-tor-help-users-access-website"
-msgstr "tor-peut-il-aider-les-utilisateurs-a-acceder-a-un-site"
+msgstr "tor-peut-il-aider-les-utilisateurs-à-accéder-a-un-site"
 
 #: http//localhost/faq/faq-3/ (content/faq/faq-3/contents+en.lrquestion.title)
 #: http//localhost/tbb/tbb-14/
@@ -238,7 +239,7 @@ msgid ""
 " or uBlock Origin?"
 msgstr ""
 "Devrais-je installer une nouvelle extension dans le Navigateur Tor, comme "
-"AdBlock Plus or uBlock Origin ?"
+"AdBlock Plus ou uBlock Origin ?"
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
@@ -248,7 +249,7 @@ msgid ""
 "It's strongly discouraged to install new add-ons in Tor Browser, because "
 "they can compromise your privacy and security."
 msgstr ""
-"Il est fortement déconseillé d'installer des extensions supplémentaires dans"
+"Il est fortement déconseillé d’installer des extensions supplémentaires dans"
 " le Navigateur Tor, car elles peuvent compromettre votre confidentialité et "
 "votre sécurité."
 
@@ -261,19 +262,19 @@ msgid ""
 "NoScript — and adding anything else could deanonymize you."
 msgstr ""
 "Le Navigateur Tor comprend déjà deux extensions pré-installées — HTTPS "
-"Everywhere et NoScript — et ajouter quoi que ce soit d'autre pourrait vous "
+"Everywhere et NoScript — et ajouter quoi que ce soit d’autre pourrait vous "
 "faire perdre votre anonymat."
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.seo_slug)
 msgid "install-add-on-extension-tor-browser"
-msgstr "installer-module-complementaire-extension-navigateur-tor"
+msgstr "installer-module-complémentaire-extension-navigateur-tor"
 
 #: http//localhost/faq/faq-4/ (content/faq/faq-4/contents+en.lrquestion.title)
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.title)
 msgid "Which platforms is Tor Browser available for?"
-msgstr "Sur quelles plateformes le Navigateur Tor est-il disponible ?"
+msgstr "Pour quelles plateformes le Navigateur Tor est-il proposé ?"
 
 #: http//localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lrquestion.description)
@@ -308,7 +309,7 @@ msgstr ""
 #: http//localhost/misc/misc-13/
 #: (content/misc/misc-13/contents+en.lrquestion.title)
 msgid "Can I use a VPN with Tor?"
-msgstr "Puis-je utiliser un VPN avec Tor ?"
+msgstr "Puis-je utiliser un RPV avec Tor ?"
 
 #: http//localhost/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.description)
@@ -320,7 +321,7 @@ msgid ""
 "compromise your privacy."
 msgstr ""
 "En général, nous recommandons de ne pas utiliser un VPN avec Tor à moins que"
-" vous ne soyez un utilisateur avancé sachant configurer l'un et l'autre de "
+" vous ne soyez un utilisateur avancé sachant configurer l’un et l’autre de "
 "manière à ne pas compromettre votre confidentialité."
 
 #: http//localhost/faq/faq-5/
@@ -332,8 +333,7 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN\">our "
 "wiki</a></mark>."
 msgstr ""
-"Vous pouvez trouver de l'information plus détaillée sur Tor + VPN sur "
-"<mark><a "
+"De plus amples renseignements sur Tor + RPV se trouvent sur <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN\">notre "
 "wiki</a></mark>."
 
@@ -342,7 +342,7 @@ msgstr ""
 #: http//localhost/misc/misc-13/
 #: (content/misc/misc-13/contents+en.lrquestion.seo_slug)
 msgid "use-vpn-with-tor"
-msgstr "utiliser-un-vpn-avec-tor"
+msgstr "utiliser-un-rpv-avec-tor"
 
 #: http//localhost/tbb/tbb-1/ (content/tbb/tbb-1/contents+en.lrquestion.title)
 msgid ""
@@ -358,9 +358,9 @@ msgid ""
 "Whenever we release a new stable version of Tor Browser, we write a blog "
 "post that details its new features and known issues."
 msgstr ""
-"Chaque fois que nous publions une nouvelle version stable du Navigateur Tor,"
-" nous écrivons un billet de blog qui détaille ses nouvelles fonctionnalités "
-"ainsi que les problèmes connus."
+"Quand nous publions une nouvelle version stable du Navigateur Tor, nous "
+"rédigeons un billet de blogue qui explique en détail ses nouvelles fonctions"
+" et ses problèmes connus."
 
 #: http//localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lrquestion.description)
@@ -370,11 +370,11 @@ msgid ""
 "href=\"https://blog.torproject.org></a>blog.torproject.org</mark> for the "
 "most recent stable Tor Browser post to see if your issue is listed."
 msgstr ""
-"Si vous vous êtes mis à avoir des problèmes avec votre Navigateur Tor après "
-"une mise à jour, consultez le post concernant la version stable du "
-"Navigateur Tor la plus récente sur <mark><a "
-"href=\"https://blog.torproject.org></a>blog.torproject.org</mark> pour voir "
-"si votre problème est listé."
+"Si vous avez commencé à éprouver des problèmes avec votre Navigateur Tor à "
+"la suite d’une mise à jour, consultez le dernier billet concernant la "
+"version stable du Navigateur Tor sur <mark><a "
+"href=\"https://blog.torproject.org></a>​blog.torproject.org</mark> et voyez "
+"si votre problème s’y trouve. "
 
 #: http//localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lrquestion.description)
@@ -383,14 +383,14 @@ msgid ""
 "href=\"https://trac.torproject.org\">bug report</a></mark> about what you're"
 " experiencing."
 msgstr ""
-"Si votre problème n'est pas listé, veuillez déposer un <mark><a "
-"href=\"https://trac.torproject.org\">rapport de bogue</a></mark> à propos du"
-" problème que vous rencontrez."
+"Si votre problème n’est pas listé, veuillez remplir un <mark><a "
+"href=\"https://trac.torproject.org\">rapport de bogue</a></mark> sur le "
+"problème que vous rencontrez."
 
 #: http//localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lrquestion.seo_slug)
 msgid "most-common-issues-latest-stable-tor-browser"
-msgstr "problemes-les-plus-courants-derniere-version-stable-navigateur-tor"
+msgstr "problèmes-les-plus-courants-dernière-version-stable-navigateur-tor"
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.title)
@@ -407,9 +407,9 @@ msgid ""
 "Most antivirus or malware protection allows the user to \"whitelist\" "
 "certain processes that would otherwise be blocked."
 msgstr ""
-"La plupart des logiciels antivirus et des protections contre les programmes "
-"malveillants permettent à l'utilisateur de placer certains processus qui "
-"seraient autrement bloqués en \"liste blanche\"."
+"La plupart des antivirus ou des protections contre les programmes "
+"malveillants permettent à l’utilisateur de « mettre en liste blanche » "
+"certains processus qui seraient autrement être bloqués."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -418,13 +418,13 @@ msgid ""
 "settings for a \"whitelist\" or something similar."
 msgstr ""
 "Ouvrez votre logiciel antivirus ou de protection contre les programmes "
-"malveillants et cherchez dans les paramètres une liste blanche ou quelque "
-"chose de similaire."
+"malveillants et cherchez dans les paramètres une « liste blanche » ou "
+"quelque chose de semblable."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
 msgid "Next, exclude the following processes:"
-msgstr "Ensuite, excluez les processus suivants:"
+msgstr "Excluez ensuite les processus suivants :"
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -488,7 +488,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.seo_slug)
 msgid "antivirus-blocking-tor"
-msgstr "antivirus-bloque-tor"
+msgstr "antivirus-bloquer-tor"
 
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.title)
@@ -502,7 +502,7 @@ msgstr ""
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
 msgid "The file you download and run prompts you for a destination."
 msgstr ""
-"Le fichier que vous avez téléchargé et exécuté vous demande d'entrer un "
+"Le fichier que vous avez téléchargé et exécuté vous demande d’entrer un "
 "dossier de destination."
 
 #: http//localhost/tbb/tbb-11/
@@ -511,8 +511,8 @@ msgid ""
 "If you don't remember what this destination was, it's most likely your "
 "Downloads or Desktop folder."
 msgstr ""
-"Si vous ne vous souvenez pas de ce qu'était le dossier de destination, il "
-"s'agit très probablement de votre dossier Téléchargement ou Bureau."
+"Si vous ne vous souvenez pas de ce qu’était le dossier de destination, il "
+"s’agit très probablement de votre dossier Téléchargement ou Bureau."
 
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
@@ -523,7 +523,7 @@ msgid ""
 msgstr ""
 "Les paramètres par défaut du programme d’installation pour Windows crée "
 "également un raccourci pour vous sur votre Bureau, mais il est possible que "
-"vous ayez accidentellement décoché l'option pour créer un raccourci."
+"vous ayez accidentellement décoché l’option pour créer un raccourci."
 
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
@@ -531,7 +531,7 @@ msgid ""
 "If you can't find it in either of those folders, download it again and look "
 "for the prompt that asks you to choose a directory to download it in."
 msgstr ""
-"Si vous ne le trouvez pas dans l'un de ces dossiers, téléchargez-le à "
+"Si vous ne le trouvez pas dans l’un de ces dossiers, téléchargez-le à "
 "nouveau et cherchez la section vous demandant de choisir un répertoire dans "
 "lequel effectuer le téléchargement."
 
@@ -570,8 +570,8 @@ msgid ""
 "piece of software that can easily compromise your privacy or serve you "
 "malware."
 msgstr ""
-"Nous ne pensons pas que Flash soit sûr d'utilisation dans n'importe quel "
-"navigateur — c'est un logiciel très mal sécurisé, qui peut aisément "
+"Nous ne pensons pas que Flash soit sûr d’utilisation dans n’importe quel "
+"navigateur — c’est un logiciel très mal sécurisé, qui peut aisément "
 "compromettre votre confidentialité ou vous exposer à des programmes "
 "malveillants."
 
@@ -582,7 +582,7 @@ msgid ""
 " the use of Flash."
 msgstr ""
 "Heureusement, la plupart des sites, des appareils, et des autres navigateurs"
-" se détournent de l'utilisation de Flash."
+" se détournent de l’utilisation de Flash."
 
 #: http//localhost/tbb/tbb-12/
 #: (content/tbb/tbb-12/contents+en.lrquestion.seo_slug)
@@ -608,9 +608,9 @@ msgid ""
 "have their connections routed over the Tor network, and will not be "
 "protected."
 msgstr ""
-"Les connexions de toutes les autres applications sur votre système (y "
-"compris des autres navigateurs) ne seront pas acheminées par le réseau Tor "
-"et ne seront pas protégées."
+"Les connexions de toutes les autres applications sur votre système (dont les"
+" autres navigateurs) ne seront pas acheminées par le réseau Tor ni ne seront"
+" pas protégées."
 
 #: http//localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lrquestion.description)
@@ -633,12 +633,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-protecting-other-apps"
-msgstr "navigateur-tor-proteger-d-autres-applications"
+msgstr "navigateur-tor-protéger-d’autres-applis"
 
 #: http//localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lrquestion.seo_slug)
 msgid "installing-add-on-extensions-tor-browser"
-msgstr "installer-modules-complementaires-extensions-navigateur-tor"
+msgstr "installer-modules-complémentaires-extensions-navigateur-tor"
 
 #: http//localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lrquestion.title)
@@ -651,14 +651,14 @@ msgid ""
 "Unfortunately, we don't yet have a version of Tor Browser for ChromeOS."
 msgstr ""
 "Malheureusement, nous n’avons pas encore de version du Navigateur Tor pour "
-"Chrome OS.</p>"
+"Chrome OS."
 
 #: http//localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lrquestion.seo_slug)
 #: http//localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.seo_slug)
 msgid "download-tor-browser-chromeos"
-msgstr "telecharger-navigateur-tor-chromeos"
+msgstr "télécharger-navigateur-tor-chromeos"
 
 #: http//localhost/tbb/tbb-16/
 #: (content/tbb/tbb-16/contents+en.lrquestion.title)
@@ -679,8 +679,8 @@ msgid ""
 "selection to Tor; overriding the entry / exit nodes can compromise your "
 "anonymity."
 msgstr ""
-"Vous obtenez la meilleure sécurité que Tor puisse fournir en laissant Tor "
-"sélectionner la route; modifier les nœuds d’entrée et de sortie peut "
+"En laissant Tor sélectionner la route, vous obtenez la meilleure sécurité "
+"que Tor puisse fournir ; remplacer les nœuds d’entrée et de sortie peut "
 "compromettre votre anonymat."
 
 #: http//localhost/tbb/tbb-16/
@@ -690,7 +690,7 @@ msgid ""
 "only available in one country, you may want to consider using a VPN instead "
 "of using Tor."
 msgstr ""
-"Si votre objectif est simplement d'accéder aux ressources qui ne sont "
+"Si votre objectif est simplement d’accéder aux ressources qui ne sont "
 "disponibles que dans un seul pays, vous devriez envisager d’utiliser un VPN "
 "au lieu de Tor."
 
@@ -702,7 +702,7 @@ msgid ""
 msgstr ""
 "Veuillez noter que les VPNs ne proposent pas les mêmes propriétés de "
 "confidentialité que Tor, mais ils aident à résoudre certains problèmes de "
-"restriction liées à l'emplacement géographique."
+"restriction liées à l’emplacement géographique."
 
 #: http//localhost/tbb/tbb-16/
 #: (content/tbb/tbb-16/contents+en.lrquestion.seo_slug)
@@ -713,8 +713,8 @@ msgstr "choisir-mon-pays-de-sortie"
 #: (content/tbb/tbb-17/contents+en.lrquestion.title)
 msgid "Is it safe to run Tor Browser and another browser at the same time?"
 msgstr ""
-"Est-il sûr d'utiliser le Navigateur Tor et un autre navigateur en même temps"
-" ?"
+"Puis-je utiliser le Navigateur Tor et un autre navigateur en même temps en "
+"toute sécurité ?"
 
 #: http//localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lrquestion.description)
@@ -741,7 +741,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lrquestion.seo_slug)
 msgid "run-tor-browser-and-different-browser"
-msgstr "utiliser-navigateur-tor-et-different-navigateur"
+msgstr "exécuter-navigateur-tor-et-diférrent-navigateur"
 
 #: http//localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lrquestion.title)
@@ -763,7 +763,7 @@ msgid ""
 "There is something called the TorBSD project, but their Tor Browser is not "
 "officially supported."
 msgstr ""
-"Il existe quelque chose qui s'appelle le Projet TorBSD, mais leur Navigateur"
+"Il existe quelque chose qui s’appelle le Projet TorBSD, mais leur Navigateur"
 " Tor n’est pas pris en charge officiellement."
 
 #: http//localhost/tbb/tbb-18/
@@ -779,7 +779,7 @@ msgstr "bsd-est-il-pris-en-charge"
 #: (content/censorship/censorship-6/contents+en.lrquestion.title)
 msgid "I can’t connect to Tor Browser, is my network censored?"
 msgstr ""
-"Je n'arrive pas à me connecter au Navigateur Tor, mon réseau est-il censuré "
+"Je n’arrive pas à me connecter au Navigateur Tor, mon réseau est-il censuré "
 "?"
 
 #: http//localhost/tbb/tbb-19/
@@ -792,7 +792,7 @@ msgid ""
 "You might be on a censored network, and so you should try using bridges."
 msgstr ""
 "Il se peut que vous soyez sur un réseau censuré, et vous devriez donc "
-"essayer d'utiliser des ponts."
+"essayer d’utiliser des ponts."
 
 #: http//localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -820,7 +820,7 @@ msgid ""
 "If you need other bridges, you can get them at our <mark><a "
 "href=\"https://bridges.torproject.org/\">Bridges website</a></mark>."
 msgstr ""
-"S'il vous faut d'autres ponts, vous pouvez en obtenir sur notre <mark><a "
+"S’il vous faut d’autres ponts, vous pouvez en obtenir sur notre <mark><a "
 "href=\"https://bridges.torproject.org/\">site Web BridgeDB</a></mark>."
 
 #: http//localhost/tbb/tbb-19/
@@ -833,14 +833,14 @@ msgid ""
 "For more information about bridges, see the <mark><a href=\"https://tb-"
 "manual.torproject.org/en-US/bridges.html\">Tor Browser manual</a></mark>."
 msgstr ""
-"Pour plus d'information à propos des ponts, veuillez vous référer au "
-"<mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">manuel"
-" du Navigateur Tor</a></mark>."
+"Pour de plus amples renseignements concernant les ponts, consulter le "
+"​<mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">guide"
+" d’utilisation du Navigateur Tor</a></mark>."
 
 #: http//localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.seo_slug)
 msgid "cannot-connect-to-tor-browser-network-censored"
-msgstr "impossible-de-se-connecter-au-navigateur-tor-reseau-censure"
+msgstr "impossible-connecter-navigateur-tor-réseau-censuré"
 
 #: http//localhost/tbb/tbb-2/ (content/tbb/tbb-2/contents+en.lrquestion.title)
 msgid "Why is the first IP address in my relay circuit always the same?"
@@ -851,14 +851,14 @@ msgstr ""
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
 msgid "That is normal Tor behavior."
-msgstr "C'est le comportement normal de Tor."
+msgstr "C’est le comportement normal de Tor."
 
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
 msgid "The first relay in your circuit is called an \"entry guard\" or \"guard\"."
 msgstr ""
-"Le premier relais de votre circuit est appelé « garde d'entrée » ou « garde "
-"»."
+"Le premier relais de votre circuit est appelé « garde d’entrée » ou « de "
+"garde »."
 
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
@@ -866,9 +866,9 @@ msgid ""
 "It is a fast and stable relay that remains the first one in your circuit for"
 " 2-3 months in order to protect against a known anonymity-breaking attack."
 msgstr ""
-"Il s'agit d'un relais rapide et stable qui reste le premier relais de votre "
+"Il s’agit d’un relais rapide et stable qui reste le premier relais de votre "
 "circuit pendant 2 à 3 mois afin de vous protéger contre une attaque de "
-"rupture d'anonymat connue."
+"rupture d’anonymat connue."
 
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
@@ -877,7 +877,7 @@ msgid ""
 "together these relays provide the full privacy protections of Tor."
 msgstr ""
 "Le reste de votre circuit change pour chaque nouveau site Web que vous "
-"visitez, et ces relais fournissent ensemble la protection complète de la "
+"visitez. Ensemble, ces relais fournissent la protection complète de la "
 "confidentialité offerte par Tor."
 
 #: http//localhost/tbb/tbb-2/
@@ -889,17 +889,17 @@ msgid ""
 "users.cs.umn.edu/~hoppernj/single_guard.pdf\">paper</a></mark> on entry "
 "guards."
 msgstr ""
-"Pour de plus amples renseignements sur le fonctionnement des relais gardes, "
-"consultez ce <mark><a href=\"https://blog.torproject.org/improving-tors-"
-"anonymity-changing-guard-parameters\">billet de blog</a></mark> et cet "
-"<mark><a href=\"https://www-"
-"users.cs.umn.edu/~hoppernj/single_guard.pdf\">article (en "
-"anglais)</a></mark> sur les gardes d’entrée."
+"Pour de plus amples renseignements sur le fonctionnement des relais de "
+"garde, consulter ce <mark><a href=\"https://blog.torproject.org/improving-"
+"tors-anonymity-changing-guard-parameters\">billet de blogue</a></mark> et "
+"cet <mark><a href=\"https://www-"
+"users.cs.umn.edu/~hoppernj/single_guard.pdf\">article</a></mark>(en anglais)"
+" sur les gardes d’entrée."
 
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.seo_slug)
 msgid "first-address-relay-circuit"
-msgstr "premiere-adresse-circuit-de-relais"
+msgstr "première-adresse-circuit-relais"
 
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.title)
@@ -921,7 +921,7 @@ msgid ""
 "is an incorrect system clock."
 msgstr ""
 "L’un des problèmes les plus courants qui entraîne des erreurs de connexion "
-"du Navigateur Tor est que l'horloge de votre système n’est pas à l’heure."
+"du Navigateur Tor est que l’horloge de votre système n’est pas à l’heure."
 
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.description)
@@ -941,8 +941,8 @@ msgid ""
 "<mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">Tor "
 "Browser manual</a></mark>."
 msgstr ""
-"Si le problème persiste, consultez la page Dépannage du <mark><a "
-"href=\"https://tb-manual.torproject.org/en-US/bridges.html\">manuel du "
+"Si le problème persiste, consulter la page Dépannage du <mark><a "
+"href=\"https://tb-manual.torproject.org/en-US/bridges.html\">guide du "
 "Navigateur Tor</a></mark>."
 
 #: http//localhost/tbb/tbb-20/
@@ -972,9 +972,9 @@ msgid ""
 " onion at the top-left of the screen), then \"Open Network Settings\", then "
 "\"Copy Tor Log To Clipboard\"."
 msgstr ""
-"Si le Navigateur Tor est déjà ouvert, cliquez sur l'icône Torbutton (le "
-"petit oignon vert en haut à gauche de l'écran), puis \"Ouvrir les paramètres"
-" réseaux\", et enfin \"Copier le journal de Tor dans le presse-papiers\"."
+"Si le navigateur est déjà ouvert, cliquez sur l’icône BoutonTor (le petit "
+"oignon vert en haut à gauche de l’écran), sur « Paramètres du réseau Tor », "
+"puis sur « Copier le journal de Tor dans le presse-papiers »."
 
 #: http//localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.description)
@@ -982,13 +982,13 @@ msgid ""
 "Once you have copied the log, you will be able to paste it into a text "
 "editor or email client."
 msgstr ""
-"Une fois que vous avez copié le journal, vous pouvez le coller dans un "
+"Une fois que vous aurez copié le journal, vous pourrez le coller dans un "
 "éditeur de texte ou un client de courriel."
 
 #: http//localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.seo_slug)
 msgid "view-tor-browser-message-log"
-msgstr "voir-journal-des-messages-navigateur-tor"
+msgstr "voir-journal-messages-navigateur-tor"
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.title)
@@ -1002,7 +1002,7 @@ msgstr ""
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
 msgid "Using Tor Browser can sometimes be slower than other browsers."
 msgstr ""
-"L'utilisation du Navigateur Tor peut parfois s'avérer plus lente que les "
+"L’utilisation du Navigateur Tor peut parfois s’avérer plus lente que les "
 "autres navigateurs."
 
 #: http//localhost/tbb/tbb-22/
@@ -1030,7 +1030,7 @@ msgid ""
 "That said, Tor is much faster than it used to be and you may not actually "
 "notice any change in speed from other browsers."
 msgstr ""
-"Cela dit, Tor est beaucoup plus rapide qu'auparavant, et en pratique, vous "
+"Cela dit, Tor est beaucoup plus rapide qu’auparavant, et en pratique, vous "
 "ne remarquerez peut-être aucun ralentissement par rapport aux autres "
 "navigateurs."
 
@@ -1071,7 +1071,7 @@ msgstr "moteur-de-recherche-navigateur-tor"
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.title)
 msgid "I'm having a problem with DuckDuckGo."
-msgstr "J'ai un problème avec DuckDuckGo."
+msgstr "J’ai un problème avec DuckDuckGo."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.description)
@@ -1080,7 +1080,7 @@ msgid ""
 "portal</a></mark>."
 msgstr ""
 "Veuillez consulter le <mark><a href=\"https://duck.co/help\">portail "
-"d'assistance de DuckDuckGo</a></mark>."
+"d’assistance de DuckDuckGo</a></mark>."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.description)
@@ -1094,17 +1094,17 @@ msgid ""
 msgstr ""
 "Si vous croyez que le problème provient du Navigateur Tor, veuillez le "
 "signaler sur notre ​<mark><a "
-"href=\"https://trac.torproject.org/\">gestionnaire de bogues</a></mark>.</p>"
+"href=\"https://trac.torproject.org/\">gestionnaire de bogues</a></mark>."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.seo_slug)
 msgid "problem-with-duckduckgo"
-msgstr "probleme-avec-duckduckgo"
+msgstr "problème-avec-duckduckgo"
 
 #: http//localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lrquestion.title)
 msgid "I'm having a problem with NoScript."
-msgstr "J'ai un problème avec NoScript."
+msgstr "J’ai un problème avec NoScript."
 
 #: http//localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lrquestion.description)
@@ -1118,12 +1118,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lrquestion.seo_slug)
 msgid "problem-noscript"
-msgstr "probleme-noscript"
+msgstr "problème-noscript"
 
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.title)
 msgid "I'm having a problem with HTTPS Everywhere."
-msgstr "J'ai un problème avec HTTPS partout."
+msgstr "J’ai un problème avec HTTPS partout."
 
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.description)
@@ -1132,12 +1132,12 @@ msgid ""
 "everywhere/faq\">HTTPS Everywhere</a></mark>."
 msgstr ""
 "Veuillez consulter la <mark><a href=\"https://www.eff.org/https-"
-"everywhere/faq\">FAQ de HTTPS Everywhere</a></mark>."
+"everywhere/faq\">FAQ de HTTPS partout</a></mark>."
 
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.seo_slug)
 msgid "problem-with-https-everywhere"
-msgstr "probleme-avec-https-everywhere"
+msgstr "problème-avec-https-partout-everywhere"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.title)
@@ -1175,8 +1175,8 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image4.png\" alt=\"New "
 "release alert\">"
 msgstr ""
-"<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"Alerte "
-"de nouvelle version\">"
+"<img class=\"card-img-top\" src=\"/static/images/image4.png\" alt=\"New "
+"release alert\">"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
@@ -1227,8 +1227,8 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New "
 "release alert\">"
 msgstr ""
-"<img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"Alerte "
-"de nouvelle version\">"
+"<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New "
+"release alert\">"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
@@ -1253,13 +1253,13 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"New "
 "release alert\">"
 msgstr ""
-"<img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"Alerte "
-"de nouvelle version\">"
+"<img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"New "
+"release alert\">"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.seo_slug)
 msgid "updating-tor-browser"
-msgstr "mettre-a-jour-le-navigateur-tor"
+msgstr "mettre-à-jour-navigateur-tor"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.title)
@@ -1269,7 +1269,7 @@ msgstr "Comment puis-je désinstaller le Navigateur Tor ?"
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
 msgid "Removing Tor Browser from your system is simple:"
-msgstr "Il est simple de supprimer le Navigateur Tor de votre système :"
+msgstr "Il est facile de supprimer le Navigateur Tor de votre système :"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
@@ -1283,7 +1283,7 @@ msgid ""
 "Applications folder (on macOS, you have to move it into the Applications "
 "folder when you complete the installation process)."
 msgstr ""
-"Sous Windows, l’emplacement par défaut est le bureau; sous macOS, c’est le "
+"Sous Windows, l’emplacement par défaut est le bureau ; sous macOS, c’est le "
 "dossier Applications (sous macOS, vous devez le déplacer dans le dossier "
 "Applications quand vous terminez le processus d’installation)."
 
@@ -1293,8 +1293,8 @@ msgid ""
 "On Linux, there is no default location, however the folder will be named "
 "\"tor-browser_en-US\" if you are running the English Tor Browser."
 msgstr ""
-"Sous Linux, il n'y a pas d'emplacement par défaut, mais le dossier "
-"s'appellera « tor-browser_fr » si vous utilisez le Navigateur Tor en "
+"Sous Linux, il n’y a pas d’emplacement par défaut, cependant le dossier "
+"s’appellera « tor-browser_fr » si vous utilisez le Navigateur Tor en "
 "français."
 
 #: http//localhost/tbb/tbb-28/
@@ -1319,7 +1319,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.seo_slug)
 msgid "uninstall-tor-browser"
-msgstr "desinstaller-le-navigateur-tor"
+msgstr "désinstaller-navigateur-tor"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.title)
@@ -1328,7 +1328,7 @@ msgid ""
 "particular site?"
 msgstr ""
 "Il y a-t-il une façon de changer l’adresse IP que le Navigateur Tor "
-"m’affecte pour un site particulier ?"
+"m’attribue pour un site particulier ?"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1336,8 +1336,8 @@ msgid ""
 "Tor Browser has two ways to change your relay circuit — \"New Identity\" and"
 " \"New Tor Circuit for this Site\"."
 msgstr ""
-"Le Navigateur Tor propose deux manières de changer votre circuit de relais —"
-" « Nouvelle identité » et « Nouveau circuit Tor pour ce site »."
+"Le Navigateur Tor propose deux façons de changer votre circuit de relais — «"
+" Nouvelle identité » et « Nouveau circuit Tor pour ce site »."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1356,8 +1356,8 @@ msgid ""
 "This option is useful if you want to prevent your subsequent browser "
 "activity from being linkable to what you were doing before."
 msgstr ""
-"Cette option est utile si vous souhaitez empêcher que votre activité de "
-"navigation à venir soit associée à ce que vous faisiez auparavant."
+"Cette option est utile si vous souhaitez empêcher que votre activité "
+"ultérieure de navigation soit associée à ce que vous faisiez auparavant."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1384,7 +1384,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "##### New Tor Circuit for this Site"
-msgstr "##### Nouveau Circuit Tor pour ce Site"
+msgstr "##### Nouveau circuit Tor pour ce site"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1402,8 +1402,8 @@ msgid ""
 "Selecting it will cause the currently-active tab or window to be reloaded "
 "over a new Tor circuit."
 msgstr ""
-"Sélectionner cette option entraînera le rechargement de l’onglet actuel ou "
-"de la fenêtre actuelle avec un nouveau circuit Tor."
+"Sélectionner cette option entraînera le rechargement de l’onglet ou de la "
+"fenêtre actuellement actifs avec un nouveau circuit Tor."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1420,7 +1420,7 @@ msgid ""
 "This option does not clear any private information or unlink your activity, "
 "nor does it affect your current connections to other websites."
 msgstr ""
-"Cette option n’efface aucun renseignement personnel, ni ne dissocie votre "
+"Cette option n’efface aucun renseignement personnel ni ne dissocie votre "
 "activité, ni n’affectera vos connexions actuelles à d’autres sites Web."
 
 #: http//localhost/tbb/tbb-29/
@@ -1445,7 +1445,7 @@ msgstr "changer-adresse-ip"
 #: http//localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lrquestion.seo_slug)
 msgid "tell-which-website-are-visited-while-using-tor-browser"
-msgstr "savoir-quel-site-sont-visites-en-utilisant-le-navigateur-tor"
+msgstr "savoir-quels-sites-sont-visités-utilisant-navigateur-tor"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.title)
@@ -1507,18 +1507,19 @@ msgstr ""
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.seo_slug)
 msgid "website-locks-torbrowser-out"
-msgstr "site-web-bloque-le-navigateur-tor"
+msgstr "site-web-bloque-navigateur-tor"
 
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.description)
 msgid "Tor Browser is currently available on Windows, Linux and OSX."
 msgstr ""
-"Le Navigateur Tor est actuellement disponible pour Windows, Linux et OS X."
+"Le Navigateur Tor est actuellement proposé pour Windows, Linux et macOS (OS "
+"X)."
 
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.seo_slug)
 msgid "which-platform-tor-browser-available"
-msgstr "quelles-plateformes-navigateur-tor-disponible"
+msgstr "quelle-plateforme-navigateur-tor-proposé-disponible"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.title)
@@ -1551,12 +1552,13 @@ msgid ""
 " anonymity-breaking."
 msgstr ""
 "Cela signifie que parfois un site Web se chargerait dans le Navigateur Tor, "
-"et parfois il se chargerait dans un autre navigateur."
+"et parfois il se chargerait dans un autre navigateur. Ce genre de "
+"comportement peut être dangereux et compromettre l’anonymat."
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.seo_slug)
 msgid "setting-tor-browser-as-default"
-msgstr "definir-navigateur-tor-comme-defaut"
+msgstr "définir-navigateur-tor-par-défaut"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.title)
@@ -1576,7 +1578,7 @@ msgid ""
 "This means that your computer will not be used to route traffic for others."
 msgstr ""
 "Cela signifie que votre ordinateur ne sera pas utilisé pour acheminer le "
-"trafic d'autres personnes."
+"trafic d’autres personnes."
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.description)
@@ -1586,7 +1588,7 @@ msgid ""
 "Relay Guide</a></mark>."
 msgstr ""
 "Si vous souhaitez devenir un relais, veuillez consulter notre <mark><a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Guide "
+"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">guide "
 "sur les relais Tor</a></mark> (en anglais)."
 
 #: http//localhost/tbb/tbb-33/
@@ -1616,7 +1618,7 @@ msgid ""
 "default because it would cause so many problems for them."
 msgstr ""
 "La plupart des utilisateurs abandonneraient Tor complètement si nous "
-"désactivions JavaScript par défaut, car cela leur causerait de nombreux "
+"désactivions JavaScript par défaut, car cela leur causerait tellement de "
 "problèmes."
 
 #: http//localhost/tbb/tbb-34/
@@ -1628,7 +1630,7 @@ msgid ""
 msgstr ""
 "En fin de compte, nous souhaitons rendre le Navigateur Tor aussi sûr que "
 "possible, tout en nous assurant qu’il soit utilisable par la majorité des "
-"gens, et pour l'instant, ça veut dire laisser Javascript activé par défaut."
+"gens, et pour l’instant, ça veut dire laisser Javascript activé par défaut."
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.description)
@@ -1654,12 +1656,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-js-enabled-default"
-msgstr "navigateur-tor-js-active-par-defaut"
+msgstr "navigateur-tor-js-activé-par-défaut"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.title)
 msgid "Can you get rid of all the captchas?"
-msgstr "Pouvez-vous vous débarrasser de tous les captchas ?"
+msgstr "Pouvez-vous me débarrasser de tous les captchas ?"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1668,7 +1670,7 @@ msgid ""
 "able to remove CAPTCHAs from websites."
 msgstr ""
 "Malheureusement, certains sites Web servent des CAPTCHAS aux utilisateurs de"
-" Tor, et il nous est impossible de retirer les CAPTCHAS des sites Web."
+" Tor et il nous est impossible de supprimer les CAPTCHAS des sites Web."
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1679,12 +1681,12 @@ msgid ""
 msgstr ""
 "La meilleure chose à faire dans cette situation est de contacter les "
 "propriétaires des sites Web et de les informer que leurs CAPTCHAS empêchent "
-"les utilisateurs comme vous d'utiliser leurs services."
+"les utilisateurs comme vous d’utiliser leurs services."
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.seo_slug)
 msgid "get-rid-of-captchas"
-msgstr "se-debarasser-des-captchas"
+msgstr "se-débarrasser-des-captchas"
 
 #: http//localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lrquestion.title)
@@ -1704,13 +1706,13 @@ msgstr ""
 #: http//localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lrquestion.seo_slug)
 msgid "run-multible-instances-of-tor-browser"
-msgstr "lancer-plusieurs-instances-du-navigateur-tor"
+msgstr "exécuter-navigateur-tor-plusieurs-fois-en-même-temps"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.title)
 msgid "I need Tor Browser in a language that's not English."
 msgstr ""
-"J'ai besoin du Navigateur Tor dans une langue et qui n'est pas lefrançais."
+"J’ai besoin du Navigateur Tor dans une langue et qui n’est pas le français."
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1813,8 +1815,8 @@ msgstr ""
 #: (content/tbb/tbb-38/contents+en.lrquestion.description)
 msgid "When using Tor Browser, no one can see the websites that you visit."
 msgstr ""
-"Lorsque vous utilisez le navigateur Tor, personne ne peut voir les sites que"
-" vous visitez."
+"Si vous utilisez le navigateur Tor, personne ne peut voir les sites que vous"
+" visitez."
 
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.description)
@@ -1823,14 +1825,14 @@ msgid ""
 "you're connecting to the Tor network, though they won't know what you're "
 "doing when you get there."
 msgstr ""
-"Néanmoins, votre fournisseur d'accès ou votre administrateur réseau "
+"Néanmoins, votre fournisseur d’accès ou votre administrateur réseau "
 "pourraient être en mesure de voir que vous vous connectez au réseau Tor, "
 "même si ils ne sauront pas ce que vous y faites."
 
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.seo_slug)
 msgid "network-admin-know-i-am-using-tor"
-msgstr "admin-reseau-savoir-que-j-utilise-tor"
+msgstr "admin-réseau-sait-que-j’utilise-tor"
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.title)
@@ -1838,8 +1840,8 @@ msgid ""
 "I’m having trouble using features on Facebook, Twitter, or some other "
 "website when I’m using Tor Browser."
 msgstr ""
-"J'éprouve des difficultés à utiliser des fonctions sur Facebook, Twitter ou "
-"d'autres sites Web quand j’utilise le Navigateur Tor."
+"J’éprouve des difficultés à utiliser des fonctions sur Facebook, Twitter ou "
+"d’autres sites Web quand j’utilise le Navigateur Tor."
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.description)
@@ -1856,24 +1858,24 @@ msgid ""
 "The simplest fix is to click on the \"onion menu,\" then click on the "
 "security slider."
 msgstr ""
-"Pour corriger cela, il suffit de cliquer sur le menu oignon puis sur le "
+"Pour corriger cela, il suffit de cliquer sur le menu oignon, puis sur le "
 "curseur de sécurité."
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.description)
 msgid "Set your security to \"Standard\"."
-msgstr "Réglez votre niveau de sécurité à « Normal »."
+msgstr "Réglez votre niveau de sécurité à « Normal »."
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-issues-facebook-twitter-websites"
-msgstr "navigateur-tor-problemes-sites-facebook-twitter"
+msgstr "navigateur-tor-problèmes-sites-web-facebook-twitter"
 
 #: http//localhost/tbb/tbb-4/ (content/tbb/tbb-4/contents+en.lrquestion.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
 msgstr ""
-"Pourquoi le Navigateur Tor est-il conçu à partir de Firefox et pas d'un "
-"autre navigateur ?"
+"Pourquoi le Navigateur Tor est-il conçu à partir de Firefox et pas d’un "
+"autre navigateur ?"
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.description)
@@ -1890,7 +1892,7 @@ msgid ""
 "A lot of work has been put into making the Tor Browser, including the use of"
 " extra patches to enhance privacy and security."
 msgstr ""
-"Le Navigateur Tor a demandé de grands efforts, y compris l'utilisation de "
+"Le Navigateur Tor a demandé de grands efforts, y compris l’utilisation de "
 "correctifs supplémentaires pour améliorer la confidentialité et la sécurité."
 
 #: http//localhost/tbb/tbb-4/
@@ -1900,7 +1902,7 @@ msgid ""
 "open yourself up to potential attacks or information leakage, so we strongly"
 " discourage it."
 msgstr ""
-"Bien qu'il soit techniquement possible d'utiliser Tor avec d'autres "
+"Bien qu’il soit techniquement possible d’utiliser Tor avec d’autres "
 "navigateurs, vous pourriez vous exposer à des attaques potentiels ou "
 "divulguer des renseignements."
 
@@ -1912,12 +1914,12 @@ msgid ""
 "about the design of Tor Browser</a></mark>."
 msgstr ""
 " <mark><a href=\"https://www.torproject.org/projects/torbrowser/design/\">En"
-" apprendre davantage sur la conception du Navigateur Tor</a></mark>.</p>"
+" apprendre davantage sur la conception du Navigateur Tor</a></mark>."
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-is-built-from-firefox-why"
-msgstr "navigateur-tor-concu--a-partir-de-firefox-pourquoi"
+msgstr "navigateur-tor-conçu-à-partir-de-firefox-pourquoi"
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.title)
@@ -1929,8 +1931,7 @@ msgstr ""
 #: (content/tbb/tbb-40/contents+en.lrquestion.description)
 msgid "In Tor Browser, every new domain gets its own circuit."
 msgstr ""
-"Dans le Navigateur Tor, chaque nouveau domaine est assigné à son propre "
-"circuit."
+"Dans le Navigateur Tor, chaque nouveau domaine obtient son propre circuit."
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.description)
@@ -1940,15 +1941,15 @@ msgid ""
 "Browser</a></mark> document further explains the thinking behind this "
 "design."
 msgstr ""
-"Le document intitulé <mark><a "
-"href=\"https://www.torproject.org/projects/torbrowser/design/#identifier-"
-"linkability\">La Conception et l'Implémentation du Navigateur "
-"Tor</a></mark>explique cette décision avec plus de détails."
+"Vous trouverez de plus amples renseignements à ce sujet dans le document "
+"<mark><a href=\"https://www.torproject.org/projects/torbrowser/design"
+"/#identifier-linkability\">La conception et la mise en œuvre du "
+"Navigateur</a></mark> Tor (en anglais)."
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.seo_slug)
 msgid "different-circuit-each-website"
-msgstr "circuit-different-chaque-site"
+msgstr "circuit-différent-chaque-site-web"
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.title)
@@ -1982,14 +1983,14 @@ msgid ""
 "search results which were basically unacceptable quality-wise."
 msgstr ""
 "Puisque Disconnect est plutôt un méta-moteur de recherche qui permet aux "
-"utilisateurs de choisir entre plusieurs fournisseurs de recherche, il s'est "
+"utilisateurs de choisir entre plusieurs fournisseurs de recherche, il s’est "
 "rabattu sur les résultats de Bing, qui étaient inacceptables en vue de leur "
 "qualité."
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.seo_slug)
 msgid "why-is-tor-using-duckduckgo"
-msgstr "pourquoi-est-ce-que-tor-utilise-duckduckgo"
+msgstr "pourquoi-tor-utilise-t-il-duckduckgo"
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.title)
@@ -2032,13 +2033,13 @@ msgstr ""
 "Si vous utilisez un antivirus, veuillez consulter <mark><a "
 "href=\"http://support.torproject.org/#tbb-10\">Mon antivirus ou ma "
 "protection contre les programmes malveillants m’empêche d’accéder au "
-"Navigateur Tor</a></mark>, il est fréquent que votre logiciel antivirus ou "
-"de défense contre les programmes malveillants provoque ce type de problème."
+"Navigateur Tor</a></mark>. Il n’est pas rare que les logiciels antivirus ou "
+"antiprogrammes malveillants provoquent ce genre de problème."
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-firefox-not-working-error"
-msgstr "erreur-navigateur-tor-firefox-ne-fonctionne-pas"
+msgstr "navigateur-tor-firefox-ne-fonctionne-pas-erreur"
 
 #: http//localhost/tbb/tbb-5/ (content/tbb/tbb-5/contents+en.lrquestion.title)
 msgid ""
@@ -2053,8 +2054,8 @@ msgstr ""
 msgid ""
 "You can certainly use another browser while you are also using Tor Browser."
 msgstr ""
-"Vous pouvez assurément utiliser un autre navigateur tout en utilisant le "
-"Navigateur Tor."
+"Vous pouvez assurément utiliser un autre navigateur alors que vous utilisez "
+"aussi le Navigateur Tor."
 
 #: http//localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.description)
@@ -2063,7 +2064,7 @@ msgid ""
 " be present in the other browser."
 msgstr ""
 "Néanmoins, sachez que les propriétés de confidentialité du Navigateur Tor ne"
-" seront pas présentes dans l'autre navigateur."
+" seront pas présentes dans l’autre navigateur."
 
 #: http//localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.description)
@@ -2072,9 +2073,9 @@ msgid ""
 "browser, because you may accidentally use the other browser for something "
 "you intended to do using Tor."
 msgstr ""
-"Soyez prudent lorsque vous basculez entre Tor et un navigateur moins "
-"sécuritaire, car vous pourriez accidentellement utiliser l'autre navigateur "
-"pour quelque chose que vous pensiez faire en utilisant Tor."
+"Soyez prudent en basculant entre Tor et un navigateur moins sécuritaire, car"
+" vous pourriez accidentellement utiliser l’autre navigateur pour quelque "
+"chose que vous pensiez faire en utilisant Tor."
 
 #: http//localhost/tbb/tbb-6/ (content/tbb/tbb-6/contents+en.lrquestion.title)
 msgid "Can I make Tor Browser my default browser?"
@@ -2092,13 +2093,13 @@ msgstr ""
 #: http//localhost/tbb/tbb-6/
 #: (content/tbb/tbb-6/contents+en.lrquestion.seo_slug)
 msgid "make-tor-browser-default-browser"
-msgstr "rendre-navigateur-tor-navigateur-par-defaut"
+msgstr "rendre-navigateur-tor-navigateur-par-défaut"
 
 #: http//localhost/tbb/tbb-7/ (content/tbb/tbb-7/contents+en.lrquestion.title)
 #: http//localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lrquestion.title)
 msgid "A website I am trying to reach is blocking access over Tor."
-msgstr "Un site Web auquel j'essaye d'accéder bloque l'accès via Tor."
+msgstr "Un site Web auquel j’essaye d’accéder bloque l’accès via Tor."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2108,9 +2109,9 @@ msgid ""
 "Sometimes websites will block Tor users because they can't tell the "
 "difference between the average Tor user and automated traffic."
 msgstr ""
-"Un site Web peut parfois bloquer les utilisateurs de Tor parce qu’il ne peut"
-" pas faire la différence entre l’utilisateur de Tor moyen et le trafic "
-"automatisé."
+"Les sites Web bloqueront parfois les utilisateurs de Tor parce qu’ils ne "
+"peuvent pas faire la différence entre l’utilisateur de Tor moyen et le "
+"trafic automatisé."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2122,7 +2123,7 @@ msgid ""
 msgstr ""
 "Les meilleurs résultats pour débloquer l’accès des utilisateurs de Tor à un "
 "site donné ont été obtenus en demandant aux utilisateurs de contacter "
-"directement les administrateurs du site."
+"directement les administrateurs du dit site."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2219,12 +2220,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.seo_slug)
 msgid "website-blocking-access-over-tor"
-msgstr "site-bloque-acces-via-tor"
+msgstr "site-web-bloque-accès-avec-tor"
 
 #: http//localhost/tbb/tbb-8/
 #: (content/tbb/tbb-8/contents+en.lrquestion.seo_slug)
 msgid "website-blocked-by-censor-can-tor-browser-help"
-msgstr "site-bloque-par-censeur-est-ce-que-tor-peut-aider"
+msgstr "site-web-bloqué-par-censeur-tor-peut-il-aider"
 
 #: http//localhost/tbb/tbb-9/ (content/tbb/tbb-9/contents+en.lrquestion.title)
 msgid "Can I use Tor with a browser besides Tor Browser?"
@@ -2236,7 +2237,7 @@ msgid ""
 "We strongly recommend against using Tor in any browser other than Tor "
 "Browser."
 msgstr ""
-"Nous recommandons fortement de ne pas utiliser Tor avec un autre navigateur "
+"Nous recommandons fortement de ne pas utiliser Tor avec un navigateur autre "
 "que le Navigateur Tor."
 
 #: http//localhost/tbb/tbb-9/
@@ -2251,13 +2252,14 @@ msgstr ""
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.seo_slug)
 msgid "using-tor-with-a-browser-besides-tor-browser"
-msgstr "utiliser-tor-avec-un-navigateur-different-du-navigateur-tor"
+msgstr "utiliser-tor-avec-un-navigateur-autre-que-navigateur-tor"
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.title)
 msgid "Does Tor Project make an application for private chat?"
 msgstr ""
-"Le projet Tor offre-t-il une application confidentielle de clavardage ?"
+"Le projet Tor offre-t-il une application pour les dialogues en ligne "
+"confidentiels ?"
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2266,9 +2268,9 @@ msgid ""
 "href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
 "Messenger</a>."
 msgstr ""
-"Non. Après onze versions bêta, nous avons cessé de prendre en charge <a "
-"href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
-"Messenger</a>."
+"Non. Après onze versions bêta, nous avons cessé de prendre en charge le<a "
+"href=\"https://blog.torproject.org/sunsetting-tor-messenger\">messager "
+"Tor</a>."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2276,9 +2278,9 @@ msgid ""
 "We still believe in Tor's ability to be used in a messaging app, but we "
 "don't have the resources to make it happen right now."
 msgstr ""
-"Nous croyons toujours que Tor pourrait être utilisé dans une application de "
-"messagerie, mais nous ne disposons pas des ressources pour faire de cela une"
-" réalité pour le moment."
+"Nous croyons toujours que Tor pourrait être utilisé dans une appli de "
+"messagerie, mais nous ne disposons pas des ressources pour le concrétiser "
+"pour le moment."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2287,14 +2289,14 @@ msgid ""
 "href=\"https://www.torproject.org/about/contact.html.en\">Contact "
 "us</a></mark>."
 msgstr ""
-"Vous y croyez aussi? <mark><a "
+" Les avez-vous ? <mark><a "
 "href=\"https://www.torproject.org/about/contact.html.en\">Contactez "
 "nous</a></mark>."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.seo_slug)
 msgid "tor-project-app-for-private-chat"
-msgstr "application-projet-tor-pour-messagerie-privee"
+msgstr "appli-projet-tor-pour-messagerie-confidentielle"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.title)
@@ -2314,10 +2316,10 @@ msgid ""
 "<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark> "
 "web pages."
 msgstr ""
-"De l'information supplémentaire est disponible sur les pages Web d'<mark><a "
-"href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> et "
-"d'<mark><a "
-"href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
+"De plus amples renseignements se trouvent sur les pages Web d’<mark><a "
+"href=\"https://guardianproject.info/apps/orbot/\">​Orbot</a></mark> et "
+"d’<mark><a "
+"href=\"https://guardianproject.info/apps/orfox/\">​Orfox</a></mark>."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -2326,7 +2328,7 @@ msgid ""
 "phone over the Tor network."
 msgstr ""
 "Orfox est conçu pour la navigation Web, et Orbot peut router le trafic "
-"d'autres applications sur votre téléphone Android via le réseau Tor."
+"d’autres applications sur votre téléphone Android via le réseau Tor."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.seo_slug)
@@ -2346,10 +2348,10 @@ msgid ""
 "href=\"https://guardianproject.info/\">Guardian Project's "
 "website</a></mark>."
 msgstr ""
-"The Guardian Project est en charge de la maintenance de Tor (et d'autres "
-"applications de confidentialité) pour Android. De plus amples renseignements"
-" se trouvent sur le <mark><a href=\"https://guardianproject.info/\">site Web"
-" du Projet Guardian</a></mark>."
+"Le projet Guardian maintient Tor (et d’autres applications de "
+"confidentialité) sur Android. De plus amples renseignements se trouvent sur "
+"le <mark><a href=\"https://guardianproject.info/\">site Web du Projet "
+"Guardian</a></mark>."
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.seo_slug)
@@ -2368,9 +2370,9 @@ msgid ""
 " routing, and is developed by someone who works closely with the Tor "
 "Project."
 msgstr ""
-"Nous recommandons une appli iOS qui s'appelle Onion Browser, qui est open "
-"source, utilise le routage Tor, et est développée par quelqu'un qui coopère "
-"étroitement avec le Projet Tor."
+"Nous recommandons une appli iOS appelée Navigateur Onion qui est à code "
+"source ouvert, utilise le routage Tor et est développée par une personne qui"
+" coopère étroitement avec le Projet Tor."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2380,8 +2382,8 @@ msgid ""
 " Browser."
 msgstr ""
 "Cependant, Apple exige que les navigateurs, sur iOS, utilisent quelque chose"
-" qui s'appelle « Webkit », qui empêche Onion Browser de proposer la même "
-"protection de confidentialité que le Navigateur Tor."
+" appelé « Webkit » qui empêche au Navigateur Onion de proposer la même "
+"protection de la confidentialité que le Navigateur Tor."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2390,7 +2392,7 @@ msgid ""
 "more-ios-tor\">Learn more about Onion Browser</a></mark>."
 msgstr ""
 "<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-"
-"more-ios-tor\">Apprenez en plus à propos d'Onion Browser</a></mark>."
+"more-ios-tor\">En apprendre davantage sur le Navigateur Onion</a></mark>."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.seo_slug)
@@ -2407,7 +2409,7 @@ msgstr "Comment puis-je utiliser Tor sur Windows Phone ?"
 msgid ""
 "There is currently no supported method for running Tor on Windows Phone."
 msgstr ""
-"Il n'existe actuellement aucun moyen pris en charge d’utiliser Tor sur "
+"Il n’existe actuellement aucun moyen pris en charge d’utiliser Tor sur "
 "Windows Phone."
 
 #: http//localhost/tormobile/tormobile-4/
@@ -2426,8 +2428,8 @@ msgid ""
 "We are currently working on Tor Browser for Android, and you may see alpha "
 "releases appear over the coming months."
 msgstr ""
-"Nous travaillons actuellement sur le Navigateur Tor pour Android, et il est "
-"possible que des versions de test alpha apparaissent dans les mois à venir."
+"Nous travaillons actuellement sur le Navigateur Tor pour Android. Des "
+"versions de test alpha pourraient apparaître dans les mois à venir."
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.description)
@@ -2438,7 +2440,7 @@ msgid ""
 msgstr ""
 "Veuillez surveiller la publication d’annonces futures et de plus amples "
 "renseignements concernant ce projet sur notre <mark><a "
-"href=\"https://blog.torproject.org\">blog</a></mark>."
+"href=\"https://blog.torproject.org\">blogue</a></mark>."
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.seo_slug)
@@ -2462,8 +2464,8 @@ msgid ""
 "of Tor delivered to you via GetTor."
 msgstr ""
 "Si vous ne pouvez pas télécharger Tor à partir de notre <mark><a "
-"href=\"https://www.torproject.org\">site Web</a></mark>, une copie de Tor "
-"peut vous parvenir via GetTor."
+"href=\"https://www.torproject.org\">site Web</a></mark>, une exemplaire de "
+"Tor peut vous être livré par GetTor."
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.description)
@@ -2474,14 +2476,15 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations that are"
 " less likely to be censored, such as Dropbox, Google Drive, and Github."
 msgstr ""
-"GetTor est un service qui répond automatiquement aux messages avec des liens"
-" vers la dernière version de Tor, hébergée à divers emplacements qui "
-"risquent moins la censure, comme Dropbox, Google Drive ou Github."
+"GetTor est un service qui répond automatiquement aux messages en incluant "
+"des liens vers la dernière version du Navigateur Tor, hébergée en divers "
+"endroits qui risquent moins d’être censurée, tels que Dropbox, Disque Google"
+" ou GitHub."
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.seo_slug)
 msgid "how-to-download-tor-if-torproject-org-is-blocked"
-msgstr "comment-telecharger-tor-si-torproject-org-est-bloque"
+msgstr "comment-télécharger-tor-si-torproject-org-est-bloqué"
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.title)
@@ -2499,7 +2502,7 @@ msgid ""
 "Write your operating system (such as windows, MacOS (OS X), or linux) in the"
 " body of the message and send."
 msgstr ""
-"Indiquez votre système d'exploitation (tel que Windows, MacOS (OS X) ou "
+"Indiquez votre système d’exploitation (tel que Windows, MacOS (OS X) ou "
 "Linux) dans le corps de votre message et envoyez-le."
 
 #: http//localhost/gettor/gettor-2/
@@ -2515,7 +2518,7 @@ msgstr ""
 "pourrez télécharger le Navigateur Tor, la signature cryptographique "
 "(nécessaire pour vérifier le téléchargement) [lien vers la définition d’une "
 "signature cryptographique dans le glossaire ; instructions de vérification],"
-" l'empreinte de la clé utilisée pour produire la signature, et la somme de "
+" l’empreinte de la clé utilisée pour produire la signature, et la somme de "
 "contrôle du paquet."
 
 #: http//localhost/gettor/gettor-2/
@@ -2525,9 +2528,9 @@ msgid ""
 "depends on the model of the computer you are using; consult documentation "
 "about your computer to find out more."
 msgstr ""
-"Il est possible que l'on vous propose de choisir entre le logiciel « 32-bit "
-"» ou « 64-bit ». Cela dépend du modèle de l'ordinateur que vous utilisez; "
-"consultez la documentation de votre ordinateur pour en savoir plus."
+"Selon le modèle d’ordinateur que vous utilisez, le choix entre un logiciel "
+"32 bits ou 64 bits vous sera proposé ; consultez la documentation de votre "
+"ordinateur pour en apprendre davantage."
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.seo_slug)
@@ -2548,8 +2551,8 @@ msgid ""
 msgstr ""
 "Pour obtenir des liens pour télécharger le Navigateur Tor, envoyez un "
 "message direct à <mark><a "
-"href=\"https://twitter.com/get_tor\">@get_tor</a></mark> en incluant l'un "
-"des codes suivants (vous n'avez pas besoin de suivre le compte) :"
+"href=\"https://twitter.com/get_tor\">@get_tor</a></mark> en incluant l’un "
+"des codes suivants (vous n’avez pas besoin de suivre le compte) :"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.description)
@@ -2563,7 +2566,7 @@ msgstr "* Linux"
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.description)
 msgid "* MacOS (OS X)"
-msgstr "* MacOS (OS X)"
+msgstr "* macOS (OS X)"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.description)
@@ -2589,12 +2592,12 @@ msgid ""
 "gettor@toproject(dot)org with one of the following codes in it:"
 msgstr ""
 "Pour obtenir des liens pour télécharger le Navigateur Tor, envoyez un "
-"courriel à gettor@toproject(dot)org en incluant l'un des codes suivants :"
+"courriel à gettor@torproject(dot)org en incluant l’un des codes suivants :"
 
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.seo_slug)
 msgid "to-use-gettor-via-xmpp"
-msgstr "utiliser-gettor-via-xmpp"
+msgstr "utiliser-gettor-par-xmpp"
 
 #: http//localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lrquestion.seo_slug)
@@ -2628,7 +2631,8 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "Then paste the Tor log into a text file or other document."
 msgstr ""
-"Collez ensuite le journal de Tor dans un fichier texte ou un autre document."
+"Collez ensuite le journal de Tor dans un fichier texte ou dans un autre "
+"document."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2647,7 +2651,7 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "###### Common log error #1: Proxy connection failure"
 msgstr ""
-"###### Erreur de journal courante no1 : Échec de connexion au mandataire"
+"###### Erreur de journal courante no 1 : échec de connexion au mandataire"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2713,9 +2717,8 @@ msgid ""
 msgstr ""
 "Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie"
 " que vous n’arrivez pas à vous connecter à un mandataire SOCKS. Si un "
-"mandataire SOCKS est nécessaire à la configuration de votre réseau, veuillez"
-" vous assurer d’avoir bien saisi les renseignements concernant le "
-"mandataire."
+"mandataire SOCKS est exigé pour votre configuration réseau, veuillez alors "
+"vous assurer d’avoir bien saisi les renseignements concernant le mandataire."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2725,7 +2728,7 @@ msgid ""
 "If a SOCKS proxy is not required, or you’re not sure,  please try connecting"
 " to the Tor network without a SOCKS proxy."
 msgstr ""
-"Si un mandataire SOCKS n’est pas nécessaire ou que vous n'êtes pas sûr, "
+"Si un mandataire SOCKS n’est pas nécessaire ou que vous n’êtes pas sûr, "
 "veuillez essayer de vous connecter au réseau Tor sans mandataire SOCKS."
 
 #: http//localhost/connecting/connecting-2/
@@ -2734,8 +2737,8 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #2: Can’t reach guard relays"
 msgstr ""
-"##### Erreur de journal courante no2 : Impossible d’atteindre les relais de "
-"garde"
+"##### Erreur de journal courante no 2 : impossible d’atteindre les relais de"
+" garde"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2814,8 +2817,8 @@ msgstr "Cela pourrait signifier que vous êtes sur un réseau qui est censuré."
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "Please try connecting with bridges, and that should fix the problem."
 msgstr ""
-"Veuillez essayer de vous connecter avec des ponts, cela devrait corriger la "
-"situation."
+"Tentez de vous connecter avec des ponts, ce qui devrait corriger le "
+"problème."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2823,7 +2826,7 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #3: Failed to complete TLS handshake"
 msgstr ""
-"##### Erreur de journal courante no3 : Échec d'établissement d'une connexion"
+"##### Erreur de journal courante no3 : Échec d’établissement d’une connexion"
 " TLS"
 
 #: http//localhost/connecting/connecting-2/
@@ -2882,11 +2885,11 @@ msgid ""
 msgstr ""
 "13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with "
 "SSL state (No SSL object)</code></pre>Si vous rencontrez de telles lignes "
-"dans votre journal de Tor, cela signifie que Tor n'est pas parvenu à "
-"compléter l'établissement d'une connexion TLS avec les authorités de "
-"répretoire. Utiliser des ponts réglerait probablement le problème.<h5>Erreur"
-" de journal courante no4 : Décalage de l'horloge</h5><pre><code> 19.11.2017 "
-"00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
+"dans votre journal de Tor, cela signifie que Tor n’est pas parvenu à établir"
+" une connexion TLS avec les autorités d’annuaire. Utiliser des ponts réglera"
+" probablement le problème.<h5>Erreur de journal courante no 4 : Décalage de "
+"l’horloge</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] Opening Socks "
+"listener on 127.0.0.1:9150"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2931,9 +2934,8 @@ msgid ""
 "Tor requires an accurate clock to work: please check your time, timezone, "
 "and date settings."
 msgstr ""
-"Tor requiert une horloge ajustée avec précision pour fonctionner : veuillez "
-"vérifier que vos paramètres de date, d'heure et de fuseau horaire sont "
-"ajustés correctement."
+"Tor exige une horloge précise pour fonctionner : veuillez vérifier vos "
+"paramètres d’heure, de fuseau horaire et de date."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2944,7 +2946,7 @@ msgid ""
 "incorrect."
 msgstr ""
 "Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie"
-" que votre horloge système n'est pas à l'heure."
+" que votre horloge système n’est pas à l’heure."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2962,7 +2964,7 @@ msgstr ""
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.seo_slug)
 msgid "having-trouble-connecting-to-tor"
-msgstr "difficultes-a-me-connecter-a-tor"
+msgstr "difficultés-connexion-à-tor"
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.title)
@@ -2980,9 +2982,9 @@ msgid ""
 "entered the 16-character onion address correctly: even a small mistake will "
 "stop Tor Browser from being able to reach the site."
 msgstr ""
-"Si vous ne pouvez pas atteindre le service oignon que vous souhaitez, "
-"assurez-vous d’avoir saisi correctement l’adresse oignon de 16 caractères : "
-"toute erreur, même minime, empêchera le Navigateur Tor d'atteindre le site."
+"Si vous n’arrivez pas à atteindre le service oignon que vous souhaitez, "
+"assurez-vous d’avoir saisi correctement l’adresse de 16 caractères. Une "
+"seule petite erreur empêchera le Navigateur Tor d’atteindre le site."
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.description)
@@ -2993,7 +2995,7 @@ msgid ""
 "later."
 msgstr ""
 "Si vous ne parvenez toujours pas à vous connecter au service oignon, "
-"veuillez réessayer plus tard."
+"veuillez ressayer ultérieurement."
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.description)
@@ -3013,19 +3015,19 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>'s "
 "Onion Service."
 msgstr ""
-"Vous pouvez aussi vous assurer que vous arrivez à accéder à d'autres "
+"Vous pouvez aussi vous assurer que vous arrivez à accéder à d’autres "
 "services oignon en vous connectant au service oignon de <a "
 "href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>."
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.seo_slug)
 msgid "cannot-reach-x-onion"
-msgstr "impossible-d-acceder-a-x-onion"
+msgstr "impossible-d’atteindre-x-onion"
 
 #: http//localhost/censorship/censorship-1/
 #: (content/censorship/censorship-1/contents+en.lrquestion.seo_slug)
 msgid "our-website-is-blocked-by-a-censor"
-msgstr "notre-site-est-bloque-par-un-censeur"
+msgstr "notre-site-web-est-bloqué-par-un-censeur"
 
 #: http//localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lrquestion.description)
@@ -3034,33 +3036,33 @@ msgid ""
 "freedom, and allow Tor users access to xyz.com. Thank you.\""
 msgstr ""
 "Veuillez adopter une position ferme privilégiant la confidentialité "
-"numérique et la liberté sur Internet, et permettre aussi aux utilisateurs de"
-" Tor d’accéder à xyz.com. Merci. »"
+"numérique et la liberté sur Internet, et permettre aux utilisateurs de Tor "
+"d’accéder à xyz.com. Merci. »"
 
 #: http//localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lrquestion.seo_slug)
 msgid "website-is-blocking-access-over-tor"
-msgstr "site-bloque-acces-via-tor"
+msgstr "site-web-bloque-accès-avec-tor"
 
 #: http//localhost/censorship/censorship-3/
 #: (content/censorship/censorship-3/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-download-tor-if-torproject-org-is-blocked"
-msgstr "comment-telecharger-tor-si-torproject-org-est-bloque"
+msgstr "comment-télécharger-tor-si-torproject-org-est-bloqué"
 
 #: http//localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lrquestion.seo_slug)
 msgid "cant-connect-to-tor-browser"
-msgstr "impossible-de-se-connecter-au-navigateur-tor"
+msgstr "impossible-connecter-au-navigateur-tor"
 
 #: http//localhost/censorship/censorship-6/
 #: (content/censorship/censorship-6/contents+en.lrquestion.seo_slug)
 msgid "is-my-network-censored"
-msgstr "mon-reseau-est-il-censure"
+msgstr "mon-réseau-est-il-censuré"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.title)
 msgid "What is a bridge?"
-msgstr "Qu'est-ce qu'un pont ?"
+msgstr "Qu’est-ce qu’un pont ?"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3068,8 +3070,8 @@ msgid ""
 "Bridge relays are Tor relays that are not listed in the public Tor "
 "directory."
 msgstr ""
-"Les relais ponts sont des relais Tor qui ne sont pas listés dans le "
-"répertoire Tor public."
+"Les relais ponts sont des relais Tor qui ne sont pas listés dans l’annuaire "
+"public de Tor."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3078,7 +3080,7 @@ msgid ""
 "network can't simply block all bridges."
 msgstr ""
 "Cela signifie que des FAIs ou des gouvernements qui tentent de bloquer "
-"l'accès au réseau Tor ne peuvent pas simplement bloquer tous les ponts."
+"l’accès au réseau Tor ne peuvent pas simplement bloquer tous les ponts."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3089,22 +3091,22 @@ msgid ""
 msgstr ""
 "Les ponts sont utiles pour les utilisateurs de Tor dans des régimes "
 "oppressants, et pour les gens qui veulent une couche supplémentaire de "
-"sécurité parce qu'ils se préoccupent du fait que quelqu'un puisse savoir "
-"qu'ils contactent l'adresse IP d'un relais Tor public."
+"sécurité parce qu’ils se préoccupent du fait que quelqu’un puisse savoir "
+"qu’ils contactent l’adresse IP d’un relais Tor public."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
 msgid ""
 "A bridge is just a normal relay with a slightly different configuration."
 msgstr ""
-"Un pont est simplement un relais normal avec une configuration légèrement "
+"Un pont n’est qu’un relais normal avec une configuration légèrement "
 "différente."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
 msgid "See (link to How do I run a bridge) for instructions."
 msgstr ""
-"Consultez (lien vers Comment puis-je installer un pont) pour des "
+"Consultez (lien vers Comment puis-je utiliser un pont) pour obtenir des "
 "instructions."
 
 #: http//localhost/censorship/censorship-7/
@@ -3113,7 +3115,7 @@ msgid ""
 "Several countries, including China and Iran, have found ways to detect and "
 "block connections to Tor bridges."
 msgstr ""
-"Plusieurs pays, y compris la Chine et l'Iran, ont trouvé des manières de "
+"Plusieurs pays, y compris la Chine et l’Iran, ont trouvé des manières de "
 "détecter et de bloquer les connexions vers des ponts Tor."
 
 #: http//localhost/censorship/censorship-7/
@@ -3125,7 +3127,7 @@ msgid ""
 msgstr ""
 "Les ponts <mark><a "
 "href=\"https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt\">Obfsproxy</a></mark>"
-" adressent ce problème en ajoutant un autre niveau d'obfuscation."
+" y remédient en ajoutant une autre couche de brouillage."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3133,7 +3135,7 @@ msgid ""
 "Setting up an obfsproxy bridge requires an additional software package and "
 "additional configurations."
 msgstr ""
-"La mise en place d'un pont obfsproxy requiert un paquet logiciel additionnel"
+"La mise en place d’un pont obfsproxy requiert un paquet logiciel additionnel"
 " et de la configuration supplémentaire."
 
 #: http//localhost/censorship/censorship-7/
@@ -3150,7 +3152,7 @@ msgstr ""
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.seo_slug)
 msgid "what-is-a-bridge"
-msgstr "qu-est-ce-qu-un-pont"
+msgstr "qu’est-ce-qu’un-pont"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.title)
@@ -3166,7 +3168,7 @@ msgstr ""
 #: (content/https/https-1/contents+en.lrquestion.description)
 msgid "Tor protects eavesdroppers from learning sites that you visit."
 msgstr ""
-"Tor empêche les oreilles indiscrètes d'apprendre les sites que vous visitez."
+"Tor empêche les oreilles indiscrètes d’apprendre les sites que vous visitez."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3205,8 +3207,8 @@ msgid ""
 "<h4 class=\"card-title\">If you are using HTTPS, your website URL will begin"
 " with \"https://\".</h4>"
 msgstr ""
-"<h4 class=\"card-title\">Si vous utilisez HTTPS, l'URL de votre site Web "
-"commence par \"https://\".</h4>"
+"<h4 class=\"card-title\">Si vous utilisez HTTPS, l’URL de votre site Web "
+"commencera par « ​https:// ».</h4>"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3221,20 +3223,21 @@ msgid ""
 "encryption.</h4>"
 msgstr ""
 "<h4 class=\"card-title\">Cette représentation montre quels renseignements "
-"sont visibles aux systèmes d’écoute avec et sans le Navigateur Tor et le "
+"sont visibles aux systèmes d’écoute, avec et sans le Navigateur Tor ni le "
 "chiffrement HTTPS.</h4>"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.seo_slug)
 msgid "can-eavesdroppers-see-information-i-share"
 msgstr ""
-"est-que-des-systemes-d-ecoute-peuvent-voir-l-information-que-je-partage"
+"les-systèmes-d’écoute-peuvent-ils-voir-les-informations-que-je-partage"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.title)
 msgid "How do I run a middle or guard relay on Debian?"
 msgstr ""
-"Comment puis-je installer un relais de garde ou de milieu sous Debian ?"
+"Comment puis-je exécuter un relais intermédiaire ou un relais de garde sous "
+"Debian ?"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3245,9 +3248,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a></mark>."
 msgstr ""
-"Pour l'information la plus détaillée concernant la gestion d'un relais, "
+"Pour des informations approfondies sur la mise en place d’un relais, "
 "consultez le <mark><a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Guide "
+"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">guide "
 "sur les relais Tor</a></mark>."
 
 #: http//localhost/operators/operators-1/
@@ -3255,7 +3258,7 @@ msgstr ""
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor\" (as root)."
-msgstr "* Exécutez \"apt-get install tor\" (comme super-utilisateur)"
+msgstr "* Exécutez « apt-get install tor » (en tant que superutilisateur)."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3265,9 +3268,9 @@ msgid ""
 "* Make sure your clock, date, and timezone are set correctly. Install the "
 "ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
-"* Assurez vous que votre horloge, la date et votre fuseau horaire sont "
-"réglés correctement. Installez le paquet ntp ou openntpd (ou similaire) pour"
-" que cela reste le cas."
+"* Assurez-vous que votre horloge, la date et votre fuseau horaire sont "
+"correctement réglés. Installez le paquet ntp ou openntpd (ou similaire) pour"
+" qu’ils le restent."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3276,7 +3279,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Edit /etc/tor/torrc to look like the following:"
-msgstr "* Éditez /etc/tor/torrc pour qu'il ressemble à cela :"
+msgstr "* Modifiez /etc/tor/torrc pour qu’il ressemble à ce qui suit :"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3288,7 +3291,7 @@ msgid ""
 "## The IP address or hostname for incoming connections (leave commented and "
 "Tor will guess)"
 msgstr ""
-"## L'adresse IP ou le nom d'hôte pour les connexions entrantes (laissez "
+"## L’adresse IP ou le nom d’hôte pour les connexions entrantes (laissez "
 "commenté et Tor déterminera cela)"
 
 #: http//localhost/operators/operators-1/
@@ -3298,7 +3301,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#Address noname.example.com"
-msgstr "#Adresse noname.example.com"
+msgstr "#Adresse sansnom.exemple.com"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3309,7 +3312,7 @@ msgstr "#Adresse noname.example.com"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set the nickname of this relay"
-msgstr "## Définissez le surnom de ce relais"
+msgstr "## Définissez le pseudonyme de ce relais"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3320,7 +3323,7 @@ msgstr "## Définissez le surnom de ce relais"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Nickname ididnteditheconfig"
-msgstr "Nickname ididnteditheconfig"
+msgstr "Nickname jaipasmodifiélaconfig"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3331,7 +3334,7 @@ msgstr "Nickname ididnteditheconfig"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set your own contact info"
-msgstr "## Définissez votre propre information de contact"
+msgstr "## Définissez vos propres renseignements de contact"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3342,7 +3345,7 @@ msgstr "## Définissez votre propre information de contact"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
-msgstr "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
+msgstr "ContactInfo 0xFFFFFFFF Personne au hasard <nobody AT example dot com>"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3351,7 +3354,7 @@ msgstr "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "## If you control multiple relays, include then in the family"
-msgstr "## Si vous contrôlez plusieurs relais, incluez les dans la famille"
+msgstr "## Si vous contrôlez plusieurs relais, incluez-les dans la famille"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3360,7 +3363,7 @@ msgstr "## Si vous contrôlez plusieurs relais, incluez les dans la famille"
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "#MyFamily $keyid,$keyid,..."
-msgstr "#MyFamily $keyid,$keyid,..."
+msgstr "#MyFamily $keyid,$keyid,…"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3393,7 +3396,7 @@ msgid ""
 "bandwidth caps)"
 msgstr ""
 "## Définissez le débit de votre bande passante (laissez en commentaire et "
-"Tor s'exécutera sans limite de bande passante)"
+"Tor s’exécutera sans limite de bande passante)"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3429,7 +3432,7 @@ msgstr "ExitPolicy reject *:*"
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)"
-msgstr "* Exécutez \"service tor reload\" (comme super-utilisateur)"
+msgstr "* Exécutez « service tor reload » (en tant que superutilisateur)."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3445,7 +3448,7 @@ msgid ""
 msgstr ""
 "* Une fois votre relais connecté au réseau, il essaiera de déterminer "
 "lesquels des ports que vous avez configuré sont accessibles depuis "
-"l'extérieur."
+"l’extérieur."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3457,7 +3460,7 @@ msgstr ""
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "This step is usually fast, but it may take a few minutes."
 msgstr ""
-"Cette étape est habituellement rapide, mais elle pourrait prendre quelques "
+"Cette étape est habituellement rapide, mais pourrait prendre quelques "
 "minutes."
 
 #: http//localhost/operators/operators-1/
@@ -3466,8 +3469,8 @@ msgid ""
 "Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans /var/log/syslog qui ressemble à « Self-"
-"testing indicates your ORPort is reachable from the outside. Excellent. »"
+"Cherchez une entrée de journal dans /var/log/syslog comme « Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3481,8 +3484,8 @@ msgid ""
 "If you don't see this message, it means that your relay is not reachable "
 "from the outside."
 msgstr ""
-"Si vous me voyez pas ce message, cela signifie que votre relais n'est pas "
-"accessible depuis l'extérieur."
+"Si vous me voyez pas ce message, cela signifie que votre relais n’est pas "
+"accessible depuis l’extérieur."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3496,7 +3499,7 @@ msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
 msgstr ""
-"Vous devriez à nouveau vérifier vos pare-feux, que l'IP et les ports que "
+"Vous devriez à nouveau vérifier vos pare-feux, que l’IP et les ports que "
 "vous avez spécifié dans votre torrc sont corrects, etc."
 
 #: http//localhost/operators/operators-1/
@@ -3506,9 +3509,9 @@ msgid ""
 " to the directory authorities to let clients know what address, ports, keys,"
 " etc your relay is using."
 msgstr ""
-"Lorsqu'il a confirmé qu'il était accessible, il téléversera un « descriptif "
-"de serveur » vers les autorités de répertoire pour que les clients sachent "
-"quelle adresse, quels ports, quelles clés, etc votre relais utilise."
+"Quand il aura confirmé qu’il est accessible, il téléversera un « descripteur"
+" de serveur » vers les autorités d’annuaire pour informer les clients de "
+"l’adresse, des ports, clés, etc. que votre relais utilise."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3518,7 +3521,7 @@ msgid ""
 "After a few hours (to give it enough time to propagate), you can query Atlas"
 " to see whether your relay has successfully registered in the network."
 msgstr ""
-"Après quelques heures (le temps que l'information se propage), vous pouvez "
+"Après quelques heures (le temps que l’information se propage), vous pouvez "
 "envoyer une requête à Atlas pour voir si votre relais a été enregistré dans "
 "le réseau avec succès."
 
@@ -3530,18 +3533,18 @@ msgstr ""
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "If it hasn't, re-check firewalls, IP and ports again."
 msgstr ""
-"Si ce n'est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos "
+"Si ce n’est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos "
 "ports."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-relay"
-msgstr "comment-puis-je-installer-un-relais-intermediaire-ou-de-garde"
+msgstr "comment-puis-je-faire-fonctionner-un-relais-intermédiaire-ou-de-garde"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.title)
 msgid "How do I run an exit relay on Debian?"
-msgstr "Comment puis-je installer un relais de sortie sous Debian ?"
+msgstr "Comment puis-je exécuter un relais de sortie sous Debian ?"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3550,9 +3553,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">Exit"
 " relay guidelines</a></mark>"
 msgstr ""
-"* Passez en revue nos <mark><a "
+"* Consultez nos <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">lignes"
-" directrices concernant les relais de sortie</a></mark>"
+" directrices sur les relais de sortie</a></mark>"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3560,9 +3563,8 @@ msgid ""
 "Look for a log entry in your /var/log/syslog such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans votre /var/log/syslog qui ressemble à « "
-"Self-testing indicates your ORPort is reachable from the outside. Excellent."
-" »"
+"Cherchez une entrée de journal dans votre /var/log/syslog comme « Self-"
+"testing indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3573,9 +3575,9 @@ msgid ""
 "descriptor\" to the directory authorities to let clients know what address, "
 "ports, keys, etc your relay is using."
 msgstr ""
-"Lorsqu'il a confirmé qu'il était accessible, il téléversera un « descriptif "
-"de serveur » vers les autorités de répertoire pour que les clients sachent "
-"quelle adresse, quels ports, quelles clés, etc votre relais utilise."
+"* Quand il aura confirmé qu’il est accessible, il téléversera un « "
+"descripteur de serveur » vers les autorités d’annuaire pour informer les "
+"clients de l’adresse, des ports, clés, etc. que votre relais utilise."
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3584,7 +3586,7 @@ msgid ""
 "<mark><a href=\"https://atlas.torproject.org/\">Atlas</a></mark> to see "
 "whether your relay has successfully registered in the network."
 msgstr ""
-"Après quelques heures (le temps que l'information se propage), vous pouvez "
+"Après quelques heures (le temps que l’information se propage), vous pouvez "
 "envoyer une requête à <mark><a "
 "href=\"https://atlas.torproject.org/\">Atlas</a></mark> pour voir si votre "
 "relais a été enregistré dans le réseau avec succès."
@@ -3597,20 +3599,20 @@ msgid ""
 " exit policy</a></mark>."
 msgstr ""
 "Prenez en considération la possibilité de basculer vers la <mark><a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">Politique"
+"href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">politique"
 " de sortie réduite</a></mark>."
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-an-exit"
-msgstr "comment-puis-je-gerer-une-sortie"
+msgstr "comment-puis-je-faire-fonctionner-une-sortie"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.title)
 msgid "How do I run a middle or guard relay on FreeBSD or HardenedBSD?"
 msgstr ""
 "Comment puis-je exécuter un relais intermédiaire ou de garde sous FreeBSD ou"
-" HardenedBSD ?"
+" HardenedBSD ?"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3619,15 +3621,15 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a>."
 msgstr ""
-"Pour l'information la plus détaillée concernant la gestion d'un relais, "
+"Pour des informations approfondies sur la mise en place d’un relais, "
 "consultez le <mark><a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Guide "
+"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">guide "
 "sur les relais Tor</a>."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr "* Exécutez \"pkg install tor\" (en tant que super-utilisateur)."
+msgstr "* Exécutez « pkg install tor » (en tant que superutilisateur)."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3635,18 +3637,19 @@ msgstr "* Exécutez \"pkg install tor\" (en tant que super-utilisateur)."
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Make sure your clock, date, and timezone are set correctly."
 msgstr ""
-"Assurez-vous que votre horloge système et votre fuseau horaire sont réglés "
-"correctement."
+"Assurez-vous que votre horloge, la date et votre fuseau horaire sont "
+"correctement réglés."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Enabling ntpd is suggested."
-msgstr "Il est recommandé d'activer ntpd."
+msgstr "Il est recommandé d’activer ntpd."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Edit /usr/local/etc/tor/torrc to look like the following:"
-msgstr "* Éditez /usr/local/etc/tor/torrc pour qu'il ressemble à cela :"
+msgstr ""
+"* Modifiez /usr/local/etc/tor/torrc pour qu’il ressemble à ce qui suit :"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3656,20 +3659,20 @@ msgstr "RunAsDaemon 1"
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Log notice file /var/log/tor/notices.log"
-msgstr "Fichier de journal des signalements /var/log/tor/notices.log"
+msgstr "Fichier journal des avis /var/log/tor/notices.log"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
-"* Assurez vous que tor s'exécute automatiquement au démarrage en exécutant "
-"\"sysrc tor_enable=YES\" (en tant que super-utilisateur)"
+"* Assurez vous que tor est lancé au démarrage en exécutant « sysrc "
+"tor_enable=YES » (en tant que superutilisateur)"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"service tor start\" (as root)"
-msgstr "* Exécutez \"service tor start\" (en tant que super-utilisateur)"
+msgstr "* Exécutez « service tor start » (en tant que superutilisateur)"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3677,21 +3680,21 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans /var/log/tor/notices.log qui ressemble à"
-" « Self-testing indicates your ORPort is reachable from the outside. "
-"Excellent. »"
+"Cherchez une entrée de journal dans /var/log/tor/notices.log comme « Self-"
+"testing indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-on-freebsd"
 msgstr ""
-"comment-puis-je-installer-un-relais-intermediaire-ou-de-garde-sous-freebsd"
+"comment-puis-je-faire-fonctionner-un-relais-intermédiaire-ou-de-garde-sous-"
+"freebsd"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
 msgid "How do I make sure that I'm using the correct packages on Ubuntu?"
 msgstr ""
-"Comment puis-je être certain que j'utilise les bons paquets sous Ubuntu ?"
+"Comment puis-je être certain que j’utilise les bons paquets dans Ubuntu ?"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3700,15 +3703,15 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
-"* N'utilisez pas les paquets dans les dépôts d'Ubuntu. Ils ne sont pas mis à"
-" jours avec régularité. Si vous les utilisez, vous manquerez d'importants "
+"* N’utilisez pas les paquets dans les dépôts d’Ubuntu. Ils ne sont pas mis à"
+" jours avec régularité. Si vous les utilisez, vous manquerez d’importants "
 "correctifs de stabilité et de sécurité."
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Determine your Ubuntu version by running the following command:"
 msgstr ""
-"* Déterminez votre version d'Ubuntu en exécutant la commande suivante :"
+"* Déterminez votre version d’Ubuntu en exécutant la commande suivante :"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3722,7 +3725,7 @@ msgid ""
 " you found in the previous step for <version>."
 msgstr ""
 "* En tant que super-utilisateur, ajoutez les lignes suivantes au fichier "
-"/etc/apt/sources.list. Utilisez la version que vous avez trouvé à l'étape "
+"/etc/apt/sources.list. Utilisez la version que vous avez trouvé à l’étape "
 "précédente à la place de <version>."
 
 #: http//localhost/operators/operators-4/
@@ -3785,21 +3788,20 @@ msgstr "utiliser-les-bons-paquets"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.title)
 msgid "How do I run a obfs4 bridge on Debian?"
-msgstr "Comment puis-je installer un pont obfs4 sous Debian ?"
+msgstr "Comment puis-je utiliser un pont obfs4 sous Debian ?"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
 msgstr ""
-"* Exécutez \"apt-get install tor obfs4proxy\" (en tant que super-"
-"utilisateur)"
+"* Exécutez « apt-get install tor obfs4proxy » (en tant que "
+"superutilisateur)."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Install the ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
-"* Installez le paquet ntp ou openntpd (ou similaire) pour que cela reste le "
-"cas."
+"Installez le paquet ntp ou openntpd (ou similaire) pour qu’ils le restent."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3821,17 +3823,17 @@ msgstr "ExtORPort auto"
 msgid "## Set your bandwidth rate (leave commented and Tor will run without"
 msgstr ""
 "## Définissez le débit de votre bande passante (laissez en commentaire et "
-"Tor s'exécutera sans"
+"Tor s’exécutera sans"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "bandwidth caps)"
-msgstr "limite de bande passante)"
+msgstr "limites de bande passante)"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)."
-msgstr "* Exécutez \"service tor reload\" (en tant que super-utilisateur)."
+msgstr "* Exécutez « service tor reload » (en tant que superutilisateur)."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3839,9 +3841,8 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"* Cherchez une entrée de journal dans /var/log/syslog qui ressemble à « "
-"Self-testing indicates your ORPort is reachable from the outside. Excellent."
-" »"
+"* Cherchez une entrée de journal dans /var/log/syslog comme « Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3855,12 +3856,12 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-obfs4-bridge-debian"
-msgstr "comment-puis-je-installer-un-pont-obfs4-debian"
+msgstr "comment-puis-je-faire-fonctionner-un-pont-obfs4-debian"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
 msgid "Should I run an exit relay from home?"
-msgstr "Devrais-je exécuter un relais de sortie depuis mon domicile ?"
+msgstr "Devrais-je exécuter un relais de sortie à partir mon domicile ?"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3873,7 +3874,7 @@ msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
-"Si la police s'intéresse au trafic en provenance de votre relais de sortie, "
+"Si la police s’intéresse au trafic en provenance de votre relais de sortie, "
 "il est possible que des officiers saisissent votre ordinateur."
 
 #: http//localhost/operators/operators-7/
@@ -3882,9 +3883,8 @@ msgid ""
 "For that reason, it's best not to run your exit relay in your home or using "
 "your home internet connection."
 msgstr ""
-"Pour cette raison, il est préférable de ne pas faire tourner votre relais de"
-" sortie dans votre domicile ou en utilisant votre connexion à Internet "
-"résidentielle."
+"C’est pourquoi il est préférable de ne pas faire fonctionner votre relais de"
+" sortie chez vous ou en utilisant votre connexion à Internet résidentielle."
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3892,8 +3892,8 @@ msgid ""
 "Instead, consider running your exit relay in a commercial facility that is "
 "supportive of Tor."
 msgstr ""
-"Envisagez plutôt de faire tourner votre relais de sortie dans des "
-"installations commerciales qui soutiennent Tor."
+"Envisagez plutôt de faire fonctionner votre relais de sortie dans une "
+"installation commerciale favorable à Tor."
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3901,8 +3901,8 @@ msgid ""
 "Have a separate IP address for your exit relay, and don't route your own "
 "traffic through it."
 msgstr ""
-"Utilisez une adresse IP séparée pour votre relais de sortie, et ne vous en "
-"servez pas pour faire passer votre propre trafic."
+"Utilisez une adresse IP séparée pour votre relais de sortie et n’acheminez "
+"pas votre propre trafic par ce relais."
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3911,12 +3911,12 @@ msgid ""
 " the computer hosting your exit relay."
 msgstr ""
 "Bien entendu, vous devriez éviter de laisser des informations personnelles "
-"ou sensibles sur l'ordinateur qui héberge votre relais de sortie."
+"ou sensibles sur l’ordinateur qui héberge votre relais de sortie."
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.seo_slug)
 msgid "run-exit-from-home"
-msgstr "executer-sortie-depuis-domicile"
+msgstr "faire-fonctionner-sortie-chez-vous"
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.title)
@@ -3957,13 +3957,13 @@ msgid ""
 " indexed in search engines in the typical way that vanilla websites are."
 msgstr ""
 "L’adresse doit être partagée avec vous par l’hôte du site Web, car les "
-"oignons ne sont pas indexés dans les moteurs de recherche comme le sont les "
-"sites ordinaires."
+"oignons ne sont pas indexés dans les moteurs de recherche de façon "
+"habituelle, comme les sites Web ordinaires le sont."
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.seo_slug)
 msgid "accessing-websites-that-are-only-accessible-over-tor"
-msgstr "acceder-sites-web-qui-ne-sont-accessibles-que-par-tor"
+msgstr "accéder-sites-web-qui-ne-sont-accessibles-que-par-tor"
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.title)
@@ -3977,7 +3977,7 @@ msgid ""
 "including publishing anonymous websites."
 msgstr ""
 "Les services oignons permettent aux gens de naviguer, mais aussi de publier "
-"dans l'anonymat, y compris la publication de sites Web anonymes."
+"dans l’anonymat, y compris la publication de sites Web anonymes."
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -3990,7 +3990,7 @@ msgstr ""
 "Les services oignons sont aussi utilisés pour permettre la messagerie et le "
 "partage de fichiers sans métadonnées, des interactions plus sûres entre des "
 "journalistes et leurs sources avec SecureDrop ou OnionShare, des mises à "
-"jour logicielles plus sûres, et des manières plus sécuritaires d'atteindre "
+"jour logicielles plus sûres, et des manières plus sécuritaires d’atteindre "
 "des sites populaires comme Facebook."
 
 #: http//localhost/onionservices/onionservices-2/
@@ -3999,13 +3999,14 @@ msgid ""
 "These services use the special-use tld .onion (instead of "
 ".com,.net,.org,etc..) and are only accessible through the Tor network."
 msgstr ""
-"Ces services utilisent le domaine de premier niveau spécial .onion (au lieu "
-"de .com, .net, .org, etc...) et ne sont accessibles que par le réseau Tor."
+"Ces services utilisent le domaine de premier niveau à usage spécial .onion "
+"(au lieu de .com, .net, .org, etc…) et ne sont accessibles que par le réseau"
+" Tor."
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.seo_slug)
 msgid "what-is-a-dot-onion"
-msgstr "qu-est-ce-qu-un-point-onion"
+msgstr "quest-ce-quun-point-onion"
 
 #: http//localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lrquestion.description)
@@ -4027,15 +4028,15 @@ msgstr "je-ne-peux-pas-atteindre-x-point-onion"
 #: (content/misc/misc-1/contents+en.lrquestion.title)
 msgid "I have a compelling reason to trace a Tor user. Can you help?"
 msgstr ""
-"J’ai une raison impérieuse de suivre un utilisateur de Tor à la trace. "
+"J’ai une raison impérieuse de suivre à la trace un utilisateur de Tor. "
 "Pouvez-vous m’aider ?"
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.description)
 msgid "There is nothing the Tor developers can do to trace Tor users."
 msgstr ""
-"Les développeurs de Tor ne peuvent rien faire pour tracer les utilisateurs "
-"de Tor."
+"Les développeurs de Tor ne peuvent rien faire pour suivre les utilisateurs "
+"de Tor à la trace."
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.description)
@@ -4044,12 +4045,13 @@ msgid ""
 " prevent us from tracking users."
 msgstr ""
 "Les mêmes protections qui empêchent les personnes mal intentionnées de "
-"percer l’anonymat de Tor nous empêchent aussi de suivre les utilisateurs."
+"percer l’anonymat de Tor nous empêchent aussi de suivre les utilisateurs à "
+"la trace."
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.seo_slug)
 msgid "tracing-tor-user"
-msgstr "suivre-utilisateur-de-tor"
+msgstr "suivre-utilisateur-de-tor-a-la-trace"
 
 #: http//localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lrquestion.title)
@@ -4064,7 +4066,7 @@ msgstr "Non, le Projet Tor n’offre pas de service d’hébergement."
 #: http//localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lrquestion.seo_slug)
 msgid "does-tor-project-offer-hosting"
-msgstr "est-ce-que-projet-tor-propose-de-l-hebergement"
+msgstr "projet-tor-propose-t-il-hébergement"
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.title)
@@ -4077,8 +4079,8 @@ msgid ""
 "Right now the path length is hard-coded at 3 plus the number of nodes in "
 "your path that are sensitive."
 msgstr ""
-"En ce moment la longueur des chemins est fixée dans le code à 3 plus le "
-"nombre de nœuds sur votre chemin qui sont sensibles."
+"La longueur du chemin est actuellement figée dans le code à 3, plus le "
+"nombre de nœuds de nature délicate dans votre chemin."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -4086,8 +4088,8 @@ msgid ""
 "That is, in normal cases it's 3, but for example if you're accessing an "
 "onion service or a \".exit\" address it could be more."
 msgstr ""
-"C'est-à-dire qu'en temps normal c'est 3, mais que si vous accédez à un "
-"service oignon ou à une adresse en « .exit » ça pourrait être plus."
+"C’est-à-dire que pour les dit cas normaux c’est 3, mais possiblement plus si"
+" vous accédez par exemple à un service oignon ou à une adresse « .exit »."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -4109,12 +4111,12 @@ msgid ""
 " identifier if only a small number of users have the same path length as "
 "you."
 msgstr ""
-"De plus, utiliser des chemins plus longs que 3 pourrait nuire à l'anonymat, "
-"d'une part parce que ça rend les attaques de <mark><a "
+"De plus, utiliser des chemins plus longs que 3 pourrait nuire à l’anonymat, "
+"d’une part parce que cela facilite les attaques par <mark><a "
 "href=\"https://www.freehaven.net/anonbib/#ccs07-doa\">déni de "
-"sécurité</a></mark> plus faciles, et d'autre part parce que ça pourrait être"
-" un signe distinctif si seul un petit nombre d'utilisateurs utilisait la "
-"même longueur de chemin que vous."
+"sécurité</a></mark>, et d’autre part parce que cela pourrait servir à vous "
+"identifier si seulement quelques utilisateurs ont la même longueur de chemin"
+" que vous."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.seo_slug)
@@ -4141,8 +4143,8 @@ msgid ""
 "Bittorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
-"Bittorrent en particulier <mark><a href=\"https://blog.torproject.org"
-"/bittorrent-over-tor-isnt-good-idea\">n'est pas anonyme avec Tor</a></mark>."
+"BitTorrent en particulier <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">n’est pas anonyme avec Tor</a></mark>."
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
@@ -4150,14 +4152,13 @@ msgid ""
 "For sharing files through Tor, <mark><a "
 "href=\"https://onionshare.org/\">OnionShare</a></mark> is a good option."
 msgstr ""
-"Pour partager des fichiers avec Tor, <mark><a "
-"href=\"https://onionshare.org/\">OnionShare</a></mark> représente une bonne "
-"option."
+"<mark><a href=\"https://onionshare.org/\">OnionShare</a></mark> est une "
+"bonne bonne option pour partager des fichiers avec Tor, ."
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.seo_slug)
 msgid "share-files-anonymously-through-tor"
-msgstr "partager-des-fichiers-de-maniere-anonyme-avec-tor"
+msgstr "partager-des-fichiers-anonymement-avec-tor"
 
 #: http//localhost/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lrquestion.title)
@@ -4173,12 +4174,12 @@ msgid ""
 msgstr ""
 "Notre page <mark><a "
 "href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">Devenir "
-"bénévole</a></mark> (en anglais) explique comment s'impliquer."
+"bénévole</a></mark> (en anglais) explique comment s’impliquer."
 
 #: http//localhost/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lrquestion.seo_slug)
 msgid "volunteer-with-tor-project"
-msgstr "devenir-benevole-aupres-du-projet-tor"
+msgstr "devenir-bénévole-auprès-du-projet-tor"
 
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.title)
@@ -4188,7 +4189,7 @@ msgstr "Comment puis-je faire un don au projet Tor ?"
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.description)
 msgid "Thank you for your support!"
-msgstr "Nous vous remercions de votre soutien !"
+msgstr "Nous vous remercions de votre soutien !"
 
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.description)
@@ -4233,7 +4234,7 @@ msgstr ""
 "Nous détestons que certaines personnes qui utilisent Tor fassent des choses "
 "horribles, mais nous ne pouvons rien faire pour nous en débarrasser sans "
 "porter atteinte aux activistes des droits de la personne, aux journalistes, "
-"aux victimes de violences et autres personnes qui utilisent Tor à de fins "
+"aux survivants de violence et autres personnes qui utilisent Tor à des fins "
 "louables."
 
 #: http//localhost/misc/misc-2/
@@ -4252,8 +4253,7 @@ msgstr ""
 #: (content/misc/misc-2/contents+en.lrquestion.seo_slug)
 msgid "prevent-bad-people-doing-bad-things-with-tor"
 msgstr ""
-"empecher-les-personnes-mal-intentionnees-de-faire-de-mauvaises-choses-avec-"
-"tor"
+"empêcher-les-personnes-mal-intentionnées-de-commettre des-méfaits-avec-tor"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.title)
@@ -4278,7 +4278,7 @@ msgid ""
 "href=\"https://blog.torproject.org/category/tags/form-990\">blog "
 "posts</a></mark> on our financial reports."
 msgstr ""
-"Consulter notre liste de tous <mark><a "
+"Consultez la liste de tous <mark><a "
 "href=\"https://www.torproject.org/about/sponsors.html.en\">nos "
 "commanditaires</a></mark> et une série de <mark><a "
 "href=\"https://blog.torproject.org/category/tags/form-990\">billets de "
@@ -4300,8 +4300,8 @@ msgid ""
 "We are always seeking more diversity in our funding sources, especially from"
 " foundations and individuals."
 msgstr ""
-"Nous cherchons toujours à diversifier nos sources de financement, notamment "
-"de fondations et de particuliers."
+"Nous cherchons toujours à diversifier nos sources de financement, provenant "
+"plus particulièrement de fondations et de particuliers."
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.seo_slug)
@@ -4347,7 +4347,8 @@ msgstr ""
 #: (content/misc/misc-5/contents+en.lrquestion.description)
 msgid "We are so sorry, but you have been infected with malware."
 msgstr ""
-"Nous sommes désolés, mais vous avez été infecté par un logiciel malveillant."
+"Nous sommes désolés, mais vous avez été infecté par un programme "
+"malveillant."
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -4356,9 +4357,10 @@ msgid ""
 "you to download Tor Browser presumably to contact them anonymously with the "
 "ransom they're demanding from you."
 msgstr ""
-"Le projet Tor n’a pas créé ce logiciel malveillant. Les auteurs du logiciel "
-"vous demandent de télécharger le Navigateur Tor probablement pour les "
-"contacter de manière anonyme avec la rançon qu’ils vous réclament."
+"Le projet Tor n’a pas créé ce programme malveillant. Les auteurs du "
+"programme malveillant vous demandent de télécharger le Navigateur Tor pour "
+"probablement les contacter de manière anonyme avec la rançon qu’ils exigent "
+"de vous."
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -4394,20 +4396,20 @@ msgid ""
 "The Tor Project does not support or condone the use of our software for "
 "malicious purposes."
 msgstr ""
-"Le Projet Tor n’appuie pas et ne cautionne pas l’utilisation de nos "
-"logiciels à des fins malveillantes."
+"Le Projet Tor n’appuie ni ne cautionne l’utilisation de nos logiciels à des "
+"fins malveillantes."
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.seo_slug)
 msgid "someone-asks-to-download-tor-browser-to-unlock-my-files"
 msgstr ""
-"quelqu-un-me-demande-de-telecharger-le-navigateur-tor-pour-decrypter-mes-"
+"quelquun-me-demande-de-télécharger-le-navigateur-tor-pour-déverrouiller-mes-"
 "fichiers"
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.title)
 msgid "Does Tor keep logs?"
-msgstr "Est-ce Tor que conserve des journaux ?"
+msgstr "Est-ce Tor conserve des journaux ?"
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.description)
@@ -4430,7 +4432,7 @@ msgstr ""
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.seo_slug)
 msgid "does-tor-keep-logs"
-msgstr "est-ce-que-tor-conserve-un-journal"
+msgstr "tor-conserve-t-il-des-journaux"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.title)
@@ -4438,8 +4440,8 @@ msgid ""
 "Does Tor Project offer email service or other privacy protecting web "
 "services?"
 msgstr ""
-"Le Projet Tor offre-t-il des services de courriel ou autres services Web de "
-"protection de la confidentialité ?"
+"Le Projet Tor offre-t-il des services de courriel ou d’autres services Web "
+"de protection de la confidentialité ?"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.description)
@@ -4455,7 +4457,7 @@ msgid ""
 msgstr ""
 "Une liste (en anglais) de tous nos projets de logiciels se trouve sur notre "
 "<mark><a href=\"https://www.torproject.org/projects/projects.html.en\">page "
-"des projets</a></mark>."
+"de projets</a></mark>."
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.seo_slug)
@@ -4521,7 +4523,7 @@ msgid ""
 "understanding."
 msgstr ""
 "faire progresser les droits de la personne et les libertés en créant et en "
-"déployant des technologies d'anonymat et de confidentialité gratuites et "
+"déployant des technologies d’anonymat et de confidentialité gratuites et "
 "open source, en soutenant leur utilisation et leur disponibilité sans "
 "restrictions, et en améliorant leur compréhension scientifique et populaire."
 
@@ -4539,10 +4541,10 @@ msgid ""
 "found in our <a href=\"https://www.torproject.org/docs/trademark-faq\" "
 "target=\"_blank\" class=\"text-primary-light\"><u>FAQ</u></a>."
 msgstr ""
-"La marque déposée, les droits d'auteurs et de reproduction par un tiers "
-"peuvent être trouvés dans notre <a href=\"https://www.torproject.org/docs"
-"/trademark-faq\" target=\"_blank\" class=\"text-primary-"
-"light\"><u>FAQ</u></a>."
+"Les avis de marque déposée, de droit d’auteur et les règles d’utilisation "
+"par des tiers peuvent être trouvés dans notre <a "
+"href=\"https://www.torproject.org/docs/trademark-faq\" target=\"_blank\" "
+"class=\"text-primary-light\"><u>FAQ</u></a>."
 
 #: templates/layout.html:7
 msgid "Tor Project | Support"

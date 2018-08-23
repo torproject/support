@@ -969,18 +969,22 @@ msgstr ""
 #: http//localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.seo_slug)
 msgid "view-tor-browser-message-log"
-msgstr ""
+msgstr "ver-registo-mensagens-tor-browser"
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.title)
 msgid ""
 "How can I make Tor run faster? Is Tor Browser slower than other browsers?"
 msgstr ""
+"O que é que eu posso fazer para o Tor ser mais rápido? O Tor Browser é mais "
+"lento que os outros navegadores?"
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
 msgid "Using Tor Browser can sometimes be slower than other browsers."
 msgstr ""
+"Ao utilizar o Tor Browser pode, às vezes, ser mais lento que os outros "
+"navegadores."
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
@@ -1019,7 +1023,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lrquestion.description)
 msgid "DuckDuckGo is the default search engine in Tor Browser."
-msgstr ""
+msgstr "DuckDuckGo é o motor de pesquisa predefinido no Tor Browser."
 
 #: http//localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lrquestion.description)
@@ -1027,16 +1031,18 @@ msgid ""
 "DuckDuckGo does not track its users nor does it store any data about user "
 "searches."
 msgstr ""
+"DuckDuckGo não monitoriza os utilizadores, nem guarda os dados sobre as "
+"pesquisas dos utilizadores."
 
 #: http//localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lrquestion.seo_slug)
 msgid "search-engine-tor-browser"
-msgstr ""
+msgstr "motor-pesquisa-tor-browser"
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.title)
 msgid "I'm having a problem with DuckDuckGo."
-msgstr ""
+msgstr "Eu estou a ter um problema com DuckDuckGo."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.description)
@@ -1044,6 +1050,8 @@ msgid ""
 "Please see the <mark><a href=\"https://duck.co/help\">DuckDuckGo support "
 "portal</a></mark>."
 msgstr ""
+"Por favor, consulte o <mark><a href=\"https://duck.co/help\">portal de apoio"
+" do DuckDuckGo</a></mark>."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.description)
@@ -1055,16 +1063,19 @@ msgid ""
 "If you believe this is a Tor Browser issue, please report it on our <mark><a"
 " href=\"https://trac.torproject.org/\">bug tracker</a></mark>."
 msgstr ""
+"Se acredita que este é um problema do Tor Browser, por favor, comunique-o no"
+" nosso <mark><a href=\"https://trac.torproject.org/\">rastreador de "
+"erros</a></mark>."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.seo_slug)
 msgid "problem-with-duckduckgo"
-msgstr ""
+msgstr "problema-com-duckduckgo"
 
 #: http//localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lrquestion.title)
 msgid "I'm having a problem with NoScript."
-msgstr ""
+msgstr "Eu estou a ter um problema com NoScript."
 
 #: http//localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lrquestion.description)
@@ -1072,16 +1083,18 @@ msgid ""
 "Please see the <mark><a href=\"https://noscript.net/faq\">NoScript "
 "FAQ</a></mark>."
 msgstr ""
+"Por favor, consulte as <mark> <a href=\"https://noscript.net/faq\">Perguntas"
+" Mais Frequentes do NoScript</a> </mark>."
 
 #: http//localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lrquestion.seo_slug)
 msgid "problem-noscript"
-msgstr ""
+msgstr "problema-noscript"
 
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.title)
 msgid "I'm having a problem with HTTPS Everywhere."
-msgstr ""
+msgstr "Eu estou a ter um problema com HTTPS Everywhere."
 
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.description)
@@ -1089,11 +1102,13 @@ msgid ""
 "Please see the <mark><a href=\"https://www.eff.org/https-"
 "everywhere/faq\">HTTPS Everywhere</a></mark>."
 msgstr ""
+"Por favor, consulte <mark> <a href=\"https://www.eff.org/https-"
+"everywhere/faq\">HTTPS Everywhere</a> </mark>."
 
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.seo_slug)
 msgid "problem-with-https-everywhere"
-msgstr ""
+msgstr "problema-com-https-everywhere"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.title)
@@ -1175,6 +1190,8 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New "
 "release alert\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New "
+"release alert\">"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
@@ -1205,7 +1222,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.seo_slug)
 msgid "updating-tor-browser"
-msgstr ""
+msgstr "atualização-tor-browser"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.title)
@@ -1257,7 +1274,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.seo_slug)
 msgid "uninstall-tor-browser"
-msgstr ""
+msgstr "desinstalar-tor-browser"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.title)
@@ -1308,7 +1325,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "##### New Tor Circuit for this Site"
-msgstr ""
+msgstr "##### Novo Tor Circuit para este Site"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1355,7 +1372,7 @@ msgstr "<p class=\"card-text\">Texto do Cartão</div>"
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.seo_slug)
 msgid "change-ip-address"
-msgstr ""
+msgstr "alterar-endereço-ip"
 
 #: http//localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lrquestion.seo_slug)
@@ -1407,12 +1424,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.seo_slug)
 msgid "website-locks-torbrowser-out"
-msgstr ""
+msgstr "site da Web-bloqueia-torbrowser"
 
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.description)
 msgid "Tor Browser is currently available on Windows, Linux and OSX."
-msgstr ""
+msgstr "Tor Browser está atualmente disponível para Linux, OSX e Windows."
 
 #: http//localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lrquestion.seo_slug)
@@ -1422,7 +1439,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.title)
 msgid "Can I set Tor Browser as my default browser?"
-msgstr ""
+msgstr "Eu posso definir o Tor Browser como o meu navegador predefinido?"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.description)
@@ -1430,6 +1447,8 @@ msgid ""
 "There is currently no supported method for setting Tor Browser as your "
 "default browser."
 msgstr ""
+"Atualmente não existe nenhum método suportado para configurar o Tor Browser "
+"como o seu navegador predefinido."
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.description)
@@ -1449,7 +1468,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.seo_slug)
 msgid "setting-tor-browser-as-default"
-msgstr ""
+msgstr "definir-tor-browser-como-predefinido"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.title)
@@ -1483,7 +1502,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.title)
 msgid "Why does Tor Browser ship with Javascript enabled?"
-msgstr ""
+msgstr "Por que é que o Tor Browser vem com Javascript ativado?"
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.description)
@@ -1530,7 +1549,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.title)
 msgid "Can you get rid of all the captchas?"
-msgstr ""
+msgstr "Pode livrar-se de todos os captchas?"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1538,6 +1557,8 @@ msgid ""
 "Unfortunately, some websites deliver CAPTCHAS to Tor users, and we are not "
 "able to remove CAPTCHAs from websites."
 msgstr ""
+"Infelizmente, alguns sites da Web fornecem CAPTCHAS para os utilizadores do "
+"Tor e nós não podemos remover os CAPTCHAs dos sites da Web."
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1550,7 +1571,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.seo_slug)
 msgid "get-rid-of-captchas"
-msgstr ""
+msgstr "livrar-se-de-captchas"
 
 #: http//localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lrquestion.title)
@@ -1587,7 +1608,7 @@ msgstr "* Inglês (en-US)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* العربية (ar)"
-msgstr ""
+msgstr "* Árabe (ar)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1602,7 +1623,7 @@ msgstr "* Espanhol (es-ES)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "*  فارسى (fa)"
-msgstr ""
+msgstr "*  Farsi (fa)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1617,7 +1638,7 @@ msgstr "* Italiano (it)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* 日本語 (ja)"
-msgstr ""
+msgstr "* Japonês (ja)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1627,12 +1648,12 @@ msgstr "* Coreano (ko)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* Nederlands (nl)"
-msgstr ""
+msgstr "* Holandês (nl)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* Polish (pl)"
-msgstr ""
+msgstr "* Polaco (pl)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1642,7 +1663,7 @@ msgstr "* Português (Brasil)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* Русский (ru)"
-msgstr ""
+msgstr "* Russo (ru)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1652,17 +1673,17 @@ msgstr "* Turco (tr)"
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* Vietnamese (vi)"
-msgstr ""
+msgstr "* Vietnamita (vi)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
 msgid "* 简体字 (zh-CN)"
-msgstr ""
+msgstr "* Chinês (Simplificado) (zh-CN)"
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.seo_slug)
 msgid "need-tor-browser-language-not-english"
-msgstr ""
+msgstr "precisa-idioma-não-inglês-tor-browser"
 
 #: http//localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lrquestion.title)
@@ -1753,21 +1774,24 @@ msgid ""
 "href=\"https://www.torproject.org/projects/torbrowser/design/\">Learn more "
 "about the design of Tor Browser</a></mark>."
 msgstr ""
+"<mark><a "
+"href=\"https://www.torproject.org/projects/torbrowser/design/\">Saiba mais "
+"sobre o desenho do Tor Browser</a></mark>."
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-is-built-from-firefox-why"
-msgstr ""
+msgstr "porque-o-tor-browser-é-criado-a-partir-do-firefox"
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.title)
 msgid "Does Tor Browser use a different circuit for each website?"
-msgstr ""
+msgstr "O Tor Browser utiliza um circuito diferente para cada site da Web?"
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.description)
 msgid "In Tor Browser, every new domain gets its own circuit."
-msgstr ""
+msgstr "No Tor Browser, cada novo domínio recebe o seu próprio circuito."
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.description)
@@ -1777,16 +1801,20 @@ msgid ""
 "Browser</a></mark> document further explains the thinking behind this "
 "design."
 msgstr ""
+"O documento <mark><a "
+"href=\"https://www.torproject.org/projects/torbrowser/design/#identifier-"
+"linkability\">O Desenho e Implementação do Tor Browser</a></mark> explica "
+"ainda mais o pensamento por trás desse desenho."
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.seo_slug)
 msgid "different-circuit-each-website"
-msgstr ""
+msgstr "circuito-diferente-em-cada-site da Web"
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.title)
 msgid "Why did my search engine switch to DuckDuckGo?"
-msgstr ""
+msgstr "Porque é que o meu motor de pesquisa muda para DuckDuckGo?"
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.description)
@@ -1959,11 +1987,14 @@ msgid ""
 "Please take a strong stance in favor of digital privacy and internet "
 "freedom, and allow Tor users access to xyz.com."
 msgstr ""
+"Por favor, tome uma posição forte em favor da privacidade digital e da "
+"liberdade da Internet, e permita que os utilizadores do Tor acedam a "
+"xyz.com."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
 msgid "Thank you.\""
-msgstr ""
+msgstr "Obrigado.\""
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2046,21 +2077,23 @@ msgid ""
 "href=\"https://www.torproject.org/about/contact.html.en\">Contact "
 "us</a></mark>."
 msgstr ""
+"Você? <mark><a href=\"https://www.torproject.org/about/contact.html.en"
+"\">Contacta-nos</a></mark>."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.seo_slug)
 msgid "tor-project-app-for-private-chat"
-msgstr ""
+msgstr "aplicação-projeto-tor-para-conversação-privada"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.title)
 msgid "Can I run Tor on an Android device?"
-msgstr ""
+msgstr "Eu posso executar o Tor num dispositivo Android?"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
 msgid "Tor on Android is provided by The Guardian Project."
-msgstr ""
+msgstr "Tor em Android é fornecido pelo The Guardian Project."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -2070,6 +2103,9 @@ msgid ""
 "<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark> "
 "web pages."
 msgstr ""
+"Pode encontrar mais informação nas páginas do <mark><a "
+"href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> e "
+"<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -2077,16 +2113,18 @@ msgid ""
 "Orfox is for web browsing, and Orbot can route other apps on your Android "
 "phone over the Tor network."
 msgstr ""
+"Orfox é para a navegação na Web, e o Orbot pode reencaminhar outras "
+"aplicações no seu telefone Android através da rede Tor."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.seo_slug)
 msgid "run-tor-on-android"
-msgstr ""
+msgstr "executar-tor-em-android"
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.title)
 msgid "Who is the Guardian Project?"
-msgstr ""
+msgstr "Quem é Guardian Project?"
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.description)
@@ -2096,16 +2134,20 @@ msgid ""
 "href=\"https://guardianproject.info/\">Guardian Project's "
 "website</a></mark>."
 msgstr ""
+"Guardian Project mantém o Tor (e outras aplicações de privacidade) em "
+"Android. Pode encontrar mais informação no <mark><a "
+"href=\"https://guardianproject.info/\">site da Web do Guardian "
+"Project</a></mark>."
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.seo_slug)
 msgid "who-is-the-guardian-project"
-msgstr ""
+msgstr "quem-é-guardian-project"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.title)
 msgid "Can I run Tor on an iOS device?"
-msgstr ""
+msgstr "Eu posso executar o Tor num dispositivo iOS?"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2114,6 +2156,9 @@ msgid ""
 " routing, and is developed by someone who works closely with the Tor "
 "Project."
 msgstr ""
+"Nós recomendamos uma aplicação para iOS chamada de Onion Browser, que é de "
+"código aberto, usa reencaminhamento Tor e é desenvolvido por alguém que "
+"trabalha de perto com o Tor Project."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2122,6 +2167,9 @@ msgid ""
 "which prevents Onion Browser from having the same privacy protections as Tor"
 " Browser."
 msgstr ""
+"Contudo, a Apple exige que os navegadores no iOS usem algo chamado Webkit, "
+"que impede que o Onion Browser tenha as mesmas proteções de privacidade que "
+"o Tor Browser."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2129,32 +2177,36 @@ msgid ""
 "<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-"
 "more-ios-tor\">Learn more about Onion Browser</a></mark>."
 msgstr ""
+"<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-"
+"more-ios-tor\">Saiba mais sobre o Onion Browser</a></mark>."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.seo_slug)
 msgid "run-tor-on-ios"
-msgstr ""
+msgstr "executar-tor-em-ios"
 
 #: http//localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lrquestion.title)
 msgid "How do I run Tor on Windows Phone?"
-msgstr ""
+msgstr "Como é que eu executo o Tor num Windows Phone?"
 
 #: http//localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lrquestion.description)
 msgid ""
 "There is currently no supported method for running Tor on Windows Phone."
 msgstr ""
+"Atualmente não existe nenhum método suportado para executar o Tor no Windows"
+" Phone."
 
 #: http//localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lrquestion.seo_slug)
 msgid "run-tor-on-windows-phone"
-msgstr ""
+msgstr "executar-tor-no-windows-phone"
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.title)
 msgid "When is Tor Browser for Android being released?"
-msgstr ""
+msgstr "Quando é que será lançado o Tor Browser para Android?"
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.description)
@@ -2162,6 +2214,8 @@ msgid ""
 "We are currently working on Tor Browser for Android, and you may see alpha "
 "releases appear over the coming months."
 msgstr ""
+"De momento, nós estamos a trabalhar no Tor Browser para Android, e poderá "
+"ver os lançamentos de versões alfa a aparecerem nos próximos meses."
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.description)
@@ -2170,11 +2224,14 @@ msgid ""
 "href=\"https://blog.torproject.org\">blog</a></mark> for future "
 "announcements and details regarding this project."
 msgstr ""
+"Por favor, consulte o nosso <mark><a "
+"href=\"https://blog.torproject.org\">blogue</a></mark> para anúncios futuros"
+" e detalhes, relacionados com este projeto."
 
 #: http//localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-for-android"
-msgstr ""
+msgstr "tor-browser-para-android"
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.title)
@@ -2192,6 +2249,9 @@ msgid ""
 "href=\"https://www.torproject.org\">website</a></mark>, you can get a copy "
 "of Tor delivered to you via GetTor."
 msgstr ""
+"Se não conseguir transferir o Tor através do nosso <mark><a "
+"href=\"https://www.torproject.org\">site da Web</a></mark>, pode obter uma "
+"cópia do Tor, enviada para si via GetTor."
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.description)
@@ -2202,6 +2262,9 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations that are"
 " less likely to be censored, such as Dropbox, Google Drive, and Github."
 msgstr ""
+"GetTor é um serviço que responde automaticamente às mensagens com "
+"hiperligações para a versão mais recente do Tor Browser, hospedada em várias"
+" localizações, tais como Dropbox, Github e Google Drive."
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.seo_slug)
@@ -2216,7 +2279,7 @@ msgstr "Para utilizar o GetTor via e-mail."
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
 msgid "Send an email to gettor@torproject.org."
-msgstr ""
+msgstr "Envie uma mensagem para gettor@torproject.org."
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
@@ -2234,6 +2297,12 @@ msgid ""
 "instructions for verification], the fingerprint of the key used to make the "
 "signature, and the package’s checksum."
 msgstr ""
+"GetTor irá responder com uma mensagem, contendo as hiperligações das quais "
+"pode transferir o Tor Browser, a assinatura criptográfica (necessária para "
+"verificar a transferência) [hiperligação para a definição do glossário da "
+"assinatura criptográfica; instruções para verificação], a impressão digital "
+"da chave utilizada para criar a assinatura, e a soma de verificação do "
+"pacote."
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
@@ -2246,7 +2315,7 @@ msgstr ""
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.seo_slug)
 msgid "to-use-gettor-via-email"
-msgstr ""
+msgstr "para-utilizar-gettor-via-e-mail"
 
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.title)
@@ -2285,7 +2354,7 @@ msgstr ""
 #: http//localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.seo_slug)
 msgid "to-use-gettor-via-twitter"
-msgstr ""
+msgstr "para-utilizar-gettor-via-twitter"
 
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.title)
@@ -2298,11 +2367,13 @@ msgid ""
 "To get links for downloading Tor Browser, send a message to "
 "gettor@toproject(dot)org with one of the following codes in it:"
 msgstr ""
+"Para obter hiperligações para a transferência do Tor Browser, envie uma "
+"mensagem para gettor@torproject(dot)org, com os seguintes códigos incluídos:"
 
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.seo_slug)
 msgid "to-use-gettor-via-xmpp"
-msgstr ""
+msgstr "para-utilizar-gettor-via-xmpp"
 
 #: http//localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lrquestion.seo_slug)

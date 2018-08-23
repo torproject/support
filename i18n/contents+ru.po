@@ -10,6 +10,7 @@
 # Rory Byrne <info@secfirst.org>, 2018
 # Vitaliy Grishenko, 2018
 # mayp <mayor.popeye@gmail.com>, 2018
+# Алиса Алиса <cannibalfoxis@gmail.com>, 2018
 # diana azaryan, 2018
 msgid ""
 msgstr ""
@@ -43,7 +44,7 @@ msgstr "Tor Browser"
 
 #: http//localhost/tbb/ (content/tbb/contents+en.lrtopic.seo_slug)
 msgid "tor-browser"
-msgstr ""
+msgstr "Браузер Tor"
 
 #: http//localhost/tormessenger/
 #: (content/tormessenger/contents+en.lrtopic.title)
@@ -70,12 +71,12 @@ msgstr "GetTor"
 
 #: http//localhost/connecting/ (content/connecting/contents+en.lrtopic.title)
 msgid "Connecting To Tor"
-msgstr "Соединение с Tor"
+msgstr "Подключение к Tor"
 
 #: http//localhost/connecting/
 #: (content/connecting/contents+en.lrtopic.seo_slug)
 msgid "connecting-to-tor"
-msgstr ""
+msgstr "Подключение к Tor"
 
 #: http//localhost/censorship/ (content/censorship/contents+en.lrtopic.title)
 msgid "Censorship"
@@ -110,7 +111,7 @@ msgstr "Onion-сервисы"
 #: http//localhost/onionservices/
 #: (content/onionservices/contents+en.lrtopic.seo_slug)
 msgid "onion-services"
-msgstr ""
+msgstr "Onion-сервисы"
 
 #: http//localhost/misc/ (content/misc/contents+en.lrtopic.title)
 msgid "Misc"
@@ -1978,7 +1979,7 @@ msgstr ""
 #: http//localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lrquestion.description)
 msgid "Something like this might do the trick:"
-msgstr ""
+msgstr "Что-то подобное может помочь:"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -1988,6 +1989,9 @@ msgid ""
 "\"Hi! I tried to access your site xyz.com while using Tor Browser and "
 "discovered that you don't allow Tor users to access your site."
 msgstr ""
+"\"Здравствуйте! Я пытался получить доступ к вашему сайту xyz.com во время "
+"использования Tor Browser и обнаружил, что вы не позволяете пользователям "
+"Tor получить доступ к вашему сайту."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -1997,6 +2001,8 @@ msgid ""
 "I urge you to reconsider this decision; Tor is used by people all over the "
 "world to protect their privacy and fight censorship."
 msgstr ""
+"Я призываю вас пересмотреть данное решение; Tor используется людьми во всем "
+"мире для защиты их приватности и борьбы с цензурой."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2008,6 +2014,11 @@ msgid ""
 "want to protect themselves from discovery, whistleblowers, activists, and "
 "ordinary people who want to opt out of invasive third party tracking."
 msgstr ""
+"Блокируя пользователей Tor, вы, скорее всего, блокируете людей в "
+"репрессивных странах, которые хотят использовать бесплатный интернет, "
+"журналистов и исследователей, которые хотят защитить себя от обнаружения, "
+"осведомителей, активистов и обычных людей, которые хотят отказаться от "
+"агрессивной сторонней слежки."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2015,11 +2026,13 @@ msgid ""
 "Please take a strong stance in favor of digital privacy and internet "
 "freedom, and allow Tor users access to xyz.com."
 msgstr ""
+"Пожалуйста, займите твердую позицию в пользу цифровой приватности и свободы "
+"Интернета, и предоставьте пользователям Tor доступ к xyz.com."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
 msgid "Thank you.\""
-msgstr ""
+msgstr "Спасибо.\""
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2032,6 +2045,11 @@ msgid ""
 "relay on the other side of the world, your account may be locked or "
 "suspended)."
 msgstr ""
+"В случае банков и других конфиденциальных веб-сайтов также часто можно "
+"увидеть географическую блокировку (если банк знает, что вы обычно получаете "
+"доступ к своим услугам из одной страны, и вдруг вы подключаетесь из "
+"выходного узла на другом конце света, ваша учетная запись может быть "
+"заблокирована или приостановлена)."
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -2054,7 +2072,7 @@ msgstr ""
 
 #: http//localhost/tbb/tbb-9/ (content/tbb/tbb-9/contents+en.lrquestion.title)
 msgid "Can I use Tor with a browser besides Tor Browser?"
-msgstr ""
+msgstr "Могу ли я использовать Tor с другим браузером помимо Tor Browser?"
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.description)
@@ -2062,6 +2080,8 @@ msgid ""
 "We strongly recommend against using Tor in any browser other than Tor "
 "Browser."
 msgstr ""
+"Мы настоятельно рекомендуем не использовать Tor в каком-либо браузере, кроме"
+" Tor Browser."
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.description)
@@ -2087,6 +2107,9 @@ msgid ""
 "href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
 "Messenger</a>."
 msgstr ""
+"Нет. После одиннадцати бета-релизов мы прекратили поддержку <a "
+"href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
+"Messenger</a>."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2094,6 +2117,8 @@ msgid ""
 "We still believe in Tor's ability to be used in a messaging app, but we "
 "don't have the resources to make it happen right now."
 msgstr ""
+"Мы по-прежнему верим в способность Tor использоваться в мессенджере, но у "
+"нас нет ресурсов, чтобы сделать это прямо сейчас."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2111,12 +2136,12 @@ msgstr ""
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.title)
 msgid "Can I run Tor on an Android device?"
-msgstr ""
+msgstr "Могу ли я запустить Tor на устройстве Android?"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
 msgid "Tor on Android is provided by The Guardian Project."
-msgstr ""
+msgstr "Tor на платформе Android представляет The Guardian Project."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -2126,6 +2151,9 @@ msgid ""
 "<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark> "
 "web pages."
 msgstr ""
+"Более подробную информацию вы можете найти на веб-сайтах <mark><a "
+"href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> и "
+"<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -2133,6 +2161,8 @@ msgid ""
 "Orfox is for web browsing, and Orbot can route other apps on your Android "
 "phone over the Tor network."
 msgstr ""
+"Orfox используется для просмотра веб-страниц, а Orbot может маршрутизировать"
+" другие приложения на вашем телефоне Android через сеть Tor."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.seo_slug)
@@ -2152,6 +2182,10 @@ msgid ""
 "href=\"https://guardianproject.info/\">Guardian Project's "
 "website</a></mark>."
 msgstr ""
+"The Guardian Project поддерживает Tor (и другие приложения, ориентированные "
+"на приватность) на платформе Android. Более подробную информацию можно найти"
+" на <mark><a href=\"https://guardianproject.info/\">сайте The Guardian "
+"Project</a></mark>."
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.seo_slug)
@@ -2161,7 +2195,7 @@ msgstr ""
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.title)
 msgid "Can I run Tor on an iOS device?"
-msgstr ""
+msgstr "Могу ли я запустить Tor на устройстве iOS?"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2170,6 +2204,9 @@ msgid ""
 " routing, and is developed by someone who works closely with the Tor "
 "Project."
 msgstr ""
+"Мы рекомендуем приложение для iOS под названием Onion Browser, которое имеет"
+" открытый исходный код, использует маршрутизацию Tor и разработано "
+"человеком, который тесно сотрудничает с The Tor Project."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)
@@ -2178,6 +2215,9 @@ msgid ""
 "which prevents Onion Browser from having the same privacy protections as Tor"
 " Browser."
 msgstr ""
+"Тем не менее, Apple требует, чтобы браузеры на iOS использовали что-то под "
+"названием Webkit, что не позволяет Onion Browser иметь такую же защиту "
+"конфиденциальности, что и Tor Browser."
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.description)

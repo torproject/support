@@ -872,11 +872,16 @@ msgid ""
 "users.cs.umn.edu/~hoppernj/single_guard.pdf\">paper</a></mark> on entry "
 "guards."
 msgstr ""
+"Per maggiori informazioni su come funzionano le guard relay, consulta questo"
+" <mark><a href=\"https://blog.torproject.org/improving-tors-anonymity-"
+"changing-guard-parameters\">post del blog</a></mark> e <mark><a href=\"https"
+"://www-users.cs.umn.edu/~hoppernj/single_guard.pdf\">questo "
+"saggio</a></mark> sulle entry guard."
 
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.seo_slug)
 msgid "first-address-relay-circuit"
-msgstr ""
+msgstr "primo-indirizzo-circuito-relay"
 
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.title)
@@ -925,7 +930,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.seo_slug)
 msgid "tor-browser-will-not-connect-no-censorship"
-msgstr ""
+msgstr "tor-browser-non-si-connette-no-censura"
 
 #: http//localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.title)
@@ -938,6 +943,9 @@ msgid ""
 "Click the button labelled \"Copy Tor Log To Clipboard\" that appears in the "
 "dialog window when Tor Browser is first connecting to the network."
 msgstr ""
+"Clicca sul pulsante chiamato \"Copia il Log di Tor negli Appunti\" che "
+"appare nella finestra di dialogo quando Tor Browser si connette per la prima"
+" volta al network."
 
 #: http//localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.description)
@@ -1052,7 +1060,7 @@ msgid ""
 "portal</a></mark>."
 msgstr ""
 "Per favore consulta il <mark><a href=\"https://duck.co/help\">portale di "
-"supporto di DuckDuckGo</a></mark>. "
+"supporto di DuckDuckGo</a></mark>."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.description)
@@ -1065,7 +1073,7 @@ msgid ""
 " href=\"https://trac.torproject.org/\">bug tracker</a></mark>."
 msgstr ""
 "Se pensi sia un problema di Tor Browser, per favore segnalalo nel nostro "
-"<mark><a href=\"https://trac.torproject.org/\">bug tracker</a></mark>. "
+"<mark><a href=\"https://trac.torproject.org/\">bug tracker</a></mark>."
 
 #: http//localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lrquestion.seo_slug)
@@ -1206,12 +1214,12 @@ msgstr ""
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "<h4 class=\"card-title\">Card title</h4>"
-msgstr ""
+msgstr "<h4 class=\"card-title\">Titolo della scheda</h4> "
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
 msgid "<p class=\"card-text\">Card text</p>"
-msgstr ""
+msgstr "<p class=\"card-text\">Testo della scheda</p> "
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
@@ -1328,6 +1336,8 @@ msgid ""
 "This option is useful if you want to prevent your subsequent browser "
 "activity from being linkable to what you were doing before."
 msgstr ""
+"Questa opzione è utile se vuoi evitare che le prossime attività del browser "
+"siano correlabili a quanto hai fatto in precedenza."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1336,6 +1346,9 @@ msgid ""
 "information such as cookies and browsing history, and use new Tor circuits "
 "for all connections."
 msgstr ""
+"Selezionare questa opzione chiuderà tutte le tue schede e le finestre, "
+"pulirà le tue informazioni personali come i cookie e la cronologia di "
+"navigazione, ed utilizzerà un nuovo circuito Tor per tutte le connessioni."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1358,6 +1371,9 @@ msgid ""
 "This option is useful if the exit relay you are using is unable to connect "
 "to the website you require, or is not loading it properly."
 msgstr ""
+"Questa opzione è utile se l'exit relay che stai utilizzando non è in grado "
+"di connetersi al sito che vuoi visitare, o non lo sta caricando "
+"correttamente."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1365,6 +1381,8 @@ msgid ""
 "Selecting it will cause the currently-active tab or window to be reloaded "
 "over a new Tor circuit."
 msgstr ""
+"Selezionare questa opzione ricaricherà tutte le schede attive o le finestre "
+"utilizzando un nuovo circuito Tor."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1372,6 +1390,8 @@ msgid ""
 "Other open tabs and windows from the same website will use the new circuit "
 "as well once they are reloaded."
 msgstr ""
+"Le altre schede e finestre windows dello stesso sito internet utilizzeranno "
+"il nuovo circuito una volta ricaricate."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1379,6 +1399,9 @@ msgid ""
 "This option does not clear any private information or unlink your activity, "
 "nor does it affect your current connections to other websites."
 msgstr ""
+"Questa opzione non cancella le tue informazioni personali né ti disconnette "
+"dalle tue attività, e non influisce sulle tue attuali connessioni verso "
+"altri siti internet."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1392,7 +1415,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "<p class=\"card-text\">Card text</div>"
-msgstr ""
+msgstr "<p class=\"card-text\">Testo della scheda</div> "
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.seo_slug)
@@ -1403,6 +1426,7 @@ msgstr "cambia-l'indirizzo-ip"
 #: (content/tbb/tbb-3/contents+en.lrquestion.seo_slug)
 msgid "tell-which-website-are-visited-while-using-tor-browser"
 msgstr ""
+"indica-quali-siti-internet-sono-visitati-durante-l'utilizzo-di-tor-browser"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.title)
@@ -1808,6 +1832,8 @@ msgid ""
 "The simplest fix is to click on the \"onion menu,\" then click on the "
 "security slider."
 msgstr ""
+"Il modo più semplice per risolvere il problema è cliccare sul \"menù "
+"onion\", quindi cliccare sulla barra della sicurezza."
 
 #: http//localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lrquestion.description)
@@ -1928,6 +1954,10 @@ msgid ""
 "choose between different search providers, it fell back to delivering Bing "
 "search results which were basically unacceptable quality-wise."
 msgstr ""
+"Poiché Disconnect è più un meta-motore di ricerca che permette agli utenti "
+"di scegliere tra differenti provider di ricerca, non riesce a riportare i "
+"risultati di ricerca di Bing il che fondamentalmente non è qualitativamente "
+"accettabile."
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.seo_slug)
@@ -2749,6 +2779,8 @@ msgstr "Questo potrebbe indicare che sei in un network sottoposto a censura."
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "Please try connecting with bridges, and that should fix the problem."
 msgstr ""
+"Per favore prova a conetterti tramite i ponti, questo dovrebbe risolvere il "
+"problema."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2756,6 +2788,8 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #3: Failed to complete TLS handshake"
 msgstr ""
+"##### Errore di registro comune #3: Impossibile completare la connessione "
+"TLS."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2811,6 +2845,13 @@ msgid ""
 "error #4: Clock skew</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] "
 "Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN] 1 connections died in state connect()ing with "
+"SSL state (No SSL object)</code></pre>Se vedi righe come queste sul tuo log "
+"di Tor, significa che Tor non è riuscito a completare la connessione TLS con"
+" le directory authorities. Utilizzare un ponte molto probabilmente risolverà"
+" questo problema.<h5>Errore di registro comune #4: Clock "
+"skew</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener"
+" on 127.0.0.1:9150 "
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2947,7 +2988,7 @@ msgstr "impossibile-raggiungere-x-onion"
 #: http//localhost/censorship/censorship-1/
 #: (content/censorship/censorship-1/contents+en.lrquestion.seo_slug)
 msgid "our-website-is-blocked-by-a-censor"
-msgstr ""
+msgstr "il-nostro-sito-è-bloccato-da-un-censore"
 
 #: http//localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lrquestion.description)
@@ -2982,7 +3023,7 @@ msgstr "il-mio-network-è-censurato"
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.title)
 msgid "What is a bridge?"
-msgstr ""
+msgstr "Che cos'è un ponte?"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2990,6 +3031,8 @@ msgid ""
 "Bridge relays are Tor relays that are not listed in the public Tor "
 "directory."
 msgstr ""
+"I relay ponti sono dei relay che non sono indicati nell'elenco pubblico di "
+"Tor."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2997,6 +3040,8 @@ msgid ""
 "That means that ISPs or governments trying to block access to the Tor "
 "network can't simply block all bridges."
 msgstr ""
+"Questo significa che gli ISP o i governi che vogliano bloccare l'accesso al "
+"network Tor semplicemente non riusciranno a bloccare tutti i ponti."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3005,17 +3050,23 @@ msgid ""
 "who want an extra layer of security because they're worried somebody will "
 "recognize that they are contacting a public Tor relay IP address."
 msgstr ""
+"I ponti sono utili per gli utenti Tor che si trovano in regimi oppressivi e "
+"per le persone che desiderano avere un livello aggiuntivo di sicurezza "
+"perché sono preoccupati che qualcuno possa accorgersi che si stanno "
+"connettendo ad un indirizzo IP di un relay pubblico di Tor."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
 msgid ""
 "A bridge is just a normal relay with a slightly different configuration."
 msgstr ""
+"Un ponte è un normale relay con una configurazione leggermente differente."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
 msgid "See (link to How do I run a bridge) for instructions."
 msgstr ""
+"Consulta (link a Come faccio a gestire un ponte) per maggiori istruzioni."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3023,6 +3074,8 @@ msgid ""
 "Several countries, including China and Iran, have found ways to detect and "
 "block connections to Tor bridges."
 msgstr ""
+"Molti Paesi, inclusi Cina e Iran, hanno trovato dei modi per rilevare e "
+"bloccare le connessioni ai ponti Tor."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3031,6 +3084,9 @@ msgid ""
 "href=\"https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt\">Obfsproxy</a></mark>"
 " bridges address this by adding another layer of obfuscation."
 msgstr ""
+"I ponti <mark><a "
+"href=\"https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt\">Obfsproxy</a></mark>"
+" si dedicano a questo, aggiungendo un ulteriore livello di offuscazione. "
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3038,6 +3094,8 @@ msgid ""
 "Setting up an obfsproxy bridge requires an additional software package and "
 "additional configurations."
 msgstr ""
+"Implementare un bridge Obfsproxy richiede un pacchetto software aggiuntivo e"
+" delle configurazioni supplementari."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -3045,6 +3103,10 @@ msgid ""
 "See our page on <mark><a href=\"https://www.torproject.org/docs/pluggable-"
 "transports.html.en\">pluggable transports</a></mark> for more info."
 msgstr ""
+"Consulta la nostra pagina sui <mark><a "
+"href=\"https://www.torproject.org/docs/pluggable-"
+"transports.html.en\">pluggable transports</a></mark> per maggiori "
+"informazioni. "
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.seo_slug)
@@ -3064,6 +3126,7 @@ msgstr ""
 #: (content/https/https-1/contents+en.lrquestion.description)
 msgid "Tor protects eavesdroppers from learning sites that you visit."
 msgstr ""
+"Tor impedisce agli spioni di conoscere quali siti internet hai visitato."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3072,6 +3135,10 @@ msgid ""
 " still be intercepted by exit relay operators or anyone observing the "
 "traffic between your exit relay and your destination website."
 msgstr ""
+"Tuttavia, le informazioni inviate sui internet senza crittografia "
+"utilizzando il semplice HTTP possono essere intercettate dagli operatori "
+"degli exit relay o da qualcuno che osservi il traffico tra il tuo exit relay"
+" e il tuo sito di destinazione."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3079,6 +3146,8 @@ msgid ""
 "If the site you are visiting uses HTTPS, then the traffic leaving your exit "
 "relay will be encrypted, and won't be visible to eavesdroppers."
 msgstr ""
+"Se il sito che stai visitando utilizza HTTPS, allora il traffico in uscita "
+"dal tuo exit relay sarà crittografato, e non sarà visibile agli spioni."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3096,6 +3165,8 @@ msgid ""
 "<h4 class=\"card-title\">If you are using HTTPS, your website URL will begin"
 " with \"https://\".</h4>"
 msgstr ""
+"<h4 class=\"card-title\">Se stai utilizzando HTTPS, l'URL del sito internet "
+"inizierà con \"https://\".</h4> "
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3109,16 +3180,18 @@ msgid ""
 "visible to eavesdroppers with and without Tor Browser and HTTPS "
 "encryption.</h4>"
 msgstr ""
+"<h4 class=\"card-title\">Questa visualizzazione mostra quale informazione è "
+"visibile agli spioni con e senza Tor Browser e la crittografia HTTPS.</h4> "
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.seo_slug)
 msgid "can-eavesdroppers-see-information-i-share"
-msgstr ""
+msgstr "possono-gli-spioni-vedere-le-informazioni-che-condivido"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.title)
 msgid "How do I run a middle or guard relay on Debian?"
-msgstr ""
+msgstr "Come implemento un middle o un guard relay su Debian?"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3129,13 +3202,17 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a></mark>."
 msgstr ""
+"Per le informazioni più dettagliate su come implementare un relay, guarda la"
+" <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Guida "
+"ai Tor Relay</a></mark>. "
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor\" (as root)."
-msgstr ""
+msgstr "* Esegui \"apt-get install tor\" (come root)."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3145,6 +3222,9 @@ msgid ""
 "* Make sure your clock, date, and timezone are set correctly. Install the "
 "ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"* Assicurati che il tuo orologio, data, fuso orario siano settati "
+"correttamente. Installa il paccetto ntp o openntp (o analoghi) perché tutto "
+"rimanga così."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3165,6 +3245,8 @@ msgid ""
 "## The IP address or hostname for incoming connections (leave commented and "
 "Tor will guess)"
 msgstr ""
+"## L'indirizzo IP o l'hostname per le connessioni in ingresso (lasciarlo "
+"senza commento e Tor proverà ad indovinare)"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3173,7 +3255,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#Address noname.example.com"
-msgstr ""
+msgstr "#Address senzanome.esempio.com"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3184,7 +3266,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set the nickname of this relay"
-msgstr ""
+msgstr "## Imposta un soprannome per questo relay"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3195,7 +3277,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Nickname ididnteditheconfig"
-msgstr ""
+msgstr "Nickname ididnteditheconfig"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3217,7 +3299,7 @@ msgstr "## Imposta le tue informazioni di contatto"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
-msgstr ""
+msgstr "ContactInfo 0xFFFFFFFF Persona Casuale <nobody AT example dot com> "
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3226,7 +3308,7 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "## If you control multiple relays, include then in the family"
-msgstr ""
+msgstr "## Se controlli più relay, allora includilo nella famiglia"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3235,7 +3317,7 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "#MyFamily $keyid,$keyid,..."
-msgstr ""
+msgstr "#MyFamily $keyid,$keyid,..."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3267,6 +3349,8 @@ msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
 msgstr ""
+"## Imposta la larghezza di banda (lasciandolo senza commento Tor funzionerà "
+"senza limiti di banda)"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3277,7 +3361,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#RelayBandwidthRate 30 MBytes"
-msgstr ""
+msgstr "#RelayBandwidthRate 30 MBytes"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3288,21 +3372,21 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#RelayBandwidthBurst 100 MBytes"
-msgstr ""
+msgstr "#RelayBandwidthBurst 100 MBytes"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "ExitPolicy reject *:*"
-msgstr ""
+msgstr "ExitPolicy reject *:*"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)"
-msgstr ""
+msgstr "* Esegui \"service tor reload\" (come root)"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3316,6 +3400,8 @@ msgid ""
 "* After your relay connects to the network, it will try to determine whether"
 " the ports you configured are reachable from the outside."
 msgstr ""
+"* Dopo che il tuo relay si sarà connesso al network, proverà a verificare se"
+" le porte che hai configurato sono raggiungibili dall'esterno."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3335,7 +3421,7 @@ msgid ""
 "Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cerca una voce nel log in /var/log/syslog simile a \"Self-testing indicates "
+"Cerca una voce nel log /var/log/syslog simile a \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 
 #: http//localhost/operators/operators-1/
@@ -3375,6 +3461,9 @@ msgid ""
 " to the directory authorities to let clients know what address, ports, keys,"
 " etc your relay is using."
 msgstr ""
+"Quando viene confermato che è raggiungibile, caricherà un \"server "
+"descriptor\" nella directory authorities per fare conoscere ai client quali "
+"indirizzi, porte, chiavi, ecc sta utilizzando il tuo relay."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3400,7 +3489,7 @@ msgstr "Se non lo è, ri-controlla nuovamente il firewall, l'IP e le porte."
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-relay"
-msgstr ""
+msgstr "come-implemento-un-middle-o-guard-relay"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.title)
@@ -3416,7 +3505,7 @@ msgid ""
 msgstr ""
 "* Consulta le nostre <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">linee"
-" guida sugli exit relay</a></mark> "
+" guida sugli exit relay</a></mark>"
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3436,6 +3525,9 @@ msgid ""
 "descriptor\" to the directory authorities to let clients know what address, "
 "ports, keys, etc your relay is using."
 msgstr ""
+"* Quando viene confermato che è raggiungibile, caricherà un \"server "
+"descriptor\" nella directory authorities per fare conoscere ai client quali "
+"indirizzi, porte, chiavi, ecc sta utilizzando il tuo relay."
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3444,7 +3536,7 @@ msgid ""
 "<mark><a href=\"https://atlas.torproject.org/\">Atlas</a></mark> to see "
 "whether your relay has successfully registered in the network."
 msgstr ""
-"Dopo un po' di ore (per dare tempo a sufficienza per propagarsi), potrai "
+"Dopo un po' di ore (per dare sufficiente tempo per la propagazione), potrai "
 "consultare l'<mark><a "
 "href=\"https://atlas.torproject.org/\">Atlas</a></mark> per vedere se il tuo"
 " relay è stato registrato con successo nel network."
@@ -3456,6 +3548,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">Reduced"
 " exit policy</a></mark>."
 msgstr ""
+"Valuta se preferisci passare alla <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">exit"
+" policy ridotta</a></mark>."
 
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.seo_slug)
@@ -3465,7 +3560,7 @@ msgstr "come-implemento-un-exit"
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.title)
 msgid "How do I run a middle or guard relay on FreeBSD or HardenedBSD?"
-msgstr ""
+msgstr "Come implemento un middle o guard relay su FreeBSD o HardenedBSD?"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3474,11 +3569,15 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a>."
 msgstr ""
+"Per le informazioni più dettagliate su come implementare un relay, guarda la"
+" <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Guida "
+"ai Tor Relay</a></mark>. "
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr ""
+msgstr "* Esegui \"pkg install tor\" (come root)."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3492,7 +3591,7 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Enabling ntpd is suggested."
-msgstr ""
+msgstr "E' suggerito abilitare ntpd"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3508,18 +3607,20 @@ msgstr "RunAsDaemon 1"
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Log notice file /var/log/tor/notices.log"
-msgstr ""
+msgstr "File dei log di avviso /var/log/tor/notices.log"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
+"* Assicurati che Tor si esegua al boot eseguendo \"sysrc tor_enable=YES\" "
+"(come root)"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"service tor start\" (as root)"
-msgstr ""
+msgstr "* Esegui \"service tor start\" (come root)"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3533,7 +3634,7 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-on-freebsd"
-msgstr ""
+msgstr "come-implemento-un-middle-o-guard-su-freebsd"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
@@ -3611,6 +3712,7 @@ msgstr ""
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Run the following commands to install tor and check its signatures:"
 msgstr ""
+"* Esegui i comandi seguenti per installare Tor e verificare le sue firme:"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3630,17 +3732,18 @@ msgstr "utilizzare-i-pacchetti-corretti"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.title)
 msgid "How do I run a obfs4 bridge on Debian?"
-msgstr ""
+msgstr "Come implemento un ponte obfs4 su Debian?"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
-msgstr ""
+msgstr "* Esegui \"apt-get install tor obfs4proxy\" (come root)."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Install the ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"Installa il paccetto ntp o openntp (o analoghi) perché tutto rimanga così."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3650,27 +3753,29 @@ msgstr "BridgeRelay 1"
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
-msgstr ""
+msgstr "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "ExtORPort auto"
-msgstr ""
+msgstr "ExtORPort auto "
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set your bandwidth rate (leave commented and Tor will run without"
 msgstr ""
+"## Imposta la larghezza di banda (lasciandolo senza commento Tor funzionerà "
+"senza"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "bandwidth caps)"
-msgstr ""
+msgstr "limiti di banda)"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)."
-msgstr ""
+msgstr "* Esegui \"service tor reload\" (come root)."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3678,6 +3783,8 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"* Cerca una voce nel log var/log/syslog simile a \"Self-testing indicates "
+"your ORPort is reachable from the outside. Excellent.\""
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3685,11 +3792,13 @@ msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
+"* Dovresti anche visualizzare il messaggio \"Registered server transport "
+"'obfs4'\" il quale indica che obfs4proxy è funzionante."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-obfs4-bridge-debian"
-msgstr ""
+msgstr "come-implemento-un-ponte-obfs4-su-debian"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
@@ -3820,6 +3929,10 @@ msgid ""
 " or OnionShare, safer software updates, and more secure ways to reach "
 "popular websites like Facebook."
 msgstr ""
+"I servizi Onion offrono anche chat senza-metadati e programmi di file "
+"sharing, interazioni più sicure tra i giornalisti e le loro fonti come con "
+"SecureDrop o OnionShare, aggiornamenti software più sicuri, e soluzioni più "
+"sicure per raggiungere siti internet popolari come Facebook."
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -3896,7 +4009,7 @@ msgstr "il-progetto-tor-offre-servizi-hosting"
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.title)
 msgid "Can I change the number of hops Tor uses?"
-msgstr "Posso cambiare il numero di nodi usati da Tor?"
+msgstr "Posso cambiare il numero di salti usati da Tor?"
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3904,6 +4017,8 @@ msgid ""
 "Right now the path length is hard-coded at 3 plus the number of nodes in "
 "your path that are sensitive."
 msgstr ""
+"Al momento la lunghezza del percorso è impostata a 3 più il numero di nodi "
+"che durante il tuo percorso sono sensibili."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3911,6 +4026,8 @@ msgid ""
 "That is, in normal cases it's 3, but for example if you're accessing an "
 "onion service or a \".exit\" address it could be more."
 msgstr ""
+"Ciò significa, normalmente sono 3, ma per esempio se accedi ad un servizio "
+"onion o ad un indirizzo \".exit\" potrebbero essercene di più."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3919,6 +4036,9 @@ msgid ""
 "increases load on the network without (as far as we can tell) providing any "
 "more security."
 msgstr ""
+"Non vogliamo incoraggiare le persone ad utilizzare percorsi più lunghi di "
+"così in quanto aumenterebbe il peso del network senza (per quello che "
+"possiamo dire) fornire maggiore sicurezza."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -3929,11 +4049,17 @@ msgid ""
 " identifier if only a small number of users have the same path length as "
 "you."
 msgstr ""
+"In più, utilizzare percorsi più lunghi di 3 potrebbe compromettere "
+"l'anonimia, in primo luogo perché rende gli attacchi <mark><a "
+"href=\"https://www.freehaven.net/anonbib/#ccs07-doa\">denial of "
+"security</a></mark> più semplici, e in secondo luogo perché potrebbe essere "
+"utilizzato come un indicatore, un segno distintivo, se poche persone "
+"utilizzano la stessa lunghezza di percorso come la tua."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.seo_slug)
 msgid "change-the-number-of-hops-tor-uses"
-msgstr ""
+msgstr "cambiare-il-numero-di-salti-che-tor-utilizza"
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.title)
@@ -4013,7 +4139,7 @@ msgid ""
 msgstr ""
 "Puoi trovare maggiori informazioni per le donazioni nella nostra <mark><a "
 "href=\"https://donate.torproject.org/donor-faq\">FAQ per i "
-"donatori</a></mark>. "
+"donatori</a></mark>."
 
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.seo_slug)
@@ -4138,7 +4264,7 @@ msgid ""
 msgstr ""
 "Per maggiori dettagli, per favore consulta il nostro <mark><a "
 "href=\"https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea\">post"
-" sul blog relativo a questo argomento</a></mark>. "
+" sul blog relativo a questo argomento</a></mark>."
 
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.seo_slug)
@@ -4231,7 +4357,7 @@ msgid ""
 msgstr ""
 "Noi rileviamo in sicurezza alcune misurazioni relative al funzionamento del "
 "network, puoi controllarle da <mark><a "
-"href=\"https://metrics.torproject.org/\">Tor Metrics</a></mark>. "
+"href=\"https://metrics.torproject.org/\">Tor Metrics</a></mark>."
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.seo_slug)
@@ -4262,7 +4388,7 @@ msgstr ""
 "Un elenco di tutti i nostri progetti software può essere reperita sulla "
 "nostra <mark><a "
 "href=\"https://www.torproject.org/projects/projects.html.en\">pagina dei "
-"progetti</a></mark>. "
+"progetti</a></mark>."
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.seo_slug)
@@ -4283,7 +4409,7 @@ msgid ""
 msgstr ""
 "Puoi trovare tutte le informazioni sulla nostra <mark><a "
 "href=\"https://www.torproject.org/docs/trademark-faq.html\">pagina di FAQ "
-"sul Marchio</a></mark>. "
+"sul Marchio</a></mark>."
 
 #: http//localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lrquestion.seo_slug)
@@ -4347,7 +4473,7 @@ msgstr ""
 "Marchi, note di copyright e regole per il loro utilizzo da parte di terzi "
 "possono essere trovati nelle nostre <a "
 "href=\"https://www.torproject.org/docs/trademark-faq\" target=\"_blank\" "
-"class=\"text-primary-light\"><u>FAQ</u></a>. "
+"class=\"text-primary-light\"><u>FAQ</u></a>."
 
 #: templates/layout.html:7
 msgid "Tor Project | Support"
