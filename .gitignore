@@ -1,3 +1,6 @@
+i18n/.gitignore
+i18n/README.md
+
 node_modules
 
 .sass-cache

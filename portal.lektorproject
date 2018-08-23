@@ -20,13 +20,18 @@ name = Български (Bəlgarski)
 url_prefix = /bg/
 locale = bg_BG
 
+[alternatives.bn]
+name = Bengali
+url_prefix = /bn/
+locale = bn_BD
+
 [alternatives.ca]
 name = català
 url_prefix = /ca/
 locale = ca_CA
 
 [alternatives.cs]
-name =  česky 
+name =  česky
 url_prefix = /cs/
 locale = cs_CS
 
@@ -56,7 +61,7 @@ url_prefix = /eo/
 locale = eo_EO
 
 [alternatives.fa]
-name =  فارسی (Farsi) 
+name =  فارسی (Farsi)
 url_prefix = /fa/
 locale = fa_FA
 
@@ -106,7 +111,7 @@ url_prefix = /lt/
 locale = lt_LT
 
 [alternatives.hu]
-name = magyar
+name = Magyar
 url_prefix = /hu/
 locale = hu_HU
 
@@ -121,7 +126,7 @@ url_prefix = /ja/
 locale = ja_JA
 
 [alternatives.nb]
-name = norsk (bokmål)
+name = Norsk (bokmål)
 url_prefix = /nb/
 locale = nb_NB
 
