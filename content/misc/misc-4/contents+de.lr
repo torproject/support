@@ -1,0 +1,9 @@
+_model: question
+---
+title: Funktioniert Tor mit bittorrent?
+---
+seo_slug: tor-bittorrent
+---
+description:
+Wir empfehlen es nicht, Tor zusammen mit Bittorrent zu nutzen.
+For further details, please see our <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">blog post on the subject</a></mark>.
