@@ -1,0 +1,11 @@
+_model: question
+---
+title: Saya pernah mendengar tentang situs-situs yang hanya dapat diakses melalui Tor. Situs-situs apa saja dan bagaimana cara mengakses mereka?
+---
+seo_slug: accessing-websites-that-are-only-accessible-over-tor 
+---
+description:
+Situs-situs yang hanya dapat diakses melalui Tor disebut "onion" dan berakhir dengan akhiran .onion.
+Contohnya, situs onion dari DuckDuckGo adalah <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
+Anda dapat mengakses situs-situs tersebut dengan menggunakan Tor Browser.
+Alamat situsnya harus diberikan oleh pemiliknya karena tidak terindeks oleh mesin pencari seperti situs biasa.

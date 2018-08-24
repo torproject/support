@@ -1,0 +1,11 @@
+_model: question
+---
+title: Apa itu .onion atau apa itu onion service?
+---
+seo_slug: what-is-a-dot-onion 
+---
+description:
+Onion service memungkinkan orang untuk melihat, tetapi juga untuk mempublikasikan secara anonim, termasuk penerbitan website anonim.
+Onion service juga dapat digunakan untuk chatting bebas metadata dan berbagi file, interaksi lebih aman untuk wartawan dan informannya dengan menggunakan SecureDrop, pembaruan perangkat lunak yang lebih aman, dan cara-cara lebih aman untuk menggunakan situs populer seperti Facebook.
+
+Servis-servis ini menggunakan akhiran khusus .onion (bukan .com, .net, .org, dll.) dan hanya dapat diakses melalui jaringan Tor

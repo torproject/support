@@ -1,0 +1,9 @@
+_model: question
+---
+title: Apakah saya harus memasang add-on atau extension baru di Tor Browser, seperti AdBlock Plus atau uBlock Origin?
+---
+seo_slug: installing-add-on-extensions-tor-browser 
+---
+description:
+Sangat tidak dianjurkan untuk memasang add-on baru di Tor Browser karena mereka dapat membahayakan privasi dan keamanan Anda.
+Tor Browser sudah terpasang dua add-on — HTTPS Everywhere dan NoScript — menambahkan add-on lain akan merusak anomimisitas Anda. </p>

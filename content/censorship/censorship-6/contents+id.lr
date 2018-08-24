@@ -1,0 +1,11 @@
+_model: question
+---
+title: Saya tidak bisa terhubung ke Tor Browser, apakah jaringan saya terkena sensor?
+---
+seo_slug: is-my-network-censored 
+---
+description:
+Anda mungkin pada jaringan disensor, sehingga Anda harus mencoba menggunakan bridge.
+Beberapa bridge dibuat untuk Tor Browser, dan Anda dapat menggunakannya dengan memilih "mengkonfigurasi" (kemudian mengikuti petunjuknya) di jendela Tor Launcher yang muncul ketika Anda membuka Tor Browser untuk pertama kalinya.
+Jika Anda memerlukan bridge lain, Anda dapat memperolehnya di <mark><a href=\"https://bridges.torproject.org/\">situs web bridge kami </a></mark>.
+Untuk info lebih lanjut tentang bridge, silakan baca <mark><a href=\"https://tb-manual.torproject.org/en-US/bridges.html\">petunjuk Tor Browser </a></mark>.</p>

@@ -1,0 +1,10 @@
+_model: question
+---
+title: Apakah saya dapat membuat Tor Browser menjadi peramban standar saya?
+---
+seo_slug: setting-tor-browser-as-default 
+---
+description:
+Saat ini ada tidak ada metode yang didukung untuk menetapkan Tor Browser sebagai penjelajah standar.
+Tor Browser bekerja keras untuk mengisolasi diri dari seluruh sistem Anda, dan langkah-langkah untuk membuat default browser tidak dapat diandalkan.
+Ini berarti kadang-kadang situs web akan memuat di dalam Tor Browser, dan kadang-kadang itu akan dimuat dalam browser lain, jenis perilaku ini dapat berbahaya dan merusak anonimitas.

@@ -1,0 +1,14 @@
+_model: question
+---
+title: Saya mengunduh dan memasang Tor Browser untuk Windows, tapi sekarang saya tidak dapat menemukan programnya.
+---
+seo_slug: cannot-find-tor-on-windows 
+---
+description:
+File yang Anda download dan jalankan akan meminta Anda untuk sebuah destinasi.
+Jika Anda tidak ingat destinasi tersebut, itu adalah kemungkinan unduhan atau Desktop folder.
+
+Pengaturan default di penginstal Windows juga membuat pintasan untuk Anda di Desktop Anda, meskipun perlu diketahui bahwa Anda mungkin secara tidak sengaja membuka opsi untuk membuat pintasan.
+
+Jika Anda tidak dapat menemukannya di salah satu folder tersebut, download lagi dan cari prompt yang meminta Anda untuk memilih direktori untuk men-download itu.
+Pilih lokasi direktori yang Anda akan ingat dengan mudah, dan setelah download selesai Anda akan melihat folder Tor Browser yang ada.

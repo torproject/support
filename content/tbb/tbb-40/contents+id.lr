@@ -1,0 +1,9 @@
+_model: question
+---
+title: Apakah Tor Browser menggunakan sirkuit yang berbeda untuk setiap situs web?
+---
+seo_slug: different-circuit-each-website 
+---
+description:
+Di Tor Browser, setiap domain baru mendapatkan sirkuitnya sendiri.
+<mark> <a href="https://www.torproject.org/projects/torbrowser/design/">Pelajari lebih lanjut tentang desain Tor Browser</a> </mark> .

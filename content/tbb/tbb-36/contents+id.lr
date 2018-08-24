@@ -1,0 +1,8 @@
+_model: question
+---
+title: Apakah saya dapat menjalankan lebih dari satu Tor Browser?
+---
+seo_slug: run-multible-instances-of-tor-browser 
+---
+description:
+Kami tidak merekomendasikan menjalankan beberapa Tor browser secara bersamaan, dan ini mungkin tidak bekerja seperti yang diantisipasi pada banyak platform.

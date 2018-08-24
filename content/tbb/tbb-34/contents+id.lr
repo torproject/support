@@ -1,0 +1,13 @@
+_model: question
+---
+title: Kenapa Javascript diaktifkan di Tor Browser?
+---
+seo_slug: tor-browser-js-enabled-default 
+---
+description:
+Kami mengonfigurasi NoScript untuk mengizinkan JavaScript secara default di Tor Browser karena banyak situs web tidak akan berfungsi dengan JavaScript dinonaktifkan.
+Sebagian besar pengguna akan meninggalkan Tor jika Javascript dimatikan secara default karena akan menyebabkan banyak masalah bagi mereka.
+Pada akhirnya, kami ingin membuat Tor Browser seaman mungkin sementara juga membuat bermanfaat bagi sebagian orang, jadi untuk sekarang, ini berarti membuat Javascript diaktifkan secara default.
+
+Untuk pengguna yang ingin memiliki Javascript dinonaktifkan pada semua situs HTTP secara default, sebaiknya mengubah slider keamanan peramban Tor (di menu Tor Browser bawang di bawah "Pengaturan keamanan").
+Pengaturan rendah/default menjalankan Javascript, tetapi tingkat menengah dan tinggi memblokir Javascript di situs HTTP.

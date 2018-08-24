@@ -1,0 +1,11 @@
+_model: question
+---
+title: Apakah saya dapat memilih negara sebagai exit node?
+---
+seo_slug: pick-which-country-i-am-exiting 
+---
+description:
+Memodifikasi cara Tor menciptakan sirkuit sangat tidak disarankan.
+Anda mendapatkan keamanan terbaik yang dapat diberikan Tor ketika Anda meninggalkan pilihan rute kepada Tor; mengubah node masuk/keluar dapat mengurangi anonimitas Anda.
+Jika hasil yang Anda inginkan adalah hanya untuk dapat mengakses sumber daya yang tersedia hanya di satu negara, Anda mungkin ingin mempertimbangkan menggunakan VPN daripada menggunakan Tor.
+Harap dicatat bahwa vpn tidak memiliki sifat privasi yang sama dengan Tor, tetapi mereka akan membantu memecahkan beberapa masalah pembatasan geolokasi.

@@ -1,0 +1,10 @@
+_model: question
+---
+title: Apakah menjalankan Tor Browser membuat komputer saya menjadi relay?
+---
+seo_slug: running-tor-browser-make-me-relay 
+---
+description:
+Menjalankan Tor Browser tidak membuat Anda bertindak sebagai relay dalam jaringan.
+Ini berarti bahwa komputer Anda tidak akan digunakan untuk merutekan lalu lintas untuk orang lain.
+Jika Anda ingin menjadi sebuah relay, silakan lihat <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">panduan Tor Relay </a></mark>.
