@@ -1,0 +1,10 @@
+_model: question
+---
+title: Почему вы не помешаете плохим людям делать плохие вещи с использованием Tor?
+---
+seo_slug: prevent-bad-people-doing-bad-things-with-tor
+---
+description:
+Tor был задуман как инструмент защиты прав человека и приватности. Tor не позволяет никому заниматься цензурой (и нам тоже).
+Нас глубоко расстраивает, когда кто-либо использует Tor для гнусных дел.  Но мы не можем избавиться от злоумышленников, не подвергнув риску правозащитников, журналистов, жертв насилия и других людей, которые используют Tor во благо.
+If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.

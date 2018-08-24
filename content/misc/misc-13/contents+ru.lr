@@ -1,0 +1,11 @@
+_model: question
+---
+title: Можно ли использовать Tor вместе с VPN?
+---
+seo_slug: use-vpn-with-tor
+---
+description:
+
+В принципе, мы не рекомендуем использовать VPN вместе с Tor. Исключение — если вы продвинутый пользователь, который точно знает, как настроить VPN вместе с Tor так, чтобы не нарушить вашу анонимность.
+
+Подробнее об использовании Tor и VPN можно узнать в нашем <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">вики</a></mark>.
