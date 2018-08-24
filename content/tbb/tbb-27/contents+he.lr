@@ -1,0 +1,37 @@
+_model: question
+---
+title: איך אני מעדכן את דפדפן Tor?
+---
+seo_slug: updating-tor-browser
+---
+description:
+You can update Tor Browser as soon as a new version is released.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">Tor Browser will prompt you to update the software once a new version has been released.</h4>
+      <p class="card-text">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p>
+    </div>
+  </div>
+</div>
+You may see a written indication when Tor Browser opens telling you that an update is available.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">כותרת כרטיס</h4>
+      <p class="card-text">מלל כרטיס</p>
+    </div>
+  </div>
+</div>
+דפדפן Tor יתקין את העדכונים.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">כותרת כרטיס</h4>
+      <p class="card-text">מלל כרטיס</p>
+    </div>
+  </div>
+</div>
