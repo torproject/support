@@ -1,0 +1,12 @@
+_model: question
+---
+title: XMPP (টর মেসেঞ্জার, জিটসি, কইইম) এর মাধ্যমে GetTor ব্যবহার করার জন্য।
+---
+seo_slug: to-use-gettor-via-xmpp
+---
+description:
+To get links for downloading Tor Browser, send a message to gettor@toproject(dot)org with one of the following codes in it:
+
+* Linux
+* MacOS (OS X)
+* Windows

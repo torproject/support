@@ -1,0 +1,25 @@
+_model: question
+---
+title: I need Tor Browser in a language that's not English.
+---
+seo_slug: need-tor-browser-language-not-english
+---
+description:
+বর্তমানে আমরা নিম্নলিখিত ব্রাউজারগুলিতে টর ব্রাউজার প্রস্তাব করছি:
+
+* English (en-US)
+* العربية (ar)
+* Deutsch (de)
+* Español (es-ES)
+*  فارسى (fa)
+* Français (fr)
+* Italiano (it)
+* 日本語 (ja)
+* Korean (ko)
+* Nederlands (nl)
+* Polish (pl)
+* Português (pt-BR)
+* Русский (ru)
+* Türkçe (tr)
+* Vietnamese (vi)
+* 简体字 (zh-CN)
