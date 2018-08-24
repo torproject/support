@@ -1,0 +1,11 @@
+_model: question
+---
+title: Ho sentito di siti internet che sono accessibili soltanto tramite Tor. Cosa sono questi siti internet e come posso accedervi?
+---
+seo_slug: accedere-ai-siti-web-che-sono-accessibili-solo-tramite-tor
+---
+description:
+I siti internet che sono accessibili soltanto tramite Tor sono chiamati "onion" e finiscono con il dominio di primo livello .onion
+Ad esempio, il sito onion di DuckDuckGo è <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>. 
+Puoi accedere a questi siti internet utilizzando Tor Browser.
+L'indirizzo deve esserti fornito da chi ospita il sito internet, in quanto gli onion non sono indicizzati nei motori di ricerca contrariamente a quanto accade con i normali siti internet.

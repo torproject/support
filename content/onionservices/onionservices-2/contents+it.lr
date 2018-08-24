@@ -1,0 +1,11 @@
+_model: question
+---
+title: Che cosa è un .onion o cosa sono i servizi onion?
+---
+seo_slug: cos-è-un-dot-onion
+---
+description:
+I servizi onion permettono alle persone di navigare ma anche di pubblicare in modo anonimo, includendo anche la pubblicazione di siti web anonimi.
+Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with SecureDrop or OnionShare, safer software updates, and more secure ways to reach popular websites like Facebook.
+
+Questi servizi utilizzano lo speciale dominio di primo livello .onion (invece di .com, .net, .org, ecc...) e sono accessibili unicamente attraverso il network Tor.

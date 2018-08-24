@@ -1,0 +1,10 @@
+_model: question
+---
+title: Sto avendo problemi nell'uso di particolari funzionalità su Facebook, Twitter, o un altro sito mentre uso Tor Browser.
+---
+seo_slug: problemi-tor-browser-con-siti-facebook-twitter
+---
+description:
+Talvolta i siti internet contenenti molti elementi JavaScript pesanti possono causare problemi di funzionamento di Tor Browser.
+The simplest fix is to click on the "onion menu," then click on the security slider.
+Imposta la tua sicurezza su "Standard".

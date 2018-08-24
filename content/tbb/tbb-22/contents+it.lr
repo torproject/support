@@ -1,0 +1,11 @@
+_model: question
+---
+title: Come posso far andare più veloce Tor? Tor Browser è più lento degli altri browser?
+---
+seo_slug: velocizzare-tor
+---
+description:
+Utilizzare Tor Browser talvolta può essere più lento di altri browser.
+Il network di Tor ha più di un milione di utenti giornalieri, e solo poco più di 6000 relays che gestiscono il traffico, ed il carico su ciascuno di questi server può talvolta causare problemi di latenza.
+Puoi migliorare la velocità del network implementando un tuo relay, oppure incoraggiando altri a farlo.
+Detto questo, Tor è molto più veloce di quanto lo fosse in passato e non dovresti notare differenze di velocità rispetto agli altri browser.

@@ -1,0 +1,11 @@
+_model: question
+---
+title: Posso scegliere da quale nazione uscire?
+---
+seo_slug: scegliere-in-quale-paese-sto-uscendo
+---
+description:
+Modificare il modo in cui Tor crea i propri circuiti è fortemente sconsigliato.
+Ottieni la migliore sicurezza che Tor può fornire quando lasci la selezione del percorso a Tor; sovrascrivere i nodi di entrata / uscita può compromettere il tuo anonimato.
+Se il risultato desiderato è semplicemente quello di poter accedere a risorse che sono disponibili solo in un paese, potresti prendere in considerazione l'utilizzo di una VPN invece di utilizzare Tor.
+Si prega di notare che le VPN non hanno le stesse proprietà sulla privacy che ha Tor, ma ti aiuteranno a risolvere alcuni problemi di restrizione di geolocalizzazione.

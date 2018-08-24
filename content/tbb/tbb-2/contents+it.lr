@@ -1,0 +1,12 @@
+_model: question
+---
+title: Perchè il primo indirizzo IP nel mio circuito di relay è sempre lo stesso?
+---
+seo_slug: first-address-relay-circuit
+---
+description:
+E' il normale comportamento di Tor.
+Il primo relay del tuo circuito è chiamato "entry guard" o "guard".
+E' un relay veloce e stabile e rimarrà il primo del tuo circuito per 2-3 mesi in modo da offrire protezione contro un noto attacco di manomissione dell'anonimità.
+Il resto del tuo circuito cambia ad ogni nuovo sito internet che visiti, e tutti assieme questi relays offrono la piena protezione della privacy di Tor.
+For more information on how guard relays work, see this <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">blog post</a></mark> and <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">paper</a></mark> on entry guards.

@@ -1,0 +1,9 @@
+_model: question
+---
+title: Posso installare una nuova estensione su Tor Browser, ad esempio AdBlock Plus o uBlock Origin?
+---
+seo_slug: installare-estensioni-su-tor-browser
+---
+description:
+È fortemente sconsigliato installare nuovi componenti aggiuntivi in Tor Browser, perché possono compromettere la privacy e la sicurezza.
+Tor Browser viene fornito con con due componenti aggiuntivi preinstallati - HTTPS Everywhere e NoScript - e l'aggiunta di qualsiasi altro componente potrebbe deanonimizzarvi.

@@ -1,0 +1,14 @@
+_model: question
+---
+title: Un sito web (banca, fornitore del servizio di email, ecc...) mi vieta l'accesso ogniqualvolta uso Tor, cosa posso fare?
+---
+seo_slug: sito-web-blocca-torbrowser
+---
+description:
+Spesso Tor Browser fa sembrare che il tuo collegamento sia effettuato da una parte del mondo totalmente differente dalla tua.
+Alcuni siti web, come ad esempio le banche e i provider email, potrebbero interpretarlo come un segnale che il tuo account è stato compromesso, con la conseguenza di bloccarti.
+
+L'unica soluzione per risolvere questo problema è quello di seguire le procedure raccomandate dal sito per recuperare l'account, oppure contattare gli operatori spiegando la situazione.
+
+Potresti essere in grado di evitare questa situazione qualora il tuo provider offra l'autenticazione a due fattori, la quale è una soluzione molto migliore per la sicurezza rispetto al credito basato sull'indirizzo IP.
+Contatta il tuo provider e chiedigli se forniscono l'autenticazione a 2 fattori.
