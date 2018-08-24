@@ -20,7 +20,7 @@ name = Български (Bəlgarski)
 url_prefix = /bg/
 locale = bg_BG
 
-[alternatives.bn]
+[alternatives.bn_BD]
 name = Bengali
 url_prefix = /bn/
 locale = bn_BD
