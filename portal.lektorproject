@@ -62,7 +62,3 @@ name = Turkish
 url_prefix = /tr/
 locale = tr
 
-[alternatives.ru]
-name = Russian
-url_prefix = /ru/
-locale = ru

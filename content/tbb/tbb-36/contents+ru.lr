@@ -1,8 +1,0 @@
-_model: question
----
-title: Можно ли запускать несколько копий Tor Browser?
----
-seo_slug: run-multible-instances-of-tor-browser
----
-description:
-Мы не советуем запускать несколько копий Tor Browser. На многих платформах это может работать не так, как ожидается.
