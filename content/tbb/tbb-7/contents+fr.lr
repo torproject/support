@@ -1,12 +1,12 @@
 _model: question
 ---
-title: Un site Web auquel j'essaye d'accéder bloque l'accès via Tor.
+title: Un site Web auquel j’essaye d’accéder bloque l’accès via Tor.
 ---
-seo_slug: site-bloque-acces-via-tor
+seo_slug: site-web-bloque-accès-avec-tor
 ---
 description:
-Un site Web peut parfois bloquer les utilisateurs de Tor parce qu’il ne peut pas faire la différence entre l’utilisateur de Tor moyen et le trafic automatisé.
-Les meilleurs résultats pour débloquer l’accès des utilisateurs de Tor à un site donné ont été obtenus en demandant aux utilisateurs de contacter directement les administrateurs du site.
+Les sites Web bloqueront parfois les utilisateurs de Tor parce qu’ils ne peuvent pas faire la différence entre l’utilisateur de Tor moyen et le trafic automatisé.
+Les meilleurs résultats pour débloquer l’accès des utilisateurs de Tor à un site donné ont été obtenus en demandant aux utilisateurs de contacter directement les administrateurs du dit site.
 Ce qui suit pourrait suffire :
 
 « Bonjour ! J’ai essayé d’accéder à votre site xyz.com en utilisant le Navigateur Tor et j’ai découvert que vous ne permettez pas aux utilisateurs de Tor d’y accéder.

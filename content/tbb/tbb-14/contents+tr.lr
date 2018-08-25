@@ -1,0 +1,9 @@
+_model: question
+---
+title: Tor Browser üzerine, AdBlock Plus ya da uBlock Origin gibi yeni bir eklenti ya da uzantı kurmalı mıyım?
+---
+seo_slug: tor-browser-uzerine-eklenti-kurmak
+---
+description:
+Gizlilik ve güvenliğinizi tehlikeye atabileceğinden Tor Browser üzerine yeni eklentiler kurmaktan kaçınmanız önerilir.
+Tor Browser HTTPS Everywhere ve NoScript eklentileri kurulmuş olarak gelir. Bunun dışında bir eklenti kurmak anonim kalmanızı engelleyebilir.

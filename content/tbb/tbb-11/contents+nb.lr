@@ -1,0 +1,14 @@
+_model: question
+---
+title: Jeg lastet ned og installerte Tor-nettleseren for Windows, men nå finner jeg den ikke.
+---
+seo_slug: cannot-find-tor-on-windows
+---
+description:
+Filen du laster ned og kjører ber deg om en destinasjon.
+Hvis du ikke husker hva dette målet var, er det mest sannsynlig din Nedlastinger eller skrivebordsmappe.
+
+Standardinnstillingen i Windows-installatøren oppretter også en snarvei for deg på skrivebordet, men vær oppmerksom på at du ved et uhell kanskje har slått av muligheten til å opprette en snarvei.
+
+Hvis du ikke finner det i en av disse mappene, last den ned igjen og se etter spørringen som ber deg om å velge en katalog for å laste den ned.
+Velg en katalogplassering som du vil huske enkelt, og når nedlastingen er ferdig, bør du se en Tor Browser-mappe der.

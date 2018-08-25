@@ -1,0 +1,14 @@
+_model: question
+---
+title: Windows için Tor Browser uygulamasını indirdim ve kurdum. Ancak şimdi bulamıyorum.
+---
+seo_slug: windows-uzerinde-tor-browser-bulunamiyor
+---
+description:
+İndirip çalıştırdığınız dosya sizden bir hedef klasör ister.
+Bu hedefin ne olduğunu hatırlamıyorsanız, genellikle İndirilenler ya da Masaüstü klasörleri kullanılır.
+
+Kurulum sırasında kısayolun oluşturulması seçeneğindeki işareti kazayla kaldırmadıysanız, Windows kurucusunun varsayılan ayarları Masaüstünde bir kısayol oluşturur. 
+
+Bu klasörlerde bulamadıysanız, yeniden indirin ve size sorulan indirme klasörünün yerine bakın.
+Kolay hatırlayacağınız bir klasör konumu seçin. İndirme tamamlandığında orada Tor Browser klasörünü görebilmeniz gerekir.

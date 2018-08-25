@@ -1,14 +1,14 @@
 _model: question
 ---
-title: Comment puis-je être certain que j'utilise les bons paquets sous Ubuntu ?
+title: Comment puis-je être certain que j’utilise les bons paquets dans Ubuntu ?
 ---
 seo_slug: utiliser-les-bons-paquets
 ---
 description:
-* N'utilisez pas les paquets dans les dépôts d'Ubuntu. Ils ne sont pas mis à jours avec régularité. Si vous les utilisez, vous manquerez d'importants correctifs de stabilité et de sécurité.
-* Déterminez votre version d'Ubuntu en exécutant la commande suivante :
-       $ sb_release -c
-* En tant que super-utilisateur, ajoutez les lignes suivantes au fichier /etc/apt/sources.list. Utilisez la version que vous avez trouvé à l'étape précédente à la place de <version>.
+* N’utilisez pas les paquets dans les dépôts d’Ubuntu. Ils ne sont pas mis à jours avec régularité. Si vous les utilisez, vous manquerez d’importants correctifs de stabilité et de sécurité.
+* Déterminez votre version d’Ubuntu en exécutant la commande suivante :
+       $ lsb_release -c
+* En tant que super-utilisateur, ajoutez les lignes suivantes au fichier /etc/apt/sources.list. Utilisez la version que vous avez trouvé à l’étape précédente à la place de <version>.
        $ deb http://deb.torproject.org/torproject.org <version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
 * Ajoutez la clé gpg utilisée pour signer les paquets en exécutant les commandes suivantes :

@@ -1,6 +1,6 @@
 _model: question
 ---
-title: How do I run a obfs4 bridge on Debian?
+title: איך אני מריץ גשר obfs4 על Debian?
 ---
 seo_slug: how-do-i-run-a-obfs4-bridge-debian
 ---
@@ -25,7 +25,8 @@ description:
     ExtORPort auto
     ORPort 9001
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Set your bandwidth rate (leave commented and Tor will run without
+    bandwidth caps)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 

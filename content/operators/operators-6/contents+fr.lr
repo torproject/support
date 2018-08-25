@@ -1,38 +1,39 @@
 _model: question
 ---
-title: Comment puis-je installer un pont obfs4 sous Debian ?
+title: Comment puis-je utiliser un pont obfs4 sous Debian ?
 ---
-seo_slug: comment-puis-je-installer-un-pont-obfs4-debian
+seo_slug: comment-puis-je-faire-fonctionner-un-pont-obfs4-debian
 ---
 description:
-* Exécutez "apt-get install tor obfs4proxy" (en tant que super-utilisateur)
-Assurez-vous que votre horloge système et votre fuseau horaire sont réglés correctement.
-  * Installez le paquet ntp ou openntpd (ou similaire) pour que cela reste le cas.
-* Éditez /etc/tor/torrc pour qu'il ressemble à cela :
+* Exécutez « apt-get install tor obfs4proxy » (en tant que superutilisateur).
+Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctement réglés.
+  Installez le paquet ntp ou openntpd (ou similaire) pour qu’ils le restent.
+* Modifiez /etc/tor/torrc pour qu’il ressemble à ce qui suit :
 
 
-    ## L'adresse IP ou le nom d'hôte pour les connexions entrantes (laissez commenté et Tor déterminera cela)
-    #Adresse noname.example.com
+    ## L’adresse IP ou le nom d’hôte pour les connexions entrantes (laissez commenté et Tor déterminera cela)
+    #Adresse sansnom.exemple.com
 
-    ## Définissez le surnom de ce relais
-    Nickname ididnteditheconfig
+    ## Définissez le pseudonyme de ce relais
+    Nickname jaipasmodifiélaconfig
 
-    ## Définissez votre propre information de contact
-    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
+    ## Définissez vos propres renseignements de contact
+    ContactInfo 0xFFFFFFFF Personne au hasard <nobody AT example dot com>
 
     BridgeRelay 1
     ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy
     ExtORPort auto
     ORPort 9001
 
-    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s'exécutera sans limite de bande passante)
+    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s’exécutera sans
+    limites de bande passante)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-* Exécutez "service tor reload" (en tant que super-utilisateur).
-* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l'extérieur.
-  Cette étape est habituellement rapide, mais elle pourrait prendre quelques minutes.
-* Cherchez une entrée de journal dans /var/log/syslog qui ressemble à « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
-  Si vous me voyez pas ce message, cela signifie que votre relais n'est pas accessible depuis l'extérieur.
-  Vous devriez à nouveau vérifier vos pare-feux, que l'IP et les ports que vous avez spécifié dans votre torrc sont corrects, etc.
+* Exécutez « service tor reload » (en tant que superutilisateur).
+* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l’extérieur.
+  Cette étape est habituellement rapide, mais pourrait prendre quelques minutes.
+* Cherchez une entrée de journal dans /var/log/syslog comme « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
+  Si vous me voyez pas ce message, cela signifie que votre relais n’est pas accessible depuis l’extérieur.
+  Vous devriez à nouveau vérifier vos pare-feux, que l’IP et les ports que vous avez spécifié dans votre torrc sont corrects, etc.
 * Vous devriez également voir le message « Registered server transport 'obfs4' » qui indique que obfs4proxy fonctionne.

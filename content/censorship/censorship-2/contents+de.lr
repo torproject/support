@@ -1,19 +1,19 @@
 _model: question
 ---
-title: A website I am trying to reach is blocking access over Tor.
+title: Eine Webseite, die ich versuche aufzurufen, blockiert die Verbindung über Tor.
 ---
 seo_slug: website-is-blocking-access-over-tor
 ---
 description:
 
-Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
-The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+Manchmal blockieren Webseiten den Zugang über Tor, weil sie den Unterschied zwischen automatischen Zugriffen und Menschen, die Tor benutzen, nicht erkennen.
+Den größten Erfolg beim Aufheben der Blockaden hatten wir, wenn sich die Betroffenen direkt an die Admins einer Seite gewandt haben.
+Etwas in dieser Art könnte helfen:
 
-"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
-I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
-By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
+"Hi! Habe versucht, mit Tor Browser auf eure Seite xyz.com zuzugreifen, aber musste feststellen, dass ihr Tor nicht erlaubt. 
+Ich möchte euch anregen, diese Entscheidung zu überdenken. Tor wird von Menschen auf der ganzen Welt benutzt, um ihre Privatsphäre zu schützen und gegen Zensur zu kämpfen.
+Wenn ihr Tor blockiert, schließt ihr sehr wahrscheinlich Menschen aus, die unter repressiven Systemen leiden, den Zugang zum freien Internet suchen, Journalist*innen und Wissenschaftler*innen, die sich davor schützen wollen, entdeckt zu werden, sowie Aktivist*innen und gewöhnliche Leute, die der Verfolgung durch Unternehmen zu entgehen versuchen.
 Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
 
 In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
-If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a>
+Bei Verbindungsschwierigkeiten zu einem onion-Dienst, siehe <a href="#onionservices-3">Ich kann einen onion-Dienst nicht erreichen</a>

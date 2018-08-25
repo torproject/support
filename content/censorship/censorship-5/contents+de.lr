@@ -7,10 +7,10 @@ seo_slug: having-trouble-connecting-to-tor
 description:
 
 If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
+Dann kopieren Sie das Tor-Protokoll in eine Textdatei oder ein anderes Dokument.
 You should see one of these common log errors (look for the following lines in your Tor log):
 
-###### Common log error #1: Proxy connection failure
+###### Üblicher Fehler #1: Proxy-Verbindungsfehler
 
     2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server 
@@ -21,7 +21,7 @@ You should see one of these common log errors (look for the following lines in y
 If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy. If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
 If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
 
-##### Common log error #2: Can’t reach guard relays
+###### Üblicher Fehler #2: Kann Guard-Relays nicht erreichen
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
@@ -30,10 +30,10 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+Das könnte bedeuten, dass Sie sich in einem Netzwerk befinden, das zensiert ist.
+Bitte versuchen Sie, sich über Brücken zu verbinden, das sollte das Problem lösen.
 
-##### Common log error #3: Failed to complete TLS handshake
+###### Üblicher Fehler 31: Konnte TLS-Verbindungsaufbau nicht abschließen
 
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 
@@ -46,4 +46,4 @@ Please try connecting with bridges, and that should fix the problem.
     Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
 If you see lines like this in your Tor log, it means your system clock is incorrect.
-Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 
+Bitte stellen Sie sicher, dass Ihre Uhr und Zeitzone korrekt eingestellt sind. Starten Sie anschließend Tor neu. 

@@ -1,0 +1,15 @@
+_model: question
+---
+title: Conas is féidir liom Brabhsálaí Tor a dhíshuiteáil?
+---
+seo_slug: uninstall-tor-browser
+---
+description:
+Tá sé an-éasca Brabhsálaí Tor a bhaint de do chóras:
+
+* Locate your Tor Browser folder or application.
+  The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process).
+On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+* Scrios an feidhmchlár nó an fillteán ina bhfuil Brabhsálaí Tor.
+* Folmhaigh an Bruscar.
+* Tabhair faoi deara nach mbaintear úsáid as an ngnáthuirlis "Díshuiteáil" ar do chóras.

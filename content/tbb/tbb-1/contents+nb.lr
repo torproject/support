@@ -1,0 +1,10 @@
+_model: question
+---
+title: Hva er de vanligste problemene med den nyeste stabile versjonen av Tor Nettleser?
+---
+seo_slug: most-common-issues-latest-stable-tor-browser
+---
+description:
+Når vi slipper en ny stabil versjon av Tor Nettleser, skriver vi et blogginnlegg som beskriver de nye funksjonene og kjente problemer.
+If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+If your issue is not listed, please file a <mark><a href="https://trac.torproject.org">bug report</a></mark> about what you're experiencing.

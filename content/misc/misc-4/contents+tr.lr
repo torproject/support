@@ -1,0 +1,9 @@
+_model: question
+---
+title: Tor ağını bittorrent ile kullanabilir miyim?
+---
+seo_slug: tor-ile-bittorrent-kullanimi
+---
+description:
+Tor uygulamasını bittorrent ile birlikte kullanmanız önerilmez.
+Ayrıntılı bilgi almak için <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">bu konu hakkındaki blog iletisine bakabilirsiniz</a></mark>.

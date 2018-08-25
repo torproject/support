@@ -2,10 +2,10 @@ _model: question
 ---
 title: Est-ce que l’utilisation du Navigateur Tor protège les autres applications sur mon ordinateur ?
 ---
-seo_slug: navigateur-tor-proteger-d-autres-applications
+seo_slug: navigateur-tor-protéger-d’autres-applis
 ---
 description:
 Seul le trafic du Navigateur Tor sera acheminé par le réseau Tor.
-Les connexions de toutes les autres applications sur votre système (y compris des autres navigateurs) ne seront pas acheminées par le réseau Tor et ne seront pas protégées.
+Les connexions de toutes les autres applications sur votre système (dont les autres navigateurs) ne seront pas acheminées par le réseau Tor ni ne seront pas protégées.
 Elles doivent être configurées séparément pour utiliser Tor.
 Si vous avez besoin de vous assurer que tout trafic passe par le réseau Tor, jetez un coup d’œil au <mark><a href="https://tails.boum.org/">​système d’exploitation autonome Tails</a></mark>, que vous pouvez lancer sur presque n’importe quel ordinateur à partir d’une clé USB ou d’un DVD.

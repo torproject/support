@@ -1,0 +1,9 @@
+_model: question
+---
+title: Tor günlük kayıtları tutuyor mu?
+---
+seo_slug: tor-gunluk-kayitlari-tutuyor-mu
+---
+description:
+Tor sizin kim olduğunuzun anlaşılmasını sağlayacak herhangi bir günlük kaydı tutmaz.
+<mark><a href="https://metrics.torproject.org/">Tor İstatistikleri</a></mark> bölümünde görebileceğiniz gibi yalnız ağın nasıl çalıştığı ile ilgili bazı güvenli ölçümler yapıyoruz.

@@ -5,7 +5,7 @@ title: Saya tidak dapat membuka X.onion!
 seo_slug: i-cannot-reach-x-dot-onion 
 ---
 description:
-Bila anda tidak dapat menjangkau layanan onion yang Anda inginkan, pastikan Anda sudah memasukkan 16 karakter alamat onion secara tepat: sebuah kesalahan kecil akan menghentikan Tor Browser menjangkau situs tersebut.
+If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
 Bila anda tetap tidak dapat terhubung ke layanan onion, mohon coba kembali.
 Mungkin ada persoalan koneksi, atau operator situs membuatnya "offline" tanpa peringatan.
 

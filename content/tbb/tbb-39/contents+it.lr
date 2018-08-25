@@ -6,5 +6,5 @@ seo_slug: problemi-tor-browser-con-siti-facebook-twitter
 ---
 description:
 Talvolta i siti internet contenenti molti elementi JavaScript pesanti possono causare problemi di funzionamento di Tor Browser.
-The simplest fix is to click on the "onion menu," then click on the security slider.
+Il modo più semplice per risolvere il problema è cliccare sul "menù onion", quindi cliccare sulla barra della sicurezza.
 Imposta la tua sicurezza su "Standard".

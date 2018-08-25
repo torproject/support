@@ -1,10 +1,10 @@
 _model: question
 ---
-title: Le projet Tor offre-t-il une application confidentielle de clavardage ?
+title: Le projet Tor offre-t-il une application pour les dialogues en ligne confidentiels ?
 ---
-seo_slug: application-projet-tor-pour-messagerie-privee
+seo_slug: appli-projet-tor-pour-messagerie-confidentielle
 ---
 description:
-Non. Après onze versions bêta, nous avons cessé de prendre en charge <a href="https://blog.torproject.org/sunsetting-tor-messenger">Tor Messenger</a>.
-Nous croyons toujours que Tor pourrait être utilisé dans une application de messagerie, mais nous ne disposons pas des ressources pour faire de cela une réalité pour le moment.
-Vous y croyez aussi? <mark><a href="https://www.torproject.org/about/contact.html.en">Contactez nous</a></mark>.
+Non. Après onze versions bêta, nous avons cessé de prendre en charge le<a href="https://blog.torproject.org/sunsetting-tor-messenger">messager Tor</a>.
+Nous croyons toujours que Tor pourrait être utilisé dans une appli de messagerie, mais nous ne disposons pas des ressources pour le concrétiser pour le moment.
+ Les avez-vous ? <mark><a href="https://www.torproject.org/about/contact.html.en">Contactez nous</a></mark>.

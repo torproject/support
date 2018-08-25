@@ -39,7 +39,7 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
 
 Busca una entrada de registro en /var/log/syslog como "Self-testing indicates your ORPort is reachable from the outside. Excellent."
 Si no ves este mensaje, quiere decir que tu repetidor no es accesible desde el exterior.
-Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos que especificastes en torrc son los correctos, etc.
+Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos que especificaste en torrc son los correctos, etc.
 
 Cuando se confirme que es accesible, se subirá un "descriptor de servidor" a las autoridades del directorio para que los clientes sepan qué dirección, puertos, claves, etc. está usando tu repetidor.
 Después de unas horas (para darle suficiente tiempo para reproducirse), puedes consultar a Atlas para ver si tu repetidor se ha registrado correctamente en la red.

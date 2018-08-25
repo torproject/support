@@ -1,0 +1,25 @@
+_model: question
+---
+title: 我需要Tor浏览器提供英语之外的语言。
+---
+seo_slug: need-tor-browser-language-not-english
+---
+description:
+Tor浏览器目前提供这些语言：
+
+* English (en-US)
+* العربية (ar)
+* Deutsch (de)
+* Español (es-ES)
+*  فارسى (fa)
+* Français (fr)
+* Italiano (it)
+* 日本語 (ja)
+* Korean (ko)
+* Nederlands (nl)
+* Polish (pl)
+* Português (pt-BR)
+* Русский (ru)
+* Türkçe (tr)
+* Vietnamese (vi)
+* 简体字 (zh-CN)

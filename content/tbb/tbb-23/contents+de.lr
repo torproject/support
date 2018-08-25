@@ -1,8 +1,8 @@
 _model: question
 ---
-title: What search engine comes with Tor Browser and how does it protect my privacy?
+title: Welche Suchmaschine verwendet der Tor Browser und wie schützt diese meine Privatsphäre?
 ---
-seo_slug: search-engine-tor-browser
+seo_slug: suchmaschine-tor-browser
 ---
 description:
 <mark><a href="https://duckduckgo.com/">DuckDuckGo</a></mark> is the default search engine in Tor Browser.

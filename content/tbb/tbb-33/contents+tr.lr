@@ -1,0 +1,10 @@
+_model: question
+---
+title: Tor Browser çalıştırdığımda ben de bir aktarıcı işletiyor olur muyum?
+---
+seo_slug: tor-browser-calistirdigimda-ben-de-bir-aktarici-isletiyor-olur-muyum
+---
+description:
+Yalnızca Tor Browser uygulamasını çalıştırmak sizin ağ üzerinde bir aktarıcı haline gelmenizi sağlamaz.
+Yani bilgisayarınız başkalarından gelen ağ trafiğini aktarmak için kullanılmaz.
+Bir aktarıcı işletmek ile ilgili ayrıntılı bilgi almak için <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Aktarıcı Belgesine</a></mark> bakabilirsiniz.

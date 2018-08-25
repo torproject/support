@@ -1,0 +1,25 @@
+_model: question
+---
+title: Cuireann mo bhogearra frithvíris cosc ar Bhrabhsálaí Tor.
+---
+seo_slug: antivirus-blocking-tor
+---
+description:
+Go minic is féidir próisis áirithe a chur ar "liosta bán" sa chaoi nach gcuirfidh an bogearra frithvíris cosc orthu.
+Ba chóir duit an bogearra frithvíris a oscailt agus "liosta bán" nó a leithéid a lorg sna socruithe.
+Ansin, cuir na próisis seo a leanas ar an liosta bán:
+
+* Ar Windows
+  * firefox.exe
+  * tor.exe
+  * obfs4proxy.exe (má úsáideann tú droichid)
+
+
+* Ar OS X
+  * TorBrowser
+  * tor.real
+  * obfs4proxy (má úsáideann tú droichid)
+
+Ansin, atosaigh Brabhsálaí Tor.
+Is dócha go réiteoidh seo an fhadhb.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

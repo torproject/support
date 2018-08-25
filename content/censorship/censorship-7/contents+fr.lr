@@ -1,18 +1,18 @@
 _model: question
 ---
-title: Qu'est-ce qu'un pont ?
+title: Qu’est-ce qu’un pont ?
 ---
-seo_slug: qu-est-ce-qu-un-pont
+seo_slug: qu’est-ce-qu’un-pont
 ---
 description:
-Les relais ponts sont des relais Tor qui ne sont pas listés dans le répertoire Tor public.
-Cela signifie que des FAIs ou des gouvernements qui tentent de bloquer l'accès au réseau Tor ne peuvent pas simplement bloquer tous les ponts.
-Les ponts sont utiles pour les utilisateurs de Tor dans des régimes oppressants, et pour les gens qui veulent une couche supplémentaire de sécurité parce qu'ils se préoccupent du fait que quelqu'un puisse savoir qu'ils contactent l'adresse IP d'un relais Tor public.
+Les relais ponts sont des relais Tor qui ne sont pas listés dans l’annuaire public de Tor.
+Cela signifie que des FAIs ou des gouvernements qui tentent de bloquer l’accès au réseau Tor ne peuvent pas simplement bloquer tous les ponts.
+Les ponts sont utiles pour les utilisateurs de Tor dans des régimes oppressants, et pour les gens qui veulent une couche supplémentaire de sécurité parce qu’ils se préoccupent du fait que quelqu’un puisse savoir qu’ils contactent l’adresse IP d’un relais Tor public.
 
-Un pont est simplement un relais normal avec une configuration légèrement différente.
+Un pont n’est qu’un relais normal avec une configuration légèrement différente.
 See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
 
-Plusieurs pays, y compris la Chine et l'Iran, ont trouvé des manières de détecter et de bloquer les connexions vers des ponts Tor.
-Les ponts <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> adressent ce problème en ajoutant un autre niveau d'obfuscation.
-La mise en place d'un pont obfsproxy requiert un paquet logiciel additionnel et de la configuration supplémentaire.
+Plusieurs pays, y compris la Chine et l’Iran, ont trouvé des manières de détecter et de bloquer les connexions vers des ponts Tor.
+Les ponts <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> y remédient en ajoutant une autre couche de brouillage.
+La mise en place d’un pont obfsproxy requiert un paquet logiciel additionnel et de la configuration supplémentaire.
 Consultez notre page concernant les <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark> pour de plus amples renseignements.

@@ -1,11 +1,11 @@
 _model: question
 ---
-title: Puis-je utiliser un VPN avec Tor ?
+title: Puis-je utiliser un RPV avec Tor ?
 ---
-seo_slug: utiliser-un-vpn-avec-tor
+seo_slug: utiliser-un-rpv-avec-tor
 ---
 description:
 
-En général, nous recommandons de ne pas utiliser un VPN avec Tor à moins que vous ne soyez un utilisateur avancé sachant configurer l'un et l'autre de manière à ne pas compromettre votre confidentialité.
+En général, nous recommandons de ne pas utiliser un VPN avec Tor à moins que vous ne soyez un utilisateur avancé sachant configurer l’un et l’autre de manière à ne pas compromettre votre confidentialité.
 
-Vous pouvez trouver de l'information plus détaillée sur Tor + VPN sur <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">notre wiki</a></mark>.
+De plus amples renseignements sur Tor + RPV se trouvent sur <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">notre wiki</a></mark>.

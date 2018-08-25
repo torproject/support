@@ -1,9 +1,9 @@
 _model: question
 ---
-title: J'ai un problème avec HTTPS partout.
+title: J’ai un problème avec HTTPS partout.
 ---
-seo_slug: probleme-avec-https-everywhere
+seo_slug: problème-avec-https-partout-everywhere
 ---
 description:
-Veuillez consulter la <mark><a href="https://www.eff.org/https-everywhere/faq">FAQ de HTTPS Everywhere</a></mark>.
-Si vous croyez que le problème provient du Navigateur Tor, veuillez le signaler sur notre ​<mark><a href="https://trac.torproject.org/">gestionnaire de bogues</a></mark>.</p>
+Veuillez consulter la <mark><a href="https://www.eff.org/https-everywhere/faq">FAQ de HTTPS partout</a></mark>.
+Si vous croyez que le problème provient du Navigateur Tor, veuillez le signaler sur notre ​<mark><a href="https://trac.torproject.org/">gestionnaire de bogues</a></mark>.

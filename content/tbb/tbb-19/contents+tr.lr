@@ -1,0 +1,11 @@
+_model: question
+---
+title: Tor Browser bağlantısını kuramıyorum. Ağım sansürleniyor mu?
+---
+seo_slug: tor-browser-baglantisi-kurulamiyor-ag-sansurlenmis
+---
+description:
+Sansürlenen bir ağ üzerinde olabilirsiniz. Köprüleri kullanmayı denemelisiniz.
+Tor Browser üzerinde bazı köprüler bulunur ve bu köprüler Tor Browser ilk kez başlatıldığında açılan Tor Başlatıcı penceresindeki "yapılandırma" bölümünden (yönergeleri izleyerek) seçilebilir.
+Başka köprüler kullanmanız gerekiyorsa <mark><a href="https://bridges.torproject.org/">Köprüler web sitesinden</a></mark> bilgi alabilirsiniz.
+Köprüler hakkında ayrıntılı bilgi almak için <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser belgelerine</a></mark> bakabilirsiniz.

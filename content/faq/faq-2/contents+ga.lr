@@ -1,0 +1,12 @@
+_model: question
+---
+title: Rinneadh cinsireacht ar ár suíomh Gréasáin. An féidir le húsáideoirí Brabhsálaí Tor a úsáid chun teacht air?
+---
+seo_slug: can-tor-help-users-access-website
+---
+description:
+Is féidir. Chabhródh Brabhsálaí Tor le daoine do shuíomh Gréasáin a bhaint amach aon áit ina bhfuil cosc air.
+An chuid is mó den am, is leor <mark><a href="https://www.torproject.org/download/download-easy.html.en">Brabhsálaí Tor</a></mark> a íoslódáil agus a úsáid le dul go dtí an suíomh coiscthe.
+In places where there is heavy censorship we have a number of censorship circumvention options available, including <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>.
+
+For more information, please see the <mark><a href="https://tb-manual.torproject.org/en-US/">Tor Browser User Manual</a></mark> section on <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">censorship</a></mark>.

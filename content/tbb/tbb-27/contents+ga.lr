@@ -1,0 +1,37 @@
+_model: question
+---
+title: Conas is féidir liom Brabhsálaí Tor a nuashonrú?
+---
+seo_slug: updating-tor-browser
+---
+description:
+Is féidir leat Brabhsálaí Tor a nuashonrú chomh luath agus go bhfuil leagan nua ar fáil.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">Tor Browser will prompt you to update the software once a new version has been released.</h4>
+      <p class="card-text">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p>
+    </div>
+  </div>
+</div>
+You may see a written indication when Tor Browser opens telling you that an update is available.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">Teideal an chárta</h4>
+      <p class="card-text">Téacs an chárta</p>
+    </div>
+  </div>
+</div>
+Suiteálfaidh Brabhsálaí Tor na nuashonruithe.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">Teideal an chárta</h4>
+      <p class="card-text">Téacs an chárta</p>
+    </div>
+  </div>
+</div>

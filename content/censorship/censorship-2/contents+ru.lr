@@ -8,12 +8,12 @@ description:
 
 Иногда сайты блокируют пользователей Tor, потому что они не видят разницы между среднестатистическим пользователем Tor и автоматизированным трафиком.
 The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+Что-то подобное может помочь:
 
-"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
-I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
-By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
+"Здравствуйте! Я пытался получить доступ к вашему сайту xyz.com во время использования Tor Browser и обнаружил, что вы не позволяете пользователям Tor получить доступ к вашему сайту.
+Я призываю вас пересмотреть данное решение; Tor используется людьми во всем мире для защиты их приватности и борьбы с цензурой.
+Блокируя пользователей Tor, вы, скорее всего, блокируете людей в репрессивных странах, которые хотят использовать бесплатный интернет, журналистов и исследователей, которые хотят защитить себя от обнаружения, осведомителей, активистов и обычных людей, которые хотят отказаться от агрессивной сторонней слежки.
 Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
 
-In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
+В случае банков и других конфиденциальных веб-сайтов также часто можно увидеть географическую блокировку (если банк знает, что вы обычно получаете доступ к своим услугам из одной страны, и вдруг вы подключаетесь из выходного узла на другом конце света, ваша учетная запись может быть заблокирована или приостановлена).
 If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a>

@@ -1,0 +1,37 @@
+_model: question
+---
+title: Hvordan oppdaterer jeg Tor-nettleseren?
+---
+seo_slug: oppdaterer-tor-browser
+---
+description:
+You can update Tor Browser as soon as a new version is released.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">Tor Browser vil be deg om å oppdatere programvaren når en ny versjon er utgitt.
+      <p class="card-text">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p>
+    </div>
+  </div>
+</div>
+You may see a written indication when Tor Browser opens telling you that an update is available.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">Card text</p>
+    </div>
+  </div>
+</div>
+Tor browser vil installere oppdateringene.
+<div class="col-md-6">
+  <div class="card">
+    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">Card text</p>
+    </div>
+  </div>
+</div>

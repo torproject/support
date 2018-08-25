@@ -1,0 +1,25 @@
+_model: question
+---
+title: Antivirus eller skadelig programvarebeskyttelse blokkerer meg fra å få tilgang til Tor Nettleser.
+---
+seo_slug: antivirus-blocking-tor
+---
+description:
+Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
+Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
+Next, exclude the following processes:
+
+* For Windows
+  * firefox.exe
+  * tor.exe
+  * obfs4proxy.exe (hvis du bruker broer)
+
+
+* For OS X
+  * TorNettleser
+  * tor.real
+  * obfs4proxy (hvis du bruker broer)
+
+Endelig, start Tor Nettleser på nytt.
+Dette bør løse problemene du opplever.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

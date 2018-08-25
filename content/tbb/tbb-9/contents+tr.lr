@@ -1,0 +1,9 @@
+_model: question
+---
+title: Tor ağını Tor Browser yanında başka bir web tarayıcısı ile kullanabilir miyim?
+---
+seo_slug: tor-browser-disinda-baska-bir-web-tarayicisi-kullanmak
+---
+description:
+Tor ağını Tor Browser dışında başka bir web tarayıcısı ile kullanmamanızı önemle öneriyoruz.
+Tor ağını Tor Browser dışında bir web tarayıcısı ile kullandığınızda kişisel gizliliğinizin korunması tehlikeye girer.

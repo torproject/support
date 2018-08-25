@@ -1,0 +1,14 @@
+_model: question
+---
+title: Evde bir çıkış aktarıcısı işletmeli miyim?
+---
+seo_slug: evde-bir-cikis-aktaricisi-nasil-isletilir
+---
+description:
+Hayır.
+Kolluk kuvvetleri çıkış aktarıcınızdan geçen trafik ile ilgilenirse bilgisayarınıza el konulabilir.
+Bu nedenle evinizin içinde ya da evinizin Internet bağlantısını kullanan bir çıkış aktarıcısı işletmemek doğru olur.
+
+Bunun yerine çıkış aktarıcınızı Tor projesini destekleyen bir ticari kuruluş içinde işletmeyi düşünün.
+Çıkış aktarıcınız için ayrı bir IP adresi alın ve kendi trafiğinizi onun üzerinden geçirmeyin.
+Söylemeye gerek yok ama çıkış aktarıcısını işlettiğiniz bilgisayar üzerinde özel, önemli ya da kişisel  herhangi bir bilgi bulundurmayın.

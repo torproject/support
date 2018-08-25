@@ -31,19 +31,24 @@ Se non è richiesto un SOCKS proxy, o non ne sei sicuro, prova per favore a conn
 
 Se vedi delle righe simili a queste nel tuo log di Tor, significa che il tuo Tor non è riuscito a connettersi al primo nodo del circuito Tor.
 Questo potrebbe indicare che sei in un network sottoposto a censura.
-Please try connecting with bridges, and that should fix the problem.
+Per favore prova a conetterti tramite i ponti, questo dovrebbe risolvere il problema.
 
-##### Common log error #3: Failed to complete TLS handshake
+##### Errore di registro comune #3: Impossibile completare la connessione TLS.
 
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx)  
     13-11-17 19:53:49.300 [WARN] 10 connections have failed:  
     13-11-17 19:53:49.300 [WARN] 9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
-    13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)</code></pre>If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities. Using bridges will likely fix this.<h5>Common log error #4: Clock skew</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+    13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
+
+If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities. Using bridges will likely fix this.
+
+##### Common log error #4: Clock skew
+
+    19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
-    19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. 
-    Per funzionare Tor richiede un orologio preciso: per favore controlla l'ora, il tuo fuso oraio e le impostazioni della data.
+    19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
 Se vedi delle linee come queste nel tuo log di Tor, significa che l'orologio del tuo sistema non è corretto.
 Per favore assicurati che il tuo orologio sia impostato correttamente, compreso il fuso orario. Quindi riavvia Tor. 

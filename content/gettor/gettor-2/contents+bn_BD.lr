@@ -8,7 +8,7 @@ seo_slug: to-use-gettor-via-email
 ---
 description:
 
-Send an email to gettor@torproject.org.
-Write your operating system (such as windows, MacOS (OS X), or linux) in the body of the message and send.
+gettor@torproject.org কাছে একটি ই-মেইল প্রেরণ করুন ।
+আপনার অপারেটিং সিস্টেম (যেমন windows, MacOS (ওএস X), বা লিনাক্স)-এর শরীরে মেসেজ এবং সেন্ড করে লিখুন ।
 GetTor will respond with an email containing links from which you can download Tor Browser, the cryptographic signature (needed for <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">verifying the download</a></mark>), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using; consult documentation about your computer to find out more.
+আপনাকে হয়ত "32-বিট " অথবা "64-বিট " সফ্টওয়্যার প্রদান করা হতে পারে: এই কম্পিউটারের মডেলের উপর নির্ভর করে আপনি ব্যবহার করছেন; আরও জানার জন্য আপনার কম্পিউটার সম্পর্কে ডকুমেন্টেশন সম্পর্কে আলোচনা করুন ।

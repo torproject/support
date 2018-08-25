@@ -2,12 +2,12 @@ _model: question
 ---
 title: Pourquoi JavaScript est-il activé par défaut dans le Navigateur Tor ?
 ---
-seo_slug: navigateur-tor-js-active-par-defaut
+seo_slug: navigateur-tor-js-activé-par-défaut
 ---
 description:
 Nous configurons NoScript pour autoriser JavaScript par défaut dans le Navigateur Tor, car de nombreux sites Web ne fonctionneraient pas si JavaScript était désactivé.
-La plupart des utilisateurs abandonneraient Tor complètement si nous désactivions JavaScript par défaut, car cela leur causerait de nombreux problèmes.
-En fin de compte, nous souhaitons rendre le Navigateur Tor aussi sûr que possible, tout en nous assurant qu’il soit utilisable par la majorité des gens, et pour l'instant, ça veut dire laisser Javascript activé par défaut.
+La plupart des utilisateurs abandonneraient Tor complètement si nous désactivions JavaScript par défaut, car cela leur causerait tellement de problèmes.
+En fin de compte, nous souhaitons rendre le Navigateur Tor aussi sûr que possible, tout en nous assurant qu’il soit utilisable par la majorité des gens, et pour l’instant, ça veut dire laisser Javascript activé par défaut.
 
 Pour les utilisateurs qui souhaitent désactiver JavaScript par défaut pour tous les sites HTTP, nous recommandons de modifier la position du curseur de sécurité de votre Navigateur Tor (dans le menu Oignon du Navigateur Tor, sous « Paramètres de sécurité »).
 Le paramètre « Normal » autorise JavaScript, mais les paramètres « Plus sûr » et « Le plus sûr » bloquent tous les deux JavaScript pour les sites HTTP.

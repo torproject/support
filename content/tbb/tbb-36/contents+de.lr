@@ -2,7 +2,7 @@ _model: question
 ---
 title: Kann ich mehrere Instanzen von Tor Browser ausführen?
 ---
-seo_slug: run-multible-instances-of-tor-browser
+seo_slug: mehrere-tor-browser-betreiben
 ---
 description:
-We do not recommend running multiple instances of Tor Browser, and may not work as anticipated on many platforms.
+Wir empfehlen, nicht mehrere Instanzen von Tor Browser zu betreiben, auf einigen Plattformen könnte das zu Problemen führen.

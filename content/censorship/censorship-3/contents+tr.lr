@@ -1,0 +1,10 @@
+_model: question
+---
+title: torproject.org sitesi engelleniyorsa Tor paketini nasıl indirebilirim?
+---
+seo_slug: torproject-org-sitesi-engelleniyorsa-tor-paketini-nasil-indiriebilirim
+---
+description:
+
+Too paketini <mark><a href="https://www.torproject.org">web sitemizden</a></mark> indiremiyorsanız GetTor kullanarak size gönderilmesini sağlayabilirsiniz.
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.

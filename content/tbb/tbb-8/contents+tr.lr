@@ -1,0 +1,12 @@
+_model: question
+---
+title: Sitemiz bir sansürcü tarafından engelleniyor. Tor Browser kullanıcıların sitemize erişmelerine yardımcı olur mu?
+---
+seo_slug: sansurlenen-web-sitelerine-tor-browser-ile-erisilebilir-mi
+---
+description:
+Tor Browser kesinlikle sansürcülerin engellediği yerlerdeki kullanıcıların web sitenize erişmesine yardımcı olur.
+Genellikle <mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> uygulamasını indirmek ve engellenen web sitelerine erişmek için kullanmak yeterlidir.
+Ağır sansür uygulanan yerlerde sansürden kaçınmak için <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">takılabilir aktarımlar</a></mark> gibi çeşitli seçenekler bulunur. 
+
+Ayrıntılı bilgi almak için <mark><a href="https://tb-manual.torproject.org/en-US/">Tor Browser Kullanıcı Kitabında</a></mark> bulunan <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">sansür</a></mark> bölümüne bakabilirsiniz.

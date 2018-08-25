@@ -1,10 +1,10 @@
 _model: question
 ---
-title: Why did my search engine switch to DuckDuckGo?
+title: কেন আমার সার্চ ইঞ্জিন সুইচ DuckDuckGo?
 ---
 seo_slug: why-is-tor-using-duckduckgo
 ---
 description:
-With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine.
-For a while now, Disconnect has had no access to Google search results which we used in Tor Browser.
+টর ব্রাউজারের 6.0.6 প্রকাশের সাথে সাথে আমরা প্রাথমিক অনুসন্ধান ইঞ্জিন হিসেবে DuckDuckGo পরিবর্তন করি ।
+এখন থেকে, সংযোগ বিচ্ছিন্ন করার জন্য গুগল অনুসন্ধানের ফলাফলে কোন প্রবেশাধিকার নেই যা আমরা টর ব্রাউজারে ব্যবহার করেছি ।
 সংযোগ বিচ্ছিন্ন একটি মেটা সার্চ ইঞ্জিন যা ব্যবহারকারীদের বিভিন্ন অনুসন্ধান প্রদানকারীর মধ্যে নির্বাচন করার অনুমতি দেয়, এটি বিং অনুসন্ধানের ফলাফলগুলি প্রদান করে যা মূলত অগ্রহণযোগ্য মানের-ভিত্তিক ছিল।

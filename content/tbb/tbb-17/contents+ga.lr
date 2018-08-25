@@ -1,0 +1,9 @@
+_model: question
+---
+title: An bhfuil sé sábháilte Brabhsálaí Tor agus brabhsálaí eile a úsáid san am gcéanna?
+---
+seo_slug: run-tor-browser-and-different-browser
+---
+description:
+Má úsáideann tú Brabhsálaí Tor agus brabhsálaí eile san am gcéanna, níl aon éifeacht ar fheidhmíocht Tor nó ar a ghnéithe príobháideachais.
+However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.

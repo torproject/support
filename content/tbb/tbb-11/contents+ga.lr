@@ -1,0 +1,14 @@
+_model: question
+---
+title: D'íoslódáil agus shuiteáil mé Brabhsálaí Tor ar Windows, ach anois ní fheicim ar mo ríomhaire é.
+---
+seo_slug: cannot-find-tor-on-windows
+---
+description:
+The file you download and run prompts you for a destination.
+If you don't remember what this destination was, it's most likely your Downloads or Desktop folder.
+
+The default setting in the Windows installer also creates a shortcut for you on your Desktop, though be aware that you may have accidentally unticked the option to create a shortcut.
+
+If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
+Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.

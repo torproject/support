@@ -1,0 +1,25 @@
+_model: question
+---
+title: Virüs ya da kötü amaçlı yazılımdan korunma uygulamam Tor Browser kullanmamı engelliyor.
+---
+seo_slug: tor-engelleyen-virus-korumasi
+---
+description:
+Çoğu virus ya da zararlı yazılımdan korunma uygulamasında kullanıcıların düzenleyebileceği ve izin verilecek uygulamaları belirleyen bir "beyaz liste" bulunur.
+Lütfen virus ya da zararlı yazılımdan korunma uygulamasını açarak "beyaz liste" (whitelist) ya da benzer bir ayar bulun.
+Ardından şu işlemleri yapın:
+
+* Windows için
+  * firefox.exe
+  * tor.exe
+  * obfs4proxy.exe (köprüleri kullanıyorsanız)
+
+
+* OS X için
+  * TorBrowser
+  * tor.real
+  * obfs4proxy (köprüleri kullanıyorsanız)
+
+Son olarak Tor Browser uygulamasını yeniden başlatın.
+Bu işlem yaşadığınız sorunları çözmeli.
+Kaspersky gibi bazı virusten korunma uygulamalarının güvenlik duvarı düzeyinde Tor ağına erişimi engelleyebileceğini unutmayın.

@@ -5,7 +5,7 @@ title: .onion কি অথবা অনিওন সার্ভিস কি ?
 seo_slug: what-is-a-dot-onion
 ---
 description:
-Onion services allow people to browse but also to publish anonymously, including publishing anonymous websites.
-Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with SecureDrop or OnionShare, safer software updates, and more secure ways to reach popular websites like Facebook.
+পেঁয়াজ পরিষেবা লোকজন নাম প্রকাশ করতে সম্মতি দেয় কিন্তু অনামী ওয়েবসাইট প্রকাশ সহ,
+Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with <mark><a href="https://securedrop.org/">SecureDrop</a></mark> or <mark><a href="https://onionshare.org/">OnionShare</a></mark>, safer software updates, and more secure ways to reach popular websites like <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
 
 এই পরিষেবাগুলি বিশেষ ব্যবহারের TLD ব্যবহার করে। (পরিবর্তে .com, .net, .org, ইত্যাদি।) এবং কেবল টর নেটওয়ার্ক এর মাধ্যমে অ্যাক্সেসযোগ্য।

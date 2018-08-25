@@ -1,12 +1,12 @@
 _model: question
 ---
-title: Can I change the number of hops Tor uses?
+title: আমি কি hops সংখ্যা পরিবর্তন করতে পারি?
 ---
 seo_slug: change-the-number-of-hops-tor-uses
 ---
 description:
-Right now the path length is hard-coded at 3 plus the number of nodes in your path that are sensitive.
-That is, in normal cases it's 3, but for example if you're accessing an onion service or a ".exit" address it could be more.
+এই মুহূর্তে পথটির দৈর্ঘ্য হার্ড-কোড ৩ প্লাস-এ আপনার পথে নোড সংখ্যা সংবেদনশীল.
+অর্থাৎ, স্বাভাবিক ক্ষেত্রে এটা ৩, কিন্তু উদাহরণস্বরূপ আপনি যদি একটি পেঁয়াজ সার্ভিস বা স অ্যাক্সেস করেন. "প্রস্থান করুন" ঠিকানাটি আরও হতে পারে.
 
-We don't want to encourage people to use paths longer than this as it increases load on the network without (as far as we can tell) providing any more security.
-Also, using paths longer than 3 could harm anonymity, first because it makes<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denial of security</a></mark> attacks easier, and second because it could act as an identifier if only a small number of users have the same path length as you.
+আমরা মানুষকে এর চেয়ে বেশি পথ ব্যবহার করতে উৎসাহিত করতে চাই না, যেহেতু এটি নেটওয়ার্কের উপর লোডশেডিং বাড়িয়ে দেয় (যতদূর আমরা বলতে পারি) আর কোন নিরাপত্তা প্রদান করতে পারি না ।
+এছাড়াও, 3 এর বেশী পথ ব্যবহার করে, প্রথমে কারণ এটি নিরাপত্তা আক্রমণের makesdenial সহজ, এবং দ্বিতীয়ত কারণ এটি একটি শনাক্তকারী হিসেবে কাজ করতে পারে যদি শুধুমাত্র অল্প সংখ্যক ব্যবহারকারীর যদি আপনার মতো একই পথের দৈর্ঘ্য থাকে ।

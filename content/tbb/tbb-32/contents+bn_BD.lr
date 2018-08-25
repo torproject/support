@@ -1,10 +1,10 @@
 _model: question
 ---
-title: Can I set Tor Browser as my default browser?
+title: আমি কি আমার ডিফল্ট ব্রাউজার হিসেবে টর ব্রাউজার সেট করতে পারি?
 ---
 seo_slug: setting-tor-browser-as-default
 ---
 description:
-There is currently no supported method for setting Tor Browser as your default browser.
-The Tor Browser works hard to isolate itself from the rest of your system, and the steps for making it the default browser are unreliable.
-This means sometimes a website would load in the Tor Browser, and sometimes it would load in another browser, this type of behavior can be dangerous and anonymity-breaking.
+আপনার ডিফল্ট ব্রাউজার হিসেবে টর ব্রাউজার সেটিং করার জন্য বর্তমানে কোন সমর্থিত পন্থা নেই ।
+টর ব্রাউজার আপনার সিস্টেম বাকি থেকে নিজেকে সাবমেরিনকে জানিয়ে দাও করতে কঠোর পরিশ্রম করে, এবং ডিফল্ট ব্রাউজারটি তৈরি করার পদক্ষেপটি অবিশ্বস্ত ।
+এর মানে কখনও কখনো একটি ওয়েবসাইট টর ব্রাউজারে লোড করা হয়, আবার কখনো এটি অন্য একটি ব্রাউজারে লোড হয়ে যায়, এই ধরনের আচরণ বিপজ্জনক ও সনদে হতে পারে ।

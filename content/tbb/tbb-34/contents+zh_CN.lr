@@ -1,0 +1,13 @@
+_model: question
+---
+title: 为什么Tor Browser默认启用Javascript?
+---
+seo_slug: tor浏览器默认开启js
+---
+description:
+因为禁用JavaScript会让很多网站无法工作，Tor浏览器内置的NoScript默认允许JavaScript。
+默认禁用JavaScript造成的不便过于严重，会让大多数用户直接放弃使用Tor。
+原则上来说，我们不仅想让Tor尽可能安全，还想让大多数人都可以使用Tor。所以按照目前状态，Tor浏览器会继续默认启用JavaScript。
+
+对于想在HTTP站点上禁用JavaScrip的用户，我们推荐配置Tor浏览器的安全滑块。（参见Tor浏览器洋葱菜单的“安全设置”）
+低级和默认设置都允许JavaScript，但中级和高级则会屏蔽HTTP站点的JavaScript。

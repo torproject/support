@@ -1,0 +1,9 @@
+_model: question
+---
+title: 我在使用或是升级vidalia的时候出现问题。
+---
+seo_slug: having-a-problem-updating-vidalia
+---
+description:
+Vidalia不再被维护和支持。
+A large portion of the features Vidalia offered have now been integrated into Tor Browser itself.

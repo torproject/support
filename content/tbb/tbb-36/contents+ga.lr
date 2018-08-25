@@ -1,0 +1,8 @@
+_model: question
+---
+title: An féidir liom níos mó ná cóip amháin de Bhrabhsálaí Tor a rith?
+---
+seo_slug: run-multible-instances-of-tor-browser
+---
+description:
+We do not recommend running multiple instances of Tor Browser, and may not work as anticipated on many platforms.

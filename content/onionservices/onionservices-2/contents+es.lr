@@ -6,6 +6,6 @@ seo_slug: qué-es-un-punto-de-onion
 ---
 description:
 Los servicios de Onion permiten navegar, pero también publicar anonimamente, incluyendo la publicación de sitios web anónimos.
-Los servicios de Onion también se utilizan para chatear y compartir archivos sin metadatos, para una interacción más segura entre los periodistas y sus fuentes, como SecureDrop o OnionShare, para actualizaciones de software más seguras y para acceder de forma más segura a sitios web populares como Facebook.
+Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with <mark><a href="https://securedrop.org/">SecureDrop</a></mark> or <mark><a href="https://onionshare.org/">OnionShare</a></mark>, safer software updates, and more secure ways to reach popular websites like <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
 
 Estos servicios usan el TLD (dominio de primer nivel) de uso especial .onion (en lugar de .com, .net, .org, etc.) y sólo son accesibles a través de la red Sor.

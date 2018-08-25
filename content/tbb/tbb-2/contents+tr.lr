@@ -1,0 +1,12 @@
+_model: question
+---
+title: Aktarım devremdeki ilk IP adresi neden hep aynı?
+---
+seo_slug: aktarim-devresi-ilk-adresi
+---
+description:
+Bu durum Tor için normaldir.
+Devrenizdeki ilk aktarıcı "giriş koruması" ya da "koruma" olarak adlandırılır.
+Bilinen anonimlik kırma saldırılarına karşı koruma sağlamak için 2-3 ay süreyle devrenizde aynı kalan hızlı ve kararlı bir aktarıcıdır.
+Devrenin kalanı her yeni web sitesini ziyaret ettiğinizde değişir ve bu aktarıcılar hep birlikte Tor için tam gizlilik korumasını sağlar.
+Koruma aktarıcılarının çalışması ile ilgili ayrıntılı bilgi almak için <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">günlük iletisine</a></mark> ve giriş korumaları ile ilgili bilgi almak için <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">yayına</a></mark> bakabilirsiniz.

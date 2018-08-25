@@ -2,10 +2,10 @@ _model: question
 ---
 title: Quand j’utilise Tor, les systèmes d’écoute peuvent-ils encore voir les renseignements que je partage avec les sites Web, comme les renseignements de connexion et ce que je tape dans les formulaires ?
 ---
-seo_slug: est-que-des-systemes-d-ecoute-peuvent-voir-l-information-que-je-partage
+seo_slug: les-systèmes-d’écoute-peuvent-ils-voir-les-informations-que-je-partage
 ---
 description:
-Tor empêche les oreilles indiscrètes d'apprendre les sites que vous visitez.
+Tor empêche les oreilles indiscrètes d’apprendre les sites que vous visitez.
 Cependant, les renseignements envoyés par Internet sans chiffrement en utilisant une simple connexion HTTP peuvent toujours être interceptés par les opérateurs de relais de sortie ou quiconque observe le trafic entre votre relais de sortie et votre site Web de destination.
 Si le site que vous visitez utilise HTTPS, le trafic quittant votre relais de sortie sera chiffré et invisible aux systèmes d’écoute.
 
@@ -14,7 +14,7 @@ Si le site que vous visitez utilise HTTPS, le trafic quittant votre relais de so
     <div class="card">
       <img class="card-img-top" src="/static/images/image2.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">Si vous utilisez HTTPS, l'URL de votre site Web commence par "https://".</h4>
+        <h4 class="card-title">Si vous utilisez HTTPS, l’URL de votre site Web commencera par « ​https:// ».</h4>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ Si le site que vous visitez utilise HTTPS, le trafic quittant votre relais de so
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">Cette représentation montre quels renseignements sont visibles aux systèmes d’écoute avec et sans le Navigateur Tor et le chiffrement HTTPS.</h4>
+        <h4 class="card-title">Cette représentation montre quels renseignements sont visibles aux systèmes d’écoute, avec et sans le Navigateur Tor ni le chiffrement HTTPS.</h4>
       </div>
     </div>
   </div>

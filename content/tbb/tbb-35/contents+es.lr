@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Pueden quitar todos los CAPTCHAs?
 ---
-seo_slug: deshacerse-de-los-captachas
+seo_slug: deshacerse-de-los-captchas
 ---
 description:
 Unfortunately, some websites deliver CAPTCHAs to Tor users, and we are not able to remove CAPTCHAs from websites.

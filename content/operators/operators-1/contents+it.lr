@@ -1,46 +1,46 @@
 _model: question
 ---
-title: How do I run a middle or guard relay on Debian?
+title: Come implemento un middle o un guard relay su Debian?
 ---
-seo_slug: how-do-i-run-a-middle-or-guard-relay
+seo_slug: come-implemento-un-middle-o-guard-relay
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+Per le informazioni più dettagliate su come implementare un relay, guarda la <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guida ai Tor Relay</a></mark>. 
 
 
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
+* Esegui "apt-get install tor" (come root).
+* Assicurati che il tuo orologio, data, fuso orario siano settati correttamente. Installa il paccetto ntp o openntp (o analoghi) perché tutto rimanga così.
 Modifica /etc/tor/torrc in modo che assomigli a quanto sotto:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
-    #Address noname.example.com
+    ## L'indirizzo IP o l'hostname per le connessioni in ingresso (lasciarlo senza commento e Tor proverà ad indovinare)
+    #Address senzanome.esempio.com
 
-    ## Set the nickname of this relay
+    ## Imposta un soprannome per questo relay
     Nickname ididnteditheconfig
 
     ## Imposta le tue informazioni di contatto
-    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
+    ContactInfo 0xFFFFFFFF Persona Casuale <nobody AT example dot com> 
 
-    ## If you control multiple relays, include then in the family
+    ## Se controlli più relay, allora includilo nella famiglia
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001
     DirPort 9030
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Imposta la larghezza di banda (lasciandolo senza commento Tor funzionerà senza limiti di banda)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
-* Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* Esegui "service tor reload" (come root)
+* Dopo che il tuo relay si sarà connesso al network, proverà a verificare se le porte che hai configurato sono raggiungibili dall'esterno.
    Questo passaggio normalmente è rapido, ma può impiegare qualche minuto.
 
-Cerca una voce nel log in /var/log/syslog simile a "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+Cerca una voce nel log /var/log/syslog simile a "Self-testing indicates your ORPort is reachable from the outside. Excellent."
 Se non vedi questo messaggio, significa che il tuo relay non è raggiungibile dall'esterno.
 Devi ricontrollare il tuo firewall, controllare che l'IP e le porte che hai indicato nel tuo torrc siano corrette, ecc.
 
-When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+Quando viene confermato che è raggiungibile, caricherà un "server descriptor" nella directory authorities per fare conoscere ai client quali indirizzi, porte, chiavi, ecc sta utilizzando il tuo relay.
 Dopo un po' di ore (per dare tempo a sufficienza per propagarsi), potrai consultare l'Atlas per vedere se il tuo relay è stato registrato con successo nel network.
 Se non lo è, ri-controlla nuovamente il firewall, l'IP e le porte.

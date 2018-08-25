@@ -1,13 +1,13 @@
 _model: question
 ---
-title: How do I make sure that I'm using the correct packages on Ubuntu?
+title: איך אני מוודא שאני משתמש בחבילות הנכונות על Ubuntu?
 ---
 seo_slug: using-correct-packages
 ---
 description:
 * Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
 * Determine your Ubuntu version by running the following command:
-       $ sb_release -c
+       $ lsb_release -c
 * As root, add the following lines to /etc/apt/sources.list. Use the version you found in the previous step for <version>.
        $ deb http://deb.torproject.org/torproject.org <version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main

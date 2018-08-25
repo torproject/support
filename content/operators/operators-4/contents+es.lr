@@ -7,7 +7,7 @@ seo_slug: usando-corrector-de-paquetes
 description:
 No utilices los paquetes de los repositorios de Ubuntu. Éstos seguramente no están actualizados. Si los usas, perderás importantes parches de estabilidad y seguridad.
 * Concreta tu versión de Ubuntu para ejecutar el siguiente comando:
-       $ sb_release -c
+       $ lsb_release -c
 * Como root, añade las líneas siguientes a /etc/apt/sources.list. Utiliza la versión que has encontrado en el paso anterior para <version>.
        $ deb http://deb.torproject.org/torproject.org <version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
