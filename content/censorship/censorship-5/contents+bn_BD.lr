@@ -12,7 +12,7 @@ description:
 
 # # # # # সাধারণ লগ-ইন ত্রুটি #1: প্রক্সি সংযোগ বিফলতা
 
-    2017-10-29 ০৯:২৩:40.800 [বিজ্ঞপ্তি] 127.0.0.1-এর উদ্বোধনী মোজা শুনুন: 9150 
+    2017-10-29 09:23:40.800 [বিজ্ঞপ্তি] 127.0.0.1-এর উদ্বোধনী মোজা শুনুন: 9150 
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 

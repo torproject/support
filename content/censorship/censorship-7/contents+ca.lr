@@ -10,7 +10,7 @@ Això vol dir que els ISP o els governs que intenten bloquejar l'accés a la xar
 Els ponts són útils per als usuaris de Tor sota règims opressors, i per a persones que volen una capa addicional de seguretat perquè estan preocupats que algú reconegui que estan connectats a una adreça IP Tor de repetidor públic.
 
 Un pont és només un repetidor normal amb una configuració lleugerament diferent.
-See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
+Consulteu <mark><a href="#operators-6">Com puc executar un pont</a></mark> per obtenir instruccions.
 
 Diversos països, inclosos Xina i Iran, han trobat maneres de detectar i bloquejar connexions als ponts de Tor.
 Els ponts <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">d'Obfsproxy</a></mark> fan addreçament afegint una altra capa d'ofuscació.

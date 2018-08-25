@@ -2,7 +2,7 @@ _model: question
 ---
 title: Kann jemand feststellen, welche Webseiten ich besuche, wenn ich Tor Browser verwende?
 ---
-seo_slug: tell-which-website-are-visited-while-using-tor-browser
+seo_slug: besuchte-webseiten-seit-dem-start-von-tor-browser
 ---
 description:
 Tor Browser hält andere davon ab zu sehen, welche Webseiten du besuchst.

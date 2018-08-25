@@ -6,4 +6,4 @@ seo_slug: hi-ha-suport-per-bsd
 ---
 description:
 Ho sentim, però actualment no hi ha suport oficial per executar el navegador Tor a *BSD.
-There is something called the <mark><a href="https://www.torbsd.org/">TorBSD project</a></mark>, but their Tor Browser is not officially supported.
+Hi ha alguna cosa anomenat <mark><a href="https://www.torbsd.org/">projecte TorBSD</a></mark>, però el seu navegador Tor no és està oficialment suportat.

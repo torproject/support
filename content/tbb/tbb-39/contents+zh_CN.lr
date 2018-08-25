@@ -1,0 +1,10 @@
+_model: question
+---
+title: 我用Tor访问Facebook、Twitter之类的网站时遇到了问题。
+---
+seo_slug: tor-browser-issues-facebook-twitter-websites
+---
+description:
+有时重度依赖JavaScript的网站无法在Tor浏览器中正确运作，
+点开“洋葱目录”的安全滑块往往是最简单的解决方法。
+把安全等级设置为“标准”

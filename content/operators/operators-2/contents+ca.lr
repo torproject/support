@@ -40,7 +40,7 @@ Per obtenir un recurs més complet en l'execució d'un repetidor, consulteu la <
   Si no veu aquest missatge, vol dir que el repetidor no es pot accedir des de l'exterior.
   Heu de tornar a comprovar els tallafocs, comproveu que la IP i els ports que heu especificat al torrc són correctes, etc.
 * Quan confirmi que és accessible, carregarà un "descriptor de servidor" a les autoritats del directori perquè els clients sàpiguen quina adreça, ports, claus, etc., utilitza el vostre repetidor.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Després d'unes hores (per donar-li prou temps de propagació), podeu consultar <mark><a href="https://metrics.torproject.org/rs.html#search">mètriques</a></mark> per veure si el vostre repetidor s'ha registrat correctament a la xarxa.
   Si no ho ha fet, torni a comprovar els tallafocs, IP i ports.
 
 Tingueu en compte si voleu canviar a la <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">política de sortida reduïda</a></mark>.

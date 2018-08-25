@@ -35,7 +35,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 
 * Run "service tor reload" (as root)
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-  This step is usually fast, but it may take a few minutes.
+  Normalerweise ist dieser Schritt ziemlich schnell, es könnte jedoch einige Minuten in Anspruch nehmen.
   Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
   You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.

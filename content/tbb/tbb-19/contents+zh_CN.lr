@@ -1,0 +1,11 @@
+_model: question
+---
+title: 无法连接 Tor，我的网络被审查了吗？
+---
+seo_slug: cannot-connect-to-tor-browser-network-censored
+---
+description:
+你所用的网络可能存在封锁，因此你应该试试使用桥。
+Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time.
+If you need other bridges, you can get them at our <mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>.
+For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.

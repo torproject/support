@@ -2,10 +2,10 @@ _model: question
 ---
 title: O que eu posso fazer para que Tor rode mais rápido? O Navegador Tor é mais lento do que outros navegadores?
 ---
-seo_slug: make-tor-faster
+seo_slug: Faça-o-tor-mais-rápido
 ---
 description:
 Usar o Navegador Tor às vezes pode ser mais lento do que outros navegadores.
-The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency.
-You can help improve the speed of the network by running your own relay, or encouraging others to do so.
+A rede Tor tem mais de um milhão de usuários diariamente, e pouco mais de 6000 relays apenas para encaminhar todo esse tráfego, e a carga em cada servidor as vezes pode provocar latência. 
+Você pode ajudar a melhorar a velocidade da rede rodando seu próprio relay ou encorajando outros a rodarem os seus. 
 Dito isto, o Tor é muito mais rápido do que costumava ser e talvez você não note nenhuma diferença na velocidade em comparação a outros browsers.

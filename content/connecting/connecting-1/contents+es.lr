@@ -7,4 +7,4 @@ seo_slug: navegador-tor-no-conecta
 description:
 Uno de los problemas más habituales que causa errores de conexión en el Tor Browser es un reloj del sistema incorrectamente ajustado.
 Por favor, asegúrate de que el reloj de tu sistema y tu zona horaria están configurados correctamente.
-If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.
+Si esto no soluciona el problema, consulta la página de Resolución de Problemas en el  <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">manual del Navegador Tor</a></mark>.

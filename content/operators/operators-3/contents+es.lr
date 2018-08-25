@@ -42,5 +42,5 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
   Si no ves este mensaje, quiere decir que tu repetidor no es accesible desde el exterior.
   Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos que especificaste en torrc son los correctos, etc.
 * Cuando confirma que es accesible, subirá un "descriptor de servidor" a las autoridades del directorio para que los clientes sepan qué dirección, puertos, claves, etc. está usando tu repetidor.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Después de unas horas (para darle suficiente tiempo para reproducirse), puedes consultar <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> para ver si tu repetidor se ha registrado correctamente en la red.
   Si no lo has hecho, vuelve a comprobar los firewalls, la IP y los puertos.

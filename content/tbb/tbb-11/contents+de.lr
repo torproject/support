@@ -2,13 +2,13 @@ _model: question
 ---
 title: Ich habe Tor Browser für Windows heruntergeladen und installiert, kann ihn aber nun nicht mehr finden.
 ---
-seo_slug: cannot-find-tor-on-windows
+seo_slug: tor-nicht-gefunden-windows
 ---
 description:
 Die Datei, welche du heruntergeladen und gestartet hast, fragt dich nach einem Speicherort.
-If you don't remember what this destination was, it's most likely your Downloads or Desktop folder.
+Wenn du dich nicht mehr an den Speicherort errinerst, ist es wahrscheinlich entweder der Schreibtisch, oder der Downloads-Ordner.
 
-The default setting in the Windows installer also creates a shortcut for you on your Desktop, though be aware that you may have accidentally unticked the option to create a shortcut.
+Die Standardeinstellungen im Installationsprozess von Windows erstellen für dich eine Verknüpfung auf dem Schreibtisch. Es könnte jedoch sein, dass du diese Einstellung während der Installation versehentlich ausgeschaltet hast.
 
-If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
-Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.
+Wenn du es in keinem dieser Ordner finden kannst, lade es erneut herunter und achte auf das Fenster mit der Aufforderung, an welchem Ort du die Datei sichern möchtest.
+Wähle einen Ort aus, den du dir leicht merken kannst. Sobald der Download abgeschlossen ist, solltest du den Tor BRowser an diesem Ort wiederfinden.

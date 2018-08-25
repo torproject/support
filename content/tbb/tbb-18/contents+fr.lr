@@ -6,4 +6,4 @@ seo_slug: bsd-est-il-pris-en-charge
 ---
 description:
 Désolé, mais il n’y a actuellement aucune prise en charge officielle pour exécuter le Navigateur Tor sur *BSD.
-There is something called the <mark><a href="https://www.torbsd.org/">TorBSD project</a></mark>, but their Tor Browser is not officially supported.
+Il existe quelque chose qui s’appelle le <mark><a href="https://www.torbsd.org/">Projet TorBSD</a></mark>, mais leur Navigateur Tor n’est pas pris en charge officiellement.

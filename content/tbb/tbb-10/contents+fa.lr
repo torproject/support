@@ -1,0 +1,25 @@
+_model: question
+---
+title: آنتی‌ویروس یا برنامه‌ی محافظت در برابر بدافزارِ من از دسترسی من به مرورگر تور جلوگیری می کند.
+---
+seo_slug: antivirus-blocking-tor
+---
+description:
+اکثر آنتی‌ویروس‌ها و برنامه‌های محافظت در برابر بدافزار اجازه می‌دهند پروسه‌های خاصی که در حالت عادی مسدود می‌شوند را به «لیست سفید» اضافه کنید.
+لطفاً آنتی‌ویروس یا برنامه‌ی محافظت در برابر بدافزار را باز کرده و در تنظیمات آن به دنبال «فهرست سفید» یا چیزی شبیه آن بگردید.
+حالا، پروسه‌های زیر را در نظر نگیر:
+
+*برای ویندوز
+  * firefox.exe
+  * tor.exe
+  obfs4proxy.exe ( اگر شما از پل استفاده می‌کنید)
+
+
+* برای سیستم عامل مک
+  * مرورگر تور
+  * tor.real
+  obfs4proxy.exe ( اگر شما از bridge استفاده می کنید)
+
+در آخر، مرورگر تور را مجدداً راه‌اندازی کنید.
+This should fix the issues you're experiencing.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

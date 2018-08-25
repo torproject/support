@@ -1,6 +1,6 @@
 _model: question
 ---
-title: How do I run a middle or guard relay on FreeBSD or HardenedBSD?
+title: Como eu executo um retransmissor do meio ou guarda no FreeBSD ou HardenedBSD?
 ---
 seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
 ---
@@ -8,15 +8,15 @@ description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a>.
 
 * Execute "pkg install tor" (como root).
-* Make sure your clock, date, and timezone are set correctly.
-  Enabling ntpd is suggested.
-* Edit /usr/local/etc/tor/torrc to look like the following:
+Certifique-se que seu relógio, data e fuso horário estão configurados corretamente.
+  Sugere-se habilitar o ntpd.
+* Edite /usr/local/etc/tor/torrc para se assemelhar ao seguinte:
 
 
-    ## Set the nickname of this relay
+    ## Defina o nickname deste relay
     Nickname ididnteditheconfig
 
-    ## Set your own contact info
+    ## Defina suas informações de contato
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
     ORPort 9001
@@ -28,7 +28,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 
     ExitPolicy reject *:*
 
-    ## If you control multiple relays, include then in the family
+    ## Se você controla múltiplos retransmissores, incluam eles na família.
     #MyFamily $keyid,$keyid,...
 
     RunAsDaemon 1
@@ -36,11 +36,11 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 
 * Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
 * Execute "service tor start" (como root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* Depois que seu retransmissor conecta na rede, ele vai tentar determinar se as portas que você configurou são alcançáveis do lado de fora.
   Esta etapa geralmente é rápida, mas pode levar alguns minutos.
   Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-  If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
-* When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+  Se você não consegue visualizar esta mensagem, isto significa que o seu relay não é acessível por fora.
+  Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
+* Quando ele confirma que está acessível, ele vai enviar um "descritor do servidor" para o diretório de autoridades para deixar os clientes saberem qual endereço, porta, chaves, etc seu retransmissor está usando.
   After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
   If it hasn't, re-check firewalls, IP and ports again.

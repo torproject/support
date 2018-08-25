@@ -1,0 +1,29 @@
+_model: question
+---
+title: Когда я использую Tor, могут ли посторонние устройства видеть информацию, которую я предиставляю веб-сайтам, например данные входа в систему и то, что я ввожу в формы?
+---
+seo_slug: can-eavesdroppers-see-information-i-share
+---
+description:
+Tor не позволяет чересчур любопытным лицам узнать, какие сайты вы посещаете.
+Однако информация, которая пересылается по интернету по обычному протоколу HTTP без шифрования, может быть перехвачена и операторами выходных узлов, и всяким, кто наблюдает за трафиком между вашим выходным узлом и конечным веб-сайтом.
+Если конечный сайт использует HTTPS, тогда трафик между выходным узлом и этим веб-сайтом будет зашифрован и не доступен чужому глазу.
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <img class="card-img-top" src="/static/images/image2.png" alt="https">
+      <div class="card-body">
+        <h4 class="card-title">Если вы используете HTTPS, адрес вашего веб-сайта будет начинаться с "https://".</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <img class="card-img-top" src="/static/images/image6.png" alt="https">
+      <div class="card-body">
+        <h4 class="card-title">Здесь показано, какая информация видна посторонним при использовании Tor Browser и HTTPS и без них.</h4>
+      </div>
+    </div>
+  </div>
+</div>

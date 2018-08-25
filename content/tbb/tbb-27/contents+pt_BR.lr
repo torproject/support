@@ -2,7 +2,7 @@ _model: question
 ---
 title: Como eu atualizo o Navegador Tor?
 ---
-seo_slug: updating-tor-browser
+seo_slug: atualizando-navegador-tor
 ---
 description:
 Você pode atualizar o Navegador Tor assim que uma nova versão for lançada.
@@ -10,28 +10,28 @@ Você pode atualizar o Navegador Tor assim que uma nova versão for lançada.
   <div class="card">
     <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
     <div class="card-body">
-      <h4 class="card-title">Tor Browser will prompt you to update the software once a new version has been released.</h4>
-      <p class="card-text">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p>
+      O Navegador Tor vai pedir que você atualize o software uma vez que uma nova versão esteja disponível. 
+      <p class="card-text"> O ícone Torbutton (a pequena cebola verde no canto superior esquerdo do navegador) exibirá um triângulo amarelo.</p>
     </div>
   </div>
 </div>
-You may see a written indication when Tor Browser opens telling you that an update is available.
+Você pode ver uma indicação por escrito quando o Navegador Tor se abre informando que uma atualização está disponível.
 <div class="col-md-6">
   <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
+    Novo alerta de lançamento
     <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
+      <h4 class="card-title">Título do cartão</h4>
+      <p class="card-text">Título do cartão</p>
     </div>
   </div>
 </div>
-Tor browser will install the updates.
+O navegador TOR irá instalar as atualizações.
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
     <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
+      <h4 class="card-title">Título do cartão</h4>
+      <p class="card-text">Título do cartão</p>
     </div>
   </div>
 </div>

@@ -2,7 +2,7 @@ _model: question
 ---
 title: Posso utilizar o Tor em um dispositivo iOS?
 ---
-seo_slug: run-tor-on-ios
+seo_slug: Executar-tor-no-ios
 ---
 description:
 We recommend an iOS app called Onion Browser, which is open source, uses Tor routing, and is developed by someone who works closely with the Tor Project.

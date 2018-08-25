@@ -2,29 +2,29 @@ _model: question
 ---
 title: Existe uma maneira de alterar o endereço IP que o Navegador Tor atribui a mim em um site específico?
 ---
-seo_slug: change-ip-address
+seo_slug: mude-endereço-ip
 ---
 description:
-Tor Browser has two ways to change your relay circuit — "New Identity" and "New Tor Circuit for this Site".
-Both options are located in the Torbutton (little green onion) menu.
+Navegador Tor tem duas maneiras de mudar seu circuito de transmissão - "Nova Identidade" e "Novo Circuito Tor para esse Site".
+Ambas opções estão localizadas no menu do botão Tor(pequena cebola verde)
 
-##### New Identity
+##### Nova Identidade
 
-This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
-Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections.
-Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
+Essa opção é útil se você quer prevenir que atividades posteriores do seu navegador sejam ligadas ao que você estava fazendo antes.
+Selecionado isso todas as abas e janelas vão fechar, toda informação privada como cookies e histórico de navegação vão ser apagadas, e vai ser usado novos circuitos Tor para todas conexões.
+Navegador Tor vai alertar você que toda atividade e downloads vão ser parados, então leve isso em conta antes de clicar em "Nova Identidade".
 
-##### New Tor Circuit for this Site
+##### Novo Circuito Tor para esse Site
 
-This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
-Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
-Other open tabs and windows from the same website will use the new circuit as well once they are reloaded.
-This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+Essa opção é útil se o retransmissor de saída que você está usando está impossibilitado para conectar ao website que você necessita, ou não está carregando ele corretamente.
+Selecionando isso a aba atualmente-ativa ou janela vai ser recarregada sobre o novo circuito Tor.
+Outras abas e janelas abertas do mesmo website usarão o novo circuito assim que eles forem recarregados.
+Essa opção não apaga qualquer informação privada ou desvincula sua atividade, nem afeta suas conexões atuais para outros websites.
 
 <div class="col-md-6">
 <div class="card">
 <img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body">
-<h4 class="card-title">Card title</h4>
+<h4 class="card-title">Título do cartão</h4>
 <p class="card-text">Card text</div>
 </div>
 </div>

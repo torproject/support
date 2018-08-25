@@ -42,5 +42,5 @@ Per le informazioni più dettagliate su come implementare un relay, guarda la <m
   Se non vedi questo messaggio, significa che il tuo relay non è raggiungibile dall'esterno.
   Devi ricontrollare il tuo firewall, controllare che l'IP e le porte che hai indicato nel tuo torrc siano corrette, ecc.
 * Quando viene confermato che è raggiungibile, caricherà un "server descriptor" nella directory authorities per fare conoscere ai client quali indirizzi, porte, chiavi, ecc sta utilizzando il tuo relay.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Dopo alcune ore (per dare sufficiente tempo per la propagazione), potrai consultare <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> per vedere se il tuo relay è stato registrato con successo nella rete.
   Se non lo è, ri-controlla nuovamente il firewall, l'IP e le porte.
