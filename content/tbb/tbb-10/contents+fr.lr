@@ -2,12 +2,12 @@ _model: question
 ---
 title: Mon antivirus ou ma protection contre les programmes malveillants m’empêche d’accéder au Navigateur Tor.
 ---
-seo_slug: antivirus-bloque-tor
+seo_slug: antivirus-bloquer-tor
 ---
 description:
-La plupart des logiciels antivirus et des protections contre les programmes malveillants permettent à l'utilisateur de placer certains processus qui seraient autrement bloqués en "liste blanche".
-Ouvrez votre logiciel antivirus ou de protection contre les programmes malveillants et cherchez dans les paramètres une liste blanche ou quelque chose de similaire.
-Ensuite, excluez les processus suivants:
+La plupart des antivirus ou des protections contre les programmes malveillants permettent à l’utilisateur de « mettre en liste blanche » certains processus qui seraient autrement être bloqués.
+Ouvrez votre logiciel antivirus ou de protection contre les programmes malveillants et cherchez dans les paramètres une « liste blanche » ou quelque chose de semblable.
+Excluez ensuite les processus suivants :
 
 * Pour Windows
   * firefox.exe

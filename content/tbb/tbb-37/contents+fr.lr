@@ -1,11 +1,11 @@
 _model: question
 ---
-title: J'ai besoin du Navigateur Tor dans une langue et qui n'est pas lefrançais.
+title: J’ai besoin du Navigateur Tor dans une langue et qui n’est pas le français.
 ---
 seo_slug: besoin-navigateur-tor-autre-langue
 ---
 description:
-Nous proposons actuellement le Navigateur Tor dans les langues suivantes :
+We currently offer <mark><a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a></mark> in the following languages:
 
 * English (en-US)
 * العربية (ar)

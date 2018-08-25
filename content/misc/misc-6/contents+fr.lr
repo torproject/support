@@ -1,8 +1,8 @@
 _model: question
 ---
-title: Est-ce Tor que conserve des journaux ?
+title: Est-ce Tor conserve des journaux ?
 ---
-seo_slug: est-ce-que-tor-conserve-un-journal
+seo_slug: tor-conserve-t-il-des-journaux
 ---
 description:
 Tor ne conserve aucun journal qui pourrait identifier un utilisateur particulier.

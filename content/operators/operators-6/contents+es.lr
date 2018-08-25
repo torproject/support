@@ -34,5 +34,5 @@ description:
   Este paso suele ser rápido, pero puede tomar algunos minutos.
 * Busca una entrada de registro en /var/log/syslog como "La autoprueba indica que tu ORPort es accesible desde el exterior. Excelente."
   Si no ves este mensaje, quiere decir que tu repetidor no es accesible desde el exterior.
-  Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos que especificastes en torrc son los correctos, etc.
+  Deberías volver a comprobar tu firewall, comprobar que la IP y los puertos que especificaste en torrc son los correctos, etc.
 * También deberías ver el mensaje "Registered server transport 'obfs4'" indicando que obfs4proxy es funcional.

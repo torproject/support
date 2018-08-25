@@ -39,11 +39,16 @@ Por favor, intenta conectarte a través de puentes, y eso debería solucionar el
     13-11-17 19:53:49.300 [WARN] Problemas con bootstrapping. Atascado al 10%: Finaliza el handshake con el servidor de directorios. (DONE; DONE; cuenta 10; recomendación warn; host [host] at xxx.xxx.xxx.xx:xxx) 
     13-11-17 19:53:49.300 [WARN] 10 conexiones han fallado: 
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
-    13-11-17 19:53:49.300 [WARN]  1 las conexiones cayeron al conectarse con SSL (Sin objeto SSL)</code></pre>Si ves líneas como esta en tu registro de Tor, significa que Tor falló en completar una conexión TLS con la jerarqía de un directorio. El uso de puentes probablemente solucionará esto .<h5>Error de registro común # 4: Desviación del reloj</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+    13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
+
+If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities. Using bridges will likely fix this.
+
+##### Common log error #4: Clock skew
+
+    19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Conectando al servidor de directorio. 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped al 10%: Finalizando handshake con el servidor de directorios 
-    19.11.2017 00:04:48.800 [WARN] Recibida la celda NETINFO con tiempo sesgado (OR:xxx.xx.x.xx:xxxx): Parece que nuestro reloj está atrasado 1 día, 0 horas, 1 minutos, o que el suyo está adelantado. 
-    Tor necesita un reloj preciso para funcionar: por favor, comprueba tus ajustes de hora, zona horaria y fecha.
+    19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
 Si ves líneas como esta en tu registro Tor, significa que el reloj de tu sistema es incorrecto.
 Por favor, asegúrate de que tu reloj está ajustado con precisión, incluyendo la zona horaria correcta. Luego reinicia Tor. 

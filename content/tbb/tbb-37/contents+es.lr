@@ -2,10 +2,10 @@ _model: question
 ---
 title: Necesito el Tor Browser en un idioma que no es el inglés.
 ---
-seo_slug: necesitas-navegador-tor-no-en-inglés
+seo_slug: necesito-navegador-tor-no-en-inglés
 ---
 description:
-Actualmente presentamos el navegador Tor en los siguientes idiomas:
+We currently offer <mark><a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a></mark> in the following languages:
 
 * English (en-US)
 * العربية (ar)

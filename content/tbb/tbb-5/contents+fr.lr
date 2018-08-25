@@ -2,9 +2,9 @@ _model: question
 ---
 title: Puis-je quand même utiliser un autre navigateur comme Chrome ou Firefox quand j’utilise le Navigateur Tor ?
 ---
-seo_slug: telecharger-navigateur-tor-chromeos
+seo_slug: télécharger-navigateur-tor-chromeos
 ---
 description:
-Vous pouvez assurément utiliser un autre navigateur tout en utilisant le Navigateur Tor.
-Néanmoins, sachez que les propriétés de confidentialité du Navigateur Tor ne seront pas présentes dans l'autre navigateur.
-Soyez prudent lorsque vous basculez entre Tor et un navigateur moins sécuritaire, car vous pourriez accidentellement utiliser l'autre navigateur pour quelque chose que vous pensiez faire en utilisant Tor.
+Vous pouvez assurément utiliser un autre navigateur alors que vous utilisez aussi le Navigateur Tor.
+Néanmoins, sachez que les propriétés de confidentialité du Navigateur Tor ne seront pas présentes dans l’autre navigateur.
+Soyez prudent en basculant entre Tor et un navigateur moins sécuritaire, car vous pourriez accidentellement utiliser l’autre navigateur pour quelque chose que vous pensiez faire en utilisant Tor.

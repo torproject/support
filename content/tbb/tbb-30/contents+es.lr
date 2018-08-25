@@ -2,7 +2,7 @@ _model: question
 ---
 title: Un sitio web (banco, proveedor de correo, etc.) me bloquea cada vez que uso Tor, ¿qué puedo hacer?
 ---
-seo_slug: web-bloqueada-al-navegador-tor
+seo_slug: web-bloquea-navegador-tor
 ---
 description:
 El Tor Browser a menudo hace que tu conexión parezca que viene de una parte totalmente distinta del mundo.

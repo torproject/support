@@ -1,46 +1,46 @@
 _model: question
 ---
-title: Comment puis-je exécuter un relais intermédiaire ou de garde sous FreeBSD ou HardenedBSD ?
+title: Comment puis-je exécuter un relais intermédiaire ou de garde sous FreeBSD ou HardenedBSD ?
 ---
-seo_slug: comment-puis-je-installer-un-relais-intermediaire-ou-de-garde-sous-freebsd
+seo_slug: comment-puis-je-faire-fonctionner-un-relais-intermédiaire-ou-de-garde-sous-freebsd
 ---
 description:
-Pour l'information la plus détaillée concernant la gestion d'un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guide sur les relais Tor</a>.
+Pour des informations approfondies sur la mise en place d’un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a>.
 
-* Exécutez "pkg install tor" (en tant que super-utilisateur).
-Assurez-vous que votre horloge système et votre fuseau horaire sont réglés correctement.
-  Il est recommandé d'activer ntpd.
-* Éditez /usr/local/etc/tor/torrc pour qu'il ressemble à cela :
+* Exécutez « pkg install tor » (en tant que superutilisateur).
+Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctement réglés.
+  Il est recommandé d’activer ntpd.
+* Modifiez /usr/local/etc/tor/torrc pour qu’il ressemble à ce qui suit :
 
 
-    ## Définissez le surnom de ce relais
-    Nickname ididnteditheconfig
+    ## Définissez le pseudonyme de ce relais
+    Nickname jaipasmodifiélaconfig
 
-    ## Définissez votre propre information de contact
-    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
+    ## Définissez vos propres renseignements de contact
+    ContactInfo 0xFFFFFFFF Personne au hasard <nobody AT example dot com>
 
     ORPort 9001
     DirPort 9030
 
-    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s'exécutera sans limite de bande passante)
+    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s’exécutera sans limite de bande passante)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
 
-    ## Si vous contrôlez plusieurs relais, incluez les dans la famille
-    #MyFamily $keyid,$keyid,...
+    ## Si vous contrôlez plusieurs relais, incluez-les dans la famille
+    #MyFamily $keyid,$keyid,…
 
     RunAsDaemon 1
-    Fichier de journal des signalements /var/log/tor/notices.log
+    Fichier journal des avis /var/log/tor/notices.log
 
-* Assurez vous que tor s'exécute automatiquement au démarrage en exécutant "sysrc tor_enable=YES" (en tant que super-utilisateur)
-* Exécutez "service tor start" (en tant que super-utilisateur)
-* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l'extérieur.
-  Cette étape est habituellement rapide, mais elle pourrait prendre quelques minutes.
-  Cherchez une entrée de journal dans /var/log/tor/notices.log qui ressemble à « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
-  Si vous me voyez pas ce message, cela signifie que votre relais n'est pas accessible depuis l'extérieur.
-  Vous devriez à nouveau vérifier vos pare-feux, que l'IP et les ports que vous avez spécifié dans votre torrc sont corrects, etc.
-Lorsqu'il a confirmé qu'il était accessible, il téléversera un « descriptif de serveur » vers les autorités de répertoire pour que les clients sachent quelle adresse, quels ports, quelles clés, etc votre relais utilise.
+* Assurez vous que tor est lancé au démarrage en exécutant « sysrc tor_enable=YES » (en tant que superutilisateur)
+* Exécutez « service tor start » (en tant que superutilisateur)
+* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l’extérieur.
+  Cette étape est habituellement rapide, mais pourrait prendre quelques minutes.
+  Cherchez une entrée de journal dans /var/log/tor/notices.log comme « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
+  Si vous me voyez pas ce message, cela signifie que votre relais n’est pas accessible depuis l’extérieur.
+  Vous devriez à nouveau vérifier vos pare-feux, que l’IP et les ports que vous avez spécifié dans votre torrc sont corrects, etc.
+* Quand il aura confirmé qu’il est accessible, il téléversera un « descripteur de serveur » vers les autorités d’annuaire pour informer les clients de l’adresse, des ports, clés, etc. que votre relais utilise.
   After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-  Si ce n'est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos ports.
+  Si ce n’est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos ports.

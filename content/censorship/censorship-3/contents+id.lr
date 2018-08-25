@@ -7,4 +7,4 @@ seo_slug: how-do-i-download-tor-if-torproject-org-is-blocked
 description:
 
 Jika Anda tidak dapat mengunduh Tor dari <mark><a href=\"https://www.torproject.org\">situs web kami</a></mark>, Tor dapat dikirim kepada Anda melalui GetTor.
-GetTor adalah service yang yang otomatis merespon pesan berisi tautan ke versi terakhir Tor Browser, yang dihosting di lokasi beragam sehingga kemungkinan kecil disensor, seperti Dropbox, Google Drive, dan Github.</p>
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.

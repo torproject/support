@@ -2,8 +2,8 @@ _model: question
 ---
 title: Le Navigateur Tor utilise-t-il un circuit différent pour chaque site Web ?
 ---
-seo_slug: circuit-different-chaque-site
+seo_slug: circuit-différent-chaque-site-web
 ---
 description:
-Dans le Navigateur Tor, chaque nouveau domaine est assigné à son propre circuit.
-Le document intitulé <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">La Conception et l'Implémentation du Navigateur Tor</a></mark>explique cette décision avec plus de détails.
+Dans le Navigateur Tor, chaque nouveau domaine obtient son propre circuit.
+Vous trouverez de plus amples renseignements à ce sujet dans le document <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">La conception et la mise en œuvre du Navigateur</a></mark> Tor (en anglais).

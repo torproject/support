@@ -2,7 +2,7 @@ _model: question
 ---
 title: Un site Web (banque, fournisseur de services de courriel, etc.) me bloque quand j’utilise Tor. Que puis-je faire ?
 ---
-seo_slug: site-web-bloque-le-navigateur-tor
+seo_slug: site-web-bloque-navigateur-tor
 ---
 description:
 Le Navigateur Tor fait souvent en sorte que votre connexion semble venir d’un endroit complètement différent de la planète.
