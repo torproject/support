@@ -10,7 +10,7 @@ Questo significa che gli ISP o i governi che vogliano bloccare l'accesso al netw
 I ponti sono utili per gli utenti Tor che si trovano in regimi oppressivi e per le persone che desiderano avere un livello aggiuntivo di sicurezza perché sono preoccupati che qualcuno possa accorgersi che si stanno connettendo ad un indirizzo IP di un relay pubblico di Tor.
 
 Un ponte è un normale relay con una configurazione leggermente differente.
-See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
+Consulta <mark><a href="#operators-6">Come faccio a gestire un ponte</a></mark> per le istruzioni.
 
 Molti Paesi, inclusi Cina e Iran, hanno trovato dei modi per rilevare e bloccare le connessioni ai ponti Tor.
 I ponti <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> si dedicano a questo, aggiungendo un ulteriore livello di offuscazione. 

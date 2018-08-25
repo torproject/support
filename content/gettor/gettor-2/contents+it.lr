@@ -10,5 +10,5 @@ description:
 
 Invia una e-mail a gettor@torproject.org.
 Indica il tuo sistema operativo (ad esempio windows, MacOS (OS X) o linux) nel testo del messaggio e invia.
-GetTor will respond with an email containing links from which you can download Tor Browser, the cryptographic signature (needed for <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">verifying the download</a></mark>), the fingerprint of the key used to make the signature, and the package’s checksum.
+GetTor risponderà con un'email contenente dei link dai quali puoi scaricare Tor Browser, la firma crittografica (necessaria per <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">verificare il download</a></mark>), l'impronta della chiave usata per firmare e il checksum del pacchetto.
 Ti sarà offerta la scelta tra la versione "32-bit" o "64-bit" del software; questo dipende dal modello del computer che stai utilizzando; consulta la documentazione del tuo computer per saperne di più.

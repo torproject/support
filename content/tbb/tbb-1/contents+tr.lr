@@ -6,5 +6,5 @@ seo_slug: son-kararli-tor-browser-surumunde-bilinen-sorunlar
 ---
 description:
 Yeni bir kararlı Tor Browser sürümü yayınladığımızda, yeni eklenen özellikler ve bilinen sorunlarla ilgili bir blog iletisi yazıyoruz.
-If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+Bir güncellemeden sonra Tor Browser ile sorun yaşarsanız, bu durumun bilinen bir sorun olup olmadığını anlamak için <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> adresine bakabilirsiniz.
 Sorununuz ile ilgili bir bilgi yoksa, yaşadığınız sorun hakkında bir <mark><a href="https://trac.torproject.org">hata bildirimi</a></mark> yapın.

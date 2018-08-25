@@ -40,7 +40,7 @@ Pour des informations approfondies sur la mise en place d’un relais, consultez
   Si vous me voyez pas ce message, cela signifie que votre relais n’est pas accessible depuis l’extérieur.
   Vous devriez à nouveau vérifier vos pare-feux, que l’IP et les ports que vous avez spécifié dans votre torrc sont corrects, etc.
 * Quand il aura confirmé qu’il est accessible, il téléversera un « descripteur de serveur » vers les autorités d’annuaire pour informer les clients de l’adresse, des ports, clés, etc. que votre relais utilise.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Après quelques heures (le temps que l’information se propage), vous pouvez envoyer une requête à <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> pour voir si votre relais a été enregistré dans le réseau avec succès.
   Si ce n’est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos ports.
 
 Prenez en considération la possibilité de basculer vers la <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">politique de sortie réduite</a></mark>.
