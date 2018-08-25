@@ -1,8 +1,8 @@
 _model: question
 ---
-title: Can I run multiple instances of Tor Browser?
+title: আমি কি টর ব্রাউজারের একাধিক নজির চালাতে পারি?
 ---
 seo_slug: run-multible-instances-of-tor-browser
 ---
 description:
-We do not recommend running multiple instances of Tor Browser, and may not work as anticipated on many platforms.
+আমরা টর ব্রাউজারের বহুবিধ দৃষ্টান্ত চালু করার সুপারিশ করি না এবং অনেক প্ল্যাটফর্মে অভাবিত হিসেবে কাজ নাও করতে পারি ।

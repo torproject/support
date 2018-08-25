@@ -1,31 +1,31 @@
 _model: question
 ---
-title: Is there a way to change the IP address that Tor Browser assigns me for a particular site?
+title: এই IP ঠিকানা পরিবর্তন করার কোন উপায় আছে যে টর ব্রাউজার আমাকে একটি নির্দিষ্ট সাইটের জন্য নিমিত্তে দেয়?
 ---
 seo_slug: change-ip-address
 ---
 description:
-Tor Browser has two ways to change your relay circuit — "New Identity" and "New Tor Circuit for this Site".
-Both options are located in the Torbutton (little green onion) menu.
+টর ব্রাউজার আপনার রিলে বর্তনী পরিবর্তন করার দুইটি উপায় আছে — "নতুন পরিচয় " এবং "নতুন টর বর্তনী এই সাইট ".
+উভয় অপশন Torbutton (ছোট সবুজ পেঁয়াজ) মেনুতে অবস্থিত রয়েছে ।
 
-##### New Identity
+# # # # নতুন পরিচয়
 
-This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
-Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections.
-Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
+আপনি যদি আপনার পরবর্তী ব্রাউজার কার্যকলাপকে linkable করা থেকে বিরত রাখতে চান তাহলে এই অপশনটি দরকারী ।
+নির্বাচন করুন এটি আপনার সকল ট্যাব এবং windows বন্ধ করবে, কুকিজ এবং ব্রাউজিং ইতিহাস যেমন সকল গোপনীয় তথ্য মুছে ফেলবে এবং সকল সংযোগের জন্য নতুন টর বর্তনী ব্যবহার করুন ।
+টর ব্রাউজার আপনাকে সতর্ক করবে যে সকল ক্রিয়াকলাপ এবং ডাউনলোড বন্ধ হয়ে যাবে, তাই "নতুন পরিচয় "-এ ক্লিক করার আগে এটিকে অ্যাকাউন্টে নিন ।
 
-##### New Tor Circuit for this Site
+# # # # # নিউ টর সার্কিট এই সাইটের জন্য
 
-This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
-Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
-Other open tabs and windows from the same website will use the new circuit as well once they are reloaded.
-This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+যদি প্রস্থান রিলে আপনি ব্যবহার করছেন তাহলে এই বিকল্পটি দরকারী, অথবা আপনার প্রয়োজন ওয়েবসাইটে সংযোগ করতে অক্ষম, অথবা এটি সঠিকভাবে লোড করা নেই ।
+এটি নির্বাচন করার জন্য বর্তমানে সক্রিয় ট্যাব বা উইন্ডো একটি নতুন টর সার্কিটে লোড করা হবে ।
+একই ওয়েবসাইট থেকে অন্যান্য খোলা ট্যাব এবং windows নতুন সার্কিট ব্যবহার করবে, যা পুনরায় লোড করা হবে.
+এই বিকল্পটি কোনো গোপনীয় তথ্য বা আপনার সক্রিয়তার যোগসূত্রকে পরিষ্কার করে না এবং এটি আপনার বর্তমান সংযোগে অন্যান্য ওয়েবসাইটে প্রভাব ফেলে না ।
 
 <div class="col-md-6">
 <div class="card">
 <img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body">
-<h4 class="card-title">Card title</h4>
-<p class="card-text">Card text</div>
+<h4 class="card-title">কার্ডের শিরোনাম</h4>
+<p class="card-text">কার্ড পাঠ্য</div>
 </div>
 </div>
 

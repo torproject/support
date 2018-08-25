@@ -1,10 +1,10 @@
 _model: question
 ---
-title: Why don't you prevent bad people from doing bad things when using Tor?
+title: আপনি টর ব্যবহার করার সময় খারাপ মানুষকে বাধা দেন না কেন?
 ---
 seo_slug: prevent-bad-people-doing-bad-things-with-tor
 ---
 description:
-Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us.
-We hate that there are some people who use Tor to do terrible things, but we can't do anything to get rid of them without also undermining the human rights activists, journalists, abuse survivors, and other people who use Tor for good things.
-If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.
+টর মানবাধিকার এবং গোপনীয়তা রক্ষার জন্য পরিকল্পিত, এমনকি আমাদের censoring থেকে কাউকে বাধা প্রদান করে ।
+আমরা ঘৃণা করি যে কিছু লোক আছে যারা টর ব্যবহার করে ভয়ানক কিছু করার জন্য, কিন্তু আমরা তাদের থেকে মুক্তি পেতে কিছুই করতে পারি না, মানবাধিকার কর্মী, সাংবাদিক, undermining, যারা বেঁচে আছে তারা যারা ভালো কাজের জন্য টর ব্যবহার করে ।
+আমরা যদি backdoor ব্যবহার থেকে নির্দিষ্ট কিছু মানুষকে অবরুদ্ধ করতে চাই, আমরা মূলত সফটওয়্যারের সাথে যুক্ত হতে পারি, যা আমাদের অরক্ষিত ব্যবহারকারীদের খারাপ শাসকদের এবং অন্যান্য প্রতিপক্ষ থেকে আক্রমণের জন্য উন্মুক্ত করবে ।
