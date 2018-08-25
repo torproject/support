@@ -70,6 +70,11 @@ name = français
 url_prefix = /fr/
 locale = fr_FR
 
+[alternatives.ga]
+name = Irish
+url_prefix = /ga/
+locale = ga
+
 [alternatives.gl]
 name = Galego
 url_prefix = /gl/
