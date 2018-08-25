@@ -1,0 +1,3 @@
+[submodule "i18n"]
+	path = i18n
+	url = http://dccbbv6cooddgcrq.onion/translation.git
