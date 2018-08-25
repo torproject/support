@@ -7,7 +7,7 @@ locale = en_US
 [alternatives.bn_BD]
 name = Bengali
 primary = yes
-url_prefix = /
+url_prefix = /bn/
 locale = bn_BD
 
 [alternatives.ca]
@@ -18,7 +18,7 @@ locale = ca
 [alternatives.de]
 name = Deutsch
 primary = yes
-url_prefix = /
+url_prefix = /de/
 locale = de
 
 [alternatives.en]
