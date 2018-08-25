@@ -41,9 +41,9 @@ Por favor, intenta conectarte a través de puentes, y eso debería solucionar el
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities. Using bridges will likely fix this.
+Si ves líneas como esta en tu registro de Tor, significa que Tor falló al completar un handshake TLS con el servidor del directorio. El uso de puentes probablemente solucionará este error de registro común.
 
-##### Common log error #4: Clock skew
+<h5>Error de registro común #4: Reloj sesgado</h5>
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Conectando al servidor de directorio. 
