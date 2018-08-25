@@ -1,0 +1,15 @@
+_model: question
+---
+title: Tor Browser nasıl kaldırılır?
+---
+seo_slug: tor-browser-kaldirma
+---
+description:
+Tor Browser sisteminizden kolayca kaldırılabilir:
+
+* Tor Browser klasörünü ya da uygulamasını bulun.
+  Varsayılan klasör Windows üzerinde Masaüstü; macOS üzerinde Uygulamalar klasörüdür (macOS üzerinde kurulum işlemini tamamladığınızda Application klasörüne taşımanız gerekir).
+Linux üzerinde varsayılan konum yoktur, ancak kullandığınız Tor Browser İngilizce ise "tor-browser_en-US" klasör adı kullanılır.
+* Tor Browser klasörünü ya da uygulamasını silin.
+* Çöp kutunuzu boşaltın.
+* Kaldırma işlemi için işletim sisteminizde bulunan standart "Uygulama Kaldırma" aracının kullanılmadığını unutmayın.

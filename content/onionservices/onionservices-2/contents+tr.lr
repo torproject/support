@@ -1,0 +1,11 @@
+_model: question
+---
+title: .onion ya da onion hizmetleri nedir?
+---
+seo_slug: nokta-onion-kisaltmasi-nedir
+---
+description:
+Onion hizmetleri kişilerin içeriklere bakması yanında anonim web siteleri gibi yayınlar yapabilmesini sağlar.
+Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with <mark><a href="https://securedrop.org/">SecureDrop</a></mark> or <mark><a href="https://onionshare.org/">OnionShare</a></mark>, safer software updates, and more secure ways to reach popular websites like <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
+
+Bu hizmetlere erişmek için özel .onion üst düzey etki alanı kısaltması (.com, .net, .org, vb yerine) kullanılır ve erişim yalnız Tor ağı üzerinden yapılabilir.

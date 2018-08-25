@@ -1,0 +1,11 @@
+_model: question
+---
+title: Yalnız Tor üzerinden erişilebilen web siteleri olduğunu duydum. Bu web siteleri nedir ve bunlara nasıl erişebilirim?
+---
+seo_slug: yalniz-tor-agi-uzerinden-erisilebilen-siteler
+---
+description:
+Yalnız Tor ağı üzerinden erişilebilen web sitelerine "onions" denir ve adreslerinin sonunda .onion bulunur.
+Örneğin DuckDuckGo onion adresi <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a> şeklindedir.
+Bu web sitelerine Tor Browser kullanarak erişebilirsiniz.
+Onion siteleri arama motorlarının dizinlerine vanilla siteleri gibi normal şekilde eklenmediğinden adresler sizin tarafınızdan web sitesi sunucusu ile paylaşılmalıdır.

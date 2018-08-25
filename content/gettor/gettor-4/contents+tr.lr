@@ -1,0 +1,12 @@
+_model: question
+---
+title: To use GetTor via XMPP (Jitsi, CoyIM).
+---
+seo_slug: xmpp-ile-get-tor-kullanimi
+---
+description:
+To get links for downloading Tor Browser, send a message to gettor@torproject.org with one of the following codes in it:
+
+* Linux
+* MacOS (OS X)
+* Windows

@@ -1,0 +1,13 @@
+_model: question
+---
+title: Tor Browser neden JavaScript etkinleştirilmiş olarak geliyor?
+---
+seo_slug: tor-browser-varsayilan-olarak-javascript-kullanimi
+---
+description:
+Çoğu web sitesi JavaScript devre dışı iken düzgün çalışmadığından Tor Browser üzerinde NoScript uygulaması varsayılan olarak JavaScript kullanımına izin verecek şekilde yapılandırılmıştır.
+JavaScript varsayılan olarak devre dışı bırakılsaydı çok fazla sorun yaratacağı için çoğu kullanıcı Tor kullanmayı bırakırdı.
+Hedefimiz Tor Browser uygulamasını olabildiğince çok kişinin olabildiğince güvenli bir şekilde kullanması. Bu nedenle JavaScript varsayılan olarak etkinleştirilmiştir.
+
+Tüm HTTP sitelerinde JavaScript kullanımının devre dışı bırakılmasını isteyen kullanıcılar için Tor Browser güvenlik ayarı kaydırıcısını (Tor Browser Onion menüsü altındaki "Güvenlik Ayarları" bölümünden) değiştirmelerini öneriyoruz.
+Düşük/varsayılan ayarda JavaScript kullanımına izin verilir. Ancak orta ve yüksek düzeylerde HTTP sitelerinde JavaScript engellenir.

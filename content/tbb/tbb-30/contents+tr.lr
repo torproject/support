@@ -1,0 +1,14 @@
+_model: question
+---
+title: Bir web sitesi (banka, e-posta hizmeti sağlayıcısı gibi) Tor kullandığımda beni engelliyor, ne yapabilirim?
+---
+seo_slug: tor-browser-web-sitesi-tarafindan-engelleniyor
+---
+description:
+Tor Browser sıklıkla bağlantınızı dünyanın başka bir yerinden geliyormuş gibi gösterir.
+Bankalar, e-posta hizmeti sağlayıcıları gibi bazı web siteleri bu durumu hesabınızın ele geçirildiği şeklinde değerlendirerek erişiminizi engelleyebilir.
+
+Bu sorunu çözmenin tek yolu hesabınızdaki engellemenin kaldırılması için site tarafından önerilen yöntemi uygulamak ya da işletmeci ile görüşerek durumu açıklamaktır.
+
+Hizmet sağlayıcınız IP temelli güvenlik denetimleri yerine çok daha iyi bir güvenlik seçeneği olan iki aşamalı kimlik doğrulaması sunuyorsa bu durumdan kaçınabilirsiniz. 
+Hizmet sağlayıcınız ile görüşerek iki aşamalı kimlik doğrulaması sunup sunmadığını öğrenin.

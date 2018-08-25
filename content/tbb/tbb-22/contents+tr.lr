@@ -1,0 +1,11 @@
+_model: question
+---
+title: Tor daha hızlı çalışabilir mi? Tor Browser diğer web tarayıcılarından daha mı yavaş?
+---
+seo_slug: tor-daha-hizli-calisabilir-mi
+---
+description:
+Tor Browser bazen diğer web tarayıcılarından daha yavaş olabilir.
+Tor ağını günlük olarak bir milyondan fazla kullanıcı kullanıyor ve tüm trafiği yönlendiren 6.000 üzerinde aktarıcı var. Sunucular üzerindeki yük bazen gecikmelere neden olabiliyor.
+Kendi aktarıcınızı işleterek ya da başkalarını bu konuda yüreklendirerek ağ hızının artmasına katkıda bulunabilirsiniz.
+Böylece Tor daha önce olduğundan çok daha hızlı çalışabilir ve diğer web tarayıcıları ile bir hız farkı hissetmezsiniz.

@@ -1,0 +1,9 @@
+_model: question
+---
+title: *BSD desteği var mı?
+---
+seo_slug: bsd-destegi-var-mi
+---
+description:
+Maalesef, henüz *BSD için resmi bir Tor Browser sürümümüz yok.
+There is something called the <mark><a href="https://www.torbsd.org/">TorBSD project</a></mark>, but their Tor Browser is not officially supported.

@@ -1,0 +1,19 @@
+_model: question
+---
+title: Ziyaret etmek istediğim bir site Tor üzerinden erişilmesini engelliyor. 
+---
+seo_slug: web-sitesi-tor-uzerinden-erisimi-engelliyor
+---
+description:
+
+Bazen web siteleri Tor kullanıcıları ile otomatik trafik arasındaki farkı bilemediğinden Tor kullanıcılarını engelliyor.
+Web sitelerinin engellediği Tor kullanıcıları için en iyi sonuç kullanıcıların doğrudan site yöneticileri ile görüşmesi yoluyla alınıyor.
+Şöyle bir ileti işe yarayabilir:
+
+"Merhaba! Tor Browser kullanarak xyz.com sitenize bağlanmaya çalışıyorum ancak sitenizin Tor kullanıcılarına izin vermediğini gördüm.
+Bu durumu gözden geçirmenizi bildirmek istedi. Dünya üzerinde kişisel gizliliğini korumak ve sansürü aşmak isteyen çok sayıda kişi Tor kullanıyor.
+Tor kullanıcılarını engellediğinizde, baskıcı ülkelerden İnterneti özgürce kullanmak isteyen gazeteciler, yolsuzlukları ortaya çıkaranlar, aktivistler ve sıradan insanlar gibi izlenmek ve kimliklerinin ortaya çıkmasını istemeyen kişileri engellemiş oluyorsunuz.
+Lütfen sayısal kişisel gizliliği ve İnternet özgürlüğünü desteklediğinizi göstermek için Tor kullanıcılarının xyz.com sitesine erişmesine izin verin. Teşekkürler."
+
+Bankalar gibi hassas web sitelerinde genellikle coğrafi konuma göre engelleme yapılır (bir banka kendi hizmetlerine belirli bir ülkeden erişilmesini istiyorsa, siz dünyanın başka bir yerindeki bir aktarıcı üzerinden geldiğinizde hesabınız engellenebilir).
+Bir onion hizmeti ile bağlantı kuramıyorsanız <a href="#onionservices-3">X.onion üzerine ulaşamıyorum</a> bölümüne bakabilirsiniz.

@@ -1,0 +1,9 @@
+_model: question
+---
+title: Tor Browser ile başka bir web tarayıcısını aynı anda çalıştırmak güvenli midir?
+---
+seo_slug: tor-browser-ile-baska-bir-web-tarayicisini-birlikte-calistirmak
+---
+description:
+Tor Browser ile başka bir web tarayıcısını aynı anda çalıştırırsanız, Tor başarımı ya da kişisel gizliliği koruma özellikleri etkilenmez.
+Bununla birlikte diğer web tarayıcısında yapacağınız işlemlerin gizliliğin korunmayacağını unutmayın ve Tor Browser üzerinde yapmak istediğiniz bir işlemi yanlışlıkla diğer tarayıcı üzerinde yapmamaya özen gösterin.

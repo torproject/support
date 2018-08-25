@@ -1,0 +1,10 @@
+_model: question
+---
+title: Tor Browser üzerinde Flash kullanabilir miyim?
+---
+seo_slug: tor-browser-flash-kullanimi
+---
+description:
+Tor Browser üzerinde Flash kullanımı devre dışı bırakılmıştır ve etkinleştirilmemesi önerilir.
+Flash uygulamasının herhangi bir tarayıcıda güvenli olduğunu düşünmüyoruz. Gizliliğinizi kolayca tehlikeye atabilecek ya da kötü amaçlı yazılımların yüklenmesine neden olabilecek güvenlik açıkları çok olan bir yazılımdır. 
+Neyse ki çoğu web sitesi, aygıt ve diğer web tarayıcıları Flash kullanmaktan vazgeçiyor.
