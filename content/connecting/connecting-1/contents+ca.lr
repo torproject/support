@@ -1,0 +1,10 @@
+_model: question
+---
+title: Tor Browser no es connectarà, però no sembla que sigui un problema amb la censura.
+---
+seo_slug: navegador-tor-no-connecta
+---
+description:
+Un dels problemes més comuns que causa errors de connexió al navegador Tor és un rellotge del sistema incorrecte.
+Assegureu-vos que el rellotge del sistema i el fus horari estiguin configurats amb precisió.
+If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.

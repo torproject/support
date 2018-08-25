@@ -10,6 +10,11 @@ primary = yes
 url_prefix = /
 locale = bn_BD
 
+[alternatives.ca]
+name = Catala
+url_prefix = /ca/
+locale = ca
+
 [alternatives.de]
 name = Deutsch
 primary = yes

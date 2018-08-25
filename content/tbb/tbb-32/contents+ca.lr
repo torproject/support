@@ -1,0 +1,10 @@
+_model: question
+---
+title: Puc configurar el navegador Tor com a navegador predeterminat?
+---
+seo_slug: configurar-navegador-tor-per-defecte
+---
+description:
+Actualment, no hi ha cap mètode compatible per configurar el navegador Tor com a navegador predeterminat.
+El navegador Tor treballa fort per aïllar-se de la resta del sistema i els passos per fer-ho navegador predeterminat no va en aquesta linea.
+Això vol dir que de vegades es carregarà un lloc al navegador Tor, i de vegades es carregarà en un altre navegador, aquest tipus de comportament pot ser perillós i trencar l'anonimat.

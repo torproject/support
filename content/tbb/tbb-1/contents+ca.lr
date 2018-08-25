@@ -1,0 +1,10 @@
+_model: question
+---
+title: Quins són els problemes més freqüents amb la versió estable més recent de Tor Browser?
+---
+seo_slug: Problemes-més-freqüents-darrer-navegador-estable 
+---
+description:
+Cada vegada que publiquem una nova versió estable del Tor, Browser escrivim una publicació de blog que detalla les seves noves funcions i problemes coneguts.
+If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+Si el vostre problema no apareix, envieu un <mark><a href="https://trac.torproject.org">informe d'error</a></mark> sobre el que estigueu experimentant.
