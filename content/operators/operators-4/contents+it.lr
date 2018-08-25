@@ -7,13 +7,13 @@ seo_slug: utilizzare-i-pacchetti-corretti
 description:
 * Non utilizzare i pacchetti presenti nei repository di Ubuntu. Non sono sufficientemente aggiornati. Se li utilizzerai, potresti perdere importanti correzioni per la stabilità e la sicurezza.
 * Verifica la tua versione di Ubuntu utilizzando il seguente comando:
-       $ sb_release -c 
+       $ lsb_release -c
 * In radice, aggiungi le seguenti linee a /etc/apt/sources.list. Utilizza la stessa versione che hai trovato nel passaggio precedente <version>. 
        $ deb http://deb.torproject.org/torproject.org <version> main 
        $ deb-src http://deb.torproject.org/torproject.org <version> main 
 * Aggiungi la chiave gpg utilizzata per firmare il pacchetto eseguendo i seguenti comandi:
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-* Run the following commands to install tor and check its signatures:
+* Esegui i comandi seguenti per installare Tor e verificare le sue firme:
        $ sudo apt-get update
        $ sudo apt-get install tor deb.torproject.org-keyring

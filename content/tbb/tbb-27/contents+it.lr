@@ -20,8 +20,8 @@ Potrai vedere un avviso scritto quando Tor Browser indicherà che è disponibile
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert"> 
     <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
+      <h4 class="card-title">Titolo della scheda</h4> 
+      <p class="card-text">Testo della scheda</p> 
     </div>
   </div>
 </div>
@@ -30,8 +30,8 @@ Tor browser installerà gli aggiornamenti.
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
     <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
+      <h4 class="card-title">Titolo della scheda</h4> 
+      <p class="card-text">Testo della scheda</p> 
     </div>
   </div>
 </div>

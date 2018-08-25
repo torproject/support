@@ -10,22 +10,22 @@ Entrambe queste opzioni si trovano nel menù Torbutton (la piccola cipolla verde
 
 ##### Nuova Identità
 
-This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
-Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections.
+Questa opzione è utile se vuoi evitare che le prossime attività del browser siano correlabili a quanto hai fatto in precedenza.
+Selezionare questa opzione chiuderà tutte le tue schede e le finestre, pulirà le tue informazioni personali come i cookie e la cronologia di navigazione, ed utilizzerà un nuovo circuito Tor per tutte le connessioni.
 Tor Browser ti avviserà che tutte le tue attività e i download saranno interrotti, tienilo quindi in considerazione prima di cliccare "Nuova Identità".
 
 #### Nuovo Percorso di Tor per questo Sito
 
-This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
-Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
-Other open tabs and windows from the same website will use the new circuit as well once they are reloaded.
-This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+Questa opzione è utile se l'exit relay che stai utilizzando non è in grado di connetersi al sito che vuoi visitare, o non lo sta caricando correttamente.
+Selezionare questa opzione ricaricherà tutte le schede attive o le finestre utilizzando un nuovo circuito Tor.
+Le altre schede e finestre windows dello stesso sito internet utilizzeranno il nuovo circuito una volta ricaricate.
+Questa opzione non cancella le tue informazioni personali né ti disconnette dalle tue attività, e non influisce sulle tue attuali connessioni verso altri siti internet.
 
 <div class="col-md-6">
 <div class="card">
 <img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body"> 
-<h4 class="card-title">Card title</h4>
-<p class="card-text">Card text</div>
+<h4 class="card-title">Titolo della scheda</h4> 
+<p class="card-text">Testo della scheda</div> 
 </div>
 </div>
 

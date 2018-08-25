@@ -47,16 +47,6 @@ name = Indonesia
 url_prefix = /it/
 locale = it
 
-[alternatives.bn_BD]
-name = Bengali
-url_prefix = /bn/
-locale = bn_BD
-
-[alternatives.de]
-name = Deutsch
-url_prefix = /de/
-locale = de
-
 [alternatives.he]
 name = Ivrit
 url_prefix = /he/
