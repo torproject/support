@@ -1,0 +1,12 @@
+_model: question
+---
+title: El nostre lloc web està bloquejat per un censor. Pot el navegador Tor ajudar els usuaris a accedir al nostre lloc web?
+---
+seo_slug: pot-tor-ajudar-usuaris-accedir-llocs-web
+---
+description:
+El navegador Tor segurament pot ajudar els usuaris a accedir al vostre lloc web en llocs on està bloquejat.
+La majoria de les vegades, simplement descarregueu el <mark><a href=“https://www.torproject.org/download/download-easy.html.en”>Navegador Tor</a></mark> i després utilitzeu-lo per navegar al lloc bloquejat permetrà l’accés.
+En llocs on hi ha una gran censura, tenim disponibles diverses opcions d’elusió contra la censura, incloent <mark><a href=“https://www.torproject.org/docs/pluggable-transports.html.en”> transports connectables</ a> </mark>.
+
+Per obtenir més informació, consulteu la secció <mark><a href=“https://tb-manual.torproject.org/en-US/“> Manual d’usuari navegador Tor </a></mark> secció <marca><a Href=“https://tb-manual.torproject.org/en-US/circumvention.html”> censura </a> </mark>.

@@ -1,0 +1,9 @@
+_model: question
+---
+title: El navegador Tor utilitza un circuit diferent per a cada lloc web?
+---
+seo_slug: diferent-circuit-per-cada-lloc-web
+---
+description:
+Al navegador Tor, cada nou domini rep el seu propi circuit.
+En el document <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability"> Disseny i la implementació del navegador Tor</a></mark> també expliquem el pensament darrere d'aquest disseny.

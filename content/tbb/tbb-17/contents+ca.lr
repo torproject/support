@@ -1,0 +1,9 @@
+_model: question
+---
+title: És segur executar el navegador Tor i un altre navegador al mateix temps?
+---
+seo_slug: executa-navegador-tor-i-diferent-navegador
+---
+description:
+Si executeu el navegador Tor i un altre navegador alhora, no afectarà el rendiment o les propietats de privadesa de Tor.
+Tanmateix, tingueu en compte que el vostre altre navegador no manté la privadesa de la vostra activitat i us pot oblidar i utilitzar accidentalment aquest navegador no privat per fer alguna cosa que voleu fer al navegador Tor.

@@ -1,0 +1,10 @@
+_model: question
+---
+title: Per què no impedeix que persones dolentres puguin fer coses dolentes quan utilitzeu Tor?
+---
+seo_slug: prevenir-males-persones-fer-males-coses-amb-tor
+---
+description:
+Tor està dissenyat per defensar els drets humans i la privadesa evitant que ningú censuri coses, fins i tot nosaltres.
+Odiem que hi ha algunes persones que utilitzen Tor per fer coses terribles, però no podem fer res per desfer-se'n sense que també perjudiquem als activistes de drets humans, periodistes, superviventgs d'abusos i altres persones que utilitzen Tor per a coses bones.
+Si volguessim bloquejar a determinades persones d'utilitzar Tor, bàsicament haguessim afegit una porta del darrere al programari, que obriria als nostres usuaris vulnerabiles, atacs de mals règims i altres adversaris.

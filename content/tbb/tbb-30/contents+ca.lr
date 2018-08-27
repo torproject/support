@@ -1,0 +1,14 @@
+_model: question
+---
+title: Un lloc web (banc, proveïdor de correu electrònic, etc.) em tanca cada cop que faig servir Tor, què puc fer?
+---
+seo_slug: paginaweb-tanca-navegador-tor
+---
+description:
+El navegador Tor sovint fa que la vostra connexió aparegui com si provingués d'una part completament diferent del món.
+Alguns llocs web, com ara bancs o proveïdors de correu electrònic, poden interpretar-ho com a signe que el vostre compte s'ha vist compromès i us poden bloquejar.
+
+L'única manera de resoldre això és seguir el procediment recomanat del lloc per a la recuperació del compte o posar-se en contacte amb els operadors i explicar la situació.
+
+És possible que pugueu evitar aquest escenari si el vostre proveïdor ofereix l'autenticació de doble factor, que és una opció de seguretat molt millor que la reputació basada en IP.
+Poseu-vos en contacte amb el vostre proveïdor i pregunteu-los si proporcionen 2FA. (autenticació de doble factor)

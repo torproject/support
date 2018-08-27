@@ -1,0 +1,9 @@
+_model: question
+---
+title: Puc utilitzar Tor amb un navegador a més del navegador Tor?
+---
+seo_slug: utilitzant-tor-amb-un-navegador-a-més-del-navegador-tor
+---
+description:
+Recomanem encarecidament no utilitzar Tor en cap navegador que no sigui el navegador Tor.
+L'ús de Tor en un altre navegador pot deixar-vos vulnerable sense les proteccions de privadesa del navegador Tor.

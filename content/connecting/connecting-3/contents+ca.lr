@@ -1,0 +1,12 @@
+_model: question
+---
+title: No puc accedir a X.onion!
+---
+seo_slug: no-puc-conectar-x-onion
+---
+description:
+Si no podeu arribar al servei de onion que voleu, assegureu-vos que heu introduït correctament l'adreça de onion de 16 caràcters: fins i tot un petit error deixarà que Navegador Tor no pugui accedir al lloc.
+Si encara no podeu connectar-vos al servei de onion, torneu-ho a provar més tard.
+És possible que hi hagi un problema de connexió temporal o que els operadors del lloc hagin permès que es desconnectés sense previ avís.
+
+També podeu assegurar-vos que podeu accedir a altres serveis de onion connectant-vos al Servei de onion de <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>.

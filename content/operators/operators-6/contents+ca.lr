@@ -1,0 +1,39 @@
+_model: question
+---
+title: Com puc executar un pont obfs4 a Debian?
+---
+seo_slug: executar-pont-obfs4-Debian?
+---
+description:
+* Executa "apt-get install tor obfs4proxy" (com root).
+* Assegureu-vos que el rellotge, la data i la zona horària estiguin configurades correctament.
+  Instal·leu el paquet ntp o openntpd (o similar) per mantenir-lo d'aquesta manera.
+* Edita /etc/tor/torrc per que s'assembli al següent:
+
+
+    ## La adreça IP o el hostname per les connexions d'entrada (deixeu comentat i Tor ho resoldrà)
+    #adreça noname.example.com
+
+    ## Edita l'àlies d'aquest repetidor
+    Nickname ididnteditheconfig
+
+    ## Posa la teva info de contacte
+    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
+
+    BridgeRelay 1
+    ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+    ExtORPort auto
+    ORPort 9001
+
+    ## Set your bandwidth rate (leave commented and Tor will run without
+    bandwidth caps)
+    #RelayBandwidthRate 30 MBytes
+    #RelayBandwidthBurst 100 MBytes
+
+* Executa "service tor reload" (com root).
+* Després que el repetidor es connecti a la xarxa, intentarà determinar si els ports que heu configurat es poden accedir des de l'exterior.
+  Aquest pas sol ser ràpid, però pot trigar uns quants minuts.
+* Cerqueu una entrada de registre a /var/log/syslog tal com "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+  Si no veu aquest missatge, vol dir que el repetidor no es pot accedir des de l'exterior.
+  Heu de tornar a comprovar els tallafocs, comproveu que la IP i els ports que heu especificat al torrc són correctes, etc.
+* També hauria de veure el missatge "Registered server transport 'obfs4'" indicant que obfs4proxy es funcional.

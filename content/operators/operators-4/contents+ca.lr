@@ -1,0 +1,19 @@
+_model: question
+---
+title: Com puc assegurar-me que estic fent servir els paquets correctes a l'Ubuntu?
+---
+seo_slug: utilitzant-paquets-correctes
+---
+description:
+* No utilitzeu els paquets en els dipòsits d'Ubuntu. No s'actualitzen de forma fiable. Si els utilitzes, pots perdre estabilitat important i correccions de seguretat.
+* Determineu la vostra versió d'Ubuntu executant el següent comandament:
+       $ lsb_release -c
+* Com a root, afegiu les següents línies a /etc/apt/sources.list. Utilitzeu la versió que heu trobat al pas anterior <version>.
+       $ deb http://deb.torproject.org/torproject.org <version> main
+       $ deb-src http://deb.torproject.org/torproject.org <version> main
+* Afegiu la clau gpg usada per signar els paquets executant les ordres següents:
+       $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+       $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+* Executeu les ordres següents per instal·lar tor i comproveu les seves signatures:
+       $ sudo apt-get update
+       $ sudo apt-get install tor deb.torproject.org-keyring

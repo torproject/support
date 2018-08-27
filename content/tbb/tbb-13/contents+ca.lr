@@ -1,0 +1,11 @@
+_model: question
+---
+title: Pot Tor Browser protegir altres aplicacions del meu equip?
+---
+seo_slug: tor-browser-protegint-altres-apps
+---
+description:
+Només el trànsit del navegador Tor s'enviarà a la xarxa Tor.
+Qualsevol altra aplicació del vostre sistema (inclosos altres navegadors) no tindrà les seves connexions encaminades a la xarxa Tor i no estarà protegida.
+Han de configurar-se per separat per utilitzar Tor.
+Si heu d'assegurar-vos que tot el trànsit passarà per la xarxa Tor, feu un cop d'ull al <mark><a href="https://tails.boum.org/">sistema operatiu Tails Live</a></mark> que podreu iniciar a gairebé qualsevol ordinador des d'un llapis USB o un DVD.

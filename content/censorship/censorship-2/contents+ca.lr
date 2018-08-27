@@ -1,0 +1,19 @@
+_model: question
+---
+title: Un lloc web que estic tractant d'arribar bloqueja l'accés a Tor.
+---
+seo_slug: website-bloqueja-acces-per-mitja-tor
+---
+description:
+
+De vegades, els llocs web bloquegen els usuaris de Tor perquè no poden avaluar la diferència entre l'usuari Tor mitjà i el tràfic automatitzat.
+La millor manera que hem tingut per que els llocs desbloquejin els usuaris de Tor és que els usuaris es posin en contacte directament amb els administradors del lloc.
+Alguna cosa així podria funcionar:
+
+"Hola! He intentat accedir al vostre lloc xyz.com mentre feia servir el Navegador Tor i he descobert que no permet que els usuaris de Tor accedeixin al vostre lloc.
+et convido a reconsiderar aquesta decisió; Tor és utilitzat per persones de tot el món per protegir la seva intimitat i lluitar contra la censura.
+Bloquejar els usuaris de Tor, probablement bloquejarà persones en països repressius que vulguin utilitzar una internet lliure, periodistes i investigadors que volen protegir-se de ser descoberts, denunciants, activistes i persones habituals que volen optar per un seguiment invasiu de tercers.
+Si us plau, prengui una posició forta a favor de la privadesa digital i la llibertat d'internet i permeti als usuaris de Tor accedir a xyz.com.Gràcies"
+
+En el cas dels bancs i altres llocs web sensibles, també és habitual veure bloqueig basat en la geografia (si un banc sap que en general accedeix als seus serveis d'un país i, de sobte, es connecta d'un repetidor de sortida a l'altre costat del món, el vostre compte pot estar bloquejat o suspès).
+Si no podeu connectar-vos a un servei de onion, consulteu <a href="#onionservices-3">No puc accedir a X.onion!</a>
