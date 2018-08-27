@@ -43,7 +43,7 @@ Per favore prova a conetterti tramite i ponti, questo dovrebbe risolvere il prob
 
 If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities. Using bridges will likely fix this.
 
-##### Common log error #4: Clock skew
+##### Errore di log comune #4: orologio disallineato
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 

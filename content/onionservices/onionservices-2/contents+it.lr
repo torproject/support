@@ -6,6 +6,6 @@ seo_slug: cos-è-un-dot-onion
 ---
 description:
 I servizi onion permettono alle persone di navigare ma anche di pubblicare in modo anonimo, includendo anche la pubblicazione di siti web anonimi.
-Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with <mark><a href="https://securedrop.org/">SecureDrop</a></mark> or <mark><a href="https://onionshare.org/">OnionShare</a></mark>, safer software updates, and more secure ways to reach popular websites like <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
+I servizi Onion sono affidabili anche per la chat e la condivisione di file senza metadati, un'interazione più sicura tra i giornalisti e le loro fonti come con <mark><a href="https://securedrop.org/">SecureDrop</a></mark> o <mark><a href="https://onionshare.org/">OnionShare</a></mark>, aggiornamenti software più sicuri e modi più sicuri per visitare siti famosi come <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
 
 Questi servizi utilizzano lo speciale dominio di primo livello .onion (invece di .com, .net, .org, ecc...) e sono accessibili unicamente attraverso il network Tor.
