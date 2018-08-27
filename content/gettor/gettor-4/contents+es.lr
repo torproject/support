@@ -1,11 +1,11 @@
 _model: question
 ---
-title: To use GetTor via XMPP (Jitsi, CoyIM).
+title: Usar GetTor via XMPP (Jitsi, CoyIM).
 ---
 seo_slug: usar-gettor-vía-xmpp
 ---
 description:
-To get links for downloading Tor Browser, send a message to gettor@torproject.org with one of the following codes in it:
+Para obtener enlaces que permitan descargar el Tor Browser, manda un mensaje a gettor@torproject.org con uno de los siguientes códigos en él:
 
 * Linux
 * MacOS (OS X)

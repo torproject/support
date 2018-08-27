@@ -5,7 +5,7 @@ title: X.onion üzerine ulaşamıyorum!
 seo_slug: x-nokta-onion-hizmetlerine-erisemiyorum
 ---
 description:
-If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+Erişmek istediğiniz Onion hizmetine erişemiyorsanız, 16 karakterlik eski yada 56 karakterlik yeni onion adresini doğru yazdığınızdan emin olun. Küçük bir hata bile Tor Browser tarafından siteye ulaşılmasını engeller.
 Onion hizmeti ile gene de bağlantı kuramıyorsanız, lütfen daha sonra yeniden deneyin. 
 Geçici bir bağlantı sorunu olabilir ya da site işletmecileri bir uyarı vermeden siteyi çevrimdışı yapmış olabilir.
 

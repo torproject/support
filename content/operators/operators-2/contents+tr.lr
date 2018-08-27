@@ -40,7 +40,7 @@ Bir aktarıcı işletmek ile ilgili ayrıntılı bilgi almak için <mark><a href
   Bu kaydı göremiyorsanız, aktarıcınıza dışarıdan erişilemiyor demektir.
   Güvenlik duvarlarınızı yeniden gözden geçirin, torrc üzerinde belirttiğiniz IP adresi ve kapı numaralarının doğru olduğundan emin olun.
 * Erişilebilir olduğu doğrulandıktan sonra, dizin yöneticilerine istemcilerin adres, kapı numaraları, anahtarlar gibi bilgileri almaları için bir "sunucu belirteci" yüklenir.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Bir kaç saat sonra (bilgilerin yayılması için yeterli zamanı tanıyın), <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> üzerinde bir sorgu yürüterek aktarıcınızın ağa kayıt olup olmadığına bakabilirsiniz.
   Aktarıcınız ağa kayıt olmamış ise güvenlik duvarlarını, IP adresi ve kapı numaralarını yeniden denetleyin.
 
 <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Azaltılmış çıkış ilkesine</a></mark> geçmeyi değerlendirin.

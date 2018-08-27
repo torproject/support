@@ -6,5 +6,5 @@ seo_slug: i-problemi-più-comuni-dell'ultima-versione-stabile-di-Tor-Browser
 ---
 description:
 Ogni volta che una nuova versione stabile di Tor Browser viene rilasciata, scriviamo un post sul blog che descrive in dettaglio le sue nuove funzionalità e i problemi noti.
-Se hai avuto problemi con Tor Browser dopo un aggiornamento, cerca su <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> il post più recente di Tor Browser per vedere se il tuo problema è elencato.
+Se hai avuto problemi con Tor Browser dopo un aggiornamento, cerca su <mark><a href="https://blog.torproject.org">blog.torproject.org</a></mark> il post più recente di Tor Browser per vedere se il tuo problema è elencato.
 Se il tuo problema non è listato, gentilmente riporta su <mark><a href="https://trac.torproject.org">bug report</a></mark> il problema che hai riscontrato.

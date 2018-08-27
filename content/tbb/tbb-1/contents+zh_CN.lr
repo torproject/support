@@ -6,5 +6,5 @@ seo_slug: most-common-issues-latest-stable-tor-browser
 ---
 description:
 当发布一个新的 Tor 稳定版时，我们将会写一篇包括新的特性与已知问题的博文。
-If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org>blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+如果您在升级后使用Tor浏览器时出现问题，请查阅<mark><a href="https://blog.torproject.org">https://blog.torproject.org </a></mark>。您的问题可能会被包含在我们发布的有关最新稳定版本Tor浏览器的博客中。
 If your issue is not listed, please file a <mark><a href="https://trac.torproject.org">bug report</a></mark> about what you're experiencing.
