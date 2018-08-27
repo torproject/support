@@ -10,7 +10,7 @@ Böylece Tor ağıyla bağlantı kurulmasını istemeyen İnternet hizmeti sağl
 Baskıcı rejimler ile yönetilen yerlerde bulunan Tor kullanıcıları ve herkese açık bir Tor aktarıcısının IP adresine bağlandıklarının görülmesini istemeyen kişiler ek bir güvenlik katmanına sahip olmak için köprüleri kullanabilir.
 
 Bir köprü biraz daha farklı yapılandırılmış normal bir aktarıcıdır.
-See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
+Ayrıntılı bilgi almak için <mark><a href="#operators-6">nasıl bir köprü işletirim</a></mark> bölümüne bakabilirsiniz
 
 Çin ve İran gibi bazı ülkeler Tor köprüleri ile kurulan bağlantıları algılayıp engellemek için çeşitli yöntemler buldu.
 <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> köprüleri ek bir gizlilik katmanı kullanarak bu sorunu çözer.
