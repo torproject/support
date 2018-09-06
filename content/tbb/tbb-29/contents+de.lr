@@ -6,26 +6,40 @@ seo_slug: ändere-ip-addresse
 ---
 description:
 Tor Browser kennt zwei Wege, um deinen Kanal zu wechseln — "Neues Profil" und "Neuer Kanal für diese Seite".
-Beide Optionen befinden sich im Menü von Torbutton (kleine grüne Zwiebel).
+
+Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
 
 ##### Neue Identität
 
 Diese Option hilft, damit zukünftiges Surfverhalten nicht mit bisherigen Aktivitäten in Verbindung gebracht werden kann.
+
 Dabei werden alle Tabs und Fenster geschlossen und private Informationen wie Cookies und Verlauf gelöscht und es wird für alle weiteren Verbindungen ein neuer Kanal gewählt.
+
 Tor Browser warnt dich, dass alle Aktivitäten und Downloads gestoppt werden, bedenke dies bevor du auf "Neues Profil" klickst.
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
+    <div class="card-body">
+        <h4 class="card-title">New Identity</h4>
+    </div>
+</div>
+
 
 ##### Neuer Kanal für diese Seite
 
 Diese Option ist nützlich, wenn dein Exit-Knoten sich nicht mit der Webseite verbinden kann, oder sie nicht richtig lädt.
 Damit wird der aktuelle Tab oder das Fenster über einen neuen Kanal geladen.
+
 Andere offene Tabs und Fenster mit der gleichen Seiten werden den neuen Kanal benutzen, sobald sie neu geladen werden.
+
 Diese Option löscht private Informationen nicht und entkoppelt auch bisherige Aktivitäten nicht und hat keinen Effekt auf andere Webseiten.
 
 <div class="col-md-6">
-<div class="card">
-<img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body">
-<h4 class="card-title">Kartentitel</h4>
-<p class="card-text">Kartentext</div>
-</div>
+    <div class="card">
+        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
+    <div class="card-body">
+        <h4 class="card-title">New Circuit for this Site</h4>
+    </div>
 </div>
 

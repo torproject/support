@@ -6,26 +6,40 @@ seo_slug: ip-adresini-degistirmek
 ---
 description:
 Tor Browser üzerinde aktarıcı devrenizi değiştirmenin iki yolu vardır. — "Yeni Kimlik" ve "Bu Sitenin Tor Devresini Yenile".
-İki seçenek de Torbutton (küçük yeşil soğan) menüsünde bulunur.
+
+Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
 
 ##### Yeni Kimlik
 
 Bu seçenek, web tarayıcıda arka arkaya yaptığınız işlemlerin daha önce yaptığınız işlemler ile ilişkilendirilmesini engellemek istediğinizde kullanışlıdır.
+
 Bu seçenek kullanıldığında, tüm sekme ve pencereleriniz kapatılarak çerezler ve tarama geçmişi gibi tüm kişisel bilgiler temizlenerek tü bağlantılar için yeni Tor devreleri kullanılır.
+
 Tor Browser tüm işlem ve indirmelerin durdurulacağını bildirir. "Yeni Kimlik" üzerine tıklamadan önce bunu göz önüne alın.
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
+    <div class="card-body">
+        <h4 class="card-title">New Identity</h4>
+    </div>
+</div>
+
 
 ##### Bu Sitenin Tor Devresini Yenile
 
 Bu seçenek, kullandığınız çıkış aktarıcısı ziyaret etmek istediğiniz web sitesi ile bağlantı kuramadığında ya da siteyi doğru şekilde yükleyemediğinde işe yarar.
 Geçerli sekme ya da pencerenin yeni bir Tor devresi kullanılarak yeniden yüklenmesini sağlar.
+
 Aynı web sitesi için açık olan sekme ve pencereler yeniden yüklendiğinde yeni devreyi kullanır.
+
 Bu seçenek herhangi bir kişisel bilgiyi temizlemez, yaptığınız işlemler arasındaki ilişki kurulmasını engellemez ya da diğer web sitelerinin geçerli bağlantılarını etkilemez.
 
 <div class="col-md-6">
-<div class="card">
-<img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body">
-<h4 class="card-title">Kart başlığı</h4>
-<p class="card-text">Kart metni</div>
-</div>
+    <div class="card">
+        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
+    <div class="card-body">
+        <h4 class="card-title">New Circuit for this Site</h4>
+    </div>
 </div>
 

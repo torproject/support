@@ -6,26 +6,40 @@ seo_slug: cambio-de-dirección-ip
 ---
 description:
 El navegador Tor ofrece dos formas de cambiar su circuito de repetidores - “New Identity” (Nueva identidad) y “New Tor Circuit for this Site” (Nuevo circuito de repetidores para este sitio).
-Las dos opciones se encuentran en el menú "Torbutton" (pequeña cebolla verde).
+
+Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
 
 ##### Nueva identidad
 
 Esta opción es útil si quieres evitar que la actividad subsiguiente de tu navegador se vincule a lo que estuviste haciendo antes.
+
 Con seleccionarlo puedes cerrar todas tus pestañas y ventanas, borrar toda la información privada como cookies e historial de búsqueda, y hacer uso de un nuevo circuito de Tor para todas las conexiones.
+
 El navegador Tor te advertirá de que todas las actividades y descargas serán detenidas, por lo tanto ten esto en cuenta antes de pulsar en “Nueva Identidad”.
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
+    <div class="card-body">
+        <h4 class="card-title">New Identity</h4>
+    </div>
+</div>
+
 
 ##### Nuevo circuito de Tor para esta página
 
 Esta opción es útil si el repetidor de salida que estás usando no puede conectarse al sitio web que requiere, o no se está cargando adecuadamente.
 Al seleccionarlo, causará que la pestaña o ventana actualmente activa se recargue sobre un nuevo circuito de Tor.
+
 Otras pestañas y ventanas abiertas del mismo sitio web también usarán el nuevo circuito una vez que se recarguen.
+
 Esta opción no limpia ninguna información privada ni desvincula tu actividad, tampoco afecta a tus conexiones actuales a otros sitios web.
 
 <div class="col-md-6">
-<div class="card">
-<img class="card-img-top" src="/static/images/image1.png" alt="Alerta de nueva versión"><div class="card-body">
-<h4 class="card-title">Título de la tarjeta</h4>
-<p class="card-text">Texto de la tarjeta</div>
-</div>
+    <div class="card">
+        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
+    <div class="card-body">
+        <h4 class="card-title">New Circuit for this Site</h4>
+    </div>
 </div>
 

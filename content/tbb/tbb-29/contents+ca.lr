@@ -6,26 +6,40 @@ seo_slug: canviar-adreça-ip
 ---
 description:
 EL Navegador Tor té dues maneres de canviar el circuit del repetidor: "Nova identitat" i "Nou circuit Tor per a aquest lloc".
-Ambdues opcions es troben al menú del botó de Tor (petita ceba verda).
+
+Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
 
 ##### Nova identitat
 
 Aquesta opció és útil si voleu evitar que la vostra activitat posterior del navegador sigui vinculada al que hagueu fet abans.
+
 Si ho seleccioneu, tanqueu totes les pestanyes i finestres, esborreu tota la informació privada, com ara les galetes i l'historial de navegació, i utilitzeu els nous circuits Tor per a totes les connexions.
+
 El Navegador Tor us avisarà que tota activitat i descàrregues s'aturaran, així que teniu això en compte abans de fer clic a "Nova identitat".
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
+    <div class="card-body">
+        <h4 class="card-title">New Identity</h4>
+    </div>
+</div>
+
 
 ##### Nou Circuit Tor per a aquest lloc
 
 Aquesta opció és útil si el repetidor de sortida que utilitzeu no pot connectar-se al lloc web que necessiteu o no s'ha carregat correctament.
 Si ho seleccioneu, es tornarà a carregar la pestanya o la finestra actualment activa en un nou circuit Tor.
+
 Altres pestanyes obertes i finestres del mateix lloc web també usaran el nou circuit una vegada que es tornin a carregar.
+
 Aquesta opció no elimina cap informació privada o desenllaça la vostra activitat, ni afecta les vostres connexions actuals a altres llocs web.
 
 <div class="col-md-6">
-<div class="card">
-<img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body">
-<h4 class="card-title">Titol de la targeta</h4>
-<p class="card-text">Text de la targeta</div>
-</div>
+    <div class="card">
+        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
+    <div class="card-body">
+        <h4 class="card-title">New Circuit for this Site</h4>
+    </div>
 </div>
 
