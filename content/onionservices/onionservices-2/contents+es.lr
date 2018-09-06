@@ -2,10 +2,31 @@ _model: question
 ---
 title: ¿Qué es un .onion o qué son los servicios onion?
 ---
-seo_slug: qué-es-un-punto-de-onion
+seo_slug: qué-es-un-punto-onion
 ---
 description:
 Los servicios de Onion permiten navegar, pero también publicar anonimamente, incluyendo la publicación de sitios web anónimos.
+
 Los servicios de Onion también se utilizan para chatear y compartir archivos, sin metadatos, para una interacción más segura entre los periodistas y sus fuentes como <mark><a href="https://securedrop.org/">SecureDrop</a></mark> o <mark><a href="https://onionshare.org/">OnionShare</a></mark>, para actualizaciones de software más seguras, y para acceder de forma más segura a sitios web populares como <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
 
 Estos servicios usan el TLD (dominio de primer nivel) de uso especial .onion (en lugar de .com, .net, .org, etc.) y sólo son accesibles a través de la red Sor.
+
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. 
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
+    <div class="card-body">
+        <h4 class="card-title">Icon of a green onion to identify .onion website</h4>
+    </div>
+</div>
+
+And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
+    <div class="card-body">
+        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+    </div>
+</div>
