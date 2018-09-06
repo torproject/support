@@ -2,7 +2,7 @@ _model: question
 ---
 title: Eine Webseite, die ich versuche aufzurufen, blockiert die Verbindung über Tor.
 ---
-seo_slug: website-is-blocking-access-over-tor
+seo_slug: webseite-blockiert-zugang-zu-tor
 ---
 description:
 
@@ -13,7 +13,7 @@ Etwas in dieser Art könnte helfen:
 "Hi! Habe versucht, mit Tor Browser auf eure Seite xyz.com zuzugreifen, aber musste feststellen, dass ihr Tor nicht erlaubt. 
 Ich möchte euch anregen, diese Entscheidung zu überdenken. Tor wird von Menschen auf der ganzen Welt benutzt, um ihre Privatsphäre zu schützen und gegen Zensur zu kämpfen.
 Wenn ihr Tor blockiert, schließt ihr sehr wahrscheinlich Menschen aus, die unter repressiven Systemen leiden, den Zugang zum freien Internet suchen, Journalist*innen und Wissenschaftler*innen, die sich davor schützen wollen, entdeckt zu werden, sowie Aktivist*innen und gewöhnliche Leute, die der Verfolgung durch Unternehmen zu entgehen versuchen.
-Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
+Bitte beweist eine Position zugunsten digitaler Privatsphäre und Internetfreiheit und erlaubt den Zugang zu xyz.com über Tor.
 
-In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
+Bei Banken und anderen sensitiven Webseiten ist es üblich, basierend auf der Herkunft zu blockieren (z.B. neigen Banken dazu, Konten zu sperren, wenn das Land, von dem du dich verbindest, wechselt).
 Bei Verbindungsschwierigkeiten zu einem onion-Dienst, siehe <a href="#onionservices-3">Ich kann einen onion-Dienst nicht erreichen</a>

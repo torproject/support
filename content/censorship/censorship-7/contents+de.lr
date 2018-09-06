@@ -2,17 +2,17 @@ _model: question
 ---
 title: Was ist eine Brücke?
 ---
-seo_slug: what-is-a-bridge
+seo_slug: was-ist-eine-bruecke
 ---
 description:
 Brücken-Relais sind Tor-Relais, die nicht im öffentlichen Tor-Verzeichnis aufgeführt sind.
-That means that ISPs or governments trying to block access to the Tor network can't simply block all bridges.
-Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
+Das bedeutet, dass Internetdiensteanbieter (ISP) oder Regierungen, die versuchen, den Zugriff auf das Tor-Netzwerk zu blockieren, schlichtweg nicht alle Brücken (Bridges) blockieren können.
+Birdges sind nützlich für Menschen in oppressiven Staaten und für alle, die eine Extraschicht für erhöhte Sicherheit bevorzugen, weil irgendwer feststellen könnte, dass sie mit der öffentlich bekannten Ip-Adresse eines Tor-Knotens kommunizieren.
 
 Eine Brücke ist nur ein normales Relais mit einer leicht unterschiedlichen Konfiguration.
-See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
+Siehe <mark><a href="#operators-6">Wie betreibe ich eine Bridge</a></mark> für Instruktionen.
 
-Several countries, including China and Iran, have found ways to detect and block connections to Tor bridges.
-<mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.
-Setting up an obfsproxy bridge requires an additional software package and additional configurations.
-See our page on <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark> for more info.
+Einige Länder, wie China und Iran, haben Möglichkeiten gefunden, Tor-Nutzer*innen zu erkennen und Verbindungen zu Tor-Brücken zu blockieren.
+<mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> Bridges verhindern dies durch eine weitere Verschleierungsschicht.
+Ein obfsproxy-Relay zu betreiben bedarf eines weiteren Software-Pakets und zusätzlicher Konfigurationen.
+Siehe unsere Seite über <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">Pluggable Transports</a></mark> für weitere Informationen.
