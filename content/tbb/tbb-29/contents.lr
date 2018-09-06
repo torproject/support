@@ -19,7 +19,7 @@ Tor Browser will warn you that all activity and downloads will be stopped, so ta
 
 <div class="col-md-6">
     <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity" alt="Tor Browser Menu">
+        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
     <div class="card-body">
         <h4 class="card-title">New Identity</h4>
     </div>
