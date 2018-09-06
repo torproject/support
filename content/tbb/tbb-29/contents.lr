@@ -17,13 +17,7 @@ Selecting it will close all your tabs and windows, clear all private information
 
 Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body">
-        <h4 class="card-title">New Identity</h4>
-    </div>
-</div>
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 
 ##### New Tor Circuit for this Site
@@ -35,11 +29,4 @@ Other open tabs and windows from the same website will use the new circuit as we
 
 This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body">
-        <h4 class="card-title">New Circuit for this Site</h4>
-    </div>
-</div>
-
+<img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
