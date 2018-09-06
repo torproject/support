@@ -43,7 +43,7 @@ Por favor, intenta conectarte a través de puentes, y eso debería solucionar el
 
 Si ves líneas como esta en tu registro de Tor, significa que Tor falló al completar un contacto TLS con las autoridades del directorio. El uso de puentes probablemente solucionará esto.
 
-#####  Error común de registror #4: Desviación del reloj
+<h5>Error de registro común #4: Reloj sesgado</h5>
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Conectando al servidor de directorio. 

@@ -2,13 +2,13 @@ _model: question
 ---
 title: Ich habe Probleme mich mit Tor zu verbinden und kann die Ursache nicht finden.
 ---
-seo_slug: having-trouble-connecting-to-tor
+seo_slug: probleme-beim-verbinden-mit-tor
 ---
 description:
 
-If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
+Wenn du Problem beim Verbinden hast, wähle die Option "Tor-Protokoll in die Zwischenablage kopieren".
 Dann kopieren Sie das Tor-Protokoll in eine Textdatei oder ein anderes Dokument.
-You should see one of these common log errors (look for the following lines in your Tor log):
+Du solltest einen dieser üblichen Fehler im Protokoll sehen (suche nach diesen Zeilen in deiner Tor-Logdatei):
 
 ###### Üblicher Fehler #1: Proxy-Verbindungsfehler
 
@@ -18,8 +18,8 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy. If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
+Wenn in der Log-Datei Zeile wie diese auftauchen, bedeutet das, der SOCKS-Proxy kann nicht erreicht werden. Wenn ein SOCKS-Proxy für die Netzwerkeinstelung nötig ist, sollten die Proxy-Details überprüft werden.
+Wenn kein SOCKS-Proxy nötig ist, oder du nicht sicher bist, versuche dich mit dem Tor-Netzwerk ohne SOCKS-Proxy zu verbinden.
 
 ###### Üblicher Fehler #2: Kann Guard-Relays nicht erreichen
 
@@ -29,7 +29,7 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
+Wenn du diese Zeilen in deiner Tor-Protokolldatein siehst, konnte sich Tor nicht mit dem ersten Knoten (Guard) von deinem Kanal (Circuit) verbinden.
 Das könnte bedeuten, dass Sie sich in einem Netzwerk befinden, das zensiert ist.
 Bitte versuchen Sie, sich über Brücken zu verbinden, das sollte das Problem lösen.
 
@@ -41,14 +41,14 @@ Bitte versuchen Sie, sich über Brücken zu verbinden, das sollte das Problem l�
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities. Using bridges will likely fix this.
+Wenn du Zeilen wie diese in Tors Logdatei siehst, bedeutet dies, dass Tor keinen vollständigen TLS-Handschlag mit den Verzeichnis-Autoritäten herstellen konnte. Bridges zu benutzen, wird dieses Problem wahrscheinlich lösen.
 
-##### Common log error #4: Clock skew
+##### Übliche Fehlermeldung #4: Clock skew (Zeitunterschied)
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
+Bei Zeilen wie diesen ist die Uhrzeit falsch eingestellt.
 Bitte stellen Sie sicher, dass Ihre Uhr und Zeitzone korrekt eingestellt sind. Starten Sie anschließend Tor neu. 

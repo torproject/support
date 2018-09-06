@@ -33,7 +33,7 @@ Se você vê linhas como essas em seu registro do Tor, isso significa que seu To
 Isto pode significar que você está em uma rede censurada.
 Por favor tente conectar com pontes, e isso deve resolver o problema.
 
-##### Common log error #3: Failed to complete TLS handshake
+##### Erro de log comum #3: Falha ao concluir TLS handshake
 
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 
