@@ -1,0 +1,9 @@
+_model: question
+---
+title: Υποστηρίζεται το *BSD;
+---
+seo_slug: υπάρχει-υποστήριξη-για-bsd
+---
+description:
+Συγγνώμη, αλλά προς το παρόν δεν υπάρχει επίσημη υποστήριξη για να χρησιμοποιήσετε τον Tor Browser σε *BSD.
+There is something called the <mark><a href="https://www.torbsd.org/">TorBSD project</a></mark>, but their Tor Browser is not officially supported.

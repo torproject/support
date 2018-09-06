@@ -1,0 +1,25 @@
+_model: question
+---
+title: Το antivirus ή το malware protection μου εμποδίζει την πρόσβαση μου στο Tor Browser.
+---
+seo_slug: το antivirus εμποδίζει το tor
+---
+description:
+Τα περισσότερα antivirus ή malware protection επιτρέπουν στον χρήστη να κάνει "whitelist" ορισμένες διαδικασίες που διαφορετικά θα αποκλείονταν.
+Ανοίξτε το antivirus ή το malware protection σας και ανατρέξτε στις ρυθμίσεις για "whitelist" ή κάτι παρόμοιο.
+Τώρα, αποεπιλέξτε τις ακόλουθες διαδικασίες:
+
+* Για Windows
+  * firefox.exe
+  * tor.exe
+  * obfs4proxy.exe (αν χρησιμοποιείτε γέφυρες)
+
+
+* Για OS X
+  * TorBrowser
+  * tor.real
+  * obfs4proxy (αν χρησιμοποιείτε γέφυρες)
+
+Τέλος, επανεκκινήστε τον Tor Browser.
+Αυτό θα πρέπει να διορθώσει τα προβλήματα που αντιμετωπίζετε.
+Λάβετε υπόψη ότι ορισμένα antivirus, όπως το Kaspersky, ενδέχεται επίσης να εμποδίζουν το Tor στο επίπεδο του firewall.
