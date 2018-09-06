@@ -2,11 +2,11 @@ _model: question
 ---
 title: Ich kann X.onion nicht erreichen!
 ---
-seo_slug: i-cannot-reach-x-dot-onion
+seo_slug: kann-x-punkt-onion-nicht-erreichen
 ---
 description:
-If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+Wenn du einen onion-Dienst nicht erreichen kann, überprüfe dass du die korrekte 16-stellige, oder für das neue Formate, 56-stellige onion-Adress verwendest: auch der kleinste Fehler verhindert, dass Tor Browser die Seite erreichen kann.
 Sollten Sie sich immer noch nicht mit dem Tor-Netzwerk verbinden können, versuchen Sie es bitte später wieder.
-There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+Eventuell gibt es ein vorübergehendes Verbindungsproblem, oder die Webseitenbetreiber*innen haben die Seite ohne Warnung vom Netz genommen.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo's onion service</a>.
+Du kannst auch sicherstellen, dass andere .onion-Dienste erreichbar sind, z.B. der  <a href="http://3g2upl4pq6kufc4m.onion">Onion-Dienst von DuckDuckGo</a>.

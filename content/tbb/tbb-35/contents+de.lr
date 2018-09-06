@@ -1,9 +1,9 @@
 _model: question
 ---
-title: Könnt ihr die ganzen Captchas loswerden?
+title: Könnt ihr die ganzen Captchas weg machen?
 ---
 seo_slug: captchas-loswerden
 ---
 description:
-Unfortunately, some websites deliver CAPTCHAs to Tor users, and we are not able to remove CAPTCHAs from websites.
-Am besten ist es, Kontakt zu den Eigentümern der Webseite aufzunehmen und ihnen mitzuteilen, dass CAPTCHAS den Zugang zu ihren Diensten für normale Nutzer*innen behindern
+Leider liefern einige Seiten CAPTCHAs an Tor-Nutzer*innen aus und wir können diese nicht von Webseiten entfernen.
+Am besten ist es, Kontakt zu den Eigentümer*innen der Webseite aufzunehmen und ihnen mitzuteilen, dass CAPTCHAS den Zugang zu ihren Diensten für normale Nutzer*innen behindern

@@ -6,4 +6,4 @@ seo_slug: tor-herunterladen-torproject-org-ist-geblockt
 ---
 description:
 Wenn du Tor nicht über unsere <mark><a href="https://www.torproject.org">Webseite</a></mark> herunter laden kannst, versuche, eine Kopie mit GetTor zu bekommen.
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.
+GetTor ist ein Dienst zum automatischen Empfangen von Links zum Herunterladen von Tor Browser an verschiedenen Orten, die weniger wahrscheinlich zensiert werden, wie z.B. Dropbox, Google Drive und GitHub. 

@@ -8,17 +8,17 @@ description:
 Is féidir leat Brabhsálaí Tor a nuashonrú chomh luath agus go bhfuil leagan nua ar fáil.
 <div class="col-md-6">
   <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
+    <img class="card-img-top" src="/static/images/image4.png" alt="Leagan nua ar fáil">
     <div class="card-body">
       <h4 class="card-title">Tor Browser will prompt you to update the software once a new version has been released.</h4>
-      <p class="card-text">The Torbutton icon (the little green onion in the top left corner of the browser) will display a yellow triangle.</p>
+      <p class="card-text">Taispeánfaidh deilbhín an chnaipe Tor (an t-oinniún beag glas sa chúinne ag barr ar chlé den bhrabhsálaí) triantán buí.</p>
     </div>
   </div>
 </div>
-You may see a written indication when Tor Browser opens telling you that an update is available.
+Anois is arís feicfidh tú fógra nuair a thosaíonn Brabhsálaí Tor a deir go bhfuil nuashonrú ar fáil.
 <div class="col-md-6">
   <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
+    <img class="card-img-top" src="/static/images/image5.png" alt="Leagan nua ar fáil">
     <div class="card-body">
       <h4 class="card-title">Teideal an chárta</h4>
       <p class="card-text">Téacs an chárta</p>
@@ -28,7 +28,7 @@ You may see a written indication when Tor Browser opens telling you that an upda
 Suiteálfaidh Brabhsálaí Tor na nuashonruithe.
 <div class="col-md-6">
   <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
+    <img class="card-img-top" src="/static/images/image3.png" alt="Leagan nua ar fáil">
     <div class="card-body">
       <h4 class="card-title">Teideal an chárta</h4>
       <p class="card-text">Téacs an chárta</p>

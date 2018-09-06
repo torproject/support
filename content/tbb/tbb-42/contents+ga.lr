@@ -6,5 +6,5 @@ seo_slug: tor-browser-firefox-not-working-error
 ---
 description:
 Tor Browser is built using <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, so errors regarding Firefox may occur.
-Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for.
+Ba chóir duit deimhniú nach bhfuil aon chóip eile de Bhrabhsálaí Tor ar siúl, agus gur dhíphacáil tú Brabhsálaí Tor áit éigin ina bhfuil na ceadanna cearta agat.
 If you are running an anti-virus, please see <mark><a href="http://support.torproject.org/#tbb-10">My antivirus/malware protection is blocking me from accessing Tor Browser</a></mark>, it is common for anti-virus / anti-malware software to cause this type of issue.

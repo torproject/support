@@ -1,20 +1,20 @@
 _model: question
 ---
-title: How do I run a obfs4 bridge on Debian?
+title: Wie kann ich eine obfs4-Bridge auf Debian betreiben?
 ---
-seo_slug: how-do-i-run-a-obfs4-bridge-debian
+seo_slug: wie-betreibe-ich-eine-obfs4-bruecke-auf-debian
 ---
 description:
-* Run "apt-get install tor obfs4proxy" (as root).
-* Make sure your clock, date, and timezone are set correctly.
-  Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* Führe "apt install tor obfs4proxy" als root aus
+* Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind.
+  Installiere das Paket ntp oder openntpd (oder ähnlich) um die Zeit aktuell zu halten.
+* Bearbeite die Datei /etc/tor/torrc damit sie so aussieht:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ## Die IP-Adresse or Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
     #Address noname.example.com
 
-    ## Set the nickname of this relay
+    ## Wähle den Namen des Relays
     Nickname ididnteditheconfig
 
     ## Setze deine eigenen Kontaktinformationen
@@ -25,15 +25,15 @@ description:
     ExtORPort auto
     ORPort 9001
 
-    ## Set your bandwidth rate (leave commented and Tor will run without
-    bandwidth caps)
+    ## Bandbreiten-Einstellung (Tor funktioniert ohne, wenn dies kommentiert ist)
+    Bandbreitenbeschränkungen)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-* Run "service tor reload" (as root).
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* Führe "service tor reload" als root aus.
+* Nachdem sich dein Relay mit dem Tor-Netzwerk verbunden hat, versucht es festzustellen, welche Ports der konfigurierten Ports von außen erreichbar sind.
   Normalerweise ist dieser Schritt ziemlich schnell, es könnte jedoch einige Minuten in Anspruch nehmen.
-* Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-  If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
-* You should also see the message "Registered server transport 'obfs4'" indicating that obfs4proxy is functional.
+* Suche nach Log-Einträgen in /var/log/syslog wie "Self-testing indicates your ORPort is reachable from the outside. Excellent." (Dein ORPort scheint von außerhalb erreichbar zu sein. Exzellent.)
+  Wenn du diese Nachricht nicht siehst, bedeutet das, dass das Relay nicht von außen erreichbar ist.
+  Überprüfe deine Firewalls und dass die in deiner torrc eingestellten IP-Adresse und Ports korrekt sind, etc.
+* Die Nachricht "Registered server transport 'obfs4'" (obfs4-Transport-Server wurde registriert), zeigt an, dass obfs4proxy einsatzbereit ist.

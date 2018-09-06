@@ -25,7 +25,7 @@ Se um SOCKS proxy não é necessário, ou você não tem certeza, por favor tent
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
-    11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit. 
+    11/1/2017 21:11:44 PM.300 [WARN]Falha para encontrar um nó para o hop 0 do nosso caminho. Descartando esse circuito. 
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
@@ -33,7 +33,7 @@ Se você vê linhas como essas em seu registro do Tor, isso significa que seu To
 Isto pode significar que você está em uma rede censurada.
 Por favor tente conectar com pontes, e isso deve resolver o problema.
 
-##### Common log error #3: Failed to complete TLS handshake
+##### Erro de log comum #3: Falha ao concluir TLS handshake
 
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 

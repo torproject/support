@@ -22,7 +22,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     ORPort 9001
     DirPort 9030
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ##O endereço IP ou hostname para conexões de entrada (deixe comentado e o Tor irá saber)
     #Endereço noname.example.com
 
     ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)

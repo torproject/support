@@ -1,22 +1,22 @@
 _model: question
 ---
-title: How do I run a middle or guard relay on FreeBSD or HardenedBSD?
+title: Conas a shocraítear athsheachadán idirmheánach nó garda ar chóras FreeBSD nó HardenedBSD?
 ---
 seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a>.
+Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionsonraí go léir sa <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Lámhleabhar Athsheachadán Tor</a>.
 
-* Run "pkg install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly.
-  Enabling ntpd is suggested.
-* Edit /usr/local/etc/tor/torrc to look like the following:
+* Rith "pkg install tor" (mar root).
+* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart.
+  Molaimid duit ntp a chumasú.
+* Cuir /usr/local/etc/tor/torrc in eagar mar seo a leanas:
 
 
-    ## Set the nickname of this relay
+    ## Tabhair leasainm don athsheachadán seo
     Nickname ididnteditheconfig
 
-    ## Set your own contact info
+    ## Do chuid sonraí teagmhála
     ContactInfo 0xFFFFFFFF Duine Randamach <tadhgorodai AG example ponc com>
 
     ORPort 9001
@@ -28,19 +28,19 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 
     ExitPolicy reject *:*
 
-    ## If you control multiple relays, include then in the family
+    ## Má tá tú i gceannas ar níos mó ná athsheachadán amháin, cuir le clann amháin iad
     #MyFamily $keyid,$keyid,...
 
     RunAsDaemon 1
     Log notice file /var/log/tor/notices.log
 
-* Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
-* Run "service tor start" (as root)
+* Deimhnigh go dtosóidh Tor ag am thosú an ríomhaire trí "sysrc tor_enable=YES" a rith (mar root)
+* Rith "service tor start" (mar root)
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
-  Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+  Téigh ar lorg iontráil in /var/log/tor/notices.log ar nós "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+  Ba chóir duit deimhniú gur shonraigh tú an seoladh IP, na poirt, agus na sonraí maidir le ballaí dóiteáin sa gcomhad torrc go ceart.
 * When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
   After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-  If it hasn't, re-check firewalls, IP and ports again.
+  Mura bhfuil, deimhnigh an seoladh IP, na poirt, agus aon bhallaí dóiteáin arís.

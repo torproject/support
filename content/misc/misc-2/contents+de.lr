@@ -2,9 +2,9 @@ _model: question
 ---
 title: Warum verhindert Ihr nicht das böse Menschen mit Tor böse Dinge machen?
 ---
-seo_slug: prevent-bad-people-doing-bad-things-with-tor
+seo_slug: verhindere-dass-schlechte-menschen-schlechtes-mit-tor-tun
 ---
 description:
-Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us.
-We hate that there are some people who use Tor to do terrible things, but we can't do anything to get rid of them without also undermining the human rights activists, journalists, abuse survivors, and other people who use Tor for good things.
-If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.
+Tor ist so konstruiert, dass es Menschenrechte und Privatsphäre schützt und Zensur durch irgendwen unmöglich macht, selbst für uns.
+Wir bedauern, dass einige Menschen Tor für schreckliche Dinge nutzen, aber wir können nichts dagegen tun, ohne Menschenrechtsaktivist*innen, Journalist*innen, Überlebende von Missbrauch, und alle, die Tor für Gutes benutzen, zu gefährden.
+Selbst wenn wir bestimmte Einschränkungen bei der Benutzung von Tor machen wolten, müssten wir eine Hintertür in die Software einbauen, wodurch verwundbarere Nutzer*innen Angriffen durch oppressive Staaten oder anderen Feinden ausgesetzt wären.

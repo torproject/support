@@ -2,7 +2,7 @@ _model: question
 ---
 title: Ich kann mich nicht mit Tor Browser verbinden, ist mein Netzwerk zensiert?
 ---
-seo_slug: cant-connect-to-tor-browser
+seo_slug: kann-mich-nicht-mit-tor-browser-verbinden
 ---
 description:
 Eventuell wird dein Netzwerk zensiert, probiere es mit Bridges.

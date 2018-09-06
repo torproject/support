@@ -22,7 +22,7 @@ If the site you are visiting uses HTTPS, then the traffic leaving your exit rela
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
+        <h4 class="card-title">Léiríonn an pictiúr seo an t-eolas is féidir le cúléisteoirí a fheiceáil le agus gan Brabhsálaí Tor agus criptiúchán HTTPS.</h4>
       </div>
     </div>
   </div>

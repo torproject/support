@@ -6,26 +6,40 @@ seo_slug: change-ip-address
 ---
 description:
 Tor Browser memiliki dua cara untuk mengubah sirkuit relay Anda — "Identitas baru" dan "Tor sirkuit Baru untuk situs ini".
-Kedua pilihan terletak di menu Torbutton (bawang kecil hijau).
+
+Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
 
 ##### Identitas Baru
 
 Pilihan ini berguna jika Anda ingin mencegah aktivitas browser Anda agar tidak terhubung dengan apa yang Anda lakukan sebelumnya.
+
 Memilihnya akan menutup semua tab dan jendela yang terbuka, menghapus semua informasi pribadi seperti cookies dan riwayat penjelajahan, dan menggunakan sirkuit Tor baru untuk semua koneksi.
+
 Browser Tor akan memperingatkan Anda bahwa semua aktivitas dan unduhan akan dihentikan, jadi pertimbangkanlah ini sebelum mengklik "New Identity".
+
+<div class="col-md-6"> 
+    <div class="card"> 
+        <img class="card-img-top" src="/static/images/menu-new-identity" alt="Tor Browser Menu">
+    <div class="card-body"> 
+        <h4 class="card-title">New Identity</h4>
+    </div> 
+</div> 
+
 
 ##### Sirkuit Tor Baru untuk Situs ini
 
 Pilihan ini berguna jika relay keluar tidak dapat terhubung ke situs web, atau situsnya tidak ditampilkan dengan benar.
 Memilihnya akan menyebabkan tab atau jendela yang aktif saat ini akan dimuat ulang melalui sebuah sirkuit Tor yang baru.
+
 Tabs atau jendela lain yang sedang terbuka dari website yang sama akan menggunakan sirkuit yang baru demikian juga dengan yang sedang dijalankan.
+
 Opsi ini tidak akan menghilangkan setiap infomasi pribadi atau tidak menghubungkan aktivitas anda, tidak juga berdampak pada koneksi anda saat ini pada website yang lain.
 
 <div class="col-md-6"> 
-<div class="card"> 
-<img class="card-img-top" src="/static/images/image1.png" alt="New release alert"><div class="card-body"> 
-<h4 class="card-title">Card title</h4> 
-<p class="card-text">Card text</div> 
-</div> 
+    <div class="card"> 
+        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
+    <div class="card-body"> 
+        <h4 class="card-title">New Circuit for this Site</h4>
+    </div> 
 </div> 
 

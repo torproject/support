@@ -1,23 +1,23 @@
 _model: question
 ---
-title: How do I run a obfs4 bridge on Debian?
+title: Conas a shocraítear droichead obfs4 ar chóras Debian?
 ---
 seo_slug: how-do-i-run-a-obfs4-bridge-debian
 ---
 description:
-* Run "apt-get install tor obfs4proxy" (as root).
-* Make sure your clock, date, and timezone are set correctly.
+* Rith "apt-get install tor obfs4proxy" (mar root).
+* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart.
   Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* Cuir /etc/tor/torrc in eagar mar seo a leanas:
 
 
     ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
-    #Address noname.example.com
+    #Seoladh ganainm.example.com
 
-    ## Set the nickname of this relay
+    ## Tabhair leasainm don athsheachadán seo
     Nickname ididnteditheconfig
 
-    ## Set your own contact info
+    ## Do chuid sonraí teagmhála
     ContactInfo 0xFFFFFFFF Duine Randamach <tadhgorodai AG example ponc com>
 
     BridgeRelay 1
@@ -26,14 +26,14 @@ description:
     ORPort 9001
 
     ## Set your bandwidth rate (leave commented and Tor will run without
-    bandwidth caps)
+    teorainn ar bhandaleithead)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-* Run "service tor reload" (as root).
+* Rith "service tor reload" (mar root).
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
-* Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+* Téigh ar lorg iontráil in /var/log/syslog ar nós "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+  Ba chóir duit deimhniú gur shonraigh tú an seoladh IP, na poirt, agus na sonraí maidir le ballaí dóiteáin sa gcomhad torrc go ceart.
 * You should also see the message "Registered server transport 'obfs4'" indicating that obfs4proxy is functional.

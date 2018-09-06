@@ -22,7 +22,7 @@ description:
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">এই রূপকল্পন প্রদর্শন করে যে eavesdroppers সাথে এবং টর ব্রাউজার এবং HTTPS এনক্রিপশন ছাড়া কি তথ্য দৃশ্যমান.
+        <h4 class="card-title">এই রূপকল্পন প্রদর্শন করে যে eavesdroppers সাথে এবং টর ব্রাউজার এবং HTTPS এনক্রিপশন ছাড়া কি তথ্য দৃশ্যমান.</h4>
       </div>
     </div>
   </div>

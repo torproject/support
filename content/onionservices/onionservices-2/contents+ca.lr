@@ -6,6 +6,29 @@ seo_slug: que-es-un-punt-onion
 ---
 description:
 Els serveis de onion permeten que la gent navegui, però també publiqui de manera anònima, inclosa la publicació de llocs web anònims.
-Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with <mark><a href="https://securedrop.org/">SecureDrop</a></mark> or <mark><a href="https://onionshare.org/">OnionShare</a></mark>, safer software updates, and more secure ways to reach popular websites like <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
+
+Els serveis de onion també es basen en el xat i l'intercanvi d'arxius sense metadades, una interacció més segura entre els periodistes i les seves fonts, com ara <mark><a href="https://securedrop.org/">SecureDrop</a></mark> o <mark>OnionShare<a href="https://onionshare.org/"></mark>, actualitzacions de programari més segures i formes més segures d'arribar a llocs web populars com <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
 
 Aquests serveis utilitzen l'ús especial tld .onion (en lloc de .com, .net, .org, etc.) i només són accessibles a través de la xarxa Tor.
+
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. 
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
+    <div class="card-body">
+        <h4 class="card-title">Icon of a green onion to identify .onion website</h4>
+    </div>
+</div>
+
+And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
+    <div class="card-body">
+        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+    </div>
+</div>
+
+

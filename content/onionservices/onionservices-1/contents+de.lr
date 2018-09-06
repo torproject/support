@@ -2,10 +2,10 @@ _model: question
 ---
 title: Ich habe von Internetseiten gehört, die nur über Tor erreichbar sind. Was für Internetseiten sind das und wie erreiche ich sie?
 ---
-seo_slug: accessing-websites-that-are-only-accessible-over-tor
+seo_slug: auf-webseiten-zugreifen-die-nur-mit-tor-erreichbar-sind
 ---
 description:
-Websites that are only accessible over Tor are called "onions" and end in the TLD .onion.
-For example, the DuckDuckGo onion is <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
-You can access these websites by using Tor Browser.
-The addresses must be shared with you by the website host, as onions are not indexed in search engines in the typical way that vanilla websites are.
+Webseiten, die nur über Tor erreichbar sind, werden "onions" genannt und enden mit der TLS .onion.
+Zum Beispiel ist der Onion-Dienst von DuckDuckgo <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
+Du kannst diese Webseiten mit Tor Browser erreichen.
+Webseiten-Betreiber müssen ihre Adresse mitteilen, denn onions werden nicht im klassischen Sinn indiziert wie übliche Webseiten.

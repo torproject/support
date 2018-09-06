@@ -7,6 +7,6 @@ seo_slug: first-address-relay-circuit
 description:
 Sin gnáthiompar Tor.
 Tugtar "garda" nó "garda iontrála" ar an chéad athsheachadán i do chiorcad.
-It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack.
+Is éard atá sa ngarda ná athsheachadán sciobtha agus cobhsaí a fhanann mar an chéad cheann i do chiorcad ar feadh 2-3 mhí, mar chosaint ar ionsaí aitheanta a dhéanann iarracht do chuid faisnéise pearsanta a nochtadh.
 Athraíonn an chuid eile den chiorcad aon uair a dtugann tú cuairt ar shuíomh nua. Oibríonn na hathsheachadáin seo as lámh a chéile chun do phríobháideachas a chosaint.
 For more information on how guard relays work, see this <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">blog post</a></mark> and <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">paper</a></mark> on entry guards.

@@ -1,10 +1,10 @@
 _model: question
 ---
-title: Can I still use another browser, like Chrome or Firefox, when I am using Tor Browser?
+title: An féidir liom brabhsálaí eile, ar nós Chrome nó Firefox, a úsáid le linn dom Brabhsálaí Tor a úsáid?
 ---
 seo_slug: download-tor-browser-chromeos
 ---
 description:
-You can certainly use another browser while you are also using Tor Browser.
+Is féidir cinnte.
 However, you should know that the privacy properties of Tor Browser will not be present in the other browser.
-Be careful when switching back and forth between Tor and a less safe browser, because you may accidentally use the other browser for something you intended to do using Tor.
+Mar sin, caithfidh tú a bheith cúramach nuair a athraíonn tú anonn is anall idir Tor agus brabhsálaí eile nach bhfuil chomh slán, sa chaoi nach ndéanann tú rud éigin sa mbrabhsálaí eile a raibh tú ag iarraidh é a dhéanamh in Tor.

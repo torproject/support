@@ -32,7 +32,7 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
     #MyFamily $keyid,$keyid,...
 
     RunAsDaemon 1
-    Archivo de notificación de registro /var/log/tor/notices.log
+    Log notice file /var/log/tor/notices.log
 
  Asegúrate de que Tor se inicia en el arranque ejecutando "sysrc tor_enable=YES" (como root)
 * Ejecuta "service tor start" (como root)

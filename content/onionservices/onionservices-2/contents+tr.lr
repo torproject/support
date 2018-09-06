@@ -6,6 +6,29 @@ seo_slug: nokta-onion-kisaltmasi-nedir
 ---
 description:
 Onion hizmetleri kişilerin içeriklere bakması yanında anonim web siteleri gibi yayınlar yapabilmesini sağlar.
+
 Ayrıca Onion hizmetlerini kullanarak üst veriler olmadan sohbet ve dosya paylaşımı, gazeteciler ve <mark><a href="https://securedrop.org/">SecureDrop</a></mark> ya da <mark><a href="https://onionshare.org/">OnionShare</a></mark> gibi kaynakları arasında daha güvenli etkileşim,  daha güvenli yazılım güncellemeleri ve <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark> gibi yaygın web sitelerine daha güvenli yollarla erişim gibi işlemler yapılabilir. 
 
 Bu hizmetlere erişmek için özel .onion üst düzey etki alanı kısaltması (.com, .net, .org, vb yerine) kullanılır ve erişim yalnız Tor ağı üzerinden yapılabilir.
+
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. 
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
+    <div class="card-body">
+        <h4 class="card-title">Icon of a green onion to identify .onion website</h4>
+    </div>
+</div>
+
+And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
+    <div class="card-body">
+        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+    </div>
+</div>
+
+

@@ -8,7 +8,7 @@ description:
 
 If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
 Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+Вы должны увидеть одну из этих распространенных ошибок (обратите внимание на следующие строки в журнале Tor):
 
 ###### Common log error #1: Proxy connection failure
 
@@ -30,7 +30,7 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
+Это может значить, что сеть, в которой вы работаете, находится под цензурой.
 Please try connecting with bridges, and that should fix the problem.
 
 ##### Common log error #3: Failed to complete TLS handshake
@@ -43,7 +43,7 @@ Please try connecting with bridges, and that should fix the problem.
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. 
-    Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+    Для работы Tor должен знать точное время. Пожалуйста, проверьте свои настройки времени, часового пояса и даты.
 
 If you see lines like this in your Tor log, it means your system clock is incorrect.
 Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 

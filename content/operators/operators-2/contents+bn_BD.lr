@@ -7,7 +7,7 @@ seo_slug: how-do-i-run-an-exit
 description:
 <a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark>টর রিলে গাইড</mark></mark> দেখুন ।
 
-* আমাদের প্রস্থান রিলে নির্দেশিকা পর্যালোচনা করুন
+* আমাদের <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">প্রস্থান রিলে নির্দেশিকা</a></mark> পর্যালোচনা করুন।
 * Run "apt-get install tor" (as root).
 * নিশ্চিত করুন যে আপনার ঘড়ি, তারিখ এবং সময়-নির্ধারিত আছে । এই ntp বা openntpd (বা অনুরূপ) প্যাকেজ ইনস্টল করুন.
 */etc/tor/torrc সম্পাদনা করুন নিচের দিকে:
@@ -40,7 +40,7 @@ description:
   আপনি যদি এই বার্তাটি দেখতে না পান, তার মানে হল যে আপনার রিলে বাইরে থেকে পাওয়া যাচ্ছে নয় ।
   আপনার torrc আপনি যে আইপি এবং পোর্ট উল্লেখ করেছেন তা সঠিক কিনা তা পরীক্ষা করে দেখতে আপনার ফায়ারওয়াল পুনরায় পরীক্ষা করা উচিত ।
 * যখন এটি নিশ্চিত হয় যে এটি পাওয়া যাচ্ছে, এটি একটি "সার্ভার বর্ণনাকারী "-কে নির্দেশিকা কর্তৃপক্ষের কাছে আপলোড করবে যা কোন ঠিকানা, পোর্ট, কী ইত্যাদি আপনার রিলে ব্যবহার করছে তা জানার জন্য ।
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  <mark>কয়েক ঘন্টা পর ( প্রচারিত করা জন্য যথেষ্ট সময় দিতে), আপনি <a href="https://metrics.torproject.org/rs.html#search">মেট্রিকগুলো</a> জিজ্ঞাসা করতে পারেন যে আপনার রিলে নেটওয়ার্কে সফলভাবে নিবন্ধিত আছে কিনা ।
   যদি তা না হয়, পুনরায় চেক ফায়ারওয়াল, আইপি এবং পোর্ট আবার.
 
-আপনি যদি কমাতে প্রস্থান নীতি পরিবর্তন করতে চান, তাহলে বিবেচনা করুন.
+আপনি <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">প্রস্থান নীতি</a></mark>-এ সুইচ করতে চান কিনা তা বিবেচনা করুন.

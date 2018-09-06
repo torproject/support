@@ -11,7 +11,7 @@ description:
 * Como root, adicione as seguintes linhas em /etc/apt/sources.list. Use a versão que você encontrou no passo anterior para <version>.
        $ deb http://deb.torproject.org/torproject.org <version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
-* Add the gpg key used to sign the packages by running the following commands:
+* Adicione a chave gpd usada para assinar os pacotes executando os seguintes comandos
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 Rode os seguintes comandos pra instalar o tor e checar suas assinaturas:
