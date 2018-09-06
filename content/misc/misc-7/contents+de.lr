@@ -1,9 +1,9 @@
 _model: question
 ---
-title: Does Tor Project offer email service or other privacy protecting web services?
+title: Bietet Tor Project Email oder andere meine Privatssphäre schützende Web-Dienste an?
 ---
-seo_slug: does-tor-project-offer-email-or-privacy-protecting-web-services
+seo_slug: bietet-tor-email-oder-datensparsame-dienste-an
 ---
 description:
-No, we don't provide any online services.
-A list of all of our software projects can be found on our <mark><a href="https://www.torproject.org/projects/projects.html.en">projects page</a></mark>.
+Nein, wir bieten keine Online-Dienste an.
+Eine List all unserer Software-Projekte gibt es auf unserer <mark><a href="https://www.torproject.org/projects/projects.html.en">Projektseite</a></mark>.

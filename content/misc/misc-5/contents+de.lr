@@ -2,11 +2,11 @@ _model: question
 ---
 title: Die Dateien auf meinem Computer sind gesperrt worden und jemand verangt den Tor Browser runterzuladen um für die Entsperrung zu bezahlen.
 ---
-seo_slug: someone-asks-to-download-tor-browser-to-unlock-my-files
+seo_slug: irgendwer-verlangt-tor-browser-herunter-zu-laden-um-meine-dateien-zu-entsperren
 ---
 description:
 Es tut uns leid, aber Sie wurden mit Schadsoftware infiziert.
-The Tor Project did not create this malware. The malware authors are asking you to download Tor Browser presumably to contact them anonymously with the ransom they're demanding from you.
-If this is your first introduction to Tor Browser, we understand that you might think we're bad people who enable even worse people.
-But please consider that our software is used every day for a wide variety of purposes by human rights activists, journalists, domestic violence survivors, whistleblowers, law enforcement officers, and many others. Unfortunately, the protection that our software can provide to these groups of people can also be abused by criminals and malware authors.
-The Tor Project does not support or condone the use of our software for malicious purposes.
+Tor Project hat diese Schadsoftware nicht erstellt. Die Entwickler*innen wollen vermutlich, dass du Tor Browser benutzt, um sie anonym wegen des Lösegelds zu kontaktieren, dass sie von dir verlangen
+Wenn Tor Browser bisher unbekannt war, verstehen wir Bedenken, dass wir schlechte Menschen sind, die noch schlimmeren Menschen helfen.
+Aber bitte bedenke, dass unsere Software täglich für viele Zwecke von Menschenrechtsaktivist*innen, Journalist*innen, Überlebenden häuslicher Gewalt, Whistleblower*innen, Gesetzeshüter*innen und vielen anderen verwendet wird. Unglücklicherweise kann der Schutz, den unsere Software diesen Menschen gewährt, auch von Kriminellen und Entwickler*innen von Schadsoftware genutzt werden.
+Tor Project weder unterstützt noch duldet die Nutzung unserer Software für bösartige Zwecke.
