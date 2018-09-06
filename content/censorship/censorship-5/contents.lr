@@ -23,7 +23,7 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
 
 ##### Common log error #2: Can’t reach guard relays
 
-    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
     11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit. 
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
@@ -46,7 +46,7 @@ Using bridges will likely fix this.
 
 ##### Common log error #4: Clock skew
 
-    19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+    19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. 
