@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Cómo puedo ejecutar un repetidor de salida en Debian?
 ---
-seo_slug: cómo-puedo-hacer-una-salida
+seo_slug: cómo-puedo-tener-una-salida
 ---
 description:
 Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guía de repetidores de Tor</a>.

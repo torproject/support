@@ -1,14 +1,14 @@
 _model: question
 ---
-title: Should I run an exit relay from home?
+title: Sollte ich einen Austritts-Knoten von zu Hause betreiben?
 ---
-seo_slug: run-exit-from-home
+seo_slug: austrittsknoten-von-zu-hause-betreiben
 ---
 description:
 Nein.
-If law enforcement becomes interested in traffic from your exit relay, it's possible that officers will seize your computer.
-For that reason, it's best not to run your exit relay in your home or using your home internet connection.
+Wenn Gesetzeshüter*innen interessiert sind an Verbindungen von einem Austrittsknoten, kann es passieren, dass der Computer beschlagnahmt wird.
+Aus diesem Grund ist es nicht zu empfehlen, einen Austritts-Knoten von zu Hause zu betreiben.
 
-Instead, consider running your exit relay in a commercial facility that is supportive of Tor.
-Have a separate IP address for your exit relay, and don't route your own traffic through it.
-Of course, you should avoid keeping any sensitive or personal information on the computer hosting your exit relay.
+Verwende für einen Ausgangs-Knoten stattdessen eine kommerzielle Einrichtung, die Tor unterstützt.
+Benutze eine eigene IP-Adresse für jeden Austrittsknoten and benutze ihn nicht für eigene Verbindungen.
+Selbstverständlich solltest du es vermeiden, sensitive persönliche Informationen auf dem Computer des Exit-Relays zu speichern.

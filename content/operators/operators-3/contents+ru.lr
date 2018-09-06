@@ -7,10 +7,10 @@ seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
 description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a>.
 
-* Run "pkg install tor" (as root).
+* Используйте команду "pkg install tor" (с рут-правами).
 * Make sure your clock, date, and timezone are set correctly.
   Enabling ntpd is suggested.
-* Edit /usr/local/etc/tor/torrc to look like the following:
+* Измените /usr/local/etc/tor/torrc, чтобы он выглядел следующим образом:
 
 
     ## Set the nickname of this relay

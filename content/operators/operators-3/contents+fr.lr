@@ -32,7 +32,7 @@ Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctemen
     #MyFamily $keyid,$keyid,…
 
     RunAsDaemon 1
-    Fichier journal des avis /var/log/tor/notices.log
+    Log notice file /var/log/tor/notices.log
 
 * Assurez vous que tor est lancé au démarrage en exécutant « sysrc tor_enable=YES » (en tant que superutilisateur)
 * Exécutez « service tor start » (en tant que superutilisateur)
