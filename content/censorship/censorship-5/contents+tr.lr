@@ -41,8 +41,8 @@ Lütfen köprüleri kullanarak bağlanmayı deneyin, sorunun çözülmesi gereki
     13-11-17 19:53:49.300 [Uyarı]  9 bağlantı el sıkışma aşamasında (TLS) SSLv2/v3 SSL durumu ile kesildi sunucu HANDSHAKE içinde sunucu merhaba A okundu 
     13-11-17 19:53:49.300 [Uyarı]  1 bağlantı SSL ile bağlanma durumunda öldü (SSL nesnesi bulunamadı)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Tor günlüğünde buna benzer satırlar görüyorsanız, Dizin otoriteleri ile bir TLS el sıkışması yapamıyorsunuz demektir.
+Köprüleri kullanmak bu sorunu çözebilir.
 
 ##### Genel günlük sorunu #4: Saat sapması
 

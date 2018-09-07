@@ -23,7 +23,7 @@ Si no se requiere un proxy SOCKS, o no estás seguro, por favor intenta conectar
 
 ##### Error de registro común #2: No se puede llegar a los repetidores de guardia
 
-    11/1/2017 21:11:43 PM.500 [NOTICE] oyente Opening Socks en 127.0.0.1:9150
+    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Conectando a la red Tor 
     11/1/2017 21:11:45 PM.300 [WARN] No se ha encontrado el nodo para el salto 0 de nuestra trayectoria. Descartando este circuito. 
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
@@ -41,7 +41,7 @@ Por favor, intenta conectarte a través de puentes, y eso debería solucionar el
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
+Si ves líneas como esta en tu registro de Tor, significa que Tor falló al completar un contacto TLS con las autoridades del directorio.
 Using bridges will likely fix this.
 
 <h5>Error de registro común #4: Reloj sesgado</h5>

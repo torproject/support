@@ -23,7 +23,7 @@ Si no se requiere un proxy SOCKS, o no estás seguro, por favor intenta conectar
 
 ##### Error de registro común #2: No se puede llegar a los repetidores de guardia
 
-    11/1/2017 21:11:43 PM.500 [NOTICE] oyente Opening Socks en 127.0.0.1:9150 
+    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Conectando a la red Tor 
     11/1/2017 21:11:45 PM.300 [WARN] No se ha encontrado el nodo para el salto 0 de nuestra trayectoria. Descartando este circuito. 
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
@@ -48,7 +48,7 @@ Si ves líneas como esta en tu registro de Tor, significa que Tor falló al comp
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Conectando al servidor de directorio. 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped al 10%: Finalizando handshake con el servidor de directorios 
-    19.11.2017 00:04:48.800 [WARN] Se ha recibido la celda  NETINFO con la hora distorsionada (OR:xxx.xx.x.xx:xxxx): Parece que nuestro reloj está atrasado 1 día, 0 horas, 1 minuto o que el tuyo está adelantado.. Tor necesita un reloj exacto para funcionar: por favor, comprueba tus ajustes de hora, zona horaria y fecha..
+    19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings. (19.11.2017 00:04:48.800 [WARN] Se ha recibido la celda NETINFO con la hora distorsionada (OR:xxx.xx.x.xx:xxxx): Parece que nuestro reloj está atrasado 1 día, 0 horas, 1 minuto o que el tuyo está adelantado.. Tor necesita un reloj exacto para funcionar: por favor, comprueba tus ajustes de hora, zona horaria y fecha..)
 
 Si ves líneas como esta en tu registro Tor, significa que el reloj de tu sistema es incorrecto.
 Por favor, asegúrate de que tu reloj está ajustado con precisión, incluyendo la zona horaria correcta. Luego reinicia Tor. 
