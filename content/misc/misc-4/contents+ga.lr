@@ -1,9 +1,9 @@
 _model: question
 ---
-title: An féidir liom Tor a úsáid in éindí le bittorrent?
+title: An féidir liom Tor a úsáid in éindí le BitTorrent?
 ---
 seo_slug: tor-bittorrent
 ---
 description:
-Ní mholaimid duit Tor a úsáid le bittorrent.
+Ní mholaimid duit Tor a úsáid le BitTorrent.
 Chun tuilleadh eolais a fháil, féach ar <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">​phostáil bhlag</a></mark> a bhaineann leis an ábhar seo.
