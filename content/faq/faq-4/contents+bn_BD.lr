@@ -4,5 +4,7 @@ title: কোন প্ল্যাটফরমটি টর ব্রাউজ�
 ---
 description:
 টর ব্রাউজার বর্তমানে <mark><a href="https://www.torproject.org/download/download-easy.html.en#windows">উইন্ডোজ</a></mark>, <mark><a href="https://www.torproject.org/download/download-easy.html.en#linux">লিনাক্স</a></mark> এবং <mark><a href="https://www.torproject.org/download/download-easy.html.en#mac">macOS (ওএস এক্স)</a></mark> এর জন্য পাওয়া যাচ্ছে ।
+
 <mark><a href="https://www.torproject.org/docs/android.html.en">অ্যান্ড্রয়েডের</a></mark> জন্য, <mark><a href="https://guardianproject.info/">গার্ডিয়ান প্রোজেক্ট</a></mark>টর চালিত   <mark><a href="https://guardianproject.info/apps/orbot/">অরবট</a></mark>  এবং <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>-এর রক্ষণাবেক্ষণ করে।
+
 এখনও পর্যন্ত  আইওএস-এর কোন অফিসিয়াল সংস্করণ নেই, যদিও আমরা <a href="https://onionbrowser.com/">অনিওন ব্রাউজারকে</a><mark> সুপারিশ করছি ।

@@ -4,5 +4,7 @@ title: Per què plataformes es troba disponible el Tor Browser?
 ---
 description:
 El Navegador Tor està actualment disponible a <mark><a href="https://www.torproject.org/download/download-easy.html.en#windows">Windows</a></mark>,<mark><a href="https://www.torproject.org/download/download-easy.html.en#linux"> Linux</a></mark> i <mark><a href="https://www.torproject.org/download/download-easy.html.en#mac">MacOS (OS X)</a></mark>.
+
 Per a <mark><a href="https://www.torproject.org/docs/android.html.en">Android</a></mark>,<mark><a href="https://guardianproject.info/"> The Guardian Project</a></mark> manté les aplicacions <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> i <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark> amb Tor.
+
 Encara no hi ha cap versió oficial de Tor per a iOS, tot i que recomanem el <mark><a href="https://onionbrowser.com/">navegador Onion</a></mark>.
