@@ -5,7 +5,7 @@ title: Com puc compartir fitxers de forma anònima a través de Tor?
 seo_slug: compartir-fitxers-anonimament-per-tor
 ---
 description:
-Molts nodes de sortida es configuren per bloquejar certs tipus de trànsit per compartir fitxers, com ara bittorrent.
-Bittorrent en concret <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">no és anònim sobre Tor</a></mark>.
+Molts nodes de sortida es configuren per bloquejar certs tipus de trànsit per compartir fitxers, com ara BitTorrent.
+BitTorrent en concret <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">no és anònim sobre Tor</a></mark>.
 
 Per compartir fitxers a través de Tor, <mark><a href="https://onionshare.org/">OnionShare</a></mark> és una bona opció.

@@ -5,7 +5,7 @@ title: কিভাবে আমি টর দ্বারা বেনামে
 seo_slug: share-files-anonymously-through-tor
 ---
 description:
-অনেক বহির্গমন নোড নির্দিষ্ট ধরনের ফাইল শেয়ারিং ট্রাফিক বন্ধ করতে কনফিগার করা হয়েছে, যেমন bittorrent.
-নির্দিষ্ট Bittorrent নয় ।
+অনেক বহির্গমন নোড নির্দিষ্ট ধরনের ফাইল শেয়ারিং ট্রাফিক বন্ধ করতে কনফিগার করা হয়েছে, যেমন BitTorrent.
+BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
 
 টর মাধ্যমে ফাইল ভাগ করার জন্য, <mark><a href="https://onionshare.org/">OnionShare</a></mark> একটি ভাল বিকল্প।
