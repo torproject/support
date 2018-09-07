@@ -15,23 +15,19 @@ Podeu actualitzar el Navegador Tor tan bon punt es publiqui una versió nova.
     </div>
   </div>
 </div>
+
 Podeu veure una indicació per escrit quan el Navegador Tor s'obri indicant-vos que hi ha una actualització disponible.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titol de la targeta</h4>
-      <p class="card-text">Text de la targeta</p>
-    </div>
   </div>
 </div>
+
 El navegador Tor instal·larà les actualitzacions.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titol de la targeta</h4>
-      <p class="card-text">Text de la targeta</p>
-    </div>
   </div>
 </div>

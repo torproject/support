@@ -15,23 +15,19 @@ description:
     </div>
   </div>
 </div>
+
 При запуске Tor Browser о доступном обновлении будет сказано прямым текстом.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
-    </div>
   </div>
 </div>
+
 Tor Browser установит обновления.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">Card text</p>
-    </div>
   </div>
 </div>

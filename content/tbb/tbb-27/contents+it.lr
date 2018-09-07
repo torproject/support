@@ -15,23 +15,19 @@ Potrai aggiornare Tor Browser non appena sarà rilasciata una nuova versione.
     </div>
   </div>
 </div>
+
 Potrai vedere un avviso scritto quando Tor Browser indicherà che è disponibile un aggiornamento.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert"> 
-    <div class="card-body">
-      <h4 class="card-title">Titolo della scheda</h4> 
-      <p class="card-text">Testo della scheda</p> 
-    </div>
   </div>
 </div>
+
 Tor browser installerà gli aggiornamenti.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titolo della scheda</h4> 
-      <p class="card-text">Testo della scheda</p> 
-    </div>
   </div>
 </div>

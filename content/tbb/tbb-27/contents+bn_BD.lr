@@ -15,23 +15,19 @@ description:
     </div>
   </div>
 </div>
+
 আপনি একটি লিংক নির্দেশ দেখতে পারেন যখন টর ব্রাউজার আপনাকে বলছে যে একটি আপডেট উপলব্ধ।
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">কার্ডের শিরোনাম</h4>
-      <p class="card-text">কার্ড পাঠ্য</p>
-    </div>
   </div>
 </div>
+
 টর ব্রাউজার হালনাগাদ সংস্থাপন করবে ।
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">কার্ডের শিরোনাম</h4>
-      <p class="card-text">কার্ড পাঠ্য</p>
-    </div>
   </div>
 </div>

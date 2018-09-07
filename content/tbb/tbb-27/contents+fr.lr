@@ -15,23 +15,19 @@ Vous pouvez mettre le Navigateur Tor à jour dès qu’une nouvelle version para
     </div>
   </div>
 </div>
+
 Lors du démarrage du Navigateur Tor, vous pourriez voir une indication écrite vous avisant qu’une mise à jour est proposée.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titre de la carte</h4>
-      <p class="card-text">Texte de la carte</p>
-    </div>
   </div>
 </div>
+
 Le Navigateur Tor installera les mises à jour.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titre de la carte</h4>
-      <p class="card-text">Texte de la carte</p>
-    </div>
   </div>
 </div>

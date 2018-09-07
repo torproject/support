@@ -19,19 +19,13 @@ Anois is arís feicfidh tú fógra nuair a thosaíonn Brabhsálaí Tor a deir go
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image5.png" alt="Leagan nua ar fáil">
-    <div class="card-body">
-      <h4 class="card-title">Teideal an chárta</h4>
-      <p class="card-text">Téacs an chárta</p>
-    </div>
   </div>
 </div>
+
 Suiteálfaidh Brabhsálaí Tor na nuashonruithe.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="Leagan nua ar fáil">
-    <div class="card-body">
-      <h4 class="card-title">Teideal an chárta</h4>
-      <p class="card-text">Téacs an chárta</p>
-    </div>
   </div>
 </div>

@@ -15,23 +15,19 @@ Você pode atualizar o Navegador Tor assim que uma nova versão for lançada.
     </div>
   </div>
 </div>
+
 Você pode ver uma indicação por escrito quando o Navegador Tor se abre informando que uma atualização está disponível.
+
 <div class="col-md-6">
   <div class="card">
     Novo alerta de lançamento
-    <div class="card-body">
-      <h4 class="card-title">Título do cartão</h4>
-      <p class="card-text">Título do cartão</p>
-    </div>
   </div>
 </div>
+
 O navegador TOR irá instalar as atualizações.
+
 <div class="col-md-6">
   <div class="card">
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Título do cartão</h4>
-      <p class="card-text">Título do cartão</p>
-    </div>
   </div>
 </div>

@@ -15,23 +15,19 @@ Anda dapat memperbarui Tor Browser segera setelah versi baru dirilis.
     </div> 
   </div> 
 </div> 
+
 Anda mungkin melihat notifikasi tertulis ketika Tor Browser terbuka yang memberitahu Anda bahwa update tersedia.
+
 <div class="col-md-6"> 
   <div class="card"> 
     <img class="card-img-top" src="/static/images/image5.png" alt="New release alert"> 
-    <div class="card-body"> 
-      <h4 class="card-title">Card title</h4> 
-      <p class="card-text">Card text</p> 
-    </div> 
   </div> 
 </div> 
+
 Tor browser akan menginstal pembaruan.
+
 <div class="col-md-6"> 
   <div class="card"> 
     <img class="card-img-top" src="/static/images/image3.png" alt="New release alert"> 
-    <div class="card-body"> 
-      <h4 class="card-title">Card title</h4> 
-      <p class="card-text">Card text</p> 
-    </div> 
   </div> 
 </div> 
