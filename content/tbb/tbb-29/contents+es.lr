@@ -19,9 +19,10 @@ El navegador Tor te advertirá de que todas las actividades y descargas serán d
 
 <div class="col-md-6">
     <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity" alt="Tor Browser Menu">
+        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
     <div class="card-body">
         <h4 class="card-title">Nueva Identidad</h4>
+    </div>
     </div>
 </div>
 
@@ -40,6 +41,7 @@ Esta opción no limpia ninguna información privada ni desvincula tu actividad, 
         <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
     <div class="card-body">
         <h4 class="card-title">Nuevo Circuito para este Sitio</h4>
+    </div>
     </div>
 </div>
 
