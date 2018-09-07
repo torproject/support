@@ -18,12 +18,13 @@ description:
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, এর মানে আপনি একটি মোজা প্রক্সির সাথে সংযোগ করতে ব্যর্থ হন । যদি আপনার নেটওয়ার্ক সেটআপের জন্য একটি মোজা প্রক্সি প্রয়োজন হয়, তবে অনুগ্রহ করে নিশ্চিত করুন যে আপনি আপনার প্রক্সি বিবরণ সঠিকভাবে প্রবেশ করিয়েছেন ।
+যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, এর মানে আপনি একটি মোজা প্রক্সির সাথে সংযোগ করতে ব্যর্থ হন ।
+যদি আপনার নেটওয়ার্ক সেটআপের জন্য একটি মোজা প্রক্সি প্রয়োজন হয়, তবে অনুগ্রহ করে নিশ্চিত করুন যে আপনি আপনার প্রক্সি বিবরণ সঠিকভাবে প্রবেশ করিয়েছেন ।
 যদি কোন সচক্স প্রক্সি প্রয়োজন হয় না, অথবা আপনি নিশ্চিত না হন, দয়া করে একটি সচক্স প্রক্সি ছাড়াই টর নেটওয়ার্কে সংযোগ করার চেষ্টা করুন ।
 
 ##### Common log error #2: Can’t reach guard relays
 
-    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
     11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit. 
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
@@ -41,14 +42,16 @@ If you see lines like these in your Tor log, it means your Tor failed to connect
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [সতর্ক] ১ টি সংযোগ SSL অবস্থা(য়)  সংযুক্ত হতে ব্যার্থ হয়েছে (কোন SSL অবজেক্ট নেই)
 
-যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, এর মানে হচ্ছে যে টর নির্দেশিকা কর্তৃপক্ষের সাথে একটি TLS হ্যান্ডশেক সম্পন্ন করতে ব্যর্থ হয়েছে । সেদিক ব্যবহার করলে সম্ভবত এটা ঠিক হবে ।
+If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
+সেদিক ব্যবহার করলে সম্ভবত এটা ঠিক হবে
 
 সাধারণ লগ-ইন ত্রুটি #4: ভুল সময়
 
-    19.11.2017 00:04:47.400 [বিজ্ঞপ্তি]  Opening Socks listener on 127.0.0.1:9150 
+    19.11.2017 00:04:47.400 [বিজ্ঞপ্তি]  Opening Socks listener on 127.0.0.1:9150
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
-    19.11.2017 00:04:48.800 [সাবধান] বেনামী সময় NETINFO সেল প্রাপ্ত (অথবা: xxx. xx. x. xx: দিন xxxx): মনে হচ্ছে আমাদের ঘড়িটি ১ দিন, ০ ঘন্টা, ১ মিনিট, অথবা তাদের সামনের দিকে । টর কাজ করার একটি সঠিক ঘড়ি প্রয়োজন: অনুগ্রহ করে আপনার সময়, অঞ্চল এবং তারিখ বিন্যাসন পরীক্ষা করুন ।
+    19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. 
+    টর কাজ করার জন্য একটি সঠিক ঘড়ি প্রয়োজন: আপনার সময়, টাইমজোন, এবং তারিখ সেটিংস চেক করুন।
 
 যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, তার মানে আপনার সিস্টেম ঘড়ি ভুল ।
 অনুগ্রহ করে নিশ্চিত করুন যে আপনার ঘড়িটি সঠিকভাবে নির্ধারণ করা আছে, যার মধ্যে রয়েছে সঠিক অঞ্চল । তারপর টর পুনরায় শুরু করুন । 

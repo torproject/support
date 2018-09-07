@@ -1,0 +1,29 @@
+_model: question
+---
+title: যখন আমি টর ব্যবহার করছি, তখন আমি যে তথ্য ওয়েবসাইটের সাথে শেয়ার করি, লগ-ইন তথ্য এবং কিছু আমি ফর্ম-এ টাইপ করি, আড়িপাতকরা এখনও সে তথ্য দেখতে পারে?
+---
+seo_slug: can-eavesdroppers-see-information-i-share
+---
+description:
+Tor prevents eavesdroppers from learning sites that you visit.
+তবে, সাধারণ HTTP ব্যবহার করে ইন্টারনেটের মাধ্যমে এনক্রিপ্ট করা তথ্য এখনও রিলে অপারেটর থেকে প্রস্থান করে আঁড়ি হতে পারে অথবা কেউ আপনার প্রস্থান রিলে এবং আপনার গন্তব্য ওয়েবসাইটের মধ্যে চলাচলের পর্যবেক্ষণ করে ।
+যদি আপনি যে সাইটটি দেখেন আপনি HTTPS ব্যবহার করেন, তাহলে আপনার প্রস্থান রিলে ছেড়ে আসা ট্রাফিক এনক্রিপ্ট হয়ে যাবে এবং eavesdroppers দেখতে হবে না.
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <img class="card-img-top" src="/static/images/image2.png" alt="https">
+      <div class="card-body">
+        <h4 class="card-title">আপনি যদি HTTPS ব্যবহার করেন, তাহলে আপনার ওয়েবসাইট ইউআরএল "https://" দ্বারা শুরু হবে.</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <img class="card-img-top" src="/static/images/image6.png" alt="https">
+      <div class="card-body">
+        <h4 class="card-title">এই রূপকল্পন প্রদর্শন করে যে eavesdroppers সাথে এবং টর ব্রাউজার এবং HTTPS এনক্রিপশন ছাড়া কি তথ্য দৃশ্যমান.</h4>
+      </div>
+    </div>
+  </div>
+</div>

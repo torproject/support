@@ -1,0 +1,22 @@
+_model: question
+---
+title: আমি কিভাবে টর ব্রাউজার আপডেট করব?
+---
+seo_slug: updating-tor-browser
+---
+description:
+একটি নতুন সংস্করণ মুক্তি হয় যত তাড়াতাড়ি আপনি টর ব্রাউজার আপডেট করতে পারেন।
+
+Tor Browser will prompt you to update the software once a new version has been released.
+
+The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
+আপনি একটি লিংক নির্দেশ দেখতে পারেন যখন টর ব্রাউজার আপনাকে বলছে যে একটি আপডেট উপলব্ধ।
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
+টর ব্রাউজার হালনাগাদ সংস্থাপন করবে ।
+
+<img class="" src="/static/images/image3.png" alt="New release alert">
