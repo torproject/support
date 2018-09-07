@@ -20,7 +20,7 @@ name = Български (Bəlgarski)
 url_prefix = /bg/
 locale = bg_BG
 
-[alternatives.bn_BD]
+[alternatives.bn]
 name = Bengali
 url_prefix = /bn/
 locale = bn_BD
@@ -29,16 +29,6 @@ locale = bn_BD
 name = català
 url_prefix = /ca/
 locale = ca_CA
-
-[alternatives.cs]
-name =  česky
-url_prefix = /cs/
-locale = cs_CS
-
-[alternatives.da]
-name = dansk
-url_prefix = /da/
-locale = da_DA
 
 [alternatives.de]
 name = Deutsch
@@ -55,11 +45,6 @@ name = español
 url_prefix = /es/
 locale = es_ES
 
-[alternatives.eo]
-name = Esperanto
-url_prefix = /eo/
-locale = eo_EO
-
 [alternatives.fa]
 name =  فارسی (Farsi)
 url_prefix = /fa/
@@ -74,21 +59,6 @@ locale = fr_FR
 name = Irish
 url_prefix = /ga/
 locale = ga
-
-[alternatives.gl]
-name = Galego
-url_prefix = /gl/
-locale = gl_GL
-
-[alternatives.hy]
-name = Հայերեն (hayeren)
-url_prefix = /hy/
-locale = hy_HY
-
-[alternatives.hr]
-name = hrvatski
-url_prefix = /hr/
-locale = hr_HR
 
 [alternatives.id]
 name = Indonesia
@@ -109,11 +79,6 @@ locale = he_HE
 name = 한국어 (Korean)
 url_prefix = /ko/
 locale = ko_KO
-
-[alternatives.lt]
-name = Lietuvių
-url_prefix = /lt/
-locale = lt_LT
 
 [alternatives.hu]
 name = Magyar
@@ -145,35 +110,10 @@ name = Português
 url_prefix = /pt/
 locale = pt_BR
 
-[alternatives.ro]
-name = română
-url_prefix = /ro/
-locale = ro_RO
-
 [alternatives.ru]
 name =  Русский (Russkij)
 url_prefix = /ru/
 locale = ru_RU
-
-[alternatives.sk]
-name = slovenčina
-url_prefix = /sk/
-locale = sk_SK
-
-[alternatives.fi]
-name = suomi
-url_prefix = /fi/
-locale = fi_FI
-
-[alternatives.sv]
-name = svenska
-url_prefix = /sv/
-locale = sv_SV
-
-[alternatives.ta]
-name = தமிழ் (Tamil)
-url_prefix = /ta/
-locale = ta_TA
 
 [alternatives.vi]
 name = Tiếng Việt
@@ -185,22 +125,15 @@ name = Türkçe
 url_prefix = /tr/
 locale = tr_TR
 
-[alternatives.uk]
-name = українська (ukrajins\'ka)
-url_prefix = /uk/
-locale = uk_UK
-
 [alternatives.zh_CN]
 name = 中文(简)
 url_prefix = /zh_CN/
 locale = zh_CN
 
-[alternatives.zh_HK]
-name = 中文(HK)
-url_prefix = /zh_HK/
-locale = zh_HK
-
 [alternatives.zh_TW]
 name = 中文(繁)
 url_prefix = /zh_TW/
 locale = zh_TW
+
+[packages]
+lektor-i18n = 0.2
