@@ -17,15 +17,7 @@ Dabei werden alle Tabs und Fenster geschlossen und private Informationen wie Coo
 
 Tor Browser warnt dich, dass alle Aktivitäten und Downloads gestoppt werden, bedenke dies bevor du auf "Neues Profil" klickst.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body">
-        <h4 class="card-title">New Identity</h4>
-    </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 ##### Neuer Kanal für diese Seite
 
@@ -36,12 +28,4 @@ Andere offene Tabs und Fenster mit der gleichen Seiten werden den neuen Kanal be
 
 Diese Option löscht private Informationen nicht und entkoppelt auch bisherige Aktivitäten nicht und hat keinen Effekt auf andere Webseiten.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body">
-        <h4 class="card-title">Neuen Kanal für diese Seite</h4>
-    </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">

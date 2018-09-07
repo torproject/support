@@ -17,15 +17,7 @@ Memilihnya akan menutup semua tab dan jendela yang terbuka, menghapus semua info
 
 Browser Tor akan memperingatkan Anda bahwa semua aktivitas dan unduhan akan dihentikan, jadi pertimbangkanlah ini sebelum mengklik "New Identity".
 
-<div class="col-md-6"> 
-    <div class="card"> 
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body"> 
-        <h4 class="card-title">New Identity</h4>
-    </div> 
-    </div> 
-</div> 
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 ##### Sirkuit Tor Baru untuk Situs ini
 
@@ -36,12 +28,4 @@ Tabs atau jendela lain yang sedang terbuka dari website yang sama akan menggunak
 
 Opsi ini tidak akan menghilangkan setiap infomasi pribadi atau tidak menghubungkan aktivitas anda, tidak juga berdampak pada koneksi anda saat ini pada website yang lain.
 
-<div class="col-md-6"> 
-    <div class="card"> 
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body"> 
-        <h4 class="card-title">New Circuit for this Site</h4>
-    </div> 
-    </div> 
-</div> 
-
+<img class="" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">

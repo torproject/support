@@ -17,15 +17,7 @@ Selezionare questa opzione chiuderà tutte le tue schede e le finestre, pulirà 
 
 Tor Browser ti avviserà che tutte le tue attività e i download saranno interrotti, tienilo quindi in considerazione prima di cliccare "Nuova Identità".
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body">
-        <h4 class="card-title">New Identity</h4>
-    </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 #### Nuovo Percorso di Tor per questo Sito
 
@@ -36,12 +28,4 @@ Le altre schede e finestre windows dello stesso sito internet utilizzeranno il n
 
 Questa opzione non cancella le tue informazioni personali né ti disconnette dalle tue attività, e non influisce sulle tue attuali connessioni verso altri siti internet.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body">
-        <h4 class="card-title">New Circuit for this Site</h4>
-    </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">

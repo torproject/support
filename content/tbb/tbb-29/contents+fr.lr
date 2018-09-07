@@ -17,15 +17,7 @@ Sélectionner cette option fermera tous vos onglets et fenêtres, effacera vos r
 
 Le Navigateur Tor vous avertira que tous activités et téléchargements seront arrêtés, prenez-le donc en compte avant de cliquer sur « Nouvelle Identité ».
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body">
-        <h4 class="card-title">New Identity</h4>
-    </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 ##### Nouveau circuit Tor pour ce site
 
@@ -36,12 +28,4 @@ Les autres onglets et fenêtres ouverts du même site Web utiliseront aussi les 
 
 Cette option n’efface aucun renseignement personnel ni ne dissocie votre activité, ni n’affectera vos connexions actuelles à d’autres sites Web.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body">
-        <h4 class="card-title">New Circuit for this Site</h4>
-    </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
