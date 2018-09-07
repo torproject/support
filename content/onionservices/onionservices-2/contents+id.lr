@@ -27,7 +27,7 @@ And if you're accessing a website with https and onion service, it will show an 
     <div class="card"> 
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
     <div class="card-body"> 
-        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
     </div> 
 </div> 
 
