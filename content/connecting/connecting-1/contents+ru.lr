@@ -7,4 +7,4 @@ seo_slug: tor-browser-wont-connect
 description:
 Одна из самых распространенных причин ошибки подключения Tor Browser — некорректно установленное системное время.
 Пожалуйста, убедитесь, что системное время и часовой пояс на вашем компьютере установлены правильно.
-If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.
+Если это не решит проблему, см. страницу "Поиск и устранение неисправностей" в <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">​руководстве пользователя Tor Browser</a></mark>.

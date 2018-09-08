@@ -6,5 +6,5 @@ seo_slug: setting-tor-browser-as-default
 ---
 description:
 Níl aon bhealach oifigiúil ann faoi láthair le Brabhsálaí Tor a úsáid mar bhrabhsálaí réamhshocraithe.
-The Tor Browser works hard to isolate itself from the rest of your system, and the steps for making it the default browser are unreliable.
+Déanann Brabhsálaí Tor a dhícheall a bheith neamhspleách ar an gcuid eile de do chóras, agus ní féidir leat muinín a chur sna céimeanna a dhéanann brabhsálaí réamhshocraithe de.
 This means sometimes a website would load in the Tor Browser, and sometimes it would load in another browser, this type of behavior can be dangerous and anonymity-breaking.

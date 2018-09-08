@@ -25,6 +25,11 @@ name = Bengali
 url_prefix = /bn/
 locale = bn_BD
 
+[alternatives.bn_BD]
+name = Bengali
+url_prefix = /bn_BD/
+locale = bn_BD
+
 [alternatives.ca]
 name = català
 url_prefix = /ca/
@@ -39,6 +44,12 @@ locale = de_DE
 name = Ελληνικά (Ellinika)
 url_prefix = /el/
 locale = el_EL
+
+[alternatives.en_US]
+name = English
+primary = yes
+url_prefix = /en_US/
+locale = en_US
 
 [alternatives.es]
 name = español

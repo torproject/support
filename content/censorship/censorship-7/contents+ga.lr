@@ -14,5 +14,5 @@ Tá treoracha ar fáil faoi <mark><a href="#operators-6">Conas a shocraítear dr
 
 Tá roinnt tíortha, an tSín agus an Iaráin san áireamh, in ann ceangail trí dhroichead Tor a aimsiú agus cosc a chur orthu.
 <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.
-Setting up an obfsproxy bridge requires an additional software package and additional configurations.
+Teastaíonn pacáiste agus cumraíocht bhreise uait chun droichead obfsproxy a shocrú.
 Gheobhaidh tú tuilleadh eolais ar an leathanach a bhaineann le <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">córais iompair ionphlugáilte</a></mark>.

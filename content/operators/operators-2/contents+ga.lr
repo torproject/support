@@ -34,7 +34,7 @@ Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionso
 
 
 * Rith "service tor reload" (mar root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* Tar éis don athsheachadán ceangal a bhunú leis an líonra, déanfaidh sé iarracht fáil amach an bhfuil na poirt a shocraigh tú insroichte ón taobh amuigh.
   This step is usually fast, but it may take a few minutes.
 
   Téigh ar lorg iontráil in /var/log/syslog ar nós "Self-testing indicates your ORPort is reachable from the outside. Excellent."
@@ -46,4 +46,4 @@ Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionso
 Tar éis cúpla uair an chloig (dóthain ama chun na sonraí a bhaineann le d'athsheachadán a scaipeadh), beidh tú in ann iarratas a chur chuig <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> le féachaint an bhfuil an t-athsheachadán cláraithe leis an líonra mar is ceart.
 Mura bhfuil, deimhnigh an seoladh IP, na poirt, agus aon bhallaí dóiteáin arís.
 
-Consider if you'd like to switch to the <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Reduced exit policy</a></mark>.
+B'fhéidir gur mhaith leat athrú go dtí <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">an polasaí éalaithe laghdaithe</a></mark>.

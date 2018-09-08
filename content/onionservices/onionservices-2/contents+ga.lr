@@ -11,10 +11,10 @@ Le seirbhísí Onion is féidir comhrá a dhéanamh agus comhaid a chomhroinnt g
 
 Baineann na seirbhísí seo úsáid as an bhfearann barrleibhéil speisialta .onion (in áit .com, .net, .org, srl.) agus is trí líonra Tor amháin gur féidir teacht orthu.
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
+Nuair a thugann tú cuairt ar shuíomh a úsáideann seirbhís onion, taispeánann Brabhsálaí Tor oinniún beag glas sa mbarra URL a léiríonn staid an cheangail: slán agus ag úsáid seirbhís onion.
 
 <img class="" src="/static/images/onion-website.png" alt="Onion icon">
 
-And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+Agus nuair a thugann tú cuairt ar shuíomh a úsáideann https agus seirbhís onion, taispeánann sé oinniún beag glas agus glas fraincín.
 
-<img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
+<img class="" src="/static/images/padlock-onion.png" alt="Oinniún glas le glas fraincín">

@@ -18,11 +18,11 @@ Is dócha go bhfeicfidh tú ceann de na hearráidí coitianta seo (cuardaigh na 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
+Má fheiceann tú línte den sórt seo i do logchomhad Tor, ciallaíonn sé gur theip ort ceangal a bhunú le seachfhreastalaí SOCKS.
+Má theastaíonn seachfhreastalaí SOCKS uait ar do líonra, deimhnigh gur chuir tú mionsonraí an fhreastalaí isteach go ceart.
 Mura dteastaíonn seachfhreastalaí SOCKS uait, nó mura bhfuil tú cinnte, déan iarracht ceangal a bhunú le líonra Tor gan seachfhreastalaí SOCKS.
 
-##### Common log error #2: Can’t reach guard relays
+##### Earráid choitianta #2 sa logchomhad: Ní féidir gardaí a bhaint amach
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
