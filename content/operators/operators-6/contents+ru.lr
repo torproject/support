@@ -30,7 +30,7 @@ description:
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-* Run "service tor reload" (as root).
+* Используйте команду "service tor reload" (с рут-правами).
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
 * Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."

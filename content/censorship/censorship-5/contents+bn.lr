@@ -42,7 +42,7 @@ If you see lines like these in your Tor log, it means your Tor failed to connect
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [সতর্ক] ১ টি সংযোগ SSL অবস্থা(য়)  সংযুক্ত হতে ব্যার্থ হয়েছে (কোন SSL অবজেক্ট নেই)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
+যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, এর মানে হচ্ছে যে টর নির্দেশিকা কর্তৃপক্ষের সাথে একটি TLS হ্যান্ডশেক সম্পন্ন করতে ব্যর্থ হয়েছে ।
 সেদিক ব্যবহার করলে সম্ভবত এটা ঠিক হবে
 
 সাধারণ লগ-ইন ত্রুটি #4: ভুল সময়

@@ -6,4 +6,4 @@ seo_slug: 追踪-tor-用户
 ---
 description:
 There is nothing the Tor developers can do to trace Tor users.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.
+tor避免具有恶意的人去窥视您的隐私，这个功能对我们也起到同样的效果。

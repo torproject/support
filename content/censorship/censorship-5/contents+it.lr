@@ -18,7 +18,8 @@ Dovresti visualizzare uno dei seguenti errori di registro comuni (cerca una dell
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
 
-Se vedi delle righe simili a queste nel tuo log di Tor, significa che non riesci a conetterti al SOCKS proxy. Se le impostazioni del tuo network prevedono l'utilizzo di un SOCKS proxy, assicurati per favore che tu abbia inserito in modo corretto i dettagli del proxy.
+Se vedi delle righe simili a queste nel tuo log di Tor, significa che non riesci a conetterti al SOCKS proxy.
+Se le impostazioni del tuo network prevedono l'utilizzo di un SOCKS proxy, assicurati per favore che tu abbia inserito in modo corretto i dettagli del proxy.
 Se non è richiesto un SOCKS proxy, o non ne sei sicuro, prova per favore a connetterti al network Tor senza utilizzare un SOCKS proxy.
 
 ##### Errore di registro comune #2: Impossibile raggiungere i guard relay
@@ -41,8 +42,8 @@ Per favore prova a conetterti tramite i ponti, questo dovrebbe risolvere il prob
     13-11-17 19:53:49.300 [WARN] 9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connessione interrotta in connessione con stato SSL (nessun oggetto SSL)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Se vedi righe come questa nel tuo log di Tor, significa che Tor ha fallito un handshake TLS con l'elenco autorità.
+L'uso di bridge potrebbe risolvere il problema.
 
 ##### Errore di log comune #4: orologio disallineato
 

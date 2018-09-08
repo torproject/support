@@ -7,7 +7,7 @@ seo_slug: quest-ce-quun-point-onion
 description:
 Les services oignons permettent aux gens de naviguer, mais aussi de publier dans l’anonymat, y compris la publication de sites Web anonymes.
 
-Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with <mark><a href="https://securedrop.org/">SecureDrop</a></mark> or <mark><a href="https://onionshare.org/">OnionShare</a></mark>, safer software updates, and more secure ways to reach popular websites like <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
+Les services oignons sont aussi utilisés pour permettre la messagerie et le partage de fichiers sans métadonnées, des interactions plus sûres entre des journalistes et leurs sources avec <mark><a href="https://securedrop.org/">SecureDrop</a></mark> ou <mark><a href="https://onionshare.org/">OnionShare</a></mark>, des mises à jour logicielles plus sûres, et des manières plus sécuritaires d’atteindre des sites populaires comme <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
 
 Ces services utilisent le domaine de premier niveau à usage spécial .onion (au lieu de .com, .net, .org, etc…) et ne sont accessibles que par le réseau Tor.
 

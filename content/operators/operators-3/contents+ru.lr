@@ -35,7 +35,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     Log notice file /var/log/tor/notices.log
 
 * Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
-* Run "service tor start" (as root)
+* Используйте команду "service tor start" (с рут-правами).
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
   Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."

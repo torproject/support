@@ -16,4 +16,4 @@ Tor kullanıcılarını engellediğinizde, baskıcı ülkelerden İnterneti özg
 Lütfen sayısal kişisel gizliliği ve İnternet özgürlüğünü desteklediğinizi göstermek için Tor kullanıcılarının xyz.com sitesine erişmesine izin verin. Teşekkürler."
 
 Bankalar gibi hassas web sitelerinde genellikle coğrafi konuma göre engelleme yapılır (bir banka kendi hizmetlerine belirli bir ülkeden erişilmesini istiyorsa, siz dünyanın başka bir yerindeki bir aktarıcı üzerinden geldiğinizde hesabınız engellenebilir).
-Bir onion hizmeti ile bağlantı kuramıyorsanız <a href="#onionservices-3">X.onion üzerine ulaşamıyorum</a> bölümüne bakabilirsiniz.
+Bir onion hizmeti ile bağlantı kuramıyorsanız <a href="/#onionservices-3">X.onion üzerine ulaşamıyorum</a> bölümüne bakabilirsiniz.

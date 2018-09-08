@@ -18,7 +18,8 @@ Ardından Tor günlüğünü bir metin ya da başka bir dosyaya yapıştırın.
     2017-10-29 09:24:08.900 [UYARI] Vekil Sunucu İstemcisi: xx..xxx..xxx.xx:xxxxx ile bağlantı kurulamadı ("genel SOCKS sunucusu sorunu") 
     2017-10-29 09:24:08.900 [UYARI] Vekil Sunucu İstemcisi: xx..xxx..xxx.xx:xxxxx ile bağlantı kurulamadı ("genel SOCKS sunucusu sorunu")
 
-Tor günlüğünde buna benzer satırlar görüyorsanız, bir SOCKS vekil sunucusu ile bağlantı kurma sorunları yaşıyorsunuz demektir. Ağ kurulumunuz için bir SOCK vekil sunucusu kullanılması gerekliyse vekil sunucu bilgilerini doğru ayarladığınızdan emin olun.
+Tor günlüğünde buna benzer satırlar görüyorsanız, bir SOCKS vekil sunucusu ile bağlantı kurma sorunları yaşıyorsunuz demektir.
+Ağ kurulumunuz için bir SOCK vekil sunucusu kullanılması gerekliyse vekil sunucu bilgilerini doğru ayarladığınızdan emin olun.
 Bir SOCKS vekil sunucusu kullanılması gerekmiyorsa ya da emin değilseniz lütfen Tor ağına SOCKS vekil sunucusu kullanmadan bağlanmayı deneyin.
 
 ##### Genel günlük sorunu #2: Koruma aktarıcılarına erişilemedi.

@@ -7,4 +7,4 @@ seo_slug: tor-browser-will-not-connect-no-censorship
 description:
 One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
 Please make sure your system clock and timezone are set accurately.
-If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.
+如果这个问题还没有被解决，请查看位于<mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor浏览器手册</a></mark>的故障排查界面。

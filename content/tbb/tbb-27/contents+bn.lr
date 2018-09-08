@@ -7,9 +7,9 @@ seo_slug: updating-tor-browser
 description:
 একটি নতুন সংস্করণ মুক্তি হয় যত তাড়াতাড়ি আপনি টর ব্রাউজার আপডেট করতে পারেন।
 
-Tor Browser will prompt you to update the software once a new version has been released.
+একটি নতুন সংস্করণ প্রকাশ করা হয়েছে একবার টর ব্রাউজার আপনাকে সফ্টওয়্যার আপডেট করতে অনুরোধ করবে।
 
-The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+Torbutton আইকন (ব্রাউজারের উপরের বাঁ কোণে ছোট সবুজ পেঁয়াজ) একটি হলুদ ত্রিভুজ প্রদর্শন করবে ।
 
 <img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 

@@ -33,14 +33,15 @@ Per obtenir un recurs més complet en l'execució d'un repetidor, consulteu la <
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
+
 * Executa "service tor reload" (com root)
 * Després que el repetidor es connecti a la xarxa, intentarà determinar si els ports que heu configurat es poden accedir des de l'exterior.
-   Aquest pas sol ser ràpid, però pot trigar uns quants minuts.
+Aquest pas sol ser ràpid, però pot trigar uns quants minuts.
 
 Busqueu una entrada de registre a /var/log/syslog com "Self-testing indicates your ORPort is reachable from the outside. Excellent."
 Si no veu aquest missatge, vol dir que el repetidor no es pot accedir des de l'exterior.
 Heu de tornar a comprovar els tallafocs, comproveu que la IP i els ports que heu especificat al torrc són correctes, etc.
 
 Quan es confirmi que és accessible, carregarà un "descriptor de servidor" a les autoritats del directori perquè els clients sàpiguen quina adreça, ports, claus, etc., utilitza el vostre repetidor.
-Després d'unes hores (per donar-li prou temps de propagació), podeu consultar a Atlas per veure si el vostre repetidor s'ha registrat correctament a la xarxa.
+Després d'unes hores (per donar-li prou temps de propagació), podeu consultar <mark><a href="https://metrics.torproject.org/rs.html#search">mètriques</a></mark> per veure si el vostre repetidor s'ha registrat correctament a la xarxa.
 Si no ho ha fet, torni a comprovar els tallafocs, IP i ports.

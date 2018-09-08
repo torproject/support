@@ -18,7 +18,8 @@ Anda seharusnya melihat salah satu kesalahan log umum ini (cari baris berikut di
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")  
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-Jika Anda melihat baris seperti ini, Tor gagal tersambung ke SOCKS proxy. Jika proxy SOCKS diperlukan di pengaturan jaringan Anda, silakan pastikan Anda telah memasukkan detail proxy dengan akurat.
+Jika Anda melihat baris seperti ini, Tor gagal tersambung ke SOCKS proxy.
+Jika proxy SOCKS diperlukan di pengaturan jaringan Anda, silakan pastikan Anda telah memasukkan detail proxy dengan akurat.
 Jika proxy SOCKS tidak diperlukan, atau Anda tidak yakin bahwa proxy SOCKS diperlukan, silakan coba tanpa proxy SOCKS
 
 ##### Common log error #2: Can’t reach guard relays 

@@ -8,7 +8,7 @@ description:
 Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionsonraí go léir sa <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Lámhleabhar Athsheachadán Tor</a>.
 
 * Rith "pkg install tor" (mar root).
-* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart.
+* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart ar do ríomhaire.
   Molaimid duit ntp a chumasú.
 * Cuir /usr/local/etc/tor/torrc in eagar mar seo a leanas:
 
@@ -42,5 +42,5 @@ Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionso
   If you don't see this message, it means that your relay is not reachable from the outside.
   Ba chóir duit deimhniú gur shonraigh tú an seoladh IP, na poirt, agus na sonraí maidir le ballaí dóiteáin sa gcomhad torrc go ceart.
 * When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Tar éis cúpla uair an chloig (dóthain ama chun na sonraí a bhaineann le d'athsheachadán a scaipeadh), beidh tú in ann iarratas a chur chuig <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> le féachaint an bhfuil an t-athsheachadán cláraithe leis an líonra mar is ceart.
   Mura bhfuil, deimhnigh an seoladh IP, na poirt, agus aon bhallaí dóiteáin arís.

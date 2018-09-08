@@ -5,5 +5,5 @@ title: 我们将tor和比特流结合起来使用吗？
 seo_slug: tor-bittorrent
 ---
 description:
-We do not recommend using Tor with bittorrent.
-For further details, please see our <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">blog post on the subject</a></mark>.
+我们将tor和比特流结合起来使用吗？
+更多信息请查阅我们的<mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">有关这个项目的博文</a></mark>。

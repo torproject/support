@@ -36,11 +36,14 @@ Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="h
 * Führe "service tor reload" als root aus.
 * Nachdem sich dein Relay mit dem Tor-Netzwerk verbunden hat, versucht es festzustellen, welche Ports der konfigurierten Ports von außen erreichbar sind.
   Normalerweise ist dieser Schritt ziemlich schnell, es könnte jedoch einige Minuten in Anspruch nehmen.
+
   Suche nach Log-Einträgen in /var/log/syslog wie "Self-testing indicates your ORPort is reachable from the outside. Excellent." (Dein ORPort scheint von außerhalb erreichbar zu sein. Exzellent.)
   Wenn du diese Nachricht nicht siehst, bedeutet das, dass das Relay nicht von außen erreichbar ist.
   Überprüfe deine Firewalls und dass die in deiner torrc eingestellten IP-Adresse und Ports korrekt sind, etc.
+
 * Wenn es die Erreichbarkeit überprüft hat, überträgt es einen "Server-Deskriptor" zu den Verzeichnis-Autoritäten, um Nutzer*innen über die Adresse, Ports, Schlüssel, etc. deines Relays zu informieren.
-  Nach einigen Stunden (wenn es genügend Zeit hatte, sich zu verbreiten), kannst du auf der <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics-Webseite</a></mark> nachsehen, ob sich dein Relay erfolgreich im Netzwerk registriert hat.
-  Wenn nicht, überprüfe Firewalls, IP-Adresse und Ports noch ein Mal.
+
+Nach einigen Stunden (wenn es genügend Zeit hatte, sich zu verbreiten), kannst du auf der <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics-Webseite</a></mark> nachsehen, ob sich dein Relay erfolgreich im Netzwerk registriert hat.
+Wenn nicht, überprüfe Firewalls, IP-Adresse und Ports noch ein Mal.
 
 Möglicherweise solltest du die <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Reduzierte Exit-Regel</a></mark> benutzen.

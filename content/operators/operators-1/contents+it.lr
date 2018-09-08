@@ -33,14 +33,15 @@ Modifica /etc/tor/torrc in modo che assomigli a quanto sotto:
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
+
 * Esegui "service tor reload" (come root)
 * Dopo che il tuo relay si sarà connesso al network, proverà a verificare se le porte che hai configurato sono raggiungibili dall'esterno.
-   Questo passaggio normalmente è rapido, ma può impiegare qualche minuto.
+Questo passaggio normalmente è rapido, ma può impiegare qualche minuto.
 
 Cerca una voce nel log /var/log/syslog simile a "Self-testing indicates your ORPort is reachable from the outside. Excellent."
 Se non vedi questo messaggio, significa che il tuo relay non è raggiungibile dall'esterno.
 Devi ricontrollare il tuo firewall, controllare che l'IP e le porte che hai indicato nel tuo torrc siano corrette, ecc.
 
 Quando viene confermato che è raggiungibile, caricherà un "server descriptor" nella directory authorities per fare conoscere ai client quali indirizzi, porte, chiavi, ecc sta utilizzando il tuo relay.
-Dopo un po' di ore (per dare tempo a sufficienza per propagarsi), potrai consultare l'Atlas per vedere se il tuo relay è stato registrato con successo nel network.
+Dopo alcune ore (per dare sufficiente tempo per la propagazione), potrai consultare <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> per vedere se il tuo relay è stato registrato con successo nella rete.
 Se non lo è, ri-controlla nuovamente il firewall, l'IP e le porte.

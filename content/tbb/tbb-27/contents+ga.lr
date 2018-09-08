@@ -6,15 +6,12 @@ seo_slug: updating-tor-browser
 ---
 description:
 Is féidir leat Brabhsálaí Tor a nuashonrú chomh luath agus go bhfuil leagan nua ar fáil.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="Leagan nua ar fáil">
-    <div class="card-body">
-      <h4 class="card-title">Tor Browser will prompt you to update the software once a new version has been released.</h4>
-      <p class="card-text">Taispeánfaidh deilbhín an chnaipe Tor (an t-oinniún beag glas sa chúinne ag barr ar chlé den bhrabhsálaí) triantán buí.</p>
-    </div>
-  </div>
-</div>
+
+Tor Browser will prompt you to update the software once a new version has been released.
+
+Taispeánfaidh deilbhín an chnaipe Tor (an t-oinniún beag glas sa chúinne ag barr ar chlé den bhrabhsálaí) triantán buí.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 
 Anois is arís feicfidh tú fógra nuair a thosaíonn Brabhsálaí Tor a deir go bhfuil nuashonrú ar fáil.
 

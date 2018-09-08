@@ -18,7 +18,8 @@ Heu de veure un d'aquests errors de registre comuns (busqueu les següents líni
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-Si veieu línies com aquestes al vostre registre de Tor, significa que no esteu connectant a un proxy SOCKS. Si es requereix un proxy SOCKS per a la configuració de la xarxa, assegureu-vos que heu introduït correctament els vostres detalls del proxy.
+Si veieu línies com aquestes al vostre registre de Tor, significa que no esteu connectant a un proxy SOCKS.
+Si es requereix un proxy SOCKS per a la configuració de la xarxa, assegureu-vos que heu introduït correctament els vostres detalls del proxy.
 Si no es requereix un proxy SOCKS, o no esteu segur, intenteu connectar-vos a la xarxa Tor sense un proxy SOCKS.
 
 ##### Common log error #2: Can’t reach guard relays

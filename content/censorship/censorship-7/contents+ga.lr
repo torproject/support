@@ -12,7 +12,7 @@ Bridges are useful for Tor users under oppressive regimes, and for people who wa
 Is éard atá i ndroichead ná athsheachadán a bhfuil cumraíocht rud beag difriúil air.
 Tá treoracha ar fáil faoi <mark><a href="#operators-6">Conas a shocraítear droichead</a></mark>
 
-Tá roinnt tíortha (An tSín agus An Iaráin san áireamh) in ann ceangail trí dhroichead Tor a aimsiú agus cosc a chur orthu.
+Tá roinnt tíortha, an tSín agus an Iaráin san áireamh, in ann ceangail trí dhroichead Tor a aimsiú agus cosc a chur orthu.
 <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.
 Setting up an obfsproxy bridge requires an additional software package and additional configurations.
 Gheobhaidh tú tuilleadh eolais ar an leathanach a bhaineann le <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">córais iompair ionphlugáilte</a></mark>.

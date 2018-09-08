@@ -5,11 +5,11 @@ title: Conas a shocraítear athsheachadán amach ar chóras Debian?
 seo_slug: how-do-i-run-an-exit
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionsonraí go léir sa <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Lámhleabhar Athsheachadán Tor</a>.
 
 * Déan athbhreithniú ar <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">na treoirlínte a bhaineann le hathsheachadáin amach</a></mark>
 * Rith "apt-get install tor" (mar root).
-* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart. Suiteáil ntp nó openntpd (nó pacáiste eile den sórt seo) chun an t-am cheart a choinneáil.
+* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart ar do ríomhaire. Suiteáil ntp nó openntpd (nó pacáiste eile den sórt seo) chun an t-am cheart a choinneáil.
 * Cuir /etc/tor/torrc in eagar mar seo a leanas:
 
 
@@ -23,7 +23,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     DirPort 9030
 
     ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
-    #Seoladh ganainm.example.com
+    #Address noname.example.com
 
     ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
     #RelayBandwidthRate 30 MBytes
@@ -36,11 +36,14 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 * Rith "service tor reload" (mar root)
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
+
   Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
   Ba chóir duit deimhniú gur shonraigh tú an seoladh IP, na poirt, agus na sonraí maidir le ballaí dóiteáin sa gcomhad torrc go ceart.
+
 * When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-  Mura bhfuil, deimhnigh an seoladh IP, na poirt, agus aon bhallaí dóiteáin arís.
+
+Tar éis cúpla uair an chloig (dóthain ama chun na sonraí a bhaineann le d'athsheachadán a scaipeadh), beidh tú in ann iarratas a chur chuig <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> le féachaint an bhfuil an t-athsheachadán cláraithe leis an líonra mar is ceart.
+Mura bhfuil, deimhnigh an seoladh IP, na poirt, agus aon bhallaí dóiteáin arís.
 
 Consider if you'd like to switch to the <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Reduced exit policy</a></mark>.

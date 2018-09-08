@@ -6,28 +6,17 @@ seo_slug: updating-tor-browser
 ---
 description:
 Вы можете обновить Tor Browser сразу после выхода новой версии.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Tor Browser предложит вам обновить программу при выходе новой версии.</h4>
-      <p class="card-text">Рядом со значком Torbutton (маленькая зеленая луковица в верхнем левом углу окна браузера) появится желтый треугольник.</p>
-    </div>
-  </div>
-</div>
+
+Tor Browser предложит вам обновить программу при выходе новой версии.
+
+Рядом со значком Torbutton (маленькая зеленая луковица в верхнем левом углу окна браузера) появится желтый треугольник.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 
 При запуске Tor Browser о доступном обновлении будет сказано прямым текстом.
 
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-  </div>
-</div>
+<img class="" src="/static/images/image5.png" alt="New release alert">
 
 Tor Browser установит обновления.
 
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-  </div>
-</div>
+<img class="" src="/static/images/image3.png" alt="New release alert">

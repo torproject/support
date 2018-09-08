@@ -18,7 +18,8 @@ Deberías ver uno de estos errores de registro comunes (busca las siguientes lí
     2017-10-29 09:24:08.900 [WARN] Proxy Client: incapaz de conectar a  xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-Si ves líneas como estas en tu registro Tor, significa que no se está conectando a un proxy SOCKS. Si se requiere un proxy SOCKS para la configuración de la red, asegúrate de que has introducido los datos del proxy correctamente.
+Si ves líneas como estas en tu registro Tor, significa que no te estás conectando a un proxy SOCKS.
+Si se requiere un proxy SOCKS para la configuración de la red, asegúrate de que has introducido los datos del proxy correctamente.
 Si no se requiere un proxy SOCKS, o no estás seguro, por favor intenta conectarte a la red Tor sin un proxy SOCKS.
 
 ##### Error de registro común #2: No se puede llegar a los repetidores de guardia
@@ -42,7 +43,7 @@ Por favor, intenta conectarte a través de puentes, y eso debería solucionar el
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
 Si ves líneas como esta en tu registro de Tor, significa que Tor falló al completar un contacto TLS con las autoridades del directorio.
-Using bridges will likely fix this.
+El uso de puentes probablemente solucionará esto.
 
 <h5>Error de registro común #4: Reloj sesgado</h5>
 

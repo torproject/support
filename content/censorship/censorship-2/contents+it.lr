@@ -16,4 +16,4 @@ Bloccando gli utenti di Tor, stai probabilmente bloccando persone che si trovano
 Per favore prendi una posizione forte a favore della privacy digitale e della libertà su internet e permetti agli utenti Tor di accedere a xyz.com. Grazie".
 
 Nel caso di banche o di altri siti internet sensibili, è inoltre comune vedere blocchi basati sulla località (se una banca sa che normalmente ti connetti ai loro servizi da un Paese, e improvvisamente ti stai connettendo da un exit relay dall'altra parte del mondo, il tuo account potrebbe essere bloccato o sospeso).
-Se non riesci a connetterti ad un servizio onion, per favore consulta <a href="#onionservices-3">Non riesco a raggiungere X.onion!</a>
+Se non riesci a connetterti ad un servizio onion, per favore consulta <a href="/#onionservices-3">Non riesco a raggiungere X.onion!</a>

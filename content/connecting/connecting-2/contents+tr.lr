@@ -12,43 +12,46 @@ Ardından Tor günlüğünü bir metin ya da başka bir dosyaya yapıştırın.
 
 ###### Genel günlük sorunu #1: Vekil sunucu bağlantı sorunu
 
-    2017-10-29 09:23:40.800 [BİLDİRİM] 127.0.0.1:9150 üzerinde SOCKS dinleyici açılıyor 
-    2017-10-29 09:23:47.900 [BİLDİRİM] %5 tamamlandı: Dizin sunucusu ile bağlantı kuruluyor 
-    2017-10-29 09:23:47.900 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el sıkışma tamamlanıyor 
-    2017-10-29 09:24:08.900 [UYARI] Vekil Sunucu İstemcisi: xx..xxx..xxx.xx:xxxxx ile bağlantı kurulamadı ("genel SOCKS sunucusu sorunu") 
+    2017-10-29 09:23:40.800 [BİLDİRİM] 127.0.0.1:9150 üzerinde SOCKS dinleyici açılıyor
+    2017-10-29 09:23:47.900 [BİLDİRİM] %5 tamamlandı: Dizin sunucusu ile bağlantı kuruluyor
+    2017-10-29 09:23:47.900 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el sıkışma tamamlanıyor
     2017-10-29 09:24:08.900 [UYARI] Vekil Sunucu İstemcisi: xx..xxx..xxx.xx:xxxxx ile bağlantı kurulamadı ("genel SOCKS sunucusu sorunu")
 
-Tor günlüğünde buna benzer satırlar görüyorsanız, bir SOCKS vekil sunucusu ile bağlantı kurma sorunları yaşıyorsunuz demektir. Ağ kurulumunuz için bir SOCK vekil sunucusu kullanılması gerekliyse vekil sunucu bilgilerini doğru ayarladığınızdan emin olun.
+Tor günlüğünde buna benzer satırlar görüyorsanız, bir SOCKS vekil sunucusu ile bağlantı kurma sorunları yaşıyorsunuz demektir.
+
+Ağ kurulumunuz için bir SOCK vekil sunucusu kullanılması gerekliyse vekil sunucu bilgilerini doğru ayarladığınızdan emin olun.
 Bir SOCKS vekil sunucusu kullanılması gerekmiyorsa ya da emin değilseniz lütfen Tor ağına SOCKS vekil sunucusu kullanmadan bağlanmayı deneyin.
 
 ##### Genel günlük sorunu #2: Koruma aktarıcılarına erişilemedi.
 
-    11/1/2017 21:11:43 PM.500 [BİLDİRİM] 127.0.0.1:9150 üzerinde SOCKS dinleyici açılıyor 
-    11/1/2017 21:11:44 PM.300 [BİLDİRİM] %80 tamamlandı: Tor ağına bağlanılıyor 
-    11/1/2017 21:11:44 PM.300 [UYARI] 0. sıçramanın düğümü bizim yolumuzda bulunamadı. Bu devreden vazgeçiliyor. 
-    11/1/2017 21:11:44 PM.500 [BİLDİRİM] %85 tamamlandı: İlk sıçrama ile el sıkışması tamamlanıyor 
+    11/1/2017 21:11:43 PM.500 [BİLDİRİM] 127.0.0.1:9150 üzerinde SOCKS dinleyici açılıyor
+    11/1/2017 21:11:44 PM.300 [BİLDİRİM] %80 tamamlandı: Tor ağına bağlanılıyor
+    11/1/2017 21:11:44 PM.300 [UYARI] 0. sıçramanın düğümü bizim yolumuzda bulunamadı. Bu devreden vazgeçiliyor.
+    11/1/2017 21:11:44 PM.500 [BİLDİRİM] %85 tamamlandı: İlk sıçrama ile el sıkışması tamamlanıyor
     11/1/2017 21:11:45 PM.300 [UYARI] 0. sıçramanın düğümü bizim yolumuzda bulunamadı. Bu devreden vazgeçiliyor.
 
 Tor günlüğünde buna benzer satırlar görüyorsanız, Tor devresindeki ilk düğüm ile bağlantı kuramıyorsunuz demektir.
 Bu durum sansürlenmiş bir ağda bulunduğunuz anlamına gelebilir.
+
 Lütfen köprüleri kullanarak bağlanmayı deneyin, sorunun çözülmesi gerekir.
 
 ##### Genel günlük sorunu #3: TLS el sıkışması tamamlanamadı
 
-    13-11-17 19:52:24.300 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el sıkışma tamamlanıyor 
-    13-11-17 19:53:49.300 [UYARI] Bağlantı kurulurken sorun çıktı. %10 düzeyinde takıldı: Dizin sunucusu ile el sıkışa tamamlanıyor. (TAMAM; TAMAM; sayı 10; öneri uyarı; sunucu [host] IP adresi xxx.xxx.xxx.xx:xxx) 
-    13-11-17 19:53:49.300 [UYARI] 10 bağlantı kurulamadı: 
-    13-11-17 19:53:49.300 [Uyarı]  9 bağlantı el sıkışma aşamasında (TLS) SSLv2/v3 SSL durumu ile kesildi sunucu HANDSHAKE içinde sunucu merhaba A okundu 
+    13-11-17 19:52:24.300 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el sıkışma tamamlanıyor
+    13-11-17 19:53:49.300 [UYARI] Bağlantı kurulurken sorun çıktı. %10 düzeyinde takıldı: Dizin sunucusu ile el sıkışa tamamlanıyor. (TAMAM; TAMAM; sayı 10; öneri uyarı; sunucu [host] IP adresi xxx.xxx.xxx.xx:xxx)
+    13-11-17 19:53:49.300 [UYARI] 10 bağlantı kurulamadı:
+    13-11-17 19:53:49.300 [Uyarı]  9 bağlantı el sıkışma aşamasında (TLS) SSLv2/v3 SSL durumu ile kesildi sunucu HANDSHAKE içinde sunucu merhaba A okundu
     13-11-17 19:53:49.300 [Uyarı]  1 bağlantı SSL ile bağlanma durumunda öldü (SSL nesnesi bulunamadı)
 
-Tor günlüğünde buna benzer satırlar görüyorsanız, Dizin otoriteleri ile bir TLS el sıkışması yapamıyorsunuz demektir. Köprüleri kullanmak bu sorunu çözebilir.
+Tor günlüğünde buna benzer satırlar görüyorsanız, Dizin otoriteleri ile bir TLS el sıkışması yapamıyorsunuz demektir.
+Köprüleri kullanmak bu sorunu çözebilir.
 
 ##### Genel günlük sorunu #4: Saat sapması
 
-    19.11.2017 00:04:47.400 [Bildirim] 127.0.0.1:9150 üzerindeki Socks dinleyici açılıyor 
-    19.11.2017 00:04:48.000 [BİLDİRİM] %5 tamamlandı: Dizin sunucusu ile bağlantı kuruluyor 
-    19.11.2017 00:04:48.200 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el sıkışma tamamlanıyor 
+    19.11.2017 00:04:47.400 [Bildirim] 127.0.0.1:9150 üzerindeki Socks dinleyici açılıyor
+    19.11.2017 00:04:48.000 [BİLDİRİM] %5 tamamlandı: Dizin sunucusu ile bağlantı kuruluyor
+    19.11.2017 00:04:48.200 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el sıkışma tamamlanıyor
     19.11.2017 00:04:48.800 [Uyarı] NETINFO hücresi zamanı sapmış olarak alındı (OR:xxx.xx.x.xx:xxxx): Bizim saatimiz 1 gün, 0 saat, 1 dakika geride ya da onların saati bu kadar ileride gibi görünüyor. Tor uygulamasının çalışması için saatin doğru olarak ayarlanmış olması gereklidir. Lütfen saat, saat dilimi ve tarih ayarlarınızı denetleyin.
 
 Tor günlüğünde buna benzer satırlar görüyorsanız, Sistem saatiniz hatalı demektir.
-Lütfen sistem saati ve saat diliminin tam olarak doğru olduğundan emin olun ve Tor uygulamasını yeniden başlatın. 
+Lütfen sistem saati ve saat diliminin tam olarak doğru olduğundan emin olun ve Tor uygulamasını yeniden başlatın.

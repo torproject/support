@@ -18,7 +18,8 @@ Du solltest einen dieser üblichen Fehler im Protokoll sehen (suche nach diesen 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-Wenn in der Log-Datei Zeile wie diese auftauchen, bedeutet das, der SOCKS-Proxy kann nicht erreicht werden. Wenn ein SOCKS-Proxy für die Netzwerkeinstelung nötig ist, sollten die Proxy-Details überprüft werden.
+Wenn in der Log-Datei Zeile wie diese auftauchen, bedeutet das, der SOCKS-Proxy kann nicht erreicht werden.
+Wenn ein SOCKS-Proxy für die Netzwerkeinstelung nötig ist, sollten die Proxy-Details überprüft werden.
 Wenn kein SOCKS-Proxy nötig ist, oder du nicht sicher bist, versuche dich mit dem Tor-Netzwerk ohne SOCKS-Proxy zu verbinden.
 
 ###### Üblicher Fehler #2: Kann Guard-Relays nicht erreichen

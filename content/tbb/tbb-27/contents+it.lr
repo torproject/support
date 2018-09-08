@@ -6,28 +6,17 @@ seo_slug: sto-aggiornando-tor-browser
 ---
 description:
 Potrai aggiornare Tor Browser non appena sarà rilasciata una nuova versione.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Tor Browser ti ricorderà di aggiornare il software quando verrà rilasciata una nuova versione.</h4> 
-      <p class="card-text">L'icona di Torbutton (la piccola cipolla verde nell'angolo in alto a sinistra del browser) mostrerà un triangolo giallo.</p> 
-    </div>
-  </div>
-</div>
+
+Tor Browser ti ricorderà di aggiornare il software quando verrà rilasciata una nuova versione. 
+
+L'icona di Torbutton (la piccola cipolla verde nell'angolo in alto a sinistra del browser) mostrerà un triangolo giallo. 
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 
 Potrai vedere un avviso scritto quando Tor Browser indicherà che è disponibile un aggiornamento.
 
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert"> 
-  </div>
-</div>
+<img class="" src="/static/images/image5.png" alt="New release alert">
 
 Tor browser installerà gli aggiornamenti.
 
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-  </div>
-</div>
+<img class="" src="/static/images/image3.png" alt="New release alert">

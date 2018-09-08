@@ -33,9 +33,10 @@ Untuk sumber daya paling mendalam tentang menjalankan relay, lihat <mark> <a hre
     #RelayBandwidthBurst 100 MBytes 
 
     ExitPolicy reject *:* 
+
 * Jalankan "service tor reload" (sebagai root)
 Setelah relay Anda terhubung ke jaringan, itu akan mencoba untuk menentukan apakah port yang dikonfigurasi dapat dicapai dari luar.
-   Langkah ini biasanya cepat, tetapi mungkin perlu waktu beberapa menit.
+Langkah ini biasanya cepat, tetapi mungkin perlu waktu beberapa menit.
 
 Cari entri log di /var/log/syslog seperti contohnya "Pengujian otomatis menunjukkan ORPort Anda dapat dijangkau dari luar. Bagus sekali."
 Jika Anda tidak melihat pesan ini, itu berarti Anda relay tidak dapat dijangkau dari luar.
