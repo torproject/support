@@ -19,7 +19,7 @@ Vous devriez trouver l’une de ces erreurs de journal courantes (cherchez les l
 
 Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie que vous n’arrivez pas à vous connecter à un mandataire SOCKS.
 
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
+Si un mandataire SOCKS est exigé pour votre configuration réseau, veuillez alors vous assurer d’avoir bien saisi les renseignements concernant le mandataire.
 Si un mandataire SOCKS n’est pas nécessaire ou que vous n’êtes pas sûr, veuillez essayer de vous connecter au réseau Tor sans mandataire SOCKS.
 
 ##### Erreur de journal courante no 2 : impossible d’atteindre les relais de garde

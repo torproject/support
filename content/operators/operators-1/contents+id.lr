@@ -43,5 +43,5 @@ Jika Anda tidak melihat pesan ini, itu berarti Anda relay tidak dapat dijangkau 
 Anda sebaiknya memeriksa ulang firewall Anda, periksa bahwa IP dan Port Anda yang ditentukan dalam torrc sudah benar, dll.
 
 Ketika itu menegaskan bahwa portnya terjangkau, itu akan meng-upload "Deskripsi server" kepada pihak berwenang direktori agar client tahu alamat, port, key, dll yang digunakan relay Anda.
-Setelah beberapa jam (untuk memberikan cukup waktu untuk menyebarkan), Anda dapat meminta Atlas untuk melihat apakah relay Anda telah berhasil terdaftar di jaringan.
+Setelah beberapa jam (untuk memberikan cukup waktu untuk menyebarkan), Anda dapat meminta <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> untuk melihat apakah relay Anda telah berhasil terdaftar di jaringan.
 Jika belum, periksa ulang firewall, IP, dan port.

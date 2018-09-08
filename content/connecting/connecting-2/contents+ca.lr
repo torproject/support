@@ -43,7 +43,8 @@ Intenteu connectar-vos amb ponts i això hauria de solucionar el problema.
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-Si veieu línies com aquesta al registre Tor, significa que Tor no ha pogut completar una encaixada de mans de TLS amb les autoritats del directori. Usar ponts probablement solucionarà això.
+Si veieu línies com aquesta al registre Tor, significa que Tor no ha pogut completar una encaixada de mans de TLS amb les autoritats del directori.
+Usar ponts probablement solucionarà això.
 
 ##### Common log error #4: Clock skew
 

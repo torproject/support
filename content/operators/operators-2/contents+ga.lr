@@ -37,7 +37,7 @@ Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionso
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
 
-  Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+  Téigh ar lorg iontráil in /var/log/syslog ar nós "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
   Ba chóir duit deimhniú gur shonraigh tú an seoladh IP, na poirt, agus na sonraí maidir le ballaí dóiteáin sa gcomhad torrc go ceart.
 

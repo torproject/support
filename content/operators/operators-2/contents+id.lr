@@ -43,7 +43,7 @@ Setelah relay Anda terhubung ke jaringan, itu akan mencoba untuk menentukan apak
 
 Ketika itu menegaskan bahwa portnya terjangkau, itu akan meng-upload "Deskripsi server" kepada pihak berwenang direktori agar client tahu alamat, port, key, dll yang digunakan relay Anda.
 
-After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+Setelah beberapa jam (untuk memberikan cukup waktu untuk menyebarkan), Anda dapat meminta <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> untuk melihat apakah relay Anda telah berhasil terdaftar di jaringan.
 Jika belum, periksa ulang firewall, IP, dan port.
 
 Pertimbangkan jika Anda ingin beralih ke <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Pengurangan kebijakan keluar</a></mark>.

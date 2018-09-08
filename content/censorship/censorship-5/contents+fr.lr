@@ -18,7 +18,8 @@ Vous devriez trouver l’une de ces erreurs de journal courantes (cherchez les l
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie que vous n’arrivez pas à vous connecter à un mandataire SOCKS. Si un mandataire SOCKS est exigé pour votre configuration réseau, veuillez alors vous assurer d’avoir bien saisi les renseignements concernant le mandataire.
+Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie que vous n’arrivez pas à vous connecter à un mandataire SOCKS.
+Si un mandataire SOCKS est exigé pour votre configuration réseau, veuillez alors vous assurer d’avoir bien saisi les renseignements concernant le mandataire.
 Si un mandataire SOCKS n’est pas nécessaire ou que vous n’êtes pas sûr, veuillez essayer de vous connecter au réseau Tor sans mandataire SOCKS.
 
 ##### Erreur de journal courante no 2 : impossible d’atteindre les relais de garde

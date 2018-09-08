@@ -7,7 +7,7 @@ seo_slug: how-do-i-run-a-obfs4-bridge-debian
 description:
 * Rith "apt-get install tor obfs4proxy" (mar root).
 * Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart ar do ríomhaire.
-  Install the ntp or openntpd (or similar) package to keep it that way.
+  Suiteáil ntp nó openntpd (nó pacáiste eile den sórt seo) chun an t-am cheart a choinneáil.
 * Cuir /etc/tor/torrc in eagar mar seo a leanas:
 
 
