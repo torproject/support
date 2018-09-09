@@ -11,10 +11,10 @@ description:
 * Bearbeite die Datei /etc/tor/torrc damit sie so aussieht:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ## Die IP-Adresse or Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
     #Address noname.example.com
 
-    ## Set the nickname of this relay
+    ## Wähle den Namen des Relays
     Nickname ididnteditheconfig
 
     ## Setze deine eigenen Kontaktinformationen
@@ -25,7 +25,7 @@ description:
     ExtORPort auto
     ORPort 9001
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Bandbreiten-Beschränkung (Tor funktioniert ohne, wenn dies kommentiert ist)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 

@@ -6,32 +6,17 @@ seo_slug: aktualisiere-tor-browser
 ---
 description:
 Du kannst den Tor Browser Aktualisieren, sobald eine neue Version verfügbar ist.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="Neuer Veröffentlichungshinweis"/>
-    <div class="card-body">
-      <h4 class="card-title"> Der Tor Browser wird darauf hinweisen, sobald eine neue Version veröffentlicht wurde.</h4>
-      <p class="card-text">Der Tor-Knopf (die kleine grüne Zwiebel in der linken oberen Ecke des Browsers) wird ein gelbes Dreieck anzeigen.</p>
-    </div>
-  </div>
-</div>
+
+ Der Tor Browser wird darauf hinweisen, sobald eine neue Version veröffentlicht wurde.
+
+Der Tor-Knopf (die kleine grüne Zwiebel in der linken oberen Ecke des Browsers) wird ein gelbes Dreieck anzeigen.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
 Beim Start von Tor Browser müsstest du eine Nachricht sehen, dass ein Update verfügbar ist.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Kartentitel</h4>
-      <p class="card-text">Kartentext</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image5.png" alt="Neuer Veröffentlichungshinweis">
+
 Tor Browser wird die Updates installieren.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="Neuer Veröffentlichungshinweis"/>
-    <div class="card-body">
-      <h4 class="card-title">Kartentitel</h4>
-      <p class="card-text">Kartentext</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image3.png" alt="Neuer Veröffentlichungshinweis">

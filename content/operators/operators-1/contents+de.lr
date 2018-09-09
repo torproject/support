@@ -16,19 +16,19 @@ Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="h
     ## Die IP-Adresse or Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
     #Address noname.example.com
 
-    ## Set the nickname of this relay
+    ## Wähle den Namen des Relays
     Nickname ididnteditheconfig
 
     ## Setze deine eigenen Kontaktinformationen
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## If you control multiple relays, include then in the family
+    ## Wenn du mehrere Relays betreibst, füge sie der Familie hinzu
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001
     DirPort 9030
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Bandbreiten-Beschränkung (Tor funktioniert ohne, wenn dies kommentiert ist)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
@@ -42,5 +42,5 @@ Wenn du diese Nachricht nicht siehst, bedeutet das, dass das Relay nicht von au�
 Überprüfe deine Firewalls und dass die in deiner torrc eingestellten IP-Adresse und Ports korrekt sind, etc.
 
 Wenn es die Erreichbarkeit überprüft hat, überträgt es einen "Server-Deskriptor" zu den Verzeichnis-Autoritäten, um Nutzer*innen über die Adresse, Ports, Schlüssel, etc. deines Relays zu informieren.
-Nach einigen Stunden (wenn es Zeit hatte, sich bekannt zu machen), kannst du auf der Metrics-Webseite nachsehen, ob sich dein Relay erfolgreich im Netzwerk registriert hat.
+Nach einigen Stunden (wenn es genügend Zeit hatte, sich zu verbreiten), kannst du auf der <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics-Webseite</a></mark> nachsehen, ob sich dein Relay erfolgreich im Netzwerk registriert hat.
 Wenn nicht, überprüfe Firewalls, IP-Adresse und Ports noch ein Mal.

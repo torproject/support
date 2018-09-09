@@ -1,9 +1,9 @@
 _model: question
 ---
-title: Apakah saya dapat menggunakan Tor dengan bittorent?
+title: Apakah saya dapat menggunakan Tor dengan BitTorrent?
 ---
 seo_slug: tor-bittorrent 
 ---
 description:
-Kami tidak menyarankan penggunaan Tor dengan bittorent.
+Kami tidak menyarankan penggunaan Tor dengan BitTorrent.
 Untuk penjelasan lebih lanjut, silakan baca <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">​posting blog tentang hal ini</a></mark>.

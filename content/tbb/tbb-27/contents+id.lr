@@ -6,32 +6,17 @@ seo_slug: updating-tor-browser
 ---
 description:
 Anda dapat memperbarui Tor Browser segera setelah versi baru dirilis.
-<div class="col-md-6"> 
-  <div class="card"> 
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert"> 
-    <div class="card-body"> 
-      <h4 class="card-title">Tor Browser akan meminta Anda untuk memperbarui perangkat lunak ketika versi baru telah dirilis.</h4>
-      <p class="card-text">Ikon Torbutton (gambar bawang hijau di sudut kiri atas browser) akan menampilkan segi tiga kuning.</p>
-    </div> 
-  </div> 
-</div> 
+
+Tor Browser akan meminta Anda untuk memperbarui perangkat lunak ketika versi baru telah dirilis.
+
+Ikon Torbutton (gambar bawang hijau di sudut kiri atas browser) akan menampilkan segi tiga kuning.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
 Anda mungkin melihat notifikasi tertulis ketika Tor Browser terbuka yang memberitahu Anda bahwa update tersedia.
-<div class="col-md-6"> 
-  <div class="card"> 
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert"> 
-    <div class="card-body"> 
-      <h4 class="card-title">Card title</h4> 
-      <p class="card-text">Card text</p> 
-    </div> 
-  </div> 
-</div> 
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
 Tor browser akan menginstal pembaruan.
-<div class="col-md-6"> 
-  <div class="card"> 
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert"> 
-    <div class="card-body"> 
-      <h4 class="card-title">Card title</h4> 
-      <p class="card-text">Card text</p> 
-    </div> 
-  </div> 
-</div> 
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

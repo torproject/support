@@ -6,32 +6,17 @@ seo_slug: tor-browser-guncellemesi
 ---
 description:
 Yeni bir Tor Browser sürümü yayınlandığında güncelleyebilirsiniz.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Tor Browser yayınlanan yeni sürümleri güncellemeniz için size bildirir.</h4>
-      <p class="card-text">Torbutton simgesi (ekranın sol üst bölümündeki küçük yeşil soğan) üzerinde sarı bir üçgen görüntülenir.</p>
-    </div>
-  </div>
-</div>
+
+Tor Browser yayınlanan yeni sürümleri güncellemeniz için size bildirir.
+
+Torbutton simgesi (ekranın sol üst bölümündeki küçük yeşil soğan) üzerinde sarı bir üçgen görüntülenir.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
 Tor Browser açıldığında bir güncellemenin yayınlandığını bildiren bir uyarı görebilirsiniz.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Kart başlığı</h4>
-      <p class="card-text">Kart metni</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
 Tor Browser güncellemeleri kuracak.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Kart başlığı</h4>
-      <p class="card-text">Kart metni</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

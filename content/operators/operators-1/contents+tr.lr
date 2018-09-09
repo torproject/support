@@ -42,5 +42,5 @@ Bu kaydı göremiyorsanız, aktarıcınıza dışarıdan erişilemiyor demektir.
 Güvenlik duvarlarınızı yeniden gözden geçirin, torrc üzerinde belirttiğiniz IP adresi ve kapı numaralarının doğru olduğundan emin olun.
 
 Erişilebilir olduğu doğrulandıktan sonra, dizin yöneticilerine istemcilerin adres, kapı numaraları, anahtarlar gibi bilgileri almaları için bir "sunucu belirteci" yüklenir.
-Bir kaç saat sonra (bilgilerin yayılması için yeterli zamanı tanıyın), Atlas üzerinde bir sorgu yürüterek aktarıcınızın ağa kayıt olup olmadığına bakabilirsiniz.
+Bir kaç saat sonra (bilgilerin yayılması için yeterli zamanı tanıyın), <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> üzerinde bir sorgu yürüterek aktarıcınızın ağa kayıt olup olmadığına bakabilirsiniz.
 Aktarıcınız ağa kayıt olmamış ise güvenlik duvarlarını, IP adresi ve kapı numaralarını yeniden denetleyin.

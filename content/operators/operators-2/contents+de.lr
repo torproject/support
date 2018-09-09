@@ -13,7 +13,7 @@ Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="h
 * Bearbeite die Datei /etc/tor/torrc damit sie so aussieht:
 
 
-    ## Set the nickname of this relay
+    ## Wähle den Namen des Relays
     Nickname ididnteditheconfig
 
     ## Setze deine eigenen Kontaktinformationen

@@ -7,6 +7,6 @@ seo_slug: cannot-reach-x-onion
 description:
 Se você não consegue acessar o serviço onion desejado, certifique-se que você digitou o endereço onion de 16 caracteres corretamente: até um pequeno erro fará com que o navegador TOR seja incapaz de acessar o site.
 Se você ainda está inabilitado de se conectar ao serviço onion, por favor tente de novamente mais tarde. 
-There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+Pode haver um problema de conexão temporário ou os operadores do site podem ter permitido que ele ficasse offline sem aviso.
 
 Você também podem se certificar de que está apto a acessar outros serviços onion conectando-se ao serviço onion <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGO</a>.

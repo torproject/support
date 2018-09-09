@@ -7,7 +7,7 @@ seo_slug: ip-adresini-degistirmek
 description:
 Tor Browser üzerinde aktarıcı devrenizi değiştirmenin iki yolu vardır. — "Yeni Kimlik" ve "Bu Sitenin Tor Devresini Yenile".
 
-Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
+İki seçeneği de Menü altında bulabilirsiniz. Ayrıca adres çubuğundaki site bilgileri menüsünden de Yeni Devre seçeneğine erişebilirsiniz.
 
 ##### Yeni Kimlik
 

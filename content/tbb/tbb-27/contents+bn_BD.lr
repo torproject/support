@@ -6,32 +6,17 @@ seo_slug: updating-tor-browser
 ---
 description:
 একটি নতুন সংস্করণ মুক্তি হয় যত তাড়াতাড়ি আপনি টর ব্রাউজার আপডেট করতে পারেন।
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">একটি নতুন সংস্করণ প্রকাশ করা হয়েছে একবার টর ব্রাউজার আপনাকে সফ্টওয়্যার আপডেট করতে অনুরোধ করবে।</h4>
-      <p class="card-text">Torbutton আইকন (ব্রাউজারের উপরের বাঁ কোণে ছোট সবুজ পেঁয়াজ) একটি হলুদ ত্রিভুজ প্রদর্শন করবে ।</p>
-    </div>
-  </div>
-</div>
+
+একটি নতুন সংস্করণ প্রকাশ করা হয়েছে একবার টর ব্রাউজার আপনাকে সফ্টওয়্যার আপডেট করতে অনুরোধ করবে।
+
+Torbutton আইকন (ব্রাউজারের উপরের বাঁ কোণে ছোট সবুজ পেঁয়াজ) একটি হলুদ ত্রিভুজ প্রদর্শন করবে ।
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
 আপনি একটি লিংক নির্দেশ দেখতে পারেন যখন টর ব্রাউজার আপনাকে বলছে যে একটি আপডেট উপলব্ধ।
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">কার্ডের শিরোনাম</h4>
-      <p class="card-text">কার্ড পাঠ্য</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
 টর ব্রাউজার হালনাগাদ সংস্থাপন করবে ।
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">কার্ডের শিরোনাম</h4>
-      <p class="card-text">কার্ড পাঠ্য</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

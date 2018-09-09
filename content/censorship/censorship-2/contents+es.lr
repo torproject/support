@@ -16,4 +16,5 @@ Al bloquear a los usuarios de Tor, es probable que estés bloqueando a personas 
 Por favor, actúa en favor de la privacidad digital y la libertad de Internet, y permite a los usuarios de Tor acceder a xyz.com. Gracias."
 
 En el caso de bancos y otros sitios web sensibles, también es normal que bloqueen basándose en la geografía (si un banco sabe que generalmente accedes a sus servicios desde un país, y de repente te estás conectando desde un repetidor de salida al otro lado del mundo, pueden bloquear tu cuenta o suspenderla).
-Si no puedes conectarte a un servicio de onion, por favor mira <a href="#onionservices-3">¡no puedo entrar en X.onion!</a>
+
+Si no puedes conectarte a un servicio de onion, por favor mira <a href="/#onionservices-3">¡no puedo entrar en X.onion!</a>

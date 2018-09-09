@@ -16,4 +16,5 @@ By blocking Tor users, you are likely blocking people in repressive countries wh
 Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
 
 In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
-If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a>
+
+If you are unable to connect to an onion service, please see <a href="/#onionservices-3">I cannot reach X.onion!</a>

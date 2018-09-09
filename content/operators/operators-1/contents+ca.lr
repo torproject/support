@@ -42,5 +42,5 @@ Si no veu aquest missatge, vol dir que el repetidor no es pot accedir des de l'e
 Heu de tornar a comprovar els tallafocs, comproveu que la IP i els ports que heu especificat al torrc són correctes, etc.
 
 Quan es confirmi que és accessible, carregarà un "descriptor de servidor" a les autoritats del directori perquè els clients sàpiguen quina adreça, ports, claus, etc., utilitza el vostre repetidor.
-Després d'unes hores (per donar-li prou temps de propagació), podeu consultar a Atlas per veure si el vostre repetidor s'ha registrat correctament a la xarxa.
+Després d'unes hores (per donar-li prou temps de propagació), podeu consultar <mark><a href="https://metrics.torproject.org/rs.html#search">mètriques</a></mark> per veure si el vostre repetidor s'ha registrat correctament a la xarxa.
 Si no ho ha fet, torni a comprovar els tallafocs, IP i ports.

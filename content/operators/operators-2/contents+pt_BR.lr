@@ -22,7 +22,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     ORPort 9001
     DirPort 9030
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ##O endereço IP ou hostname para conexões de entrada (deixe comentado e o Tor irá saber)
     #Endereço noname.example.com
 
     ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
@@ -40,7 +40,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
   Se você não consegue visualizar esta mensagem, isto significa que o seu relay não é acessível por fora.
   Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
 * Quando ele confirma que está acessível, ele vai enviar um "descritor do servidor" para o diretório de autoridades para deixar os clientes saberem qual endereço, porta, chaves, etc seu retransmissor está usando.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  Depois de poucas horas (para ter tempo o bastante para propagar), você pode consultar o <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> para ver se seu retransmissor foi registrado com sucesso na rede.
   If it hasn't, re-check firewalls, IP and ports again.
 
 Consider if you'd like to switch to the <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Reduced exit policy</a></mark>.

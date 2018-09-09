@@ -11,7 +11,7 @@ Certifique-se que seu relógio, data e fuso horário estão configurados correta
 * Edite /etc/tor/torrc para se assemelhar a:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ##O endereço IP ou hostname para conexões de entrada (deixe comentado e o Tor irá saber)
     #Endereço noname.example.com
 
     ## Defina o nickname deste relay

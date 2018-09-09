@@ -16,4 +16,5 @@ Wenn ihr Tor blockiert, schließt ihr sehr wahrscheinlich Menschen aus, die unte
 Bitte beweist eine Position zugunsten digitaler Privatsphäre und Internetfreiheit und erlaubt den Zugang zu xyz.com über Tor.
 
 Bei Banken und anderen sensitiven Webseiten ist es üblich, basierend auf der Herkunft zu blockieren (z.B. neigen Banken dazu, Konten zu sperren, wenn das Land, von dem du dich verbindest, wechselt).
-Bei Verbindungsschwierigkeiten zu einem onion-Dienst, siehe <a href="#onionservices-3">Ich kann einen onion-Dienst nicht erreichen</a>
+
+Bei Verbindungsschwierigkeiten zu einem onion-Dienst, siehe <a href="/#onionservices-3">Ich kann einen onion-Dienst nicht erreichen</a>

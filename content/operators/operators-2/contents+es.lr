@@ -13,7 +13,7 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
 * Edita /etc/tor/torrc para que tenga el siguiente aspecto:
 
 
-    ## Ajustar el nickname de este repetidor
+    ## Set the nickname of this relay
     Nickname ididnteditheconfig
 
     ## Set your own contact info
@@ -22,10 +22,10 @@ Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="h
     ORPort 9001
     DirPort 9030
 
-    ## La dirección IP o nombre de host para las conexiones entrantes (deja comentado y Tor adivinará)
+    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
     #Address noname.example.com
 
-    ## Fija tu ancho de banda (deja comentado y Tor se ejecutará sin límites de ancho de banda)
+    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 

@@ -13,7 +13,7 @@ Für die meisten tiefergehenden Ressourcen um ein Relay zu betreiben, siehe den 
 * Bearbeite /usr/local/etc/tor/torrc folgendermaßen:
 
 
-    ## Set the nickname of this relay
+    ## Wähle den Namen des Relays
     Nickname ididnteditheconfig
 
     ## Setze deine eigenen Kontaktinformationen

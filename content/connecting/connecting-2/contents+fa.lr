@@ -18,7 +18,8 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy. If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
+If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
+If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
 If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
 
 ##### Common log error #2: Can’t reach guard relays
@@ -41,7 +42,8 @@ Please try connecting with bridges, and that should fix the problem.
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities. Using bridges will likely fix this.
+If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
+Using bridges will likely fix this.
 
 ##### Common log error #4: Clock skew
 
