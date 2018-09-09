@@ -27,6 +27,12 @@ primary = yes
 url_prefix = /
 locale = en_US
 
+[alternatives.en_US]
+name = English (en)
+primary = no
+url_prefix = /en_US/
+locale = en_US
+
 [alternatives.es]
 name = Español
 url_prefix = /es/
@@ -62,3 +68,7 @@ name = Turkish
 url_prefix = /tr/
 locale = tr
 
+
+[packages]
+i18n = 0.2
+lektor-i18n = 0.2
