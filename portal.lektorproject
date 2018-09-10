@@ -67,8 +67,3 @@ locale = pt_BR
 name = Turkish
 url_prefix = /tr/
 locale = tr
-
-
-[packages]
-i18n = 0.2
-lektor-i18n = 0.2
