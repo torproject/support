@@ -145,6 +145,3 @@ locale = zh_CN
 name = 中文(繁)
 url_prefix = /zh_TW/
 locale = zh_TW
-
-[packages]
-lektor-i18n = 0.2
