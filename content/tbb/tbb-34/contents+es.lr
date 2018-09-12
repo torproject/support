@@ -9,5 +9,5 @@ Configuramos NoScript para que permita JavaScript por defecto en el navegador To
 La mayoría de los usuarios abandonarían Tor si deshabilitáramos por defecto JavaScript, ya que les causaría demasiados problemas.
 En último término, queremos hacer que el Tor Browser sea tan seguro como sea posible mientras también lo hacemos usable para la mayoría de la gente, así pues, por ahora, eso significa dejar JavaScript habilitado por defecto.
 
-Para los usuarios que quieran tener JavaScript deshabilitado por defecto en todos los sitios HTTP, recomendamos cambiar el nivel de seguridad del navegdor Tor (en el menú onion (cebolla) del navegador Tor, bajo "Configuración de seguridad").
+Para los usuarios que quieran tener JavaScript deshabilitado por defecto en todos los sitios HTTP, recomendamos cambiar el nivel de seguridad del navegador Tor (en el menú cebolla del navegador Tor, bajo "Configuración de seguridad").
 La opción bajo/predeterminado permite JavaScript, pero los niveles medio y alto ambos bloquean JavaScript en los sitios HTTP.

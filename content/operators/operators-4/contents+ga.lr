@@ -11,7 +11,7 @@ description:
 * Cuir na línte seo a leanas le /etc/apt/sources.list mar root. Úsáid an leagan a d'aimsigh tú sa chéim roimhe seo in áit <leagan>.
        $ deb http://deb.torproject.org/torproject.org <leagan> main
        $ deb-src http://deb.torproject.org/torproject.org <leagan> main
-* Add the gpg key used to sign the packages by running the following commands:
+* Sainigh an eochair gpg a úsáideadh chun na pacáistí a shíniú leis na horduithe seo a leanas:
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
 * Rith na horduithe seo a leanas chun Tor a shuiteáil agus na sínithe a dheimhniú:

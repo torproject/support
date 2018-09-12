@@ -5,6 +5,6 @@ title: Cén fáth a ndúirt Brabhsálaí Tor nach bhfuil Firefox ag obair?
 seo_slug: tor-browser-firefox-not-working-error
 ---
 description:
-Tor Browser is built using <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, so errors regarding Firefox may occur.
+Tá Brabhsálaí Tor bunaithe ar <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, agus d'fhéadfadh sé go dtarlódh earráidí a bhaineann le Firefox.
 Ba chóir duit deimhniú nach bhfuil aon chóip eile de Bhrabhsálaí Tor ar siúl, agus gur dhíphacáil tú Brabhsálaí Tor áit éigin ina bhfuil na ceadanna cearta agat.
-If you are running an anti-virus, please see <mark><a href="http://support.torproject.org/#tbb-10">My antivirus/malware protection is blocking me from accessing Tor Browser</a></mark>, it is common for anti-virus / anti-malware software to cause this type of issue.
+Má tá bogearra frithvíris ar do ríomhaire, féach ar <mark><a href="http://support.torproject.org/#tbb-10">Cuireann mo bhogearra frithvíris cosc ar Bhrabhsálaí Tor.</a></mark>; is minic go mbíonn bogearra frithvíris ina chúis le fadhbanna den sórt seo.

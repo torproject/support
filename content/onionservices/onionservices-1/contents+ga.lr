@@ -8,4 +8,4 @@ description:
 Tugtar "onion" ar shuíomh Gréasáin nach féidir teacht air ach trí líonra Tor, agus úsáideann na suímh seo an fearann barrleibhéil .onion.
 Mar shampla, is é <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a> an onion i gcomhair DuckDuckGo.
 Is féidir leat Brabhsálaí Tor a úsáid chun teacht ar na suímh seo.
-The addresses must be shared with you by the website host, as onions are not indexed in search engines in the typical way that vanilla websites are.
+Caithfidh tú na seoltaí a fháil go díreach ó óstach an tsuímh, toisc nach bhfuil suímh onion innéacsaithe ag innill chuardaigh sa chaoi a ndéantar le gnáthshuímh Ghréasáin.

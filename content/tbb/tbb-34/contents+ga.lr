@@ -7,7 +7,7 @@ seo_slug: tor-browser-js-enabled-default
 description:
 Rinneamar cumraíocht ar NoScript sa chaoi go gceadaíonn sé JavaScript i mBrabhsálaí Tor de réir réamhshocraithe toisc nach bhfeidhmíonn go leor suíomh Gréasáin gan JavaScript sa lá atá inniu ann.
 Thréigfeadh go leor úsáideoirí Tor dá mbeadh JavaScript díchumasaithe de réir réamhshocraithe mar gheall ar an líon fadhbanna a tharlódh.
-Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving Javascript enabled by default.
+I ndeireadh na dála, ba mhaith linn brabhsálaí atá chomh slán agus is féidir a chruthú, agus san am céanna ceann atá inúsáidte ag formhór na ndaoine. Sin an fáth bunúsach a bhfuil JavaScript cumasaithe de réir réamhshocraithe.
 
 Dóibh siúd ar mhaith leo JavaScript a dhíchumasú ar gach suíomh HTTP de réir réamhshocraithe, molaimid an sleamhnán slándála i mBrabhsálaí Tor a úsáid (sa roghchlár Onion faoi "Socruithe Slándála").
 Ceadaítear JavaScript ag an leibhéal íseal/réamhshocraithe, ach cuireann an meánleibhéal agus an t-ardleibhéal cosc ar JavaScript ar shuímh HTTP.

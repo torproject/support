@@ -30,7 +30,7 @@ Mura dteastaíonn seachfhreastalaí SOCKS uait, nó mura bhfuil tú cinnte, déa
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
+Má fheiceann tú línte den sórt seo sa logchomhad Tor, ciallaíonn sé gur theip ar Tor ceangal a bhunú leis an chéad nód sa gciorcad Tor.
 Seans go gciallaíonn sé seo go bhfuil do líonra faoi chinsireacht.
 Ba chóir duit triail a bhaint as droichead; is dócha go réiteoidh sin an fhadhb.
 

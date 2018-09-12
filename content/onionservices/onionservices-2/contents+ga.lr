@@ -5,15 +5,15 @@ title: Cad é .onion, agus cad iad seirbhísí onion?
 seo_slug: what-is-a-dot-onion
 ---
 description:
-Onion services allow people to browse but also to publish anonymously, including publishing anonymous websites.
+Is féidir seirbhísí onion a úsáid le brabhsáil ar ndóigh, ach is féidir iad a úsáid chun ábhar a fhoilsiú freisin, suímh Ghréasáin gan ainm san áireamh.
 
 Le seirbhísí Onion is féidir comhrá a dhéanamh agus comhaid a chomhroinnt gan meiteashonraí; éascaíonn siad cumarsáid idir iriseoirí agus a gcuid foinsí eolais trí sheirbhísí ar nós <mark><a href="https://securedrop.org/">SecureDrop</a></mark> nó <mark><a href="https://onionshare.org/">OnionShare</a></mark>; ligeann siad duit bogearraí a nuashonrú go sábháilte; agus soláthraíonn siad bealach níos sábháilte le cuairt a thabhairt ar shuímh mór-le-rá ar nós <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
 
 Baineann na seirbhísí seo úsáid as an bhfearann barrleibhéil speisialta .onion (in áit .com, .net, .org, srl.) agus is trí líonra Tor amháin gur féidir teacht orthu.
 
-Nuair a thugann tú cuairt ar shuíomh a úsáideann seirbhís onion, taispeánann Brabhsálaí Tor oinniún beag glas sa mbarra URL a léiríonn staid an cheangail: slán agus ag úsáid seirbhís onion.
+Nuair a thugann tú cuairt ar shuíomh a úsáideann seirbhís onion, taispeánann Brabhsálaí Tor oinniún beag glas sa mbarra URL a léiríonn staid an cheangail: slán agus seirbhís onion i bhfeidhm.
 
-<img class="" src="/static/images/onion-website.png" alt="Onion icon">
+<img class="" src="/static/images/onion-website.png" alt="Oinniún beag">
 
 Agus nuair a thugann tú cuairt ar shuíomh a úsáideann https agus seirbhís onion, taispeánann sé oinniún beag glas agus glas fraincín.
 

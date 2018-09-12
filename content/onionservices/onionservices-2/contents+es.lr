@@ -13,8 +13,8 @@ Estos servicios usan el TLD (dominio de primer nivel) de uso especial .onion (en
 
 Cuando se accede a un sitio web que utiliza un servicio onion (cebolla), el Navegador Tor mostrará en la barra de URL un icono de una pequeña cebolla verde que muestra el estado de tu conexión: segura y usando un servicio onion.
 
-<img class="" src="/static/images/onion-website.png" alt="Onion icon">
+<img class="" src="/static/images/onion-website.png" alt="Icono cebolla">
 
 Y si estás accediendo a un sitio web con https y servicio onion, te mostrará un icono de una cebolla verde y un candado.
 
-<img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
+<img class="" src="/static/images/padlock-onion.png" alt="Cebolla verde con candado">

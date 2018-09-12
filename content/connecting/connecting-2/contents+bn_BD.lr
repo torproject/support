@@ -46,7 +46,7 @@ If you see lines like these in your Tor log, it means your Tor failed to connect
 যদি আপনি আপনার টর লগে এই ধরনের লাইনগুলো দেখেন, এর মানে হচ্ছে যে টর নির্দেশিকা কর্তৃপক্ষের সাথে একটি TLS হ্যান্ডশেক সম্পন্ন করতে ব্যর্থ হয়েছে ।
 সেদিক ব্যবহার করলে সম্ভবত এটা ঠিক হবে
 
-সাধারণ লগ-ইন ত্রুটি #4: ভুল সময়
+##### সাধারণ লগ-ইন ত্রুটি #4: ভুল সময়
 
     19.11.2017 00:04:47.400 [বিজ্ঞপ্তি]  Opening Socks listener on 127.0.0.1:9150
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server

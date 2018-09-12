@@ -6,7 +6,7 @@ seo_slug: website-bloqueando-acesso-sobre-tor
 ---
 description:
 Algumas vezes websites bloquearão usuários do Tor porque eles não podem dizer a diferença entre a média de usuários Tor e tráfego automatizado.
-The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
+O meio com maior sucesso em fazer com que websites desbloqueie usuários Tor, é os usuários entrando em contato direto com os administradores do site.
 Algo deste tipo pode resolver:
 
 "Oi! Eu tentei acessar seu site xyz.com enquanto estava usando o Navegador Tor e percebi que você não permite usuários Tor acessarem seu site.

@@ -7,25 +7,25 @@ seo_slug: change-ip-address
 description:
 Tá dhá bhealach i mBrabhsálaí Tor chun an ciorcad a athrú — "Aitheantas Nua" agus "Ciorcad Nua don Suíomh seo".
 
-Gheobhaidh tú an dá rogha sa Roghchlár, agus is féidir teacht ar an rogha Ciorcad Nua sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL.
+Gheobhaidh tú an dá rogha seo sa Roghchlár, agus is féidir teacht ar an rogha Ciorcad Nua sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL.
 
 ##### Aitheantas Nua
 
-This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
+Tá an rogha seo úsáideach má tá tú ag iarraidh aon cheangal idir do ghníomhaíocht sa todhchaí agus na rudaí a bhí ag déanamh níos luaithe a bhriseadh.
 
-Nuair a roghnaítear é seo, dúnann sé do chuid cluaisíní agus fuinneoga, glanann sé aon fhaisnéis phríobháideach, mar shampla fianáin agus an stair bhrabhsála, agus úsáideann sé ciorcaid nua Tor do gach ceangal nua.
+Nuair a roghnaítear é seo, dúnann sé do chuid cluaisíní agus fuinneoga, glanann sé aon fhaisnéis phríobháideach, mar shampla fianáin agus an stair bhrabhsála, agus úsáideann sé ciorcaid nua Tor do gach ceangal.
 
-Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
+Tabharfaidh Brabhsálaí Tor rabhadh duit go stopfaidh sé gach uile rud atá ar siúl, íoslódálacha san áireamh. Ba chóir duit é seo a chur san áireamh sula gcliceálfaidh tú "Aitheantas Nua".
 
-<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
+<img class="" src="/static/images/menu-new-identity.png" alt="Roghchlár Bhrabhsálaí Tor">
 
 ##### Ciorcad Nua Tor don Suíomh seo
 
 Tá an rogha seo úsáideach mura bhfuil an t-athsheachadán amach a úsáideann tú in ann ceangal a bhunú leis an suíomh atá uait, nó mura bhfuil sé ag lódáil i gceart.
 Nuair a roghnaítear é seo, athlódáiltear an cluaisín nó an fhuinneog reatha thar ciorcad nua Tor.
 
-Other open tabs and windows from the same website will use the new circuit as well once they are reloaded.
+Úsáidfidh cluaisíní agus fuinneoga oscailte eile ón suíomh céanna an ciorcad nua freisin, chomh luath is a athlódálfar iad.
 
-This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+Ní ghlanann an rogha seo aon fhaisnéis phríobháideach ná do chuid gníomhaíochta, agus níl aon éifeacht aige ar cheangail le suímh eile.
 
 <img class="" src="/static/images/new-circuit-display.png" alt="Ciorcad Nua don Suíomh seo">

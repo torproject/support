@@ -6,6 +6,6 @@ seo_slug: pick-which-country-i-am-exiting
 ---
 description:
 Molaimid go láidir duit gan athrú a dhéanamh ar an gcaoi a gcruthaíonn Tor a chuid ciorcad.
-You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity.
+Gheobhaidh tú an tslándáil is fearr nuair a fhágann tú roghnú an ródúcháin faoi Tor. Níl sé sábháilte na hathsheachadáin isteach / amach a roghnaíonn Tor a athrú.  
 Mura bhfuil tú ach ag iarraidh teacht ar acmhainní nach bhfuil ar fáil ach i dtír amháin, b'fhéidir go mbeadh sé níos fearr VPN a úsáid in áit Tor.
-Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.
+Réitíonn VPNanna roinnt fadhbanna a bhaineann le geoshuíomh, ach ní bhfaighidh tú na gnéithe céanna príobháideachais a fhaigheann tú ó Tor.

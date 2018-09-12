@@ -11,4 +11,4 @@ description:
 Seol teachtaireacht rphoist chuig gettor@torproject.org.
 Cuir ainm do chórais oibriúcháin (m.sh. Windows, MacOS (OS X), nó Linux) i gcorp na teachtaireachta agus seol é.
 Tabharfaidh GetTor freagra ina bhfuil nasc íoslódála do Bhrabhsálaí Tor, síniú cripteagrafach (ag teastáil <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">leis an íoslódáil a dheimhniú</a></mark>), méarlorg na heochrach a úsáideadh chun an síniú a dhéanamh, agus suim sheiceála an phacáiste.
-You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using; consult documentation about your computer to find out more.
+Má tá rogha agat idir bogearra "32-giotán" nó "64-giotán", braitheann an freagra ar an sórt ríomhaire atá agat; féach ar an doiciméadú maidir le do ríomhaire chun tuilleadh eolais a fháil.

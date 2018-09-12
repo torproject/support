@@ -2,7 +2,7 @@ _model: question
 ---
 title: O Navegador Tor utiliza um circuito diferente para cada site?
 ---
-seo_slug: different-circuit-each-website
+seo_slug: diferentes-circuitos-para-cada-website
 ---
 description:
 No Navegador Tor, cada novo domínio tem um circuito próprio.
