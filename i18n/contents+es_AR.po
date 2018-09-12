@@ -40,7 +40,7 @@ msgstr ""
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.description)
 msgid "We do not recommend using Tor with BitTorrent."
-msgstr ""
+msgstr "No recomendamos usar Tor con bittorrent."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -75,6 +75,7 @@ msgstr ""
 #: (content/https/https-1/contents+en.lrquestion.description)
 msgid "Tor prevents eavesdroppers from learning sites that you visit."
 msgstr ""
+"Tor le impide saber a observadores hostiles qué sitios estás visitando."
 
 #: http//localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lrquestion.description)
@@ -310,7 +311,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
 msgid "<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.title)
@@ -333,6 +334,8 @@ msgid ""
 "Many exit nodes are configured to block certain types of file sharing "
 "traffic, such as BitTorrent."
 msgstr ""
+"Muchos nodos de salida están configurados para bloquear ciertos tipos de "
+"tráfico de compartición de archivos, tales como bittorrent. "
 
 #: http//localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lrquestion.seo_slug)
@@ -402,6 +405,8 @@ msgid ""
 "If a SOCKS proxy is required for your network setup, then please make sure "
 "you’ve entered your proxy details correctly."
 msgstr ""
+"Si es requerido un proxy SOCKS para tu configuración de red, por favor "
+"asegurate que hayas entrado los detalles del mismo correctamente."
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.seo_slug)
@@ -573,6 +578,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 
 #: http//localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lrquestion.description)
@@ -853,7 +860,7 @@ msgstr "teniendo-problemas-conectándose-a-tor"
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.title)
 msgid "Can I use Tor with BitTorrent?"
-msgstr ""
+msgstr "¿Puedo usar Tor con bittorrent?"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -950,6 +957,9 @@ msgid ""
 "If you see lines like this in your Tor log, it means that Tor failed to "
 "complete a TLS handshake with the directory authorities."
 msgstr ""
+"Si ves líneas cómo éstas en tu bitácora Tor, significa que Tor falló al "
+"completar un intercambio para sincronización TLS con las autoridades de "
+"directorio."
 
 #: http//localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -1064,13 +1074,15 @@ msgid ""
 "Both options are located in the Menu, but you can also access the New "
 "Circuit option inside the site information menu, in the URL bar."
 msgstr ""
+"Ambas opciones está localizadas en el menú, pero podés acceder a la opción "
+"Nuevo Circuito dentro del menú de información del sitio, en la barra URL."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "Using bridges will likely fix this."
-msgstr ""
+msgstr "Usando puentes probablemente arregle ésto."
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.description)
@@ -1140,6 +1152,8 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a "
 "href=\"/#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
+"Si no sos capaz de conectar a un servicio cebolla, por favor mirá <a "
+"href=\"/#onionservices-3\">No puedo alcanzar X.onion."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1187,6 +1201,8 @@ msgid ""
 "Please see the <mark><a href=\"https://www.eff.org/https-"
 "everywhere/faq\">HTTPS Everywhere FAQ</a></mark>."
 msgstr ""
+"Por favor mirá <mark><a href=\"https://www.eff.org/https-"
+"everywhere/faq\">HTTPS Everywhere</a></mark>."
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.seo_slug)
@@ -1326,6 +1342,8 @@ msgid ""
 "BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"Específicamente, bittorrent <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">no es anónimo sobre Tor</a></mark>."
 
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
@@ -1531,6 +1549,8 @@ msgid ""
 "If you see lines like these  in your Tor log, it means you are failing to "
 "connect to a SOCKS proxy."
 msgstr ""
+"Si ves líneas cómo éstas en tu bitácora Tor, significa que estás fallando en"
+" conectarte a un proxy SOCKS."
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1613,7 +1633,7 @@ msgstr "connecting-to-tor"
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
 msgid "<img class=\"\" src=\"/static/images/image3.png\" alt=\"New release alert\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"/static/images/image3.png\" alt=\"New release alert\">"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -1662,6 +1682,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
 
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
@@ -1702,7 +1724,7 @@ msgstr ""
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.seo_slug)
 msgid "can-eavesdroppers-see-information-i-share"
-msgstr "pueden-entidades-interviniendo-canal-ver-información-que-comparto"
+msgstr "pueden-observadores-hostiles-ver-información-que-comparto"
 
 #: http//localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lrquestion.title)
@@ -2170,9 +2192,9 @@ msgid ""
 "When I'm using Tor, can eavesdroppers still see the information I share with"
 " websites, like login information and things I type into forms?"
 msgstr ""
-"Cuando estoy usando Tor, ¿puede alguien que esté interviniendo el canal ver "
-"la información que comparto con sitios web, tal como información de ingreso "
-"y cosas que tipeo en formularios?"
+"Cuando estoy usando Tor, ¿puede algún observador hostil ver la información "
+"que comparto con sitios web, tal como información de ingreso y cosas que "
+"tipeo en formularios?"
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -2335,6 +2357,9 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"Cuando accedas a un sitio web que use un servicio cebolla, el navegador Tor "
+"mostrará en la barra URL un icono de una cebollita verde visualizando el "
+"estado de tu conexión: segura y usando un servicio cebolla."
 
 #: http//localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lrquestion.description)
@@ -2472,6 +2497,8 @@ msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
 "been released."
 msgstr ""
+"El navegador Tor te solicitará actualizar el programa una vez que una nueva "
+"versión haya sido lanzada."
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
@@ -2733,6 +2760,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show"
 " an icon of a green onion and a padlock."
 msgstr ""
+"Y si estás accediendo un sitio web con https y servicio cebolla, mostrará un"
+" icono de una cebolla verde y un candado."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3568,6 +3597,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
 "Browser Update\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3586,8 +3617,8 @@ msgid ""
 "relay will be encrypted, and won't be visible to eavesdroppers."
 msgstr ""
 "Si el sitio que estás visitando usa HTTPS, luego el tráfico dejando tu "
-"relevo de salida estará encriptado, y no será visible a entidades "
-"interviniendo el canal."
+"relevo de salida estará encriptado, y no será visible a observadores "
+"hostiles."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -3595,6 +3626,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -4078,6 +4111,8 @@ msgid ""
 "The Torbutton icon (the little onion in the top left corner of the browser) "
 "will display a yellow triangle."
 msgstr ""
+"El icono del botón Tor (la cebollita verde en la esquina superior izquierda "
+"del navegador) mostrará un triángulo amarillo."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -4252,7 +4287,7 @@ msgstr ""
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
 msgid "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
