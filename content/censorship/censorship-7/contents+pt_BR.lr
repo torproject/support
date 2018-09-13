@@ -10,7 +10,7 @@ Isso significa que PSI ou governos que tentam bloquear o acesso a rede Tor não 
 Pontes são úteis para usuários do Tor que estão sob regimes ditatoriais, e para pessoas que queiram uma camada extra de segurança porque elas estão preocupados se alguém reconhecerá que elas estão contactando de um endereço de IP público de um retransmissor Tor.
 
 Uma ponte é apenas um relay normal com um configuração levemente diferente.
-See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
+Veja <mark><a href="#operators-6">Como operar uma ponte</a></mark>para mais instruções.
 
 Vários países, incluindo China e Irã, encontraram meios de detectar e bloquear conexões para pontes Tor.
 <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.

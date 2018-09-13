@@ -2,7 +2,7 @@ _model: question
 ---
 title: O Tor Browser não está funcionando, mas não parece ser algo relacionado a censura.
 ---
-seo_slug: tor-browser-wont-connect
+seo_slug: tor-browser-nao-conecta
 ---
 description:
 Um dos problemas mais comuns que causam erros de conexão no Navegador Tor é o relógio do sistema incorreto.

@@ -7,7 +7,7 @@ seo_slug: mude-endereço-ip
 description:
 Navegador Tor tem duas maneiras de mudar seu circuito de transmissão - "Nova Identidade" e "Novo Circuito Tor para esse Site".
 
-Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
+Ambas opções estão localizadas no menu, porém você também pode acessar a opção "Novo Circuito" em cima do menu de informações do site, na barra da URL.
 
 ##### Nova Identidade
 

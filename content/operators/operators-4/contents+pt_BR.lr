@@ -9,7 +9,7 @@ description:
 * Determine a sua versão Ubuntu utilizada executando o seguinte comando:
        $ lsb_release -c
 * Como root, adicione as seguintes linhas em /etc/apt/sources.list. Use a versão que você encontrou no passo anterior para <version>.
-       $ deb http://deb.torproject.org/torproject.org <version> main
+       $ deb http://deb.torproject.org/torproject.org<version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
 * Adicione a chave gpd usada para assinar os pacotes executando os seguintes comandos
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89

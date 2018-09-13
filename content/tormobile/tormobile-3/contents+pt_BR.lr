@@ -6,5 +6,5 @@ seo_slug: Executar-tor-no-ios
 ---
 description:
 Nós recomendamos para iOS o aplicativo Onion Browser, que é open source, usa roteamento Tor, e é desenvolvido por alguém que participa de perto com o Tor Project
-However, Apple requires browsers on iOS to use something called Webkit, which prevents Onion Browser from having the same privacy protections as Tor Browser.
+No entanto, a Apple exige que os navegadores para iOS utilizem algo chamado Webkit, o que inviabiliza os navegadores onion de possuir as mesmas proteções de privacidade que o navegador Tor.
 <mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">Aprenda mais sobre o navegador Onion</a></mark>

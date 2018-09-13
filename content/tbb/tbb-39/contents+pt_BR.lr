@@ -2,7 +2,7 @@ _model: question
 ---
 title: Estou tendo problemas para usar as features no Facebook, Twitter e alguns outros websites quando estou usando o Tor Browser.
 ---
-seo_slug: tor-browser-issues-facebook-twitter-websites
+seo_slug: navegador-tor-problemas-facebook-twitter-websites
 ---
 description:
 Algumas vezes websites que tem muito código em Javascript pode ter problemas funcionais sobre o Navegador Tor.

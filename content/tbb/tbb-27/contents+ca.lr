@@ -6,32 +6,17 @@ seo_slug: actualitzant-navegador-tor
 ---
 description:
 Podeu actualitzar el Navegador Tor tan bon punt es publiqui una versió nova.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Navegador Tor us demanarà que actualitzeu el programari una vegada que s'hagi publicat una versió nova.</h4>
-      <p class="card-text">La icona Tor (la ceba petita en l'extrem superior esquerre del navegador) mostrarà un triangle groc.</p>
-    </div>
-  </div>
-</div>
+
+Tor Browser will prompt you to update the software once a new version has been released.
+
+The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
 Podeu veure una indicació per escrit quan el Navegador Tor s'obri indicant-vos que hi ha una actualització disponible.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titol de la targeta</h4>
-      <p class="card-text">Text de la targeta</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
 El navegador Tor instal·larà les actualitzacions.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titol de la targeta</h4>
-      <p class="card-text">Text de la targeta</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

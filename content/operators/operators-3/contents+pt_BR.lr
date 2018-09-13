@@ -2,10 +2,10 @@ _model: question
 ---
 title: Como eu executo um retransmissor do meio ou guarda no FreeBSD ou HardenedBSD?
 ---
-seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
+seo_slug: como-rodar-um-intermediario-ou-guarda-no-freebsd
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a>.
+Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a>.
 
 * Execute "pkg install tor" (como root).
 Certifique-se que seu relógio, data e fuso horário estão configurados corretamente.
@@ -34,7 +34,7 @@ Certifique-se que seu relógio, data e fuso horário estão configurados correta
     RunAsDaemon 1
     Log notice file /var/log/tor/notices.log
 
-* Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
+* Tenha certeza que o tor iniciara durante o boot executando o comando "sysrc tor_enable="YES" (como root)
 * Execute "service tor start" (como root)
 * Depois que seu retransmissor conecta na rede, ele vai tentar determinar se as portas que você configurou são alcançáveis do lado de fora.
   Esta etapa geralmente é rápida, mas pode levar alguns minutos.

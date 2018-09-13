@@ -4,7 +4,7 @@ title: How do I run a obfs4 bridge on Debian?
 ---
 seo_slug: how-do-i-run-a-obfs4-bridge-debian
 ---
-description: 
+description:
 * Run "apt-get install tor obfs4proxy" (as root).
 * Make sure your clock, date, and timezone are set correctly.
   Install the ntp or openntpd (or similar) package to keep it that way.

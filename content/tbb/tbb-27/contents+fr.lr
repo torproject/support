@@ -6,32 +6,17 @@ seo_slug: mettre-à-jour-navigateur-tor
 ---
 description:
 Vous pouvez mettre le Navigateur Tor à jour dès qu’une nouvelle version paraît.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image4.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Le Navigateur Tor vous invitera à mettre le logiciel à jour dès qu’une nouvelle version est parue.</h4>
-      <p class="card-text">L’icône de BoutonTor (le petit oignon vert dans le coin supérieur droit du navigateur) affichera un triangle jaune.</p>
-    </div>
-  </div>
-</div>
+
+Tor Browser will prompt you to update the software once a new version has been released.
+
+L’icône de BoutonTor (le petit oignon vert dans le coin supérieur droit du navigateur) affichera un triangle jaune.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
 Lors du démarrage du Navigateur Tor, vous pourriez voir une indication écrite vous avisant qu’une mise à jour est proposée.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image5.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titre de la carte</h4>
-      <p class="card-text">Texte de la carte</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
 Le Navigateur Tor installera les mises à jour.
-<div class="col-md-6">
-  <div class="card">
-    <img class="card-img-top" src="/static/images/image3.png" alt="New release alert">
-    <div class="card-body">
-      <h4 class="card-title">Titre de la carte</h4>
-      <p class="card-text">Texte de la carte</p>
-    </div>
-  </div>
-</div>
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

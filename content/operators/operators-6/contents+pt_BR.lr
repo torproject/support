@@ -2,7 +2,7 @@ _model: question
 ---
 title: Como eu rodo um obfs4 no Debian?
 ---
-seo_slug: how-do-i-run-a-obfs4-bridge-debian
+seo_slug: como-rodar-o-obfs4-ponte-debian
 ---
 description:
 * Execute "apt-get install tor obfs4proxy" (como root).
@@ -32,7 +32,7 @@ Certifique-se que seu relógio, data e fuso horário estão configurados correta
 * Execute "service tor reload" (como root).
 * Depois que seu retransmissor conecta na rede, ele vai tentar determinar se as portas que você configurou são alcançáveis do lado de fora.
   Esta etapa geralmente é rápida, mas pode levar alguns minutos.
-* Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+* Veja o log de entrada em  /var/log/syslog tal como "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   Se você não consegue visualizar esta mensagem, isto significa que o seu relay não é acessível por fora.
   Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
 * Você deveria olhar também a mensagem "Servidor de transporte registrado 'obfs4'" indicando que obfs4proxy é funcional.
