@@ -17,7 +17,7 @@ Cuando se accede a un sitio web que utiliza un servicio onion (cebolla), el Nave
     <div class="card">
         <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
     <div class="card-body">
-        <h4 class="card-title">Icon of a green onion to identify .onion website</h4>
+        <h4 class="card-title">Icono de una cebolla verde para identificar el sitio web .onion</h4>
     </div>
 </div>
 

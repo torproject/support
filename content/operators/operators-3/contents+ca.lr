@@ -5,7 +5,7 @@ title: Com puc executar un repetidor intermitg o de protecció en FreeBSD o Hard
 seo_slug: com-puc-executar-un-intermediari-o-guarda-a-freebsd
 ---
 description:
-Per obtenir un recurs més complet en l'execució d'un relé, consulteu la <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia de relé de Tor</a>.
+Per obtenir un recurs més complet en l'execució d'un repetidor, consulteu la <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia de repetidors de Tor</a></mark>.
 
 * Executa "pkg install tor" (com root).
 * Assegureu-vos que el rellotge, la data i la zona horària estiguin configurades correctament.

@@ -1,10 +1,10 @@
-_model: question 
+_model: question
 ---
 title: How do I run a middle or guard relay on Debian?
 ---
 seo_slug: how-do-i-run-a-middle-or-guard-relay
 ---
-description: 
+description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
 

@@ -39,7 +39,7 @@ Diese Option löscht private Informationen nicht und entkoppelt auch bisherige A
     <div class="card">
         <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
     <div class="card-body">
-        <h4 class="card-title">New Circuit for this Site</h4>
+        <h4 class="card-title">Neuen Kanal für diese Seite</h4>
     </div>
 </div>
 

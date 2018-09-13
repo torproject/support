@@ -5,7 +5,7 @@ title: Comment puis-je exécuter un relais intermédiaire ou de garde sous FreeB
 seo_slug: comment-puis-je-faire-fonctionner-un-relais-intermédiaire-ou-de-garde-sous-freebsd
 ---
 description:
-Pour des informations approfondies sur la mise en place d’un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a>.
+Pour des informations approfondies sur la mise en place d’un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a></mark>.
 
 * Exécutez « pkg install tor » (en tant que superutilisateur).
 Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctement réglés.

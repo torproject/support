@@ -17,7 +17,7 @@ Onion hizmeti kullanan bir web sitesine erişirken, Tor Browser adres çubuğund
     <div class="card">
         <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
     <div class="card-body">
-        <h4 class="card-title">Icon of a green onion to identify .onion website</h4>
+        <h4 class="card-title">.onion Web Sitelerini Belirten Yeşil Soğan Simgesi</h4>
     </div>
 </div>
 

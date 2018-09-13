@@ -5,7 +5,7 @@ title: Wie Betreibe ich ein Mittel-Relay auf FreeBSD oder HardenedBSD?
 seo_slug: wie-betreibe-ich-ein-relay-auf-freebsd
 ---
 description:
-Für die meisten tiefergehenden Ressourcen um ein Relay zu betreiben, siehe den <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a>.
+Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
 
 * Führe "pkg install tor" als root aus.
 * Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind.

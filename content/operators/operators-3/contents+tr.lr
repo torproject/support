@@ -5,7 +5,7 @@ title: Bir orta ya da koruma aktarıcısını FreeBSD ya da HardenedBSD üzerind
 seo_slug: bir-orta-ya-da-koruma-aktaricisi-freebsd-uzerinde-nasil-isletilir
 ---
 description:
-Bir aktarıcı işletmek ile ilgili en ayrıntılı bilgileri almak için <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Aktarıcı Belgesine</a></mark> bakabilirsiniz.
+Bir aktarıcı işletmek ile ilgili ayrıntılı bilgi almak için <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Aktarıcı Belgesine</a></mark> bakabilirsiniz.
 
 * Run "pkg install tor" komutunu yürütün (root olarak).
 * Saat, tarih ve saat dilimi ayarlarının doğru olduğundan emin olun.
