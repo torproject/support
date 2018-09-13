@@ -1,0 +1,10 @@
+_model: question
+---
+title: Ao executar o Navegador Tor eu me torno um retransmissor?
+---
+seo_slug: rodar-navegador-tor-me-faz-um-retransmissor
+---
+description:
+Rodando o Navegador Tor não faz você agir como um transmissor na rede.
+Isso significa que seu computador não vai ser usado para rotear trafégo para outros.
+Se você gostaria de ser tornar um relay, por favor veja nosso <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay </a></mark>

@@ -1,0 +1,10 @@
+_model: question
+---
+title: Eu posso executar Tor em um aparelho Android?
+---
+seo_slug: execute-tor-no-android
+---
+description:
+Tor em Android é fornecido pelo projeto O Guardião.
+Mais informações podem ser encontradas nas páginas <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> e <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>.
+Orfox é um navegador de internet, e Orbot pode rotear outras apps em seu telefone Android sob a rede Tor.

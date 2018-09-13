@@ -1,0 +1,14 @@
+_model: question
+---
+title: Um site (banco, provedor de e-mail, etc...) bloqueia-me sempre que uso Tor. O que eu posso fazer?
+---
+seo_slug: website-locks-torbrowser-out
+---
+description:
+Navegador Tor frequentemente faz sua conexão parecer que está vindo de diferentes partes do mundo.
+Alguns websites, como de bancos ou provedores de email, podem interpretar isso como um sinal que sua conta foi comprometida e bloquear você.
+
+A melhor maneira de resolver isso é seguir os procedimentos recomendados no site para recuperação de contas, ou contactar os operadores e explicar a situação.
+
+Você pode estár apto a evitar esse cenário se seu provedor oferecer autenticação 2 fatores, que é uma opção mais segura que reputação baseada em IP.
+Contate seu provedor e pergunte a eles se eles provem 2FA.
