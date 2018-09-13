@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-09 12:23+CET\n"
+"POT-Creation-Date: 2018-09-13 14:25+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/1519/fa/)\n"
@@ -41,6 +41,11 @@ msgid ""
 "However, be aware that your other browser is not keeping your activity "
 "private, and you may forget and accidentally use that non-private browser to "
 "do something that you intended to do in Tor Browser."
+msgstr ""
+
+#: http://localhost/misc/misc-4/
+#: (content/misc/misc-4/contents+en.lr:question.description)
+msgid "We do not recommend using Tor with BitTorrent."
 msgstr ""
 
 #: http://localhost/connecting/connecting-2/
@@ -65,6 +70,11 @@ msgid ""
 "services from one country, and suddenly you are connecting from an exit "
 "relay on the other side of the world, your account may be locked or "
 "suspended)."
+msgstr ""
+
+#: http://localhost/https/https-1/
+#: (content/https/https-1/contents+en.lr:question.description)
+msgid "Tor prevents eavesdroppers from learning sites that you visit."
 msgstr ""
 
 #: http://localhost/tbb/tbb-41/
@@ -231,13 +241,6 @@ msgstr ""
 msgid "What is a .onion or what are onion services?"
 msgstr ""
 
-#: http://localhost/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lr:question.description)
-msgid ""
-"After a few hours (to give it enough time to propagate), you can query Atlas "
-"to see whether your relay has successfully registered in the network."
-msgstr ""
-
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.description)
 msgid ""
@@ -272,11 +275,10 @@ msgstr ""
 msgid "Unfortunately, we don't yet have a version of Tor Browser for ChromeOS."
 msgstr ""
 
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-27/
+#: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid ""
-"* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
-"your ORPort is reachable from the outside. Excellent.\""
+"<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 msgstr ""
 
 #: http://localhost/misc/misc-5/
@@ -291,11 +293,11 @@ msgstr ""
 msgid "$ sudo apt-get install tor deb.torproject.org-keyring"
 msgstr ""
 
-#: http://localhost/misc/misc-3/
-#: (content/misc/misc-3/contents+en.lr:question.description)
+#: http://localhost/misc/misc-12/
+#: (content/misc/misc-12/contents+en.lr:question.description)
 msgid ""
-"We feel that talking openly about our funders and funding model is the best "
-"way to maintain trust with our community."
+"Many exit nodes are configured to block certain types of file sharing "
+"traffic, such as BitTorrent."
 msgstr ""
 
 #: http://localhost/censorship/censorship-4/
@@ -344,6 +346,15 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "RunAsDaemon 1"
+msgstr ""
+
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
+msgid ""
+"If a SOCKS proxy is required for your network setup, then please make sure "
+"you’ve entered your proxy details correctly."
 msgstr ""
 
 #: http://localhost/operators/operators-4/
@@ -508,8 +519,6 @@ msgid ""
 "*BSD."
 msgstr ""
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
@@ -523,13 +532,6 @@ msgstr "<div class=\"col-md-6\">"
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* For OS X"
 msgstr "* برای سیستم عامل مک"
-
-#: http://localhost/misc/misc-12/
-#: (content/misc/misc-12/contents+en.lr:question.description)
-msgid ""
-"Many exit nodes are configured to block certain types of file sharing "
-"traffic, such as bittorrent."
-msgstr ""
 
 #: http://localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lr:question.description)
@@ -573,11 +575,11 @@ msgstr "خدمات پیازی"
 msgid "Onion Services"
 msgstr "خدمات پیازی"
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
+#: http://localhost/operators/operators-7/
+#: (content/operators/operators-7/contents+en.lr:question.description)
 msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/image3.png\" alt=\"New "
-"release alert\">"
+"If law enforcement becomes interested in traffic from your exit relay, it's "
+"possible that officers will seize your computer."
 msgstr ""
 
 #: http://localhost/censorship/censorship-7/
@@ -758,6 +760,11 @@ msgstr ""
 msgid "having-trouble-connecting-to-tor"
 msgstr ""
 
+#: http://localhost/misc/misc-4/
+#: (content/misc/misc-4/contents+en.lr:question.title)
+msgid "Can I use Tor with BitTorrent?"
+msgstr "آیا من می توانم از تور با بیت تورنت استفاده کنم ؟"
+
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
 msgid ""
@@ -825,9 +832,23 @@ msgstr ""
 "مک اواس شما باید بعد از اتمام فرایند نصب آن را به پوشه اپلیکیشن ها انتقال "
 "دهید)"
 
+#: http://localhost/tbb/tbb-22/
+#: (content/tbb/tbb-22/contents+en.lr:question.seo_slug)
+msgid "make-tor-faster"
+msgstr "افزایش-سرعت-تور"
+
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.title)
 msgid "Can I use the Tor logo in my product?"
+msgstr ""
+
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
+msgid ""
+"If you see lines like this in your Tor log, it means that Tor failed to "
+"complete a TLS handshake with the directory authorities."
 msgstr ""
 
 #: http://localhost/tbb/tbb-19/
@@ -847,13 +868,6 @@ msgid ""
 "We don’t think Flash is safe to use in any browser — it's a very insecure "
 "piece of software that can easily compromise your privacy or serve you "
 "malware."
-msgstr ""
-
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/image4.png\" alt=\"New "
-"release alert\">"
 msgstr ""
 
 #: http://localhost/onionservices/onionservices-1/
@@ -919,11 +933,6 @@ msgstr "تور موبایل"
 msgid "How can I share files anonymously through Tor?"
 msgstr ""
 
-#: http://localhost/misc/misc-4/
-#: (content/misc/misc-4/contents+en.lr:question.description)
-msgid "We do not recommend using Tor with bittorrent."
-msgstr ""
-
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* tor.real"
@@ -931,6 +940,8 @@ msgstr "* tor.real"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "##### Common log error #4: Clock skew"
 msgstr ""
 
@@ -939,6 +950,13 @@ msgstr ""
 msgid ""
 "Both options are located in the Menu, but you can also access the New "
 "Circuit option inside the site information menu, in the URL bar."
+msgstr ""
+
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
+msgid "Using bridges will likely fix this."
 msgstr ""
 
 #: http://localhost/misc/misc-1/
@@ -994,6 +1012,13 @@ msgstr "مرورگر تور برای چه سکوهایی در دسترس هست�
 msgid "Tor on Android is provided by The Guardian Project."
 msgstr ""
 
+#: http://localhost/censorship/censorship-2/
+#: (content/censorship/censorship-2/contents+en.lr:question.description)
+msgid ""
+"If you are unable to connect to an onion service, please see <a href=\"/"
+"#onionservices-3\">I cannot reach X.onion!</a>"
+msgstr ""
+
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
@@ -1025,9 +1050,11 @@ msgid ""
 "Metrics</a></mark>."
 msgstr ""
 
-#: http://localhost/misc/misc-2/
-#: (content/misc/misc-2/contents+en.lr:question.title)
-msgid "Why don't you prevent bad people from doing bad things when using Tor?"
+#: http://localhost/tbb/tbb-26/
+#: (content/tbb/tbb-26/contents+en.lr:question.description)
+msgid ""
+"Please see the <mark><a href=\"https://www.eff.org/https-everywhere/faq"
+"\">HTTPS Everywhere FAQ</a></mark>."
 msgstr ""
 
 #: http://localhost/misc/misc-5/
@@ -1139,6 +1166,13 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\">"
 msgstr ""
 
+#: http://localhost/misc/misc-12/
+#: (content/misc/misc-12/contents+en.lr:question.description)
+msgid ""
+"BitTorrent in specific is <mark><a href=\"https://blog.torproject.org/"
+"bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
+msgstr ""
+
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.description)
 msgid ""
@@ -1183,12 +1217,10 @@ msgstr "چرا جاوااسکریپت به صورت پیش‌فرض بر روی 
 msgid "tor-funding"
 msgstr ""
 
-#: http://localhost/tbb/tbb-33/
-#: (content/tbb/tbb-33/contents+en.lr:question.description)
-msgid ""
-"If you'd like to become a relay, please see our <mark><a href=\"https://trac."
-"torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay Guide</a></mark>."
-msgstr ""
+#: http://localhost/tbb/tbb-27/
+#: (content/tbb/tbb-27/contents+en.lr:question.description)
+msgid "Tor browser will install the updates."
+msgstr "مرورگر تور به روز رسانی ها را نصب خواهد کرد."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -1218,6 +1250,11 @@ msgid ""
 msgstr ""
 
 #: http://localhost/operators/operators-7/
+#: (content/operators/operators-7/contents+en.lr:question.seo_slug)
+msgid "run-exit-from-home"
+msgstr ""
+
+#: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.title)
 msgid "Should I run an exit relay from home?"
 msgstr ""
@@ -1232,17 +1269,6 @@ msgstr "به روز رسانی-مرورگر-تور"
 msgid ""
 "* Review our <mark><a href=\"https://trac.torproject.org/projects/tor/wiki/"
 "doc/TorExitGuidelines\">Exit relay guidelines</a></mark>"
-msgstr ""
-
-#: http://localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lr:question.description)
-msgid ""
-"13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with "
-"SSL state (No SSL object)</code></pre>If you see lines like this in your Tor "
-"log, it means that Tor failed to complete a TLS handshake with the directory "
-"authorities. Using bridges will likely fix this.<h5>Common log error #4: "
-"Clock skew</h5><pre><code> 19.11.2017 00:04:47.400 [NOTICE] Opening Socks "
-"listener on 127.0.0.1:9150"
 msgstr ""
 
 #: http://localhost/operators/operators-4/
@@ -1316,6 +1342,15 @@ msgstr ""
 msgid "tor-browser-will-not-connect-no-censorship"
 msgstr ""
 
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
+msgid ""
+"If you see lines like these  in your Tor log, it means you are failing to "
+"connect to a SOCKS proxy."
+msgstr ""
+
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.description)
 msgid ""
@@ -1353,9 +1388,11 @@ msgstr ""
 msgid "BridgeRelay 1"
 msgstr ""
 
-#: http://localhost/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.seo_slug)
-msgid "run-exit-from-home"
+#: http://localhost/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lr:question.description)
+msgid ""
+"* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
+"your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
 
 #: http://localhost/tbb/tbb-22/
@@ -1384,6 +1421,12 @@ msgstr ""
 msgid "connecting-to-tor"
 msgstr "در حال اتصال به تور"
 
+#: http://localhost/tbb/tbb-27/
+#: (content/tbb/tbb-27/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/image3.png\" alt=\"New release alert\">"
+msgstr ""
+
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.description)
 msgid ""
@@ -1402,11 +1445,6 @@ msgstr ""
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.seo_slug)
 msgid "get-rid-of-captchas"
-msgstr ""
-
-#: http://localhost/censorship/censorship-3/
-#: (content/censorship/censorship-3/contents+en.lr:question.seo_slug)
-msgid "how-do-i-download-tor-if-torproject-org-is-blocked"
 msgstr ""
 
 #: http://localhost/tbb/tbb-2/
@@ -1432,11 +1470,6 @@ msgstr ""
 "اگر از نسخه انگلیسی استفاده می کنید نام فولدر باید \"tor-browser_en-US\" "
 "باشد "
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
-msgid "<h4 class=\"card-title\">Card title</h4>"
-msgstr ""
-
 #: http://localhost/misc/ (content/misc/contents+en.lr:topic.seo_slug)
 msgid "misc"
 msgstr "متفرقه"
@@ -1449,10 +1482,12 @@ msgid ""
 "may occur."
 msgstr ""
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
-msgid "Tor browser will install the updates."
-msgstr "مرورگر تور به روز رسانی ها را نصب خواهد کرد."
+#: http://localhost/tbb/tbb-33/
+#: (content/tbb/tbb-33/contents+en.lr:question.description)
+msgid ""
+"If you'd like to become a relay, please see our <mark><a href=\"https://trac."
+"torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay Guide</a></mark>."
+msgstr ""
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.seo_slug)
@@ -1462,13 +1497,6 @@ msgstr ""
 #: http://localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lr:question.title)
 msgid "Can I set Tor Browser as my default browser?"
-msgstr ""
-
-#: http://localhost/tbb/tbb-26/
-#: (content/tbb/tbb-26/contents+en.lr:question.description)
-msgid ""
-"Please see the <mark><a href=\"https://www.eff.org/https-everywhere/faq"
-"\">HTTPS Everywhere</a></mark>."
 msgstr ""
 
 #: http://localhost/connecting/connecting-2/
@@ -1573,8 +1601,6 @@ msgstr ""
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
 msgid ""
 "If you are unable to connect to an onion service, please see <a href="
 "\"#onionservices-3\">I cannot reach X.onion!</a>"
@@ -1622,6 +1648,13 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "###### Common log error #1: Proxy connection failure"
+msgstr ""
+
+#: http://localhost/misc/misc-3/
+#: (content/misc/misc-3/contents+en.lr:question.description)
+msgid ""
+"We feel that talking openly about our funders and funding model is the best "
+"way to maintain trust with our community."
 msgstr ""
 
 #: http://localhost/tbb/tbb-9/
@@ -1694,13 +1727,6 @@ msgstr ""
 msgid "* TorBrowser"
 msgstr "* مرورگر تور"
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Tor Browser will prompt you to update the software "
-"once a new version has been released.</h4>"
-msgstr ""
-
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
@@ -1763,12 +1789,10 @@ msgstr ""
 msgid "* For Windows"
 msgstr "*برای ویندوز"
 
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid ""
-"We currently offer <mark><a href=\"https://www.torproject.org/projects/"
-"torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
-msgstr ""
+#: http://localhost/tbb/tbb-26/
+#: (content/tbb/tbb-26/contents+en.lr:question.title)
+msgid "I'm having a problem with HTTPS Everywhere."
+msgstr "من با HTTPS Everywhere مشکل دارم."
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.seo_slug)
@@ -1828,6 +1852,8 @@ msgstr ""
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid ""
 "13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with "
 "SSL state (No SSL object)"
@@ -1989,13 +2015,6 @@ msgstr ""
 msgid "* firefox.exe"
 msgstr "* firefox.exe"
 
-#: http://localhost/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.description)
-msgid ""
-"If law enforcement becomes interested in traffic from your exit relay, it's "
-"possible that officers will seize your computer."
-msgstr ""
-
 #: http://localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lr:question.seo_slug)
 msgid "change-the-number-of-hops-tor-uses"
@@ -2139,6 +2158,13 @@ msgstr ""
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.seo_slug)
 msgid "cannot-find-tor-on-windows"
+msgstr ""
+
+#: http://localhost/tbb/tbb-27/
+#: (content/tbb/tbb-27/contents+en.lr:question.description)
+msgid ""
+"Tor Browser will prompt you to update the software once a new version has "
+"been released."
 msgstr ""
 
 #: http://localhost/faq/faq-3/
@@ -2432,6 +2458,11 @@ msgstr ""
 msgid "censorship"
 msgstr "سانسور"
 
+#: http://localhost/misc/misc-2/
+#: (content/misc/misc-2/contents+en.lr:question.title)
+msgid "Why don't you prevent bad people from doing bad things when using Tor?"
+msgstr ""
+
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.description)
 msgid ""
@@ -2497,13 +2528,6 @@ msgstr ""
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.title)
 msgid "I'm having a problem updating or using Vidalia."
-msgstr ""
-
-#: http://localhost/misc/misc-12/
-#: (content/misc/misc-12/contents+en.lr:question.description)
-msgid ""
-"Bittorrent in specific is <mark><a href=\"https://blog.torproject.org/"
-"bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
 
 #: http://localhost/tbb/tbb-20/
@@ -2607,8 +2631,6 @@ msgstr ""
 "وقتی بین تور و مرورگری با ایمنی کمتر جابجا می‌شوید مراقب باشید چون ممکن است "
 "از آن مرورگر برای کاری استفاده کنید که قصد داشتید آن را با تور انجام دهید."
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
@@ -2717,13 +2739,6 @@ msgid ""
 "\">Contact us</a></mark>."
 msgstr ""
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/image5.png\" alt=\"New "
-"release alert\">"
-msgstr ""
-
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.seo_slug)
 msgid "how-to-download-tor-if-torproject-org-is-blocked"
@@ -2754,6 +2769,8 @@ msgstr ""
 msgid "* obfs4proxy.exe (if you use bridges)"
 msgstr "obfs4proxy.exe ( اگر شما از پل استفاده می‌کنید)"
 
+#: http://localhost/operators/operators-1/
+#: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
 #: http://localhost/operators/operators-3/
@@ -2774,8 +2791,6 @@ msgid ""
 "signature, and the package’s checksum."
 msgstr ""
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
@@ -2805,8 +2820,6 @@ msgid ""
 "as well once they are reloaded."
 msgstr ""
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
@@ -2894,10 +2907,12 @@ msgid ""
 "\">Learn more about the design of Tor Browser</a></mark>."
 msgstr ""
 
-#: http://localhost/tbb/tbb-26/
-#: (content/tbb/tbb-26/contents+en.lr:question.title)
-msgid "I'm having a problem with HTTPS Everywhere."
-msgstr "من با HTTPS Everywhere مشکل دارم."
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid ""
+"We currently offer <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
+msgstr ""
 
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
@@ -2959,13 +2974,6 @@ msgstr ""
 msgid "Can I run Tor on an iOS device?"
 msgstr ""
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
-msgid ""
-"<p class=\"card-text\">The Torbutton icon (the little green onion in the top "
-"left corner of the browser) will display a yellow triangle.</p>"
-msgstr ""
-
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.description)
 #: http://localhost/gettor/gettor-4/
@@ -3004,11 +3012,6 @@ msgstr ""
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
-msgstr ""
-
-#: http://localhost/misc/misc-4/
-#: (content/misc/misc-4/contents+en.lr:question.title)
-msgid "Can I use Tor with bittorrent?"
 msgstr ""
 
 #: http://localhost/operators/operators-3/
@@ -3102,9 +3105,11 @@ msgid ""
 "censorship."
 msgstr ""
 
-#: http://localhost/https/https-1/
-#: (content/https/https-1/contents+en.lr:question.description)
-msgid "Tor protects eavesdroppers from learning sites that you visit."
+#: http://localhost/tbb/tbb-27/
+#: (content/tbb/tbb-27/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 msgstr ""
 
 #: http://localhost/onionservices/onionservices-1/
@@ -3178,16 +3183,6 @@ msgstr ""
 msgid ""
 "Of course, you should avoid keeping any sensitive or personal information on "
 "the computer hosting your exit relay."
-msgstr ""
-
-#: http://localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lr:question.description)
-msgid ""
-"If you see lines like these  in your Tor log, it means you are failing to "
-"connect to a SOCKS proxy. If a SOCKS proxy is required for your network "
-"setup, then please make sure you’ve entered your proxy details correctly."
 msgstr ""
 
 #: http://localhost/censorship/censorship-7/
@@ -3368,12 +3363,9 @@ msgid ""
 "Tor will guess)"
 msgstr ""
 
-#: http://localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lr:question.description)
-msgid ""
-"If you see lines like this in your Tor log, it means that Tor failed to "
-"complete a TLS handshake with the directory authorities. Using bridges will "
-"likely fix this."
+#: http://localhost/censorship/censorship-3/
+#: (content/censorship/censorship-3/contents+en.lr:question.seo_slug)
+msgid "how-do-i-download-tor-if-torproject-org-is-blocked"
 msgstr ""
 
 #: http://localhost/tbb/tbb-23/
@@ -3462,6 +3454,8 @@ msgstr "اگر torproject.org مسدود باشد، چگونه Tor را دانل
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid ""
 "19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
@@ -3538,10 +3532,12 @@ msgstr ""
 msgid "Install the ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
 
-#: http://localhost/tbb/tbb-22/
-#: (content/tbb/tbb-22/contents+en.lr:question.seo_slug)
-msgid "make-tor-faster"
-msgstr "افزایش-سرعت-تور"
+#: http://localhost/tbb/tbb-27/
+#: (content/tbb/tbb-27/contents+en.lr:question.description)
+msgid ""
+"The Torbutton icon (the little onion in the top left corner of the browser) "
+"will display a yellow triangle."
+msgstr ""
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
@@ -3855,11 +3851,6 @@ msgid ""
 "work as anticipated on many platforms."
 msgstr ""
 
-#: http://localhost/tbb/tbb-27/
-#: (content/tbb/tbb-27/contents+en.lr:question.description)
-msgid "<p class=\"card-text\">Card text</p>"
-msgstr ""
-
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
 msgid ""
@@ -3990,9 +3981,6 @@ msgstr "پیوند دائمی"
 
 #~ msgid "We currently offer Tor Browser in the following languages:"
 #~ msgstr "مرورگر تور در حال حاضر به زبان‌های زیر در دسترس است:"
-
-#~ msgid "Can I use Tor with BitTorrent?"
-#~ msgstr "آیا من می توانم از تور با بیت تورنت استفاده کنم ؟"
 
 #~ msgid "Topics"
 #~ msgstr "موضوعات"
