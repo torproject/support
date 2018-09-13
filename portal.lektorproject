@@ -9,9 +9,9 @@ name = বাংলা ভাষা  (bn)
 url_prefix = /bn/
 locale = bn_BD
 
-[alternatives.bn_BD]
+[alternatives.bn-BD]
 name = বাংলা ভাষা  (bn)
-url_prefix = /bn/
+url_prefix = /bn-BD/
 locale = bn_BD
 
 [alternatives.ca]
@@ -60,9 +60,9 @@ name = Ivrit
 url_prefix = /he/
 locale = he
 
-[alternatives.pt_BR]
-name = Portugueis (Brasil)
-url_prefix = /pt_BR/
+[alternatives.pt-BR]
+name = Português (Brasil)
+url_prefix = /pt-BR/
 locale = pt_BR
 
 [alternatives.tr]
