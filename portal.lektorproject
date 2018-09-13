@@ -30,9 +30,9 @@ primary = yes
 url_prefix = /
 locale = en_US
 
-[alternatives.en_US]
+[alternatives.en-US]
 name = English (en)
-url_prefix = /en_US/
+url_prefix = /en-US/
 locale = en_US
 
 [alternatives.es]
