@@ -1,0 +1,32 @@
+_model: question
+---
+title: .onion কি অথবা অনিওন সার্ভিস কি ?
+---
+seo_slug: what-is-a-dot-onion
+---
+description:
+পেঁয়াজ পরিষেবা লোকজন নাম প্রকাশ করতে সম্মতি দেয় কিন্তু অনামী ওয়েবসাইট প্রকাশ সহ,
+
+<mark><a href="https://securedrop.org/">SecureDrop</a></mark> বা <mark><a href="https://onionshare.org/">OnionShare</a></mark>, নিরাপদ সফটওয়্যার আপডেট এবং <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>-এর মতো জনপ্রিয় ওয়েব সাইটে পৌঁছানোর জন্য, সাংবাদিকদের মধ্যে নিরাপদ চ্যাট এবং ফাইল শেয়ারিং-এর মাধ্যমে তাজা যোগাযোগ এবং আরও নিরাপদ উপায়ের জন্য অনিওন পরিষেবাগুলির উপর নির্ভর করে ।
+
+এই পরিষেবাগুলি বিশেষ ব্যবহারের TLD ব্যবহার করে। (পরিবর্তে .com, .net, .org, ইত্যাদি।) এবং কেবল টর নেটওয়ার্ক এর মাধ্যমে অ্যাক্সেসযোগ্য।
+
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. 
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
+    <div class="card-body">
+        <h4 class="card-title">Icon of a green onion to identify .onion website</h4>
+    </div>
+</div>
+
+And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
+    <div class="card-body">
+        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+    </div>
+</div>

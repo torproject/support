@@ -1,0 +1,45 @@
+_model: question
+---
+title: এই IP ঠিকানা পরিবর্তন করার কোন উপায় আছে যে টর ব্রাউজার আমাকে একটি নির্দিষ্ট সাইটের জন্য নিমিত্তে দেয়?
+---
+seo_slug: change-ip-address
+---
+description:
+টর ব্রাউজার আপনার রিলে বর্তনী পরিবর্তন করার দুইটি উপায় আছে — "নতুন পরিচয় " এবং "নতুন টর বর্তনী এই সাইট ".
+
+Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
+
+# # # # নতুন পরিচয়
+
+আপনি যদি আপনার পরবর্তী ব্রাউজার কার্যকলাপকে linkable করা থেকে বিরত রাখতে চান তাহলে এই অপশনটি দরকারী ।
+
+নির্বাচন করুন এটি আপনার সকল ট্যাব এবং windows বন্ধ করবে, কুকিজ এবং ব্রাউজিং ইতিহাস যেমন সকল গোপনীয় তথ্য মুছে ফেলবে এবং সকল সংযোগের জন্য নতুন টর বর্তনী ব্যবহার করুন ।
+
+টর ব্রাউজার আপনাকে সতর্ক করবে যে সকল ক্রিয়াকলাপ এবং ডাউনলোড বন্ধ হয়ে যাবে, তাই "নতুন পরিচয় "-এ ক্লিক করার আগে এটিকে অ্যাকাউন্টে নিন ।
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
+    <div class="card-body">
+        <h4 class="card-title">New Identity</h4>
+    </div>
+</div>
+
+
+# # # # # নিউ টর সার্কিট এই সাইটের জন্য
+
+যদি প্রস্থান রিলে আপনি ব্যবহার করছেন তাহলে এই বিকল্পটি দরকারী, অথবা আপনার প্রয়োজন ওয়েবসাইটে সংযোগ করতে অক্ষম, অথবা এটি সঠিকভাবে লোড করা নেই ।
+এটি নির্বাচন করার জন্য বর্তমানে সক্রিয় ট্যাব বা উইন্ডো একটি নতুন টর সার্কিটে লোড করা হবে ।
+
+একই ওয়েবসাইট থেকে অন্যান্য খোলা ট্যাব এবং windows নতুন সার্কিট ব্যবহার করবে, যা পুনরায় লোড করা হবে.
+
+এই বিকল্পটি কোনো গোপনীয় তথ্য বা আপনার সক্রিয়তার যোগসূত্রকে পরিষ্কার করে না এবং এটি আপনার বর্তমান সংযোগে অন্যান্য ওয়েবসাইটে প্রভাব ফেলে না ।
+
+<div class="col-md-6">
+    <div class="card">
+        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
+    <div class="card-body">
+        <h4 class="card-title">New Circuit for this Site</h4>
+    </div>
+</div>
+

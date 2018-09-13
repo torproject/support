@@ -1,0 +1,19 @@
+_model: question
+---
+title: আমি কিভাবে উবুন্টুর সঠিক প্যাকেজ ব্যবহার করছি তা কিভাবে নিশ্চিত করব?
+---
+seo_slug: সঠিক-প্যাকেজ-ব্যবহার-করা
+---
+description:
+* উবুন্টুর repositories প্যাকেজ ব্যবহার করবেন না । তাদের হালনাগাদ করা নির্ভরযোগ্যভাবে নয় । এগুলো ব্যবহার করলে গুরুত্বপূর্ণ স্থিতিশীলতা ও নিরাপত্তা সংশোধনের সুযোগ হাতছাড়া হবে ।
+* নিম্নোক্ত কমান্ড চালানোর মাধ্যমে আপনার উবুন্টু ভার্সন নির্ধারণ করুন:
+       $ lsb_release -c
+* root হিসেবে, নিম্নোক্ত পংক্তি/etc/apt/sources.list. করুন পূর্ববর্তী পদক্ষেপের জন্য আপনি যে সংস্করণটি খুঁজে পেয়েছেন তা ব্যবহার করুন ।
+       $ deb http://deb.torproject.org/torproject.org <version> main
+       $ deb-src http://deb.torproject.org/torproject.org <version> main
+* নিম্নোক্ত আদেশগুলি চালানোর মাধ্যমে প্যাকেজ স্বাক্ষর করতে ব্যবহৃত gpg কী ব্যবহার করুন:
+       $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
+       $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+* টর ইনস্টল করতে নিম্নোক্ত আদেশগুলি চালান এবং এর স্বাক্ষর পরীক্ষা করুন:
+       $ sudo apt-get update
+       $ sudo apt-get install tor deb.torproject.org-keyring
