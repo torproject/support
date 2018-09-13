@@ -11,7 +11,7 @@ Ayrıca Onion hizmetlerini kullanarak üst veriler olmadan sohbet ve dosya payla
 
 Bu hizmetlere erişmek için özel .onion üst düzey etki alanı kısaltması (.com, .net, .org, vb yerine) kullanılır ve erişim yalnız Tor ağı üzerinden yapılabilir.
 
-Onion hizmeti kullanan bir web sitesine erişirken, Tor Browser adres çubuğunda bağlantınızın durumunun güvenli ve bir onion hizmetini kullandığını belirten küçük yeşil bir soğan simgesi görüntülenir. 
+Onion hizmeti kullanan bir web sitesine erişirken, Tor Browser adres çubuğunda bağlantınızın durumunun güvenli ve bir onion hizmetini kullandığını belirten küçük yeşil bir soğan simgesi görüntülenir.
 
 <div class="col-md-6">
     <div class="card">
@@ -27,6 +27,6 @@ Bir web sitesine https ve onion hizmeti üzerinden erişikiyorsanız  bir yeşil
     <div class="card">
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
     <div class="card-body">
-        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
     </div>
 </div>

@@ -11,7 +11,7 @@ Los servicios de Onion también se utilizan para chatear y compartir archivos, s
 
 Estos servicios usan el TLD (dominio de primer nivel) de uso especial .onion (en lugar de .com, .net, .org, etc.) y sólo son accesibles a través de la red Sor.
 
-Cuando se accede a un sitio web que utiliza un servicio onion (cebolla), el Navegador Tor mostrará en la barra de URL un icono de una pequeña cebolla verde que muestra el estado de tu conexión: segura y usando un servicio onion. 
+Cuando se accede a un sitio web que utiliza un servicio onion (cebolla), el Navegador Tor mostrará en la barra de URL un icono de una pequeña cebolla verde que muestra el estado de tu conexión: segura y usando un servicio onion.
 
 <div class="col-md-6">
     <div class="card">
@@ -27,6 +27,6 @@ Y si estás accediendo a un sitio web con https y servicio onion, te mostrará u
     <div class="card">
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
     <div class="card-body">
-        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
     </div>
 </div>

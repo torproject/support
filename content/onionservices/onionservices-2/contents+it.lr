@@ -11,7 +11,7 @@ I servizi Onion sono affidabili anche per la chat e la condivisione di file senz
 
 Questi servizi utilizzano lo speciale dominio di primo livello .onion (invece di .com, .net, .org, ecc...) e sono accessibili unicamente attraverso il network Tor.
 
-Quando si accede ad un sito che usa un servizio onion, Tor Browser mostrerà nella barra degli URL un'icona di una piccola cipolla verde che indica lo stato della tua connessione: sicuro e con un servizio onion. 
+Quando si accede ad un sito che usa un servizio onion, Tor Browser mostrerà nella barra degli URL un'icona di una piccola cipolla verde che indica lo stato della tua connessione: sicuro e con un servizio onion.
 
 <div class="col-md-6">
     <div class="card">
@@ -27,6 +27,6 @@ E se stai accedendo ad un sito con https e un servizio onion, mostrerà un'icona
     <div class="card">
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
     <div class="card-body">
-        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
     </div>
 </div>

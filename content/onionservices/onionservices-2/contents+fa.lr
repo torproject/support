@@ -11,7 +11,7 @@ Onion services are also relied on for metadata-free chat and file sharing, safer
 
 These services use the special-use tld .onion (instead of .com,.net,.org,etc..) and are only accessible through the Tor network.
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. 
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
 
 <div class="col-md-6">
     <div class="card">
@@ -27,6 +27,6 @@ And if you're accessing a website with https and onion service, it will show an 
     <div class="card">
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
     <div class="card-body">
-        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
     </div>
 </div>

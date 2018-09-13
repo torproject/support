@@ -11,7 +11,7 @@ Layanan Onion juga diandalkan untuk layanan percakapan dan berbagi berkas bebas-
 
 Servis-servis ini menggunakan akhiran khusus .onion (bukan .com, .net, .org, dll.) dan hanya dapat diakses melalui jaringan Tor
 
-Saat mengakses sebuah situs web yang menggunakan layanan onion, Peramban Tor akan menunjukkan pada kolom URL sebuah ikon onion kecil berwarna hijau yang menampilkan keadaan koneksi anda: aman dan menggunakan sebiuah layanan onion. 
+Saat mengakses sebuah situs web yang menggunakan layanan onion, Peramban Tor akan menunjukkan pada kolom URL sebuah ikon onion kecil berwarna hijau yang menampilkan keadaan koneksi anda: aman dan menggunakan sebiuah layanan onion.
 
 <div class="col-md-6"> 
     <div class="card"> 
@@ -27,6 +27,6 @@ And if you're accessing a website with https and onion service, it will show an 
     <div class="card"> 
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
     <div class="card-body"> 
-        <h4 class="card-title">Green onion with a padloack to identify .onion website with https</h4>
+        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
     </div> 
 </div> 
