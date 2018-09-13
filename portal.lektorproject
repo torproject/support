@@ -5,7 +5,12 @@ url_style = absolute
 locale = en_US
 
 [alternatives.bn]
-name = Bengali
+name = বাংলা ভাষা  (bn)
+url_prefix = /bn/
+locale = bn_BD
+
+[alternatives.bn_BD]
+name = বাংলা ভাষা  (bn)
 url_prefix = /bn/
 locale = bn_BD
 
