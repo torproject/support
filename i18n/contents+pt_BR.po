@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 11:51+CET\n"
+"POT-Creation-Date: 2018-09-14 12:19+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kordycepts, The Night City <kordycepts@protonmail.com>, "
 "2018\n"
@@ -2380,6 +2380,10 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations that are "
 "less likely to be censored, such as Dropbox, Google Drive, and GitHub."
 msgstr ""
+"GetTor é um serviço que automaticamente responde mensagens com endereços "
+"para a última versão do Navegador Tor, hospedado em diversas localizações "
+"que são menos propensas de serem censuradas, como Dropbox, Google Drive, e "
+"GitHub."
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -2532,6 +2536,8 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Veja sua entrada de log em /var/log/syslog algo como \"Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -2566,6 +2572,14 @@ msgid ""
 "www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-"
 "secure/1526085754298237/\">Facebook</a></mark>."
 msgstr ""
+"Os serviços onion também oferecem confiabilidade para chats e "
+"compartilhamento de arquivos livres de metadados, interações mais segura "
+"para jornalistas e suas fontes usando recursos como o <mark><a href="
+"\"https://securedrop.org/\">SecureDrop</a></mark> ou o <mark><a href="
+"\"https://onionshare.org/\">OnionShare</a></mark>, atualizações de software "
+"mais seguras e  meios de acesso mais seguro a websites populares tais como o "
+"<mark><a href=\"https://www.facebook.com/notes/protect-the-graph/making-"
+"connections-to-facebook-more-secure/1526085754298237/\">Facebook</a></mark>."
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -2913,7 +2927,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
-msgstr ""
+msgstr "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.title)
@@ -2953,6 +2967,8 @@ msgid ""
 "19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory "
 "server"
 msgstr ""
+"19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory "
+"server"
 
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.description)
@@ -2972,6 +2988,9 @@ msgid ""
 "<mark><a href=\"https://tb-manual.torproject.org/en-US/troubleshooting.html"
 "\">Tor Browser manual</a></mark>."
 msgstr ""
+"Se isso não solucionar o problema, veja a página de Solução de Problemas no "
+"<mark><a href=\"https://tb-manual.torproject.org/en-US/troubleshooting.html"
+"\">manual do Navegador Tor</a></mark>"
 
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.description)
@@ -3165,6 +3184,10 @@ msgid ""
 "mark> for the most recent stable Tor Browser post to see if your issue is "
 "listed."
 msgstr ""
+"Se você começar a encontrar problemas com seu Tor depois de uma atualização, "
+"acesse <mark><a href=\"https://blog.torproject.org>blog.torproject.org</a></"
+"mark> para checar o post da versão estável mais recente do navegador Tor e "
+"ver se seu problema está listado."
 
 #: http://localhost/misc/ (content/misc/contents+en.lr:topic.title)
 msgid "Misc"
@@ -3200,6 +3223,11 @@ msgid ""
 "the download</a></mark>), the fingerprint of the key used to make the "
 "signature, and the package’s checksum."
 msgstr ""
+"GetTor vai responder com um email contendo endereços do qual você pode "
+"baixar o Navegador Tor, a assinatura criptográfica(necessária para <mark><a "
+"href=\"https://www.torproject.org/docs/verifying-signatures.html.en"
+"\">verificar o download</a></mark>), a impressão digital da chave usada para "
+"fazer a assinatura, e o checksum do pacote."
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -3310,6 +3338,8 @@ msgid ""
 "\">TorBSD project</a></mark>, but their Tor Browser is not officially "
 "supported."
 msgstr ""
+"Existe o projeto <mark><a href=\"https://www.torbsd.org/\">TorBSD</a></"
+"mark>, mas o navegador Tor deles não é oficialmente suportado."
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.seo_slug)
@@ -3444,6 +3474,8 @@ msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 msgstr ""
+"Ainda não há versão oficial do Tor para iOS. Assim, nós recomendamos o "
+"<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -4088,6 +4120,8 @@ msgid ""
 "Look for a log entry in your /var/log/syslog such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Veja sua entrada de log em /var/log/syslog algo como \"Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: http://localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lr:question.seo_slug)
