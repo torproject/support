@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-13 23:01+CET\n"
+"POT-Creation-Date: 2018-09-14 11:51+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Bengali (Bangladesh) (https://www.transifex.com/otf/"
@@ -1821,7 +1821,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "###### Common log error #1: Proxy connection failure"
-msgstr "# # # # # সাধারণ লগ-ইন ত্রুটি #1: প্রক্সি সংযোগ বিফলতা"
+msgstr "##### সাধারণ লগ-ইন ত্রুটি #1: প্রক্সি সংযোগ বিফলতা"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -1878,7 +1878,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "##### New Identity"
-msgstr "# # # # নতুন পরিচয়"
+msgstr "##### নতুন পরিচয়"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.title)
@@ -2709,7 +2709,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "##### New Tor Circuit for this Site"
-msgstr "# # # # # নিউ টর সার্কিট এই সাইটের জন্য"
+msgstr "##### নিউ টর সার্কিট এই সাইটের জন্য"
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.title)
