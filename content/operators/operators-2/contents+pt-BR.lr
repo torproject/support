@@ -5,7 +5,7 @@ title: Como eu executo um relay de saída no Debian ?
 seo_slug: how-do-i-run-an-exit
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a></mark>.
 
 * Revise nossos <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines"> Diretrizes de relays de saída</a></mark>
 * Execute "apt-get install tor" (como root).

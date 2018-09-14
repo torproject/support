@@ -5,7 +5,7 @@ title: Como eu executo um retransmissor do meio ou guarda no FreeBSD ou Hardened
 seo_slug: como-rodar-um-intermediario-ou-guarda-no-freebsd
 ---
 description:
-Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a>.
+Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a></mark>.
 
 * Execute "pkg install tor" (como root).
 Certifique-se que seu relógio, data e fuso horário estão configurados corretamente.
