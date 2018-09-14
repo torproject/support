@@ -8,7 +8,7 @@ description:
 * Ná húsáid na pacáistí i gcartlanna Ubuntu. Ní dhéantar nuashonrú orthu ar bhonn rialta. Má úsáideann tú iad, ní bhfaighidh tú nuashonruithe tábhachtacha a bhaineann le cobhsaíocht agus le slándáil.
 * Is féidir leat an leagan Ubuntu atá agat a fháil amach leis an ordú seo a leanas:
        $ lsb_release -c
-* Cuir na línte seo a leanas le /etc/apt/sources.list mar root. Úsáid an leagan a d'aimsigh tú sa chéim roimhe seo in áit <leagan>.
+* Cuir na línte seo a leanas le /etc/apt/sources.list mar root. Úsáid an leagan a d'aimsigh tú sa chéim roimhe seo in áit "leagan".
        $ deb http://deb.torproject.org/torproject.org <leagan> main
        $ deb-src http://deb.torproject.org/torproject.org <leagan> main
 * Sainigh an eochair gpg a úsáideadh chun na pacáistí a shíniú leis na horduithe seo a leanas:

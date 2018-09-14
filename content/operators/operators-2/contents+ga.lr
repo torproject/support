@@ -25,7 +25,7 @@ Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionso
     ## Seoladh IP nó óstainm a úsáideann ceangail isteach (fág mar nóta tráchta é agus tabharfaidh Tor buille faoi thuairim)
     #Address noname.example.com
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Socraigh an ráta bandaleithid (fág mar nóta tráchta é agus rithfidh Tor gan teorainn ar bhandaleithead)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 

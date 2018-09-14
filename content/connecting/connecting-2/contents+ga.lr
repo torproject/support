@@ -22,7 +22,7 @@ Má fheiceann tú línte den sórt seo i do logchomhad Tor, ciallaíonn sé gur 
 Má theastaíonn seachfhreastalaí SOCKS uait ar do líonra, deimhnigh gur chuir tú mionsonraí an fhreastalaí isteach go ceart.
 Mura dteastaíonn seachfhreastalaí SOCKS uait, nó mura bhfuil tú cinnte, déan iarracht ceangal a bhunú le líonra Tor gan seachfhreastalaí SOCKS.
 
-##### Earráid choitianta #2 sa logchomhad: Ní féidir gardaí a bhaint amach
+##### Earráid choitianta #2 sa logchomhad: Ní féidir garda iontrála a bhaint amach
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network

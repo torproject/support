@@ -31,7 +31,7 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
+Αυτό θα μπορούσε να σημαίνει πως το δίκτυό σας λογοκρίνεται.
 
 Please try connecting with bridges, and that should fix the problem.
 
