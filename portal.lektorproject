@@ -25,9 +25,9 @@ name = Bengali
 url_prefix = /bn/
 locale = bn_BD
 
-[alternatives.bn_BD]
+[alternatives.bn-BD]
 name = Bengali
-url_prefix = /bn_BD/
+url_prefix = /bn-BD/
 locale = bn_BD
 
 [alternatives.ca]
@@ -45,10 +45,10 @@ name = Ελληνικά (Ellinika)
 url_prefix = /el/
 locale = el_EL
 
-[alternatives.en_US]
+[alternatives.en-US]
 name = English
 primary = yes
-url_prefix = /en_US/
+url_prefix = /en-US/
 locale = en_US
 
 [alternatives.es]
@@ -117,12 +117,12 @@ url_prefix = /pl/
 locale = pl_PL
 
 [alternatives.pt]
-name = Português
+name = Português (pt-BR)
 url_prefix = /pt/
 locale = pt_BR
 
 [alternatives.ru]
-name =  Русский (Russkij)
+name =  Русский (ru)
 url_prefix = /ru/
 locale = ru_RU
 
@@ -132,16 +132,16 @@ url_prefix = /vi/
 locale = vi_VI
 
 [alternatives.tr]
-name = Türkçe
+name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr_TR
 
-[alternatives.zh_CN]
-name = 中文(简)
-url_prefix = /zh_CN/
+[alternatives.zh-CN]
+name = 中文(简) (zh-CN)
+url_prefix = /zh-CN/
 locale = zh_CN
 
-[alternatives.zh_TW]
-name = 中文(繁)
-url_prefix = /zh_TW/
+[alternatives.zh-TW]
+name = 中文(繁) (zh-CN)
+url_prefix = /zh-TW/
 locale = zh_TW
