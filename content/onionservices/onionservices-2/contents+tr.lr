@@ -16,8 +16,9 @@ Onion hizmeti kullanan bir web sitesine erişirken, Tor Browser adres çubuğund
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
-    <div class="card-body">
-        <h4 class="card-title">.onion Web Sitelerini Belirten Yeşil Soğan Simgesi</h4>
+        <div class="card-body">
+            <h4 class="card-title">.onion Web Sitelerini Belirten Yeşil Soğan Simgesi</h4>
+        </div>
     </div>
 </div>
 
@@ -26,7 +27,8 @@ Bir web sitesine https ve onion hizmeti üzerinden erişikiyorsanız  bir yeşil
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
-    <div class="card-body">
-        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
+        <div class="card-body">
+            <h4 class="card-title">https ile Erişilen .onion Web Sitelerini Belirten Yeşil Soğan ve Kilit Simgesi</h4>
+        </div>
     </div>
 </div>

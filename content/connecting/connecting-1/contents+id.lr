@@ -7,4 +7,4 @@ seo_slug: tor-browser-wont-connect
 description:
 Salah satu masalah yang paling umum yang menyebabkan kesalahan koneksi di Tor Browser adalah jam sistem yang keliru.
 Silakan pastikan jam di sistem operasi dan zona waktu diatur dengan tepat di komputer Anda.
-If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.
+Jika ini tidak memperbaiki masalah koneksi, lihat halaman Troubleshooting di <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">petunjuk Tor Browser</a></mark>.

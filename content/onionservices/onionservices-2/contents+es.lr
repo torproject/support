@@ -16,8 +16,9 @@ Cuando se accede a un sitio web que utiliza un servicio onion (cebolla), el Nave
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
-    <div class="card-body">
-        <h4 class="card-title">Icono de una cebolla verde para identificar el sitio web .onion</h4>
+        <div class="card-body">
+            <h4 class="card-title">Icono de una cebolla verde para identificar el sitio web .onion</h4>
+        </div>
     </div>
 </div>
 
@@ -26,7 +27,8 @@ Y si estás accediendo a un sitio web con https y servicio onion, te mostrará u
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
-    <div class="card-body">
-        <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
+        <div class="card-body">
+            <h4 class="card-title">Cebolla verde con un candado para indentificar sitios .onion con https</h4>
+        </div>
     </div>
 </div>
