@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:09+CET\n"
+"POT-Creation-Date: 2018-09-14 21:29+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: cacu <cacu@espora.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/1519/es/)\n"
@@ -570,6 +570,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Cebolla verde "
+"con candado\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -1651,6 +1653,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"Nuevo "
+"circuito para este sitio\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -3586,6 +3590,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -4237,6 +4243,8 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Icono cebolla"
+"\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -4567,51 +4575,3 @@ msgstr "Buscar"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Permalink"
-
-#~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
-#~ "\"Onion icon\">"
-#~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
-#~ "\"Onion icon\">"
-
-#~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
-#~ "\" alt=\"New Circuit for this Site\">"
-#~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
-#~ "\" alt=\"New Circuit for this Site\">"
-
-#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-#~ msgstr "<h4 class=\"card-title\">Nuevo Circuito para este Sitio</h4>"
-
-#~ msgid ""
-#~ "<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
-#~ "website with https</h4>"
-#~ msgstr ""
-#~ "<h4 class=\"card-title\">Cebolla verde con un candado para indentificar "
-#~ "sitios .onion con https</h4>"
-
-#~ msgid ""
-#~ "<h4 class=\"card-title\">Icon of a green onion to identify .onion "
-#~ "website</h4>"
-#~ msgstr ""
-#~ "<h4 class=\"card-title\">Icono de una cebolla verde para identificar el "
-#~ "sitio web .onion</h4>"
-
-#~ msgid "<h4 class=\"card-title\">New Identity</h4>"
-#~ msgstr "<h4 class=\"card-title\">Nueva Identidad</h4>"
-
-#~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
-#~ "alt=\"Tor Browser Menu\">"
-#~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
-#~ "alt=\"Tor Browser Menu\">"
-
-#~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
-#~ "\"Green onion with a padlock\">"
-#~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
-#~ "\"Green onion with a padlock\">"

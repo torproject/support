@@ -5,7 +5,7 @@
 # Josep Anton Rius <j.rius.cat@gmail.com>, 2018
 # Miquel Bosch, 2018
 # icc <mail@koopic.net>, 2018
-# Adolfo Jayme-Barrientos, 2018
+# Adolfo Jayme Barrientos, 2018
 # Bartges90, 2018
 # Aleix Vidal i Gaya <aleix.vidal@gmail.com>, 2018
 # Emma Peel, 2018
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:09+CET\n"
+"POT-Creation-Date: 2018-09-14 21:29+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Humbert <humbert.costas@gmail.com>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/otf/teams/1519/ca/)\n"
@@ -3309,6 +3309,8 @@ msgid ""
 "We currently offer <mark><a href=\"https://www.torproject.org/projects/"
 "torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
 msgstr ""
+"Actualment oferim el <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">navegador Tor</a></mark> en els idiomes següents:"
 
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
@@ -4537,6 +4539,3 @@ msgstr "Cerca"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Permalink"
-
-#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-#~ msgstr " <h4 class=\"card-title\">Circuit Nou per a aquest lloc</h4>"

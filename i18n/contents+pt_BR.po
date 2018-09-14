@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:09+CET\n"
+"POT-Creation-Date: 2018-09-14 21:29+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kordycepts, The Night City <kordycepts@protonmail.com>, "
 "2018\n"
@@ -3329,6 +3329,8 @@ msgid ""
 "We currently offer <mark><a href=\"https://www.torproject.org/projects/"
 "torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
 msgstr ""
+"Atualmente nós oferecemos o <mark><a href=\"https://www.torproject.org/"
+"projects/torbrowser.html.en\">Navegador Tor</a></mark> nos seguintes idiomas:"
 
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
@@ -4550,6 +4552,3 @@ msgstr "Pesquisa"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Link permanente"
-
-#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-#~ msgstr "<h4 class=\"card-title\">Novo Circuito Tor para este Site</h4>"

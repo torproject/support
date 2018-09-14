@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:09+CET\n"
+"POT-Creation-Date: 2018-09-14 21:29+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Brendan Abolivier <transifex@brendanabolivier.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
@@ -3374,6 +3374,9 @@ msgid ""
 "We currently offer <mark><a href=\"https://www.torproject.org/projects/"
 "torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
 msgstr ""
+"Nous proposons actuellement le <mark><a href=\"https://www.torproject.org/"
+"projects/torbrowser.html.en\">Navigateur Tor</a></mark> dans les langues "
+"suivantes :"
 
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
@@ -4630,6 +4633,3 @@ msgstr "Chercher"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Permalien"
-
-#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-#~ msgstr "<h4 class=\"card-title\">Nouveau circuit pour ce site</h4>"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:09+CET\n"
+"POT-Creation-Date: 2018-09-14 21:29+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Bengali (Bangladesh) (https://www.transifex.com/otf/"
@@ -3215,6 +3215,8 @@ msgid ""
 "We currently offer <mark><a href=\"https://www.torproject.org/projects/"
 "torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
 msgstr ""
+"বর্তমানে আমরা নিম্নলিখিত ব্রাউজারগুলিতে <mark><a href=\"https://www.torproject."
+"org/projects/torbrowser.html.en\">টর ব্রাউজার</a></mark> প্রস্তাব করছি:"
 
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
@@ -4414,6 +4416,3 @@ msgstr "খুজুন"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "পার্মালিঙ্ক"
-
-#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-#~ msgstr "<h4 class=\"card-title\">এই সাইটের জন্য নতুন সার্কিট</h4>"
