@@ -5,14 +5,13 @@
 # Emma Peel, 2018
 # Eduardo Carmona <eduardocgcadiz@gmail.com>, 2018
 # cacu <cacu@espora.org>, 2018
-# Silvana Nunez <snunez@ocb.ibb.gov>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-13 14:25+CET\n"
+"POT-Creation-Date: 2018-09-14 08:01+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Silvana Nunez <snunez@ocb.ibb.gov>, 2018\n"
+"Last-Translator: cacu <cacu@espora.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/1519/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -556,6 +555,8 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
 "\"Onion icon\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
+"\"Onion icon\">"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
@@ -578,6 +579,8 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png\" "
 "alt=\"New Circuit for this Site\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png\" "
+"alt=\"New Circuit for this Site\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -727,7 +730,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-msgstr ""
+msgstr "<h4 class=\"card-title\">Nuevo Circuito para este Sitio</h4>"
 
 #: http://localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lr:question.seo_slug)
@@ -749,17 +752,6 @@ msgstr ""
 "<mark><a href=\"https://www.torproject.org/download/download-easy.html.en"
 "\">navegador Tor</a></mark> y luego usándolo para navegar hacia el sitio "
 "bloqueado."
-
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"Para la fuente más detallada sobre tener un repetidor, mira la <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Guía de "
-"repetidores de Tor</a>."
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
@@ -1398,6 +1390,15 @@ msgstr "financiación-de-tor"
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "Tor browser will install the updates."
 msgstr "El Tor Browser instalará las actualizaciones."
+
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
+msgid ""
+"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+"website with https</h4>"
+msgstr ""
+"<h4 class=\"card-title\">Cebolla verde con un candado para indentificar "
+"sitios .onion con https</h4>"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -2080,6 +2081,8 @@ msgid ""
 "<h4 class=\"card-title\">Icon of a green onion to identify .onion website</"
 "h4>"
 msgstr ""
+"<h4 class=\"card-title\">Icono de una cebolla verde para identificar el "
+"sitio web .onion</h4>"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2707,6 +2710,8 @@ msgstr "¿Puedo establecer el Tor Browser como mi navegador predeterminado?"
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -3196,13 +3201,6 @@ msgstr ""
 msgid "Misc"
 msgstr "Misc"
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padloack to identify .onion "
-"website with https</h4>"
-msgstr ""
-
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* obfs4proxy.exe (if you use bridges)"
@@ -3383,6 +3381,8 @@ msgid ""
 "We currently offer <mark><a href=\"https://www.torproject.org/projects/"
 "torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
 msgstr ""
+"Actualmente ofrecemos el <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">Navegador Tor</a></mark> en los siguientes idiomas:"
 
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
@@ -3428,7 +3428,7 @@ msgstr "¿Cómo desinstalo Tor Browser?"
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "<h4 class=\"card-title\">New Identity</h4>"
-msgstr ""
+msgstr "<h4 class=\"card-title\">Nueva Identidad</h4>"
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.title)
@@ -3892,6 +3892,8 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" alt="
 "\"Tor Browser Menu\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" alt="
+"\"Tor Browser Menu\">"
 
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.seo_slug)
@@ -4202,6 +4204,8 @@ msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
 "\"Green onion with a padlock\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
+"\"Green onion with a padlock\">"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
@@ -4616,43 +4620,3 @@ msgstr "Buscar"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Permalink"
-
-#~ msgid "We currently offer Tor Browser in the following languages:"
-#~ msgstr "Actualmente presentamos el navegador Tor en los siguientes idiomas:"
-
-#~ msgid ""
-#~ "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green "
-#~ "onion with a padlock\">"
-#~ msgstr ""
-#~ "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Cebolla "
-#~ "verde con candado\">"
-
-#~ msgid "bandwidth caps)"
-#~ msgstr "límites al ancho de banda)"
-
-#~ msgid ""
-#~ "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
-#~ "Circuit for this Site\">"
-#~ msgstr ""
-#~ "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt="
-#~ "\"Nuevo circuito para este sitio\">"
-
-#~ msgid ""
-#~ "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
-#~ "Browser Menu\">"
-#~ msgstr ""
-#~ "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
-#~ "Browser Menu\">"
-
-#~ msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-#~ msgstr "## Fija tu ancho de banda (deja comentado y Tor se ejecutará sin"
-
-#~ msgid ""
-#~ "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon"
-#~ "\">"
-#~ msgstr ""
-#~ "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Icono "
-#~ "cebolla\">"
-
-#~ msgid "Topics"
-#~ msgstr "Temas"

@@ -13,13 +13,12 @@
 # Hassan Matinarfa <hma969@gmail.com>, 2018
 # Iman Fergi <iman_fergi@yahoo.com>, 2018
 # AmiR Rashidi <s.a.rashidi@gmail.com>, 2018
-# Josh Steiner <josh@scal.io>, 2018
 # Emma Peel, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-13 14:25+CET\n"
+"POT-Creation-Date: 2018-09-14 08:01+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/1519/fa/)\n"
@@ -663,14 +662,6 @@ msgstr ""
 "download-easy.html.en\">مرورگر تور</a></mark> و استفاده از آن برای رفتن به "
 "سایت مسدود شده امکان دسترسی خواهید داشت."
 
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
 msgid ""
@@ -1221,6 +1212,13 @@ msgstr ""
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "Tor browser will install the updates."
 msgstr "مرورگر تور به روز رسانی ها را نصب خواهد کرد."
+
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
+msgid ""
+"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+"website with https</h4>"
+msgstr ""
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -2343,6 +2341,8 @@ msgstr "آیا می‌توانم مرورگر تور را به عنوان مرو
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -2756,13 +2756,6 @@ msgstr ""
 #: http://localhost/misc/ (content/misc/contents+en.lr:topic.title)
 msgid "Misc"
 msgstr "متفرقه"
-
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padloack to identify .onion "
-"website with https</h4>"
-msgstr ""
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -3978,9 +3971,3 @@ msgstr "جست‌وجو"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "پیوند دائمی"
-
-#~ msgid "We currently offer Tor Browser in the following languages:"
-#~ msgstr "مرورگر تور در حال حاضر به زبان‌های زیر در دسترس است:"
-
-#~ msgid "Topics"
-#~ msgstr "موضوعات"

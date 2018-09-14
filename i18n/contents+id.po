@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-13 14:25+CET\n"
+"POT-Creation-Date: 2018-09-14 08:01+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: sirsyarif, 2018\n"
 "Language-Team: Indonesian (https://www.transifex.com/otf/teams/1519/id/)\n"
@@ -742,17 +742,6 @@ msgstr ""
 "download-easy.html.en\\\">Tor Browser </a></mark>dan gunakannya untuk "
 "membuka akses situs yang terblokir."
 
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"Untuk sumber daya paling mendalam tentang menjalankan relay, lihat <mark> <a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Panduan "
-"Tor Relay</a> </mark> ."
-
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
 msgid ""
@@ -1388,6 +1377,13 @@ msgstr "tor-funding "
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "Tor browser will install the updates."
 msgstr "Tor browser akan menginstal pembaruan."
+
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
+msgid ""
+"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+"website with https</h4>"
+msgstr ""
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -2116,6 +2112,8 @@ msgid ""
 "13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with "
 "SSL state (No SSL object)"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with "
+"SSL state (No SSL object)"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
@@ -2345,6 +2343,9 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations that are "
 "less likely to be censored, such as Dropbox, Google Drive, and GitHub."
 msgstr ""
+"GetTor adalah service yang yang otomatis merespon pesan berisi tautan ke "
+"versi terakhir Tor Browser, yang dihosting di lokasi beragam sehingga "
+"kemungkinan kecil disensor, seperti Dropbox, Google Drive, dan GitHub."
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -2640,7 +2641,7 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "$ lsb_release -c"
-msgstr ""
+msgstr "$ lsb_release -c"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.seo_slug)
@@ -2674,6 +2675,8 @@ msgstr "Apakah saya dapat membuat Tor Browser menjadi peramban standar saya?"
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -2947,6 +2950,9 @@ msgid ""
 "<mark><a href=\"https://tb-manual.torproject.org/en-US/troubleshooting.html"
 "\">Tor Browser manual</a></mark>."
 msgstr ""
+"Jika ini tidak memperbaiki masalah koneksi, lihat halaman Troubleshooting di "
+"<mark><a href=\"https://tb-manual.torproject.org/en-US/troubleshooting.html"
+"\">petunjuk Tor Browser</a></mark>."
 
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.description)
@@ -3151,13 +3157,6 @@ msgstr ""
 msgid "Misc"
 msgstr "Lain-lain"
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padloack to identify .onion "
-"website with https</h4>"
-msgstr ""
-
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* obfs4proxy.exe (if you use bridges)"
@@ -3188,6 +3187,11 @@ msgid ""
 "the download</a></mark>), the fingerprint of the key used to make the "
 "signature, and the package’s checksum."
 msgstr ""
+"GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh "
+"paket Tor Browser, tanda tangan kriptografi (<mark><a href=\"https://www."
+"torproject.org/docs/verifying-signatures.html.en\">diperlukan untuk "
+"memverikasi unduhan</a></mark>), sidik jari pengguna utama yang akan "
+"digunakan untuk membuat tanda tangan, dan paket checksum."
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -3300,6 +3304,8 @@ msgid ""
 "\">TorBSD project</a></mark>, but their Tor Browser is not officially "
 "supported."
 msgstr ""
+"Ada proyek bernama <mark><a href=\"https://www.torbsd.org/\">TorBSD</a></"
+"mark>, tapi Tor Browser versi mereka tidak secara resmi didukung."
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.seo_slug)
@@ -3435,6 +3441,8 @@ msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 msgstr ""
+"Belum ada versi resmi untuk iOS, walau kami menyarankan peramban <mark><a "
+"href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -3763,6 +3771,8 @@ msgid ""
 "To get links for downloading Tor Browser, send a message to "
 "gettor@torproject.org with one of the following codes in it:"
 msgstr ""
+"Untuk mendapatkan tautan untuk mengunduh Tor Browser, kirim pesan ke "
+"gettor@torproject.org dengan salah satu kode berikut di dalamnya:"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -3967,6 +3977,7 @@ msgstr "Bagaimana cara mengunduh Tor jika torproject.org diblokir?"
 msgid ""
 "19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 
 #: http://localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lr:question.seo_slug)
@@ -4455,7 +4466,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.title)
 msgid "To use GetTor via XMPP (Jitsi, CoyIM)."
-msgstr ""
+msgstr "Menggunakan GetTor melalui XMPP (Jitsi, CoyIM)."
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.description)
@@ -4486,6 +4497,10 @@ msgid ""
 "minutes, or that theirs is ahead. Tor requires an accurate clock to work: "
 "please check your time, timezone, and date settings."
 msgstr ""
+"19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:"
+"xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 "
+"minutes, or that theirs is ahead. Tor requires an accurate clock to work: "
+"please check your time, timezone, and date settings."
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.seo_slug)
@@ -4553,28 +4568,3 @@ msgstr "Cari"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Permalink "
-
-#~ msgid "We currently offer Tor Browser in the following languages:"
-#~ msgstr "Saat ini kami menawarkan Tor Browser dalam bahasa-bahasa berikut:"
-
-#~ msgid ""
-#~ "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green "
-#~ "onion with a padlock\">"
-#~ msgstr ""
-#~ "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green "
-#~ "onion with a padlock\">"
-
-#~ msgid "bandwidth caps)"
-#~ msgstr "batas bandwidth)"
-
-#~ msgid ""
-#~ "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
-#~ "Circuit for this Site\">"
-#~ msgstr ""
-#~ "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
-#~ "Circuit for this Site\">"
-
-#~ msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-#~ msgstr ""
-#~ "## Atur tingkat bandwidth Anda (biarkan dalam bentuk komentar dan Tor "
-#~ "akan berjalan tanpa batas bandwidth)"

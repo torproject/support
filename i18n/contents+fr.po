@@ -6,14 +6,13 @@
 # N W, 2018
 # Emma Peel, 2018
 # Brendan Abolivier <transifex@brendanabolivier.com>, 2018
-# Nasri Mohamed <nasmed@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-13 14:25+CET\n"
+"POT-Creation-Date: 2018-09-14 08:01+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Nasri Mohamed <nasmed@gmail.com>, 2018\n"
+"Last-Translator: Brendan Abolivier <transifex@brendanabolivier.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -736,7 +735,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-msgstr ""
+msgstr "<h4 class=\"card-title\">Nouveau circuit pour ce site</h4>"
 
 #: http://localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lr:question.seo_slug)
@@ -757,17 +756,6 @@ msgstr ""
 "La plupart du temps, il suffira de télécharger le <mark><a href=\"https://"
 "www.torproject.org/download/download-easy.html.en\">Navigateur Tor</a></"
 "mark> et de l’utiliser pour naviguer vers le site bloqué pour y accéder."
-
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"Pour des informations approfondies sur la mise en place d’un relais, "
-"consultez le <mark><a href=\"https://trac.torproject.org/projects/tor/wiki/"
-"TorRelayGuide\">guide sur les relais Tor</a>."
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
@@ -1420,6 +1408,13 @@ msgstr "financement-de-tor"
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "Tor browser will install the updates."
 msgstr "Le Navigateur Tor installera les mises à jour."
+
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
+msgid ""
+"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+"website with https</h4>"
+msgstr ""
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -2747,6 +2742,8 @@ msgstr "Puis-je faire du Navigateur Tor mon navigateur par défaut ?"
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -3234,13 +3231,6 @@ msgstr ""
 #: http://localhost/misc/ (content/misc/contents+en.lr:topic.title)
 msgid "Misc"
 msgstr "Divers"
-
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padloack to identify .onion "
-"website with https</h4>"
-msgstr ""
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -4681,18 +4671,3 @@ msgstr "Chercher"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Permalien"
-
-#~ msgid "We currently offer Tor Browser in the following languages:"
-#~ msgstr ""
-#~ "Nous proposons actuellement le Navigateur Tor dans les langues suivantes :"
-
-#~ msgid "bandwidth caps)"
-#~ msgstr "limites de bande passante)"
-
-#~ msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-#~ msgstr ""
-#~ "## Définissez le débit de votre bande passante (laissez en commentaire et "
-#~ "Tor s’exécutera sans"
-
-#~ msgid "Topics"
-#~ msgstr "Sujets"
