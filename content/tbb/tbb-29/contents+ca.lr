@@ -17,15 +17,7 @@ Si ho seleccioneu, tanqueu totes les pestanyes i finestres, esborreu tota la inf
 
 El Navegador Tor us avisarà que tota activitat i descàrregues s'aturaran, així que teniu això en compte abans de fer clic a "Nova identitat".
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-        <div class="card-body">
-            <h4 class="card-title">New Identity</h4>
-        </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 ##### Nou Circuit Tor per a aquest lloc
 
@@ -36,12 +28,4 @@ Altres pestanyes obertes i finestres del mateix lloc web també usaran el nou ci
 
 Aquesta opció no elimina cap informació privada o desenllaça la vostra activitat, ni afecta les vostres connexions actuals a altres llocs web.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-        <div class="card-body">
-             <h4 class="card-title">Circuit Nou per a aquest lloc</h4>
-        </div>
-    </div>
-</div>
-
+<img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">

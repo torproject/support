@@ -17,15 +17,7 @@ Selecionado isso todas as abas e janelas vão fechar, toda informação privada 
 
 Navegador Tor vai alertar você que toda atividade e downloads vão ser parados, então leve isso em conta antes de clicar em "Nova Identidade".
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-        <div class="card-body">
-            <h4 class="card-title">New Identity</h4>
-        </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 ##### Novo Circuito Tor para esse Site
 
@@ -36,12 +28,4 @@ Outras abas e janelas abertas do mesmo website usarão o novo circuito assim que
 
 Essa opção não apaga qualquer informação privada ou desvincula sua atividade, nem afeta suas conexões atuais para outros websites.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-        <div class="card-body">
-            <h4 class="card-title">Novo Circuito Tor para este Site</h4>
-        </div>
-    </div>
-</div>
-
+<img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">

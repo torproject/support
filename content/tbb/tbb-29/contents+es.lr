@@ -17,15 +17,7 @@ Con seleccionarlo puedes cerrar todas tus pestañas y ventanas, borrar toda la i
 
 El navegador Tor te advertirá de que todas las actividades y descargas serán detenidas, por lo tanto ten esto en cuenta antes de pulsar en “Nueva Identidad”.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-        <div class="card-body">
-            <h4 class="card-title">Nueva Identidad</h4>
-        </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 ##### Nuevo circuito de Tor para esta página
 
@@ -36,12 +28,4 @@ Otras pestañas y ventanas abiertas del mismo sitio web también usarán el nuev
 
 Esta opción no limpia ninguna información privada ni desvincula tu actividad, tampoco afecta a tus conexiones actuales a otros sitios web.
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-        <div class="card-body">
-            <h4 class="card-title">Nuevo Circuito para este Sitio</h4>
-        </div>
-    </div>
-</div>
-
+<img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">

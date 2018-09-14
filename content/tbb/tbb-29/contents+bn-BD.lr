@@ -17,15 +17,7 @@ Both options are located in the Menu, but you can also access the New Circuit op
 
 টর ব্রাউজার আপনাকে সতর্ক করবে যে সকল ক্রিয়াকলাপ এবং ডাউনলোড বন্ধ হয়ে যাবে, তাই "নতুন পরিচয় "-এ ক্লিক করার আগে এটিকে অ্যাকাউন্টে নিন ।
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-        <div class="card-body">
-            <h4 class="card-title">New Identity</h4>
-        </div>
-    </div>
-</div>
-
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
 ##### নিউ টর সার্কিট এই সাইটের জন্য
 
@@ -36,12 +28,4 @@ Both options are located in the Menu, but you can also access the New Circuit op
 
 এই বিকল্পটি কোনো গোপনীয় তথ্য বা আপনার সক্রিয়তার যোগসূত্রকে পরিষ্কার করে না এবং এটি আপনার বর্তমান সংযোগে অন্যান্য ওয়েবসাইটে প্রভাব ফেলে না ।
 
-<div class="col-md-6">
-    <div class="card">
-        <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-        <div class="card-body">
-            <h4 class="card-title">এই সাইটের জন্য নতুন সার্কিট</h4>
-        </div>
-    </div>
-</div>
-
+<img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
