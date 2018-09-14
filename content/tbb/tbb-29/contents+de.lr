@@ -20,8 +20,9 @@ Tor Browser warnt dich, dass alle Aktivitäten und Downloads gestoppt werden, be
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body">
-        <h4 class="card-title">New Identity</h4>
+        <div class="card-body">
+            <h4 class="card-title">New Identity</h4>
+        </div>
     </div>
 </div>
 
@@ -38,8 +39,9 @@ Diese Option löscht private Informationen nicht und entkoppelt auch bisherige A
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body">
-        <h4 class="card-title">Neuen Kanal für diese Seite</h4>
+        <div class="card-body">
+            <h4 class="card-title">Neuen Kanal für diese Seite</h4>
+        </div>
     </div>
 </div>
 

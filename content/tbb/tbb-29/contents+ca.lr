@@ -20,8 +20,9 @@ El Navegador Tor us avisarà que tota activitat i descàrregues s'aturaran, aix�
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body">
-        <h4 class="card-title">New Identity</h4>
+        <div class="card-body">
+            <h4 class="card-title">New Identity</h4>
+        </div>
     </div>
 </div>
 
@@ -38,8 +39,9 @@ Aquesta opció no elimina cap informació privada o desenllaça la vostra activi
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body">
-         <h4 class="card-title">Circuit Nou per a aquest lloc</h4>
+        <div class="card-body">
+             <h4 class="card-title">Circuit Nou per a aquest lloc</h4>
+        </div>
     </div>
 </div>
 

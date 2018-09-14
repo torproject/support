@@ -20,8 +20,9 @@ Tor Browser will warn you that all activity and downloads will be stopped, so ta
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
-    <div class="card-body">
-        <h4 class="card-title">New Identity</h4>
+        <div class="card-body">
+            <h4 class="card-title">New Identity</h4>
+        </div>
     </div>
 </div>
 
@@ -38,8 +39,9 @@ This option does not clear any private information or unlink your activity, nor 
 <div class="col-md-6">
     <div class="card">
         <img class="card-img-top" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">
-    <div class="card-body">
-        <h4 class="card-title">New Circuit for this Site</h4>
+        <div class="card-body">
+            <h4 class="card-title">New Circuit for this Site</h4>
+        </div>
     </div>
 </div>
 
