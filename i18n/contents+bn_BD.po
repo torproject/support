@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 10:50+CET\n"
+"POT-Creation-Date: 2018-09-14 19:00+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Bengali (Bangladesh) (https://www.transifex.com/otf/"
@@ -282,11 +282,6 @@ msgstr ""
 #: (content/tbb/tbb-32/contents+en.lr:question.seo_slug)
 msgid "setting-tor-browser-as-default"
 msgstr "টর-ব্রাউজার-ডিফল্ট-হিসাবে-সেট-করুন"
-
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid "We currently offer Tor Browser in the following languages:"
-msgstr "বর্তমানে আমরা নিম্নলিখিত ব্রাউজারগুলিতে টর ব্রাউজার প্রস্তাব করছি:"
 
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
@@ -711,17 +706,6 @@ msgstr ""
 "easy.html.en\">টর ব্রাউজার</a></mark> ডাউনলোড করে, এবং তারপর এটি ব্যবহার করে "
 "নেভিগেট করতে অবরুদ্ধ করা হয়েছে এমন সাইট অ্যাক্সেসর অনুমতি দেবে।"
 
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">টর রিলে "
-"গাইড</a> দেখুন ।"
-
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
 msgid ""
@@ -1017,11 +1001,6 @@ msgstr "কিভাবে আমি টর দ্বারা বেনাম�
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* tor.real"
 msgstr "* টর।বাস্তব"
-
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "bandwidth caps)"
-msgstr "ব্যান্ডউইথ ক্যাপ)"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1330,13 +1309,10 @@ msgstr ""
 msgid "I'm having a problem with NoScript."
 msgstr "আমার NoScript সাথে একটি সমস্যা হচ্ছে।"
 
-#: http://localhost/tbb/tbb-39/
-#: (content/tbb/tbb-39/contents+en.lr:question.description)
-msgid ""
-"Sometimes Javascript-heavy websites can have functional issues over Tor "
-"Browser."
-msgstr ""
-"মাঝে মাঝে জাভাস্ক্রিপ্ট-হেভি ওয়েবসাইট টর ব্রাউজারে কার্যকরি বিষয় থাকতে পারে ।"
+#: http://localhost/tbb/tbb-34/
+#: (content/tbb/tbb-34/contents+en.lr:question.title)
+msgid "Why does Tor Browser ship with Javascript enabled?"
+msgstr "কেন জাভাস্ক্রিপ্ট-এর ব্রাউজার শিপ সক্রিয় আছে?"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.seo_slug)
@@ -1829,7 +1805,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "###### Common log error #1: Proxy connection failure"
-msgstr "# # # # # সাধারণ লগ-ইন ত্রুটি #1: প্রক্সি সংযোগ বিফলতা"
+msgstr "##### সাধারণ লগ-ইন ত্রুটি #1: প্রক্সি সংযোগ বিফলতা"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -1886,7 +1862,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "##### New Identity"
-msgstr "# # # # নতুন পরিচয়"
+msgstr "##### নতুন পরিচয়"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.title)
@@ -2612,14 +2588,16 @@ msgstr "আমি কি আমার ডিফল্ট ব্রাউজা�
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
 "Guide</a></mark>."
 msgstr ""
-"<a href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">একটি "
-"রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark>টর রিলে গাইড</"
-"mark></mark> দেখুন ।"
+"একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark><a href="
+"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">টর রিলে "
+"গাইড</a> </mark>দেখুন ।"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2700,7 +2678,7 @@ msgstr "* 日本語 (ja)"
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "##### New Tor Circuit for this Site"
-msgstr "# # # # # নিউ টর সার্কিট এই সাইটের জন্য"
+msgstr "##### নিউ টর সার্কিট এই সাইটের জন্য"
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.title)
@@ -3229,6 +3207,13 @@ msgstr ""
 "<mark><a href=\"https://www.torproject.org/projects/torbrowser/design/\">টর "
 "ব্রাউজারের নকশা সম্পর্কে আরও জানুন ।</a></mark>"
 
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid ""
+"We currently offer <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
+msgstr ""
+
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
 msgid "Tor Messenger"
@@ -3572,10 +3557,13 @@ msgstr ""
 "যে আপনি টর ব্যবহার করছেন, কিন্তু তারা জানেন না, আপনি যেখানে যাচ্ছেন, যখন আপনি "
 "করবেন।"
 
-#: http://localhost/tbb/tbb-34/
-#: (content/tbb/tbb-34/contents+en.lr:question.title)
-msgid "Why does Tor Browser ship with Javascript enabled?"
-msgstr "কেন জাভাস্ক্রিপ্ট-এর ব্রাউজার শিপ সক্রিয় আছে?"
+#: http://localhost/tbb/tbb-39/
+#: (content/tbb/tbb-39/contents+en.lr:question.description)
+msgid ""
+"Sometimes Javascript-heavy websites can have functional issues over Tor "
+"Browser."
+msgstr ""
+"মাঝে মাঝে জাভাস্ক্রিপ্ট-হেভি ওয়েবসাইট টর ব্রাউজারে কার্যকরি বিষয় থাকতে পারে ।"
 
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
@@ -3651,11 +3639,6 @@ msgstr ""
 "আপনি <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>-এর পেঁয়াজের "
 "সেবায় যুক্ত হয়ে অন্যান্য পেঁয়াজের সেবায় প্রবেশ করতে পারবেন কিনা তা নিশ্চিত করতে "
 "পারবেন ।"
-
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-msgstr "# # # # আপনার ব্যান্ডউইথ রেট নির্ধারণ করুন (চটজলদি এবং টর ছাড়া চলবে"
 
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
@@ -4252,6 +4235,8 @@ msgstr "আমি-কোন-দেশ-থেকে-প্রস্থান-ক�
 #: (content/operators/operators-2/contents+en.lr:question.description)
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
+#: http://localhost/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lr:question.description)
 msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
@@ -4426,8 +4411,11 @@ msgstr "খুজুন"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr "বিষয়শ্রেণী"
+msgstr ""
 
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "পার্মালিঙ্ক"
+
+#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
+#~ msgstr "<h4 class=\"card-title\">এই সাইটের জন্য নতুন সার্কিট</h4>"

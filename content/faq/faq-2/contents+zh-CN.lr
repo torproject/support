@@ -7,6 +7,6 @@ seo_slug: tor能否帮助用户访问网站
 description:
 tor浏览器可以帮助人们访问您所在地区被屏蔽的网站。
 大多数时候，只需下载<mark><a href="https://www.torproject.org/download/download-easy.html.en">tor浏览器</a></mark>，您就可以使用它去访问被屏蔽的网站。
-In places where there is heavy censorship we have a number of censorship circumvention options available, including <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>.
+在被严重监视的地区，我们提供许多规避监管的选项，譬如<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">可插拔传输</a></mark>。
 
 For more information, please see the <mark><a href="https://tb-manual.torproject.org/en-US/">Tor Browser User Manual</a></mark> section on <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">censorship</a></mark>.
