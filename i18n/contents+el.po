@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 10:50+CET\n"
+"POT-Creation-Date: 2018-09-14 18:23+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Antonios Chariton <daknob.mac@gmail.com>, 2018\n"
 "Language-Team: Greek (https://www.transifex.com/otf/teams/1519/el/)\n"
@@ -46,19 +46,19 @@ msgstr ""
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.description)
 msgid "We do not recommend using Tor with BitTorrent."
-msgstr ""
+msgstr "Δεν προτείνουμε τη ταυτόχρονη χρήση του Tor με το BitTorrent."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "This could mean that you’re on a network that’s censored."
-msgstr ""
+msgstr "Αυτό θα μπορούσε να σημαίνει πως το δίκτυό σας λογοκρίνεται."
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Français (fr)"
-msgstr ""
+msgstr "*Γαλλικά (fr)"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -81,6 +81,8 @@ msgstr ""
 #: (content/https/https-1/contents+en.lr:question.description)
 msgid "Tor prevents eavesdroppers from learning sites that you visit."
 msgstr ""
+"Ο Tor προλαμβάνει αυτούς που κρυφά προσπαθούν να δουν ποιες σελίδες "
+"επισκέπτεστε."
 
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.description)
@@ -89,6 +91,10 @@ msgid ""
 "choose between different search providers, it fell back to delivering Bing "
 "search results which were basically unacceptable quality-wise."
 msgstr ""
+"Επειδή το Disconnect είναι περισσότερο μία διαμετακομιστική μηχανή "
+"αναζήτησης, που επιτρέπει στους χρήστες να επιλέξουν μεταξύ διαφόρων παρόχων "
+"πληροφοριών, οδηγήθηκε στο να δίνει τα αποτελέσματα αναζήτησης του Bing, τα "
+"οποία είναι βασικά απαράδεκτα από άποψη ποιότητας."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -113,7 +119,7 @@ msgstr "Πως μπορώ να κάνω δωρεά στο Tor Project?"
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "* Locate your Tor Browser folder or application."
-msgstr ""
+msgstr "* Εντόπισε τον φάκελο ή την εφαρμογή του περοηγητή Tor."
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -188,7 +194,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "* Delete the Tor Browser folder or application."
-msgstr ""
+msgstr "* Διάγραψε τον φάκελο ή την εφαρμογή του περιηγητή Tor."
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
@@ -223,6 +229,8 @@ msgid ""
 "These services use the special-use tld .onion (instead of .com,.net,.org,"
 "etc..) and are only accessible through the Tor network."
 msgstr ""
+"Αυτές οι υπηρεσίες χρησιμοποιούν την ειδικής χρήσης ετικέτα .onion (αντί "
+"για .com,.net,.org κ.λπ.) και είναι προσβάσιμες μόνο μέσω του δικτύου Tor."
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.title)
@@ -240,7 +248,7 @@ msgstr "Κρατάει το Tor ιστορικό αρχείο;"
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.seo_slug)
 msgid "what-is-a-bridge"
-msgstr ""
+msgstr "τι-είναι-η-γέφυρα"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -266,6 +274,8 @@ msgid ""
 "For sharing files through Tor, <mark><a href=\"https://onionshare.org/"
 "\">OnionShare</a></mark> is a good option."
 msgstr ""
+"Για την κοινοποίηση αρχείων μέσω του Tor, το <mark><a href=\"https://"
+"onionshare.org/\">OnionShare</a></mark> είναι μία καλή επιλογή."
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -290,11 +300,6 @@ msgstr ""
 #: (content/tbb/tbb-32/contents+en.lr:question.seo_slug)
 msgid "setting-tor-browser-as-default"
 msgstr ""
-
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid "We currently offer Tor Browser in the following languages:"
-msgstr "Παρέχουμε τον Tor Browser στις παρακάτω γλώσσες:"
 
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
@@ -683,14 +688,6 @@ msgstr ""
 "χρησιμοποιώντας το για να επισκεφτούν την μπλοκαρισμένη ιστοσελίδα θα τους "
 "επιτρέψει να έχουν πρόσβαση."
 
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
 msgid ""
@@ -968,11 +965,6 @@ msgstr ""
 msgid "* tor.real"
 msgstr "* tor.real"
 
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "bandwidth caps)"
-msgstr ""
-
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
@@ -1242,11 +1234,9 @@ msgstr ""
 msgid "I'm having a problem with NoScript."
 msgstr ""
 
-#: http://localhost/tbb/tbb-39/
-#: (content/tbb/tbb-39/contents+en.lr:question.description)
-msgid ""
-"Sometimes Javascript-heavy websites can have functional issues over Tor "
-"Browser."
+#: http://localhost/tbb/tbb-34/
+#: (content/tbb/tbb-34/contents+en.lr:question.title)
+msgid "Why does Tor Browser ship with Javascript enabled?"
 msgstr ""
 
 #: http://localhost/misc/misc-3/
@@ -2388,6 +2378,8 @@ msgstr ""
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -2934,6 +2926,13 @@ msgid ""
 "\">Learn more about the design of Tor Browser</a></mark>."
 msgstr ""
 
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid ""
+"We currently offer <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
+msgstr ""
+
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
 msgid "Tor Messenger"
@@ -3240,9 +3239,11 @@ msgstr ""
 "να δουν ότι χρησιμοποιείτε το Tor, αλλα δεν θα ξέρουν τί επισκέπτεστε όταν "
 "το χρησιμοποιείτε."
 
-#: http://localhost/tbb/tbb-34/
-#: (content/tbb/tbb-34/contents+en.lr:question.title)
-msgid "Why does Tor Browser ship with Javascript enabled?"
+#: http://localhost/tbb/tbb-39/
+#: (content/tbb/tbb-39/contents+en.lr:question.description)
+msgid ""
+"Sometimes Javascript-heavy websites can have functional issues over Tor "
+"Browser."
 msgstr ""
 
 #: http://localhost/gettor/gettor-2/
@@ -3308,11 +3309,6 @@ msgid ""
 "You can also ensure that you're able to access other onion services by "
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>'s "
 "Onion Service."
-msgstr ""
-
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "## Set your bandwidth rate (leave commented and Tor will run without"
 msgstr ""
 
 #: http://localhost/gettor/gettor-4/
@@ -3856,6 +3852,8 @@ msgstr "επιλέγω-από-ποια-χώρα-αποσυνδέομαι"
 #: (content/operators/operators-2/contents+en.lr:question.description)
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
+#: http://localhost/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lr:question.description)
 msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
@@ -4006,7 +4004,7 @@ msgstr "Αναζήτηση"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr "Θέματα"
+msgstr ""
 
 #: templates/macros/question.html:11
 msgid "Permalink"

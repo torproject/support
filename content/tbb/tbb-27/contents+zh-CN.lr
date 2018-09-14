@@ -7,7 +7,7 @@ seo_slug: updating-tor-browser
 description:
 You can update Tor Browser as soon as a new version is released.
 
-Tor Browser will prompt you to update the software once a new version has been released.
+每当 Tor 浏览器有更新版被发布时，都会有提示自动出现。
 
 The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
 

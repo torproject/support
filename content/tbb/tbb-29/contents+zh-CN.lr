@@ -13,7 +13,7 @@ Both options are located in the Menu, but you can also access the New Circuit op
 
 This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
 
-Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections.
+运行此功能将会关闭所有已经打开的浏览器窗口及标签页，清除所有的浏览器 Cookie 与历史记录等个人信息，并且为后续所有的网络连接创建新的洋葱路由回路。
 
 Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
 

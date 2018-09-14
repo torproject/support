@@ -8,7 +8,7 @@ description:
 
 If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
 Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+您应该能够在粘贴的Tor日志中发现这些常见问题（请在Tor日志里寻找如下所示的错误）:
 
 ###### Common log error #1: Proxy connection failure
 

@@ -5,6 +5,6 @@ title: Tor浏览器没有连接上互联网，但这似乎并不是因为网络�
 seo_slug: tor-browser-wont-connect
 ---
 description:
-One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
+造成Tor连接失败的最常见的问题之一是系统时间设置错误。
 Please make sure your system clock and timezone are set accurately.
-If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.
+如果这个问题还没有被解决，请查看位于<mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor浏览器手册</a></mark>的故障排查界面。

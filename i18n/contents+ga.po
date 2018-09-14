@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 10:50+CET\n"
+"POT-Creation-Date: 2018-09-14 18:23+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Irish (https://www.transifex.com/otf/teams/1519/ga/)\n"
@@ -158,9 +158,7 @@ msgstr "Ní féidir liom ceangal le líonra Tor, agus ní thuigim cad é an fhad
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
 msgid ""
 "A bridge is just a normal relay with a slightly different configuration."
-msgstr ""
-"Is éard atá i ndroichead ná athsheachadán a bhfuil cumraíocht rud beag "
-"difriúil air."
+msgstr "Is gá cumraíocht rud beag difriúil a dhéanamh le droichid."
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.title)
@@ -172,8 +170,8 @@ msgid ""
 "Our website is blocked by a censor. Can Tor Browser help users access our "
 "website?"
 msgstr ""
-"Rinneadh cinsireacht ar ár suíomh Gréasáin. An féidir lenár gcuid "
-"húsáideoirí Brabhsálaí Tor a úsáid chun teacht air?"
+"Rinneadh cinsireacht ar ár suíomh Gréasáin. An féidir lenár gcuid úsáideoirí "
+"Brabhsálaí Tor a úsáid chun teacht air?"
 
 #: http://localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lr:question.description)
@@ -296,11 +294,6 @@ msgstr ""
 #: (content/tbb/tbb-32/contents+en.lr:question.seo_slug)
 msgid "setting-tor-browser-as-default"
 msgstr "setting-tor-browser-as-default"
-
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid "We currently offer Tor Browser in the following languages:"
-msgstr "Tá Brabhsálaí Tor ar fáil sna teangacha seo a leanas faoi láthair:"
 
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
@@ -576,8 +569,6 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
-"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Oinniún glas "
-"le glas fraincín\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -675,8 +666,8 @@ msgid ""
 "If you are still unable to connect to the onion service, please try again "
 "later."
 msgstr ""
-"Mura bhfuil tú in ann ceangal a bhunú leis an tseirbhís onion, bain triail "
-"eile as ar ball."
+"Mura bhfuil tú in ann ceangal a bhunú leis an tseirbhís onion fós, bain "
+"triail eile as ar ball."
 
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.description)
@@ -737,17 +728,6 @@ msgstr ""
 "An chuid is mó den am, is leor <mark><a href=\"https://www.torproject.org/"
 "download/download-easy.html.en\">Brabhsálaí Tor</a></mark> a íoslódáil agus "
 "a úsáid le dul go dtí an suíomh coiscthe."
-
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na "
-"mionsonraí go léir sa <mark><a href=\"https://trac.torproject.org/projects/"
-"tor/wiki/TorRelayGuide\">Lámhleabhar Athsheachadán Tor</a>."
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
@@ -981,8 +961,8 @@ msgid ""
 "malware."
 msgstr ""
 "Creidimid go bhfuil sé contúirteach Flash a úsáid i mbrabhsálaí ar bith — is "
-"bogearraí an-neamhshlán é a chuireann do phríobháideachas agus do ríomhaire "
-"i gcontúirt."
+"bogearra an-neamhshlán é a chuireann do phríobháideachas agus do ríomhaire i "
+"gcontúirt."
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -1055,11 +1035,6 @@ msgstr ""
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* tor.real"
 msgstr "* tor.real"
-
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "bandwidth caps)"
-msgstr "teorainn ar bhandaleithead)"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1383,14 +1358,11 @@ msgstr ""
 msgid "I'm having a problem with NoScript."
 msgstr "Tá fadhb agam le NoScript."
 
-#: http://localhost/tbb/tbb-39/
-#: (content/tbb/tbb-39/contents+en.lr:question.description)
-msgid ""
-"Sometimes Javascript-heavy websites can have functional issues over Tor "
-"Browser."
+#: http://localhost/tbb/tbb-34/
+#: (content/tbb/tbb-34/contents+en.lr:question.title)
+msgid "Why does Tor Browser ship with Javascript enabled?"
 msgstr ""
-"Uaireanta bíonn fadhbanna le Brabhsálaí Tor ar shuímh Ghréasáin a bhaineann "
-"úsáid as mórán JavaScript."
+"Cén fáth a bhfuil JavaScript cumasaithe i mbrabhsálaí Tor mar réamhshocrú?"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.seo_slug)
@@ -1681,8 +1653,6 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
-"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"Ciorcad "
-"Nua don Suíomh seo\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2220,7 +2190,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.title)
 msgid "Can you get rid of all the captchas?"
-msgstr "An bhfaighidh sibh réidh leis na captchas?"
+msgstr "An bhfaighidh sibh réidh leis na CAPTCHAnna?"
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.description)
@@ -2518,7 +2488,7 @@ msgid ""
 "and the steps for making it the default browser are unreliable."
 msgstr ""
 "Déanann Brabhsálaí Tor a dhícheall a bheith neamhspleách ar an gcuid eile de "
-"do chóras, agus ní féidir leat muinín a chur sna céimeanna a dhéanann "
+"do chóras, agus ní féidir leat muinín a chur sna céimeanna a dhéanfadh "
 "brabhsálaí réamhshocraithe de."
 
 #: http://localhost/operators/operators-3/
@@ -2706,6 +2676,8 @@ msgstr "An féidir liom Brabhsálaí Tor a úsáid mar bhrabhsálaí réamhshocr
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -2721,7 +2693,8 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "##### Common log error #2: Can’t reach guard relays"
 msgstr ""
-"##### Earráid choitianta #2 sa logchomhad: Ní féidir gardaí a bhaint amach"
+"##### Earráid choitianta #2 sa logchomhad: Ní féidir garda iontrála a bhaint "
+"amach"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -2739,7 +2712,7 @@ msgid ""
 "you found in the previous step for <version>."
 msgstr ""
 "* Cuir na línte seo a leanas le /etc/apt/sources.list mar root. Úsáid an "
-"leagan a d'aimsigh tú sa chéim roimhe seo in áit <leagan>."
+"leagan a d'aimsigh tú sa chéim roimhe seo in áit \"leagan\"."
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -3107,8 +3080,9 @@ msgid ""
 "Onion services allow people to browse but also to publish anonymously, "
 "including publishing anonymous websites."
 msgstr ""
-"Is féidir seirbhísí onion a úsáid le brabhsáil ar ndóigh, ach is féidir iad "
-"a úsáid chun ábhar a fhoilsiú freisin, suímh Ghréasáin gan ainm san áireamh."
+"Is féidir seirbhísí onion a úsáid chun brabhsáil ar ndóigh, ach is féidir "
+"iad a úsáid chun ábhar a fhoilsiú freisin, suímh Ghréasáin gan ainm san "
+"áireamh."
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.seo_slug)
@@ -3356,6 +3330,15 @@ msgstr ""
 "<mark><a href=\"https://www.torproject.org/projects/torbrowser/design/"
 "\">Tuilleadh eolais maidir le dearadh Bhrabhsálaí Tor</a></mark>."
 
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid ""
+"We currently offer <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
+msgstr ""
+"Tá <mark><a href=\"https://www.torproject.org/projects/torbrowser.html.en"
+"\">Brabhsálaí Tor</a></mark> ar fáil sna teangacha seo a leanas:"
+
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
 msgid "Tor Messenger"
@@ -3540,7 +3523,7 @@ msgid ""
 "software to cause this type of issue."
 msgstr ""
 "Má tá bogearra frithvíris ar do ríomhaire, féach ar <mark><a href=\"http://"
-"support.torproject.org/#tbb-10\">Cuireann mo bhogearra frithvíris cosc ar "
+"support.torproject.org/ga/#tbb-10\">Cuireann mo bhogearra frithvíris cosc ar "
 "Bhrabhsálaí Tor.</a></mark>; is minic go mbíonn bogearra frithvíris ina "
 "chúis le fadhbanna den sórt seo."
 
@@ -3608,8 +3591,6 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
-"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Roghchlár "
-"Bhrabhsálaí Tor\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -3712,11 +3693,14 @@ msgstr ""
 "(ISP), in ann a fheiceáil go bhfuil tú ag baint úsáide as Tor, ach ní bheidh "
 "siad in ann na suímh a dtugann tú cuairt orthu a fheiceáil."
 
-#: http://localhost/tbb/tbb-34/
-#: (content/tbb/tbb-34/contents+en.lr:question.title)
-msgid "Why does Tor Browser ship with Javascript enabled?"
+#: http://localhost/tbb/tbb-39/
+#: (content/tbb/tbb-39/contents+en.lr:question.description)
+msgid ""
+"Sometimes Javascript-heavy websites can have functional issues over Tor "
+"Browser."
 msgstr ""
-"Cén fáth a bhfuil JavaScript cumasaithe i mbrabhsálaí Tor mar réamhshocrú?"
+"Uaireanta bíonn fadhbanna le Brabhsálaí Tor ar shuímh Ghréasáin a bhaineann "
+"úsáid as mórán JavaScript."
 
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
@@ -3762,7 +3746,7 @@ msgid ""
 "activity from being linkable to what you were doing before."
 msgstr ""
 "Tá an rogha seo úsáideach má tá tú ag iarraidh aon cheangal idir do "
-"ghníomhaíocht sa todhchaí agus na rudaí a bhí ag déanamh níos luaithe a "
+"ghníomhaíocht sa todhchaí agus na rudaí a bhí tú ag déanamh níos luaithe a "
 "bhriseadh."
 
 #: http://localhost/misc/misc-10/
@@ -3795,13 +3779,6 @@ msgstr ""
 "Agus is féidir leat deimhniú go bhfuil tú in ann seirbhísí Onion eile a "
 "rochtain trí cheangal a bhunú le <a href=\"http://3g2upl4pq6kufc4m.onion"
 "\">Seirbhís Onion DuckDuckGo</a>"
-
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-msgstr ""
-"## Socraigh an ráta bandaleithid (fág mar nóta tráchta é agus rithfidh Tor "
-"gan"
 
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
@@ -4273,8 +4250,6 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
-"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Oinniún beag"
-"\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -4423,12 +4398,14 @@ msgstr "pick-which-country-i-am-exiting"
 #: (content/operators/operators-2/contents+en.lr:question.description)
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
+#: http://localhost/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lr:question.description)
 msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
 msgstr ""
-"## Set your bandwidth rate (leave commented and Tor will run without "
-"bandwidth caps)"
+"## Socraigh an ráta bandaleithid (fág mar nóta tráchta é agus rithfidh Tor "
+"gan teorainn ar bhandaleithead)"
 
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.description)
@@ -4602,8 +4579,54 @@ msgstr "Cuardaigh"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr "Topaicí"
+msgstr ""
 
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Buan-nasc"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
+#~ "\"Onion icon\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
+#~ "\"Oinniún beag\">"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
+#~ "\" alt=\"New Circuit for this Site\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
+#~ "\" alt=\"Ciorcad Nua don Suíomh seo\">"
+
+#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
+#~ msgstr "<h4 class=\"card-title\">Ciorcad Nua don Suíomh seo</h4>"
+
+#~ msgid ""
+#~ "<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+#~ "website with https</h4>"
+#~ msgstr ""
+#~ "<h4 class=\"card-title\">Oinniún beag glas le glas fraincín a léiríonn "
+#~ "suíomh .onion a úsáideann https</h4>"
+
+#~ msgid ""
+#~ "<h4 class=\"card-title\">Icon of a green onion to identify .onion "
+#~ "website</h4>"
+#~ msgstr "<h4 class=\"card-title\">Oinniún glas a léiríonn suíomh .onion</h4>"
+
+#~ msgid "<h4 class=\"card-title\">New Identity</h4>"
+#~ msgstr "<h4 class=\"card-title\">Aitheantas Nua</h4>"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
+#~ "alt=\"Tor Browser Menu\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
+#~ "alt=\"Roghchlár Bhrabhsálaí Tor\">"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
+#~ "\"Green onion with a padlock\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
+#~ "\"Oinniún glas le glas fraincín\">"
