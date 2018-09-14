@@ -17,7 +17,7 @@ Quando si accede ad un sito che usa un servizio onion, Tor Browser mostrerà nel
     <div class="card">
         <img class="card-img-top" src="/static/images/onion-website.png" alt="Onion icon">
         <div class="card-body">
-            <h4 class="card-title">Icon of a green onion to identify .onion website</h4>
+            <h4 class="card-title">Icona di una cipolla verde per indicare i siti .onion</h4>
         </div>
     </div>
 </div>
@@ -28,7 +28,7 @@ E se stai accedendo ad un sito con https e un servizio onion, mostrerà un'icona
     <div class="card">
         <img class="card-img-top" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
         <div class="card-body">
-            <h4 class="card-title">Green onion with a padlock to identify .onion website with https</h4>
+            <h4 class="card-title">Cipolla verde con un lucchetto per indicare i siti .onion con https</h4>
         </div>
     </div>
 </div>

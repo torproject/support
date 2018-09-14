@@ -6,4 +6,4 @@ seo_slug: como-fazer-download-do-tor-se-torproject-org-está-bloqueado
 ---
 description:
 Se você não consegue baixar o Tor através do nosso <mark><a href="https://www.torproject.org">site</a></mark>, você pode obter uma cópia do Tor através do seu GetTor.
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.
+GetTor é um serviço que automaticamente responde mensagens com endereços para a última versão do Navegador Tor, hospedado em diversas localizações que são menos propensas de serem censuradas, como Dropbox, Google Drive, e GitHub.

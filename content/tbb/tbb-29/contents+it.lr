@@ -21,7 +21,7 @@ Tor Browser ti avviserà che tutte le tue attività e i download saranno interro
     <div class="card">
         <img class="card-img-top" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
         <div class="card-body">
-            <h4 class="card-title">New Identity</h4>
+            <h4 class="card-title">Nuova identità</h4>
         </div>
     </div>
 </div>
