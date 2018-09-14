@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 08:01+CET\n"
+"POT-Creation-Date: 2018-09-14 21:09+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: The Gamer <xthegamerx@hotmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/1519/it/)\n"
@@ -558,13 +558,6 @@ msgstr ""
 "Puoi migliorare la velocità del network implementando un tuo relay, oppure "
 "incoraggiando altri a farlo."
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
-"\"Onion icon\">"
-msgstr ""
-
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid ""
@@ -580,11 +573,11 @@ msgid "You can update Tor Browser as soon as a new version is released."
 msgstr ""
 "Potrai aggiornare Tor Browser non appena sarà rilasciata una nuova versione."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png\" "
-"alt=\"New Circuit for this Site\">"
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 msgstr ""
 
 #: http://localhost/tbb/tbb-18/
@@ -596,12 +589,8 @@ msgstr ""
 "Siamo spiacenti, ma attualmente non c'è alcun supporto ufficiale "
 "sull'eseguire Tor Browser su * BSD."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "<div class=\"col-md-6\">"
 msgstr "<div class=\"col-md-6\">"
 
@@ -731,11 +720,6 @@ msgid ""
 msgstr ""
 "Dovresti visualizzare uno dei seguenti errori di registro comuni (cerca una "
 "delle seguenti righe nel tuo log di Tor):"
-
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
-msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-msgstr "<h4 class=\"card-title\">Nuovo circuito per questo sito</h4>"
 
 #: http://localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lr:question.seo_slug)
@@ -1391,15 +1375,6 @@ msgstr "finanziamento-tor"
 msgid "Tor browser will install the updates."
 msgstr "Tor browser installerà gli aggiornamenti."
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
-"website with https</h4>"
-msgstr ""
-"<h4 class=\"card-title\">Cipolla verde con un lucchetto per indicare i siti ."
-"onion con https</h4>"
-
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid ""
@@ -1672,6 +1647,13 @@ msgstr ""
 #: (content/tbb/tbb-2/contents+en.lr:question.seo_slug)
 msgid "first-address-relay-circuit"
 msgstr "primo-indirizzo-circuito-relay"
+
+#: http://localhost/tbb/tbb-29/
+#: (content/tbb/tbb-29/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
+msgstr ""
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2075,15 +2057,6 @@ msgid ""
 msgstr ""
 "Per favore consulta il <mark><a href=\"https://duck.co/help\">portale di "
 "supporto di DuckDuckGo</a></mark>."
-
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Icon of a green onion to identify .onion website</"
-"h4>"
-msgstr ""
-"<h4 class=\"card-title\">Icona di una cipolla verde per indicare i siti ."
-"onion</h4>"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2796,16 +2769,10 @@ msgstr "tor-mantiene-log"
 msgid "Thank you.\""
 msgstr "Grazie.\""
 
-#: http://localhost/gettor/gettor-2/
-#: (content/gettor/gettor-2/contents+en.lr:question.description)
-msgid ""
-"You may be offered a choice of \"32-bit\" or \"64-bit\" software: this "
-"depends on the model of the computer you are using; consult documentation "
-"about your computer to find out more."
-msgstr ""
-"Ti sarà offerta la scelta tra la versione \"32-bit\" o \"64-bit\" del "
-"software; questo dipende dal modello del computer che stai utilizzando; "
-"consulta la documentazione del tuo computer per saperne di più."
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid "* 日本語 (ja)"
+msgstr "* Giapponese (ja)"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -3058,12 +3025,8 @@ msgstr ""
 "poiché potresti accidentalmente utilizzare l'altro browser per qualcosa che "
 "volevi invece fare utilizzando Tor."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "<div class=\"card-body\">"
 msgstr "<div class=\"card-body\">"
 
@@ -3237,12 +3200,8 @@ msgstr ""
 "download</a></mark>), l'impronta della chiave usata per firmare e il "
 "checksum del pacchetto."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "<div class=\"card\">"
 msgstr "<div class=\"card\">"
 
@@ -3273,12 +3232,8 @@ msgstr ""
 "Le altre schede e finestre windows dello stesso sito internet utilizzeranno "
 "il nuovo circuito una volta ricaricate."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "</div>"
 msgstr "</div>"
 
@@ -3424,11 +3379,6 @@ msgstr "Domande più frequenti"
 msgid "How do I uninstall Tor Browser?"
 msgstr "Come disinstallo Tor Browser?"
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
-msgid "<h4 class=\"card-title\">New Identity</h4>"
-msgstr "<h4 class=\"card-title\">Nuova identità</h4>"
-
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.title)
 msgid ""
@@ -3517,10 +3467,16 @@ msgstr ""
 "2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx.."
 "xxx.xx:xxxxx (\"general SOCKS server failure\")"
 
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid "* 日本語 (ja)"
-msgstr "* Giapponese (ja)"
+#: http://localhost/gettor/gettor-2/
+#: (content/gettor/gettor-2/contents+en.lr:question.description)
+msgid ""
+"You may be offered a choice of \"32-bit\" or \"64-bit\" software: this "
+"depends on the model of the computer you are using; consult documentation "
+"about your computer to find out more."
+msgstr ""
+"Ti sarà offerta la scelta tra la versione \"32-bit\" o \"64-bit\" del "
+"software; questo dipende dal modello del computer che stai utilizzando; "
+"consulta la documentazione del tuo computer per saperne di più."
 
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.description)
@@ -3624,6 +3580,13 @@ msgid ""
 msgstr ""
 "Se il sito che stai visitando utilizza HTTPS, allora il traffico in uscita "
 "dal tuo exit relay sarà crittografato, e non sarà visibile agli spioni."
+
+#: http://localhost/tbb/tbb-29/
+#: (content/tbb/tbb-29/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
+msgstr ""
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -3884,13 +3847,6 @@ msgstr ""
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "#MyFamily $keyid,$keyid,..."
 msgstr "#MyFamily $keyid,$keyid,..."
-
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" alt="
-"\"Tor Browser Menu\">"
-msgstr ""
 
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.seo_slug)
@@ -4195,13 +4151,6 @@ msgstr ""
 "risoluzione dei problemi nel <mark><a href=\"https://tb-manual.torproject."
 "org/en-US/bridges.html\">manuale di Tor Browser</a></mark>."
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
-"\"Green onion with a padlock\">"
-msgstr ""
-
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* 简体字 (zh-CN)"
@@ -4286,6 +4235,12 @@ msgstr "usare-flash-su-tor-browser"
 #: (content/misc/misc-1/contents+en.lr:question.title)
 msgid "I have a compelling reason to trace a Tor user. Can you help?"
 msgstr "Ho una ragione valida per tracciare un utente Tor. Potete aiutarmi?"
+
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
+msgstr ""
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -4621,3 +4576,23 @@ msgstr "Cerca"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Link permanente"
+
+#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
+#~ msgstr "<h4 class=\"card-title\">Nuovo circuito per questo sito</h4>"
+
+#~ msgid ""
+#~ "<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+#~ "website with https</h4>"
+#~ msgstr ""
+#~ "<h4 class=\"card-title\">Cipolla verde con un lucchetto per indicare i "
+#~ "siti .onion con https</h4>"
+
+#~ msgid ""
+#~ "<h4 class=\"card-title\">Icon of a green onion to identify .onion "
+#~ "website</h4>"
+#~ msgstr ""
+#~ "<h4 class=\"card-title\">Icona di una cipolla verde per indicare i siti ."
+#~ "onion</h4>"
+
+#~ msgid "<h4 class=\"card-title\">New Identity</h4>"
+#~ msgstr "<h4 class=\"card-title\">Nuova identità</h4>"

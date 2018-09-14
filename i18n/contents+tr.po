@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 08:01+CET\n"
+"POT-Creation-Date: 2018-09-14 21:09+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/1519/tr/)\n"
@@ -541,15 +541,6 @@ msgstr ""
 "Kendi aktarıcınızı işleterek ya da başkalarını bu konuda yüreklendirerek ağ "
 "hızının artmasına katkıda bulunabilirsiniz."
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
-"\"Onion icon\">"
-msgstr ""
-"<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
-"\"Onion icon\">"
-
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid ""
@@ -564,14 +555,12 @@ msgstr ""
 msgid "You can update Tor Browser as soon as a new version is released."
 msgstr "Yeni bir Tor Browser sürümü yayınlandığında güncelleyebilirsiniz."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png\" "
-"alt=\"New Circuit for this Site\">"
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 msgstr ""
-"<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png\" "
-"alt=\"New Circuit for this Site\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -580,12 +569,8 @@ msgid ""
 "*BSD."
 msgstr "Maalesef, henüz *BSD için resmi bir Tor Browser sürümümüz yok."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "<div class=\"col-md-6\">"
 msgstr "<div class=\"col-md-6\">"
 
@@ -717,11 +702,6 @@ msgid ""
 msgstr ""
 "Şu genel günlük sorunlarından birini görmelisiniz (Tor günlüğünüzde "
 "aşağıdaki satırları arayın):"
-
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
-msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-msgstr "<h4 class=\"card-title\">Bu Sitenin Devresini Yenile</h4>"
 
 #: http://localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lr:question.seo_slug)
@@ -1376,15 +1356,6 @@ msgstr "tor-projesine-bagis-yapmak"
 msgid "Tor browser will install the updates."
 msgstr "Tor Browser güncellemeleri kuracak."
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
-"website with https</h4>"
-msgstr ""
-"<h4 class=\"card-title\">https ile Erişilen .onion Web Sitelerini Belirten "
-"Yeşil Soğan ve Kilit Simgesi</h4>"
-
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid ""
@@ -1658,6 +1629,13 @@ msgstr ""
 #: (content/tbb/tbb-2/contents+en.lr:question.seo_slug)
 msgid "first-address-relay-circuit"
 msgstr "aktarim-devresi-ilk-adresi"
+
+#: http://localhost/tbb/tbb-29/
+#: (content/tbb/tbb-29/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
+msgstr ""
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2058,15 +2036,6 @@ msgid ""
 msgstr ""
 "<mark><a href=\"https://duck.co/help\">DuckDuckGo destek portaline</a></"
 "mark> bakabilirsiniz."
-
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Icon of a green onion to identify .onion website</"
-"h4>"
-msgstr ""
-"<h4 class=\"card-title\">.onion Web Sitelerini Belirten Yeşil Soğan Simgesi</"
-"h4>"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2775,16 +2744,10 @@ msgstr "tor-gunluk-kayitlari-tutuyor-mu"
 msgid "Thank you.\""
 msgstr "Teşekkürler.\""
 
-#: http://localhost/gettor/gettor-2/
-#: (content/gettor/gettor-2/contents+en.lr:question.description)
-msgid ""
-"You may be offered a choice of \"32-bit\" or \"64-bit\" software: this "
-"depends on the model of the computer you are using; consult documentation "
-"about your computer to find out more."
-msgstr ""
-"Kullandığınız bilgisayarın modeline bağlı olarak \"32-bit\" ya da \"64-bit\" "
-"uygulamalardan biri sunulabilir. Bilgisayarınız ile ilgili ayrıntılı bilgi "
-"almak için belgelere bakabilirsiniz."
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid "* 日本語 (ja)"
+msgstr "* 日本語 (ja)"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -3033,12 +2996,8 @@ msgstr ""
 "işlemleri diğer tarayıcıda yapabilirsiniz ve bu durum verilerinizin ve "
 "kimliğinizin açığa çıkmasına neden olabilir."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "<div class=\"card-body\">"
 msgstr "<div class=\"card-body\">"
 
@@ -3211,12 +3170,8 @@ msgstr ""
 "\">indirmeyi</a></mark> doğrulamak için), imzayı oluşturmak için kullanılan "
 "parmak izi ve paketin sağlama değerini içeren bir e-posta ile yanıt verir."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "<div class=\"card\">"
 msgstr "<div class=\"card\">"
 
@@ -3246,12 +3201,8 @@ msgstr ""
 "Aynı web sitesi için açık olan sekme ve pencereler yeniden yüklendiğinde "
 "yeni devreyi kullanır."
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
 msgid "</div>"
 msgstr "</div>"
 
@@ -3401,11 +3352,6 @@ msgstr "Sık Sorulan Sorular"
 msgid "How do I uninstall Tor Browser?"
 msgstr "Tor Browser nasıl kaldırılır?"
 
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
-msgid "<h4 class=\"card-title\">New Identity</h4>"
-msgstr "<h4 class=\"card-title\">Kimliği Yenile</h4>"
-
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.title)
 msgid ""
@@ -3495,10 +3441,16 @@ msgstr ""
 "2017-10-29 09:24:08.900 [UYARI] Vekil Sunucu İstemcisi: xx..xxx..xxx.xx:"
 "xxxxx ile bağlantı kurulamadı (\"genel SOCKS sunucusu sorunu\")"
 
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid "* 日本語 (ja)"
-msgstr "* 日本語 (ja)"
+#: http://localhost/gettor/gettor-2/
+#: (content/gettor/gettor-2/contents+en.lr:question.description)
+msgid ""
+"You may be offered a choice of \"32-bit\" or \"64-bit\" software: this "
+"depends on the model of the computer you are using; consult documentation "
+"about your computer to find out more."
+msgstr ""
+"Kullandığınız bilgisayarın modeline bağlı olarak \"32-bit\" ya da \"64-bit\" "
+"uygulamalardan biri sunulabilir. Bilgisayarınız ile ilgili ayrıntılı bilgi "
+"almak için belgelere bakabilirsiniz."
 
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.description)
@@ -3604,6 +3556,13 @@ msgstr ""
 "Ziyaret ettiğiniz web sitesi HTTPS kullanıyorsa, çıkış aktarıcısından çıkan "
 "veriler şifrelenir ve bağlantınızı izleyen kişi ya da kuruluşlar tarafından "
 "görülemez."
+
+#: http://localhost/tbb/tbb-29/
+#: (content/tbb/tbb-29/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
+msgstr ""
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -3859,15 +3818,6 @@ msgstr ""
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "#MyFamily $keyid,$keyid,..."
 msgstr "#Ailem $AnahtarKodu,$AnahtarKodu,..."
-
-#: http://localhost/tbb/tbb-29/
-#: (content/tbb/tbb-29/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" alt="
-"\"Tor Browser Menu\">"
-msgstr ""
-"<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" alt="
-"\"Tor Browser Menu\">"
 
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.seo_slug)
@@ -4176,15 +4126,6 @@ msgstr ""
 "bridges.html\">Tor Browser Belgelerinde</a></mark> Sorun Çözme bölümüne "
 "bakabilirsiniz."
 
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
-"\"Green onion with a padlock\">"
-msgstr ""
-"<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
-"\"Green onion with a padlock\">"
-
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* 简体字 (zh-CN)"
@@ -4268,6 +4209,12 @@ msgid "I have a compelling reason to trace a Tor user. Can you help?"
 msgstr ""
 "Zorunlu bir nedenle bir Tor kullanıcısını bulmalıyım. Yardım edebilir "
 "misiniz?"
+
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
+msgid ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
+msgstr ""
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -4601,3 +4548,51 @@ msgstr "Arama"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Kalıcı bağlantı"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
+#~ "\"Onion icon\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
+#~ "\"Onion icon\">"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
+#~ "\" alt=\"New Circuit for this Site\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
+#~ "\" alt=\"New Circuit for this Site\">"
+
+#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
+#~ msgstr "<h4 class=\"card-title\">Bu Sitenin Devresini Yenile</h4>"
+
+#~ msgid ""
+#~ "<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+#~ "website with https</h4>"
+#~ msgstr ""
+#~ "<h4 class=\"card-title\">https ile Erişilen .onion Web Sitelerini "
+#~ "Belirten Yeşil Soğan ve Kilit Simgesi</h4>"
+
+#~ msgid ""
+#~ "<h4 class=\"card-title\">Icon of a green onion to identify .onion "
+#~ "website</h4>"
+#~ msgstr ""
+#~ "<h4 class=\"card-title\">.onion Web Sitelerini Belirten Yeşil Soğan "
+#~ "Simgesi</h4>"
+
+#~ msgid "<h4 class=\"card-title\">New Identity</h4>"
+#~ msgstr "<h4 class=\"card-title\">Kimliği Yenile</h4>"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
+#~ "alt=\"Tor Browser Menu\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
+#~ "alt=\"Tor Browser Menu\">"
+
+#~ msgid ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
+#~ "\"Green onion with a padlock\">"
+#~ msgstr ""
+#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
+#~ "\"Green onion with a padlock\">"
