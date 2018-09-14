@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-13 14:25+CET\n"
+"POT-Creation-Date: 2018-09-13 22:35+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Bengali (Bangladesh) (https://www.transifex.com/otf/"
@@ -722,17 +722,6 @@ msgstr ""
 "easy.html.en\">টর ব্রাউজার</a></mark> ডাউনলোড করে, এবং তারপর এটি ব্যবহার করে "
 "নেভিগেট করতে অবরুদ্ধ করা হয়েছে এমন সাইট অ্যাক্সেসর অনুমতি দেবে।"
 
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">টর রিলে "
-"গাইড</a> দেখুন ।"
-
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
 msgid ""
@@ -1350,6 +1339,13 @@ msgstr "tor-funding"
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "Tor browser will install the updates."
 msgstr "টর ব্রাউজার হালনাগাদ সংস্থাপন করবে ।"
+
+#: http://localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
+msgid ""
+"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+"website with https</h4>"
+msgstr ""
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -2617,6 +2613,8 @@ msgstr "আমি কি আমার ডিফল্ট ব্রাউজা�
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -3086,13 +3084,6 @@ msgstr ""
 #: http://localhost/misc/ (content/misc/contents+en.lr:topic.title)
 msgid "Misc"
 msgstr "বিবিধ"
-
-#: http://localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lr:question.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padloack to identify .onion "
-"website with https</h4>"
-msgstr ""
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -4464,6 +4455,15 @@ msgstr "খুজুন"
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "পার্মালিঙ্ক"
+
+#~ msgid ""
+#~ "For the most in-depth resource on running a relay, see the <mark><a href="
+#~ "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
+#~ "Guide</a>."
+#~ msgstr ""
+#~ "একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark><a href="
+#~ "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">টর রিলে "
+#~ "গাইড</a> দেখুন ।"
 
 #~ msgid "We currently offer Tor Browser in the following languages:"
 #~ msgstr "বর্তমানে আমরা নিম্নলিখিত ব্রাউজারগুলিতে টর ব্রাউজার প্রস্তাব করছি:"
