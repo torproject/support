@@ -7,9 +7,9 @@ seo_slug: actualitzant-navegador-tor
 description:
 Podeu actualitzar el Navegador Tor tan bon punt es publiqui una versió nova.
 
-Tor Browser will prompt you to update the software once a new version has been released.
+Navegador Tor us demanarà que actualitzeu el programari una vegada que s'hagi publicat una versió nova.
 
-The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+La icona Tor (la ceba petita en l'extrem superior esquerre del navegador) mostrarà un triangle groc.
 
 <img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 

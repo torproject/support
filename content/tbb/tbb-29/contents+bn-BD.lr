@@ -9,7 +9,7 @@ description:
 
 Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
 
-# # # # নতুন পরিচয়
+##### নতুন পরিচয়
 
 আপনি যদি আপনার পরবর্তী ব্রাউজার কার্যকলাপকে linkable করা থেকে বিরত রাখতে চান তাহলে এই অপশনটি দরকারী ।
 
@@ -19,7 +19,7 @@ Both options are located in the Menu, but you can also access the New Circuit op
 
 <img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
-# # # # # নিউ টর সার্কিট এই সাইটের জন্য
+##### নিউ টর সার্কিট এই সাইটের জন্য
 
 যদি প্রস্থান রিলে আপনি ব্যবহার করছেন তাহলে এই বিকল্পটি দরকারী, অথবা আপনার প্রয়োজন ওয়েবসাইটে সংযোগ করতে অক্ষম, অথবা এটি সঠিকভাবে লোড করা নেই ।
 এটি নির্বাচন করার জন্য বর্তমানে সক্রিয় ট্যাব বা উইন্ডো একটি নতুন টর সার্কিটে লোড করা হবে ।

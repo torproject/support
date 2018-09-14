@@ -5,7 +5,7 @@ title: আমি কিভাবে ডেবিয়ান একটি প্
 seo_slug: how-do-i-run-an-exit
 ---
 description:
-<a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark>টর রিলে গাইড</mark></mark> দেখুন ।
+একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">টর রিলে গাইড</a> </mark>দেখুন ।
 
 * আমাদের <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">প্রস্থান রিলে নির্দেশিকা</a></mark> পর্যালোচনা করুন।
 * Run "apt-get install tor" (as root).
@@ -43,7 +43,7 @@ description:
 
 * যখন এটি নিশ্চিত হয় যে এটি পাওয়া যাচ্ছে, এটি একটি "সার্ভার বর্ণনাকারী "-কে নির্দেশিকা কর্তৃপক্ষের কাছে আপলোড করবে যা কোন ঠিকানা, পোর্ট, কী ইত্যাদি আপনার রিলে ব্যবহার করছে তা জানার জন্য ।
 
-<mark>কয়েক ঘন্টা পর ( প্রচারিত করা জন্য যথেষ্ট সময় দিতে), আপনি <a href="https://metrics.torproject.org/rs.html#search">মেট্রিকগুলো</a> জিজ্ঞাসা করতে পারেন যে আপনার রিলে নেটওয়ার্কে সফলভাবে নিবন্ধিত আছে কিনা ।
+কয়েক ঘন্টা পর ( প্রচারিত করা জন্য যথেষ্ট সময় দিতে), আপনি <mark><a href="https://metrics.torproject.org/rs.html#search">মেট্রিকগুলো</a></mark> জিজ্ঞাসা করতে পারেন যে আপনার রিলে নেটওয়ার্কে সফলভাবে নিবন্ধিত আছে কিনা ।
 যদি তা না হয়, পুনরায় চেক ফায়ারওয়াল, আইপি এবং পোর্ট আবার.
 
 আপনি <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">প্রস্থান নীতি</a></mark>-এ সুইচ করতে চান কিনা তা বিবেচনা করুন.

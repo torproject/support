@@ -5,7 +5,7 @@ title: আমি কিভাবে ডেবিয়ান একটি প্
 seo_slug: how-do-i-run-an-exit
 ---
 description:
-<a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark>টর রিলে গাইড</mark></mark> দেখুন ।
+একটি রিলে চালু করার জন্য সবচেয়ে বেশি গভীরতার সংস্থানের জন্য, <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">টর রিলে গাইড</a> </mark>দেখুন ।
 
 * আমাদের <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">প্রস্থান রিলে নির্দেশিকা</a></mark> পর্যালোচনা করুন।
 * Run "apt-get install tor" (as root).

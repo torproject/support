@@ -44,7 +44,7 @@ Mohon coba lagi dengan menggunakan bridge, ini seharusnya menyelesaikan masalah 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
 If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Menggunakan bridges mungkin akan memperbaiki ini.
 
 ##### Common log error #4: Clock skew
 

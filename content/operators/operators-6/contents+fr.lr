@@ -25,8 +25,7 @@ Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctemen
     ExtORPort auto
     ORPort 9001
 
-    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s’exécutera sans
-    limites de bande passante)
+    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s’exécutera sans limite de bande passante)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 

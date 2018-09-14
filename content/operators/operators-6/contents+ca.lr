@@ -25,8 +25,7 @@ description:
     ExtORPort auto
     ORPort 9001
 
-    ## Estableix el vostre ample de banda (deixeu-ho comentat i Tor s'executarà sense
-    limitacions d'ample de banda)
+    ## Edita el teu ample de banda (deixa-ho comentat i Tor funcionarà sense limits d'ample de banda)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 

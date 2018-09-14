@@ -5,7 +5,7 @@ title: Como eu executo um relay de saída no Debian ?
 seo_slug: how-do-i-run-an-exit
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a></mark>.
 
 * Revise nossos <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines"> Diretrizes de relays de saída</a></mark>
 * Execute "apt-get install tor" (como root).
@@ -37,7 +37,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 * Depois que seu retransmissor conecta na rede, ele vai tentar determinar se as portas que você configurou são alcançáveis do lado de fora.
   Esta etapa geralmente é rápida, mas pode levar alguns minutos.
 
-  Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+  Veja sua entrada de log em /var/log/syslog algo como "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   Se você não consegue visualizar esta mensagem, isto significa que o seu relay não é acessível por fora.
   Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
 

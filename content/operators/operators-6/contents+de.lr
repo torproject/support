@@ -25,8 +25,7 @@ description:
     ExtORPort auto
     ORPort 9001
 
-    ## Bandbreiten-Einstellung (Tor funktioniert ohne, wenn dies kommentiert ist)
-    Bandbreitenbeschränkungen)
+    ## Bandbreiten-Beschränkung (Tor funktioniert ohne, wenn dies kommentiert ist)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 

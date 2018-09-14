@@ -5,7 +5,7 @@ title: Como eu executo um retransmissor do meio ou guarda no FreeBSD ou Hardened
 seo_slug: como-rodar-um-intermediario-ou-guarda-no-freebsd
 ---
 description:
-Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a>.
+Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a></mark>.
 
 * Execute "pkg install tor" (como root).
 Certifique-se que seu relógio, data e fuso horário estão configurados corretamente.
@@ -38,7 +38,7 @@ Certifique-se que seu relógio, data e fuso horário estão configurados correta
 * Execute "service tor start" (como root)
 * Depois que seu retransmissor conecta na rede, ele vai tentar determinar se as portas que você configurou são alcançáveis do lado de fora.
   Esta etapa geralmente é rápida, mas pode levar alguns minutos.
-  Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+  Veja sua entrada de log em /var/log/syslog algo como "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   Se você não consegue visualizar esta mensagem, isto significa que o seu relay não é acessível por fora.
   Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
 * Quando ele confirma que está acessível, ele vai enviar um "descritor do servidor" para o diretório de autoridades para deixar os clientes saberem qual endereço, porta, chaves, etc seu retransmissor está usando.

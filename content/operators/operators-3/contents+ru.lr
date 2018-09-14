@@ -5,7 +5,7 @@ title: How do I run a middle or guard relay on FreeBSD or HardenedBSD?
 seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a>.
+For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
 * Используйте команду "pkg install tor" (с рут-правами).
 * Make sure your clock, date, and timezone are set correctly.

@@ -26,7 +26,6 @@ description:
     ORPort 9001 
 
     ## Atur tingkat bandwidth Anda (biarkan dalam bentuk komentar dan Tor akan berjalan tanpa batas bandwidth)
-    batas bandwidth)
     #RelayBandwidthRate 30 MBytes 
     #RelayBandwidthBurst 100 MBytes 
 

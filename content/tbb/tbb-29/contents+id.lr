@@ -7,7 +7,7 @@ seo_slug: change-ip-address
 description:
 Tor Browser memiliki dua cara untuk mengubah sirkuit relay Anda — "Identitas baru" dan "Tor sirkuit Baru untuk situs ini".
 
-Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
+Kedua pilihan berada pada Menu, tetapi Anda juga bisa mengakses pilihan Sirkuit Baru di dalam menu informasi situs, pada kolom URL.
 
 ##### Identitas Baru
 

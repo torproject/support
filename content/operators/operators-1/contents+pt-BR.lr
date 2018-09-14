@@ -5,7 +5,7 @@ title: Como eu executo um retransmissor guarda ou do meio no Debian?
 seo_slug: como-operar-um-relay-intermediario-ou-guarda
 ---
 description:
-For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a></mark>.
 
 
 * Execute "apt-get install tor" (como root).
@@ -42,6 +42,6 @@ Veja sua entrada de log em /var/log/syslog algo como "Self-testing indicates you
 Se você não consegue visualizar esta mensagem, isto significa que o seu relay não é acessível por fora.
 Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
 
-When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+Quando ele confirma que está acessível, ele vai enviar um "descritor do servidor" para o diretório de autoridades para deixar os clientes saberem qual endereço, porta, chaves, etc seu retransmissor está usando.
 Depois de poucas horas (para ter tempo o bastante para propagar), você pode consultar o <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> para ver se seu retransmissor foi registrado com sucesso na rede.
 If it hasn't, re-check firewalls, IP and ports again.
