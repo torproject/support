@@ -22,7 +22,7 @@ If you see lines like these  in your Tor log, it means you are failing to connec
 If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
 If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
 
-##### Common log error #2: Can’t reach guard relays
+##### 常见错误 #2: 无法连接到中继
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
@@ -31,8 +31,8 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+这可能意味着您处于被监管的网络之中。
+请尝试通过网桥连接，这应该能解决您的问题。
 
 ##### Common log error #3: Failed to complete TLS handshake
 
@@ -53,5 +53,5 @@ Using bridges will likely fix this.
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. 
     Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
+如果您看见这些提示出现在您的日志里面，这意味着您的系统时间设置错误。
 Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 
