@@ -6,4 +6,4 @@ seo_slug: instal·lant-extensions-navegador-tor
 ---
 description:
 S’ha desaconsellat encarecidament que instal·leu nous complements al navegador Tor, ja que poden comprometre la vostra privadesa i seguretat.
-Tor Browser ja ve instal·lat amb dos complements: HTTPS Everywhere i NoScript, i afegir-ne qualsevol altre podria fer perdre l'anonimat
+El Navegador Tor ja ve instal·lat amb dos complements: <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> i <mark><a href="https://noscript.net/">NoScript</a></mark>, i afegir qualsevol altra cosa podria fer perdre l'anonimat.

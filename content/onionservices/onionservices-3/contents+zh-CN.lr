@@ -7,6 +7,6 @@ seo_slug: i-cannot-reach-x-dot-onion
 description:
 If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
 如果您还是无法访问这个网站，请稍后重试。
-There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+有可能是网络连接有出现暂时性阻碍，或者是该网站的管理员暂时将站台关闭了。
 
 You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo's onion service</a>.

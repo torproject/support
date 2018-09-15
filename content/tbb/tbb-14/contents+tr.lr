@@ -6,4 +6,4 @@ seo_slug: tor-browser-uzerine-eklenti-kurmak
 ---
 description:
 Gizlilik ve güvenliğinizi tehlikeye atabileceğinden Tor Browser üzerine yeni eklentiler kurmaktan kaçınmanız önerilir.
-Tor Browser HTTPS Everywhere ve NoScript eklentileri kurulmuş olarak gelir. Bunun dışında bir eklenti kurmak anonim kalmanızı engelleyebilir.
+Tor Browser <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> ve <mark><a href="https://noscript.net/">NoScript</a></mark> eklentileri kurulmuş olarak gelir. Bunun dışında bir eklenti kurmak anonim kalmanızı engelleyebilir.
