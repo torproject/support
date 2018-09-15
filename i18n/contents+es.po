@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:21+CET\n"
+"POT-Creation-Date: 2018-09-15 08:39+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: cacu <cacu@espora.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/1519/es/)\n"
@@ -2168,15 +2168,6 @@ msgstr ""
 "Al seleccionarlo, causará que la pestaña o ventana actualmente activa se "
 "recargue sobre un nuevo circuito de Tor."
 
-#: http://localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lr:question.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-"El Navegador Tor ya trae instalado dos complementos - HTTPS Everywhere y "
-"NoScript - y añadir cualquier otra cosa podría desanonimizarte."
-
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
@@ -2465,6 +2456,8 @@ msgstr ""
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lr:question.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a href="
 "\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> and "
@@ -4577,3 +4570,10 @@ msgstr "Permalink"
 #~ msgstr ""
 #~ "Todavía no hay una versión oficial de Tor para iOS, aunque recomendamos "
 #~ "Onion Browser."
+
+#~ msgid ""
+#~ "Tor Browser already comes installed with two add-ons — HTTPS Everywhere "
+#~ "and NoScript — and adding anything else could deanonymize you."
+#~ msgstr ""
+#~ "El Navegador Tor ya trae instalado dos complementos - HTTPS Everywhere y "
+#~ "NoScript - y añadir cualquier otra cosa podría desanonimizarte."

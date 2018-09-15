@@ -4,14 +4,13 @@
 # ilkeryus <ilkeryus@gmail.com>, 2018
 # Uzayzaman Yolcusu <ardayilmazgamer@gmail.com>, 2018
 # Emma Peel, 2018
-# Goktug Cetin <spartalileonidas@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 10:50+CET\n"
+"POT-Creation-Date: 2018-09-15 08:39+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Goktug Cetin <spartalileonidas@gmail.com>, 2018\n"
+"Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/1519/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -295,11 +294,6 @@ msgstr ""
 msgid "setting-tor-browser-as-default"
 msgstr "tor-browser-uygulamasini-varsayilan-olarak-atamak"
 
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid "We currently offer Tor Browser in the following languages:"
-msgstr "Tor Browser uygulamasını şu dillere çevrilmiş olarak sunuyoruz:"
-
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
 msgid "Unfortunately, we don't yet have a version of Tor Browser for ChromeOS."
@@ -529,14 +523,16 @@ msgstr ""
 msgid "No, the Tor Project does not offer hosting services."
 msgstr "Hayır, Tor Projesi herhangi bir barındırma hizmeti sunmaz."
 
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 msgstr ""
-"Henüz iOS için resmi bir Tor sürümü geliştirilmediğinden Onion tarayıcısını "
-"öneririz."
+"19.11.2017 00:04:48.200 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el "
+"sıkışma tamamlanıyor"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -730,17 +726,6 @@ msgstr ""
 "Genellikle <mark><a href=\"https://www.torproject.org/download/download-easy."
 "html.en\">Tor Browser</a></mark> uygulamasını indirmek ve engellenen web "
 "sitelerine erişmek için kullanmak yeterlidir."
-
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"Bir aktarıcı işletmek ile ilgili en ayrıntılı bilgileri almak için <mark><a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
-"Aktarıcı Belgesine</a></mark> bakabilirsiniz."
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
@@ -1043,11 +1028,6 @@ msgstr "Tor üzerinde anonim dosya paylaşımı nasıl yapılır?"
 msgid "* tor.real"
 msgstr "* tor.real"
 
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "bandwidth caps)"
-msgstr "sınırlaması olmadan kullanılabilmesi için açıklama olarak bırakın)"
-
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
@@ -1139,16 +1119,10 @@ msgstr ""
 "Bir onion hizmeti ile bağlantı kuramıyorsanız <a href=\"/"
 "#onionservices-3\">X.onion üzerine ulaşamıyorum</a> bölümüne bakabilirsiniz."
 
-#: http://localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lr:question.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
-msgstr ""
-"19.11.2017 00:04:48.200 [BİLDİRİM] %10 tamamlandı: Dizin sunucusu ile el "
-"sıkışma tamamlanıyor"
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.title)
+msgid "How do I run an exit relay on Debian?"
+msgstr "Bir çıkış aktarıcısını Debian üzerinde nasıl işletirim?"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -1365,14 +1339,10 @@ msgstr ""
 msgid "I'm having a problem with NoScript."
 msgstr "NoScript ile ilgili bir sorun yaşıyorum."
 
-#: http://localhost/tbb/tbb-39/
-#: (content/tbb/tbb-39/contents+en.lr:question.description)
-msgid ""
-"Sometimes Javascript-heavy websites can have functional issues over Tor "
-"Browser."
-msgstr ""
-"JavaScript ağırlığı fazla olan web sitelerinde Tor Browser kullanırken bazı "
-"işlemlerde sorun çıkabilir."
+#: http://localhost/tbb/tbb-34/
+#: (content/tbb/tbb-34/contents+en.lr:question.title)
+msgid "Why does Tor Browser ship with Javascript enabled?"
+msgstr "Tor Browser neden JavaScript etkinleştirilmiş olarak geliyor?"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.seo_slug)
@@ -2181,15 +2151,6 @@ msgstr ""
 "Geçerli sekme ya da pencerenin yeni bir Tor devresi kullanılarak yeniden "
 "yüklenmesini sağlar."
 
-#: http://localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lr:question.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-"Tor Browser HTTPS Everywhere ve NoScript eklentileri kurulmuş olarak gelir. "
-"Bunun dışında bir eklenti kurmak anonim kalmanızı engelleyebilir."
-
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
@@ -2474,6 +2435,8 @@ msgstr ""
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lr:question.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a href="
 "\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> and "
@@ -2687,6 +2650,8 @@ msgstr "Tor Browser varsayılan tarayıcı yapılabilir mi?"
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -3328,6 +3293,15 @@ msgstr ""
 "projects/torbrowser/design/\">Tor Tarayıcısının Tasarımı</a></mark> bölümüne "
 "bakabilirsiniz."
 
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid ""
+"We currently offer <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
+msgstr ""
+"<mark><a href=\"https://www.torproject.org/projects/torbrowser.html.en\">Tor "
+"Browser</a></mark> şu dillerde sunulmaktadır:"
+
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
 msgid "Tor Messenger"
@@ -3424,6 +3398,8 @@ msgstr ""
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -3682,10 +3658,14 @@ msgstr ""
 "İnternet Hizmeti Sağlayıcınız (ISP) gibi bazı kuruluşlar Tor kullandığınızı "
 "görebilir ancak Tor üzerinden nereleri ziyaret ettiğinizi göremez."
 
-#: http://localhost/tbb/tbb-34/
-#: (content/tbb/tbb-34/contents+en.lr:question.title)
-msgid "Why does Tor Browser ship with Javascript enabled?"
-msgstr "Tor Browser neden JavaScript etkinleştirilmiş olarak geliyor?"
+#: http://localhost/tbb/tbb-39/
+#: (content/tbb/tbb-39/contents+en.lr:question.description)
+msgid ""
+"Sometimes Javascript-heavy websites can have functional issues over Tor "
+"Browser."
+msgstr ""
+"JavaScript ağırlığı fazla olan web sitelerinde Tor Browser kullanırken bazı "
+"işlemlerde sorun çıkabilir."
 
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
@@ -3763,11 +3743,6 @@ msgstr ""
 "Ayrıca <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo Onion Hizmeti</"
 "a> sayfasına bağlanarak diğer Onion hizmetlerine erişebildiğinizden emin "
 "olabilirsiniz."
-
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-msgstr "## Bant genişliği hızınızı ayarlayın (Tor uygulamasının bant genişliği"
 
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
@@ -4191,11 +4166,6 @@ msgstr ""
 "bir göz atın. Bu sistemi hemen hemen her bilgisayarda USB bellek ya da DVD "
 "üzerinden başlatabilirsiniz."
 
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.title)
-msgid "How do I run an exit relay on Debian?"
-msgstr "Bir çıkış aktarıcısını Debian üzerinde nasıl işletirim?"
-
 #: http://localhost/tbb/ (content/tbb/contents+en.lr:topic.title)
 msgid "Tor Browser"
 msgstr "Tor Browser"
@@ -4382,6 +4352,8 @@ msgstr "cikis-yapacagim-ulkeyi-secebilir-miyim"
 #: (content/operators/operators-2/contents+en.lr:question.description)
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
+#: http://localhost/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lr:question.description)
 msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
@@ -4566,8 +4538,22 @@ msgstr "Arama"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr "Başlıklar"
+msgstr ""
 
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Kalıcı bağlantı"
+
+#~ msgid ""
+#~ "There is no official version of Tor for iOS yet, though we recommend "
+#~ "Onion Browser."
+#~ msgstr ""
+#~ "Henüz iOS için resmi bir Tor sürümü geliştirilmediğinden Onion "
+#~ "tarayıcısını öneririz."
+
+#~ msgid ""
+#~ "Tor Browser already comes installed with two add-ons — HTTPS Everywhere "
+#~ "and NoScript — and adding anything else could deanonymize you."
+#~ msgstr ""
+#~ "Tor Browser HTTPS Everywhere ve NoScript eklentileri kurulmuş olarak "
+#~ "gelir. Bunun dışında bir eklenti kurmak anonim kalmanızı engelleyebilir."

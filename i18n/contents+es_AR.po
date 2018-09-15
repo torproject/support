@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-07 17:41+CET\n"
+"POT-Creation-Date: 2018-09-14 21:15+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Zuhualime Akoochimoya, 2018\n"
 "Language-Team: Spanish (Argentina) (https://www.transifex.com/otf/teams/1519/es_AR/)\n"
@@ -294,11 +294,6 @@ msgstr ""
 #: (content/tbb/tbb-32/contents+en.lrquestion.seo_slug)
 msgid "setting-tor-browser-as-default"
 msgstr "ajustando-navegador-tor-por-defecto"
-
-#: http//localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lrquestion.description)
-msgid "We currently offer Tor Browser in the following languages:"
-msgstr "Al momento ofrecemos el navegador Tor en los siguientes lenguajes:"
 
 #: http//localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lrquestion.description)
@@ -745,17 +740,6 @@ msgstr ""
 " Tor</a></mark> y usarlo para navegador los sitios bloqueados permitirá el "
 "acceso."
 
-#: http//localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lrquestion.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
-"Relay Guide</a>."
-msgstr ""
-"Por el más profundo recurso en correr un relevo, mirá la <mark><a "
-"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Guía de"
-" relevo Tor</a></mark>."
-
 #: http//localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.description)
 msgid ""
@@ -1055,11 +1039,6 @@ msgstr "¿Cómo puedo compartir archivos anónimamente a través de Tor?"
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
 msgid "* tor.real"
 msgstr "* tor.real"
-
-#: http//localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lrquestion.description)
-msgid "bandwidth caps)"
-msgstr "límites de ancho de banda)"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1383,14 +1362,10 @@ msgstr "¿Cómo corro un relevo intermedio o guarda en FreeBSD o HardenedBSD?"
 msgid "I'm having a problem with NoScript."
 msgstr "Estoy teniendo un problema con NoScript."
 
-#: http//localhost/tbb/tbb-39/
-#: (content/tbb/tbb-39/contents+en.lrquestion.description)
-msgid ""
-"Sometimes Javascript-heavy websites can have functional issues over Tor "
-"Browser."
-msgstr ""
-"Algunas veces, sitios web que usan profusamente Javascript pueden tener "
-"dificultades funcionales sobre el navegador Tor."
+#: http//localhost/tbb/tbb-34/
+#: (content/tbb/tbb-34/contents+en.lrquestion.title)
+msgid "Why does Tor Browser ship with Javascript enabled?"
+msgstr "¿Por qué el navegador Tor viene con Javascript habilitado?"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.seo_slug)
@@ -2087,6 +2062,8 @@ msgstr ""
 "Por favor mirá el <mark><a href=\"https://duck.co/help\">portal de soporte "
 "de DuckDuckGo</a></mark>."
 
+#: http//localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lrquestion.description)
 #: http//localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid ""
@@ -2719,6 +2696,8 @@ msgstr "¿Puedo hacer al navegador Tor mi navegador por defecto?"
 #: (content/operators/operators-1/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
+#: http//localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
@@ -3373,6 +3352,17 @@ msgstr ""
 "href=\"https://www.torproject.org/projects/torbrowser/design/\">Aprendé más "
 "acerca del diseño del navegador Tor</a></mark>."
 
+#: http//localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lrquestion.description)
+msgid ""
+"We currently offer <mark><a "
+"href=\"https://www.torproject.org/projects/torbrowser.html.en\">Tor "
+"Browser</a></mark> in the following languages:"
+msgstr ""
+"Actualmente ofrecemos el <mark>Navegador Tor<a "
+"href=\"https://www.torproject.org/projects/torbrowser.html.en\"></a> en los "
+"siguientes lenguajes:"
+
 #: http//localhost/tormessenger/
 #: (content/tormessenger/contents+en.lrtopic.title)
 msgid "Tor Messenger"
@@ -3728,10 +3718,14 @@ msgstr ""
 "Algunas entidades, como tu Proveedor de Servicios de Internet (ISP), pueden "
 "ver que estás usando Tor, pero no podrán saber a dónde vas cuando lo uses."
 
-#: http//localhost/tbb/tbb-34/
-#: (content/tbb/tbb-34/contents+en.lrquestion.title)
-msgid "Why does Tor Browser ship with Javascript enabled?"
-msgstr "¿Por qué el navegador Tor viene con Javascript habilitado?"
+#: http//localhost/tbb/tbb-39/
+#: (content/tbb/tbb-39/contents+en.lrquestion.description)
+msgid ""
+"Sometimes Javascript-heavy websites can have functional issues over Tor "
+"Browser."
+msgstr ""
+"Algunas veces, sitios web que usan profusamente Javascript pueden tener "
+"dificultades funcionales sobre el navegador Tor."
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
@@ -3810,12 +3804,6 @@ msgstr ""
 "Podés también asegurarte que seas capaz de acceder otros servicios cebolla "
 "conectando al servicio cebolla de <a "
 "href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>,"
-
-#: http//localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lrquestion.description)
-msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-msgstr ""
-"## Ajustá tu tasa de ancho de banda (dejalo comentado y Tor correrá sin"
 
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.description)
@@ -4438,6 +4426,8 @@ msgstr "elegir-por-cual-país-estoy-saliendo"
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
+#: http//localhost/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
@@ -4615,10 +4605,6 @@ msgstr "Descargar navegador Tor"
 #: templates/search.html:5
 msgid "Search"
 msgstr "Búsqueda"
-
-#: templates/sidenav.html:4 templates/sidenav.html:30
-msgid "Topics"
-msgstr "Tópicos"
 
 #: templates/macros/question.html:11
 msgid "Permalink"

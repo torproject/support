@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:21+CET\n"
+"POT-Creation-Date: 2018-09-15 08:39+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Irish (https://www.transifex.com/otf/teams/1519/ga/)\n"
@@ -2171,16 +2171,6 @@ msgstr ""
 "Nuair a roghnaítear é seo, athlódáiltear an cluaisín nó an fhuinneog reatha "
 "thar ciorcad nua Tor."
 
-#: http://localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lr:question.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-"Tagann dhá bhreiseán mar chuid de Bhrabhsálaí Tor cheana — HTTPS Everywhere "
-"agus NoScript — agus dá gcuirfeá breiseáin eile leis, bheifeá i gcontúirt "
-"d'aitheantas a nochtadh."
-
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
@@ -2466,6 +2456,8 @@ msgstr "Cuirfidh Brabhsálaí Tor in iúl duit nuair a bheidh leagan nua ar fái
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lr:question.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a href="
 "\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> and "
@@ -4592,3 +4584,11 @@ msgstr "Buan-nasc"
 #~ "Onion Browser."
 #~ msgstr ""
 #~ "Níl aon leagan oifigiúil de Tor ar iOS fós, ach molaimid Brabhsálaí Onion."
+
+#~ msgid ""
+#~ "Tor Browser already comes installed with two add-ons — HTTPS Everywhere "
+#~ "and NoScript — and adding anything else could deanonymize you."
+#~ msgstr ""
+#~ "Tagann dhá bhreiseán mar chuid de Bhrabhsálaí Tor cheana — HTTPS "
+#~ "Everywhere agus NoScript — agus dá gcuirfeá breiseáin eile leis, bheifeá "
+#~ "i gcontúirt d'aitheantas a nochtadh."

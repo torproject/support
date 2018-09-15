@@ -6,4 +6,4 @@ seo_slug: installing-add-on-extensions-tor-browser
 ---
 description:
 شدیداً توصیه می‌شود از نصب افزونه‌های جدید در مرورگر تور خودداری کنید، چون این کار می‌تواند حریم خصوصی و امنیت شما را به خطر بیندازد.
-مرورگر تور به طور پیش‌فرض با دو افزونه‌ی HTTPS Everywhere و NoScript عرضه می‌شود. نصب افزونه‌های بیشتر می‌تواند ناشناس بودن شما را از بین ببرد.
+مرورگر تور به طور پیش‌فرض با دو افزونه‌ی <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> و <mark><a href="https://noscript.net/">NoScript</a></mark> عرضه می‌شود. نصب افزونه‌های بیشتر می‌تواند ناشناس بودن شما را از بین ببرد.

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:21+CET\n"
+"POT-Creation-Date: 2018-09-15 08:41+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/"
@@ -460,11 +460,12 @@ msgid ""
 "There may be a temporary connection issue, or the site operators may have "
 "allowed it to go offline without warning."
 msgstr ""
+"有可能是网络连接有出现暂时性阻碍，或者是该网站的管理员暂时将站台关闭了。"
 
 #: http://localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lr:question.description)
 msgid "No, the Tor Project does not offer hosting services."
-msgstr ""
+msgstr "抱歉，tor项目不提供虚拟主机服务。"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1891,13 +1892,6 @@ msgid ""
 "over a new Tor circuit."
 msgstr ""
 
-#: http://localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lr:question.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
@@ -2151,6 +2145,8 @@ msgstr "每当 Tor 浏览器有更新版被发布时，都会有提示自动出�
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lr:question.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a href="
 "\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> and "
@@ -2977,6 +2973,8 @@ msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 msgstr ""
+"目前尚未有官方版本的基于iOS平台的Tor软件。尽管如此，我们仍然推荐使用<mark><a "
+"href=\"https://onionbrowser.com/\">洋葱浏览器</a></mark>。"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -3947,3 +3945,10 @@ msgstr ""
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "永久链接"
+
+#~ msgid ""
+#~ "There is no official version of Tor for iOS yet, though we recommend "
+#~ "Onion Browser."
+#~ msgstr ""
+#~ "目前尚未有官方版本的基于iOS平台的Tor软件。尽管如此，我们仍然推荐使用洋葱浏"
+#~ "览器。"
