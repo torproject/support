@@ -5,7 +5,7 @@
 # Josep Anton Rius <j.rius.cat@gmail.com>, 2018
 # Miquel Bosch, 2018
 # icc <mail@koopic.net>, 2018
-# Adolfo Jayme-Barrientos, 2018
+# Adolfo Jayme Barrientos, 2018
 # Bartges90, 2018
 # Aleix Vidal i Gaya <aleix.vidal@gmail.com>, 2018
 # Emma Peel, 2018
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 10:50+CET\n"
+"POT-Creation-Date: 2018-09-15 08:21+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Humbert <humbert.costas@gmail.com>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/otf/teams/1519/ca/)\n"
@@ -296,11 +296,6 @@ msgstr ""
 msgid "setting-tor-browser-as-default"
 msgstr "configurar-navegador-tor-per-defecte"
 
-#: http://localhost/tbb/tbb-37/
-#: (content/tbb/tbb-37/contents+en.lr:question.description)
-msgid "We currently offer Tor Browser in the following languages:"
-msgstr "Actualment oferim el navegador Tor en els idiomes següents:"
-
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
 msgid "Unfortunately, we don't yet have a version of Tor Browser for ChromeOS."
@@ -531,14 +526,16 @@ msgstr ""
 msgid "No, the Tor Project does not offer hosting services."
 msgstr "No,el projecte Tor no ofereix serveis d'allotjament?"
 
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 msgstr ""
-"Encara no hi ha cap versió oficial de Tor per a iOS, tot i que recomanem el "
-"navegador Onion."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -731,17 +728,6 @@ msgstr ""
 "La majoria de les vegades, simplement descarregueu el <mark><a href=“https://"
 "www.torproject.org/download/download-easy.html.en”>Navegador Tor</a></mark> "
 "i després utilitzeu-lo per navegar al lloc bloquejat permetrà l’accés."
-
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid ""
-"For the most in-depth resource on running a relay, see the <mark><a href="
-"\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
-"Guide</a>."
-msgstr ""
-"Per obtenir un recurs més complet en l'execució d'un relé, consulteu la "
-"<mark><a href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide"
-"\">Guia de relé de Tor</a>."
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
@@ -1043,11 +1029,6 @@ msgstr "Com puc compartir fitxers de forma anònima a través de Tor?"
 msgid "* tor.real"
 msgstr "* tor.real"
 
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "bandwidth caps)"
-msgstr "limitacions d'ample de banda)"
-
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
@@ -1139,16 +1120,10 @@ msgstr ""
 "Si no podeu connectar-vos a un servei de onion, consulteu <a href=\"/"
 "#onionservices-3\">No puc accedir a X.onion!</a>"
 
-#: http://localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lr:question.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
-msgstr ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.title)
+msgid "How do I run an exit relay on Debian?"
+msgstr "Com puc executar un repetidor de sortida a Debian?"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -1184,6 +1159,8 @@ msgid ""
 "Please see the <mark><a href=\"https://www.eff.org/https-everywhere/faq"
 "\">HTTPS Everywhere FAQ</a></mark>."
 msgstr ""
+"Siusplau mira la<mark><a href=\"https://www.eff.org/https-everywhere/faq"
+"\">HTTPS Everywhere FAQ</a></mark>."
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.seo_slug)
@@ -1366,14 +1343,10 @@ msgstr ""
 msgid "I'm having a problem with NoScript."
 msgstr "Tinc un problema amb NoScript."
 
-#: http://localhost/tbb/tbb-39/
-#: (content/tbb/tbb-39/contents+en.lr:question.description)
-msgid ""
-"Sometimes Javascript-heavy websites can have functional issues over Tor "
-"Browser."
-msgstr ""
-"De vegades, els llocs web amb molt contingut Javascript poden tenir "
-"problemes funcionals sobre el navegador Tor."
+#: http://localhost/tbb/tbb-34/
+#: (content/tbb/tbb-34/contents+en.lr:question.title)
+msgid "Why does Tor Browser ship with Javascript enabled?"
+msgstr "Per què el navegador Tor navega amb Javascript activat?"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.seo_slug)
@@ -2462,6 +2435,8 @@ msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
 "been released."
 msgstr ""
+"Navegador Tor us demanarà que actualitzeu el programari una vegada que "
+"s'hagi publicat una versió nova."
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
@@ -2677,6 +2652,8 @@ msgstr "Puc fer que el navegador Tor sigui el meu navegador predeterminat?"
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the <mark><a href="
 "\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor Relay "
@@ -3320,6 +3297,15 @@ msgstr ""
 "<mark><a href=\"https://www.torproject.org/projects/torbrowser/design/\">Més "
 "informació sobre el disseny del navegador Tor.</a></mark>"
 
+#: http://localhost/tbb/tbb-37/
+#: (content/tbb/tbb-37/contents+en.lr:question.description)
+msgid ""
+"We currently offer <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
+msgstr ""
+"Actualment oferim el <mark><a href=\"https://www.torproject.org/projects/"
+"torbrowser.html.en\">navegador Tor</a></mark> en els idiomes següents:"
+
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
 msgid "Tor Messenger"
@@ -3415,6 +3401,8 @@ msgstr ""
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -3534,7 +3522,7 @@ msgid ""
 "Tor Browser won't connect, but it doesn’t seem to be an issue with "
 "censorship."
 msgstr ""
-"Tor Browser no es connectarà, però no sembla que sigui un problema amb la "
+"Tor Browser no es connecta, però no sembla que sigui un problema amb la "
 "censura."
 
 #: http://localhost/tbb/tbb-27/
@@ -3669,10 +3657,14 @@ msgstr ""
 "Algunes entitats, com ara el vostre proveïdor de serveis d’Internet (ISP), "
 "poden veure que està utilitzant Tor, però no saben a on va."
 
-#: http://localhost/tbb/tbb-34/
-#: (content/tbb/tbb-34/contents+en.lr:question.title)
-msgid "Why does Tor Browser ship with Javascript enabled?"
-msgstr "Per què el navegador Tor navega amb Javascript activat?"
+#: http://localhost/tbb/tbb-39/
+#: (content/tbb/tbb-39/contents+en.lr:question.description)
+msgid ""
+"Sometimes Javascript-heavy websites can have functional issues over Tor "
+"Browser."
+msgstr ""
+"De vegades, els llocs web amb molt contingut Javascript poden tenir "
+"problemes funcionals sobre el navegador Tor."
 
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
@@ -3749,13 +3741,6 @@ msgstr ""
 "També podeu assegurar-vos que podeu accedir a altres serveis de onion "
 "connectant-vos al Servei de onion de <a href=\"http://3g2upl4pq6kufc4m.onion"
 "\">DuckDuckGo</a>."
-
-#: http://localhost/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
-msgid "## Set your bandwidth rate (leave commented and Tor will run without"
-msgstr ""
-"## Estableix el vostre ample de banda (deixeu-ho comentat i Tor s'executarà "
-"sense"
 
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
@@ -4045,6 +4030,8 @@ msgid ""
 "The Torbutton icon (the little onion in the top left corner of the browser) "
 "will display a yellow triangle."
 msgstr ""
+"La icona Tor (la ceba petita en l'extrem superior esquerre del navegador) "
+"mostrarà un triangle groc."
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
@@ -4173,11 +4160,6 @@ msgstr ""
 "cop d'ull al <mark><a href=\"https://tails.boum.org/\">sistema operatiu "
 "Tails Live</a></mark> que podreu iniciar a gairebé qualsevol ordinador des "
 "d'un llapis USB o un DVD."
-
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.title)
-msgid "How do I run an exit relay on Debian?"
-msgstr "Com puc executar un repetidor de sortida a Debian?"
 
 #: http://localhost/tbb/ (content/tbb/contents+en.lr:topic.title)
 msgid "Tor Browser"
@@ -4366,6 +4348,8 @@ msgstr "elegir-pais-de-sortida"
 #: (content/operators/operators-2/contents+en.lr:question.description)
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
+#: http://localhost/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lr:question.description)
 msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
@@ -4545,8 +4529,15 @@ msgstr "Cerca"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr "Temes"
+msgstr ""
 
 #: templates/macros/question.html:11
 msgid "Permalink"
 msgstr "Permalink"
+
+#~ msgid ""
+#~ "There is no official version of Tor for iOS yet, though we recommend "
+#~ "Onion Browser."
+#~ msgstr ""
+#~ "Encara no hi ha cap versió oficial de Tor per a iOS, tot i que recomanem "
+#~ "el navegador Onion."

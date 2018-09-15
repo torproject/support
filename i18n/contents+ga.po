@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 18:23+CET\n"
+"POT-Creation-Date: 2018-09-15 08:21+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Irish (https://www.transifex.com/otf/teams/1519/ga/)\n"
@@ -530,13 +530,16 @@ msgstr ""
 msgid "No, the Tor Project does not offer hosting services."
 msgstr "Ní chuireann."
 
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 msgstr ""
-"Níl aon leagan oifigiúil de Tor ar iOS fós, ach molaimid Brabhsálaí Onion."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -569,6 +572,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Oinniún glas "
+"le glas fraincín\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -1128,16 +1133,10 @@ msgstr ""
 "Mura bhfuil tú in ann ceangal a bhunú le seirbhís onion, féach <a href=\"/"
 "#onionservices-3\">Nílim in ann teacht ar X.onion!</a>"
 
-#: http://localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lr:question.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
-msgstr ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.title)
+msgid "How do I run an exit relay on Debian?"
+msgstr "Conas a shocraítear athsheachadán amach ar chóras Debian?"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -1653,6 +1652,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"Ciorcad "
+"Nua don Suíomh seo\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -3435,6 +3436,8 @@ msgstr ""
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -3591,6 +3594,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Roghchlár "
+"Bhrabhsálaí Tor\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -4203,11 +4208,6 @@ msgstr ""
 "tails.boum.org/\">Tails live</a></mark>, córas is féidir a chur i bhfeidhm "
 "ar bheagnach aon ríomhaire ó chipín USB nó ó DVD."
 
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.title)
-msgid "How do I run an exit relay on Debian?"
-msgstr "Conas a shocraítear athsheachadán amach ar chóras Debian?"
-
 #: http://localhost/tbb/ (content/tbb/contents+en.lr:topic.title)
 msgid "Tor Browser"
 msgstr "Brabhsálaí Tor"
@@ -4250,6 +4250,8 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Oinniún beag"
+"\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -4586,47 +4588,7 @@ msgid "Permalink"
 msgstr "Buan-nasc"
 
 #~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
-#~ "\"Onion icon\">"
+#~ "There is no official version of Tor for iOS yet, though we recommend "
+#~ "Onion Browser."
 #~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/onion-website.png\" alt="
-#~ "\"Oinniún beag\">"
-
-#~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
-#~ "\" alt=\"New Circuit for this Site\">"
-#~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/new-circuit-display.png"
-#~ "\" alt=\"Ciorcad Nua don Suíomh seo\">"
-
-#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-#~ msgstr "<h4 class=\"card-title\">Ciorcad Nua don Suíomh seo</h4>"
-
-#~ msgid ""
-#~ "<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
-#~ "website with https</h4>"
-#~ msgstr ""
-#~ "<h4 class=\"card-title\">Oinniún beag glas le glas fraincín a léiríonn "
-#~ "suíomh .onion a úsáideann https</h4>"
-
-#~ msgid ""
-#~ "<h4 class=\"card-title\">Icon of a green onion to identify .onion "
-#~ "website</h4>"
-#~ msgstr "<h4 class=\"card-title\">Oinniún glas a léiríonn suíomh .onion</h4>"
-
-#~ msgid "<h4 class=\"card-title\">New Identity</h4>"
-#~ msgstr "<h4 class=\"card-title\">Aitheantas Nua</h4>"
-
-#~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
-#~ "alt=\"Tor Browser Menu\">"
-#~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/menu-new-identity.png\" "
-#~ "alt=\"Roghchlár Bhrabhsálaí Tor\">"
-
-#~ msgid ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
-#~ "\"Green onion with a padlock\">"
-#~ msgstr ""
-#~ "<img class=\"card-img-top\" src=\"/static/images/padlock-onion.png\" alt="
-#~ "\"Oinniún glas le glas fraincín\">"
+#~ "Níl aon leagan oifigiúil de Tor ar iOS fós, ach molaimid Brabhsálaí Onion."

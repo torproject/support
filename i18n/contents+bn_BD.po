@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 19:00+CET\n"
+"POT-Creation-Date: 2018-09-15 08:21+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Bengali (Bangladesh) (https://www.transifex.com/otf/"
@@ -510,14 +510,16 @@ msgstr ""
 msgid "No, the Tor Project does not offer hosting services."
 msgstr "না, টর প্রজেক্ট হোস্টিং পরিষেবাগুলি অফার করে না।"
 
-#: http://localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lr:question.description)
+#: http://localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lr:question.description)
+#: http://localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 msgstr ""
-"IOS এর জন্য Tor এর কোনও অফিসিয়াল সংস্করণ নেই, যদিও আমরা পেঁয়াজ ব্রাউজারকে সুপারিশ "
-"করি।"
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -1090,16 +1092,10 @@ msgstr ""
 "আপনি যদি কোন পেঁয়াজের সেবায় সংযোগ করতে না পারেন, তাহলে দেখে নিন <a href=\"/"
 "#onionservices-3\">আমি X-এ পৌঁছাতে পারছি না</a> ।"
 
-#: http://localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lr:question.description)
-#: http://localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lr:question.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
-msgstr ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.title)
+msgid "How do I run an exit relay on Debian?"
+msgstr "আমি কিভাবে ডেবিয়ান একটি প্রস্থান রিলে চালান?"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -3213,6 +3209,8 @@ msgid ""
 "We currently offer <mark><a href=\"https://www.torproject.org/projects/"
 "torbrowser.html.en\">Tor Browser</a></mark> in the following languages:"
 msgstr ""
+"বর্তমানে আমরা নিম্নলিখিত ব্রাউজারগুলিতে <mark><a href=\"https://www.torproject."
+"org/projects/torbrowser.html.en\">টর ব্রাউজার</a></mark> প্রস্তাব করছি:"
 
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
@@ -3310,6 +3308,8 @@ msgstr ""
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
+#: http://localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -4045,11 +4045,6 @@ msgstr ""
 "দেখতে পারবেন যা আপনি USB স্টিক বা ডিভিডি থেকে প্রায় কোনও কম্পিউটারে শুরু করতে "
 "পারেন।"
 
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.title)
-msgid "How do I run an exit relay on Debian?"
-msgstr "আমি কিভাবে ডেবিয়ান একটি প্রস্থান রিলে চালান?"
-
 #: http://localhost/tbb/ (content/tbb/contents+en.lr:topic.title)
 msgid "Tor Browser"
 msgstr "টর ব্রাউজার"
@@ -4417,5 +4412,9 @@ msgstr ""
 msgid "Permalink"
 msgstr "পার্মালিঙ্ক"
 
-#~ msgid "<h4 class=\"card-title\">New Circuit for this Site</h4>"
-#~ msgstr "<h4 class=\"card-title\">এই সাইটের জন্য নতুন সার্কিট</h4>"
+#~ msgid ""
+#~ "There is no official version of Tor for iOS yet, though we recommend "
+#~ "Onion Browser."
+#~ msgstr ""
+#~ "IOS এর জন্য Tor এর কোনও অফিসিয়াল সংস্করণ নেই, যদিও আমরা পেঁয়াজ ব্রাউজারকে "
+#~ "সুপারিশ করি।"
