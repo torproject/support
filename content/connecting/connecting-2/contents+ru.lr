@@ -53,5 +53,5 @@ Using bridges will likely fix this.
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
+Если вы видите такие строки в вашем логе Tor, это означает, что ваши системные часы установлены неверно.
 Please make sure your clock is set accurately, including the correct timezone. Then restart Tor.
