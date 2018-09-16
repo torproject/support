@@ -30,7 +30,7 @@ description:
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
+যদি আপনি আপনার টর ​​লগে এরকম লাইন দেখতে পান তবে এটি আপনার টর সার্কিটের প্রথম নোডের সাথে সংযোগ করতে ব্যর্থ।
 এর মানে হল যে আপনি সেন্সর করা একটি নেটওয়ার্কের উপর আছেন।
 অনুগ্রহ করে সেতুর সাথে সংযোগের চেষ্টা করুন, এবং সমস্যাটি ঠিক করা উচিত ।
 

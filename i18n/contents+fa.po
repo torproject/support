@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:29+CET\n"
+"POT-Creation-Date: 2018-09-16 06:41+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/1519/fa/)\n"
@@ -2150,6 +2150,10 @@ msgid ""
 "<mark><a href=\"https://noscript.net/\">NoScript</a></mark> — and adding "
 "anything else could deanonymize you."
 msgstr ""
+"مرورگر تور به طور پیش‌فرض با دو افزونه‌ی <mark><a href=\"https://www.eff.org/"
+"https-everywhere\">HTTPS Everywhere</a></mark> و <mark><a href=\"https://"
+"noscript.net/\">NoScript</a></mark> عرضه می‌شود. نصب افزونه‌های بیشتر می‌تواند "
+"ناشناس بودن شما را از بین ببرد."
 
 #: http://localhost/gettor/ (content/gettor/contents+en.lr:topic.title)
 #: (content/gettor/contents+en.lr:topic.seo_slug)
@@ -2965,6 +2969,8 @@ msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 msgstr ""
+"نسخه‌ی رسمی تور برای iOS هنوز عرضه نشده، اما ما استفاده از <mark><a href="
+"\"https://onionbrowser.com/\">Onion Browser</a></mark> را توصیه می‌کنیم."
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
