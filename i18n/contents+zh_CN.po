@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:41+CET\n"
+"POT-Creation-Date: 2018-09-16 06:27+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/"
@@ -69,6 +69,8 @@ msgid ""
 "relay on the other side of the world, your account may be locked or "
 "suspended)."
 msgstr ""
+"另外，银行这类比较敏感的网站经常进行地区范围的屏蔽。如果你平时只在某个特定的"
+"国家使用他们的服务，从其他国家进行访问时你的账号可能就会被冻结。"
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -1073,7 +1075,7 @@ msgstr "使用Tor浏览器时，没人能看见你在浏览的网站。"
 msgid ""
 "Tor Browser often makes your connection appear as though it is coming from "
 "an entirely different part of the world."
-msgstr ""
+msgstr "Tor 浏览器会让您的网络活动看起来像是来自于世界各个不同地区的网络连接。"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -3867,6 +3869,8 @@ msgid ""
 "Some websites, such as banks or email providers, might interpret this as a "
 "sign that your account has been compromised, and lock you out."
 msgstr ""
+"有时候某些像是银行或电子邮件服务的网站会认为您的帐号被他人盗用了，因此自动将"
+"您的帐号锁定，要解决此情况的唯。"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)

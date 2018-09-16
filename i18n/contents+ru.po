@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:39+CET\n"
+"POT-Creation-Date: 2018-09-16 06:27+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: moose of letters <reverett@pm.me>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/1519/ru/)\n"
@@ -2062,7 +2062,7 @@ msgstr ""
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.title)
 msgid "When is Tor Browser for Android being released?"
-msgstr ""
+msgstr "Когда выходит Tor Browser для Android?"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.seo_slug)
@@ -2116,7 +2116,7 @@ msgstr ""
 #: http://localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lr:question.description)
 msgid "No, we don't provide any online services."
-msgstr ""
+msgstr "Нет, мы не предоставляем никаких онлайн-услуг."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2142,6 +2142,9 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"Заходя на веб-сайт, который использует onion-сервис, Tor Browser покажет в "
+"адресной строке значок маленького зеленого лука, который показывает "
+"состояние вашего соединения: «безопасно» и «используется onion-сервис»."
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2208,6 +2211,8 @@ msgid ""
 "If you see lines like this in your Tor log, it means your system clock is "
 "incorrect."
 msgstr ""
+"Если вы видите такие строки в вашем логе Tor, это означает, что ваши "
+"системные часы установлены неверно."
 
 #: http://localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lr:question.description)

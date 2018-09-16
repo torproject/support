@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:39+CET\n"
+"POT-Creation-Date: 2018-09-15 12:22+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Brendan Abolivier <transifex@brendanabolivier.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
@@ -2487,6 +2487,8 @@ msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
 "been released."
 msgstr ""
+"Le Navigateur Tor vous invitera à mettre le logiciel à jour dès qu’une "
+"nouvelle version est parue."
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
@@ -4596,6 +4598,8 @@ msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
 msgstr ""
+"La marque déposée, les droits d'auteurs et de reproduction par un tiers "
+"parti peuvent être trouvés  dans notre "
 
 #: templates/layout.html:7
 msgid "Tor Project | Support"
