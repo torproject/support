@@ -1,0 +1,10 @@
+_model: question
+---
+title: An ndéantar athsheachadán de mo ríomhaire nuair a úsáidim Brabhsálaí Tor?
+---
+seo_slug: running-tor-browser-make-me-relay
+---
+description:
+Ní dhéantar.
+Ciallaíonn sé seo nach n-úsáidfear do ríomhaire chun trácht a stiúradh ar son daoine eile.
+Más mian leat d'athsheachadán féin a rith, féach an <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Lámhleabhar Athsheachadán Tor</a></mark>.

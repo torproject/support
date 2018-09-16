@@ -1,0 +1,15 @@
+_model: question
+---
+title: Conas is féidir liom Brabhsálaí Tor a dhíshuiteáil?
+---
+seo_slug: uninstall-tor-browser
+---
+description:
+Tá sé an-éasca Brabhsálaí Tor a bhaint de do chóras:
+
+* Aimsigh an fillteán nó feidhmchlár do Bhrabhsálaí Tor ar do chóras.
+  Is é an Deasc an suíomh réamhshocraithe ar Windows, agus an fillteán Applications ar MacOS (ar MacOS, ní mór duit é a bhogadh go dtí an fillteán Applications tar éis duit an próiseas suiteála a chur i gcrích).
+Níl aon suíomh réamhshocraithe ar Linux, ach is é "tor-browser_ga-IE" ainm an fhillteáin má tá an leagan Gaeilge agat.
+* Scrios an feidhmchlár nó an fillteán ina bhfuil Brabhsálaí Tor.
+* Folmhaigh an Bruscar.
+* Tabhair faoi deara nach mbaintear úsáid as an ngnáthuirlis "Díshuiteáil" ar do chóras.

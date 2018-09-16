@@ -1,0 +1,10 @@
+_model: question
+---
+title: An féidir liom VPN a úsáid le Tor?
+---
+seo_slug: use-vpn-with-tor
+---
+description:
+Is féidir, ach ní mholaimid VPN a úsáid le Tor murar úsáideoir ardleibhéil thú agus mura bhfuil saineolas agat ar conas is féidir Tor agus an VPN a chumrú sa chaoi nach gcuirfidís do phríobháideachas i gcontúirt.
+
+Is féidir teacht ar thuilleadh eolais maidir le Tor agus VPN ar <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">ár vicí</a></mark>.

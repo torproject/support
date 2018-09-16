@@ -1,0 +1,10 @@
+_model: question
+---
+title: An féidir liom Tor a úsáid ar ghléas iOS?
+---
+seo_slug: run-tor-on-ios
+---
+description:
+Is féidir. Molaimid aip iOS darb ainm Onion Browser. Tá an cód oscailte, úsáideann sé ródúchán Tor, agus oibríonn an príomhfhorbróir i ndlúthpháirt le Tionscadal Tor.
+Éilíonn Apple go n-úsáidfidh gach brabhsálaí ar iOS an t-inneall Webkit, agus dá bharr sin níl Onion Browser chomh héifeachtach le Brabhsálaí Tor ó thaobh príobháideachais.
+<mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">Tuilleadh eolais faoi Bhrabhsálaí Onion</a></mark>.

@@ -1,0 +1,38 @@
+_model: question
+---
+title: Conas a shocraítear droichead obfs4 ar chóras Debian?
+---
+seo_slug: how-do-i-run-a-obfs4-bridge-debian
+---
+description:
+* Rith "apt-get install tor obfs4proxy" (mar root).
+* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart ar do ríomhaire.
+  Suiteáil ntp nó openntpd (nó pacáiste eile den sórt seo) chun an t-am cheart a choinneáil.
+* Cuir /etc/tor/torrc in eagar mar seo a leanas:
+
+
+    ## Seoladh IP nó óstainm a úsáideann ceangail isteach (fág mar nóta tráchta é agus tabharfaidh Tor buille faoi thuairim)
+    #Address noname.example.com
+
+    ## Tabhair leasainm don athsheachadán seo
+    Nickname ididnteditheconfig
+
+    ## Do chuid sonraí teagmhála
+    ContactInfo 0xFFFFFFFF Duine Randamach <tadhgorodai AG example ponc com>
+
+    BridgeRelay 1
+    ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+    ExtORPort auto
+    ORPort 9001
+
+    ## Socraigh an ráta bandaleithid (fág mar nóta tráchta é agus rithfidh Tor gan teorainn ar bhandaleithead)
+    #RelayBandwidthRate 30 MBytes
+    #RelayBandwidthBurst 100 MBytes
+
+* Rith "service tor reload" (mar root).
+* Tar éis don athsheachadán ceangal a bhunú leis an líonra, déanfaidh sé iarracht fáil amach an bhfuil na poirt a shocraigh tú insroichte ón taobh amuigh.
+  Bíonn an chéim seo sciobtha de ghnáth, ach uaireanta tógann sé cúpla nóiméad.
+* Téigh ar lorg iontráil in /var/log/syslog ar nós "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+  Mura bhfeiceann tú an teachtaireacht seo, ciallaíonn sé nach bhfuil an t-athsheachadán insroichte ón taobh amuigh.
+  Ba chóir duit deimhniú gur shonraigh tú an seoladh IP, na poirt, agus na sonraí maidir le ballaí dóiteáin sa gcomhad torrc go ceart.
+* Ba chóir go mbeadh an teachtaireacht seo ann freisin: "Registered server transport 'obfs4'" indicating that obfs4proxy is functional.

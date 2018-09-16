@@ -1,0 +1,19 @@
+_model: question
+---
+title: Ba mhaith liom cuairt a thabhairt ar shuíomh Gréasáin ach cuireann sé cosc ar líonra Tor.
+---
+seo_slug: website-blocking-access-over-tor
+---
+description:
+Uaireanta, cuireann suímh cosc ar úsáideoirí toisc nach féidir leo idirdhealú a dhéanamh idir gnáthúsáideoirí Tor agus trácht uathoibrithe.
+An straitéis is fearr atá againn ó thaobh deireadh a chur leis an gcosc ar úsáideoirí Tor ná dul i dteagmháil go díreach le riarthóirí an tsuímh.
+Seans go ndéanfadh rud éigin mar seo an beart:
+
+"Dia dhuit! Rinne mé iarracht cuairt a thabhairt ar do shuíomh xyz.com le Brabhsálaí Tor ach de réir cosúlachta cuireann sibh cosc ar úsáideoirí Tor.
+Molaim go láidir duit athmhachnamh a dhéanamh ar an gcinneadh seo; úsáideann daoine ar fud an domhain Tor lena bpríobháideachas a chosaint agus le troid in aghaidh cinsireachta.
+Trí chosc a chur ar úsáideoirí Tor, is dócha go bhfuil tú ag cur cosc ar dhaoine atá faoi smacht ina dtír dhúchais agus nach bhfuil in ann leas a bhaint as Idirlíon saor is oscailte, ar iriseoirí, taighdeoirí, daoine nochta scéil, gníomhaithe, agus gnáthdhaoine nach bhfuil sásta leis an lorgaireacht chunórach a dhéanann tríú páirtithe ar an nGréasán.
+Iarraim ort an fód a sheasamh ar son príobháideachais dhigitigh agus ar son saoirse Idirlín, trí chead a thabhairt d'úsáideoirí Tor xyz.com a úsáid.
+Go raibh maith agat."
+
+I gcás bancanna nó suímh íogaire eile, feictear blocáil bunaithe ar thíreolaíocht (má tá a fhios ag an mbanc a úsáideann tú a chuid seirbhísí ó thír amháin de ghnáth, agus má fheiceann siad go bhfuil tú ag ceangal ó thír ar an taobh eile den domhan, seans go gcuirfeadh an banc do chuntas faoi ghlas nó ar fionraí).
+Mura bhfuil tú in ann ceangal a bhunú le seirbhís onion, féach <a href="#onionservices-3">Nílim in ann teacht ar X.onion!</a>

@@ -45,6 +45,11 @@ name = Français
 url_prefix = /fr/
 locale = fr_FR
 
+[alternatives.ga]
+name = Gaeilge (ga)
+url_prefix = /ga/
+locale = ga
+
 [alternatives.id]
 name = Indonesia
 url_prefix = /id/

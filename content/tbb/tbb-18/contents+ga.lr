@@ -1,0 +1,9 @@
+_model: question
+---
+title: An dtacaíonn Brabhsálaí Tor le *BSD?
+---
+seo_slug: is-there-support-for-bsd
+---
+description:
+Ní thacaíonn, go hoifigiúil.
+Tá tionscadal darb ainm <mark><a href="https://www.torbsd.org/">TorBSD</a></mark> ann, ach ní thacóimid leis an leagan de Bhrabhsálaí Tor atá acu.

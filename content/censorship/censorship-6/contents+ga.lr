@@ -1,0 +1,11 @@
+_model: question
+---
+title: Ní féidir liom ceangal le Brabhsálaí Tor. An bhfuil mo líonra faoi chinsireacht?
+---
+seo_slug: is-my-network-censored
+---
+description:
+B'fhéidir é. Má tá, ba chóir duit triail a bhaint as droichead.
+Tá roinnt droichead ionsuite i mBrabhsálaí Tor, agus is féidir leat iad siúd a úsáid trí "Cumraigh" a roghnú (agus na treoracha a leanúint) sa bhfuinneog Tor Launcher a osclaíonn an chéad uair a úsáideann tú Brabhsálaí Tor.
+Má theastaíonn droichid eile uait, is féidir leat iad a fháil <mark><a href="https://bridges.torproject.org/">ón suíomh seo</a></mark>.
+Chun tuilleadh eolais maidir le droichid a fháil, féach ar <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">lámhleabhar Bhrabhsálaí Tor</a></mark>.

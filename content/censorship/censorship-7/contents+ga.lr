@@ -1,0 +1,18 @@
+_model: question
+---
+title: Cad is droichead ann?
+---
+seo_slug: what-is-a-bridge
+---
+description:
+Is éard atá i nDroichead ná athsheachadán Tor nach bhfuil liostáilte san eolaire poiblí Tor.
+Ciallaíonn sé seo nach féidir le soláthraithe seirbhíse nó le rialtais cosc a chur ar líonra Tor trí cosc a chur ar gach uile dhroichead.
+Tá droichid úsáideach d'úsáideoirí Tor ina gcónaí i dtíortha faoi réimeas leatromach, nó dóibh siúd ar mhaith leo sraith bhreise slándála toisc go bhfuil imní orthu go n-aithneofar go bhfuil siad ag baint úsáide as seoladh IP ceangailte le hathsheachadán poiblí Tor.
+
+Is gá cumraíocht rud beag difriúil a dhéanamh le droichid.
+Tá treoracha ar fáil faoi <mark><a href="#operators-6">Conas a shocraítear droichead</a></mark>
+
+Tá roinnt tíortha, an tSín agus an Iaráin san áireamh, in ann ceangail trí dhroichead Tor a aimsiú agus cosc a chur orthu.
+Déileálann droichid <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> leis seo trí shraith bhreise criptiúcháin a úsáid.
+Teastaíonn pacáiste agus cumraíocht bhreise uait chun droichead obfsproxy a shocrú.
+Gheobhaidh tú tuilleadh eolais ar an leathanach a bhaineann le <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">córais iompair ionphlugáilte</a></mark>.

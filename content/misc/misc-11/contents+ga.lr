@@ -1,0 +1,12 @@
+_model: question
+---
+title: An féidir liom líon na n-athsheachadán a úsáideann Tor a athrú?
+---
+seo_slug: change-the-number-of-hops-tor-uses
+---
+description:
+Faoi láthair, tá Tor códáilte le 3 nód a úsáid, móide líon na n-athsheachadán sa chosán atá íogair.
+Is é sin le rá, úsáideann sé 3 cinn de ghnáth, ach má tá tú ag úsáid seirbhíse onion nó seoladh ".exit", d'fhéadfadh sé a bheith níos mó ná 3 cinn.
+
+Níor mhaith linn moladh do dhaoine cosáin níos faide a úsáid toisc go gcruthódh sé sin lód níos troime ar an líonra, gan (go bhfios dúinn) slándáil a fheabhsú.
+Chomh maith leis sin, le níos mó ná 3 nód bíonn sé níos éasca ionsaithe <mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">diúltú slándála</a></mark> a dhéanamh, agus nochtann sé eolas fútsa mura bhfuil mórán daoine ag baint úsáid as an líon céanna nód.

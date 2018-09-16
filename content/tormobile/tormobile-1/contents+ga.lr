@@ -1,0 +1,10 @@
+_model: question
+---
+title: An féidir liom Tor a úsáid ar ghléas Android?
+---
+seo_slug: run-tor-on-android
+---
+description:
+Is é Tionscadal Guardian a fhorbraíonn Tor ar Android.
+Gheobhaidh tú tuilleadh eolais ar na leathanaigh Ghréasáin ​<mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> agus <mark><a href="https://guardianproject.info/apps/orfox/">​Orfox</a></mark>.
+Úsáidtear Orfox chun an Gréasán a bhrabhsáil, agus stiúrann Orbot trácht ó aipeanna eile ar do ghuthán Android thar an líonra Tor.
