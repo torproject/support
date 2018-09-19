@@ -6,7 +6,7 @@ node_modules
 public
 
 *.egg-info
-
+*.pyc
 __pycache__
 
 ### Emacs ###

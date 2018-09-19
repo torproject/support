@@ -67,6 +67,12 @@
 
 .font-weight-bold   { font-family: Source Sans Pro Bold  }
 
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $purple;
+}
+
 h6 {
   text-transform: uppercase;
   font-weight: bold;
