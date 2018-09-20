@@ -5,7 +5,7 @@ title: How do I update Tor Browser?
 seo_slug: updating-tor-browser
 ---
 description:
-You can update Tor Browser as soon as a new version is released.
+Μπορείτε να ενημερώσετε τον Tor Browser μόλις κυκλοφορήσει μια νέα έκδοση.
 
 Tor Browser will prompt you to update the software once a new version has been released.
 
@@ -13,7 +13,7 @@ The Torbutton icon (the little onion in the top left corner of the browser) will
 
 <img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 
-You may see a written indication when Tor Browser opens telling you that an update is available.
+Μπορεί να εμφανιστεί μια γραπτή ένδειξη όταν ανοίγει ο Tor Browser που να σας ενημερώνει ότι είναι διαθέσιμη μια ενημέρωση.
 
 <img class="" src="/static/images/image5.png" alt="New release alert">
 

@@ -2,7 +2,7 @@ _model: question
 ---
 title: Can I change the number of hops Tor uses?
 ---
-seo_slug: change-the-number-of-hops-tor-uses
+seo_slug: изменить-число-прыжков-используемых-тор
 ---
 description:
 Right now the path length is hard-coded at 3 plus the number of nodes in your path that are sensitive.

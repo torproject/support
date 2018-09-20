@@ -2,7 +2,7 @@ _model: question
 ---
 title: Можно ли сделать Tor Browser браузером по умолчанию?
 ---
-seo_slug: setting-tor-browser-as-default
+seo_slug: установка-тор-браузера-по-умолчанию
 ---
 description:
 В настоящее время нет возможности установить Tor Browser как браузер по умолчанию.

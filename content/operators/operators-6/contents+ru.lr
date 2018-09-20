@@ -5,8 +5,8 @@ title: How do I run a obfs4 bridge on Debian?
 seo_slug: how-do-i-run-a-obfs4-bridge-debian
 ---
 description:
-* Run "apt-get install tor obfs4proxy" (as root).
-* Make sure your clock, date, and timezone are set correctly.
+* Запустите "apt-get install tor obfs4proxy" (как root).
+Убедитесь, что у вас правильно установлены дата, время, и часовой пояс.
   Install the ntp or openntpd (or similar) package to keep it that way.
 * Edit /etc/tor/torrc to look like the following:
 
@@ -25,14 +25,14 @@ description:
     ExtORPort auto
     ORPort 9001
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Установите пропускную способность (оставьте комментированным для работы Tor без ограничения по скорости)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
 * Используйте команду "service tor reload" (с рут-правами).
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-  This step is usually fast, but it may take a few minutes.
+  Этот шаг обычно быстр, но может занять несколько минут.
 * Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+  Вам следует перепроверить ваш firewall, убедитесь, что IP и порты, указанные в вашем torrc корректны, и т.д.
 * You should also see the message "Registered server transport 'obfs4'" indicating that obfs4proxy is functional.

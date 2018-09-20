@@ -8,9 +8,9 @@ description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
 
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* "apt-get install tor"를 (root로) 실행하십시오.
+* 시간, 날짜 및 시간대가 올바르게 설정 되었는지 확인하십시오. 시간을 정확하게 유지하려면 ntp 또는 openntpd (또는 유사한) 패키지를 설치하십시오.
+* /etc/tor/torrc를 다음과 같이 편집하십시오:
 
 
     ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
@@ -34,8 +34,8 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 
     ExitPolicy reject *:*
 
-* Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* "service tor reload"를 (root로) 실행하십시오.
+* 릴레이가 네트워크에 연결되면 구성된 포트가 외부에서 연결할 수 있는지 여부를 확인합니다.
 This step is usually fast, but it may take a few minutes.
 
 Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."

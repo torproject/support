@@ -7,7 +7,7 @@ seo_slug: ändere-ip-addresse
 description:
 Tor Browser kennt zwei Wege, um deinen Kanal zu wechseln — "Neues Profil" und "Neuer Kanal für diese Seite".
 
-Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
+Beide Optionen befinden sich im Menü und es ist möglich, die Circuit-Ansicht über das Informations-Symbol in der Adressleiste zu erreichen.
 
 ##### Neue Identität
 

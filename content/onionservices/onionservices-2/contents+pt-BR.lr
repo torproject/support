@@ -11,10 +11,10 @@ Os serviços onion também oferecem confiabilidade para chats e compartilhamento
 
 Estes serviços fazem uso do domínio de nível superior de uso especial .onion (em vez de .com, .net, .org, etc) e são acessíveis somente através da rede Tor.
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
+Ao acessar um site que usa um serviço .onion, o Navegador Tor mostrará na barra de URL um ícone de uma pequena cebola verde exibindo o estado de sua conexão: seguro e usando um serviço .onion.
 
 <img class="" src="/static/images/onion-website.png" alt="Onion icon">
 
-And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+Caso você esteja acessando um website via HTTPS e um serviço onion, serão exibidos os ícones de uma cebola e de um cadeado.
 
 <img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">

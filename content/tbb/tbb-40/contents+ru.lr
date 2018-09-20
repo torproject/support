@@ -2,7 +2,7 @@ _model: question
 ---
 title: Использует ли Tor Browser различные цепочки для каждого сайта?
 ---
-seo_slug: different-circuit-each-website
+seo_slug: разная-цепочка-для-каждого-сайта
 ---
 description:
 В Tor Browser каждый новый домен получает свою цепочку.

@@ -7,6 +7,6 @@ seo_slug: to-use-gettor-via-xmpp
 description:
 To get links for downloading Tor Browser, send a message to gettor@torproject.org with one of the following codes in it:
 
-* Linux
-* MacOS (OS X)
-* Windows
+* 리눅스
+* 맥OS (OS X)
+* 윈도우즈

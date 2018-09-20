@@ -1,8 +1,8 @@
 _model: question
 ---
-title: Can I use Tor with BitTorrent?
+title: Могу ли я использовать Tor с BitTorrent?
 ---
-seo_slug: tor-bittorrent
+seo_slug: тор-битторрент
 ---
 description:
 Мы не рекомендуем использовать Tor с BitTorrent.

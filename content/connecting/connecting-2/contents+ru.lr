@@ -2,12 +2,12 @@ _model: question
 ---
 title: У меня проблемы с подключением к Tor, и я не могу понять почему.
 ---
-seo_slug: having-trouble-connecting-to-tor
+seo_slug: проблемы-при-подключении-к-тор
 ---
 description:
 
 If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
+Затем вставьте лог Tor в текстовый файл или другой документ.
 Вы должны увидеть одну из этих распространенных ошибок (обратите внимание на следующие строки в журнале Tor):
 
 ###### Common log error #1: Proxy connection failure
@@ -19,8 +19,8 @@ Then paste the Tor log into a text file or other document.
 
 If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
 
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
+Если для вашей сети требуется SOCKS прокси, то, пожалуйста, убедитесь, что вы корректно ввели детали вашего прокси.
+Если SOCKS прокси не требуется, или же вы не уверены, пожалуйста, подключитесь к сети тор без SOCKS прокси.
 
 ##### Common log error #2: Can’t reach guard relays
 
@@ -33,7 +33,7 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
 If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
 Это может значить, что сеть, в которой вы работаете, находится под цензурой.
 
-Please try connecting with bridges, and that should fix the problem.
+Пожалуйста, попробуйте подключиться, используя мосты, это должно исправить проблему.
 
 ##### Common log error #3: Failed to complete TLS handshake
 
@@ -44,7 +44,7 @@ Please try connecting with bridges, and that should fix the problem.
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
 If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Использование мостов скорее всего исравит это.
 
 ##### Common log error #4: Clock skew
 

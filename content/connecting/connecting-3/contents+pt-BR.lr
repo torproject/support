@@ -2,7 +2,7 @@ _model: question
 ---
 title: Não consigo acessar o X.onion!
 ---
-seo_slug: cannot-reach-x-onion
+seo_slug: nao-consigo-acessar-x-onion
 ---
 description:
 Se você não consegue acessar o serviço onion desejado, certifique-se que você digitou o endereço onion de 16 caracteres corretamente: até um pequeno erro fará com que o navegador TOR seja incapaz de acessar o site.

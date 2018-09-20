@@ -12,7 +12,7 @@ Bridges are useful for Tor users under oppressive regimes, and for people who wa
 A bridge is just a normal relay with a slightly different configuration.
 See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
 
-Several countries, including China and Iran, have found ways to detect and block connections to Tor bridges.
+중국과 이란을 비롯한 여러 국가에서 Tor 브릿지와의 연결을 감지하고 차단하는 방법을 갖고있습니다.
 <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.
 Setting up an obfsproxy bridge requires an additional software package and additional configurations.
 See our page on <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark> for more info.

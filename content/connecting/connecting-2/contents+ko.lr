@@ -19,7 +19,7 @@ You should see one of these common log errors (look for the following lines in y
 
 If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
 
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
+네트워크 설정에 SOCKS 프록시가 필요한 경우 올바르게 프록시 세부 정보를 입력했는지 확인하십시오.
 If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
 
 ##### Common log error #2: Can’t reach guard relays

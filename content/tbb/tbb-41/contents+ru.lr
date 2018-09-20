@@ -2,9 +2,9 @@ _model: question
 ---
 title: Почему моя поисковая система поменялась на DuckDuckGo?
 ---
-seo_slug: why-is-tor-using-duckduckgo
+seo_slug: почему-тор-использует-duckduckgo
 ---
 description:
 С выпуском Tor Browser 6.0.6 мы перешли на DuckDuckGo в качестве основной поисковой системы.
-For a while now, Disconnect has had no access to Google search results which we used in Tor Browser.
-Since Disconnect is more of a meta search engine which allows users to choose between different search providers, it fell back to delivering Bing search results which were basically unacceptable quality-wise.
+Последнее время, Disconnect не имел доступа к результатам поиска Google, которые мы использовать в Tor Browser.
+Поскольку Disconnect это скорее мета-поисковая система, дающая пользователям выбор между различными поисковыми провайдерами, оно вернулось к доставлению результатов поисковика Bing, которые по качеству являются неприемлемыми.

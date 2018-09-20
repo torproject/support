@@ -2,7 +2,7 @@ _model: question
 ---
 title: Видит ли кто-нибудь, на какие сайты я захожу с Tor Browser? 
 ---
-seo_slug: tell-which-website-are-visited-while-using-tor-browser
+seo_slug: узнать-посещённые-веб-сайты-при-использовании-тор-браузера
 ---
 description:
 Tor Browser не дает посторонним видеть, какие сайты вы посещаете.

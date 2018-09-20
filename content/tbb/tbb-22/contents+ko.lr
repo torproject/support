@@ -1,11 +1,11 @@
 _model: question
 ---
-title: How can I make Tor run faster? Is Tor Browser slower than other browsers?
+title: Tor를 더 빠르게 할수있는 방법은 무엇입니까? Tor 브라우저는 다른 브라우저보다 속도가 느립니까?
 ---
 seo_slug: make-tor-faster
 ---
 description:
-Using Tor Browser can sometimes be slower than other browsers.
+Tor 브라우저를 사용하면 다른 브라우저보다 속도가 느릴 수 있습니다.
 The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency.
 You can help improve the speed of the network by running your own relay, or encouraging others to do so.
 That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.

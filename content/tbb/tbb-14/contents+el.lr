@@ -2,7 +2,7 @@ _model: question
 ---
 title: Είναι καλό να εγκαταστήσω κάποιο νέο add-on ή πρόσθετο στον Tor Browser, όπως για παράδειγμα το AdBlock Plus ή το uBlock Origin;
 ---
-seo_slug: κατέβασμα εργαλείων στον περιηγητή Tor
+seo_slug: installing-add-on-extensions-tor-browser
 ---
 description:
 Δεν προτείνουμε καθόλου την εγκατάσταση νέων πρόσθετων στον Tor Browser γιατί μπορεί να θέσουν σε κίνδυνο την ιδιωτικότητα και την ασφάλειά σας.

@@ -7,10 +7,10 @@ seo_slug: how-do-i-run-an-exit
 description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
-* Review our <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Exit relay guidelines</a></mark>
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">출구 노드 가이드라인</a></mark> 검토하기
+* "apt-get install tor"를 (root로) 실행하십시오.
+* 시간, 날짜 및 시간대가 올바르게 설정 되었는지 확인하십시오. 시간을 정확하게 유지하려면 ntp 또는 openntpd (또는 유사한) 패키지를 설치하십시오.
+* /etc/tor/torrc를 다음과 같이 편집하십시오:
 
 
     ## Set the nickname of this relay
@@ -33,15 +33,15 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     #MyFamily $keyid,$keyid,...
 
 
-* Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* "service tor reload"를 (root로) 실행하십시오.
+* 릴레이가 네트워크에 연결되면 구성된 포트가 외부에서 연결할 수 있는지 여부를 확인합니다.
   This step is usually fast, but it may take a few minutes.
 
   Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
   You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
 
-* When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+* 도달 할 수 있음을 확인하면 디렉토리 권한에 "서버 설명자"를 업로드 하여 릴레이가 사용중인 주소, 포트, 키 등을 클라이언트가 알 수 있게합니다.
 
 After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
 If it hasn't, re-check firewalls, IP and ports again.

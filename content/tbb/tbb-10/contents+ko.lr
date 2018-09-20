@@ -1,6 +1,6 @@
 _model: question
 ---
-title: My antivirus or malware protection is blocking me from accessing Tor Browser.
+title: 내 안티 바이러스나 멀웨어 차단이 Tor 브라우저 사용을 차단합니다.
 ---
 seo_slug: antivirus-blocking-tor
 ---
@@ -9,17 +9,17 @@ Most antivirus or malware protection allows the user to "whitelist" certain proc
 Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
 Next, exclude the following processes:
 
-* For Windows
+* 윈도우즈
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (if you use bridges)
+  * obfs4proxy.exe (만약 bridges를 사용할때)
 
 
-* For OS X
+* OS X
   * TorBrowser
   * tor.real
-  * obfs4proxy (if you use bridges)
+  * obfs4proxy (만약 주계서버 사용하면)
 
-Finally, restart Tor Browser.
+마지막으로, Tor 브라우저를 다시 시작하십시오.
 This should fix the issues you're experiencing.
 Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

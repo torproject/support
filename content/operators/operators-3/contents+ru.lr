@@ -8,8 +8,8 @@ description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
 * Используйте команду "pkg install tor" (с рут-правами).
-* Make sure your clock, date, and timezone are set correctly.
-  Enabling ntpd is suggested.
+Убедитесь, что у вас правильно установлены дата, время, и часовой пояс.
+  Советуется включить ntpd.
 * Измените /usr/local/etc/tor/torrc, чтобы он выглядел следующим образом:
 
 
@@ -22,7 +22,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     ORPort 9001
     DirPort 9030
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Установите пропускную способность (оставьте комментированным для работы Tor без ограничения по скорости)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
@@ -34,13 +34,13 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     RunAsDaemon 1
     Log notice file /var/log/tor/notices.log
 
-* Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
+* Убедитесь, что тор включается при запуске"sysrc tor_enable=YES" (как root)
 * Используйте команду "service tor start" (с рут-правами).
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-  This step is usually fast, but it may take a few minutes.
+  Этот шаг обычно быстр, но может занять несколько минут.
   Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+  Вам следует перепроверить ваш firewall, убедитесь, что IP и порты, указанные в вашем torrc корректны, и т.д.
 * When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
   After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-  If it hasn't, re-check firewalls, IP and ports again.
+  Если проблема не исправлена, снова проверьте firewall, IP и порты.
