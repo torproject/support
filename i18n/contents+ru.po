@@ -14,13 +14,14 @@
 # diana azaryan, 2018
 # Виктор Ерухин <folkraft@rambler.ru>, 2018
 # moose of letters <reverett@pm.me>, 2018
+# Vladislav Berg <vladislavp@tuta.io>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-16 06:27+CET\n"
+"POT-Creation-Date: 2018-09-20 11:49+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: moose of letters <reverett@pm.me>, 2018\n"
+"Last-Translator: Vladislav Berg <vladislavp@tuta.io>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/1519/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -96,6 +97,9 @@ msgid ""
 "choose between different search providers, it fell back to delivering Bing "
 "search results which were basically unacceptable quality-wise."
 msgstr ""
+"Поскольку Disconnect это скорее мета-поисковая система, дающая пользователям "
+"выбор между различными поисковыми провайдерами, оно вернулось к доставлению "
+"результатов поисковика Bing, которые по качеству являются неприемлемыми."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -166,7 +170,7 @@ msgstr "У меня проблемы с подключением к Tor, и я �
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
 msgid ""
 "A bridge is just a normal relay with a slightly different configuration."
-msgstr ""
+msgstr "Бридж — это обычный релей с немного отличающейся конфигурацией."
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.title)
@@ -271,6 +275,8 @@ msgid ""
 "For sharing files through Tor, <mark><a href=\"https://onionshare.org/"
 "\">OnionShare</a></mark> is a good option."
 msgstr ""
+"Для обмена файлами через Tor, <mark><a href=\"https://onionshare.org/"
+"\">OnionShare</a></mark> - хороший вариант."
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -294,7 +300,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lr:question.seo_slug)
 msgid "setting-tor-browser-as-default"
-msgstr ""
+msgstr "установка-тор-браузера-по-умолчанию"
 
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
@@ -306,6 +312,7 @@ msgstr "К сожалению, у нас пока нет версии Tor Browse
 msgid ""
 "<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.title)
@@ -333,7 +340,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lr:question.seo_slug)
 msgid "cant-connect-to-tor-browser"
-msgstr ""
+msgstr "не-могу-подключиться-к-тор-браузеру"
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -343,7 +350,7 @@ msgstr "<div class=\"row\">"
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.seo_slug)
 msgid "accessing-websites-that-are-only-accessible-over-tor"
-msgstr ""
+msgstr "получить-доступ-к-сайтам-доступным-только-через-тор"
 
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
@@ -366,7 +373,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-8/
 #: (content/tbb/tbb-8/contents+en.lr:question.seo_slug)
 msgid "website-blocked-by-censor-can-tor-browser-help"
-msgstr ""
+msgstr "вебсайт-заблокирован-цензурой-может-тор-браузер-помочь"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -394,11 +401,13 @@ msgid ""
 "If a SOCKS proxy is required for your network setup, then please make sure "
 "you’ve entered your proxy details correctly."
 msgstr ""
+"Если для вашей сети требуется SOCKS прокси, то, пожалуйста, убедитесь, что "
+"вы корректно ввели детали вашего прокси."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.seo_slug)
 msgid "using-correct-packages"
-msgstr ""
+msgstr "использовать-правильные-пакеты"
 
 #: http://localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lr:question.description)
@@ -504,6 +513,8 @@ msgstr ""
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
+"* Убедитесь, что тор включается при запуске\"sysrc tor_enable=YES\" (как "
+"root)"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.description)
@@ -558,6 +569,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -610,7 +623,7 @@ msgstr ""
 #: http://localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lr:question.seo_slug)
 msgid "tor-browser-wont-connect"
-msgstr ""
+msgstr "тор-браузер-не-подключается"
 
 #: http://localhost/onionservices/
 #: (content/onionservices/contents+en.lr:topic.seo_slug)
@@ -641,7 +654,7 @@ msgstr ""
 #: http://localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lr:question.title)
 msgid "Who is the Guardian Project?"
-msgstr ""
+msgstr "Кем являются Guardian Project?"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.description)
@@ -681,7 +694,7 @@ msgstr "https"
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.seo_slug)
 msgid "why-is-tor-using-duckduckgo"
-msgstr ""
+msgstr "почему-тор-использует-duckduckgo"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -697,7 +710,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lr:question.seo_slug)
 msgid "tell-which-website-are-visited-while-using-tor-browser"
-msgstr ""
+msgstr "узнать-посещённые-веб-сайты-при-использовании-тор-браузера"
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.description)
@@ -746,6 +759,9 @@ msgid ""
 "org\">website</a></mark>, you can get a copy of Tor delivered to you via "
 "GetTor."
 msgstr ""
+"Если вы не можете скачать тор через наш <mark><a href=\"https://www."
+"torproject.org\">веб-сайт</a></mark>, мы можем доставить вам копию через "
+"GetTor."
 
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.description)
@@ -803,19 +819,19 @@ msgstr "* Vietnamese (vi)"
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.seo_slug)
 msgid "run-multible-instances-of-tor-browser"
-msgstr ""
+msgstr "запустить-несколько-копий-тор-браузера"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.seo_slug)
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.seo_slug)
 msgid "having-trouble-connecting-to-tor"
-msgstr ""
+msgstr "проблемы-при-подключении-к-тор"
 
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.title)
 msgid "Can I use Tor with BitTorrent?"
-msgstr ""
+msgstr "Могу ли я использовать Tor с BitTorrent?"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -823,6 +839,8 @@ msgid ""
 "Tor is funded by a number of different sponsors including US federal "
 "agencies, private foundations, and individual donors."
 msgstr ""
+"Тор спонсируется рядом различных спонсоров, включая федеральные агенства "
+"США, приватные организации и индивидуальные спонсора."
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.description)
@@ -835,6 +853,9 @@ msgid ""
 "choosing \"configure\" (then following the prompts) in the Tor Launcher "
 "window that pops up when you open Tor Browser for the first time."
 msgstr ""
+"Некоторые мосты встроены в Tor Browser, и вы можете использовать эти мосты, "
+"нажав \"конфигурировать\" (следуя подсказкам) в окне Tor Launcher, которое "
+"открывается при первом запуске Tor Browser."
 
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.description)
@@ -891,7 +912,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.seo_slug)
 msgid "make-tor-faster"
-msgstr ""
+msgstr "сделать-тор-быстрее"
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.title)
@@ -917,6 +938,9 @@ msgid ""
 "For more information about bridges, see the <mark><a href=\"https://tb-"
 "manual.torproject.org/en-US/bridges.html\">Tor Browser manual</a></mark>."
 msgstr ""
+"Для большей информации о мостах, см. страницу <mark><a href=\"https://tb-"
+"manual.torproject.org/en-US/bridges.html\"> руководства пользователя Tor "
+"Browser</a></mark>."
 
 #: http://localhost/tbb/tbb-12/
 #: (content/tbb/tbb-12/contents+en.lr:question.description)
@@ -968,7 +992,7 @@ msgstr "кто-нибудь-сможет-рассказать-какой-веб-
 #: http://localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lr:question.seo_slug)
 msgid "download-tor-browser-chromeos"
-msgstr ""
+msgstr "скачать-тор-браузер-chromeos"
 
 #: http://localhost/https/ (content/https/contents+en.lr:topic.title)
 msgid "HTTPS"
@@ -1016,7 +1040,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "Using bridges will likely fix this."
-msgstr ""
+msgstr "Использование мостов скорее всего исравит это."
 
 #: http://localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lr:question.description)
@@ -1039,7 +1063,7 @@ msgstr "*  فارسى (fa)"
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.seo_slug)
 msgid "tor-browser-protecting-other-apps"
-msgstr ""
+msgstr "тор-браузер-защишает-другие-программы"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -1049,7 +1073,7 @@ msgstr "Иногда Tor Browser может работать медленнее,
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.seo_slug)
 msgid "tor-bittorrent"
-msgstr ""
+msgstr "тор-битторрент"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -1059,6 +1083,8 @@ msgid ""
 "* Make sure your clock, date, and timezone are set correctly. Install the "
 "ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"Убедитесь, что время, дата и часовой появ установлены правильно. Установите "
+"ntp или openntpd (или схожий) пакет для синхронизации времени."
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.title)
@@ -1078,6 +1104,8 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a href=\"/"
 "#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
+"Если вы не можете подключиться к onion-сервису, пожалуйста, см. страницу <a "
+"href=\"/#onionservices-3\">Не удаётся подключиться к X.onion!</a>"
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.title)
@@ -1090,13 +1118,15 @@ msgid ""
 "Several countries, including China and Iran, have found ways to detect and "
 "block connections to Tor bridges."
 msgstr ""
+"Несколько стран, включая Китай и Иран, нашли способы обнаружить и "
+"блокировать подключения к мостам Tor."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "Then paste the Tor log into a text file or other document."
-msgstr ""
+msgstr "Затем вставьте лог Tor в текстовый файл или другой документ."
 
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.description)
@@ -1118,7 +1148,7 @@ msgstr ""
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.seo_slug)
 msgid "someone-asks-to-download-tor-browser-to-unlock-my-files"
-msgstr ""
+msgstr "кто-то-просит-скачать-тор-браузер-чтобы-разблокировать-мои-файлы"
 
 #: http://localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lr:question.seo_slug)
@@ -1142,6 +1172,8 @@ msgid ""
 "If a SOCKS proxy is not required, or you’re not sure,  please try connecting "
 "to the Tor network without a SOCKS proxy."
 msgstr ""
+"Если SOCKS прокси не требуется, или же вы не уверены, пожалуйста, "
+"подключитесь к сети тор без SOCKS прокси."
 
 #: http://localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lr:question.description)
@@ -1165,6 +1197,8 @@ msgid ""
 "This option is useful if the exit relay you are using is unable to connect "
 "to the website you require, or is not loading it properly."
 msgstr ""
+"Эта опция полезна, если используемый вами выходной релей, не может "
+"подключиться к нужному веб-сайту, или не загружает его корректно."
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -1172,11 +1206,12 @@ msgstr ""
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Make sure your clock, date, and timezone are set correctly."
 msgstr ""
+"Убедитесь, что у вас правильно установлены дата, время, и часовой пояс."
 
 #: http://localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lr:question.title)
 msgid "Does Tor Project make an application for private chat?"
-msgstr ""
+msgstr "Делают ли Tor Project приложение для приватного чата?"
 
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.description)
@@ -1196,6 +1231,9 @@ msgid ""
 "onion at the top-left of the screen), then \"Open Network Settings\", then "
 "\"Copy Tor Log To Clipboard\"."
 msgstr ""
+"Если Tor Browser уже открыт, нажмите на кнопку Torbutton (маленькая зелёная "
+"луковица в верхнем левом углу экрана), затем \"Открыть Настройки Сети\",  и "
+"\"Скопировать лог Tor в буфер обмена\"."
 
 #: http://localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lr:question.description)
@@ -1242,6 +1280,8 @@ msgid ""
 "BitTorrent in specific is <mark><a href=\"https://blog.torproject.org/"
 "bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"BitTorrent в частноси <mark><a href=\"https://blog.torproject.org/bittorrent-"
+"over-tor-isnt-good-idea\">не анонимаен через Tor</a></mark>."
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.description)
@@ -1287,7 +1327,7 @@ msgstr "Почему в Tor Browser по умолчанию включен Javas
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.seo_slug)
 msgid "tor-funding"
-msgstr ""
+msgstr "тор-спонсирование"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
@@ -1301,6 +1341,8 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
+"Не используйте пакеты в репозиториях Ubuntu. Они не часто обновляются, и "
+"используя их, вы пропустите важные обновления стабильности и защиты."
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
@@ -1861,6 +1903,8 @@ msgid ""
 "<mark><a href=\"https://duckduckgo.com/\">DuckDuckGo</a></mark> is the "
 "default search engine in Tor Browser."
 msgstr ""
+"<mark><a href=\"https://duckduckgo.com/\">DuckDuckGo</a></mark> по умолчанию "
+"является поисковой системой Tor Browser."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1974,6 +2018,8 @@ msgstr "* العربية (ar)"
 #: (content/misc/misc-6/contents+en.lr:question.description)
 msgid "Tor doesn't keep any logs that could identify a particular user."
 msgstr ""
+"Tor не сохраняет логи, позволяющие идентифицировать определённого "
+"пользователя."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -2081,7 +2127,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lr:question.seo_slug)
 msgid "different-circuit-each-website"
-msgstr ""
+msgstr "разная-цепочка-для-каждого-сайта"
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2094,7 +2140,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.seo_slug)
 msgid "antivirus-blocking-tor"
-msgstr ""
+msgstr "антивирус-блокирует-тор"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -2111,7 +2157,7 @@ msgstr "* firefox.exe"
 #: http://localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lr:question.seo_slug)
 msgid "change-the-number-of-hops-tor-uses"
-msgstr ""
+msgstr "изменить-число-прыжков-используемых-тор"
 
 #: http://localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lr:question.description)
@@ -2226,12 +2272,12 @@ msgstr ""
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.seo_slug)
 msgid "to-use-gettor-via-email"
-msgstr ""
+msgstr "использовать-gettor-через-электронную-почту"
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
-msgstr ""
+msgstr "* Запустите \"apt-get install tor obfs4proxy\" (как root)."
 
 #: http://localhost/censorship/censorship-6/
 #: (content/censorship/censorship-6/contents+en.lr:question.seo_slug)
@@ -2266,12 +2312,12 @@ msgstr "Удалить Tor Browser из системы просто:"
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.seo_slug)
 msgid "tor-browser-for-android"
-msgstr ""
+msgstr "тор-браузер-для-андройда"
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.seo_slug)
 msgid "cannot-find-tor-on-windows"
-msgstr ""
+msgstr "не-могу-найти-тор-на-windows"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
@@ -2355,11 +2401,13 @@ msgid ""
 "For example, the DuckDuckGo onion is <a href=\"http://3g2upl4pq6kufc4m.onion"
 "\">https://3g2upl4pq6kufc4m.onion</a>."
 msgstr ""
+"Например, DuckDuckGo onion это <a href=\"http://3g2upl4pq6kufc4m.onion"
+"\">https://3g2upl4pq6kufc4m.onion</a>."
 
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.seo_slug)
 msgid "run-tor-on-android"
-msgstr ""
+msgstr "использовать-тор-на-андроид"
 
 #: http://localhost/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lr:question.description)
@@ -2380,6 +2428,8 @@ msgid ""
 "Websites that are only accessible over Tor are called \"onions\" and end in "
 "the TLD .onion."
 msgstr ""
+"Сайты доступные только через Tor называются \"onions\" в заканчиваются на "
+"TLD.onion."
 
 #: http://localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lr:question.description)
@@ -2501,6 +2551,8 @@ msgid ""
 "* As root, add the following lines to /etc/apt/sources.list. Use the version "
 "you found in the previous step for <version>."
 msgstr ""
+"* Как root, добавьте следующие строки в /etc/apt/sources.list. Используйте "
+"версию, найденную в прошлом шаге для <version>."
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -2524,6 +2576,8 @@ msgid ""
 "<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-"
 "ios-tor\">Learn more about Onion Browser</a></mark>."
 msgstr ""
+"<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-"
+"ios-tor\">Узнайте больше о Onion Browser</a></mark>."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -2539,7 +2593,7 @@ msgstr "Nickname ididnteditheconfig"
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.seo_slug)
 msgid "does-tor-keep-logs"
-msgstr ""
+msgstr "хранит-ли-tor-логи"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -2605,11 +2659,13 @@ msgid ""
 "The Tor Project does not support or condone the use of our software for "
 "malicious purposes."
 msgstr ""
+"The Tor Project не поддерживает или одобряет использование нашего "
+"программного обеспечения в вредоносных целях."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "* Determine your Ubuntu version by running the following command:"
-msgstr ""
+msgstr "* Определите версию вашего Ubuntu, используя следующую команду:"
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
@@ -2620,11 +2676,16 @@ msgid ""
 "\">Linux</a></mark> and <mark><a href=\"https://www.torproject.org/download/"
 "download-easy.html.en#mac\">macOS (OS X)</a></mark>."
 msgstr ""
+"На данный момент Tor Browser доступен на <mark><a href=\"https://www."
+"torproject.org/download/download-easy.html.en#windows\">Windows</a></mark>, "
+"<mark><a href=\"https://www.torproject.org/download/download-easy.html."
+"en#linux\">Linux</a></mark> и <mark><a href=\"https://www.torproject.org/"
+"download/download-easy.html.en#mac\">macOS (OS X)</a></mark>."
 
 #: http://localhost/censorship/censorship-1/
 #: (content/censorship/censorship-1/contents+en.lr:question.seo_slug)
 msgid "our-website-is-blocked-by-a-censor"
-msgstr ""
+msgstr "наш-веб-сайт-заблокирован-цензурой"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -2794,17 +2855,17 @@ msgstr ""
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.title)
 msgid "Who funds Tor?"
-msgstr ""
+msgstr "Кто спонсирует Tor?"
 
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.seo_slug)
 msgid "problem-with-duckduckgo"
-msgstr ""
+msgstr "проблема-с-duckduckgo"
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.seo_slug)
 msgid "search-engine-tor-browser"
-msgstr ""
+msgstr "поисковая-система-tor-browser"
 
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.title)
@@ -2832,6 +2893,8 @@ msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
 msgstr ""
+"Вам следует перепроверить ваш firewall, убедитесь, что IP и порты, указанные "
+"в вашем torrc корректны, и т.д."
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -2839,11 +2902,13 @@ msgid ""
 "Onion services allow people to browse but also to publish anonymously, "
 "including publishing anonymous websites."
 msgstr ""
+"Onion сервисы позволяют не только просматривать, но и публиковать анонимно, "
+"включая публикацию анонимных веб-сайтов."
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.seo_slug)
 msgid "need-tor-browser-language-not-english"
-msgstr ""
+msgstr "нужен-tor-browser-язык-не-английский"
 
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.description)
@@ -2851,18 +2916,20 @@ msgid ""
 "We are currently working on Tor Browser for Android, and you may see alpha "
 "releases appear over the coming months."
 msgstr ""
+"Мы в данный момент работает над Tor Browser для Android, и вы можете ожидать "
+"релиз альфа версий в близжайщие месяцы."
 
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.seo_slug)
 msgid "to-use-gettor-via-twitter"
-msgstr ""
+msgstr "использовать-gettor-через-twitter"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
-msgstr ""
+msgstr "* Добавьте gpg ключ для подписи пакетов, запустив следующую команду:"
 
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.description)
@@ -2890,7 +2957,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.seo_slug)
 msgid "how-to-download-tor-if-torproject-org-is-blocked"
-msgstr ""
+msgstr "как-скачать-tor-если-torproject-org-заблокирован"
 
 #: http://localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lr:question.description)
@@ -2935,6 +3002,11 @@ msgid ""
 "the download</a></mark>), the fingerprint of the key used to make the "
 "signature, and the package’s checksum."
 msgstr ""
+"GetTor ответит электронным письмом, содержащим ссылки для загрузки Tor "
+"Browser, цифровую подпись (необходима для <mark><a href=\"https://www."
+"torproject.org/docs/verifying-signatures.html.en\">проверки загрузки</a></"
+"mark>), отпечаток ключа, используемого для создания подписи и контрольную "
+"сумму пакета."
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -2990,6 +3062,8 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "Please try connecting with bridges, and that should fix the problem."
 msgstr ""
+"Пожалуйста, попробуйте подключиться, используя мосты, это должно исправить "
+"проблему."
 
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.description)
@@ -3007,7 +3081,7 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "If it hasn't, re-check firewalls, IP and ports again."
-msgstr ""
+msgstr "Если проблема не исправлена, снова проверьте firewall, IP и порты."
 
 #: http://localhost/tbb/tbb-12/
 #: (content/tbb/tbb-12/contents+en.lr:question.description)
@@ -3136,7 +3210,7 @@ msgstr "* Windows"
 #: http://localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lr:question.title)
 msgid "How do I run Tor on Windows Phone?"
-msgstr ""
+msgstr "Как использовать Tor на Windows Phone?"
 
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.title)
@@ -3158,6 +3232,9 @@ msgid ""
 "However, you should know that the privacy properties of Tor Browser will not "
 "be present in the other browser."
 msgstr ""
+"Тем не менее, вы должны знать, что свойства приватности Tor Browser не будут "
+"присутствовать в другом браузере.\n"
+"      "
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
@@ -3173,17 +3250,18 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "Enabling ntpd is suggested."
-msgstr ""
+msgstr "Советуется включить ntpd."
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.seo_slug)
 msgid "change-ip-address"
-msgstr ""
+msgstr "сменить-ip-адрес"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "* Run the following commands to install tor and check its signatures:"
 msgstr ""
+"* Запустите следующие команды, чтобы установить tor и проверить его подпись:"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -3203,6 +3281,9 @@ msgid ""
 "depends on the model of the computer you are using; consult documentation "
 "about your computer to find out more."
 msgstr ""
+"Вам может быть предложено выбрать \"32-бита\" или \"64-бита\" программу: это "
+"зависит от модели используемого вами компьютера; для большей информации "
+"обратитесь к документации вашего компьютера."
 
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.description)
@@ -3244,7 +3325,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lr:question.seo_slug)
 msgid "problem-with-https-everywhere"
-msgstr ""
+msgstr "проблема-с-https-everywhere"
 
 #: http://localhost/censorship/ (content/censorship/contents+en.lr:topic.title)
 msgid "Censorship"
@@ -3274,6 +3355,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
 "Browser Update\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -3949,7 +4032,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "This step is usually fast, but it may take a few minutes."
-msgstr ""
+msgstr "Этот шаг обычно быстр, но может занять несколько минут."
 
 #: http://localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lr:question.description)
@@ -3979,7 +4062,7 @@ msgstr ""
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.seo_slug)
 msgid "run-tor-on-ios"
-msgstr ""
+msgstr "использование-тор-на-ios"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.title)
@@ -4001,17 +4084,17 @@ msgstr "Мне нужен Tor Browser не на английском, а на д
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.seo_slug)
 msgid "tor-browser-js-enabled-default"
-msgstr ""
+msgstr "тор-браузер-js-по-умолчанию"
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.seo_slug)
 msgid "having-a-problem-updating-vidalia"
-msgstr ""
+msgstr "проблемы-при-обновлении-vidalia"
 
 #: http://localhost/tbb/tbb-16/
 #: (content/tbb/tbb-16/contents+en.lr:question.seo_slug)
 msgid "pick-which-country-i-am-exiting"
-msgstr ""
+msgstr "выбрать-страну-для-выхода-трафика"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -4025,6 +4108,8 @@ msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
 msgstr ""
+"## Установите пропускную способность (оставьте комментированным для работы "
+"Tor без ограничения по скорости)"
 
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.description)
@@ -4038,7 +4123,7 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "$ deb-src http://deb.torproject.org/torproject.org <version> main"
-msgstr ""
+msgstr "$ deb-src http://deb.torproject.org/torproject.org<version>  main"
 
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.description)
@@ -4055,6 +4140,8 @@ msgid ""
 "That means that ISPs or governments trying to block access to the Tor "
 "network can't simply block all bridges."
 msgstr ""
+"Это значит, что интернет-провайдеры или правительство, пытаясь заблокировать "
+"доступ к сети Tor, попросту не могут заблокировать все мосты."
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.title)
@@ -4087,11 +4174,13 @@ msgid ""
 "For a while now, Disconnect has had no access to Google search results which "
 "we used in Tor Browser."
 msgstr ""
+"Последнее время, Disconnect не имел доступа к результатам поиска Google, "
+"которые мы использовать в Tor Browser."
 
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.title)
 msgid "To use GetTor via XMPP (Jitsi, CoyIM)."
-msgstr ""
+msgstr "Использовать GetTor через XMPP (Jitsi, CoyIM)."
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.description)
@@ -4126,7 +4215,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.seo_slug)
 msgid "website-blocking-access-over-tor"
-msgstr ""
+msgstr "вебсайт-блокирует-доступ-через-тор"
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)

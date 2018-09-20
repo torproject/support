@@ -1,11 +1,20 @@
+# Translators:
+# Giovanni Pellerano <giovanni.pellerano@evilaliv3.org>, 2018
+# Sangmin Lee <sangminlee7648@gmail.com>, 2018
+# Plusb Preco <plusb21@gmail.com>, 2018
+# Emma Peel, 2018
+# Revi_, 2018
+# Philipp Sauter <qt123@pm.me>, 2018
+# snotree <cknblue@gmail.com>, 2018
+# graphene <imsesaok@tuta.io>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:33+CET\n"
-"PO-Revision-Date: 2018-09-08 13:03+CET\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2018-09-20 11:49+CET\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: graphene <imsesaok@tuta.io>, 2018\n"
+"Language-Team: Korean (https://www.transifex.com/otf/teams/1519/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +25,7 @@ msgstr ""
 #: (content/tbb/tbb-16/contents+en.lr:question.description)
 msgid ""
 "Modifying the way that Tor creates its circuits is strongly discouraged."
-msgstr ""
+msgstr "Tor 회로 생성 방식을 변경하는 것은 절대 권장하지 않습니다."
 
 #: http://localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lr:question.description)
@@ -29,7 +38,7 @@ msgstr ""
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.description)
 msgid "We do not recommend using Tor with BitTorrent."
-msgstr ""
+msgstr "저희는 Tor를 비트토렌트와 사용하는 것을 권장하지 않습니다."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -41,7 +50,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Français (fr)"
-msgstr ""
+msgstr "* Français (fr)"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -80,17 +89,17 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Edit /usr/local/etc/tor/torrc to look like the following:"
-msgstr ""
+msgstr "* 다음과 같이 /usr/local/etc/tor/torrc를 편집하십시오:"
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.title)
 msgid "How can I donate to Tor Project?"
-msgstr ""
+msgstr "어떻게 Tor 프로젝트에 기부할 수 있나요?"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "* Locate your Tor Browser folder or application."
-msgstr ""
+msgstr "* Tor 브라우저 폴더나 애플리케이션을 찾습니다."
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -143,6 +152,7 @@ msgid ""
 "Our website is blocked by a censor. Can Tor Browser help users access our "
 "website?"
 msgstr ""
+"저희 웹 사이트가 검열되었습니다. Tor 브라우저로 연결할 때 도움이 되나요?"
 
 #: http://localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lr:question.description)
@@ -155,7 +165,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "* Delete the Tor Browser folder or application."
-msgstr ""
+msgstr "* Tor 브라우저의 폴더 또는 응용 프로그램을 삭제하십시오."
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
@@ -176,7 +186,7 @@ msgstr ""
 
 #: http://localhost/faq/ (content/faq/contents+en.lr:topic.seo_slug)
 msgid "faq"
-msgstr ""
+msgstr "자주 묻는 질문들"
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -195,7 +205,7 @@ msgstr ""
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.title)
 msgid "Does Tor keep logs?"
-msgstr ""
+msgstr "Tor는 로그를 기록합니까?"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.seo_slug)
@@ -205,18 +215,18 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* tor.exe"
-msgstr ""
+msgstr "* tor.exe"
 
 #: http://localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lr:question.description)
 msgid ""
 "There is currently no supported method for running Tor on Windows Phone."
-msgstr ""
+msgstr "현재 Windows Phone에서 Tor를 실행할 수 있는 방법은 없습니다."
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.title)
 msgid "What is a .onion or what are onion services?"
-msgstr ""
+msgstr ".onion 또는 onion 서비스 란 무엇입니까?"
 
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.description)
@@ -250,13 +260,14 @@ msgstr ""
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
 msgid "Unfortunately, we don't yet have a version of Tor Browser for ChromeOS."
-msgstr ""
+msgstr "안타깝지만 ChromeOS 용 Tor 브라우저 버전은 아직 제공되지 않습니다."
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid ""
 "<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.title)
@@ -276,6 +287,8 @@ msgid ""
 "Many exit nodes are configured to block certain types of file sharing "
 "traffic, such as BitTorrent."
 msgstr ""
+"많은 출구 노드는 BitTorrent와 같은 특정 유형의 파일 공유 트래픽을 차단하도록 "
+"설정됩니다."
 
 #: http://localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lr:question.seo_slug)
@@ -298,6 +311,8 @@ msgid ""
 "Tor requires an accurate clock to work: please check your time, timezone, "
 "and date settings."
 msgstr ""
+"Tor가 작동하려면 정확한 시간정보가 필요합니다. 시간, 시간대 및 날짜 설정을 확"
+"인하십시오."
 
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.description)
@@ -305,6 +320,8 @@ msgid ""
 "For further details, please see our <mark><a href=\"https://blog.torproject."
 "org/bittorrent-over-tor-isnt-good-idea\">blog post on the subject</a></mark>."
 msgstr ""
+"자세한 내용은 <mark><a href=\"https://blog.torproject.org/bittorrent-over-"
+"tor-isnt-good-idea\">이 주제에 관한 블로그 게시물</a></mark>을 참조하십시오."
 
 #: http://localhost/tbb/tbb-8/
 #: (content/tbb/tbb-8/contents+en.lr:question.seo_slug)
@@ -323,7 +340,7 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "RunAsDaemon 1"
-msgstr ""
+msgstr "RunAsDaemon 1"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -333,6 +350,8 @@ msgid ""
 "If a SOCKS proxy is required for your network setup, then please make sure "
 "you’ve entered your proxy details correctly."
 msgstr ""
+"네트워크 설정에 SOCKS 프록시가 필요한 경우 올바르게 프록시 세부 정보를 입력했"
+"는지 확인하십시오."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.seo_slug)
@@ -345,6 +364,8 @@ msgid ""
 "If you run Tor Browser and another browser at the same time, it won't affect "
 "Tor's performance or privacy properties."
 msgstr ""
+"Tor 브라우저와 다른 브라우저를 동시에 실행 해도 Tor의 성능이나 개인 정보 보호"
+"에는 영향을 미치지 않습니다."
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.description)
@@ -356,16 +377,18 @@ msgid ""
 "Tor Browser can certainly help people access your website in places where it "
 "is blocked."
 msgstr ""
+"Tor 브라우저는 사람들이 차단 된 당신의 웹 사이트에 접근하는 것을 확실히 도울 "
+"수 있습니다."
 
 #: http://localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lr:question.title)
 msgid "How do I view Tor Browser message log?"
-msgstr ""
+msgstr "Tor 브라우저의 메시지 로그를 열어보는 법"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Deutsch (de)"
-msgstr ""
+msgstr "* Deutsch (de)"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.seo_slug)
@@ -375,7 +398,7 @@ msgstr ""
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.description)
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "당신의 도움에 감사드립니다!"
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.description)
@@ -391,12 +414,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Polish (pl)"
-msgstr ""
+msgstr "* Polish (pl)"
 
 #: http://localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid "Tor Browser is currently available on Windows, Linux and OSX."
-msgstr ""
+msgstr "현재 Tor 브라우저는 윈도우즈와 리눅스와 OS X에서 사용 가능합니다."
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
@@ -428,6 +451,8 @@ msgstr ""
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
+"* Tor가 \"sysrc tor_enable=YES\"를 실행하여 부팅 할 때 시작하는지 확인하십시"
+"오 (root로)"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.description)
@@ -469,7 +494,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "You can update Tor Browser as soon as a new version is released."
-msgstr ""
+msgstr "새 버전을 출시하자마자 Tor 브라우저를 업데이트할 수 있습니다."
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -484,6 +509,7 @@ msgid ""
 "Sorry, but there is currently no official support for running Tor Browser on "
 "*BSD."
 msgstr ""
+"죄송하지만 현재 *BSD에서 Tor브라우저를 실행하는 공식적인 지원은 없습니다."
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -493,7 +519,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* For OS X"
-msgstr ""
+msgstr "* OS X"
 
 #: http://localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lr:question.description)
@@ -505,7 +531,7 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr ""
+msgstr "* \"pkg install tor\"를 (root로) 실행하십시오."
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.seo_slug)
@@ -530,12 +556,12 @@ msgstr ""
 #: http://localhost/onionservices/
 #: (content/onionservices/contents+en.lr:topic.seo_slug)
 msgid "onion-services"
-msgstr ""
+msgstr "onion 서비스"
 
 #: http://localhost/onionservices/
 #: (content/onionservices/contents+en.lr:topic.title)
 msgid "Onion Services"
-msgstr ""
+msgstr "Onion 서비스"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -543,6 +569,8 @@ msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
+"법 집행기관이 당신의 출구 노드에 관심을 갖게되면, 당신의 컴퓨터가 수색 당할 "
+"수 있습니다"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -580,11 +608,11 @@ msgstr ""
 
 #: http://localhost/tbb/ (content/tbb/contents+en.lr:topic.seo_slug)
 msgid "tor-browser"
-msgstr ""
+msgstr "Tor 브라우저"
 
 #: http://localhost/https/ (content/https/contents+en.lr:topic.seo_slug)
 msgid "https"
-msgstr ""
+msgstr "https"
 
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.seo_slug)
@@ -634,7 +662,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lr:question.title)
 msgid "Is it safe to run Tor Browser and another browser at the same time?"
-msgstr ""
+msgstr "동시에 Tor 브라우저랑 다른 브라우저를 실행해도 안전합니까?"
 
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.description)
@@ -669,14 +697,14 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Run \"service tor start\" (as root)"
-msgstr ""
+msgstr "* \"service tor start\"를 (root로) 실행하십시오."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
 msgid "* Run \"apt-get install tor\" (as root)."
-msgstr ""
+msgstr "* \"apt-get install tor\"를 (root로) 실행하십시오."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -690,7 +718,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Vietnamese (vi)"
-msgstr ""
+msgstr "* Vietnamese (vi)"
 
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.seo_slug)
@@ -707,7 +735,7 @@ msgstr ""
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.title)
 msgid "Can I use Tor with BitTorrent?"
-msgstr ""
+msgstr "Tor를 BitTorrent와 함께 사용할 수 있습니까?"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -715,6 +743,8 @@ msgid ""
 "Tor is funded by a number of different sponsors including US federal "
 "agencies, private foundations, and individual donors."
 msgstr ""
+"Tor는 미국 연방 기관, 사설 재단 및 개별 기부자를 포함한 여러 후원자가 후원합"
+"니다."
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.description)
@@ -742,7 +772,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.title)
 msgid "Is there support for *BSD?"
-msgstr ""
+msgstr "*BSD가 지원됩니까?"
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.title)
@@ -751,14 +781,14 @@ msgstr ""
 #: http://localhost/censorship/censorship-6/
 #: (content/censorship/censorship-6/contents+en.lr:question.title)
 msgid "I can’t connect to Tor Browser, is my network censored?"
-msgstr ""
+msgstr "Tor 브라우저에 연결할 수 없습니다. 저의 네트워크가 검열되고 있나요?"
 
 #: http://localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lr:question.description)
 msgid ""
 "There is currently no supported method for setting Tor Browser as your "
 "default browser."
-msgstr ""
+msgstr "현재 Tor 브라우저를 기본 브라우저로 설정하는 방법은 지원하지 않습니다."
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.description)
@@ -781,7 +811,7 @@ msgstr ""
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.title)
 msgid "Can I use the Tor logo in my product?"
-msgstr ""
+msgstr "내 제품에 Tor 로고를 사용할 수 있습니까?"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -819,7 +849,7 @@ msgstr ""
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.title)
 msgid "Can I run Tor on an Android device?"
-msgstr ""
+msgstr "Android 기기에서 Tor를 실행할 수 있습니까?"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -830,7 +860,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "#RelayBandwidthBurst 100 MBytes"
-msgstr ""
+msgstr "#RelayBandwidthBurst 100 MBytes"
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
@@ -854,7 +884,7 @@ msgstr ""
 
 #: http://localhost/https/ (content/https/contents+en.lr:topic.title)
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 #: http://localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lr:question.title)
@@ -862,20 +892,22 @@ msgid ""
 "Can I still use another browser, like Chrome or Firefox, when I am using Tor "
 "Browser?"
 msgstr ""
+"Tor 브라우저를 사용할 때 Chrome이나 Firefox와 같은 다른 브라우저를 계속 사용"
+"할 수 있습니까?"
 
 #: http://localhost/tormobile/ (content/tormobile/contents+en.lr:topic.title)
 msgid "Tor Mobile"
-msgstr ""
+msgstr "Tor 모바일"
 
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.title)
 msgid "How can I share files anonymously through Tor?"
-msgstr ""
+msgstr "Tor를 통해 익명으로 파일을 공유하려면 어떻게해야합니까?"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* tor.real"
-msgstr ""
+msgstr "* tor.real"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -913,7 +945,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "*  فارسى (fa)"
-msgstr ""
+msgstr "*  فارسى (fa)"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.seo_slug)
@@ -923,7 +955,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
 msgid "Using Tor Browser can sometimes be slower than other browsers."
-msgstr ""
+msgstr "Tor 브라우저를 사용하면 다른 브라우저보다 속도가 느릴 수 있습니다."
 
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.seo_slug)
@@ -938,13 +970,15 @@ msgid ""
 "* Make sure your clock, date, and timezone are set correctly. Install the "
 "ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"* 시간, 날짜 및 시간대가 올바르게 설정 되었는지 확인하십시오. 시간을 정확하"
+"게 유지하려면 ntp 또는 openntpd (또는 유사한) 패키지를 설치하십시오."
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.title)
 #: http://localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lr:question.title)
 msgid "Which platforms is Tor Browser available for?"
-msgstr ""
+msgstr "Tor브라우저는 어떤 플랫폼에서 사용 가능합니까? "
 
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.description)
@@ -969,6 +1003,8 @@ msgid ""
 "Several countries, including China and Iran, have found ways to detect and "
 "block connections to Tor bridges."
 msgstr ""
+"중국과 이란을 비롯한 여러 국가에서 Tor 브릿지와의 연결을 감지하고 차단하는 방"
+"법을 갖고있습니다."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1042,7 +1078,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Make sure your clock, date, and timezone are set correctly."
-msgstr ""
+msgstr "* 시계, 날짜 및 시간대가 올바르게 설정되었는지 확인하십시오."
 
 #: http://localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lr:question.title)
@@ -1113,7 +1149,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.title)
 msgid "How do I update Tor Browser?"
-msgstr ""
+msgstr "Tor 브라우저를 업데이트하는 방법"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -1135,7 +1171,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lr:question.title)
 msgid "I'm having a problem with NoScript."
-msgstr ""
+msgstr "NoScript에 문제가 있습니다."
 
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.title)
@@ -1150,7 +1186,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "Tor browser will install the updates."
-msgstr ""
+msgstr "Tor 브라우저가 업데이트를 설치할 것입니다."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -1159,11 +1195,13 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
+"* 우분투 저장소의 패키지를 사용하지 마십시오. 안정적인 업데이트가 불가능합니"
+"다. 저장소를 사용하면 중요한 안정성과 보안 패치를 놓치게 됩니다."
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Português (pt-BR)"
-msgstr ""
+msgstr "* Português (pt-BR)"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -1200,12 +1238,15 @@ msgid ""
 "* Review our <mark><a href=\"https://trac.torproject.org/projects/tor/wiki/"
 "doc/TorExitGuidelines\">Exit relay guidelines</a></mark>"
 msgstr ""
+"* <mark><a href=\"https://trac.torproject.org/projects/tor/wiki/doc/"
+"TorExitGuidelines\">출구 노드 가이드라인</a></mark> 검토하기"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid ""
 "$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 msgstr ""
+"$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 
 #: http://localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lr:question.description)
@@ -1251,7 +1292,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Edit /etc/tor/torrc to look like the following:"
-msgstr ""
+msgstr "* /etc/tor/torrc를 다음과 같이 편집하십시오:"
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.title)
@@ -1295,7 +1336,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.title)
 msgid "I'm having a problem with DuckDuckGo."
-msgstr ""
+msgstr "DuckDuckGo에 문제가 있습니다."
 
 #: http://localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lr:question.title)
@@ -1307,7 +1348,7 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "ExitPolicy reject *:*"
-msgstr ""
+msgstr "ExitPolicy reject *:*"
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
@@ -1320,6 +1361,8 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"* /var/log/syslog에서 \"자체 테스트를 통해 외부에서 ORPort에 연결할 수 있음"
+"을 나타냅니다.\" 라는 로그 항목을 찾습니다."
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -1331,7 +1374,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Türkçe (tr)"
-msgstr ""
+msgstr "* Türkçe (tr)"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1345,7 +1388,7 @@ msgstr ""
 #: http://localhost/connecting/
 #: (content/connecting/contents+en.lr:topic.seo_slug)
 msgid "connecting-to-tor"
-msgstr ""
+msgstr "tor한테 연결하는 중"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
@@ -1426,7 +1469,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lr:question.title)
 msgid "Can I set Tor Browser as my default browser?"
-msgstr ""
+msgstr "Tor 브라우저를 기본 브라우저로 만들 수 있습니까?"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1483,7 +1526,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Run \"service tor reload\" (as root)."
-msgstr ""
+msgstr "* \"service tor reload\"를 (root로) 실행하십시오."
 
 #: http://localhost/faq/faq-1/
 #: (content/faq/faq-1/contents+en.lr:question.description)
@@ -1549,11 +1592,13 @@ msgid ""
 "* After your relay connects to the network, it will try to determine whether "
 "the ports you configured are reachable from the outside."
 msgstr ""
+"* 릴레이가 네트워크에 연결되면 구성된 포트가 외부에서 연결할 수 있는지 여부"
+"를 확인합니다."
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* English (en-US)"
-msgstr ""
+msgstr "* English (en-US)"
 
 #: http://localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lr:question.seo_slug)
@@ -1608,6 +1653,8 @@ msgstr ""
 msgid ""
 "When I use Tor Browser, will anyone be able to tell which websites I visit?"
 msgstr ""
+"Tor 브라우저를 사용할 때, 모든 사람이 제가 방문하는 웹 사이트를 볼 수 있습니"
+"까?"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -1620,12 +1667,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
 msgid "##### New Identity"
-msgstr ""
+msgstr "##### 새로운 신원"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.title)
 msgid "Does using Tor Browser protect other applications on my computer?"
-msgstr ""
+msgstr "Tor 브라우저를 사용하면 컴퓨터의 다른 응용 프로그램도 보호합니까?"
 
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.description)
@@ -1647,7 +1694,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* TorBrowser"
-msgstr ""
+msgstr "* TorBrowser"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -1707,12 +1754,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* For Windows"
-msgstr ""
+msgstr "* 윈도우즈"
 
 #: http://localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lr:question.title)
 msgid "I'm having a problem with HTTPS Everywhere."
-msgstr ""
+msgstr "HTTPS Everywhere에 문제가 있습니다."
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.seo_slug)
@@ -1722,7 +1769,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Korean (ko)"
-msgstr ""
+msgstr "* 한국어 (ko)"
 
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.description)
@@ -1773,7 +1820,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Italiano (it)"
-msgstr ""
+msgstr "* Italiano (it)"
 
 #: http://localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lr:question.description)
@@ -1785,7 +1832,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* العربية (ar)"
-msgstr ""
+msgstr "* العربية (ar)"
 
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.description)
@@ -1912,7 +1959,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* firefox.exe"
-msgstr ""
+msgstr "* firefox.exe"
 
 #: http://localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lr:question.seo_slug)
@@ -1987,7 +2034,7 @@ msgstr ""
 msgid ""
 "What are the most common issues with the latest stable version of Tor "
 "Browser?"
-msgstr ""
+msgstr "Tor browser의 최신 안정판에서 발생하는 가장 흔한 문제가 무엇입니까?"
 
 #: http://localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lr:question.description)
@@ -2020,7 +2067,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
-msgstr ""
+msgstr "* \"apt-get install tor obfs4proxy\"를 (root로) 실행하십시오."
 
 #: http://localhost/censorship/censorship-6/
 #: (content/censorship/censorship-6/contents+en.lr:question.seo_slug)
@@ -2037,7 +2084,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.title)
 msgid "Can I download Tor Browser for ChromeOS?"
-msgstr ""
+msgstr "ChromeOS 용 Tor 브라우저를 다운로드 할 수 있습니까?"
 
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.description)
@@ -2047,7 +2094,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "Removing Tor Browser from your system is simple:"
-msgstr ""
+msgstr "시스템에서 Tor 브라우저를 제거하는 방법은 간단합니다:"
 
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.seo_slug)
@@ -2080,7 +2127,7 @@ msgstr ""
 #: http://localhost/gettor/ (content/gettor/contents+en.lr:topic.title)
 #: (content/gettor/contents+en.lr:topic.seo_slug)
 msgid "GetTor"
-msgstr ""
+msgstr "GetTor"
 
 #: http://localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lr:question.description)
@@ -2178,7 +2225,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
 msgid "* Linux"
-msgstr ""
+msgstr "* 리눅스"
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.description)
@@ -2232,7 +2279,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-6/
 #: (content/tbb/tbb-6/contents+en.lr:question.title)
 msgid "Can I make Tor Browser my default browser?"
-msgstr ""
+msgstr "Tor 브라우저를 기본 브라우저로 만들 수 있습니까?"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -2266,6 +2313,8 @@ msgid ""
 "* As root, add the following lines to /etc/apt/sources.list. Use the version "
 "you found in the previous step for <version>."
 msgstr ""
+"* root로 /etc/apt/sources.list에 다음 행을 추가하십시오. 이전 단계에서 찾은 "
+"<version>을 사용하십시오."
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -2307,12 +2356,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
 msgid "Thank you.\""
-msgstr ""
+msgstr "감사합니다.\""
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* 日本語 (ja)"
-msgstr ""
+msgstr "* 日本語 (ja)"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -2324,6 +2373,7 @@ msgstr ""
 msgid ""
 "What search engine comes with Tor Browser and how does it protect my privacy?"
 msgstr ""
+"어떤 검색 엔진이 Tor 브라우저와 함께 제공되며 개인 정보를 어떻게 보호합니까?"
 
 #: http://localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lr:question.description)
@@ -2350,7 +2400,7 @@ msgstr ""
 #: http://localhost/censorship/
 #: (content/censorship/contents+en.lr:topic.seo_slug)
 msgid "censorship"
-msgstr ""
+msgstr "검열"
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.title)
@@ -2367,7 +2417,7 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "* Determine your Ubuntu version by running the following command:"
-msgstr ""
+msgstr "* 다음 명령을 실행하여 우분투 버전을 확인하십시오:"
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
@@ -2387,18 +2437,18 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "Finally, restart Tor Browser."
-msgstr ""
+msgstr "마지막으로, Tor 브라우저를 다시 시작하십시오."
 
 #: http://localhost/connecting/ (content/connecting/contents+en.lr:topic.title)
 msgid "Connecting To Tor"
-msgstr ""
+msgstr "Tor에 연결하는 중"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid ""
 "* Note that your operating system’s standard \"Uninstall\" utility is not "
 "used."
-msgstr ""
+msgstr "* 운영 체제의 표준 \"제거\" 유틸리티는 사용되지 않습니다."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -2436,7 +2486,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.title)
 msgid "Why is the first IP address in my relay circuit always the same?"
-msgstr ""
+msgstr "릴레이 서킷의 첫 번째 IP주소가 항상 같은 이유는 무엇입니까?"
 
 #: http://localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lr:question.description)
@@ -2482,7 +2532,7 @@ msgstr ""
 #: (content/tbb/tbb-10/contents+en.lr:question.title)
 msgid ""
 "My antivirus or malware protection is blocking me from accessing Tor Browser."
-msgstr ""
+msgstr "내 안티 바이러스나 멀웨어 차단이 Tor 브라우저 사용을 차단합니다."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -2509,7 +2559,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* obfs4proxy (if you use bridges)"
-msgstr ""
+msgstr "* obfs4proxy (만약 주계서버 사용하면)"
 
 #: http://localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lr:question.description)
@@ -2598,14 +2648,14 @@ msgstr ""
 msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
-msgstr ""
+msgstr "* 다음 명령을 실행하여 패키지 서명에 사용 된 gpg키를 추가하십시오:"
 
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.description)
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
 msgid "* MacOS (OS X)"
-msgstr ""
+msgstr "* 맥OS (OS X)"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2644,7 +2694,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* obfs4proxy.exe (if you use bridges)"
-msgstr ""
+msgstr "* obfs4proxy.exe (만약 bridges를 사용할때)"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -2762,12 +2812,12 @@ msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:showcase.title)
 msgid "How can we help?"
-msgstr ""
+msgstr "어떻게 도와드릴까요?"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Nederlands (nl)"
-msgstr ""
+msgstr "* Nederlands (nl)"
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.description)
@@ -2786,7 +2836,7 @@ msgstr ""
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
 msgid "Tor Messenger"
-msgstr ""
+msgstr "Tor 메신저"
 
 #: http://localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lr:question.seo_slug)
@@ -2796,7 +2846,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Español (es-ES)"
-msgstr ""
+msgstr "* Español (es-ES)"
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.seo_slug)
@@ -2815,23 +2865,24 @@ msgstr ""
 
 #: http://localhost/faq/ (content/faq/contents+en.lr:topic.title)
 msgid "Most Frequently Asked Questions"
-msgstr ""
+msgstr "자주 묻는 질문"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.title)
 msgid "How do I uninstall Tor Browser?"
-msgstr ""
+msgstr "Tor 브라우저를 제거하는 방법"
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.title)
 msgid ""
 "I downloaded and installed Tor Browser for Windows, but now I can't find it."
 msgstr ""
+"윈도우즈용 Tor 브라우저를 다운로드하고 설치했는데 지금 찾을 수 없습니다."
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "* Empty your Trash."
-msgstr ""
+msgstr "* 휴지통 폴더를 비우십시오."
 
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.title)
@@ -2843,7 +2894,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
 msgid "* Windows"
-msgstr ""
+msgstr "* 윈도우즈"
 
 #: http://localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lr:question.title)
@@ -2891,7 +2942,7 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "* Run the following commands to install tor and check its signatures:"
-msgstr ""
+msgstr "* Tor를 설치하고 서명을 확인하려면 다음 명령을 실행하십시오:"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2952,7 +3003,7 @@ msgstr ""
 
 #: http://localhost/censorship/ (content/censorship/contents+en.lr:topic.title)
 msgid "Censorship"
-msgstr ""
+msgstr "검열"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -2968,7 +3019,7 @@ msgstr ""
 msgid ""
 "Tor Browser won't connect, but it doesn’t seem to be an issue with "
 "censorship."
-msgstr ""
+msgstr "Tor 브라우저가 연결되지 않지만 검열과 관련된 문제는 아닌거 같습니다."
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
@@ -3019,7 +3070,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "ORPort 9001"
-msgstr ""
+msgstr "ORPort 9001"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.description)
@@ -3035,6 +3086,8 @@ msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
+"* obfs4proxy가 작동 중임을 나타내는 \"Registered server transport 'obfs4'\" "
+"메시지가 표시되어야 합니다."
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.description)
@@ -3109,7 +3162,7 @@ msgstr ""
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
 msgid "* Run \"service tor reload\" (as root)"
-msgstr ""
+msgstr "* \"service tor reload\"를 (root로) 실행하십시오."
 
 #: http://localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lr:question.description)
@@ -3136,7 +3189,7 @@ msgstr ""
 #: http://localhost/misc/misc-13/
 #: (content/misc/misc-13/contents+en.lr:question.title)
 msgid "Can I use a VPN with Tor?"
-msgstr ""
+msgstr "Tor이랑 VPN을 사용할 수 있습니까? "
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -3275,7 +3328,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lr:question.title)
 msgid "Does running Tor Browser make me a relay?"
-msgstr ""
+msgstr "Tor 브라우저를 켜면 자동으로 중계 서버가 되나요?"
 
 #: http://localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lr:question.title)
@@ -3345,7 +3398,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-16/
 #: (content/tbb/tbb-16/contents+en.lr:question.title)
 msgid "Can I pick which country I'm exiting from?"
-msgstr ""
+msgstr "특정 국가의 출구 노드로 나가도록 선택할 수 있습니까?"
 
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.seo_slug)
@@ -3360,7 +3413,7 @@ msgstr ""
 #: http://localhost/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.seo_slug)
 msgid "tor-messenger"
-msgstr ""
+msgstr "tor 메신저"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -3378,6 +3431,8 @@ msgstr ""
 msgid ""
 "How can I make Tor run faster? Is Tor Browser slower than other browsers?"
 msgstr ""
+"Tor를 더 빠르게 할수있는 방법은 무엇입니까? Tor 브라우저는 다른 브라우저보다 "
+"속도가 느립니까?"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -3410,12 +3465,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Русский (ru)"
-msgstr ""
+msgstr "* Русский (ru)"
 
 #: http://localhost/tormobile/
 #: (content/tormobile/contents+en.lr:topic.seo_slug)
 msgid "tor-mobile"
-msgstr ""
+msgstr "tor 모바일"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.seo_slug)
@@ -3471,7 +3526,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* 简体字 (zh-CN)"
-msgstr ""
+msgstr "* 简体字 (zh-CN)"
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.seo_slug)
@@ -3494,6 +3549,8 @@ msgid ""
 "\" to the directory authorities to let clients know what address, ports, "
 "keys, etc your relay is using."
 msgstr ""
+"* 도달 할 수 있음을 확인하면 디렉토리 권한에 \"서버 설명자\"를 업로드 하여 릴"
+"레이가 사용중인 주소, 포트, 키 등을 클라이언트가 알 수 있게합니다."
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.description)
@@ -3506,7 +3563,7 @@ msgstr ""
 
 #: http://localhost/tbb/ (content/tbb/contents+en.lr:topic.title)
 msgid "Tor Browser"
-msgstr ""
+msgstr "Tor 브라우저"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -3581,7 +3638,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-12/
 #: (content/tbb/tbb-12/contents+en.lr:question.title)
 msgid "Can I use Flash in Tor Browser?"
-msgstr ""
+msgstr "Tor 브라우저에서 Flash를 사용할 수 있습니까?"
 
 #: http://localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lr:question.description)
@@ -3711,6 +3768,8 @@ msgid ""
 "Should I install a new add-on or extension in Tor Browser, like AdBlock Plus "
 "or uBlock Origin?"
 msgstr ""
+"Tor 브라우저에 AdBlock Plus 또는 uBlock Origin과 같이 새로운 부가 기능 또는 "
+"확장 기능을 설치해야합니까?"
 
 #: http://localhost/tbb/tbb-16/
 #: (content/tbb/tbb-16/contents+en.lr:question.description)
@@ -3775,7 +3834,7 @@ msgstr ""
 
 #: templates/footer.html:5
 msgid "Our mission:"
-msgstr ""
+msgstr "우리의 사명:"
 
 #: templates/footer.html:5
 msgid ""
@@ -3784,36 +3843,39 @@ msgid ""
 "availability and use, and furthering their scientific and popular "
 "understanding."
 msgstr ""
+"자유로운 오픈 소스 익명성 및 개인 정보 보호 기술을 개발 및 배포하고 제한없는 "
+"가용성과 사용을 지원하며 과학적 및 대중적 이해를 촉진함으로써 인권과 자유를 "
+"증진합니다."
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"
-msgstr ""
+msgstr "뉴스레터 구독하기"
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
-msgstr ""
+msgstr "Tor 프로젝트에 대한 월간 정보를 받아보세요"
 
 #: templates/footer.html:32
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
-msgstr ""
+msgstr "상표, 저작권 고지 및 규칙의 제3자의 사용에 대한 정보는"
 
 #: templates/layout.html:7
 msgid "Tor Project | Support"
-msgstr ""
+msgstr "Tor 프로젝트 | 지원"
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
-msgstr ""
+msgstr "Tor 로고"
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
-msgstr ""
+msgstr "Tor 브라우저 다운로드"
 
 #: templates/search.html:5
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
@@ -3821,4 +3883,4 @@ msgstr ""
 
 #: templates/macros/question.html:11
 msgid "Permalink"
-msgstr ""
+msgstr "퍼머링크"

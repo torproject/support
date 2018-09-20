@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 08:39+CET\n"
+"POT-Creation-Date: 2018-09-20 11:49+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kordycepts, The Night City <kordycepts@protonmail.com>, "
 "2018\n"
@@ -2330,6 +2330,9 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"Ao acessar um site que usa um serviço .onion, o Navegador Tor mostrará na "
+"barra de URL um ícone de uma pequena cebola verde exibindo o estado de sua "
+"conexão: seguro e usando um serviço .onion."
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2422,7 +2425,7 @@ msgstr "* Execute \"apt-get install tor obfs4proxy\" (como root)."
 #: http://localhost/censorship/censorship-6/
 #: (content/censorship/censorship-6/contents+en.lr:question.seo_slug)
 msgid "is-my-network-censored"
-msgstr ""
+msgstr "minha-rede-esta-censurada"
 
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.description)
@@ -2607,7 +2610,7 @@ msgstr "Como eu rodo um obfs4 no Debian?"
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.seo_slug)
 msgid "website-locks-torbrowser-out"
-msgstr ""
+msgstr "website-bloqueia-acesso-torbrowser"
 
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.description)
@@ -2701,6 +2704,8 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "##### Common log error #2: Can’t reach guard relays"
 msgstr ""
+"##### Erro de log comum #2: Não é possível acessar os retransmissores "
+"guardiães."
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -2708,6 +2713,8 @@ msgid ""
 "Setting up an obfsproxy bridge requires an additional software package and "
 "additional configurations."
 msgstr ""
+"A configuração de uma ponte obfsproxy requer a instalação de pacotes de "
+"software e configurações adicionais."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -2724,6 +2731,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show "
 "an icon of a green onion and a padlock."
 msgstr ""
+"Caso você esteja acessando um website via HTTPS e um serviço onion, serão "
+"exibidos os ícones de uma cebola e de um cadeado."
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -2807,6 +2816,10 @@ msgid ""
 "correctly: even a small mistake will stop Tor Browser from being able to "
 "reach the site."
 msgstr ""
+"Caso você não consiga acessar o serviço onion desejado, certifique-se de ter "
+"digitado corretamente os 16 caracteres, ou 56 caracteres no novo formato, do "
+"endereço onion: até mesmo um pequeno erro impedirá o Tor Browser de acessar "
+"o site."
 
 #: http://localhost/censorship/
 #: (content/censorship/contents+en.lr:topic.seo_slug)
@@ -2844,11 +2857,16 @@ msgid ""
 "\">Linux</a></mark> and <mark><a href=\"https://www.torproject.org/download/"
 "download-easy.html.en#mac\">macOS (OS X)</a></mark>."
 msgstr ""
+"O Tor Browser está atualmente disponível em versões para <mark><a href="
+"\"https://www.torproject.org/download/download-easy.html.en#windows"
+"\">Windows</a></mark>, <mark><a href=\"https://www.torproject.org/download/"
+"download-easy.html.en#linux\">Linux</a></mark> e <mark><a href=\"https://www."
+"torproject.org/download/download-easy.html.en#mac\">macOS (OS X)</a></mark>."
 
 #: http://localhost/censorship/censorship-1/
 #: (content/censorship/censorship-1/contents+en.lr:question.seo_slug)
 msgid "our-website-is-blocked-by-a-censor"
-msgstr ""
+msgstr "nosso-website-esta-bloqueado-por-um-censor"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -3020,7 +3038,7 @@ msgstr "<div class=\"card-body\">"
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.seo_slug)
 msgid "cannot-reach-x-onion"
-msgstr ""
+msgstr "nao-consigo-acessar-x-onion"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.title)
@@ -3078,7 +3096,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.seo_slug)
 msgid "need-tor-browser-language-not-english"
-msgstr ""
+msgstr "preciso-tor-browser-idioma-nao-ingles"
 
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.description)
@@ -3127,6 +3145,8 @@ msgid ""
 "Do you? <mark><a href=\"https://www.torproject.org/about/contact.html.en"
 "\">Contact us</a></mark>."
 msgstr ""
+"É este o seu caso? <mark><a href=\"https://www.torproject.org/about/contact."
+"html.en\">Entre em contato</a></mark>."
 
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.seo_slug)
@@ -3225,7 +3245,7 @@ msgstr "</div>"
 #: http://localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lr:question.seo_slug)
 msgid "tor-project-app-for-private-chat"
-msgstr ""
+msgstr "app-para-chat-privado-do-projeto-tor"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -3259,7 +3279,7 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "If it hasn't, re-check firewalls, IP and ports again."
-msgstr ""
+msgstr "Se não for esse o caso, confira novamente os firewalls, IP e portas."
 
 #: http://localhost/tbb/tbb-12/
 #: (content/tbb/tbb-12/contents+en.lr:question.description)
@@ -3293,7 +3313,7 @@ msgstr ""
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.seo_slug)
 msgid "how-do-i-run-an-exit"
-msgstr ""
+msgstr "como-rodar-um-nodo-de-saida"
 
 #: http://localhost/ (content/contents+en.lr:showcase.title)
 msgid "How can we help?"
@@ -3544,6 +3564,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
 "Browser Update\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -3571,6 +3593,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -3650,6 +3674,9 @@ msgid ""
 "txt\">Obfsproxy</a></mark> bridges address this by adding another layer of "
 "obfuscation."
 msgstr ""
+"Conexões de ponte <mark><a href=\"https://github.com/Yawning/obfs4/blob/"
+"master/doc/obfs4-spec.txt\">Obfsproxy</a></mark> lidam com isto adicionando "
+"outra camada de obscuridade."
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.description)
@@ -4210,6 +4237,7 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
