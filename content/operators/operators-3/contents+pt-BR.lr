@@ -43,4 +43,4 @@ Certifique-se que seu relógio, data e fuso horário estão configurados correta
   Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
 * Quando ele confirma que está acessível, ele vai enviar um "descritor do servidor" para o diretório de autoridades para deixar os clientes saberem qual endereço, porta, chaves, etc seu retransmissor está usando.
   Depois de poucas horas (para ter tempo o bastante para propagar), você pode consultar o <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> para ver se seu retransmissor foi registrado com sucesso na rede.
-  If it hasn't, re-check firewalls, IP and ports again.
+  Se não for esse o caso, confira novamente os firewalls, IP e portas.

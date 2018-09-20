@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:29+CET\n"
+"POT-Creation-Date: 2018-09-20 12:06+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Margaret Fletcher, 2018\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
@@ -1055,6 +1055,8 @@ msgid ""
 "Both options are located in the Menu, but you can also access the New "
 "Circuit option inside the site information menu, in the URL bar."
 msgstr ""
+"Beide Optionen befinden sich im Menü und es ist möglich, die Circuit-Ansicht "
+"über das Informations-Symbol in der Adressleiste zu erreichen."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1658,6 +1660,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2325,6 +2329,8 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"Tor Browser zeigt für onion-Adressen in der Adressleiste ein grünes Symbol "
+"für den Verbindungsstatus an: sicher und direkt von einem onion-Dienst."
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2717,6 +2723,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show "
 "an icon of a green onion and a padlock."
 msgstr ""
+"Beim Zugriff auf einen Onion-Dienst über https zeigt es eine grüne Zwiebel "
+"mit einem Vorhängeschloss."
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -3548,6 +3556,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
 "Browser Update\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -3574,6 +3584,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -4232,6 +4244,7 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)

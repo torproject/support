@@ -13,6 +13,6 @@ Uma ponte é apenas um relay normal com um configuração levemente diferente.
 Veja <mark><a href="#operators-6">Como operar uma ponte</a></mark>para mais instruções.
 
 Vários países, incluindo China e Irã, encontraram meios de detectar e bloquear conexões para pontes Tor.
-<mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.
-Setting up an obfsproxy bridge requires an additional software package and additional configurations.
+Conexões de ponte <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> lidam com isto adicionando outra camada de obscuridade.
+A configuração de uma ponte obfsproxy requer a instalação de pacotes de software e configurações adicionais.
 Veja nossa página em <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark> para mais informações.

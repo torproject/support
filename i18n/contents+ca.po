@@ -1040,6 +1040,8 @@ msgid ""
 "Both options are located in the Menu, but you can also access the New "
 "Circuit option inside the site information menu, in the URL bar."
 msgstr ""
+"Ambdues opcions es troben al Menú, però també podeu accedir a l'opció Nou "
+"Circuit dins del menú d'informació del lloc, a la barra d'URL."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2307,6 +2309,9 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"Quan accedeix a un lloc web que utilitza un servei de onion , el Navegador "
+"Tor mostrarà a la barra d'URL una icona d'una petita ceba verda que mostra "
+"l'estat de la vostra connexió: segur i usant un servei de onion."
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2700,6 +2705,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show "
 "an icon of a green onion and a padlock."
 msgstr ""
+"I si accediu a un lloc web amb https i un servei de onion, es mostrarà una "
+"icona d'una ceba verda i un cadenat."
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -3535,6 +3542,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
 "Browser Update\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -3561,6 +3570,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -4208,6 +4219,7 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)

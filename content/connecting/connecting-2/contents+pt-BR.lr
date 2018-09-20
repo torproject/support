@@ -22,7 +22,7 @@ Se você vê linhas como essas no seu registro Tor, isso significa que você est
 Se um SOCKS proxy é necessário para a configuração de sua rede, então por favor tenha certeza se você forneceu seus detalhes de proxy corretamente.
 Se um SOCKS proxy não é necessário, ou você não tem certeza, por favor tente conectar a rede Tor sem um SOCKS proxy.
 
-##### Common log error #2: Can’t reach guard relays
+##### Erro de log comum #2: Não é possível acessar os retransmissores guardiães.
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 

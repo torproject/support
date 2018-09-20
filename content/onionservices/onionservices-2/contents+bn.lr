@@ -11,10 +11,10 @@ description:
 
 এই পরিষেবাগুলি বিশেষ ব্যবহারের TLD ব্যবহার করে। (পরিবর্তে .com, .net, .org, ইত্যাদি।) এবং কেবল টর নেটওয়ার্ক এর মাধ্যমে অ্যাক্সেসযোগ্য।
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
+অনিয়ন পরিষেবা ব্যবহার করে এমন কোনও ওয়েবসাইট অ্যাক্সেস করার সময়, আপনার টর ব্রাউজারের ইউআরএল বারে একটি সবুজ অনিয়ন আইকন দেখানো হবে যা নির্দেশ করে: নিরাপদ এবং অনিয়ন পরিষেবা ব্যবহৃত হচ্ছে।
 
 <img class="" src="/static/images/onion-website.png" alt="Onion icon">
 
-And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+এবং যদি আপনি https এবং অনিয়ন পরিষেবা সহ একটি ওয়েবসাইট অ্যাক্সেস করছেন তবে এটি একটি সবুজ অনিয়ন এবং একটি প্যাডলক একটি আইকন দেখাবে।
 
 <img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">

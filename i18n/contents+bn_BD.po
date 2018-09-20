@@ -2,13 +2,14 @@
 # Al Shahrior Hasan Sagor <shahrior3814@gmail.com>, 2018
 # lisa hayat, 2018
 # Emma Peel, 2018
+# code smite <codesmite@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:29+CET\n"
+"POT-Creation-Date: 2018-09-20 12:06+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Emma Peel, 2018\n"
+"Last-Translator: code smite <codesmite@gmail.com>, 2018\n"
 "Language-Team: Bengali (Bangladesh) (https://www.transifex.com/otf/"
 "teams/1519/bn_BD/)\n"
 "Language: bn_BD\n"
@@ -1015,13 +1016,15 @@ msgid ""
 "Both options are located in the Menu, but you can also access the New "
 "Circuit option inside the site information menu, in the URL bar."
 msgstr ""
+"উভয় বিকল্প মেনুতে আছে, তবে আপনি URL বারে, সাইটের তথ্য মেনুর ভিতরে নতুন সার্কিট "
+"বিকল্পটি অ্যাক্সেস করতে পারেন।"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "Using bridges will likely fix this."
-msgstr "সেদিক ব্যবহার করলে সম্ভবত এটা ঠিক হবে"
+msgstr "ব্রিজ ব্যবহার করলে সম্ভবত এটা ঠিক হবে।"
 
 #: http://localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lr:question.description)
@@ -1269,6 +1272,8 @@ msgid ""
 "BitTorrent in specific is <mark><a href=\"https://blog.torproject.org/"
 "bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"BitTorrent  পরিস্কারভাবে <mark><a href=\"https://blog.torproject.org/"
+"bittorrent-over-tor-isnt-good-idea\">টর'র মধ্যে অজ্ঞাত নয়</a></mark>."
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.description)
@@ -1551,6 +1556,7 @@ msgstr "connecting-to-tor"
 msgid ""
 "<img class=\"\" src=\"/static/images/image3.png\" alt=\"New release alert\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/image3.png\" alt=\"New release alert\">"
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.description)
@@ -1596,6 +1602,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2249,6 +2257,9 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"অনিয়ন পরিষেবা ব্যবহার করে এমন কোনও ওয়েবসাইট অ্যাক্সেস করার সময়, আপনার টর "
+"ব্রাউজারের ইউআরএল বারে একটি সবুজ অনিয়ন আইকন দেখানো হবে যা নির্দেশ করে: নিরাপদ "
+"এবং অনিয়ন পরিষেবা ব্যবহৃত হচ্ছে।"
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2632,6 +2643,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show "
 "an icon of a green onion and a padlock."
 msgstr ""
+"এবং যদি আপনি https এবং অনিয়ন পরিষেবা সহ একটি ওয়েবসাইট অ্যাক্সেস করছেন তবে এটি "
+"একটি সবুজ অনিয়ন এবং একটি প্যাডলক একটি আইকন দেখাবে।"
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -3437,6 +3450,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
 "Browser Update\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -3462,6 +3477,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -4092,6 +4109,7 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
