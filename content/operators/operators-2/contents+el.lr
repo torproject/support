@@ -8,8 +8,8 @@ description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
 * Review our <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Exit relay guidelines</a></mark>
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
+* Εκτελέστε το "apt-get install tor" (ως root).
+* Βεβαιωθείτε ότι το ρολόι, η ημερομηνία και η ζώνη ώρας έχουν ρυθμιστεί σωστά. Εγκαταστήστε το πακέτο ntp ή openntpd (ή παρόμοιο) για να τα διατηρήσετε.
 * Edit /etc/tor/torrc to look like the following:
 
 
@@ -33,7 +33,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     #MyFamily $keyid,$keyid,...
 
 
-* Run "service tor reload" (as root)
+* Εκτελέστε το "service tor reload" (ως root)
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
 

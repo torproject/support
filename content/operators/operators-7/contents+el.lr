@@ -6,7 +6,7 @@ seo_slug: run-exit-from-home
 ---
 description:
 Όχι.
-If law enforcement becomes interested in traffic from your exit relay, it's possible that officers will seize your computer.
+Αν οι αρχές ενδιαφερθούν για την κίνηση από τον κόμβο εξόδου σας, είναι πιθανό αστυνομικοί να κατασχέσουν τον υπολογιστή σας.
 For that reason, it's best not to run your exit relay in your home or using your home internet connection.
 
 Instead, consider running your exit relay in a commercial facility that is supportive of Tor.

@@ -2,7 +2,7 @@ _model: question
 ---
 title: How do I make sure that I'm using the correct packages on Ubuntu?
 ---
-seo_slug: using-correct-packages
+seo_slug: 使用正确的安装包
 ---
 description:
 * Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.

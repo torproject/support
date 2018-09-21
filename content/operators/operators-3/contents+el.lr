@@ -7,7 +7,7 @@ seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
 description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
-* Run "pkg install tor" (as root).
+* Εκτελέστε το "pkg install tor" (ως root).
 * Make sure your clock, date, and timezone are set correctly.
   Enabling ntpd is suggested.
 * Επεξεργαστείτε το /usr/local/etc/tor/torrc για να μοιάζει σαν το παρακάτω:
@@ -35,7 +35,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     Log notice file /var/log/tor/notices.log
 
 * Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
-* Run "service tor start" (as root)
+* Εκτελέστε το "service tor start" (ως root)
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
   Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."

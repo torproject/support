@@ -9,13 +9,14 @@
 # Chi-Hsun Tsai, 2018
 # endermoon <endermoongame@gmail.com>, 2018
 # Emma Peel, 2018
+# A Chinese <v123123123@mail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-16 06:27+CET\n"
+"POT-Creation-Date: 2018-09-21 11:00+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Emma Peel, 2018\n"
+"Last-Translator: A Chinese <v123123123@mail.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/"
 "zh_CN/)\n"
 "Language: zh_CN\n"
@@ -56,7 +57,7 @@ msgstr "这可能意味着您处于被监管的网络之中。"
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Français (fr)"
-msgstr ""
+msgstr "法语"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -84,6 +85,8 @@ msgid ""
 "choose between different search providers, it fell back to delivering Bing "
 "search results which were basically unacceptable quality-wise."
 msgstr ""
+"因为Disconnect是一个大数据搜索引擎且允许用户选择不同的搜索服务，结果导致大部"
+"分使用BING搜索结果，而BING的搜索结果质量并不理想。"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -92,12 +95,12 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "## If you control multiple relays, include then in the family"
-msgstr ""
+msgstr "如果你有不同路径选择，请你把他们也归纳在一起"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Edit /usr/local/etc/tor/torrc to look like the following:"
-msgstr ""
+msgstr "*编辑： /usr/local/etc/tor/torrc 文件如下："
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.title)
@@ -107,7 +110,7 @@ msgstr "我该怎样向Tor Project捐款？"
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "* Locate your Tor Browser folder or application."
-msgstr ""
+msgstr "*打开你TOR浏览器的文件夹"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -116,6 +119,8 @@ msgid ""
 "route all of their traffic, and the load on each server can sometimes cause "
 "latency."
 msgstr ""
+"Tor的网络有超过一百万个用户，但是只有6000多个节点路径来导流数据，每次节点传送"
+"都会造成一定的延迟"
 
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.description)
@@ -130,12 +135,12 @@ msgstr ""
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.description)
 msgid "Something like this might do the trick:"
-msgstr ""
+msgstr "这么做也许能解决你的问题"
 
 #: http://localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lr:question.seo_slug)
 msgid "installing-add-on-extensions-tor-browser"
-msgstr ""
+msgstr "安装tor浏览器的插件"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.title)
@@ -149,7 +154,7 @@ msgstr "无法连接到 Tor，但我不知道发生了什么什么错误。"
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
 msgid ""
 "A bridge is just a normal relay with a slightly different configuration."
-msgstr ""
+msgstr "桥接就是一个普通的数据路径但是拥有不太一样的设置"
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.title)
@@ -169,11 +174,13 @@ msgid ""
 "you have extracted Tor Browser in a location that your user has the correct "
 "permissions for."
 msgstr ""
+"请确认你只有一个TOR浏览器在运行并且你的TOR浏览器安装在一个有正确权限的文件夹"
+"里"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "* Delete the Tor Browser folder or application."
-msgstr ""
+msgstr "*删除tor文件夹或者应用程序"
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.description)
@@ -183,6 +190,7 @@ msgid ""
 "It's strongly discouraged to install new add-ons in Tor Browser, because "
 "they can compromise your privacy and security."
 msgstr ""
+"强烈建议不要安装额外新的插件，因为这些插件很有可能会暴露你的隐私和人身安全。"
 
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.description)
@@ -204,13 +212,15 @@ msgid ""
 "These services use the special-use tld .onion (instead of .com,.net,.org,"
 "etc..) and are only accessible through the Tor network."
 msgstr ""
+"这些服务使用特殊的tld.onion(而不是.com .net .org等) 所以这些服务只有在Tor的网"
+"络里可以连接"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.title)
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.title)
 msgid "A website I am trying to reach is blocking access over Tor."
-msgstr ""
+msgstr "我要访问的一个网站阻止了来自tor网络的连接请求。"
 
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.title)
@@ -220,7 +230,7 @@ msgstr "tor会留存日志吗？"
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.seo_slug)
 msgid "what-is-a-bridge"
-msgstr ""
+msgstr "什么是桥接？"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -244,6 +254,8 @@ msgid ""
 "For sharing files through Tor, <mark><a href=\"https://onionshare.org/"
 "\">OnionShare</a></mark> is a good option."
 msgstr ""
+"通过tor网络分享文件，<mark><a href=\"https://onionshare.org/\">洋葱分享</a></"
+"mark>是一个不错的选项。"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -253,7 +265,7 @@ msgstr "不记录。"
 #: http://localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lr:question.seo_slug)
 msgid "problem-noscript"
-msgstr ""
+msgstr "问题-没有脚本"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -261,11 +273,13 @@ msgid ""
 "$ gpg --keyserver keys.gnupg.net --recv "
 "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89"
 msgstr ""
+"$ gpg --keyserver keys.gnupg.net --recv "
+"A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89"
 
 #: http://localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lr:question.seo_slug)
 msgid "setting-tor-browser-as-default"
-msgstr ""
+msgstr "设置tor浏览器为默认浏览器"
 
 #: http://localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lr:question.description)
@@ -277,6 +291,7 @@ msgstr "很不幸，我们目前还没有 ChromeOS 版本的 Tor。"
 msgid ""
 "<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/image5.png\" alt=\"New release alert\">"
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.title)
@@ -289,36 +304,36 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "$ sudo apt-get install tor deb.torproject.org-keyring"
-msgstr ""
+msgstr "$ sudo apt-get install tor deb.torproject.org-keyring"
 
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.description)
 msgid ""
 "Many exit nodes are configured to block certain types of file sharing "
 "traffic, such as BitTorrent."
-msgstr ""
+msgstr "有一些脱离节点会设置阻挡一些文件共享数据，比如种子文件数据"
 
 #: http://localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lr:question.seo_slug)
 msgid "cant-connect-to-tor-browser"
-msgstr ""
+msgstr "无法连接tor浏览器"
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
 msgid "<div class=\"row\">"
-msgstr ""
+msgstr "<div class=\"row\">"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.seo_slug)
 msgid "accessing-websites-that-are-only-accessible-over-tor"
-msgstr ""
+msgstr "登陆只有通过tor才能登陆的网站"
 
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid ""
 "Tor requires an accurate clock to work: please check your time, timezone, "
 "and date settings."
-msgstr ""
+msgstr "Tor需要准确的时间设置，请检查你的时间，时区和日期设置是否正确。"
 
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.description)
@@ -332,7 +347,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-8/
 #: (content/tbb/tbb-8/contents+en.lr:question.seo_slug)
 msgid "website-blocked-by-censor-can-tor-browser-help"
-msgstr ""
+msgstr "Tor 浏览器可以帮助你登陆被统治者藏起来的网站"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -342,11 +357,14 @@ msgid ""
 "\"https://blog.torproject.org/category/tags/form-990\">blog posts</a></mark> "
 "on our financial reports."
 msgstr ""
+"请在我们的财务报告上查询<mark><a href=\"https://www.torproject.org/about/"
+"sponsors.html.en\">捐款人</a></mark>和一系列<mark><a href=\"https://blog."
+"torproject.org/category/tags/form-990\">日志</a></mark>"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "RunAsDaemon 1"
-msgstr ""
+msgstr "体验试用版1"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -355,19 +373,19 @@ msgstr ""
 msgid ""
 "If a SOCKS proxy is required for your network setup, then please make sure "
 "you’ve entered your proxy details correctly."
-msgstr ""
+msgstr "如果您的网络连接需要设置SOCKS代理，请确认您代理服务器的信息。"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.seo_slug)
 msgid "using-correct-packages"
-msgstr ""
+msgstr "使用正确的安装包"
 
 #: http://localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lr:question.description)
 msgid ""
 "If you run Tor Browser and another browser at the same time, it won't affect "
 "Tor's performance or privacy properties."
-msgstr ""
+msgstr "如果您同时使用Tor浏览器和其他浏览器，这不会影响Tor的安全性和隐秘性。"
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.description)
@@ -388,12 +406,12 @@ msgstr "我该怎么查询tor浏览器的通讯日志？"
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Deutsch (de)"
-msgstr ""
+msgstr "德语"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-on-freebsd"
-msgstr ""
+msgstr "我如何在freebsd上使用Middle或者guard."
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.description)
@@ -410,16 +428,18 @@ msgid ""
 "If you need other bridges, you can get them at our <mark><a href=\"https://"
 "bridges.torproject.org/\">Bridges website</a></mark>."
 msgstr ""
+"如果您需要其他的桥接，你可以从<mark><a href=\"https://bridges.torproject.org/"
+"\">桥接网站</a></mark>上查询。"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Polish (pl)"
-msgstr ""
+msgstr "波兰语"
 
 #: http://localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lr:question.description)
 msgid "Tor Browser is currently available on Windows, Linux and OSX."
-msgstr ""
+msgstr "Tor浏览器支持windows系统，linux系统和苹果系统。"
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
@@ -430,13 +450,18 @@ msgid ""
 "\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> and <mark><a "
 "href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 msgstr ""
+"<mark><a href=\"https://guardianproject.info/\">守护者计划</a></mark>维护"
+"<mark><a href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark>和"
+"<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>在"
+"<mark><a href=\"https://www.torproject.org/docs/android.html.en\">安卓系统</"
+"a></mark>下使用Tor网络。"
 
 #: http://localhost/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lr:question.seo_slug)
 #: http://localhost/misc/misc-13/
 #: (content/misc/misc-13/contents+en.lr:question.seo_slug)
 msgid "use-vpn-with-tor"
-msgstr ""
+msgstr "在Tor里使用代理服务器。"
 
 #: http://localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lr:question.description)
@@ -453,6 +478,8 @@ msgstr ""
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
+"*请确认在开机时启动tor。可以根权限下使用\"sysrc tor_enable=YES\"来启用此功"
+"能。"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.description)
@@ -483,19 +510,19 @@ msgstr ""
 msgid ""
 "You can help improve the speed of the network by running your own relay, or "
 "encouraging others to do so."
-msgstr ""
+msgstr "你可以通过建立自己的通讯路径和鼓励他人一起建立来增加网路速度。"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid ""
 "You may see a written indication when Tor Browser opens telling you that an "
 "update is available."
-msgstr ""
+msgstr "当Tor浏览器需要更新时，你可以在打开Tor浏览器时看见一个更新提示。"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "You can update Tor Browser as soon as a new version is released."
-msgstr ""
+msgstr "你可以尽快的更新Tor浏览器至最新版本。"
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -503,18 +530,20 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
 msgid ""
 "Sorry, but there is currently no official support for running Tor Browser on "
 "*BSD."
-msgstr ""
+msgstr "抱歉，我们没有对BSD系统Tor浏览器的官方支持。"
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
 msgid "<div class=\"col-md-6\">"
-msgstr ""
+msgstr "<div class=\"col-md-6\">"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -526,12 +555,12 @@ msgstr "* 对 OS X"
 msgid ""
 "Once you have copied the log, you will be able to paste it into a text "
 "editor or email client."
-msgstr ""
+msgstr "当你复制了系统记录，你就可以粘贴到写字板或者邮件里。"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr ""
+msgstr "“在命令窗口以根权限执行”pkg install tor“"
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.seo_slug)
@@ -547,11 +576,13 @@ msgid ""
 "handshake with directory server. (DONE; DONE; count 10; recommendation warn; "
 "host [host] at xxx.xxx.xxx.xx:xxx)"
 msgstr ""
+"13-11-17 19:53:49.300 [警告] 问题 启动陷阱. 进度卡在10%: 完成和目标服务器的握"
+"手. (完成; 完成; 倒数 10; 建议警告; 服务器 [主机] 在 xxx.xxx.xxx.xx:xxx)"
 
 #: http://localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lr:question.seo_slug)
 msgid "tor-browser-wont-connect"
-msgstr ""
+msgstr "Tor浏览器无法连接"
 
 #: http://localhost/onionservices/
 #: (content/onionservices/contents+en.lr:topic.seo_slug)
@@ -568,7 +599,7 @@ msgstr "洋葱服务"
 msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
-msgstr ""
+msgstr "如果警察察觉了你的数据流量，他们可能会没收你的电子设备。"
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -576,6 +607,8 @@ msgid ""
 "See our page on <mark><a href=\"https://www.torproject.org/docs/pluggable-"
 "transports.html.en\">pluggable transports</a></mark> for more info."
 msgstr ""
+"请浏览<mark><a href=\"https://www.torproject.org/docs/pluggable-transports."
+"html.en\">可移动传送</a></mark>获取更多信息"
 
 #: http://localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lr:question.title)
@@ -598,6 +631,8 @@ msgid ""
 "which prevents Onion Browser from having the same privacy protections as Tor "
 "Browser."
 msgstr ""
+"但是，苹果要求所有在苹果系统内运行的浏览器使用Webkit服务，这个服务会使Tor浏览"
+"器不如在其他系统下安全和隐秘。"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.description)
@@ -631,7 +666,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lr:question.seo_slug)
 msgid "tell-which-website-are-visited-while-using-tor-browser"
-msgstr ""
+msgstr "告知Tor浏览器的浏览记录"
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.description)
@@ -709,14 +744,14 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Run \"service tor start\" (as root)"
-msgstr ""
+msgstr "*在根权限下执行\"service tor start\""
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
 msgid "* Run \"apt-get install tor\" (as root)."
-msgstr ""
+msgstr "*在根权限下执行“apt-get install tor”"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -725,12 +760,12 @@ msgstr ""
 msgid ""
 "2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with "
 "directory server"
-msgstr ""
+msgstr "2017-10-29 09:23:47.900 [提示] 启动卡在 10%: 完成和目标服务器的握手"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Vietnamese (vi)"
-msgstr ""
+msgstr "越南语"
 
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.seo_slug)
@@ -742,7 +777,7 @@ msgstr "同时运行多个Tor浏览器"
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.seo_slug)
 msgid "having-trouble-connecting-to-tor"
-msgstr ""
+msgstr "连接TOR网络出现了问题"
 
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.title)
@@ -755,6 +790,8 @@ msgid ""
 "Tor is funded by a number of different sponsors including US federal "
 "agencies, private foundations, and individual donors."
 msgstr ""
+"Tor有不同的资金支持赞助，包括美国中央政府部分机构（译者加：应该是搞笑的，Tor"
+"被列为国家安全局重点监控对象-----因为无法监控），私有募款机构和个人。"
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.description)
@@ -767,6 +804,8 @@ msgid ""
 "choosing \"configure\" (then following the prompts) in the Tor Launcher "
 "window that pops up when you open Tor Browser for the first time."
 msgstr ""
+"有一些桥接是Tor浏览器内置的，你可以通过点击设置来使用这些桥接。在windows系统"
+"下Tor浏览器会在打开时弹出询问对话框是否设置桥接。"
 
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.description)
@@ -778,6 +817,8 @@ msgid ""
 "If you believe this is a Tor Browser issue, please report it on our <mark><a "
 "href=\"https://trac.torproject.org/\">bug tracker</a></mark>."
 msgstr ""
+"如果你相信这是浏览器的问题，请你报告给<mark><a href=\"https://trac."
+"torproject.org/\">问题中心</a></mark>"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.title)
@@ -798,7 +839,7 @@ msgstr "无法连接 Tor，我的网络被审查了吗？"
 msgid ""
 "There is currently no supported method for setting Tor Browser as your "
 "default browser."
-msgstr ""
+msgstr "目前没有支持设置Tor浏览器为默认浏览器的方法。"
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.description)
@@ -812,11 +853,13 @@ msgid ""
 "Applications folder (on macOS, you have to move it into the Applications "
 "folder when you complete the installation process)."
 msgstr ""
+"在windows里默认位置是桌面，在苹果系统里是在应用程序文件夹（你需要在安装完毕后"
+"把浏览器移动到应用程序文件夹来运行。）"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.seo_slug)
 msgid "make-tor-faster"
-msgstr ""
+msgstr "让Tor更迅捷"
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.title)
@@ -830,7 +873,7 @@ msgstr "我能将tor的图标用于我的产品中吗？"
 msgid ""
 "If you see lines like this in your Tor log, it means that Tor failed to "
 "complete a TLS handshake with the directory authorities."
-msgstr ""
+msgstr "如果你在Tor日志里看见这句话，这意味着Tor和目标服务TLS握手失败。"
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.description)
@@ -852,6 +895,8 @@ msgid ""
 "piece of software that can easily compromise your privacy or serve you "
 "malware."
 msgstr ""
+"我们认为无论是什么浏览器Flash都是是极不安全的，他可以轻易盗取你的个人情报或者"
+"给你设置恶意软件。"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -3798,7 +3843,7 @@ msgstr ""
 msgid ""
 "With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the "
 "primary search engine."
-msgstr ""
+msgstr "Tor浏览器在6.0.6更新后使用DuckDuckGo作为内置搜索引擎。"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -3820,6 +3865,7 @@ msgid ""
 "That means that ISPs or governments trying to block access to the Tor "
 "network can't simply block all bridges."
 msgstr ""
+"这意味着政府或者网络管理者尝试阻止TOR的链接不能简单通过阻止桥接来达成目地"
 
 #: http://localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lr:question.title)
@@ -3837,6 +3883,7 @@ msgid ""
 "Please note that VPNs do not have the same privacy properties as Tor, but "
 "they will help solve some geolocation restriction issues."
 msgstr ""
+"请注意，VPN和TOR在隐私管理上是有区别的，但是VPN可以解决一些地理上的限制因素"
 
 #: http://localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lr:question.description)
@@ -3849,11 +3896,13 @@ msgid ""
 "For a while now, Disconnect has had no access to Google search results which "
 "we used in Tor Browser."
 msgstr ""
+"现在Disconnect搜索引擎没有使用谷歌搜索，所以我们无法在TOR浏览器看到谷歌搜索结"
+"果"
 
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.title)
 msgid "To use GetTor via XMPP (Jitsi, CoyIM)."
-msgstr ""
+msgstr "通过XMPP(Jitsi,CoyM)使用GetTor"
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.description)
@@ -3862,6 +3911,8 @@ msgid ""
 "open yourself up to potential attacks or information leakage, so we strongly "
 "discourage it."
 msgstr ""
+"虽然你可以同时使用tor浏览器和其他的浏览器，但是同时使用其他浏览器会暴露你的身"
+"份信息。我们强烈建议您不要使用其他浏览器。"
 
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.description)
@@ -3880,15 +3931,14 @@ msgid ""
 "minutes, or that theirs is ahead. Tor requires an accurate clock to work: "
 "please check your time, timezone, and date settings."
 msgstr ""
-"19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:"
-"xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 "
-"minutes, or that theirs is ahead. Tor requires an accurate clock to work: "
-"please check your time, timezone, and date settings."
+"19.11.2017 00:04:48.800 [警告] 收到NETINFO单位的时间(OR:xxx.xx.x.xx:xxxx):我"
+"们的时间似乎慢了1天，0小时，1分钟或者他们的时间快了。Tor需要准确的时间才能运"
+"行，请检查你的时间，时区和日期的设置。"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.seo_slug)
 msgid "website-blocking-access-over-tor"
-msgstr ""
+msgstr "tor网站权限封禁"
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)
@@ -3897,6 +3947,8 @@ msgid ""
 "adding a backdoor to the software, which would open up our vulnerable users "
 "to attacks from bad regimes and other adversaries."
 msgstr ""
+"如果我们想阻止某些人使用TOR网络，我们仅需要增加一些软件后门，但是这会导致我们"
+"的用户遭到邪恶统治政府和其他组织的攻击。"
 
 #: templates/footer.html:5
 msgid "Our mission:"
@@ -3918,13 +3970,13 @@ msgstr "订阅我们的新闻"
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
-msgstr ""
+msgstr "订阅我们每个月发布的消息和机遇"
 
 #: templates/footer.html:32
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
-msgstr ""
+msgstr "商标保护，专利保护，以及第三方使用规则可以在这里找到："
 
 #: templates/layout.html:7
 msgid "Tor Project | Support"

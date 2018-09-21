@@ -2,7 +2,7 @@ _model: question
 ---
 title: Tor浏览器没有连接上互联网，但这似乎并不是因为网络管控造成的问题。
 ---
-seo_slug: tor-browser-wont-connect
+seo_slug: Tor浏览器无法连接
 ---
 description:
 造成Tor连接失败的最常见的问题之一是系统时间设置错误。

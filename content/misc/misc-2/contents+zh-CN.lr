@@ -7,4 +7,4 @@ seo_slug: prevent-bad-people-doing-bad-things-with-tor
 description:
 Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us.
 我们厌恶用tor做糟糕的事情的人，但是我们并不能在剔除他们的同时，不伤害到人权活动者，记者，虐待后的幸存者们，以及其他用tor做好事的人们。
-If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.
+如果我们想阻止某些人使用TOR网络，我们仅需要增加一些软件后门，但是这会导致我们的用户遭到邪恶统治政府和其他组织的攻击。

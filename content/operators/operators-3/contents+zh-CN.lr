@@ -2,15 +2,15 @@ _model: question
 ---
 title: How do I run a middle or guard relay on FreeBSD or HardenedBSD?
 ---
-seo_slug: how-do-i-run-a-middle-or-guard-on-freebsd
+seo_slug: 我如何在freebsd上使用Middle或者guard.
 ---
 description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
-* Run "pkg install tor" (as root).
+“在命令窗口以根权限执行”pkg install tor“
 * Make sure your clock, date, and timezone are set correctly.
   Enabling ntpd is suggested.
-* Edit /usr/local/etc/tor/torrc to look like the following:
+*编辑： /usr/local/etc/tor/torrc 文件如下：
 
 
     ## Set the nickname of this relay
@@ -28,14 +28,14 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 
     ExitPolicy reject *:*
 
-    ## If you control multiple relays, include then in the family
+    如果你有不同路径选择，请你把他们也归纳在一起
     #MyFamily $keyid,$keyid,...
 
-    RunAsDaemon 1
+    体验试用版1
     Log notice file /var/log/tor/notices.log
 
-* Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
-* Run "service tor start" (as root)
+*请确认在开机时启动tor。可以根权限下使用"sysrc tor_enable=YES"来启用此功能。
+*在根权限下执行"service tor start"
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.
   Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."

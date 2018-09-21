@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-20 11:49+CET\n"
+"POT-Creation-Date: 2018-09-21 11:00+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Antonios Chariton <daknob.mac@gmail.com>, 2018\n"
 "Language-Team: Greek (https://www.transifex.com/otf/teams/1519/el/)\n"
@@ -137,6 +137,8 @@ msgid ""
 "The low/default setting allows Javascript, but the medium and high levels "
 "both block Javascript on HTTP sites."
 msgstr ""
+"Η χαμηλή/προεπιλεγμένη ρύθμιση επιτρέπει τα Javascript, αλλά το μεσαίο και "
+"το υψηλό επίπεδο εμποδίζουν και τα δύο τα Javascript στις σελίδες ΗΤΤΡ."
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -332,6 +334,8 @@ msgid ""
 "Many exit nodes are configured to block certain types of file sharing "
 "traffic, such as BitTorrent."
 msgstr ""
+"Πολλοί κόμβοι εξόδου είναι ρυθμισμένοι να εμποδίζουν κάποια είδη "
+"κοινοποίησης αρχείων, όπως το BitTorrent."
 
 #: http://localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lr:question.seo_slug)
@@ -346,7 +350,7 @@ msgstr "<div class=\"row\">"
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.seo_slug)
 msgid "accessing-websites-that-are-only-accessible-over-tor"
-msgstr ""
+msgstr "πρόσβαση-ιστοσελίδων-που-είναι-προσβάσιμες-μόνο-μέσω-tor"
 
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
@@ -363,6 +367,9 @@ msgid ""
 "For further details, please see our <mark><a href=\"https://blog.torproject."
 "org/bittorrent-over-tor-isnt-good-idea\">blog post on the subject</a></mark>."
 msgstr ""
+"Για περισσότερες λεπτομέρειες, ανατρέξτε στην <mark><a href=\"https://blog."
+"torproject.org/bittorrent-over-tor-isnt-good-idea\">ανάρτηση μας σχετικά με "
+"το θέμα</a></mark>."
 
 #: http://localhost/tbb/tbb-8/
 #: (content/tbb/tbb-8/contents+en.lr:question.seo_slug)
@@ -377,6 +384,10 @@ msgid ""
 "\"https://blog.torproject.org/category/tags/form-990\">blog posts</a></mark> "
 "on our financial reports."
 msgstr ""
+"Δείτε τη λίστα με όλους τους <mark><a href=\"https://www.torproject.org/"
+"about/sponsors.html.en\">χορηγούς μας</a></mark> και μια σειρά από <mark><a "
+"href=\"https://blog.torproject.org/category/tags/form-990\">δημοσιεύσεις "
+"blog</a></mark> για τις δηλώσεις των οικονομικών μας."
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -391,11 +402,14 @@ msgid ""
 "If a SOCKS proxy is required for your network setup, then please make sure "
 "you’ve entered your proxy details correctly."
 msgstr ""
+"Αν για την διαρρύθμιση του δικτύου σας χρειάζεται ένας διαμετακομιστής "
+"SOCKS, τότε παρακαλούμε να ελέγξετε αν έχετε συμπληρώσει τις πληροφορίες "
+"διαμετακομιστή σωστά."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.seo_slug)
 msgid "using-correct-packages"
-msgstr ""
+msgstr "χρήση-σωστών-πακέτων"
 
 #: http://localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lr:question.description)
@@ -427,17 +441,17 @@ msgstr "Πώς μπορώ να δω το αρχείο καταγραφής μη�
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Deutsch (de)"
-msgstr ""
+msgstr "* Γερμανικά (de)"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-on-freebsd"
-msgstr ""
+msgstr "how-do-i-run-a-middle-or-guard-on-freebsd"
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.description)
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "Ευχαριστούμε για τη στήριξή σας!"
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.description)
@@ -472,6 +486,11 @@ msgid ""
 "\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> and <mark><a "
 "href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 msgstr ""
+"Για το <mark><a href=\"https://www.torproject.org/docs/android.html.en"
+"\">Android</a></mark>, το<mark><a href=\"https://guardianproject.info/\">The "
+"Guardian Project</a></mark>υπάρχουν οι εφαρμογές του Tor <mark><a href="
+"\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark>και <mark><a "
+"href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 
 #: http://localhost/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lr:question.seo_slug)
@@ -487,6 +506,9 @@ msgid ""
 "you're connecting to the Tor network, though they won't know what you're "
 "doing when you get there."
 msgstr ""
+"Ωστόσο, ο πάροχος υπηρεσιών ή οι διαχειριστές του δικτύου σας ενδέχεται να "
+"μπορούν να δουν ότι συνδέεστε στο δίκτυο Tor, αν και δεν θα γνωρίζουν τι "
+"κάνετε όταν φτάσετε εκεί."
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -502,11 +524,14 @@ msgid ""
 "There may be a temporary connection issue, or the site operators may have "
 "allowed it to go offline without warning."
 msgstr ""
+"Μπορεί να υπάρχει ένα προσωρινό πρόβλημα σύνδεσης ή οι διαχειριστές της "
+"ιστοσελίδας μπορεί να έχουν επιτρέψει να βγει εκτός σύνδεσης χωρίς "
+"προειδοποίηση. "
 
 #: http://localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lr:question.description)
 msgid "No, the Tor Project does not offer hosting services."
-msgstr ""
+msgstr "Όχι, το Tor Project δεν προσφέρει υπηρεσίες hosting."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -516,6 +541,8 @@ msgid ""
 "19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
 "directory server"
 msgstr ""
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.description)
@@ -523,6 +550,8 @@ msgid ""
 "You can help improve the speed of the network by running your own relay, or "
 "encouraging others to do so."
 msgstr ""
+"Μπορείτε να βοηθήσετε στη βελτίωση της ταχύτητας του δικτύου λειτουργώντας "
+"το δικό σας κόμβο ή ενθαρρύνοντας άλλους να το κάνουν."
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
@@ -545,6 +574,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -558,7 +589,7 @@ msgstr ""
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
 msgid "<div class=\"col-md-6\">"
-msgstr ""
+msgstr "<div class=\"col-md-6\">"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -575,12 +606,12 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr ""
+msgstr "* Εκτελέστε το \"pkg install tor\" (ως root)."
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.seo_slug)
 msgid "donate-tor-project"
-msgstr ""
+msgstr "donate-tor-project"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -591,6 +622,9 @@ msgid ""
 "handshake with directory server. (DONE; DONE; count 10; recommendation warn; "
 "host [host] at xxx.xxx.xxx.xx:xxx)"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing "
+"handshake with directory server. (DONE; DONE; count 10; recommendation warn; "
+"host [host] at xxx.xxx.xxx.xx:xxx)"
 
 #: http://localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lr:question.seo_slug)
@@ -613,6 +647,8 @@ msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
+"Αν οι αρχές ενδιαφερθούν για την κίνηση από τον κόμβο εξόδου σας, είναι "
+"πιθανό αστυνομικοί να κατασχέσουν τον υπολογιστή σας."
 
 #: http://localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
@@ -634,6 +670,8 @@ msgid ""
 "If you are still unable to connect to the onion service, please try again "
 "later."
 msgstr ""
+"Αν εξακολουθείτε να μην μπορείτε να συνδεθείτε με την υπηρεσία onion, "
+"δοκιμάστε ξανά αργότερα."
 
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.description)
@@ -663,7 +701,7 @@ msgstr "https"
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.seo_slug)
 msgid "why-is-tor-using-duckduckgo"
-msgstr ""
+msgstr "why-is-tor-using-duckduckgo"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -752,14 +790,14 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Run \"service tor start\" (as root)"
-msgstr ""
+msgstr "* Εκτελέστε το \"service tor start\" (ως root)"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
 msgid "* Run \"apt-get install tor\" (as root)."
-msgstr ""
+msgstr "* Εκτελέστε το \"apt-get install tor\" (ως root)."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -769,28 +807,30 @@ msgid ""
 "2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with "
 "directory server"
 msgstr ""
+"2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Vietnamese (vi)"
-msgstr ""
+msgstr "* Vietnamese (vi)"
 
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.seo_slug)
 msgid "run-multible-instances-of-tor-browser"
-msgstr ""
+msgstr "run-multible-instances-of-tor-browser"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.seo_slug)
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.seo_slug)
 msgid "having-trouble-connecting-to-tor"
-msgstr ""
+msgstr "having-trouble-connecting-to-tor"
 
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.title)
 msgid "Can I use Tor with BitTorrent?"
-msgstr ""
+msgstr "Μπορώ να χρησιμοποιήσω το Tor με το BitTorrent;"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -865,12 +905,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.seo_slug)
 msgid "make-tor-faster"
-msgstr ""
+msgstr "make-tor-faster"
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.title)
 msgid "Can I use the Tor logo in my product?"
-msgstr ""
+msgstr "Μπορώ να χρησιμοποιήσω το λογότυπο του Tor στο προϊόν μου;"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -965,7 +1005,7 @@ msgstr "Tor Mobile"
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.title)
 msgid "How can I share files anonymously through Tor?"
-msgstr ""
+msgstr "Πώς μπορώ να μοιραστώ αρχεία ανώνυμα μέσω του Tor;"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -977,7 +1017,7 @@ msgstr "* tor.real"
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "##### Common log error #4: Clock skew"
-msgstr ""
+msgstr "##### Common log error #4: Clock skew"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -997,6 +1037,8 @@ msgstr ""
 #: (content/misc/misc-1/contents+en.lr:question.description)
 msgid "There is nothing the Tor developers can do to trace Tor users."
 msgstr ""
+"Δεν υπάρχει τίποτα που οι προγραμματιστές του Tor να μπορούν να κάνουν για "
+"να εντοπίσουν χρήστες του Tor."
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.description)
@@ -1008,7 +1050,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "*  فارسى (fa)"
-msgstr ""
+msgstr "* فارسى (fa)"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.seo_slug)
@@ -1023,7 +1065,7 @@ msgstr ""
 #: http://localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lr:question.seo_slug)
 msgid "tor-bittorrent"
-msgstr ""
+msgstr "tor-bittorrent"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -1033,6 +1075,9 @@ msgid ""
 "* Make sure your clock, date, and timezone are set correctly. Install the "
 "ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"* Βεβαιωθείτε ότι το ρολόι, η ημερομηνία και η ζώνη ώρας έχουν ρυθμιστεί "
+"σωστά. Εγκαταστήστε το πακέτο ntp ή openntpd (ή παρόμοιο) για να τα "
+"διατηρήσετε."
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.title)
@@ -1044,7 +1089,7 @@ msgstr "Για ποιές πλατφόρμες είναι διαθέσιμος �
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.description)
 msgid "Tor on Android is provided by The Guardian Project."
-msgstr ""
+msgstr "Ο Tor για Android παρέχεται από το Guardian Project."
 
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.description)
@@ -1086,16 +1131,18 @@ msgid ""
 "Please see the <mark><a href=\"https://www.eff.org/https-everywhere/faq"
 "\">HTTPS Everywhere FAQ</a></mark>."
 msgstr ""
+"Παρακαλώ ανατρέξτε στο <mark><a href=\"https://www.eff.org/https-everywhere/"
+"faq\">HTTPS Everywhere FAQ</a></mark>."
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.seo_slug)
 msgid "someone-asks-to-download-tor-browser-to-unlock-my-files"
-msgstr ""
+msgstr "someone-asks-to-download-tor-browser-to-unlock-my-files"
 
 #: http://localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lr:question.seo_slug)
 msgid "who-is-the-guardian-project"
-msgstr ""
+msgstr "who-is-the-guardian-project"
 
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.description)
@@ -1245,7 +1292,7 @@ msgstr ""
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.seo_slug)
 msgid "tor-funding"
-msgstr ""
+msgstr "tor-funding"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
@@ -1263,7 +1310,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Português (pt-BR)"
-msgstr ""
+msgstr "* Português (pt-BR)"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -1285,7 +1332,7 @@ msgstr ""
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.seo_slug)
 msgid "run-exit-from-home"
-msgstr ""
+msgstr "run-exit-from-home"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.title)
@@ -1295,7 +1342,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.seo_slug)
 msgid "updating-tor-browser"
-msgstr ""
+msgstr "updating-tor-browser"
 
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
@@ -1309,6 +1356,7 @@ msgstr ""
 msgid ""
 "$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 msgstr ""
+"$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 
 #: http://localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lr:question.description)
@@ -1334,6 +1382,7 @@ msgstr "εγκατάσταση-add-on-πρόσθετα-tor-browser"
 msgid ""
 "2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.description)
@@ -1345,7 +1394,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.seo_slug)
 msgid "how-do-i-run-a-obfs4-bridge-debian"
-msgstr ""
+msgstr "how-do-i-run-a-obfs4-bridge-debian"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -1366,12 +1415,12 @@ msgstr ""
 #: http://localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lr:question.seo_slug)
 msgid "tracing-tor-user"
-msgstr ""
+msgstr "tracing-tor-user"
 
 #: http://localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lr:question.seo_slug)
 msgid "tor-browser-will-not-connect-no-censorship"
-msgstr ""
+msgstr "tor-browser-will-not-connect-no-censorship"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1410,7 +1459,7 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "ExitPolicy reject *:*"
-msgstr ""
+msgstr "ExitPolicy reject *:*"
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
@@ -1434,7 +1483,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Türkçe (tr)"
-msgstr ""
+msgstr "* Türkçe (tr)"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1444,6 +1493,8 @@ msgid ""
 "11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake "
 "with first hop"
 msgstr ""
+"11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake "
+"with first hop"
 
 #: http://localhost/connecting/
 #: (content/connecting/contents+en.lr:topic.seo_slug)
@@ -1469,12 +1520,12 @@ msgstr ""
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.seo_slug)
 msgid "using-tor-logo"
-msgstr ""
+msgstr "using-tor-logo"
 
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.seo_slug)
 msgid "get-rid-of-captchas"
-msgstr ""
+msgstr "get-rid-of-captchas"
 
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.description)
@@ -1486,7 +1537,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.seo_slug)
 msgid "first-address-relay-circuit"
-msgstr ""
+msgstr "first-address-relay-circuit"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -1494,6 +1545,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -1524,7 +1577,7 @@ msgstr ""
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.seo_slug)
 msgid "can-eavesdroppers-see-information-i-share"
-msgstr ""
+msgstr "can-eavesdroppers-see-information-i-share"
 
 #: http://localhost/tbb/tbb-32/
 #: (content/tbb/tbb-32/contents+en.lr:question.title)
@@ -1591,7 +1644,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Run \"service tor reload\" (as root)."
-msgstr ""
+msgstr "* Εκτελέστε το \"service tor reload\" (ως root)."
 
 #: http://localhost/faq/faq-1/
 #: (content/faq/faq-1/contents+en.lr:question.description)
@@ -1622,7 +1675,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "#RelayBandwidthRate 30 MBytes"
-msgstr ""
+msgstr "#RelayBandwidthRate 30 MBytes"
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.description)
@@ -1666,7 +1719,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* English (en-US)"
-msgstr ""
+msgstr "* English (en-US)"
 
 #: http://localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lr:question.seo_slug)
@@ -1685,7 +1738,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "###### Common log error #1: Proxy connection failure"
-msgstr ""
+msgstr "###### Common log error #1: Proxy connection failure"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -1697,7 +1750,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lr:question.seo_slug)
 msgid "using-tor-with-a-browser-besides-tor-browser"
-msgstr ""
+msgstr "using-tor-with-a-browser-besides-tor-browser"
 
 #: http://localhost/tbb/tbb-6/
 #: (content/tbb/tbb-6/contents+en.lr:question.description)
@@ -1754,12 +1807,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lr:question.seo_slug)
 msgid "tor-browser-firefox-not-working-error"
-msgstr ""
+msgstr "tor-browser-firefox-not-working-error"
 
 #: http://localhost/tbb/tbb-31/
 #: (content/tbb/tbb-31/contents+en.lr:question.seo_slug)
 msgid "which-platform-tor-browser-available"
-msgstr ""
+msgstr "which-platform-tor-browser-available"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -1773,7 +1826,7 @@ msgstr "* TorBrowser"
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "#Address noname.example.com"
-msgstr ""
+msgstr "#Address noname.example.com"
 
 #: http://localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lr:question.description)
@@ -1816,6 +1869,8 @@ msgid ""
 "2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory "
 "server"
 msgstr ""
+"2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory "
+"server"
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.title)
@@ -1837,12 +1892,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.seo_slug)
 msgid "tor-browser-issues-facebook-twitter-websites"
-msgstr ""
+msgstr "tor-browser-issues-facebook-twitter-websites"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Korean (ko)"
-msgstr ""
+msgstr "* Korean (ko)"
 
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.description)
@@ -1863,7 +1918,7 @@ msgstr ""
 #: http://localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lr:question.seo_slug)
 msgid "does-tor-project-offer-hosting"
-msgstr ""
+msgstr "does-tor-project-offer-hosting"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -1891,11 +1946,13 @@ msgid ""
 "13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with "
 "SSL state (No SSL object)"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN] 1 connections died in state connect()ing with "
+"SSL state (No SSL object)"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Italiano (it)"
-msgstr ""
+msgstr "* Italiano (it)"
 
 #: http://localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lr:question.description)
@@ -1907,7 +1964,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* العربية (ar)"
-msgstr ""
+msgstr "* العربية (ar)"
 
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.description)
@@ -1969,7 +2026,7 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "$ deb http://deb.torproject.org/torproject.org <version> main"
-msgstr ""
+msgstr "$ deb http://deb.torproject.org/torproject.org <version> main"
 
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
@@ -1978,6 +2035,9 @@ msgid ""
 "xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 "
 "minutes, or that theirs is ahead."
 msgstr ""
+"19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:"
+"xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 "
+"minutes, or that theirs is ahead."
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -1991,7 +2051,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "13-11-17 19:53:49.300 [WARN] 10 connections have failed:"
-msgstr ""
+msgstr "13-11-17 19:53:49.300 [WARN] 10 connections have failed:"
 
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.title)
@@ -2001,7 +2061,7 @@ msgstr "Πότε θα κυκλοφορήσει ο Tor Browser για Android;"
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-relay"
-msgstr ""
+msgstr "how-do-i-run-a-middle-or-guard-relay"
 
 #: http://localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lr:question.description)
@@ -2013,7 +2073,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lr:question.seo_slug)
 msgid "different-circuit-each-website"
-msgstr ""
+msgstr "different-circuit-each-website"
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2065,6 +2125,7 @@ msgstr ""
 msgid ""
 "11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -2150,12 +2211,12 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
-msgstr ""
+msgstr "* Εκτελέστε το \"apt-get install tor obfs4proxy\" (ως root)."
 
 #: http://localhost/censorship/censorship-6/
 #: (content/censorship/censorship-6/contents+en.lr:question.seo_slug)
 msgid "is-my-network-censored"
-msgstr ""
+msgstr "is-my-network-censored"
 
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.description)
@@ -2177,12 +2238,12 @@ msgstr "Αυτή είναι φυσιολογική συμπεριφορά του
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
 msgid "Removing Tor Browser from your system is simple:"
-msgstr ""
+msgstr "Η διαδικασία κατάργησης του Tor Browser από το σύστημά σας είναι απλή:"
 
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.seo_slug)
 msgid "tor-browser-for-android"
-msgstr ""
+msgstr "tor-browser-for-android"
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.seo_slug)
@@ -2246,6 +2307,8 @@ msgid ""
 "11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor "
 "network"
 msgstr ""
+"11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor "
+"network"
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.description)
@@ -2269,7 +2332,7 @@ msgstr ""
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.seo_slug)
 msgid "run-tor-on-android"
-msgstr ""
+msgstr "run-tor-on-android"
 
 #: http://localhost/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lr:question.description)
@@ -2308,14 +2371,14 @@ msgstr ""
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.seo_slug)
 msgid "website-locks-torbrowser-out"
-msgstr ""
+msgstr "website-locks-torbrowser-out"
 
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.description)
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
 msgid "* Linux"
-msgstr ""
+msgstr "* Linux"
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.description)
@@ -2334,6 +2397,8 @@ msgid ""
 "13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) "
 "with SSL state SSLv2/v3 read server hello A in HANDSHAKE"
 msgstr ""
+"13-11-17 19:53:49.300 [WARN] 9 connections died in state handshaking (TLS) "
+"with SSL state SSLv2/v3 read server hello A in HANDSHAKE"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -2347,12 +2412,12 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "$ lsb_release -c"
-msgstr ""
+msgstr "$ lsb_release -c"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.seo_slug)
 msgid "uninstall-tor-browser"
-msgstr ""
+msgstr "uninstall-tor-browser"
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.description)
@@ -2436,7 +2501,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "Nickname ididnteditheconfig"
-msgstr ""
+msgstr "Nickname ididnteditheconfig"
 
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.seo_slug)
@@ -2451,7 +2516,7 @@ msgstr "Ευχαριστώ.\""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* 日本語 (ja)"
-msgstr ""
+msgstr "* 日本語 (ja)"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -2507,6 +2572,7 @@ msgstr ""
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "* Determine your Ubuntu version by running the following command:"
 msgstr ""
+"* Προσδιορίστε την έκδοση του Ubuntu σας εκτελώντας την ακόλουθη εντολή:"
 
 #: http://localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lr:question.description)
@@ -2521,7 +2587,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-1/
 #: (content/censorship/censorship-1/contents+en.lr:question.seo_slug)
 msgid "our-website-is-blocked-by-a-censor"
-msgstr ""
+msgstr "our-website-is-blocked-by-a-censor"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -2556,7 +2622,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
-msgstr ""
+msgstr "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.title)
@@ -2594,6 +2660,8 @@ msgid ""
 "19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory "
 "server"
 msgstr ""
+"19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory "
+"server"
 
 #: http://localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lr:question.description)
@@ -2647,7 +2715,7 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "DirPort 9030"
-msgstr ""
+msgstr "DirPort 9030"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -2665,12 +2733,12 @@ msgstr ""
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
 msgid "<div class=\"card-body\">"
-msgstr ""
+msgstr "<div class=\"card-body\">"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.seo_slug)
 msgid "cannot-reach-x-onion"
-msgstr ""
+msgstr "cannot-reach-x-onion"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.title)
@@ -2680,12 +2748,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.seo_slug)
 msgid "problem-with-duckduckgo"
-msgstr ""
+msgstr "problem-with-duckduckgo"
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.seo_slug)
 msgid "search-engine-tor-browser"
-msgstr ""
+msgstr "search-engine-tor-browser"
 
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.title)
@@ -2742,6 +2810,8 @@ msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
 msgstr ""
+"* Προσθέστε το κλειδί gpg που χρησιμοποιείται για την υπογραφή των πακέτων "
+"εκτελώντας τις ακόλουθες εντολές:"
 
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.description)
@@ -2769,7 +2839,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.seo_slug)
 msgid "how-to-download-tor-if-torproject-org-is-blocked"
-msgstr ""
+msgstr "how-to-download-tor-if-torproject-org-is-blocked"
 
 #: http://localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lr:question.description)
@@ -2917,7 +2987,7 @@ msgstr "Πως μπορούμε να βοηθήσουμε;"
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Nederlands (nl)"
-msgstr ""
+msgstr "* Nederlands (nl)"
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.description)
@@ -3048,6 +3118,8 @@ msgstr ""
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "* Run the following commands to install tor and check its signatures:"
 msgstr ""
+"* Εκτελέστε τις ακόλουθες εντολές για να εγκαταστήσετε τον tor και να "
+"ελέγξετε τις υπογραφές του:"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -3179,7 +3251,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "ORPort 9001"
-msgstr ""
+msgstr "ORPort 9001"
 
 #: http://localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lr:question.description)
@@ -3275,7 +3347,7 @@ msgstr ""
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.description)
 msgid "* Run \"service tor reload\" (as root)"
-msgstr ""
+msgstr "* Εκτελέστε το \"service tor reload\" (ως root)"
 
 #: http://localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lr:question.description)
@@ -3374,12 +3446,12 @@ msgstr ""
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "#MyFamily $keyid,$keyid,..."
-msgstr ""
+msgstr "#MyFamily $keyid,$keyid,..."
 
 #: http://localhost/censorship/censorship-2/
 #: (content/censorship/censorship-2/contents+en.lr:question.seo_slug)
 msgid "website-is-blocking-access-over-tor"
-msgstr ""
+msgstr "website-is-blocking-access-over-tor"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -3395,7 +3467,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-3/
 #: (content/censorship/censorship-3/contents+en.lr:question.seo_slug)
 msgid "how-do-i-download-tor-if-torproject-org-is-blocked"
-msgstr ""
+msgstr "how-do-i-download-tor-if-torproject-org-is-blocked"
 
 #: http://localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lr:question.description)
@@ -3408,17 +3480,17 @@ msgstr ""
 #: http://localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lr:question.seo_slug)
 msgid "view-tor-browser-message-log"
-msgstr ""
+msgstr "view-tor-browser-message-log"
 
 #: http://localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lr:question.seo_slug)
 msgid "network-admin-know-i-am-using-tor"
-msgstr ""
+msgstr "network-admin-know-i-am-using-tor"
 
 #: http://localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lr:question.seo_slug)
 msgid "does-tor-project-offer-email-or-privacy-protecting-web-services"
-msgstr ""
+msgstr "does-tor-project-offer-email-or-privacy-protecting-web-services"
 
 #: http://localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lr:question.description)
@@ -3427,11 +3499,14 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo's onion "
 "service</a>."
 msgstr ""
+"Μπορείτε επίσης να εξασφαλίσετε ότι έχετε πρόσβαση σε άλλες υπηρεσίες onion, "
+"με σύνδεση στο <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo's Onion "
+"Service</a>."
 
 #: http://localhost/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lr:question.seo_slug)
 msgid "volunteer-with-tor-project"
-msgstr ""
+msgstr "volunteer-with-tor-project"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -3458,6 +3533,8 @@ msgid ""
 "11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. "
 "Discarding this circuit."
 msgstr ""
+"11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. "
+"Discarding this circuit."
 
 #: http://localhost/tbb/tbb-16/
 #: (content/tbb/tbb-16/contents+en.lr:question.description)
@@ -3476,6 +3553,9 @@ msgid ""
 "Please watch our  <mark><a href=\"https://blog.torproject.org\">blog</a></"
 "mark> for future announcements and details regarding this project."
 msgstr ""
+" Παρακολουθήστε το <mark><a href=\"https://blog.torproject.org\">ιστολόγιό</"
+"a></mark> μας για μελλοντικές ανακοινώσεις και λεπτομέρειες σχετικά με αυτό "
+"το έργο."
 
 #: http://localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lr:question.title)
@@ -3491,16 +3571,17 @@ msgstr ""
 msgid ""
 "19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 msgstr ""
+"19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150"
 
 #: http://localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lr:question.seo_slug)
 msgid "run-tor-on-windows-phone"
-msgstr ""
+msgstr "run-tor-on-windows-phone"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "Log notice file /var/log/tor/notices.log"
-msgstr ""
+msgstr "Log notice file /var/log/tor/notices.log"
 
 #: http://localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lr:question.title)
@@ -3522,7 +3603,7 @@ msgstr "Μπορώ να επιλέξω από ποια χώρα συνδέομα
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.seo_slug)
 msgid "share-files-anonymously-through-tor"
-msgstr ""
+msgstr "share-files-anonymously-through-tor"
 
 #: http://localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lr:question.description)
@@ -3543,7 +3624,7 @@ msgstr "tor-messenger"
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "## Set the nickname of this relay"
-msgstr ""
+msgstr "## Set the nickname of this relay"
 
 #: http://localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lr:question.title)
@@ -3573,7 +3654,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
-msgstr ""
+msgstr "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
 
 #: http://localhost/operators/ (content/operators/contents+en.lr:topic.title)
 msgid "Operators"
@@ -3582,7 +3663,7 @@ msgstr "Διαχειριστής"
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Русский (ru)"
-msgstr ""
+msgstr "* Русский (ru)"
 
 #: http://localhost/tormobile/
 #: (content/tormobile/contents+en.lr:topic.seo_slug)
@@ -3604,7 +3685,7 @@ msgstr ""
 #: http://localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lr:question.seo_slug)
 msgid "i-cannot-reach-x-dot-onion"
-msgstr ""
+msgstr "i-cannot-reach-x-dot-onion"
 
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.title)
@@ -3647,7 +3728,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* 简体字 (zh-CN)"
-msgstr ""
+msgstr "* 简体字 (zh-CN)"
 
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.seo_slug)
@@ -3728,6 +3809,8 @@ msgid ""
 "13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with "
 "directory server"
 msgstr ""
+"13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -3741,7 +3824,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.seo_slug)
 msgid "to-use-gettor-via-xmpp"
-msgstr ""
+msgstr "to-use-gettor-via-xmpp"
 
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.description)
@@ -3753,12 +3836,12 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "$ sudo apt-get update"
-msgstr ""
+msgstr "$ sudo apt-get update"
 
 #: http://localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lr:question.seo_slug)
 msgid "tor-browser-is-built-from-firefox-why"
-msgstr ""
+msgstr "tor-browser-is-built-from-firefox-why"
 
 #: http://localhost/tbb/tbb-12/
 #: (content/tbb/tbb-12/contents+en.lr:question.title)
@@ -3814,7 +3897,7 @@ msgstr ""
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.seo_slug)
 msgid "run-tor-on-ios"
-msgstr ""
+msgstr "run-tor-on-ios"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.title)
@@ -3826,7 +3909,7 @@ msgstr ""
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "ExtORPort auto"
-msgstr ""
+msgstr "ExtORPort auto"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.title)
@@ -3836,12 +3919,12 @@ msgstr ""
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.seo_slug)
 msgid "tor-browser-js-enabled-default"
-msgstr ""
+msgstr "tor-browser-js-enabled-default"
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.seo_slug)
 msgid "having-a-problem-updating-vidalia"
-msgstr ""
+msgstr "having-a-problem-updating-vidalia"
 
 #: http://localhost/tbb/tbb-16/
 #: (content/tbb/tbb-16/contents+en.lr:question.seo_slug)
@@ -3860,6 +3943,8 @@ msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
 msgstr ""
+"## Set your bandwidth rate (leave commented and Tor will run without "
+"bandwidth caps)"
 
 #: http://localhost/tbb/tbb-41/
 #: (content/tbb/tbb-41/contents+en.lr:question.description)
@@ -3871,7 +3956,7 @@ msgstr ""
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
 msgid "$ deb-src http://deb.torproject.org/torproject.org <version> main"
-msgstr ""
+msgstr "$ deb-src http://deb.torproject.org/torproject.org <version> main"
 
 #: http://localhost/tbb/tbb-36/
 #: (content/tbb/tbb-36/contents+en.lr:question.description)
@@ -3948,11 +4033,15 @@ msgid ""
 "minutes, or that theirs is ahead. Tor requires an accurate clock to work: "
 "please check your time, timezone, and date settings."
 msgstr ""
+"19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:"
+"xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 "
+"minutes, or that theirs is ahead. Tor requires an accurate clock to work: "
+"please check your time, timezone, and date settings."
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.seo_slug)
 msgid "website-blocking-access-over-tor"
-msgstr ""
+msgstr "website-blocking-access-over-tor"
 
 #: http://localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lr:question.description)

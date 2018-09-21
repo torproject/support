@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我了解到有些网站只能使用Tor访问。这些网站是什么？我该如何访问它们？
 ---
-seo_slug: accessing-websites-that-are-only-accessible-over-tor
+seo_slug: 登陆只有通过tor才能登陆的网站
 ---
 description:
 Websites that are only accessible over Tor are called "onions" and end in the TLD .onion.

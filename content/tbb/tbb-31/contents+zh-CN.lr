@@ -5,6 +5,6 @@ title: Tor浏览器支持哪些平台？
 seo_slug: tor浏览器可用于哪些平台
 ---
 description:
-Tor Browser is currently available on Windows, Linux and OSX.
+Tor浏览器支持windows系统，linux系统和苹果系统。
 For Android, The Guardian Project maintains the Tor-powered apps Orbot and Orfox.
 目前尚未有官方版本的基于iOS平台的Tor软件。尽管如此，我们仍然推荐使用<mark><a href="https://onionbrowser.com/">洋葱浏览器</a></mark>。

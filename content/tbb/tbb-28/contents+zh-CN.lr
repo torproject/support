@@ -7,9 +7,9 @@ seo_slug: uninstall-tor-browser
 description:
 在您的系统上删除 Tor 浏览器非常简单：
 
-* Locate your Tor Browser folder or application.
-  The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process).
+*打开你TOR浏览器的文件夹
+  在windows里默认位置是桌面，在苹果系统里是在应用程序文件夹（你需要在安装完毕后把浏览器移动到应用程序文件夹来运行。）
 在 Windows 系统中默认是在桌面；在 Mac OS X 中则是应用程序文件夹；而在  Linux 系统中则没有默认路径，但是若您的 Tor 浏览器是英文版的话，那目录的名称会是“tor-browser_en-US”。
-* Delete the Tor Browser folder or application.
+*删除tor文件夹或者应用程序
 *清空回收站
 * Note that your operating system’s standard "Uninstall" utility is not used.

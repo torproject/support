@@ -5,7 +5,7 @@ title: How do I uninstall Tor Browser?
 seo_slug: uninstall-tor-browser
 ---
 description:
-Removing Tor Browser from your system is simple:
+Η διαδικασία κατάργησης του Tor Browser από το σύστημά σας είναι απλή:
 
 * Εντοπίστε τον φάκελο ή την εφαρμογή του Tor Browser.
   The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process).

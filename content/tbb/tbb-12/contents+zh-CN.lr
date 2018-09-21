@@ -6,5 +6,5 @@ seo_slug: using-flash-tor-browser
 ---
 description:
 Flash is disabled in Tor Browser, and we recommend you do not enable it.
-We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware.
+我们认为无论是什么浏览器Flash都是是极不安全的，他可以轻易盗取你的个人情报或者给你设置恶意软件。
 Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.

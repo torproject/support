@@ -1,11 +1,11 @@
 _model: question
 ---
-title: How can I share files anonymously through Tor?
+title: Πώς μπορώ να μοιραστώ αρχεία ανώνυμα μέσω του Tor;
 ---
 seo_slug: share-files-anonymously-through-tor
 ---
 description:
-Many exit nodes are configured to block certain types of file sharing traffic, such as BitTorrent.
+Πολλοί κόμβοι εξόδου είναι ρυθμισμένοι να εμποδίζουν κάποια είδη κοινοποίησης αρχείων, όπως το BitTorrent.
 BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
 
 Για την κοινοποίηση αρχείων μέσω του Tor, το <mark><a href="https://onionshare.org/">OnionShare</a></mark> είναι μία καλή επιλογή.

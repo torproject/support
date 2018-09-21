@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我能搭配VPN使用Tor吗？
 ---
-seo_slug: use-vpn-with-tor
+seo_slug: 在Tor里使用代理服务器。
 ---
 description:
 Generally speaking, we don't recommend using a VPN with Tor unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy.

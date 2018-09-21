@@ -5,7 +5,7 @@ title: 我该怎么使用tor匿名的分享文件？
 seo_slug: share-files-anonymously-through-tor
 ---
 description:
-Many exit nodes are configured to block certain types of file sharing traffic, such as BitTorrent.
+有一些脱离节点会设置阻挡一些文件共享数据，比如种子文件数据
 BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
 
-For sharing files through Tor, <mark><a href="https://onionshare.org/">OnionShare</a></mark> is a good option.
+通过tor网络分享文件，<mark><a href="https://onionshare.org/">洋葱分享</a></mark>是一个不错的选项。

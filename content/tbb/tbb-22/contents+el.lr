@@ -7,5 +7,5 @@ seo_slug: make-tor-faster
 description:
 Using Tor Browser can sometimes be slower than other browsers.
 Το δίκτυο Tor έχει πάνω από ένα εκατομμύριο καθημερινούς χρήστες, και πάνω από 6000 κόμβους που δρομολογούν όλη τους την κίνηση, και ο φόρτος σε κάθε διακομιστή μπορεί κάποιες φορές να προκαλέσει καθυστερήσεις.
-You can help improve the speed of the network by running your own relay, or encouraging others to do so.
+Μπορείτε να βοηθήσετε στη βελτίωση της ταχύτητας του δικτύου λειτουργώντας το δικό σας κόμβο ή ενθαρρύνοντας άλλους να το κάνουν.
 That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.

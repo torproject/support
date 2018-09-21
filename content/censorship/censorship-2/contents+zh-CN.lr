@@ -1,6 +1,6 @@
 _model: question
 ---
-title: A website I am trying to reach is blocking access over Tor.
+title: 我要访问的一个网站阻止了来自tor网络的连接请求。
 ---
 seo_slug: website-is-blocking-access-over-tor
 ---
@@ -8,7 +8,7 @@ description:
 
 有些网站屏蔽了 Tor 因为他们无法分辨出普通 Tor 用户和机器人的区别。
 The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+这么做也许能解决你的问题
 
 "Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
 I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.

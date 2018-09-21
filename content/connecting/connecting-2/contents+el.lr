@@ -19,7 +19,7 @@ You should see one of these common log errors (look for the following lines in y
 
 If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
 
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
+Αν για την διαρρύθμιση του δικτύου σας χρειάζεται ένας διαμετακομιστής SOCKS, τότε παρακαλούμε να ελέγξετε αν έχετε συμπληρώσει τις πληροφορίες διαμετακομιστή σωστά.
 If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
 
 ##### Common log error #2: Can’t reach guard relays
@@ -40,8 +40,8 @@ Please try connecting with bridges, and that should fix the problem.
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx)
     13-11-17 19:53:49.300 [WARN] 10 connections have failed:
-    13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
-    13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
+    13-11-17 19:53:49.300 [WARN] 9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
+    13-11-17 19:53:49.300 [WARN] 1 connections died in state connect()ing with SSL state (No SSL object)
 
 If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
 Using bridges will likely fix this.

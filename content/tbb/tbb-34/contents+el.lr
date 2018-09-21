@@ -10,4 +10,4 @@ Most users would give up on Tor entirely if we disabled Javascript by default be
 Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving Javascript enabled by default.
 
 Για χρήστες που θέλουν να έχουν την Javascript απενεργοποιημένη σε όλες τις HTTP ιστοσελίδες σαν προεπιλογή, προτείνουμε να αλλάξετε τις ρυθμίσεις ασφαλείας του Tor Browser (στο μενού Onion του Tor Browser, κάτω από το "Security Settings").
-The low/default setting allows Javascript, but the medium and high levels both block Javascript on HTTP sites.
+Η χαμηλή/προεπιλεγμένη ρύθμιση επιτρέπει τα Javascript, αλλά το μεσαίο και το υψηλό επίπεδο εμποδίζουν και τα δύο τα Javascript στις σελίδες ΗΤΤΡ.

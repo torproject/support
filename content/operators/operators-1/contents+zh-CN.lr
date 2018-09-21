@@ -8,7 +8,7 @@ description:
 For the most in-depth resource on running a relay, see the <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
 
 
-* Run "apt-get install tor" (as root).
+*在根权限下执行“apt-get install tor”
 * Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
 * Edit /etc/tor/torrc to look like the following:
 
@@ -22,7 +22,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     ## Set your own contact info
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## If you control multiple relays, include then in the family
+    如果你有不同路径选择，请你把他们也归纳在一起
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001

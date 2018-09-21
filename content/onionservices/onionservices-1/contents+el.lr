@@ -2,7 +2,7 @@ _model: question
 ---
 title: I've heard about websites that are only accessible over Tor. What are these websites, and how can I access them?
 ---
-seo_slug: accessing-websites-that-are-only-accessible-over-tor
+seo_slug: πρόσβαση-ιστοσελίδων-που-είναι-προσβάσιμες-μόνο-μέσω-tor
 ---
 description:
 Websites that are only accessible over Tor are called "onions" and end in the TLD .onion.
