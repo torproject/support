@@ -14,7 +14,7 @@ If the site you are visiting uses HTTPS, then the traffic leaving your exit rela
     <div class="card">
       <img class="card-img-top" src="/static/images/image2.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">If you are using HTTPS, your website URL will begin with "https://".</h4>
+        <h4 class="card-title">Αν χρησιμοποιείτε HTTPS, η διεύθυνση URL της ιστοσελίδας σας θα ξεκινά με το "https://".</h4>
       </div>
     </div>
   </div>

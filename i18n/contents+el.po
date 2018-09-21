@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-21 11:00+CET\n"
+"POT-Creation-Date: 2018-09-21 18:53+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Antonios Chariton <daknob.mac@gmail.com>, 2018\n"
 "Language-Team: Greek (https://www.transifex.com/otf/teams/1519/el/)\n"
@@ -515,6 +515,8 @@ msgstr ""
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
+"* Βεβαιωθείτε ότι ο tor ξεκινάει στο boot εκτελώντας το \"sysrc tor_enable = "
+"YES\" (ως root)"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.description)
@@ -602,6 +604,8 @@ msgid ""
 "Once you have copied the log, you will be able to paste it into a text "
 "editor or email client."
 msgstr ""
+"Αφού αντιγράψετε το αρχείο καταγραφής, θα μπορείτε να το επικολλήσετε σε "
+"πρόγραμμα επεξεργασίας κειμένου ή έναν email client."
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -769,6 +773,9 @@ msgid ""
 "We configure NoScript to allow JavaScript by default in Tor Browser because "
 "many websites will not work with JavaScript disabled."
 msgstr ""
+"Ρυθμίζουμε το NoScript ώστε να επιτρέπεται από προεπιλογή η JavaScript στον "
+"Tor Browser, επειδή πολλές ιστοσελίδες δεν θα λειτουργούν με την "
+"απενεργοποίηση της JavaScript."
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.description)
@@ -838,6 +845,8 @@ msgid ""
 "Tor is funded by a number of different sponsors including US federal "
 "agencies, private foundations, and individual donors."
 msgstr ""
+"Το Tor χρηματοδοτείται από διάφορους χορηγούς, συμπεριλαμβανομένων, "
+"ομοσπονδιακών υπηρεσιών των ΗΠΑ, ιδιωτικών ιδρυμάτων και μεμονωμένων δωρητών."
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.description)
@@ -888,6 +897,8 @@ msgid ""
 "There is currently no supported method for setting Tor Browser as your "
 "default browser."
 msgstr ""
+"Αυτήν τη στιγμή δεν υπάρχει υποστηριζόμενη μέθοδος για τη ρύθμιση του Tor "
+"Browser ως προεπιλεγμένου περιηγητή."
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.description)
@@ -950,6 +961,8 @@ msgstr ""
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
 msgid "You can access these websites by using Tor Browser."
 msgstr ""
+"Μπορείτε να αποκτήσετε πρόσβαση σε αυτές τις ιστοσελίδες χρησιμοποιώντας τον "
+"Tor Browser."
 
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.title)
@@ -1240,6 +1253,7 @@ msgstr ""
 msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\">"
 
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.description)
@@ -1247,6 +1261,9 @@ msgid ""
 "BitTorrent in specific is <mark><a href=\"https://blog.torproject.org/"
 "bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"Το BitTorrent συγκεκριμένα <mark><a href=\"https://blog.torproject.org/"
+"bittorrent-over-tor-isnt-good-idea\">δεν είναι ανώνυμο μέσω του Tor</a></"
+"mark>."
 
 #: http://localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lr:question.description)
@@ -1260,7 +1277,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.title)
 msgid "How do I update Tor Browser?"
-msgstr ""
+msgstr "Πώς μπορώ να ενημερώσω τον Tor Browser;"
 
 #: http://localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
@@ -1282,7 +1299,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lr:question.title)
 msgid "I'm having a problem with NoScript."
-msgstr ""
+msgstr "Έχω ένα πρόβλημα με το NoScript."
 
 #: http://localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lr:question.title)
@@ -1297,7 +1314,7 @@ msgstr "tor-funding"
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.description)
 msgid "Tor browser will install the updates."
-msgstr ""
+msgstr "Ο Tor Browser θα εγκαταστήσει τις ενημερώσεις."
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -1364,6 +1381,8 @@ msgid ""
 "Using Tor in another browser can leave you vulnerable without the privacy "
 "protections of Tor Browser."
 msgstr ""
+"Η χρήση του Tor σε άλλο browser μπορεί να σας αφήσει ευάλωτους χωρίς την "
+"προστασία του απορρήτου του Tor Browser."
 
 #: http://localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lr:question.seo_slug)
@@ -1447,7 +1466,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-24/
 #: (content/tbb/tbb-24/contents+en.lr:question.title)
 msgid "I'm having a problem with DuckDuckGo."
-msgstr ""
+msgstr "Έχω ένα πρόβλημα με το DuckDuckGo."
 
 #: http://localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lr:question.title)
@@ -1464,7 +1483,7 @@ msgstr "ExitPolicy reject *:*"
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
 msgid "BridgeRelay 1"
-msgstr ""
+msgstr "BridgeRelay 1"
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
@@ -1506,6 +1525,7 @@ msgstr "σύνδεση-στο-tor "
 msgid ""
 "<img class=\"\" src=\"/static/images/image3.png\" alt=\"New release alert\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/image3.png\" alt=\"New release alert\">"
 
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.description)
@@ -1554,6 +1574,8 @@ msgid ""
 "On Linux, there is no default location, however the folder will be named "
 "\"tor-browser_en-US\" if you are running the English Tor Browser."
 msgstr ""
+"Στα Linux, δεν υπάρχει προεπιλεγμένη θέση, ωστόσο ο φάκελος θα ονομάζεται "
+"\"tor-browser_en-US\" αν εκτελείτε τον αγγλικό Tor Browser."
 
 #: http://localhost/misc/ (content/misc/contents+en.lr:topic.seo_slug)
 msgid "misc"
@@ -1611,7 +1633,7 @@ msgstr ""
 #: http://localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lr:question.description)
 msgid "We are so sorry, but you have been infected with malware."
-msgstr ""
+msgstr "Λυπούμαστε, αλλά έχετε μολυνθεί από κακόβουλο λογισμικό."
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -1639,7 +1661,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.title)
 msgid "To use GetTor via Twitter."
-msgstr ""
+msgstr "Για να χρησιμοποιήσετε το GetTor μέσω Twitter."
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
@@ -1689,6 +1711,7 @@ msgstr ""
 msgid ""
 "<img class=\"card-img-top\" src=\"/static/images/image2.png\" alt=\"https\">"
 msgstr ""
+"<img class=\"card-img-top\" src=\"/static/images/image2.png\" alt=\"https\">"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -1860,6 +1883,8 @@ msgid ""
 "<mark><a href=\"https://duckduckgo.com/\">DuckDuckGo</a></mark> is the "
 "default search engine in Tor Browser."
 msgstr ""
+"Το <mark><a href=\"https://duckduckgo.com/\">DuckDuckGo</a></mark> είναι η "
+"προεπιλεγμένη μηχανή αναζήτησης στον Tor Browser."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -1887,7 +1912,7 @@ msgstr "* Για Windows"
 #: http://localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lr:question.title)
 msgid "I'm having a problem with HTTPS Everywhere."
-msgstr ""
+msgstr "Έχω ένα πρόβλημα με το HTTPS Everywhere."
 
 #: http://localhost/tbb/tbb-39/
 #: (content/tbb/tbb-39/contents+en.lr:question.seo_slug)
@@ -2117,6 +2142,8 @@ msgid ""
 "11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. "
 "Discarding this circuit."
 msgstr ""
+"11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. "
+"Discarding this circuit."
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2169,7 +2196,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.title)
 msgid "To use GetTor via email."
-msgstr ""
+msgstr "Για να χρησιμοποιήσετε το GetTor μέσω email."
 
 #: http://localhost/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lr:question.title)
@@ -2206,7 +2233,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.seo_slug)
 msgid "to-use-gettor-via-email"
-msgstr ""
+msgstr "to-use-gettor-via-email"
 
 #: http://localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lr:question.description)
@@ -2425,6 +2452,8 @@ msgid ""
 "Tor Browser is a modified version of Firefox specifically designed for use "
 "with Tor."
 msgstr ""
+"Ο Tor Browser είναι μια τροποποιημένη έκδοση του Firefox ειδικά σχεδιασμένη "
+"για χρήση με το Tor."
 
 #: http://localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
@@ -2484,6 +2513,8 @@ msgid ""
 "<h4 class=\"card-title\">If you are using HTTPS, your website URL will begin "
 "with \"https://\".</h4>"
 msgstr ""
+"<h4 class=\"card-title\">Αν χρησιμοποιείτε HTTPS, η διεύθυνση URL της "
+"ιστοσελίδας σας θα ξεκινά με το \"https://\".</h4>"
 
 #: http://localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lr:question.description)
@@ -2491,6 +2522,8 @@ msgid ""
 "<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-"
 "ios-tor\">Learn more about Onion Browser</a></mark>."
 msgstr ""
+"<mark><a href=\"https://blog.torproject.org/tor-heart-onion-browser-and-more-"
+"ios-tor\">Μάθετε περισσότερα σχετικά με τον Onion Browser</a></mark>."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -2506,7 +2539,7 @@ msgstr "Nickname ididnteditheconfig"
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.seo_slug)
 msgid "does-tor-keep-logs"
-msgstr ""
+msgstr "does-tor-keep-logs"
 
 #: http://localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lr:question.description)
@@ -2790,7 +2823,7 @@ msgstr ""
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.seo_slug)
 msgid "need-tor-browser-language-not-english"
-msgstr ""
+msgstr "need-tor-browser-language-not-english"
 
 #: http://localhost/tormobile/tormobile-5/
 #: (content/tormobile/tormobile-5/contents+en.lr:question.description)
@@ -2802,7 +2835,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lr:question.seo_slug)
 msgid "to-use-gettor-via-twitter"
-msgstr ""
+msgstr "to-use-gettor-via-twitter"
 
 #: http://localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lr:question.description)
@@ -2818,7 +2851,7 @@ msgstr ""
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
 msgid "* MacOS (OS X)"
-msgstr ""
+msgstr "* MacOS (OS X)"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
@@ -2978,7 +3011,7 @@ msgstr ""
 #: http://localhost/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lr:question.seo_slug)
 msgid "how-do-i-run-an-exit"
-msgstr ""
+msgstr "how-do-i-run-an-exit"
 
 #: http://localhost/ (content/contents+en.lr:showcase.title)
 msgid "How can we help?"
@@ -3013,12 +3046,12 @@ msgstr "Tor Messenger"
 #: http://localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lr:question.seo_slug)
 msgid "running-tor-browser-make-me-relay"
-msgstr ""
+msgstr "running-tor-browser-make-me-relay"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid "* Español (es-ES)"
-msgstr ""
+msgstr "* Español (es-ES)"
 
 #: http://localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lr:question.seo_slug)
@@ -3067,7 +3100,7 @@ msgstr "Μπορώ να τρέξω τον Tor σε μια συσκευή iOS;"
 #: http://localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lr:question.description)
 msgid "* Windows"
-msgstr ""
+msgstr "* Windows"
 
 #: http://localhost/tormobile/tormobile-4/
 #: (content/tormobile/tormobile-4/contents+en.lr:question.title)

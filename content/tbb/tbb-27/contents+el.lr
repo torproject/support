@@ -1,6 +1,6 @@
 _model: question
 ---
-title: How do I update Tor Browser?
+title: Πώς μπορώ να ενημερώσω τον Tor Browser;
 ---
 seo_slug: updating-tor-browser
 ---
@@ -17,6 +17,6 @@ The Torbutton icon (the little onion in the top left corner of the browser) will
 
 <img class="" src="/static/images/image5.png" alt="New release alert">
 
-Tor browser will install the updates.
+Ο Tor Browser θα εγκαταστήσει τις ενημερώσεις.
 
 <img class="" src="/static/images/image3.png" alt="New release alert">

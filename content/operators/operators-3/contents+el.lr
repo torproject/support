@@ -34,7 +34,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     RunAsDaemon 1
     Log notice file /var/log/tor/notices.log
 
-* Make sure tor starts on boot by running "sysrc tor_enable=YES" (as root)
+* Βεβαιωθείτε ότι ο tor ξεκινάει στο boot εκτελώντας το "sysrc tor_enable = YES" (ως root)
 * Εκτελέστε το "service tor start" (ως root)
 * After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
   This step is usually fast, but it may take a few minutes.

@@ -5,7 +5,7 @@ title: Why does Tor Browser ship with Javascript enabled?
 seo_slug: tor-browser-js-enabled-default
 ---
 description:
-We configure NoScript to allow JavaScript by default in Tor Browser because many websites will not work with JavaScript disabled.
+Ρυθμίζουμε το NoScript ώστε να επιτρέπεται από προεπιλογή η JavaScript στον Tor Browser, επειδή πολλές ιστοσελίδες δεν θα λειτουργούν με την απενεργοποίηση της JavaScript.
 Most users would give up on Tor entirely if we disabled Javascript by default because it would cause so many problems for them.
 Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving Javascript enabled by default.
 

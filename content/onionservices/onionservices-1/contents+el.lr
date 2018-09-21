@@ -7,5 +7,5 @@ seo_slug: πρόσβαση-ιστοσελίδων-που-είναι-προσβά
 description:
 Websites that are only accessible over Tor are called "onions" and end in the TLD .onion.
 For example, the DuckDuckGo onion is <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
-You can access these websites by using Tor Browser.
+Μπορείτε να αποκτήσετε πρόσβαση σε αυτές τις ιστοσελίδες χρησιμοποιώντας τον Tor Browser.
 The addresses must be shared with you by the website host, as onions are not indexed in search engines in the typical way that vanilla websites are.
