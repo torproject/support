@@ -1,19 +1,19 @@
 _model: question
 ---
-title: Wie betreibe ich ein Mittel-Relay oder Guard mit Debian?
+title: Wie betreibe ich ein Mittel- oder Wächter-Relay mit Debian?
 ---
 seo_slug: wie-betreibe-ich-ein-mittel-relay-oder-guard
 ---
 description:
-Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
+Die ausführlichste Resource, um ein Relay zu betreiben, ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
 
 
 * Führe "apt get install tor" aus (als root).
-* Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind. Installiere das Paket ntp oder openntpd (oder ähnlich) um die Zeit aktuell zu halten.
+* Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind. Installiere das Paket ntp oder openntpd (oder ähnlich), um die Zeit aktuell zu halten.
 * Bearbeite die Datei /etc/tor/torrc damit sie so aussieht:
 
 
-    ## Die IP-Adresse or Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
+    ## Die IP-Adresse oder Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
     #Address noname.example.com
 
     ## Wähle den Namen des Relays

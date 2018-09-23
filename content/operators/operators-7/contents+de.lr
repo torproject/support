@@ -6,9 +6,9 @@ seo_slug: austrittsknoten-von-zu-hause-betreiben
 ---
 description:
 Nein.
-Wenn Gesetzeshüter*innen interessiert sind an Verbindungen von einem Austrittsknoten, kann es passieren, dass der Computer beschlagnahmt wird.
+Wenn sich Strafverfolgungsbehörden für Verbindungen von einem Austrittsknoten interessieren, kann es vorkommen, dass der Computer beschlagnahmt wird.
 Aus diesem Grund ist es nicht zu empfehlen, einen Austritts-Knoten von zu Hause zu betreiben.
 
 Verwende für einen Ausgangs-Knoten stattdessen eine kommerzielle Einrichtung, die Tor unterstützt.
-Benutze eine eigene IP-Adresse für jeden Austrittsknoten and benutze ihn nicht für eigene Verbindungen.
+Benutze eine eigene IP-Adresse für jeden Austrittsknoten und benutze ihn nicht für eigene Verbindungen.
 Selbstverständlich solltest du es vermeiden, sensitive persönliche Informationen auf dem Computer des Exit-Relays zu speichern.

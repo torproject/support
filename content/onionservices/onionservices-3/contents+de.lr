@@ -5,7 +5,7 @@ title: Ich kann X.onion nicht erreichen!
 seo_slug: kann-x-punkt-onion-nicht-erreichen
 ---
 description:
-Wenn du einen onion-Dienst nicht erreichen kann, überprüfe dass du die korrekte 16-stellige, oder für das neue Formate, 56-stellige onion-Adress verwendest: auch der kleinste Fehler verhindert, dass Tor Browser die Seite erreichen kann.
+Wenn du einen gewünschten onion-Dienst nicht erreichen kannst, überprüfe dass du die korrekte 16-stellige, oder für das neue Format, 56-stellige onion-Adresse verwendest: auch der kleinste Fehler verhindert, dass Tor Browser die Seite erreichen kann.
 Sollten Sie sich immer noch nicht mit dem Tor-Netzwerk verbinden können, versuchen Sie es bitte später wieder.
 Eventuell gibt es ein vorübergehendes Verbindungsproblem, oder die Webseitenbetreiber*innen haben die Seite ohne Warnung vom Netz genommen.
 

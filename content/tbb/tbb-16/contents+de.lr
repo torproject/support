@@ -7,5 +7,5 @@ seo_slug: wähle-exit-land
 description:
 Von Änderungen an den Tor-Verbindungseinstellungen wird stark abgeraten.
 Die beste Sicherheit wird gewährleistet, wenn die Routen von Tor bestimmt werden; die Eintritts- / Austritts-Knoten zu verändern, kann die Anonymität gefährden.
-Wenn das Ziel ist, sich mit bestimmten Resourcen, die nur einem Land verfügbar sind, zu verbinden, ist ein VPN besser geeignet als Tor.
+Wenn es das Ziel ist, sich mit bestimmten Resourcen zu verbinden, die nur einem Land verfügbar sind, ist ein VPN besser geeignet als Tor.
 Bitte beachte, dass VPNs hinsichtlich Privatsphäre nicht die gleichen Eigenschaften haben wie Tor, aber sie helfen, Standort-basierte Restriktionen zu umgehen.

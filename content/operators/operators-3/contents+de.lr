@@ -1,11 +1,11 @@
 _model: question
 ---
-title: Wie Betreibe ich ein Mittel-Relay auf FreeBSD oder HardenedBSD?
+title: Wie betreibe ich ein Mittel- oder ein Wächter-Relay auf FreeBSD oder HardenedBSD?
 ---
 seo_slug: wie-betreibe-ich-ein-relay-auf-freebsd
 ---
 description:
-Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
+Die ausführlichste Resource, um ein Relay zu betreiben, ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
 
 * Führe "pkg install tor" als root aus.
 * Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind.
@@ -34,7 +34,7 @@ Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="h
     RunAsDaemon 1
     Log notice file /var/log/tor/notices.log
 
-* Stelle sicher, dass Tor beim Hochfahren startet mit "sysrc tor_enable=YES" (als root)
+* Stelle sicher, dass Tor beim Hochfahren mit "sysrc tor_enable=YES" (als root) startet
 * Führe "service tor start" als root aus
 * Nachdem sich dein Relay mit dem Tor-Netzwerk verbunden hat, versucht es festzustellen, welche Ports der konfigurierten Ports von außen erreichbar sind.
   Normalerweise ist dieser Schritt ziemlich schnell, es könnte jedoch einige Minuten in Anspruch nehmen.

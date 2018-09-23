@@ -1,12 +1,12 @@
 _model: question
 ---
-title: Meine Antivirensoftware, oder mein Malwareschutz blockiert die Verbindung vom Tor Browser.
+title: Meine Antivirensoftware oder mein Malwareschutz blockiert die Verbindung vom Tor Browser.
 ---
 seo_slug: antivirus-blockiert-tor
 ---
 description:
 Die meisten Antiviren- oder Malwareschutzprogramme erlauben dem Nutzer eine so genannte "Whitelist" zu erstellen, die bestimmte Prozesse erlaubt, welche in der Regel geblockt sind.
-Bitte öfnne deine Antiviren- oder Malwareschutzsoftware und schaue in den Einstellungen nach einer Option für eine "Whitelist", oder ähnlich.
+Bitte öffne deine Antiviren- oder Malwareschutzsoftware und schaue in den Einstellungen nach einer Option für eine "Whitelist" oder so was ähnliches.
 Schließe als nächstes bitte folgende Prozesse aus:
 
 * Für Windows

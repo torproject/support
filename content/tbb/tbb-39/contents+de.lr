@@ -6,5 +6,5 @@ seo_slug: tor-browser-probleme-facebook-twitter-webseiten
 ---
 description:
 Manchmal haben Javascript-lastige Webseiten funktionale Probleme mit Tor Browser.
-Die einfachste Methode ist, das onion-Menü zu öffnen und in den Sicherheitseinstellungen und den Regler zu verschieben.
+Die einfachste Methode ist, das onion-Menü zu öffnen und in den Sicherheitseinstellungen den Regler zu verschieben.
 Setze deine Sicherheit zu „Standard“.

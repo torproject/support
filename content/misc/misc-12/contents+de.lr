@@ -8,4 +8,4 @@ description:
 Viele Austritts-Knoten sind so konfiguriert, Filesharing mit z.B. BitTorrent zu blockieren.
 BitTorrent im Besonderen ist <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">nicht anonym über Tor</a></mark>.
 
-Um Dateien über Tor zu teilen, <mark><a href="https://onionshare.org/">OnionShare</a></mark> ist eine gute Möglichkeit.
+Um Dateien über Tor zu teilen, ist <mark><a href="https://onionshare.org/">OnionShare</a></mark> eine gute Möglichkeit.

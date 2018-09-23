@@ -5,7 +5,7 @@ title: He oído de sitios web que sólo son accesibles con Tor. ¿Qué son estos
 seo_slug: accediendo-a-sitioswebs-solo-accesibles-por-tor
 ---
 description:
-Los sitios web sólo accesibles con Tor se llaman "onions" y terminan con el TLD (dominio de primer nivel) .onion.
-Por ejemplo, el onion de DuckDuckGo es ​<a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>. 
+Los sitios web sólo accesibles con Tor se llaman "cebollas" y terminan con el TLD (dominio de primer nivel) .onion.
+Por ejemplo, la cebolla de DuckDuckGo es ​<a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>. 
 Puedes acceder a estos sitios web usando el navegador Tor.
 Las direcciones han de ser compartidas contigo por el servidor del sitio web, ya que los onions no se indexan en motores de búsqueda de la manera típica en que lo son los sitios web ordinarios.

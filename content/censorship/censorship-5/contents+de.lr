@@ -1,13 +1,13 @@
 _model: question
 ---
-title: Ich habe Probleme mich mit Tor zu verbinden und kann die Ursache nicht finden.
+title: Ich habe Probleme, mich mit Tor zu verbinden, und kann die Ursache nicht finden.
 ---
 seo_slug: probleme-beim-verbinden-mit-tor
 ---
 description:
 
-Wenn du Problem beim Verbinden hast, wähle die Option "Tor-Protokoll in die Zwischenablage kopieren".
-Dann kopieren Sie das Tor-Protokoll in eine Textdatei oder ein anderes Dokument.
+Wenn du beim Verbinden ein Problem hast, wähle die Option "Tor-Protokoll in die Zwischenablage kopieren".
+Dann kopiere das Tor-Protokoll in eine Textdatei oder ein anderes Dokument.
 Du solltest einen dieser üblichen Fehler im Protokoll sehen (suche nach diesen Zeilen in deiner Tor-Logdatei):
 
 ###### Üblicher Fehler #1: Proxy-Verbindungsfehler
@@ -30,9 +30,9 @@ Wenn kein SOCKS-Proxy nötig ist, oder du nicht sicher bist, versuche dich mit d
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-Wenn du diese Zeilen in deiner Tor-Protokolldatein siehst, konnte sich Tor nicht mit dem ersten Knoten (Guard) von deinem Kanal (Circuit) verbinden.
-Das könnte bedeuten, dass Sie sich in einem Netzwerk befinden, das zensiert ist.
-Bitte versuchen Sie, sich über Brücken zu verbinden, das sollte das Problem lösen.
+Wenn du diese Zeilen in deiner Tor-Protokolldatei siehst, konnte sich Tor nicht mit dem ersten Knoten (Guard) von deinem Kanal (Circuit) verbinden.
+Das könnte bedeuten, dass du dich in einem Netzwerk befindest, das zensiert wird.
+Bitte versuche dich über Brücken zu verbinden, das sollte das Problem lösen.
 
 ###### Üblicher Fehler 31: Konnte TLS-Verbindungsaufbau nicht abschließen
 
@@ -53,5 +53,5 @@ Bridges zu benutzen, wird dieses Problem wahrscheinlich lösen.
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead.
     Damit Tor funktioniert, benötigt es eine korrekt eingestellte Uhr: Bitte überprüfe deine Uhrzeit, Zeitzone und Datumseinstellungen.
 
-Bei Zeilen wie diesen ist die Uhrzeit falsch eingestellt.
-Bitte stellen Sie sicher, dass Ihre Uhr und Zeitzone korrekt eingestellt sind. Starten Sie anschließend Tor neu.
+Bei Zeilen wie diesen im Tor log ist die Uhrzeit falsch eingestellt.
+Bitte stelle sicher, dass deine Uhr und Zeitzone korrekt eingestellt sind. Starte anschließend Tor neu.

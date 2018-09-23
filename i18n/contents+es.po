@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 21:29+CET\n"
+"POT-Creation-Date: 2018-09-23 14:31+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: cacu <cacu@espora.org>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/1519/es/)\n"
@@ -263,7 +263,7 @@ msgstr ""
 #: http://localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lr:question.title)
 msgid "What is a .onion or what are onion services?"
-msgstr "¿Qué es un .onion o qué son los servicios onion?"
+msgstr "¿Qué es un .onion o qué son los servicios cebolla?"
 
 #: http://localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lr:question.description)
@@ -632,12 +632,12 @@ msgstr "navegador-tor-no-conecta"
 #: http://localhost/onionservices/
 #: (content/onionservices/contents+en.lr:topic.seo_slug)
 msgid "onion-services"
-msgstr "onion-services"
+msgstr "servicios-cebolla"
 
 #: http://localhost/onionservices/
 #: (content/onionservices/contents+en.lr:topic.title)
 msgid "Onion Services"
-msgstr "Servicios Onion"
+msgstr "Servicios Cebolla"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -671,7 +671,7 @@ msgid ""
 "If you are still unable to connect to the onion service, please try again "
 "later."
 msgstr ""
-"Si todavía no puedes conectar al servicio onion, por favor, inténtalo de "
+"Si todavía no puedes conectar al servicio cebolla, por favor, inténtalo de "
 "nuevo más tarde."
 
 #: http://localhost/tormobile/tormobile-3/
@@ -1127,7 +1127,7 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a href=\"/"
 "#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
-"Si no puedes conectarte a un servicio de onion, por favor mira <a href=\"/"
+"Si no puedes conectarte a un servicio cebolla, por favor mira <a href=\"/"
 "#onionservices-3\">¡no puedo entrar en X.onion!</a>"
 
 #: http://localhost/connecting/connecting-2/
@@ -1818,7 +1818,7 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a href="
 "\"#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
-"Si no puedes conectarte a un servicio de onion, por favor mira <a href="
+"Si no puedes conectarte a un servicio cebolla, por favor mira <a href="
 "\"#onionservices-3\">¡no puedo entrar en X.onion!</a>"
 
 #: http://localhost/tbb/tbb-33/
@@ -2327,10 +2327,10 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
-"Cuando se accede a un sitio web que utiliza un servicio onion (cebolla), el "
+"Cuando se accede a un sitio web que utiliza un servicio cebolla, el "
 "Navegador Tor mostrará en la barra de URL un icono de una pequeña cebolla "
 "verde que muestra el estado de tu conexión: segura y usando un servicio "
-"onion."
+"cebolla."
 
 #: http://localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lr:question.description)
@@ -2539,14 +2539,14 @@ msgid ""
 "www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-"
 "secure/1526085754298237/\">Facebook</a></mark>."
 msgstr ""
-"Los servicios de Onion también se utilizan para chatear y compartir "
-"archivos, sin metadatos, para una interacción más segura entre los "
-"periodistas y sus fuentes como <mark><a href=\"https://securedrop.org/"
-"\">SecureDrop</a></mark> o <mark><a href=\"https://onionshare.org/"
-"\">OnionShare</a></mark>, para actualizaciones de software más seguras, y "
-"para acceder de forma más segura a sitios web populares como <mark><a href="
-"\"https://www.facebook.com/notes/protect-the-graph/making-connections-to-"
-"facebook-more-secure/1526085754298237/\">Facebook</a></mark>."
+"Los servicios cebolla también se utilizan para chatear y compartir archivos, "
+"sin metadatos, para una interacción más segura entre los periodistas y sus "
+"fuentes como <mark><a href=\"https://securedrop.org/\">SecureDrop</a></mark> "
+"o <mark><a href=\"https://onionshare.org/\">OnionShare</a></mark>, para "
+"actualizaciones de software más seguras, y para acceder de forma más segura "
+"a sitios web populares como <mark><a href=\"https://www.facebook.com/notes/"
+"protect-the-graph/making-connections-to-facebook-more-"
+"secure/1526085754298237/\">Facebook</a></mark>."
 
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
@@ -2554,7 +2554,7 @@ msgid ""
 "For example, the DuckDuckGo onion is <a href=\"http://3g2upl4pq6kufc4m.onion"
 "\">https://3g2upl4pq6kufc4m.onion</a>."
 msgstr ""
-"Por ejemplo, el onion de DuckDuckGo es ​<a href=\"http://3g2upl4pq6kufc4m."
+"Por ejemplo, la cebolla de DuckDuckGo es ​<a href=\"http://3g2upl4pq6kufc4m."
 "onion\">https://3g2upl4pq6kufc4m.onion</a>. "
 
 #: http://localhost/tormobile/tormobile-1/
@@ -2581,7 +2581,7 @@ msgid ""
 "Websites that are only accessible over Tor are called \"onions\" and end in "
 "the TLD .onion."
 msgstr ""
-"Los sitios web sólo accesibles con Tor se llaman \"onions\" y terminan con "
+"Los sitios web sólo accesibles con Tor se llaman \"cebollas\" y terminan con "
 "el TLD (dominio de primer nivel) .onion."
 
 #: http://localhost/misc/misc-11/
@@ -2727,8 +2727,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show "
 "an icon of a green onion and a padlock."
 msgstr ""
-"Y si estás accediendo a un sitio web con https y servicio onion, te mostrará "
-"un icono de una cebolla verde y un candado."
+"Y si estás accediendo a un sitio web con https y servicio cebolla, te "
+"mostrará un icono de una cebolla verde y un candado."
 
 #: http://localhost/https/https-1/
 #: (content/https/https-1/contents+en.lr:question.description)
@@ -2811,7 +2811,7 @@ msgid ""
 "correctly: even a small mistake will stop Tor Browser from being able to "
 "reach the site."
 msgstr ""
-"Si no puedes acceder al servicio de onion que deseas, asegúrate de que has "
+"Si no puedes acceder al servicio cebolla que deseas, asegúrate de que has "
 "introducido correctamente la dirección de onion de 16 caracteres o, el "
 "formato más reciente, de 56 caracteres: incluso un pequeño error impedirá "
 "que Tor Browser pueda acceder al sitio."
@@ -3084,7 +3084,7 @@ msgid ""
 "Onion services allow people to browse but also to publish anonymously, "
 "including publishing anonymous websites."
 msgstr ""
-"Los servicios de Onion permiten navegar, pero también publicar anonimamente, "
+"Los servicios cebolla permiten navegar, pero también publicar anonimamente, "
 "incluyendo la publicación de sitios web anónimos."
 
 #: http://localhost/tbb/tbb-37/
@@ -3293,7 +3293,7 @@ msgid ""
 "entered the 16-character onion address correctly: even a small mistake will "
 "stop Tor Browser from being able to reach the site."
 msgstr ""
-"Si no puedes alcanzar el servicio onion que deseas, asegúrate de que has "
+"Si no puedes alcanzar el servicio cebolla que deseas, asegúrate de que has "
 "introducido la dirección onion de 16 caracteres correctamente: un pequeño "
 "error evitará que el navegador Tor sea capaz de alcanzar el sitio."
 
@@ -3720,7 +3720,7 @@ msgid ""
 "onion service or a \".exit\" address it could be more."
 msgstr ""
 "Esto en casos normales es 3, pero por ejemplo, si estás accediendo a un "
-"servicio onion o a una dirección \".exit\" podrían ser más."
+"servicio cebolla o a una dirección \".exit\" podrían ser más."
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)
@@ -3776,8 +3776,8 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>'s "
 "Onion Service."
 msgstr ""
-"También puedes verificar que puedes acceder a otros servicios onion "
-"conectando al <a href=\"http://3g2upl4pq6kufc4m.onion\">servicio onion de "
+"También puedes verificar que puedes acceder a otros servicios cebolla "
+"conectando al <a href=\"http://3g2upl4pq6kufc4m.onion\">servicio cebolla de "
 "DuckDuckGo</a>."
 
 #: http://localhost/gettor/gettor-4/
@@ -3909,8 +3909,8 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo's onion "
 "service</a>."
 msgstr ""
-"También puedes asegurarte de poder acceder a otros servicios onion "
-"conectando al <a href=\"http://3g2upl4pq6kufc4m.onion\">servicio onion de "
+"También puedes asegurarte de poder acceder a otros servicios cebolla "
+"conectando al <a href=\"http://3g2upl4pq6kufc4m.onion\">servicio cebolla de "
 "DuckDuckGo</a>."
 
 #: http://localhost/misc/misc-14/
