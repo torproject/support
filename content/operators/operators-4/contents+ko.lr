@@ -5,7 +5,7 @@ title: How do I make sure that I'm using the correct packages on Ubuntu?
 seo_slug: using-correct-packages
 ---
 description:
-* 우분투 저장소의 패키지를 사용하지 마십시오. 안정적인 업데이트가 불가능합니다. 저장소를 사용하면 중요한 안정성과 보안 패치를 놓치게 됩니다.
+* 우분투 저장소의 패키지를 사용하지 마십시오. 안정적인 업데이트가 불가능합니다. 우분투 저장소를 사용하면 중요한 안정성과 보안 패치를 놓치게 됩니다.
 * 다음 명령을 실행하여 우분투 버전을 확인하십시오:
        $ lsb_release -c
 * root로 /etc/apt/sources.list에 다음 행을 추가하십시오. 이전 단계에서 찾은 <version>을 사용하십시오.

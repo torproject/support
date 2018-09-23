@@ -7,4 +7,4 @@ seo_slug: warum-benutzt-tor-duckduckgo
 description:
 Seit Tor Browser 6.0.6 haben wir die primäre Suchmaschine auf DuckDuckGo geändert.
 Seit einer Weile hatte Disconnect, die bisher voreingestellt war in Tor Browser, keinen Zugang zu Google-Suchergebnissen.
-Weil Disconnent eher eine Meta-Suchmaschine ist, die zwischen verschiedenen Suchanbietern wählen lässt, lieferte es statt dessen Bing-Ergebnisse aus, deren Qualität aber unakzeptabel war.
+Weil Disconnect eher eine Meta-Suchmaschine ist, die zwischen verschiedenen Suchanbietern wählen lässt, lieferte es statt dessen Bing-Ergebnisse, deren Qualität unakzeptabel war.

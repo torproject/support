@@ -5,7 +5,7 @@ title: 특정 국가의 출구 노드로 나가도록 선택할 수 있습니까
 seo_slug: pick-which-country-i-am-exiting
 ---
 description:
-Tor 회로 생성 방식을 변경하는 것은 절대 권장하지 않습니다.
+Tor 회로 생성 방식을 변경하는 것은 절대 권장되지 않습니다.
 You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity.
 If the outcome you want is simply to be able to access resources that are only available in one country, you may want to consider using a VPN instead of using Tor.
 Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.

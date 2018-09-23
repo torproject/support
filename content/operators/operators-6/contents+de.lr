@@ -11,7 +11,7 @@ description:
 * Bearbeite die Datei /etc/tor/torrc damit sie so aussieht:
 
 
-    ## Die IP-Adresse or Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
+    ## Die IP-Adresse oder Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
     #Address noname.example.com
 
     ## Wähle den Namen des Relays

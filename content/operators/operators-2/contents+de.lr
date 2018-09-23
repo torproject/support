@@ -5,11 +5,11 @@ title: Wie betreibe ich einen Exit-Knoten mit Debian?
 seo_slug: wie-betreibe-ich-einen-exit-knoten
 ---
 description:
-Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
+Die ausführlichste Resource, um ein Relay zu betreiben, ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
 
 * Siehe unsere <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Austrittsknoten-Anleitung</a></mark>
 * Führe "apt get install tor" aus (als root).
-* Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind. Installiere das Paket ntp oder openntpd (oder ähnlich) um die Zeit aktuell zu halten.
+* Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind. Installiere das Paket ntp oder openntpd (oder ähnlich), um die Zeit aktuell zu halten.
 * Bearbeite die Datei /etc/tor/torrc damit sie so aussieht:
 
 
@@ -22,7 +22,7 @@ Die ausführlichste Resource, um ein Relay zu betreiben ist die <mark><a href="h
     ORPort 9001
     DirPort 9030
 
-    ## Die IP-Adresse or Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
+    ## Die IP-Adresse oder Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
     #Address noname.example.com
 
     ## Bandbreiten-Beschränkung (Tor funktioniert ohne, wenn dies kommentiert ist)

@@ -18,7 +18,7 @@ Next, exclude the following processes:
 * OS X
   * TorBrowser
   * tor.real
-  * obfs4proxy (만약 주계서버 사용하면)
+  * obfs4proxy (중계 서버를 사용하는 경우)
 
 마지막으로, Tor 브라우저를 다시 시작하십시오.
 This should fix the issues you're experiencing.

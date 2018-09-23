@@ -5,5 +5,5 @@ title: 동시에 Tor 브라우저랑 다른 브라우저를 실행해도 안전�
 seo_slug: run-tor-browser-and-different-browser
 ---
 description:
-Tor 브라우저와 다른 브라우저를 동시에 실행 해도 Tor의 성능이나 개인 정보 보호에는 영향을 미치지 않습니다.
+Tor 브라우저와 다른 브라우저를 동시에 실행해도 Tor의 성능이나 개인 정보 보호에는 영향을 미치지 않습니다.
 However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.

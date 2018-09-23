@@ -19,7 +19,7 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
 If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
-네트워크 설정에 SOCKS 프록시가 필요한 경우 올바르게 프록시 세부 정보를 입력했는지 확인하십시오.
+네트워크 설정에 SOCKS 프록시가 필요한 경우 프록시 세부 정보를 올바르게 입력했는지 확인하십시오.
 If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
 
 ##### Common log error #2: Can’t reach guard relays
@@ -51,7 +51,7 @@ Using bridges will likely fix this.
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. 
-    Tor가 작동하려면 정확한 시간정보가 필요합니다. 시간, 시간대 및 날짜 설정을 확인하십시오.
+    Tor가 작동하려면 정확한 시간 정보가 필요합니다. 시간, 시간대 및 날짜 설정을 확인하십시오.
 
 If you see lines like this in your Tor log, it means your system clock is incorrect.
 Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 

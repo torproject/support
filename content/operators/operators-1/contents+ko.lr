@@ -22,7 +22,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     ## Set your own contact info
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## If you control multiple relays, include then in the family
+    ## 여러 릴레이를 운영한다면 릴레이를 family에 포함하십시오
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001

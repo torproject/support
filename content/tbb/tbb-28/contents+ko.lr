@@ -12,4 +12,4 @@ description:
 On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
 * Tor 브라우저의 폴더 또는 응용 프로그램을 삭제하십시오.
 * 휴지통 폴더를 비우십시오.
-* 운영 체제의 표준 "제거" 유틸리티는 사용되지 않습니다.
+* 운영 체제의 표준 "제거" 유틸리티는 사용되지 않는다는 점을 유념하십시오.

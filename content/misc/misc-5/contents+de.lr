@@ -1,12 +1,15 @@
 _model: question
 ---
-title: Die Dateien auf meinem Computer sind gesperrt worden und jemand verangt den Tor Browser runterzuladen um für die Entsperrung zu bezahlen.
+title: Die Dateien auf meinem Computer sind gesperrt worden, und jemand verlangt den Tor Browser runterzuladen, um für die Entsperrung zu bezahlen.
 ---
-seo_slug: irgendwer-verlangt-tor-browser-herunter-zu-laden-um-meine-dateien-zu-entsperren
+seo_slug: irgendwer-verlangt-tor-browser-herunterzuladen-um-meine-dateien-zu-entsperren
 ---
 description:
+
 Es tut uns leid, aber Sie wurden mit Schadsoftware infiziert.
-Tor Project hat diese Schadsoftware nicht erstellt. Die Entwickler*innen wollen vermutlich, dass du Tor Browser benutzt, um sie anonym wegen des Lösegelds zu kontaktieren, dass sie von dir verlangen
-Wenn Tor Browser bisher unbekannt war, verstehen wir Bedenken, dass wir schlechte Menschen sind, die noch schlimmeren Menschen helfen.
+Tor Project hat diese Schadsoftware nicht erstellt. Die Entwickler*innen wollen vermutlich, dass du Tor Browser benutzt, um sie anonym wegen des Lösegelds zu kontaktieren, das sie von dir verlangen
+
+Wenn dir der Tor Browser bisher unbekannt war, verstehen wir es, dass man uns möglicherweise für schlechte Menschen halten mag, die noch schlimmeren Menschen helfen.
+
 Aber bitte bedenke, dass unsere Software täglich für viele Zwecke von Menschenrechtsaktivist*innen, Journalist*innen, Überlebenden häuslicher Gewalt, Whistleblower*innen, Gesetzeshüter*innen und vielen anderen verwendet wird. Unglücklicherweise kann der Schutz, den unsere Software diesen Menschen gewährt, auch von Kriminellen und Entwickler*innen von Schadsoftware genutzt werden.
-Tor Project weder unterstützt noch duldet die Nutzung unserer Software für bösartige Zwecke.
+Tor Project unterstützt weder, noch duldet es die Nutzung unserer Software für bösartige Zwecke.

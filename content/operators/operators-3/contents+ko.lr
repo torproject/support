@@ -28,19 +28,19 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 
     ExitPolicy reject *:*
 
-    ## If you control multiple relays, include then in the family
+    ## 여러 릴레이를 운영한다면 릴레이를 family에 포함하십시오
     #MyFamily $keyid,$keyid,...
 
     RunAsDaemon 1
     Log notice file /var/log/tor/notices.log
 
-* Tor가 "sysrc tor_enable=YES"를 실행하여 부팅 할 때 시작하는지 확인하십시오 (root로)
+* "sysrc tor_enable=YES" 명령어를 (root로) 실행하여 부팅 시에 Tor가 실행되도록 하십시오
 * "service tor start"를 (root로) 실행하십시오.
 * 릴레이가 네트워크에 연결되면 구성된 포트가 외부에서 연결할 수 있는지 여부를 확인합니다.
   This step is usually fast, but it may take a few minutes.
   Look for a log entry in /var/log/tor/notices.log such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
   If you don't see this message, it means that your relay is not reachable from the outside.
   You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
-* 도달 할 수 있음을 확인하면 디렉토리 권한에 "서버 설명자"를 업로드 하여 릴레이가 사용중인 주소, 포트, 키 등을 클라이언트가 알 수 있게합니다.
+* 도달할 수 있는 경우 디렉토리 인증 서버가 "server descriptor"를 업로드하여 클라이언트에서 어느 주소, 포트, 키 등을 사용할 지 결정할 수 있도록 합니다.
   After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
   If it hasn't, re-check firewalls, IP and ports again.

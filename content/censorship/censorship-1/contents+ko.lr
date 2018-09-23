@@ -5,7 +5,7 @@ title: 저희 웹 사이트가 검열되었습니다. Tor 브라우저로 연결
 seo_slug: our-website-is-blocked-by-a-censor
 ---
 description:
-Tor 브라우저는 사람들이 차단 된 당신의 웹 사이트에 접근하는 것을 확실히 도울 수 있습니다.
+Tor 브라우저는 당신의 사이트가 차단된 곳에 거주하는 사용자들이 당신의 사이트에 접근하는 것을 도울 수 있습니다.
 Most of the time, simply downloading the <mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> and then using it to navigate to the blocked site will allow access.
 In places where there is heavy censorship we have a number of censorship circumvention options available, including <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>.
 
