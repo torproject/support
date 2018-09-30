@@ -5,7 +5,7 @@ title: 为什么我连接的中继回路，第一个IP地址总是相同的呢�
 seo_slug: first-address-relay-circuit
 ---
 description:
-That is normal Tor behavior.
+这是Tor的正常行为。
 您连接的中继回路中的第一个节点通常被称为“入口节点”或是“护卫”。
 它是一个快速且稳定的节点，并且将会在您的中继回路中维持两到三个月，用来抵挡破解匿名攻击。
 The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor.

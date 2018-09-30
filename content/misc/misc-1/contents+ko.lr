@@ -6,4 +6,4 @@ seo_slug: tracing-tor-user
 ---
 description:
 There is nothing the Tor developers can do to trace Tor users.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.
+나쁜 사람들이 Tor의 익명성을 파괴 말리는 보호들은 또 우리가 사용자를 추적을 막합니다.

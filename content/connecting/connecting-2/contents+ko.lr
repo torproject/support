@@ -1,6 +1,6 @@
 _model: question
 ---
-title: I am having trouble connecting to Tor, and I can’t figure out what’s wrong.
+title: Tor에 연결 문제를 있지만 무엇인지가 이해할 수 없습니다.
 ---
 seo_slug: having-trouble-connecting-to-tor
 ---
@@ -31,7 +31,7 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
+당신이 검열된 네트워크에 접속함을 의미할 수 있습니다.
 
 Please try connecting with bridges, and that should fix the problem.
 

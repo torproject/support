@@ -6,4 +6,4 @@ seo_slug: network-admin-know-i-am-using-tor
 ---
 description:
 When using Tor Browser, no one can see the websites that you visit.
-However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.
+그러나 서비스 제공 업체 또는 네트워크 관리자는 귀하가 Tor 네트워크에 연결하고 있음은 볼 수 있지만 귀하가 접속 했을 때 무엇을 하고 있는지 알 수는 없습니다.

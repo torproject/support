@@ -8,4 +8,4 @@ description:
 많은 출구 노드는 BitTorrent와 같은 특정 유형의 파일 공유 트래픽을 차단하도록 설정됩니다.
 BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
 
-For sharing files through Tor, <mark><a href="https://onionshare.org/">OnionShare</a></mark> is a good option.
+Tor를 통해 파일을 공유하려면 <mark><a href="https://onionshare.org/">OnionShare</a></mark>가 좋은 선택입니다.

@@ -10,13 +10,14 @@
 # endermoon <endermoongame@gmail.com>, 2018
 # Emma Peel, 2018
 # A Chinese <v123123123@mail.com>, 2018
+# Darui Zhuo <typeof@typeof.pw>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-21 11:00+CET\n"
+"POT-Creation-Date: 2018-09-30 19:02+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: A Chinese <v123123123@mail.com>, 2018\n"
+"Last-Translator: Darui Zhuo <typeof@typeof.pw>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/"
 "zh_CN/)\n"
 "Language: zh_CN\n"
@@ -901,7 +902,7 @@ msgstr ""
 #: http://localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
 msgid "You can access these websites by using Tor Browser."
-msgstr ""
+msgstr "您可以用Tor浏览器访问这些网站。"
 
 #: http://localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.title)
@@ -969,7 +970,7 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "##### Common log error #4: Clock skew"
-msgstr ""
+msgstr "常见错误#4: 时间设置错误"
 
 #: http://localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lr:question.description)
@@ -983,12 +984,12 @@ msgstr ""
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "Using bridges will likely fix this."
-msgstr ""
+msgstr "使用网桥可能会解决这个问题。"
 
 #: http://localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lr:question.description)
 msgid "There is nothing the Tor developers can do to trace Tor users."
-msgstr ""
+msgstr "Tor开发者没有追踪Tor用户的手段。"
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.description)
@@ -996,6 +997,8 @@ msgid ""
 "You can read all about that on our <mark><a href=\"https://www.torproject."
 "org/docs/trademark-faq.html\">Trademark faq page</a></mark>."
 msgstr ""
+"您可以在<mark><a href=\"https://www.torproject.org/docs/trademark-faq.html\">"
+"商标问答界面</a></mark>了解一切有关我们商标的事情。"
 
 #: http://localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
@@ -1058,14 +1061,14 @@ msgstr ""
 msgid ""
 "Several countries, including China and Iran, have found ways to detect and "
 "block connections to Tor bridges."
-msgstr ""
+msgstr "一些国家，包括中国和伊朗，有检测和屏蔽Tor网桥的方法。"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "Then paste the Tor log into a text file or other document."
-msgstr ""
+msgstr "然后粘贴Tor日志到文本文件或者其他文档格式。"
 
 #: http://localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lr:question.description)
@@ -1108,7 +1111,7 @@ msgstr "默认禁用JavaScript造成的不便过于严重，会让大多数用�
 msgid ""
 "If a SOCKS proxy is not required, or you’re not sure,  please try connecting "
 "to the Tor network without a SOCKS proxy."
-msgstr ""
+msgstr "如果您的系统不需要代理，或者您不敢肯定，请尝试直接连接Tor网络。"
 
 #: http://localhost/tbb/tbb-38/
 #: (content/tbb/tbb-38/contents+en.lr:question.description)
@@ -1284,7 +1287,7 @@ msgstr ""
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.title)
 msgid "Should I run an exit relay from home?"
-msgstr ""
+msgstr "我应该在家里运行Tor出口节点吗？"
 
 #: http://localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lr:question.seo_slug)
@@ -1374,7 +1377,7 @@ msgstr ""
 msgid ""
 "If you see lines like these  in your Tor log, it means you are failing to "
 "connect to a SOCKS proxy."
-msgstr ""
+msgstr " 如果您看见这些提示出现在您的日志里面，这意味着您连接SOCKS代理失败了。"
 
 #: http://localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lr:question.description)
@@ -1536,7 +1539,7 @@ msgstr "我可以设置 Tor 浏览器为默认浏览器吗？"
 msgid ""
 "Please make sure your clock is set accurately, including the correct "
 "timezone. Then restart Tor."
-msgstr ""
+msgstr "请确认您的时间设置是正确的，包括正确的时区。然后重新启动Tor。 "
 
 #: http://localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lr:question.seo_slug)
@@ -1676,7 +1679,7 @@ msgstr "我们一直在寻求更多的资金来源，尤其是基金会和个人
 #: http://localhost/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lr:question.description)
 msgid "###### Common log error #1: Proxy connection failure"
-msgstr ""
+msgstr "##### 常见错误#1: 代理连接失败"
 
 #: http://localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lr:question.description)
@@ -2166,7 +2169,7 @@ msgstr "我能为ChromeOS下载Tor Browser吗?"
 #: http://localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lr:question.description)
 msgid "That is normal Tor behavior."
-msgstr ""
+msgstr "这是Tor的正常行为。"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2477,6 +2480,8 @@ msgid ""
 "correctly: even a small mistake will stop Tor Browser from being able to "
 "reach the site."
 msgstr ""
+"如果无法访问您想访问的洋葱服务，请检查是否正确输入了洋葱地址的16个字符（或者"
+"新版地址的56个字符）。只要有一点点错误，Tor浏览器就无法连接到网站。"
 
 #: http://localhost/censorship/
 #: (content/censorship/contents+en.lr:topic.seo_slug)
@@ -2753,6 +2758,8 @@ msgid ""
 "If you see lines like these in your Tor log, it means your Tor failed to "
 "connect to the first node in the Tor circuit."
 msgstr ""
+"如果您看见这些提示出现在您的日志里面，这意味着您的Tor连接 Tor网络中的第一个节"
+"点失败了。"
 
 #: http://localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lr:question.description)
@@ -3291,7 +3298,7 @@ msgstr "我能搭配VPN使用Tor吗？"
 #: (content/censorship/censorship-7/contents+en.lr:question.description)
 msgid ""
 "Bridge relays are Tor relays that are not listed in the public Tor directory."
-msgstr ""
+msgstr "网桥是不在Tor公共目录里列出的中继节点。"
 
 #: http://localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lr:question.description)
@@ -3348,7 +3355,7 @@ msgstr ""
 msgid ""
 "Fortunately, most websites, devices, and other browsers are moving away from "
 "the use of Flash."
-msgstr ""
+msgstr "幸运的是，大多数网站、设备，还有其它浏览器正在淘汰Flash。"
 
 #: http://localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lr:question.description)

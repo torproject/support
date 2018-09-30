@@ -5,7 +5,7 @@ title: 我无法访问X.onion！
 seo_slug: i-cannot-reach-x-dot-onion
 ---
 description:
-If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+如果无法访问您想访问的洋葱服务，请检查是否正确输入了洋葱地址的16个字符（或者新版地址的56个字符）。只要有一点点错误，Tor浏览器就无法连接到网站。
 如果您还是无法访问这个网站，请稍后重试。
 有可能是网络连接有出现暂时性阻碍，或者是该网站的管理员暂时将站台关闭了。
 

@@ -1,13 +1,13 @@
 _model: question
 ---
-title: A website I am trying to reach is blocking access over Tor.
+title: 내가 접속하려는 웹 사이트가 Tor를 통한 접근을 차단하고 있습니다.
 ---
 seo_slug: website-blocking-access-over-tor
 ---
 description:
 Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
 The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+이런 것은 문제를 해결할 수도 있습니다:
 
 "Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
 I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
@@ -15,5 +15,5 @@ By blocking Tor users, you are likely blocking people in repressive countries wh
 Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com.
 감사합니다."
 
-In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
+은행 및 기타 민감한 웹 사이트의 경우 지역에 기반을 차단을 하는 것이 일반적입니다 (은행이 보통 특정 국가에서 서비스에 접근하는 것을 알고 있고 갑자기 다른 지역의 출구 릴레이에서 연결하는 경우). 계정이 잠기거나 일시 중지 될 수 있습니다.
 If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a>
