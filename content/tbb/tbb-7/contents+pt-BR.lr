@@ -7,7 +7,7 @@ seo_slug: website-bloqueando-acesso-sobre-tor
 description:
 Algumas vezes websites bloquearão usuários do Tor porque eles não podem dizer a diferença entre a média de usuários Tor e tráfego automatizado.
 O meio com maior sucesso em fazer com que websites desbloqueie usuários Tor, é os usuários entrando em contato direto com os administradores do site.
-Algo deste tipo pode resolver:
+Algo deste tipo poderá até resolver:
 
 "Oi! Eu tentei acessar seu site xyz.com enquanto estava usando o Navegador Tor e percebi que você não permite usuários Tor acessarem seu site.
 Eu insisto para você reconsiderar essa decisão; Tor é usado por pessoas de todo o mundo para proteger sua privacidade e lutar contra a censura.
@@ -15,5 +15,5 @@ Bloqueando usuários do Tor, você está provavelmente bloqueando pessoas em pa�
 Por favor tenha uma posição forte em favor da privacidade digital e liberdade na internet, e permita aos usuários do Tor acessarem xyz.com.
 Obrigado."
 
-No caso de bancos, e outros websites sensíveis, é também comum ver bloqueio baseado na localização geográfica (se um banco sabe que você geralmente acessa seus serviços de um país; e de repente você está conectando de um retransmissor de saída em outro lado do mundo, sua conta pode ser bloqueada ou suspendida).
+No caso de bancos, e outros websites sensíveis, é também comum ver bloqueios baseado na localização geográfica (se um banco sabe que você geralmente acessa seus serviços de um país; e de repente você está se conectando com um retransmissor de saída em outro lado do mundo, a sua conta pode ser bloqueada ou suspendida).
 Se você está inabilitado de se conectar a um serviço onion, por favor veja <a href="#onionservices-3"> Eu não consigo acessar X.onion </a> 

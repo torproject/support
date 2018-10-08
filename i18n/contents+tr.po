@@ -88,15 +88,6 @@ msgstr ""
 "sağladığından, Google sonuçlarına erişemediğinde kalite açısından kabul "
 "edilemez olan Bing arama sonuçlarına dönüyordu."
 
-#: http://localhost/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lr:question.description)
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.description)
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid "## If you control multiple relays, include then in the family"
-msgstr "## Birden çok aktarıcı yönetiyorsanız bunları bir aile içine katın"
-
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Edit /usr/local/etc/tor/torrc to look like the following:"
@@ -561,6 +552,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -1047,11 +1040,14 @@ msgstr ""
 msgid "Using bridges will likely fix this."
 msgstr "Köprüleri kullanmak bu sorunu çözebilir."
 
-#: http://localhost/misc/misc-1/
-#: (content/misc/misc-1/contents+en.lr:question.description)
-msgid "There is nothing the Tor developers can do to trace Tor users."
-msgstr ""
-"Tor geliştiricileri Tor kullanıcılarını izlemek için herhangi bir şey yapmaz."
+#: http://localhost/operators/operators-1/
+#: (content/operators/operators-1/contents+en.lr:question.description)
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
+msgid "## If you control multiple relays, include them in the family"
+msgstr "## Birden çok aktarıcı yönetiyorsanız bunları bir aile içine katın"
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.description)
@@ -1636,6 +1632,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2152,6 +2150,12 @@ msgid ""
 msgstr ""
 "Geçerli sekme ya da pencerenin yeni bir Tor devresi kullanılarak yeniden "
 "yüklenmesini sağlar."
+
+#: http://localhost/misc/misc-1/
+#: (content/misc/misc-1/contents+en.lr:question.description)
+msgid "There is nothing the Tor developers can do to trace Tor users."
+msgstr ""
+"Tor geliştiricileri Tor kullanıcılarını izlemek için herhangi bir şey yapmaz."
 
 #: http://localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lr:question.description)
@@ -3563,6 +3567,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -4215,6 +4221,7 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)

@@ -6,5 +6,5 @@ seo_slug: navegador-tor-firefox-nao-funciona-erro
 ---
 description:
 O navegador Tor é feito utilizando-se o <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR </a></mark>, então erros relacionados ao Firefox podem ocorrer.
-Por favor tenha certeza que nenhuma outra instância do Navegador Tor esteja executando, e que você tenha extraído o Navegador Tor em uma localização que seu usuário tenha permissões corretas.
+Por favor, tenha certeza que nenhuma outra instância do Navegador Tor esteja executando, e que você tenha extraído o Navegador Tor em uma localização onde o seu usuário tenha as permissões corretas.
 Se você estiver executando um anti-virus, por favor veja <mark><a href="http://support.torproject.org/#tbb-10">Minha proteção antivirus/malware está me impedindo de acessar o Tor Browser</a></mark>, é comum que softwares anti-virus / anti-malware causem esse tipo de problema.

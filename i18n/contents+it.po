@@ -98,15 +98,6 @@ msgstr ""
 "risultati di ricerca di Bing il che fondamentalmente non è qualitativamente "
 "accettabile."
 
-#: http://localhost/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lr:question.description)
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.description)
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid "## If you control multiple relays, include then in the family"
-msgstr "## Se controlli più relay, allora includilo nella famiglia"
-
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Edit /usr/local/etc/tor/torrc to look like the following:"
@@ -579,6 +570,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
 "with a padlock\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/padlock-onion.png\" alt=\"Green onion "
+"with a padlock\">"
 
 #: http://localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
@@ -1065,12 +1058,14 @@ msgstr ""
 msgid "Using bridges will likely fix this."
 msgstr "L'uso di bridge potrebbe risolvere il problema."
 
-#: http://localhost/misc/misc-1/
-#: (content/misc/misc-1/contents+en.lr:question.description)
-msgid "There is nothing the Tor developers can do to trace Tor users."
-msgstr ""
-"Non c'è nulla che gli sviluppatori di Tor possano fare per tracciare gli "
-"utenti di Tor."
+#: http://localhost/operators/operators-1/
+#: (content/operators/operators-1/contents+en.lr:question.description)
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
+msgid "## If you control multiple relays, include them in the family"
+msgstr "## Se controlli più relay, allora includilo nella famiglia"
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.description)
@@ -1654,6 +1649,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
 "Circuit for this Site\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/new-circuit-display.png\" alt=\"New "
+"Circuit for this Site\">"
 
 #: http://localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lr:question.description)
@@ -2173,6 +2170,13 @@ msgid ""
 msgstr ""
 "Selezionare questa opzione ricaricherà tutte le schede attive o le finestre "
 "utilizzando un nuovo circuito Tor."
+
+#: http://localhost/misc/misc-1/
+#: (content/misc/misc-1/contents+en.lr:question.description)
+msgid "There is nothing the Tor developers can do to trace Tor users."
+msgstr ""
+"Non c'è nulla che gli sviluppatori di Tor possano fare per tracciare gli "
+"utenti di Tor."
 
 #: http://localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lr:question.description)
@@ -3587,6 +3591,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -4241,6 +4247,7 @@ msgstr "Ho una ragione valida per tracciare un utente Tor. Potete aiutarmi?"
 msgid ""
 "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http://localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)

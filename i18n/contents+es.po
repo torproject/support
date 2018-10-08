@@ -89,15 +89,6 @@ msgstr ""
 "los resultados de búsqueda de Bing que son básicamente inaceptables en "
 "cuestión de calidad."
 
-#: http://localhost/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lr:question.description)
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.description)
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid "## If you control multiple relays, include then in the family"
-msgstr "## Si controlas varios repetidores, incluyélos en la familia."
-
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
 msgid "* Edit /usr/local/etc/tor/torrc to look like the following:"
@@ -637,7 +628,7 @@ msgstr "servicios-cebolla"
 #: http://localhost/onionservices/
 #: (content/onionservices/contents+en.lr:topic.title)
 msgid "Onion Services"
-msgstr "Servicios Cebolla"
+msgstr "Servicios cebolla"
 
 #: http://localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lr:question.description)
@@ -1061,10 +1052,14 @@ msgstr ""
 msgid "Using bridges will likely fix this."
 msgstr "El uso de puentes probablemente solucionará esto."
 
-#: http://localhost/misc/misc-1/
-#: (content/misc/misc-1/contents+en.lr:question.description)
-msgid "There is nothing the Tor developers can do to trace Tor users."
-msgstr "Los desarrolladores de Tor no pueden encontrar a los usuarios de Tor."
+#: http://localhost/operators/operators-1/
+#: (content/operators/operators-1/contents+en.lr:question.description)
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
+msgid "## If you control multiple relays, include them in the family"
+msgstr "## Si controlas varios repetidores, incluyélos en la familia."
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.description)
@@ -2173,6 +2168,11 @@ msgid ""
 msgstr ""
 "Al seleccionarlo, causará que la pestaña o ventana actualmente activa se "
 "recargue sobre un nuevo circuito de Tor."
+
+#: http://localhost/misc/misc-1/
+#: (content/misc/misc-1/contents+en.lr:question.description)
+msgid "There is nothing the Tor developers can do to trace Tor users."
+msgstr "Los desarrolladores de Tor no pueden encontrar a los usuarios de Tor."
 
 #: http://localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lr:question.description)

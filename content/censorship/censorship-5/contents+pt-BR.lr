@@ -1,6 +1,6 @@
 _model: question
 ---
-title: Estou tendo problemas para conectar com o Tor e não consigo descobrir o que está acontecendo de errado.
+title: Estou tendo problemas para conectar com o Tor e não consigo descobrir o que está errado.
 ---
 seo_slug: tendo-problemas-conectando-ao-tor
 ---
@@ -31,7 +31,7 @@ Se um SOCKS proxy não é necessário, ou você não tem certeza, por favor tent
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 Se você vê linhas como essas em seu registro do Tor, isso significa que seu Tor falhou na conexão com o primeiro nó no circuito Tor.
-Isto pode significar que você está em uma rede censurada.
+Isto poderia significar que você está em uma rede censurada.
 Por favor tente conectar com pontes, e isso deve resolver o problema.
 
 ##### Erro de log comum #3: Falha ao concluir TLS handshake

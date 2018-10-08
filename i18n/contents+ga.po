@@ -1,11 +1,11 @@
 # Translators:
-# Kevin Scannell <kscanne@gmail.com>, 2018
+# erinm, 2018
 # Emma Peel, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-16 07:00+CET\n"
+"POT-Creation-Date: 2018-10-08 18:20+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Irish (https://www.transifex.com/otf/teams/1519/ga/)\n"
@@ -87,17 +87,6 @@ msgstr ""
 "Is inneall meiteachuardaigh é Disconnect a ligeann dá chuid úsáideoirí "
 "torthaí ó sholáthraithe cuardaigh éagsúla a roghnú. Mar sin, b'éigean dó dul "
 "i muinín ar thorthaí ó Bing nach raibh thar mholadh beirte."
-
-#: http://localhost/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lr:question.description)
-#: http://localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.description)
-#: http://localhost/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
-msgid "## If you control multiple relays, include then in the family"
-msgstr ""
-"## Má tá tú i gceannas ar níos mó ná athsheachadán amháin, cuir le clann "
-"amháin iad"
 
 #: http://localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lr:question.description)
@@ -1061,11 +1050,16 @@ msgstr ""
 msgid "Using bridges will likely fix this."
 msgstr "Is dócha go réiteoidh droichead an fhadhb seo."
 
-#: http://localhost/misc/misc-1/
-#: (content/misc/misc-1/contents+en.lr:question.description)
-msgid "There is nothing the Tor developers can do to trace Tor users."
+#: http://localhost/operators/operators-1/
+#: (content/operators/operators-1/contents+en.lr:question.description)
+#: http://localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lr:question.description)
+#: http://localhost/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lr:question.description)
+msgid "## If you control multiple relays, include them in the family"
 msgstr ""
-"Níl forbróirí Tor in ann aon rud a dhéanamh chun úsáideoirí Tor a lorg."
+"## Má tá tú i gceannas ar níos mó ná athsheachadán amháin, cuir le clann "
+"amháin iad"
 
 #: http://localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lr:question.description)
@@ -2175,6 +2169,12 @@ msgid ""
 msgstr ""
 "Nuair a roghnaítear é seo, athlódáiltear an cluaisín nó an fhuinneog reatha "
 "thar ciorcad nua Tor."
+
+#: http://localhost/misc/misc-1/
+#: (content/misc/misc-1/contents+en.lr:question.description)
+msgid "There is nothing the Tor developers can do to trace Tor users."
+msgstr ""
+"Níl forbróirí Tor in ann aon rud a dhéanamh chun úsáideoirí Tor a lorg."
 
 #: http://localhost/tbb/tbb-14/
 #: (content/tbb/tbb-14/contents+en.lr:question.description)
