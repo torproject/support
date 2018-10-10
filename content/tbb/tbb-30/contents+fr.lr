@@ -5,10 +5,10 @@ title: Un site Web (banque, fournisseur de services de courriel, etc.) me bloque
 seo_slug: site-web-bloque-navigateur-tor
 ---
 description:
-Le Navigateur Tor fait souvent en sorte que votre connexion semble venir d’un endroit complètement différent de la planète.
-Certains sites Web tels que les banques ou les fournisseurs de services de courriel pourraient l’interpréter comme un signe que votre compte a été compromis et, par conséquent, vous bloquer.
+Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
+Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
 
 La seule manière de résoudre cette situation est de suivre la procédure de récupération du compte recommandée par le site ou de contacter les exploitants et d’expliquer la situation.
 
-Vous pourriez éviter ce scénario si votre fournisseur propose la validation en deux étapes, qui est une option de sécurité bien meilleure que les réputations basées sur l’adresse IP.
-Contactez votre fournisseur et demandez-lui s’il propose la validation en deux étapes.
+You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
+Contact your provider and ask them if they provide 2FA.

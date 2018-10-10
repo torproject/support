@@ -5,15 +5,15 @@ title: Conas is féidir liom deimhniú go bhfuilim ag baint úsáide as na pacá
 seo_slug: using-correct-packages
 ---
 description:
-* Ná húsáid na pacáistí i gcartlanna Ubuntu. Ní dhéantar nuashonrú orthu ar bhonn rialta. Má úsáideann tú iad, ní bhfaighidh tú nuashonruithe tábhachtacha a bhaineann le cobhsaíocht agus le slándáil.
-* Is féidir leat an leagan Ubuntu atá agat a fháil amach leis an ordú seo a leanas:
+* Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
+* Determine your Ubuntu version by running the following command:
        $ lsb_release -c
-* Cuir na línte seo a leanas le /etc/apt/sources.list mar root. Úsáid an leagan a d'aimsigh tú sa chéim roimhe seo in áit "leagan".
-       $ deb http://deb.torproject.org/torproject.org <leagan> main
-       $ deb-src http://deb.torproject.org/torproject.org <leagan> main
-* Sainigh an eochair gpg a úsáideadh chun na pacáistí a shíniú leis na horduithe seo a leanas:
+* As root, add the following lines to /etc/apt/sources.list. Use the version you found in the previous step for <version>.
+       $ deb http://deb.torproject.org/torproject.org <version> main
+       $ deb-src http://deb.torproject.org/torproject.org <version> main
+* Add the gpg key used to sign the packages by running the following commands:
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-* Rith na horduithe seo a leanas chun Tor a shuiteáil agus na sínithe a dheimhniú:
+* Run the following commands to install tor and check its signatures:
        $ sudo apt-get update
        $ sudo apt-get install tor deb.torproject.org-keyring

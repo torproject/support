@@ -5,21 +5,21 @@ title: Perlindungan program pembasmi virus atau malware saya menghalangi saya me
 seo_slug: antivirus-blocking-tor 
 ---
 description:
-Perlindungan antivirus atau malware membuat pengguna membuat "daftar putih" terhadap proses tertentu yang normalnya diblokir.
-Silahkan buka perangkat lunak perlindungan antivirus atau malware Anda dan cari di dalam setting untuk "daftar putih" atau sesuatu yang serupa.
-Selanjutnya, kecualikan proses berikut:
+Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
+Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
+Next, exclude the following processes:
 
-* Untuk Windows
-  * firefox.exe 
-  * tor.exe 
-  * obfs4proxy.exe (jika Anda menggunakan bridge)
+* For Windows
+  * firefox.exe
+  * tor.exe
+  * obfs4proxy.exe (if you use bridges)
 
 
-* For OS X 
-  * TorBrowser 
-  * tor.real 
-  * obfs4proxy (jika Anda menggunakan bridge)
+* For OS X
+  * TorBrowser
+  * tor.real
+  * obfs4proxy (if you use bridges)
 
-Akhirnya, restart Tor Browser.
-Ini seharusnya memperbaiki masalah yang Anda alami.
-Harap dicatat bahwa beberapa klien antivirus, seperti Kaspersky, juga dapat memblokir Tor di tingkat firewall.
+Finally, restart Tor Browser.
+This should fix the issues you're experiencing.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

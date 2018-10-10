@@ -5,6 +5,6 @@ title: Pourquoi mon Navigateur Tor me dit-il que quelque chose ne fonctionne pas
 seo_slug: navigateur-tor-firefox-ne-fonctionne-pas-erreur
 ---
 description:
-Le Navigateur Tor est développé à partir de <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark> (en anglais), et il est donc possible que des erreurs concernant Firefox surviennent.
-Veuillez vous assurer qu’un autre Navigateur Tor n’est pas en cours d’exécution et que vous avez extrait le Navigateur Tor dans un emplacement pour lequel votre utilisateur détient les bonnes permissions.
-Si vous utilisez un antivirus, veuillez consulter <mark><a href="http://support.torproject.org/#tbb-10">Mon antivirus ou ma protection contre les programmes malveillants m’empêche d’accéder au Navigateur Tor</a></mark>. Il n’est pas rare que les logiciels antivirus ou antiprogrammes malveillants provoquent ce genre de problème.
+Tor Browser is built using <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, so errors regarding Firefox may occur.
+Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for.
+If you are running an anti-virus, please see <mark><a href="http://support.torproject.org/#tbb-10">My antivirus/malware protection is blocking me from accessing Tor Browser</a></mark>, it is common for anti-virus / anti-malware software to cause this type of issue.

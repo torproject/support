@@ -5,5 +5,5 @@ title: Estic tenint un problema amb DuckDuckGo.
 seo_slug: problemes-amb-duckduckgo
 ---
 description:
-Consulteu el <mark><a href="https://duck.co/help">portal d'assistència DuckDuckGo</a></mark>.
-Si creieu que aquest és un problema del navegador Tor, informeu-lo al nostre <mark><a href="https://trac.torproject.org/">seguidor d'errors</a></mark>.
+Please see the <mark><a href="https://duck.co/help">DuckDuckGo support portal</a></mark>.
+If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

@@ -3,6 +3,6 @@ _model: question
 title: Pour quelles plateformes le Navigateur Tor est-il proposé ?
 ---
 description:
-Le Navigateur Tor est actuellement proposé pour <mark><a href="https://www.torproject.org/download/download-easy.html.en#windows">Windows</a></mark>, <mark><a href="https://www.torproject.org/download/download-easy.html.en#linux">Linux</a></mark> et <mark><a href="https://www.torproject.org/download/download-easy.html.en#mac">macOS (OS X)</a></mark>.
-Pour <mark><a href="https://www.torproject.org/docs/android.html.en">Android</a></mark>, <mark><a href="https://guardianproject.info/">le Projet Guardian maintient les applis propulsées par Tor : <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> et <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>.
-Il n’existe pas encore de version officielle de Tor pour iOS, bien que nous recommandions le <mark><a href="https://onionbrowser.com/">Navigateur Onion</a></mark>.
+Tor Browser is currently available on <mark><a href="https://www.torproject.org/download/download-easy.html.en#windows">Windows</a></mark>, <mark><a href="https://www.torproject.org/download/download-easy.html.en#linux">Linux</a></mark> and <mark><a href="https://www.torproject.org/download/download-easy.html.en#mac">macOS (OS X)</a></mark>.
+For <mark><a href="https://www.torproject.org/docs/android.html.en">Android</a></mark>, <mark><a href="https://guardianproject.info/">The Guardian Project</a></mark> maintains the Tor-powered apps <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> and <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>.
+There is no official version of Tor for iOS yet, though we recommend <mark><a href="https://onionbrowser.com/">Onion Browser</a></mark>.

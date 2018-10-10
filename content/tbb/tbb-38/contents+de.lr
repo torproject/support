@@ -5,5 +5,5 @@ title: Kann mein Netzwerkadministrator erkennen, dass ich den Tor Browser verwen
 seo_slug: netzwerk-admin-weiß-ich-benutze-tor
 ---
 description:
-Niemand kann feststellen welche Webseiten du besuchst, wenn du Tor Browser verwendest.
-Es könnte aber sein, dass dein ISP oder Netzwerk-Admins erkennen, dass du dich mit dem Tor-Netzwerk verbindest, jedoch ohne zu erfahren, was du tust, wenn du dort bist.
+When using Tor Browser, no one can see the websites that you visit.
+However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.

@@ -21,8 +21,8 @@ description:
 
 ##### নিউ টর সার্কিট এই সাইটের জন্য
 
-যদি প্রস্থান রিলে আপনি ব্যবহার করছেন তাহলে এই বিকল্পটি দরকারী, অথবা আপনার প্রয়োজন ওয়েবসাইটে সংযোগ করতে অক্ষম, অথবা এটি সঠিকভাবে লোড করা নেই ।
-এটি নির্বাচন করার জন্য বর্তমানে সক্রিয় ট্যাব বা উইন্ডো একটি নতুন টর সার্কিটে লোড করা হবে ।
+This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
+Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
 
 একই ওয়েবসাইট থেকে অন্যান্য খোলা ট্যাব এবং windows নতুন সার্কিট ব্যবহার করবে, যা পুনরায় লোড করা হবে.
 

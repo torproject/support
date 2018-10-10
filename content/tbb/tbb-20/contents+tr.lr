@@ -5,6 +5,6 @@ title: Tor Browser bağlantısı kurulamıyor, ancak bir sansürleme var gibi g�
 seo_slug: tor-browser-baglantisi-kurulamiyor-ag-sansurlenmemis
 ---
 description:
-En sık karşılaşılan Tor Browser bağlantı sorunlarından biri sistem saatinin hatalı olmasıdır.
-Lütfen sistem saati ve saat diliminin tam olarak doğru olduğundan emin olun.
-Sorun çözülmezse, <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser Belgelerinde</a></mark> Sorun Çözme bölümüne bakabilirsiniz.
+One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
+Please make sure your system clock and timezone are set accurately.
+If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.

@@ -5,6 +5,6 @@ title: Puis-je définir le Navigateur Tor comme navigateur par défaut ?
 seo_slug: définir-navigateur-tor-par-défaut
 ---
 description:
-Il n’existe actuellement aucune méthode prise en charge pour définir le Navigateur Tor comme navigateur par défaut.
-Le Navigateur Tor s’efforce de s’isoler du reste de votre système, et les étapes pour le rendre navigateur par défaut ne sont pas fiables.
-Cela signifie que parfois un site Web se chargerait dans le Navigateur Tor, et parfois il se chargerait dans un autre navigateur. Ce genre de comportement peut être dangereux et compromettre l’anonymat.
+There is currently no supported method for setting Tor Browser as your default browser.
+The Tor Browser works hard to isolate itself from the rest of your system, and the steps for making it the default browser are unreliable.
+This means sometimes a website would load in the Tor Browser, and sometimes it would load in another browser, this type of behavior can be dangerous and anonymity-breaking.

@@ -5,10 +5,10 @@ title: Bir web sitesi (banka, e-posta hizmeti sağlayıcısı gibi) Tor kulland�
 seo_slug: tor-browser-web-sitesi-tarafindan-engelleniyor
 ---
 description:
-Tor Browser sıklıkla bağlantınızı dünyanın başka bir yerinden geliyormuş gibi gösterir.
-Bankalar, e-posta hizmeti sağlayıcıları gibi bazı web siteleri bu durumu hesabınızın ele geçirildiği şeklinde değerlendirerek erişiminizi engelleyebilir.
+Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
+Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
 
 Bu sorunu çözmenin tek yolu hesabınızdaki engellemenin kaldırılması için site tarafından önerilen yöntemi uygulamak ya da işletmeci ile görüşerek durumu açıklamaktır.
 
-Hizmet sağlayıcınız IP temelli güvenlik denetimleri yerine çok daha iyi bir güvenlik seçeneği olan iki aşamalı kimlik doğrulaması sunuyorsa bu durumdan kaçınabilirsiniz. 
-Hizmet sağlayıcınız ile görüşerek iki aşamalı kimlik doğrulaması sunup sunmadığını öğrenin.
+You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
+Contact your provider and ask them if they provide 2FA.

@@ -5,7 +5,7 @@ title: An gcoinníonn Brabhsálaí Tor feidhmchláir eile ar mo ríomhaire slán
 seo_slug: tor-browser-protecting-other-apps
 ---
 description:
-Trácht de chuid bhrabhsálaí Tor amháin a sheoltar thar líonra Tor.
-Ní bheidh feidhmchláir eile ar do chóras (brabhsálaithe eile san áireamh) ceangailte le líonra Tor, agus ní bheidh siad cosanta dá bharr sin.
-Caithfidh tú cumrú speisialta a dhéanamh chun Tor a úsáid leo.
-Má tá tú ag iarraidh deimhniú go rachaidh an trácht go léir ó do ríomhaire thar líonra Tor, caith súil ar an gcóras oibriúcháin <mark><a href="https://tails.boum.org/">Tails live</a></mark>, córas is féidir a chur i bhfeidhm ar bheagnach aon ríomhaire ó chipín USB nó ó DVD.
+Only Tor Browser's traffic will be routed over the Tor network.
+Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected.
+They need to be configured separately to use Tor.
+If you need to be sure that all traffic will go through the Tor network, take a look at the <mark><a href="https://tails.boum.org/">Tails live operating system</a></mark> which you can start on almost any computer from a USB stick or a DVD.

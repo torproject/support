@@ -6,14 +6,14 @@ seo_slug: website-is-blocking-access-over-tor
 ---
 description:
 
-Uaireanta, cuireann suímh cosc ar úsáideoirí toisc nach féidir leo idirdhealú a dhéanamh idir gnáthúsáideoirí Tor agus trácht uathoibrithe.
-An straitéis is fearr atá againn ó thaobh deireadh a chur leis an gcosc ar úsáideoirí Tor ná dul i dteagmháil go díreach le riarthóirí an tsuímh.
-Seans go ndéanfadh rud éigin mar seo an beart:
+Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
+The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
+Something like this might do the trick:
 
-"Dia dhuit! Rinne mé iarracht cuairt a thabhairt ar do shuíomh xyz.com le Brabhsálaí Tor ach de réir cosúlachta cuireann sibh cosc ar úsáideoirí Tor.
-Molaim go láidir duit athmhachnamh a dhéanamh ar an gcinneadh seo; úsáideann daoine ar fud an domhain Tor lena bpríobháideachas a chosaint agus le troid in aghaidh cinsireachta.
-Trí chosc a chur ar úsáideoirí Tor, is dócha go bhfuil tú ag cur cosc ar dhaoine atá faoi smacht ina dtír dhúchais agus nach bhfuil in ann leas a bhaint as Idirlíon saor is oscailte, ar iriseoirí, taighdeoirí, daoine nochta scéil, gníomhaithe, agus gnáthdhaoine nach bhfuil sásta leis an lorgaireacht chunórach a dhéanann tríú páirtithe ar an nGréasán.
-Iarraim ort an fód a sheasamh ar son príobháideachais dhigitigh agus ar son saoirse Idirlín, trí chead a thabhairt d'úsáideoirí Tor xyz.com a úsáid. Go raibh míle maith agat."
+"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
+I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
+By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
+Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
 
 I gcás bancanna nó suímh íogaire eile, feictear blocáil bunaithe ar thíreolaíocht (má tá a fhios ag an mbanc a úsáideann tú a chuid seirbhísí ó thír amháin de ghnáth, agus má fheiceann siad go bhfuil tú ag ceangal ó thír ar an taobh eile den domhan, seans go gcuirfeadh an banc do chuntas faoi ghlas nó ar fionraí).
 

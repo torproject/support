@@ -5,6 +5,6 @@ title: Saya mengalami masalah ketika menggunakan fitur-fitur di Facebook, Twitte
 seo_slug: tor-browser-issues-facebook-twitter-websites 
 ---
 description:
-Kadang-kadang website yang banyak menggunakan Javascript dapat memiliki masalah fungsional di Tor Browser.
-Solusi paling sederhana adalah klik pada "onion menu," kemudian klik pada keamanan slider.
-Atur keamanan Anda ke "Standar".
+Sometimes Javascript-heavy websites can have functional issues over Tor Browser.
+The simplest fix is to click on the "onion menu," then click on the security slider.
+Set your security to "Standard".

@@ -5,7 +5,7 @@ title: Warum basiert Tor Browser auf Firefox und nicht auf einem anderen Browser
 seo_slug: warum-basiert-tor-browser-auf-firefox
 ---
 description:
-Tor Browser ist eine Version von Firefox, die speziell auf den Einsatz mit Tor angepasst wurde.
-Viel Arbeit wurde in Tor Browser investiert, inklusive vieler Verbesserungen für erhöhte Privatsphäre und Sicherheit.
-Obwohl es technisch gesehen möglich ist, Tor mit anderen Browsern zu benutzen, gefährdet es deine Anonymität durch verschiedene mögliche Angriffe und Informations-Leaks, daher raten wir stark davon ab.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Mehr über das Design von Tor Browser</a></mark>.
+Tor Browser is a modified version of Firefox specifically designed for use with Tor.
+A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
+While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a></mark>.

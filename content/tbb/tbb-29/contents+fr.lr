@@ -21,8 +21,8 @@ Le Navigateur Tor vous avertira que tous activités et téléchargements seront 
 
 ##### Nouveau circuit Tor pour ce site
 
-Cette option est utile si le relais de sortie que vous utilisez n’arrive pas à se connecter au site Web que vous demandez ou s’il ne se charge pas correctement.
-Sélectionner cette option entraînera le rechargement de l’onglet ou de la fenêtre actuellement actifs avec un nouveau circuit Tor.
+This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
+Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
 
 Les autres onglets et fenêtres ouverts du même site Web utiliseront aussi les nouveaux circuits une fois qu’ils seront rechargés.
 

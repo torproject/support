@@ -5,7 +5,7 @@ title: ¿Usar el Tor Browser protege a otras aplicaciones en mi equipo?
 seo_slug: el-navegador-tor-protegiendo-otras-apps
 ---
 description:
-Sólo se enrutará el tráfico del Tor Browser en la red Tor.
-Cualquier otra aplicación en tu sistema (incluyendo otros navegadores) no tendrá enrutadas sus conexiones sobre la red Tor, y no estará protegida.
-Se tienen que configurar de forma separada para usar Tor.
-Si necesitas asegurar que todo el tráfico vaya a través de la red Tor, echa un vistazo al<mark><a href="https://tails.boum.org/">sistema tema operativo autoarrancable Tails</a></mark> que se puede iniciar en casi cualquier equipo desde una memoria USB o un DVD.
+Only Tor Browser's traffic will be routed over the Tor network.
+Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected.
+They need to be configured separately to use Tor.
+If you need to be sure that all traffic will go through the Tor network, take a look at the <mark><a href="https://tails.boum.org/">Tails live operating system</a></mark> which you can start on almost any computer from a USB stick or a DVD.

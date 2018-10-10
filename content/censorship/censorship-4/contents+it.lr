@@ -5,7 +5,7 @@ title: Non posso connettermi a Tor Browser, la mia rete è censurata?
 seo_slug: impossibile-connettersi-a-tor-browser
 ---
 description:
-Potresti essere su una rete censurata e quindi dovresti provare a utilizzare i bridges.
-Alcuni bridges sono incorporati in Tor Browser e puoi utilizzarli scegliendo "configura" (seguendo poi le istruzioni) nella finestra del Launcher Tor che appare quando apri Tor Browser per la prima volta.
-Se hai bisogno di altri ponti, puoi ottenerli sul nostro <mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>.
-Per maggiori informazioni riguardo ai ponti, fai riferimento al <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser Manual</a></mark>.
+You might be on a censored network, and so you should try using bridges.
+Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time.
+If you need other bridges, you can get them at our <mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>.
+For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.

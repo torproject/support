@@ -5,7 +5,7 @@ title: آیا هنگامی که از Tor استفاده می‌کنم، قابل
 seo_slug: can-eavesdroppers-see-information-i-share
 ---
 description:
-تور مانع از گوش ایستادن در سایت‌های یادگیری می‌شود که شما از آن‌ها دیدن می‌کنید.
+Tor prevents eavesdroppers from learning sites that you visit.
 However, information sent unencrypted over the internet using plain HTTP can still be intercepted by exit relay operators or anyone observing the traffic between your exit relay and your destination website.
 If the site you are visiting uses HTTPS, then the traffic leaving your exit relay will be encrypted, and won't be visible to eavesdroppers.
 

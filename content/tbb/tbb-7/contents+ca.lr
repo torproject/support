@@ -5,15 +5,15 @@ title: Un lloc web que estic tractant d'arribar bloqueja l'accés a Tor.
 seo_slug: llocweb-bloca-accés-desde-tor
 ---
 description:
-De vegades, els llocs web bloquegen els usuaris de Tor perquè no poden avaluar la diferència entre l'usuari Tor mitjà i el tràfic automatitzat.
-La millor manera que hem tingut per que els llocs desbloquejin els usuaris de Tor és que els usuaris es posin en contacte directament amb els administradors del lloc.
-Alguna cosa així podria funcionar:
+Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
+The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
+Something like this might do the trick:
 
-"Hola! He intentat accedir al vostre lloc xyz.com mentre feia servir el Navegador Tor i he descobert que no permet que els usuaris de Tor accedeixin al vostre lloc.
-Et convido a reconsiderar aquesta decisió; Tor és utilitzat per persones de tot el món per protegir la seva intimitat i lluitar contra la censura.
-Bloquejar els usuaris de Tor, probablement bloquejarà persones en països repressius que vulguin utilitzar una internet lliure, periodistes i investigadors que volen protegir-se de ser descoberts, denunciants, activistes i persones habituals que volen optar per un seguiment invasiu de tercers.
-Si us plau, prengui una posició forta a favor de la privadesa digital i la llibertat d'internet i permeti als usuaris de Tor accedir a xyz.com.
-Gràcies."
+"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
+I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
+By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
+Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com.
+Thank you."
 
-En el cas dels bancs i altres llocs web sensibles, també és habitual veure bloqueig basat en la geografia (si un banc sap que en general accedeix als seus serveis d'un país i, de sobte, es connecta d'un repetidor de sortida a l'altre costat del món, el vostre compte pot estar bloquejat o suspès).
-Si no podeu connectar-vos a un servei de onion, consulteu <a href="#onionservices-3">No puc accedir a X.onion!</a>
+In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
+If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a>

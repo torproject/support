@@ -5,7 +5,7 @@ title: Cén fáth a bhfuil Brabhsálaí Tor bunaithe ar Firefox seachas ar bhrab
 seo_slug: tor-browser-is-built-from-firefox-why
 ---
 description:
-Leagan de Firefox saindeartha do líonra Tor is ea Brabhsálaí Tor.
-Chaitheamar mórán dua le Brabhsálaí Tor, cód breise a fheabhsaíonn príobháideachas agus slándáil san áireamh.
-Cé gur féidir leat Tor a úsáid le brabhsálaithe eile go teicniúil, chuirfeá thú féin i mbaol ionsaithe agus do chuid sonraí pearsanta i mbaol nochta. Molaimid go láidir duit gan é seo a dhéanamh.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Tuilleadh eolais maidir le dearadh Bhrabhsálaí Tor</a></mark>.
+Tor Browser is a modified version of Firefox specifically designed for use with Tor.
+A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
+While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a></mark>.

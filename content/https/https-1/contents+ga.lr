@@ -5,16 +5,16 @@ title: Agus Brabhsálaí Tor in úsáid agam, an bhfuil cúléisteoirí in ann a
 seo_slug: can-eavesdroppers-see-information-i-share
 ---
 description:
-Cuireann Tor cosc ar chúléisteoirí na suímh a dtugann tú cuairt orthu a fheiceáil.
-Mar sin féin, nuair a sheolann tú faisnéis neamhchriptithe trasna an Idirlín thar HTTP, is féidir le hoibreoirí an athsheachadáin amach, nó le haon duine atá ag féachaint ar an trácht idir an athsheachadán amach agus an suíomh Gréasáin, an trácht sin a fheiceáil.
-Nuair a thugann tú cuairt ar shuíomh HTTPS, bíonn an trácht a fhágann an t-athsheachadán amach criptithe sa chaoi nach mbeadh cúléisteoir in ann é a léamh.
+Tor prevents eavesdroppers from learning sites that you visit.
+However, information sent unencrypted over the internet using plain HTTP can still be intercepted by exit relay operators or anyone observing the traffic between your exit relay and your destination website.
+If the site you are visiting uses HTTPS, then the traffic leaving your exit relay will be encrypted, and won't be visible to eavesdroppers.
 
 <div class="row">
   <div class="col-md-6">
     <div class="card">
       <img class="card-img-top" src="/static/images/image2.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">Má tá tú ag úsáid HTTPS, tosóidh URL an tsuímh le "https://".</h4>
+        <h4 class="card-title">If you are using HTTPS, your website URL will begin with "https://".</h4>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ Nuair a thugann tú cuairt ar shuíomh HTTPS, bíonn an trácht a fhágann an t-
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">Léiríonn an pictiúr seo an t-eolas is féidir le cúléisteoirí a fheiceáil le agus gan Brabhsálaí Tor agus criptiúchán HTTPS.</h4>
+        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
       </div>
     </div>
   </div>

@@ -5,7 +5,7 @@ title: Chuala mé trácht ar shuímh Ghréasáin nach féidir teacht orthu ach t
 seo_slug: accessing-websites-that-are-only-accessible-over-tor
 ---
 description:
-Tugtar "onion" ar shuíomh Gréasáin nach féidir teacht air ach trí líonra Tor, agus úsáideann na suímh seo an fearann barrleibhéil .onion.
-Mar shampla, is é <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a> an onion i gcomhair DuckDuckGo.
-Is féidir leat Brabhsálaí Tor a úsáid chun teacht ar na suímh seo.
-Caithfidh tú na seoltaí a fháil go díreach ó óstach an tsuímh, toisc nach bhfuil suímh onion innéacsaithe ag innill chuardaigh sa chaoi a ndéantar le gnáthshuímh Ghréasáin.
+Websites that are only accessible over Tor are called "onions" and end in the TLD .onion.
+For example, the DuckDuckGo onion is <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
+You can access these websites by using Tor Browser.
+The addresses must be shared with you by the website host, as onions are not indexed in search engines in the typical way that vanilla websites are.

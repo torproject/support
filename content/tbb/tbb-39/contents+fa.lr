@@ -5,6 +5,6 @@ title: در حین استفاده از مرورگر تور برای استفاد
 seo_slug: tor-browser-issues-facebook-twitter-websites
 ---
 description:
-گاهی اوقات ممکن است سایت‌هایی که به شدت به جاوااسکریپت وابسته هستند با مرورگر تور مشکل داشته باشند.
+Sometimes Javascript-heavy websites can have functional issues over Tor Browser.
 The simplest fix is to click on the "onion menu," then click on the security slider.
-سطح امنیت برنامه را به حالت «استاندارد» ببرید.
+Set your security to "Standard".

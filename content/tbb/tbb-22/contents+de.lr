@@ -5,7 +5,7 @@ title: Wie kann ich Tor schneller machen? Ist der Tor Browser langsamer als ande
 seo_slug: tor-schneller-machen
 ---
 description:
-Den Tor Browser zu verwenden kann manchmal langsamer sein, als andere Browser zu benutzen.
-Das Tor Netzwerk hat täglich mehr als eine Million Nutzer, jedoch nur 6000 Relais, um diese Netzwerklast zu stemmen. Die Last auf jedem einzelnen Server kann zu Verzögerungen führen.
-Du kannst helfen, die Geschwindigkeit des Netzwerks zu erhöhen, indem du dein eigenes Tor Relais erstellst und andere dazu ermutigst, dasselbe zu tun.
-Trotzdem ist Tor viel schneller als bisher, und wahrscheinlich ist der Geschwindigkeits-Unterschied im Vergleich zu anderen Browsern nicht zu spüren.
+Using Tor Browser can sometimes be slower than other browsers.
+The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency.
+You can help improve the speed of the network by running your own relay, or encouraging others to do so.
+That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.

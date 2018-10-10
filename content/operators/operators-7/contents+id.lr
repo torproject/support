@@ -5,10 +5,10 @@ title: Saya harus menjalankan relay keluar di rumah?
 seo_slug: run-exit-from-home 
 ---
 description:
-Tidak.
-Jika penegakan hukum menjadi tertarik pada lalu lintas dari relay keluar Anda, sangat mungkin bahwa petugas akan merebut komputer Anda.
-Untuk alasan itu, lebih baik tidak untuk menjalankan relay keluar di rumah Anda atau menggunakan koneksi internet rumah.
+No.
+If law enforcement becomes interested in traffic from your exit relay, it's possible that officers will seize your computer.
+For that reason, it's best not to run your exit relay in your home or using your home internet connection.
 
-Sebaliknya, mempertimbangkan menjalankan relay keluar Anda dalam fasilitas komersial yang mendukung Tor.
-Miliki alamat IP terpisah untuk relay keluar Anda, dan jangan merutekan lintas Anda sendiri lalu melalui IP itu.
-Tentu saja, Anda harus menghindari menyimpan informasi sensitif atau pribadi apa pun pada komputer yang menghosting relay keluar Anda.
+Instead, consider running your exit relay in a commercial facility that is supportive of Tor.
+Have a separate IP address for your exit relay, and don't route your own traffic through it.
+Of course, you should avoid keeping any sensitive or personal information on the computer hosting your exit relay.

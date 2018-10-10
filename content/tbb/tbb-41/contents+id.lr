@@ -5,6 +5,6 @@ title: Kenapa mesin pencari Saya berubah menjadi DuckDuckGo?
 seo_slug: why-is-tor-using-duckduckgo 
 ---
 description:
-Dengan rilis dari Tor Browser 6.0.6, kami beralih ke DuckDuckGo sebagai mesin pencari utama.
-Untuk sekarang, Disconnect tidak punya akses ke hasil pencarian Google yang kita gunakan dalam Tor Browser.
-Karena Disconnect adalah sebuah mesin pencari meta yang memungkinkan pengguna untuk memilih antara penyedia layanan pencarian yang berbeda, menggunakan Bing, yang memberikan hasil pencarian yang tidak dapat diterima pada kualitasnya.
+With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine.
+For a while now, Disconnect has had no access to Google search results which we used in Tor Browser.
+Since Disconnect is more of a meta search engine which allows users to choose between different search providers, it fell back to delivering Bing search results which were basically unacceptable quality-wise.

@@ -5,6 +5,6 @@ title: আমি কি টর ব্রাউজারে ফ্ল্যাশ
 seo_slug: ব্যবহার-ফ্ল্যাশ-টর-ব্রাউজার
 ---
 description:
-টর ব্রাউজারে ফ্ল্যাশ অক্ষম করা আছে, এবং আমরা আপনাকে এটি সক্ষম করতে সুপারিশ করছি না।
-আমরা মনে করি না যে ফ্ল্যাশটি কোনও ব্রাউজারে ব্যবহার করা নিরাপদ - এটি এমন একটি অত্যন্ত অসুরক্ষিত সফ্টওয়্যার যা আপনার গোপনীয়তাকে সহজেই সংঘাত করতে পারে বা আপনাকে ম্যালওয়ার পরিবেশন করতে পারে।
-সৌভাগ্যবশত, বেশিরভাগ ওয়েবসাইট, ডিভাইস এবং অন্যান্য ব্রাউজার ফ্ল্যাশ ব্যবহার থেকে দূরে চলে যাচ্ছে।
+Flash is disabled in Tor Browser, and we recommend you do not enable it.
+We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware.
+Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.

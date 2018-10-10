@@ -5,6 +5,6 @@ title: ¿Cómo veo el registro de mensajes del navegador Tor?
 seo_slug: ver-los-mensajes-del-navegador-tor
 ---
 description:
-Pulsa el botón "Copiar registro de Tor al portapapeles" que aparece en la ventana de diálogo cuando el Tor Browser se está conectando por primera vez a la red.
-Si el Tor Browser ya está abierto, pulsa sobre el icono de Torbutton (la pequeña cebolla verde en la parte superior izquierda de la pantalla), luego pulsa "Abrir configuración de red", y luego "Copiar registro de Tor al portapapeles".
-Una vez hayas copiado el registro, podrás pegarlo en el editor de texto o cliente de correo electrónico.
+Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
+If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
+Once you have copied the log, you will be able to paste it into a text editor or email client.

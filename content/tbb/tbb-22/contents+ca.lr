@@ -5,7 +5,7 @@ title: Com puc fer que Tor funcioni més ràpid? El navegador Tor és més lent 
 seo_slug: fer-tor-més-rapid
 ---
 description:
-L'ús del navegador Tor a vegades pot ser més lent que altres navegadors.
-La xarxa Tor té més d'un milió d'usuaris diaris, i poc més de 6000 repetidors per recórrer tot el seu trànsit, i la càrrega de cada servidor pot provocar sw vegades latència.
-Podeu ajudar a millorar la velocitat de la xarxa mitjançant l'execució del vostre propi repetidor, o bé encoratja a altres a fer-ho.
-Dit això, Tor és molt més ràpid del que era, i és possible que no detecteu canvis en la velocitat d'altres navegadors.
+Using Tor Browser can sometimes be slower than other browsers.
+The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency.
+You can help improve the speed of the network by running your own relay, or encouraging others to do so.
+That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.

@@ -5,5 +5,5 @@ title: Conas is féidir Tor a íoslódáil má tá cosc ar torproject.org?
 seo_slug: how-to-download-tor-if-torproject-org-is-blocked
 ---
 description:
-Mura bhfuil tú in ann Tor a íoslódáil ónár ​<mark><a href="https://www.torproject.org">suíomh Gréasáin</a></mark>, is féidir leat Tor a fháil trí sheirbhís GetTor.
-Is éard atá in GetTor ná seirbhís a fhreagraíonn teachtaireachtaí le nascanna leis an leagan is déanaí de Bhrabhsálaí Tor, óstáilte in áiteanna éagsúla nach bhfuil faoi chinsireacht, ar nós Dropbox, Tiomántán Google, agus Github.
+If you can't download Tor through our <mark><a href="https://www.torproject.org">website</a></mark>, you can get a copy of Tor delivered to you via GetTor.
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.

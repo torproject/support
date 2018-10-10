@@ -5,5 +5,5 @@ title: টর্স্ট কি লগ রাখে?
 seo_slug: does-tor-keep-logs
 ---
 description:
-টর এমন কোনো লগ রাখবেন না যা কোন নির্দিষ্ট ব্যবহারকারী সনাক্ত করতে পারে.
-নেটওয়ার্ক ফাংশন কিভাবে আপনি <mark><a href="https://metrics.torproject.org/">টর মেট্রিকগুলো</a></mark> চেক করতে পারেন তার কিছু নিরাপদ পরিমাপ আমরা গ্রহণ করি.
+Tor doesn't keep any logs that could identify a particular user.
+We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

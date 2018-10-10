@@ -5,21 +5,21 @@ title: El meu antivirus o protecció de programari maliciós m'està bloquejant 
 seo_slug: antivirus-bloqueig-tor
 ---
 description:
-La majoria de la protecció antivirus o de programari maliciós permet a l'usuari "llistes blanques" certs processos que d'una altra forma serien bloquejats.
-Obriu l'antivirus o la protecció de programari maliciós i cerqueu a les opcions «Llista blanca» o alguna cosa semblant.
-A continuació, s'exclouen els següents processos:
+Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
+Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
+Next, exclude the following processes:
 
-* Per Windows
+* For Windows
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (si utilitzes ponts)
+  * obfs4proxy.exe (if you use bridges)
 
 
-* Per OS X
+* For OS X
   * TorBrowser
   * tor.real
-  * obfs4proxy (si utilitzes ponts)
+  * obfs4proxy (if you use bridges)
 
-Finalment, reinicieu el navegador Tor.
-Això solucionarà els problemes que estigueu experimentant.
-Tingueu en compte que alguns clients antivirus, com Kaspersky, també poden bloquejar Tor al nivell de tallafocs.
+Finally, restart Tor Browser.
+This should fix the issues you're experiencing.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

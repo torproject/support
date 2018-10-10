@@ -5,7 +5,7 @@ title: Per què el navegador Tor es va crear a partir de Firefox i no d'un altre
 seo_slug: navegador-tor-es-construit-desde-firefox
 ---
 description:
-El Navegador Tor és una versió modificada de Firefox dissenyada específicament per al seu ús amb Tor.
-S'ha fet un gran esforç per fer que el navegador Tor, inclòs l'ús de pegats addicionals per millorar la privadesa i la seguretat.
-Tot i que és tècnicament possible utilitzar Tor amb altres navegadors, podeu obrir-vos a possibles atacs o filtracions d'informació, de manera que us ho desaconsellem molt.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Més informació sobre el disseny del navegador Tor.</a></mark>
+Tor Browser is a modified version of Firefox specifically designed for use with Tor.
+A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
+While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a></mark>.

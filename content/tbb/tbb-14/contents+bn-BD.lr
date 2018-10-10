@@ -5,5 +5,5 @@ title: আমার অ্যাডব্লক প্লাস বা ইউব
 seo_slug: ইনস্টল-অড-অন-এক্সটেনশন-টর-ব্রাউজার
 ---
 description:
-টর ব্রাউজারে নতুন অ্যাড-অন ইনস্টল করতে এটা জোরালোভাবে নিরুৎসাহিত, কারণ তারা আপনার গোপনীয়তা এবং নিরাপত্তাকে বিপদ্গ্রস্ত করতে পারে ।
-টর ব্রাউজারটি ইতিমধ্যে দুটি অ্যাড-অন দিয়ে ইনস্টল করা হয়েছে - HTTPS Everywhereএবং NoScript- এবং অন্য কিছু যোগ করলেই আপনাকে ডিনোমিমেজ করতে পারে।
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.

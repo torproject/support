@@ -5,5 +5,5 @@ title: Ist es sicher, den Tor Browser und einen anderen Browser zur selben Zeit 
 seo_slug: nutze-tor-browser-und-andere-browser
 ---
 description:
-Wenn du den Tor Browser und einen anderen Browser zur selben Zeit laufen lässt, gefährdet dies weder die Leistung, noch die Privatsphäreeinstellungen von Tor.
-Sei dir jedoch bewusst, dass dein anderer Browser deine Aktivitäten nicht privat behandelt und du versehentlich diesen unsicheren Browser für etwas verwendest, für das du eigentlich den Tor Browser nutzen wolltest.
+If you run Tor Browser and another browser at the same time, it won't affect Tor's performance or privacy properties.
+However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.

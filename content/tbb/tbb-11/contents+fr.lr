@@ -5,10 +5,10 @@ title: J’ai téléchargé et installé le Navigateur Tor pour Windows, mais ma
 seo_slug: impossible-de-trouver-tor-sous-windows
 ---
 description:
-Le fichier que vous avez téléchargé et exécuté vous demande d’entrer un dossier de destination.
-Si vous ne vous souvenez pas de ce qu’était le dossier de destination, il s’agit très probablement de votre dossier Téléchargement ou Bureau.
+The file you download and run prompts you for a destination.
+If you don't remember what this destination was, it's most likely your Downloads or Desktop folder.
 
 Les paramètres par défaut du programme d’installation pour Windows crée également un raccourci pour vous sur votre Bureau, mais il est possible que vous ayez accidentellement décoché l’option pour créer un raccourci.
 
-Si vous ne le trouvez pas dans l’un de ces dossiers, téléchargez-le à nouveau et cherchez la section vous demandant de choisir un répertoire dans lequel effectuer le téléchargement.
-Choisissez un répertoire dont vous vous souviendrez facilement, et une fois que le téléchargement est terminé, vous devriez y voir un dossier Navigateur Tor.
+If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
+Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.

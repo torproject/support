@@ -5,6 +5,6 @@ title: آیا در حین استفاده از مرورگر تور همچنان �
 seo_slug: دانلود-مرورگر-تور-برای-ChromeOS
 ---
 description:
-حتماً می‌توانید همزمان با مرورگر تور از سایر مرورگرها استفاده کنید.
-با این حال باید بدانید که تنظیمات مربوط به حریم خصوصی مرورگر تور در سایر مرورگرها وجود ندارد.
-وقتی بین تور و مرورگری با ایمنی کمتر جابجا می‌شوید مراقب باشید چون ممکن است از آن مرورگر برای کاری استفاده کنید که قصد داشتید آن را با تور انجام دهید.
+You can certainly use another browser while you are also using Tor Browser.
+However, you should know that the privacy properties of Tor Browser will not be present in the other browser.
+Be careful when switching back and forth between Tor and a less safe browser, because you may accidentally use the other browser for something you intended to do using Tor.

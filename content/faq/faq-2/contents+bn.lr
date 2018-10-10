@@ -5,8 +5,8 @@ title: আমাদের ওয়েবসাইট একটি সেন্�
 seo_slug: can-tor-help-users-access-website
 ---
 description:
-টর ব্রাউজার অবশ্যই লোকেদের আপনার ওয়েবসাইটে অ্যাক্সেস করতে সাহায্য করতে পারে যেখানে এটি অবরুদ্ধ রয়েছে।
-অধিকাংশ সময়, শুধু <mark><a href="https://www.torproject.org/download/download-easy.html.en">টর ব্রাউজার</a></mark> ডাউনলোড করে, এবং তারপর এটি ব্যবহার করে নেভিগেট করতে অবরুদ্ধ করা হয়েছে এমন সাইট অ্যাক্সেসর অনুমতি দেবে।
-এমন জায়গায় যেখানে প্রচুর সেন্সরশিপ রয়েছে, সেখানে আমাদের কাছে প্রচুর পরিমাণে সেন্সরশিপ আছে যা <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">প্ল্যাগেবল ট্রান্সপোর্টগুলি</a></mark> সহ।
+Tor Browser can certainly help people access your website in places where it is blocked.
+Most of the time, simply downloading the <mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> and then using it to navigate to the blocked site will allow access.
+In places where there is heavy censorship we have a number of censorship circumvention options available, including <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>.
 
 আরো তথ্যের জন্য, <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">সেন্সরশিপের</a></mark> উপর <mark><a href="https://tb-manual.torproject.org/en-US/">টর ব্রাউজার ইউজার ম্যানুয়াল</a></mark> বিভাগ দেখুন।

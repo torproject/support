@@ -5,6 +5,6 @@ title: An féidir liom Flash a úsáid i mbrabhsálaí Tor?
 seo_slug: using-flash-tor-browser
 ---
 description:
-Tá Flash díchumasaithe i mBrabhsálaí Tor, agus molaimid duit gan é a chumasú.
-Creidimid go bhfuil sé contúirteach Flash a úsáid i mbrabhsálaí ar bith — is bogearra an-neamhshlán é a chuireann do phríobháideachas agus do ríomhaire i gcontúirt.
-Ar an dea-uair, tá suímh Ghréasáin, gléasanna, agus brabhsálaithe eile ag tabhairt droim láimhe do Flash.
+Flash is disabled in Tor Browser, and we recommend you do not enable it.
+We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware.
+Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.

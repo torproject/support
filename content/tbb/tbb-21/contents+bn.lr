@@ -5,6 +5,6 @@ title: কিভাবে টর ব্রাউজার বার্তা ল
 seo_slug: view-tor-browser-message-log
 ---
 description:
-টর ব্রাউজারটি প্রথমে নেটওয়ার্কের সাথে সংযুক্ত হওয়ার সময় ডায়ালগ উইন্ডোতে প্রদর্শিত "কপি ট্যার লগ ক্লিপবোর্ডে" লেবেল বোতামটি ক্লিক করুন।
-যদি টর ব্রাউজার ইতিমধ্যে খোলা হয়, Torbutton আইকনে ক্লিক করুন (পর্দার উপরে বামে ছোটটি সবুজ প্যানিয়ান), তারপর "ওপেন নেটওয়ার্ক সেটিংস", তারপর "কপি টর লোগ টু ক্লিপবোর্ড"।
-একবার আপনি লগ কপি করেছেন, আপনি এটি একটি টেক্সট এডিটর বা ইমেল ক্লায়েন্টে পেষ্ট করতে পারবেন।
+Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
+If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
+Once you have copied the log, you will be able to paste it into a text editor or email client.

@@ -5,16 +5,16 @@ title: Quando uso Tor, qualcuno può intercettare le informazioni che condivido 
 seo_slug: possono-gli-spioni-vedere-le-informazioni-che-condivido
 ---
 description:
-Tor impedisce agli spioni di conoscere quali siti internet hai visitato.
-Tuttavia, le informazioni inviate sui internet senza crittografia utilizzando il semplice HTTP possono essere intercettate dagli operatori degli exit relay o da qualcuno che osservi il traffico tra il tuo exit relay e il tuo sito di destinazione.
-Se il sito che stai visitando utilizza HTTPS, allora il traffico in uscita dal tuo exit relay sarà crittografato, e non sarà visibile agli spioni.
+Tor prevents eavesdroppers from learning sites that you visit.
+However, information sent unencrypted over the internet using plain HTTP can still be intercepted by exit relay operators or anyone observing the traffic between your exit relay and your destination website.
+If the site you are visiting uses HTTPS, then the traffic leaving your exit relay will be encrypted, and won't be visible to eavesdroppers.
 
-<div class="row"> 
+<div class="row">
   <div class="col-md-6">
     <div class="card">
       <img class="card-img-top" src="/static/images/image2.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">Se stai utilizzando HTTPS, l'URL del sito internet inizierà con "https://".</h4> 
+        <h4 class="card-title">If you are using HTTPS, your website URL will begin with "https://".</h4>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ Se il sito che stai visitando utilizza HTTPS, allora il traffico in uscita dal t
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">Questa visualizzazione mostra quale informazione è visibile agli spioni con e senza Tor Browser e la crittografia HTTPS.</h4> 
+        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
       </div>
     </div>
   </div>

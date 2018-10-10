@@ -5,7 +5,7 @@ title: Conas is féidir liom comhaid a roinnt trí Tor gan m'aitheantas a nochta
 seo_slug: share-files-anonymously-through-tor
 ---
 description:
-Cumraítear go leor athsheachadán le cosc a chur ar chineálacha áirithe tráchta a bhaineann le comhroinnt comhad, mar shampla BitTorrent.
-Dá bharr sin, <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">níl sé sábháilte BitTorrent a úsáid le Tor</a></mark>.
+Many exit nodes are configured to block certain types of file sharing traffic, such as BitTorrent.
+BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
 
 Chun comhaid a roinnt trí Tor, molaimid <mark><a href="https://onionshare.org/">OnionShare</a></mark>.

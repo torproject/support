@@ -5,7 +5,7 @@ title: Tor Browser neden Firefox üzerine kuruldu ve neden başka bir tarayıcı
 seo_slug: tor-browser-icin-neden-firefox-kullaniliyor
 ---
 description:
-Tor Browser, özel olarak Tor ile çalışmak üzere değiştirilmiş bir Firefox sürümüdür.
-Tor Browser uygulamasını geliştirmek için, güvenliği ve kişisel gizliliği arttıran ek yamaların kullanımı gibi birçok iş yapılmıştır.
-Diğer web tarayıcılarda Tor ağını kullanma olanağı olsa da, bunu yaptığınızda olası saldırılara ya da bilgilerinizin ele geçirilmesine karşı daha korunmasız olursunuz. Bu nedenle başka bir web tarayıcısı ile Tor ağını kullanmamanız önemle önerilir.
-Ayrıntılı bilgi almak için <mark><a href="https://www.torproject.org/projects/torbrowser/design/">Tor Tarayıcısının Tasarımı</a></mark> bölümüne bakabilirsiniz.
+Tor Browser is a modified version of Firefox specifically designed for use with Tor.
+A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
+While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a></mark>.

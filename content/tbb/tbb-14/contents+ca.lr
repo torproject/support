@@ -5,5 +5,5 @@ title: Puc instal·lar un nou complement o una extensió al navegador Tor, com a
 seo_slug: instal·lant-extensions-navegador-tor
 ---
 description:
-S’ha desaconsellat encarecidament que instal·leu nous complements al navegador Tor, ja que poden comprometre la vostra privadesa i seguretat.
-Tor Browser ja ve instal·lat amb dos complements: HTTPS Everywhere i NoScript, i afegir-ne qualsevol altre podria fer perdre l'anonimat
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.

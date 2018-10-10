@@ -5,21 +5,21 @@ title: Meine Antivirensoftware oder mein Malwareschutz blockiert die Verbindung 
 seo_slug: antivirus-blockiert-tor
 ---
 description:
-Die meisten Antiviren- oder Malwareschutzprogramme erlauben dem Nutzer eine so genannte "Whitelist" zu erstellen, die bestimmte Prozesse erlaubt, welche in der Regel geblockt sind.
-Bitte öffne deine Antiviren- oder Malwareschutzsoftware und schaue in den Einstellungen nach einer Option für eine "Whitelist" oder so was ähnliches.
-Schließe als nächstes bitte folgende Prozesse aus:
+Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
+Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
+Next, exclude the following processes:
 
-* Für Windows
+* For Windows
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (wenn du Bridges verwendest)
+  * obfs4proxy.exe (if you use bridges)
 
 
-* Für OS X
+* For OS X
   * TorBrowser
   * tor.real
-  * obfs4proxy (wenn du Bridges verwendest)
+  * obfs4proxy (if you use bridges)
 
-Und zuletzt: Starte den Tor Browser neu.
-Das sollte deine Probleme beheben.
-Bitte beachte, dass einige Antivirenprogramme wie beispielweise Kaspersky, Tor in der Firewall blockieren können.
+Finally, restart Tor Browser.
+This should fix the issues you're experiencing.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

@@ -5,5 +5,5 @@ title: ¿Podría el administrador de mi red determinar que estoy usando el Naveg
 seo_slug: el-administrador-de-red-sabe-que-estoy-usando-tor
 ---
 description:
-Cuando se utiliza el navegador Tor, nadie puede ver los sitios web que visitas.
-Sin embargo, tu proveedor de servicio o administradores de red pueden ser capaces de ver que te estás conectando a la red Tor, aunque no sabrán lo que estás haciendo cuando llegues allí.
+When using Tor Browser, no one can see the websites that you visit.
+However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.

@@ -5,5 +5,5 @@ title: An mbeidh a fhios ag riarthóir mo líonra go bhfuilim ag úsáid Brabhs�
 seo_slug: network-admin-know-i-am-using-tor
 ---
 description:
-Nuair a úsáideann tú Brabhsálaí Tor, ní féidir le héinne na suímh a dtugann tú cuairt orthu a fheiceáil.
-É sin ráite, beidh do sholáthraí seirbhíse Idirlín nó riarthóirí do líonra in ann feiceáil go bhfuil tú ag baint úsáide as Tor, ach ní bheidh siad in ann na suímh a dtugann tú cuairt orthu a fheiceáil.
+When using Tor Browser, no one can see the websites that you visit.
+However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.
