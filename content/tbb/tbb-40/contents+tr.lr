@@ -1,9 +1,0 @@
-_model: question
----
-title: Tor Browser her web sitesi için farklı bir devre mi kullanır?
----
-seo_slug: her-web-sitesi-icin-farkli-devre
----
-description:
-In Tor Browser, every new domain gets its own circuit.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document further explains the thinking behind this design.

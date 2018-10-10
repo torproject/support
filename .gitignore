@@ -9,6 +9,8 @@ public
 *.pyc
 __pycache__
 
+contents+*.lr
+
 ### Emacs ###
 # -*- mode: gitignore; -*-
 *~

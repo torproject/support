@@ -1,9 +1,0 @@
-_model: question
----
-title: יש לי בעיה עם HTTPS Everywhere.
----
-seo_slug: problem-with-https-everywhere
----
-description:
-אנא ראה את <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere</a></mark>.
-If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

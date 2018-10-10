@@ -1,8 +1,0 @@
-_model: question
----
-title: 我能在Windows phone上使用tor网络吗？
----
-seo_slug: run-tor-on-windows-phone
----
-description:
-There is currently no supported method for running Tor on Windows Phone.

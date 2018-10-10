@@ -1,9 +1,0 @@
-_model: question
----
-title: כשאני משתמש בדפדפן Tor, האם מישהו יוכל לגלות באילו אתרים אני מבקר?
----
-seo_slug: will-anyone-be-able-to-tell-which-website-i-visit
----
-description:
-דפדפן Tor מונע מאנשים לדעת באילו אתרים אתה מבקר.
-Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. 

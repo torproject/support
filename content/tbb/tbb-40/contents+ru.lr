@@ -1,9 +1,0 @@
-_model: question
----
-title: Использует ли Tor Browser различные цепочки для каждого сайта?
----
-seo_slug: different-circuit-each-website
----
-description:
-В Tor Browser каждый новый домен получает свою цепочку.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document further explains the thinking behind this design.

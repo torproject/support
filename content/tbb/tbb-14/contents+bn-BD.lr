@@ -1,9 +1,0 @@
-_model: question
----
-title: আমার অ্যাডব্লক প্লাস বা ইউব্লক এর মত একটি নতুন অ্যাড অন বা এক্সটেনশন টর ব্রাউজারে ইনস্টল করা উচিত?
----
-seo_slug: ইনস্টল-অড-অন-এক্সটেনশন-টর-ব্রাউজার
----
-description:
-It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
-Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.

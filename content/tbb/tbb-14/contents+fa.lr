@@ -1,9 +1,0 @@
-_model: question
----
-title: آیا من باید افزونه اضافه شدنی جدیدی مانند AdBlock Plus یا uBlock Origin در مرورگر تور نصب کنم ؟ 
----
-seo_slug: installing-add-on-extensions-tor-browser
----
-description:
-It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
-Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.

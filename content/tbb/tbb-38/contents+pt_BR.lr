@@ -1,9 +1,0 @@
-_model: question
----
-title: Meu administrador de rede conseguirá saber se eu uso o Navegador Tor?
----
-seo_slug: administrador-rede-sabe-que-estou-usando-tor
----
-description:
-Quando você usa Tor, ninguém pode ver os sites que você visita.
-De qualquer maneira, seu provedor de serviços ou administradores da rede estão aptos para ver que você está conectando a uma rede Tor, apesar que eles não sabem o que você está fazendo quando você conecta lá.

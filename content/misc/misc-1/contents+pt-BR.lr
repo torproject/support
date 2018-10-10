@@ -1,9 +1,0 @@
-_model: question
----
-title: Eu tenho uma razão válida para rastrear um usuário do Tor. Vocês podem me ajudar? 
----
-seo_slug: rastreamento-de-usuarios-tor
----
-description:
-There is nothing the Tor developers can do to trace Tor users.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.

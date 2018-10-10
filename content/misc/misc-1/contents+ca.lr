@@ -1,9 +1,0 @@
-_model: question
----
-title: Tinc un motiu important per rastrejar un usuari de Tor. Em podeu ajudar?
----
-seo_slug: rastreig-usuari-tor
----
-description:
-There is nothing the Tor developers can do to trace Tor users.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.

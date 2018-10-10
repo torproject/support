@@ -1,9 +1,0 @@
-_model: question
----
-title: É possível se livrar de todos os captchas?
----
-seo_slug: como-se-livrar-dos-captchas
----
-description:
-Infelizmente, alguns sites entregam CAPTCHAs para usuários Tor, e nós não somos capazes de remover CAPTCHAs dos websites.
-A melhor coisa a fazer nesses casos é contactar os donos do website, e informar eles que seus CAPTCHAs estão impedindo usuários como você de usar seus serviços.

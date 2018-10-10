@@ -1,9 +1,0 @@
-_model: question
----
-title: Hi ha suport per *BSD?
----
-seo_slug: hi-ha-suport-per-bsd
----
-description:
-Sorry, but there is currently no official support for running Tor Browser on *BSD.
-There is something called the <mark><a href="https://www.torbsd.org/">TorBSD project</a></mark>, but their Tor Browser is not officially supported.

@@ -1,9 +1,0 @@
-_model: question
----
-title: টর ব্রাউজার কি প্রতিটি ওয়েবসাইটের জন্য আলাদা বর্তনী ব্যবহার করে?
----
-seo_slug: different-circuit-each-website
----
-description:
-টর ব্রাউজারে প্রতিটি নতুন ডোমেইন নিজস্ব সার্কিট পায় ।
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">টর ব্রাউজার নথির নকশা এবং বাস্তবায়ন</a></mark> এই নকশার পেছনে চিন্তার ব্যাখ্যা করে ।

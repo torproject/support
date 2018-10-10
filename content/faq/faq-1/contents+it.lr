@@ -1,9 +1,0 @@
-_model: question
----
-title: Mentre utilizzo Tor Browser, qualcuno potrebbe essere in grado di vedere i siti web che sto visitando?
----
-seo_slug: qualcuno-riuscirà-a-capire-quali-siti-visito
----
-description:
-Tor Browser prevents people from knowing the websites you visit.
-Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. 
