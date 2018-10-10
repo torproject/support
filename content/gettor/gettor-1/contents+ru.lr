@@ -1,9 +1,0 @@
-_model: question
----
-title: Как загрузить Tor, если torproject.org заблокирован?
----
-seo_slug: как-скачать-tor-если-torproject-org-заблокирован
----
-description:
-Если вы не можете скачать тор через наш <mark><a href="https://www.torproject.org">веб-сайт</a></mark>, мы можем доставить вам копию через GetTor.
-GetTor это услуга, которая автоматически отвечает сообщениями со ссылками на последнюю версию Tor Browser, размещенные в различных местах, таких как Dropbox, Google Drive и GitHub.

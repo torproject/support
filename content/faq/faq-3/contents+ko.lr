@@ -1,9 +1,0 @@
-_model: question
----
-title: Tor 브라우저에 AdBlock Plus 또는 uBlock Origin과 같이 새로운 부가 기능 또는 확장 기능을 설치해야 합니까?
----
-seo_slug: install-add-on-extension-tor-browser
----
-description:
-Tor 브라우저에 새로운 부가 기능을 설치하는 것은 절대 권장되지 않습니다. 사생활과 보안을 손상시킬 수도 있습니다.
-Tor Browser already comes installed with two add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> and <mark><a href="https://noscript.net/">NoScript</a></mark> — and adding anything else could deanonymize you.

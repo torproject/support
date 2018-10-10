@@ -1,9 +1,0 @@
-_model: question
----
-title: Μπορώ να χρησιμοποιήσω το Tor με το BitTorrent;
----
-seo_slug: tor-bittorrent
----
-description:
-Δεν προτείνουμε τη ταυτόχρονη χρήση του Tor με το BitTorrent.
-Για περισσότερες λεπτομέρειες, ανατρέξτε στην <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">ανάρτηση μας σχετικά με το θέμα</a></mark>.

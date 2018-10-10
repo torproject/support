@@ -8,8 +8,10 @@ node_modules
 
 public
 
-*.egg-info
+contents+*.lr
 
+*.egg-info
+*.pyc
 __pycache__
 
 ### Emacs ###

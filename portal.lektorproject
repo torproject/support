@@ -4,21 +4,15 @@ url = https://support.torproject.org/
 url_style = absolute
 locale = en_US
 
-[alternatives.en]
-name = English
-primary = yes
-url_prefix = /
-locale = en_US
+[alternatives.bn]
+name = বাংলা ভাষা  (bn)
+url_prefix = /bn/
+locale = bn_BD
 
-[alternatives.ar]
-name = عربية (Arabiya)
-url_prefix = /ar/
-locale = ar_AR
-
-[alternatives.bg]
-name = Български (Bəlgarski)
-url_prefix = /bg/
-locale = bg_BG
+[alternatives.bn-BD]
+name = বাংলা ভাষা  (bn)
+url_prefix = /bn-BD/
+locale = bn_BD
 
 [alternatives.bn]
 name = Bengali
@@ -31,19 +25,25 @@ url_prefix = /bn-BD/
 locale = bn_BD
 
 [alternatives.ca]
-name = català
+name = Catala
 url_prefix = /ca/
-locale = ca_CA
+locale = ca
 
 [alternatives.de]
 name = Deutsch
 url_prefix = /de/
-locale = de_DE
+locale = de
 
-[alternatives.el]
-name = Ελληνικά (Ellinika)
-url_prefix = /el/
-locale = el_EL
+[alternatives.en]
+name = English
+primary = yes
+url_prefix = /
+locale = en_US
+
+[alternatives.en-US]
+name = English (en)
+url_prefix = /en-US/
+locale = en_US
 
 [alternatives.en-US]
 name = English
@@ -52,22 +52,17 @@ url_prefix = /en-US/
 locale = en_US
 
 [alternatives.es]
-name = español
+name = Español
 url_prefix = /es/
 locale = es_ES
 
-[alternatives.fa]
-name =  فارسی (Farsi)
-url_prefix = /fa/
-locale = fa_FA
-
 [alternatives.fr]
-name = français
+name = Français
 url_prefix = /fr/
 locale = fr_FR
 
 [alternatives.ga]
-name = Irish
+name = Gaeilge (ga)
 url_prefix = /ga/
 locale = ga
 
@@ -77,71 +72,21 @@ url_prefix = /id/
 locale = id_ID
 
 [alternatives.it]
-name = Italiano
+name = Indonesia
 url_prefix = /it/
-locale = it_IT
+locale = it
 
 [alternatives.he]
-name = עברית (ivrit)
+name = Ivrit
 url_prefix = /he/
-locale = he_HE
+locale = he
 
-[alternatives.ko]
-name = 한국어 (Korean)
-url_prefix = /ko/
-locale = ko_KO
-
-[alternatives.hu]
-name = Magyar
-url_prefix = /hu/
-locale = hu_HU
-
-[alternatives.nl]
-name = Nederlands
-url_prefix = /nl/
-locale = nl_NL
-
-[alternatives.ja]
-name = 日本語 (Nihongo)
-url_prefix = /ja/
-locale = ja_JA
-
-[alternatives.nb]
-name = Norsk (bokmål)
-url_prefix = /nb/
-locale = nb_NB
-
-[alternatives.pl]
-name = polski
-url_prefix = /pl/
-locale = pl_PL
-
-[alternatives.pt]
-name = Português (pt-BR)
-url_prefix = /pt/
+[alternatives.pt-BR]
+name = Português (Brasil)
+url_prefix = /pt-BR/
 locale = pt_BR
 
-[alternatives.ru]
-name =  Русский (ru)
-url_prefix = /ru/
-locale = ru_RU
-
-[alternatives.vi]
-name = Tiếng Việt
-url_prefix = /vi/
-locale = vi_VI
-
 [alternatives.tr]
-name = Türkçe (tr)
+name = Turkish
 url_prefix = /tr/
-locale = tr_TR
-
-[alternatives.zh-CN]
-name = 中文(简) (zh-CN)
-url_prefix = /zh-CN/
-locale = zh_CN
-
-[alternatives.zh-TW]
-name = 中文(繁) (zh-CN)
-url_prefix = /zh-TW/
-locale = zh_TW
+locale = tr

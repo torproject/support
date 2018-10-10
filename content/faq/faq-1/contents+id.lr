@@ -1,9 +1,0 @@
-_model: question
----
-title: Saat menggunakan Tor Browser, apakah pihak lain dapat mengetahui situs web yang saya kunjungi?
----
-seo_slug: will-anyone-be-able-to-tell-which-website-i-visit 
----
-description:
-Tor Browser mencegah orang lain mengetahui situs web yang Anda kunjungi.
-Beberapa entitas, seperti Internet Service Provider (ISP) And, dapat melihat bahwa Anda menggunakan Tor, tetapi mereka tidak akan tahu di mana Anda dan kapan Anda melakukannya. 

@@ -1,9 +1,0 @@
-_model: question
----
-title: Sto avendo un problema con DuckDuckGo.
----
-seo_slug: problema-con-duckduckgo
----
-description:
-Per favore consulta il <mark><a href="https://duck.co/help">portale di supporto di DuckDuckGo</a></mark>.
-Se pensi sia un problema di Tor Browser, per favore segnalalo nel nostro <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

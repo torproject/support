@@ -1,9 +1,0 @@
-_model: question
----
-title: Είναι καλό να εγκαταστήσω κάποιο νέο add-on ή πρόσθετο στον Tor Browser, όπως για παράδειγμα το AdBlock Plus ή το uBlock Origin;
----
-seo_slug: installing-add-on-extensions-tor-browser
----
-description:
-Δεν προτείνουμε καθόλου την εγκατάσταση νέων πρόσθετων στον Tor Browser γιατί μπορεί να θέσουν σε κίνδυνο την ιδιωτικότητα και την ασφάλειά σας.
-Ο Tor Browser έχει ήδη δυο add-ons προεγκατεστημένα - το <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> και το <mark><a href="https://noscript.net/">NoScript</a></mark> - και προσθέτοντας οποιοδήποτε άλλο μπορεί να σας αποανωνυμοποιήσει.

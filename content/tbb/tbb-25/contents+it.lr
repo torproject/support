@@ -1,9 +1,0 @@
-_model: question
----
-title: Sto avendo un problema con NoScript.
----
-seo_slug: problema-noscript
----
-description:
-Per favore consulta la <mark><a href="https://noscript.net/faq">NoScript FAQ</a></mark>. 
-Se pensi sia un problema di Tor Browser, per favore segnalalo nel nostro <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

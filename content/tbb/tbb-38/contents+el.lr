@@ -1,9 +1,0 @@
-_model: question
----
-title: Will my network admin be able to tell I'm using Tor Browser?
----
-seo_slug: network-admin-know-i-am-using-tor
----
-description:
-When using Tor Browser, no one can see the websites that you visit.
-Ωστόσο, ο πάροχος υπηρεσιών ή οι διαχειριστές του δικτύου σας ενδέχεται να μπορούν να δουν ότι συνδέεστε στο δίκτυο Tor, αν και δεν θα γνωρίζουν τι κάνετε όταν φτάσετε εκεί.

@@ -1,9 +1,0 @@
-_model: question
----
-title: Tor Browser使用什么搜索引擎，它是如何保护我的隐私的?
----
-seo_slug: search-engine-tor-browser
----
-description:
-<mark><a href="https://duckduckgo.com/">DuckDuckGo</a></mark> is the default search engine in Tor Browser.
-DuckDuckGo does not track its users nor does it store any data about user searches. Learn more about <mark><a href="https://duckduckgo.com/privacy">DuckDuckGo privacy policy</a></mark>.

@@ -1,9 +1,0 @@
-_model: question
----
-title: Tüm güvenlik kodlarından kurtulabilir misiniz?
----
-seo_slug: guvenlik-kodundan-kurtulmak
----
-description:
-Bazı siteler Tor kullanıcılarından güvenlik kodu istiyor ve web sitelerinden güvenlik kodunu kaldıramıyoruz.
-Bu durumda yapılacak en iyi şey web sitesinin yöneticileri ile görüşerek güvenlik kodunun sizin gibi kullanıcıların web sitesinde sunulan hizmetlerden yararlanmasını engellediğini aktarmaktır.

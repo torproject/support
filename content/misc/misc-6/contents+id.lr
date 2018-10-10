@@ -1,9 +1,0 @@
-_model: question
----
-title: Apakah Tor menyimpan log?
----
-seo_slug: does-tor-keep-logs 
----
-description:
-Tor tidak menyimpan log apapun yang dapat mengidentifikasi pengguna tertentu.
-Kami melakukan beberapa langkah aman dalam cara jaringan Tor berfungsi, yang dapat Anda baca di <mark><a href="https://metrics.torproject.org/">​Tor Metrics</a></mark>.

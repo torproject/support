@@ -1,8 +1,0 @@
-_model: question
----
-title: 我能同时运行多个Tor浏览器吗？
----
-seo_slug: 同时运行多个Tor浏览器
----
-description:
-我们不推荐同时运行多个Tor浏览器，这种做法在许多平台上都可能会有无法预料的后果。

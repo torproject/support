@@ -1,9 +1,0 @@
-_model: question
----
-title: Verwendet der Tor Browser für jede Website einen anderen Netzwerk-Pfad?
----
-seo_slug: neuer-kanal-pro-webseite
----
-description:
-Im Tor Browser bekommt jede neue Domain ihren eigenen Netzwerk-Pfad.
-Das Dokument <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">Entwurf und Umsetzung von Tor Browser</a></mark> erklärt die Idee dahinter ausführlicher.

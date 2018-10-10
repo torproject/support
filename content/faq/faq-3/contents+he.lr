@@ -1,9 +1,0 @@
-_model: question
----
-title: האם אני צריך להתקין מתקע חדש או תוספת חדשה בדפדפן Tor, כמו AdBlock Plus או uBlock Origin?
----
-seo_slug: install-add-on-extension-tor-browser
----
-description:
-It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
-Tor Browser already comes installed with two add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> and <mark><a href="https://noscript.net/">NoScript</a></mark> — and adding anything else could deanonymize you.

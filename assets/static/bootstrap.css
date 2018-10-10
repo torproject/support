@@ -6400,6 +6400,11 @@ a.text-dark:focus, a.text-dark:hover {
 .font-weight-bold {
   font-family: Source Sans Pro Bold; }
 
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #7D4698; }
+
 h6 {
   text-transform: uppercase;
   font-weight: bold;
@@ -6965,9 +6970,6 @@ a.side-nav.active {
 #topics {
   min-height: 500px;
   margin-bottom: 200px; }
-
-#topics h5 {
-  padding-top: 7rem; }
 
 .question {
   padding: 0.75rem 0; }

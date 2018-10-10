@@ -1,9 +1,0 @@
-_model: question
----
-title: O Navegador Tor utiliza um circuito diferente para cada site?
----
-seo_slug: diferentes-circuitos-para-cada-website
----
-description:
-No Navegador Tor, cada novo domínio tem um circuito próprio.
-O documento <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">O Projeto e Implementação do Navegador Tor</a></mark> explica melhor o pensamento por trás deste projeto.

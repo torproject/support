@@ -1,9 +1,0 @@
-_model: question
----
-title: Tinc problemes per actualitzar o utilitzar Vidalia.
----
-seo_slug: tenint-problema-actualitzant-vidalia
----
-description:
-Vidalia ja no es manté o és suportat.
-Una gran part de les funcions que Vidalia ofereix ara s'ha integrat al propi navegador Tor.

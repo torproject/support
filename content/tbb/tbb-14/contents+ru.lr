@@ -1,9 +1,0 @@
-_model: question
----
-title: Есть ли смысл устанавливать новые надстройки или дополнения для в Tor Browser, например, AdBlock Plus или uBlock Origin?
----
-seo_slug: установка-надстроек-для-браузера-Tor
----
-description:
-Не рекомендуется устанавливать новые дополнения для Tor Browser: они могут навредить приватности и безопасности.
-Tor Browser включает дополнения <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> и <mark><a href="https://noscript.net/">NoScript</a></mark>. Установка другого дополнения может лишить вас анонимности.

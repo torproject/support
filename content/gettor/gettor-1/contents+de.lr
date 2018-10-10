@@ -1,9 +1,0 @@
-_model: question
----
-title: Wie kann ich Tor herunterladen, wenn torproject.org blockiert ist?
----
-seo_slug: tor-herunterladen-torproject-org-ist-geblockt
----
-description:
-Wenn du Tor nicht über unsere <mark><a href="https://www.torproject.org">Webseite</a></mark> herunterladen kannst, versuche mittels GetTor eine Kopie zu bekommen.
-GetTor ist ein Dienst zum automatischen Empfangen von Links für das Herunterladen von Tor Browser an verschiedenen Orten, die weniger wahrscheinlich zensiert werden, wie z.B. Dropbox, Google Drive und GitHub. 

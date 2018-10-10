@@ -1,9 +1,0 @@
-_model: question
----
-title: Devrais-je installer une nouvelle extension dans le Navigateur Tor, comme AdBlock Plus ou uBlock Origin ?
----
-seo_slug: installer-module-complémentaire-extension-navigateur-tor
----
-description:
-Il est fortement déconseillé d’installer des extensions supplémentaires dans le Navigateur Tor, car elles peuvent compromettre votre confidentialité et votre sécurité.
-Le Navigateur Tor comprend déjà deux extensions préinstallées, <mark><a href="https://www.eff.org/https-everywhere">HTTPS partout et <mark><a href="https://noscript.net/">NoScript</a></mark>, et en ajouter d’autres pourrait vous faire perdre votre anonymat.

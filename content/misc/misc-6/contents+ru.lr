@@ -1,9 +1,0 @@
-_model: question
----
-title: Хранит ли Tor логи?
----
-seo_slug: хранит-ли-tor-логи
----
-description:
-Tor не сохраняет логи, позволяющие идентифицировать определённого пользователя.
-We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

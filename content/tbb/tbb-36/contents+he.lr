@@ -1,8 +1,0 @@
-_model: question
----
-title: האם אני יכול להריץ הפעלות רבות של דפדפן Tor?
----
-seo_slug: run-multible-instances-of-tor-browser
----
-description:
-We do not recommend running multiple instances of Tor Browser, and may not work as anticipated on many platforms.

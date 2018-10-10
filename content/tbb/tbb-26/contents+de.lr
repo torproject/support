@@ -1,9 +1,0 @@
-_model: question
----
-title: Ich habe Schwierigkeiten mit HTTPS Everywhere.
----
-seo_slug: problem-mit-https-everywhere
----
-description:
-Siehe <mark><a href="https://www.eff.org/https-everywhere/faq">Häufig gestellte Fragen zu HTTPS Everywhere</a></mark>.
-Wenn du das für einen Fehler in Tor Browser hältst, erstelle bitte einen Bericht in unserer <mark><a href="https://trac.torproject.org/">Fehler-Datenbank</a></mark>.

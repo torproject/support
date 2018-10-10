@@ -1,9 +1,0 @@
-_model: question
----
-title: 我们将tor和比特流结合起来使用吗？
----
-seo_slug: tor-bittorrent
----
-description:
-我们将tor和比特流结合起来使用吗？
-更多信息请查阅我们的<mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">有关这个项目的博文</a></mark>。

@@ -1,9 +1,0 @@
-_model: question
----
-title: Apakah saya bisa menggunakan Tor dengan peramban selain Tor Browser?
----
-seo_slug: using-tor-with-a-browser-besides-tor-browser 
----
-description:
-Kami sangat menyarankan untuk tidak menggunakan Tor di browser apapun selain Tor Browser.
-Menggunakan Tor di browser lain dapat membuat Anda rentan tanpa perlindungan privasi browser Tor.

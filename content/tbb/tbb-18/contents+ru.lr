@@ -1,9 +1,0 @@
-_model: question
----
-title: Есть поддержка *BSD?
----
-seo_slug: is-there-support-for-bsd
----
-description:
-Извините, пока нет официальной поддержки Tor Browser для *BSD.
-Существует проект <mark><a href="https://www.torbsd.org/">TorBSD</a></mark>, но их версия Tor Browser неофициальная.

@@ -1,8 +1,0 @@
-_model: question
----
-title: ¿Puedo ejecutar múltiples instancias del Tor Browser?
----
-seo_slug: correr-múltiples-instancias-del-navegador-tor
----
-description:
-No recomendamos ejecutar múltiples instancias del Tor Browser, pueden no funcionar como se espera en muchas plataformas.

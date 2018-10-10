@@ -1,9 +1,0 @@
-_model: question
----
-title: האם דפדפן Tor משתמש במעגל שונה עבור כל אתר?
----
-seo_slug: different-circuit-each-website
----
-description:
-In Tor Browser, every new domain gets its own circuit.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document further explains the thinking behind this design.

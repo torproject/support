@@ -29,7 +29,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-    ## If you control multiple relays, include then in the family
+    ## If you control multiple relays, include them in the family
     #MyFamily $keyid,$keyid,...
 
 

@@ -1,9 +1,0 @@
-_model: question
----
-title: Tor는 로그를 기록합니까?
----
-seo_slug: does-tor-keep-logs
----
-description:
-Tor doesn't keep any logs that could identify a particular user.
-We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

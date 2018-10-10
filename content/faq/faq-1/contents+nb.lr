@@ -1,9 +1,0 @@
-_model: question
----
-title: Når jeg bruker Tor-nettleseren, kan alle se hvilke sider jeg besøker?
----
-seo_slug: will-anyone-be-able-to-tell-which-website-i-visit
----
-description:
-Tor Browser forhindrer folk i å kjenne til nettstedene du besøker.
-Enkelte enheter, som din Internett-leverandør (ISP), kan kanskje se at du bruker Tor, men de vet ikke hvor du skal når du gjør det. 

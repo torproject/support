@@ -1,9 +1,0 @@
-_model: question
----
-title: 同时运行Tor Browser和其他的浏览器安全吗?
----
-seo_slug: run-tor-browser-and-different-browser
----
-description:
-如果您同时使用Tor浏览器和其他浏览器，这不会影响Tor的安全性和隐秘性。
-但请注意，其他浏览器不能让您的活动保持私密，您可能会错误地使用非私密浏览器来执行您在 Tor 浏览器中的操作。

@@ -1,9 +1,0 @@
-_model: question
----
-title: I have a compelling reason to trace a Tor user. Can you help?
----
-seo_slug: tracing-tor-user
----
-description:
-Δεν υπάρχει τίποτα που οι προγραμματιστές του Tor να μπορούν να κάνουν για να εντοπίσουν χρήστες του Tor.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.

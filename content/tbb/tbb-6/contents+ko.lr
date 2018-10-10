@@ -1,8 +1,0 @@
-_model: question
----
-title: Tor 브라우저를 기본 브라우저로 만들 수 있습니까?
----
-seo_slug: make-tor-browser-default-browser
----
-description:
-Unfortunately, there is no supported way to make Tor Browser your default browser.

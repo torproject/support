@@ -1,9 +1,0 @@
-_model: question
----
-title: 동시에 Tor 브라우저랑 다른 브라우저를 실행해도 안전합니까?
----
-seo_slug: run-tor-browser-and-different-browser
----
-description:
-Tor 브라우저와 다른 브라우저를 동시에 실행해도 Tor의 성능이나 개인 정보 보호에는 영향을 미치지 않습니다.
-그러나 다른 브라우저는 활동을 비공개로 유지하지 않으므로 Tor 브라우저에서 하려했던 작업을 실수로 공개된 브라우저를 사용하여 수행 할 수도 있습니다.

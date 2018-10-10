@@ -1,9 +1,0 @@
-_model: question
----
-title: Quale motore di ricerca è impostato su Tor Browser e come protegge la mia privacy?
----
-seo_slug: motore-di-ricerca-tor-browser
----
-description:
-<mark><a href="https://duckduckgo.com/">DuckDuckGo</a></mark> è il motore di ricerca predefinito in Tor Browser.
-DuckDuckGo non traccia i suoi utenti e non raccoglie alcun dato sulle ricerche. Maggiori informazioni sulla <mark><a href="https://duckduckgo.com/privacy">politica sulla privacy di DuckDuckGo</a></mark>.

@@ -1,9 +1,0 @@
-_model: question
----
-title: Tor를 BitTorrent와 함께 사용할 수 있습니까?
----
-seo_slug: tor-bittorrent
----
-description:
-Tor를 비트토렌트와 사용하는 것은 권장하지 않습니다.
-자세한 내용은 <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">이 주제에 관한 블로그 게시물</a></mark>을 참조하십시오.

@@ -1,9 +1,0 @@
-_model: question
----
-title: 我遇到 NoScript 的使用问题。
----
-seo_slug: 问题-没有脚本
----
-description:
-Please see the <mark><a href="https://noscript.net/faq">NoScript FAQ</a></mark>.
-如果你相信这是浏览器的问题，请你报告给<mark><a href="https://trac.torproject.org/">问题中心</a></mark>

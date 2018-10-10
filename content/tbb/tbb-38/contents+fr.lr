@@ -1,9 +1,0 @@
-_model: question
----
-title: Mon administrateur réseau saura-t-il que j’utilise le Navigateur Tor ?
----
-seo_slug: admin-réseau-sait-que-j’utilise-tor
----
-description:
-Si vous utilisez le navigateur Tor, personne ne peut voir les sites que vous visitez.
-Néanmoins, votre fournisseur d’accès ou votre administrateur réseau pourraient être en mesure de voir que vous vous connectez au réseau Tor, même si ils ne sauront pas ce que vous y faites.

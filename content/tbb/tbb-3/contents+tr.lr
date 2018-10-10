@@ -1,9 +1,0 @@
-_model: question
----
-title: Tor Browser kullandığımda, herhangi biri hangi siteleri ziyaret ettiğimi görebilir mi?
----
-seo_slug: tor-browser-kullanirken-ziyaret-ettigim-web-siteleri-gorulebilir-mi
----
-description:
-Tor Browser ziyaret ettiğiniz sitelerin başkaları tarafından bilinmesini engeller.
-İnternet Hizmeti Sağlayıcınız (ISP) gibi bazı kuruluşlar Tor kullandığınızı görebilir ancak Tor üzerinden nereleri ziyaret ettiğinizi göremez. 
