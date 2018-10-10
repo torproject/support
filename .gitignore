@@ -11,6 +11,8 @@ __pycache__
 
 contents+*.lr
 
+i18n/_compiled
+
 ### Emacs ###
 # -*- mode: gitignore; -*-
 *~
