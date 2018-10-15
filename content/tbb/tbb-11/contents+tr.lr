@@ -1,0 +1,14 @@
+_model: question
+---
+title: Windows için Tor Browser uygulamasını indirdim ve kurdum. Ancak şimdi bulamıyorum.
+---
+seo_slug: windows-uzerinde-tor-browser-bulunamiyor
+---
+description:
+The file you download and run prompts you for a destination.
+If you don't remember what this destination was, it's most likely your Downloads or Desktop folder.
+
+Kurulum sırasında kısayolun oluşturulması seçeneğindeki işareti kazayla kaldırmadıysanız, Windows kurucusunun varsayılan ayarları Masaüstünde bir kısayol oluşturur. 
+
+If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
+Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.

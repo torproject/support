@@ -1,0 +1,22 @@
+_model: question
+---
+title: Bagaimana cara untuk memperbarui Tor Browser?
+---
+seo_slug: updating-tor-browser 
+---
+description:
+Anda dapat memperbarui Tor Browser segera setelah versi baru dirilis.
+
+Tor Browser will prompt you to update the software once a new version has been released.
+
+The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
+Anda mungkin melihat notifikasi tertulis ketika Tor Browser terbuka yang memberitahu Anda bahwa update tersedia.
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
+Tor browser akan menginstal pembaruan.
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

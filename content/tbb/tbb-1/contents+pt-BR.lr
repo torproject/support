@@ -1,0 +1,10 @@
+_model: question
+---
+title: Quais são os problemas mais comuns na última versão estável do Navegador Tor?
+---
+seo_slug: problemas-mais-comuns-ultima-versao-estavel-tor-browser
+---
+description:
+Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues.
+If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org">blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+If your issue is not listed, please file a <mark><a href="https://trac.torproject.org">bug report</a></mark> about what you're experiencing.

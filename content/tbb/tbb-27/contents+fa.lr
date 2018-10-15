@@ -1,0 +1,22 @@
+_model: question
+---
+title: چطور میتوتنم مرورگر تور را به روز رسانی کنم؟
+---
+seo_slug: به روز رسانی-مرورگر-تور
+---
+description:
+You can update Tor Browser as soon as a new version is released.
+
+Tor Browser will prompt you to update the software once a new version has been released.
+
+The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
+You may see a written indication when Tor Browser opens telling you that an update is available.
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
+مرورگر تور به روز رسانی ها را نصب خواهد کرد.
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

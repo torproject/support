@@ -1,0 +1,22 @@
+_model: question
+---
+title: Com puc actualitzar el Navegador Tor?
+---
+seo_slug: actualitzant-navegador-tor
+---
+description:
+Podeu actualitzar el Navegador Tor tan bon punt es publiqui una versió nova.
+
+Navegador Tor us demanarà que actualitzeu el programari una vegada que s'hagi publicat una versió nova.
+
+La icona Tor (la ceba petita en l'extrem superior esquerre del navegador) mostrarà un triangle groc.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
+Podeu veure una indicació per escrit quan el Navegador Tor s'obri indicant-vos que hi ha una actualització disponible.
+
+<img class="" src="/static/images/image5.png" alt="New release alert">
+
+El navegador Tor instal·larà les actualitzacions.
+
+<img class="" src="/static/images/image3.png" alt="New release alert">

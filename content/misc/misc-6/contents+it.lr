@@ -1,0 +1,9 @@
+_model: question
+---
+title: Tor mantiene eventuali log?
+---
+seo_slug: tor-mantiene-log
+---
+description:
+Tor doesn't keep any logs that could identify a particular user.
+We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

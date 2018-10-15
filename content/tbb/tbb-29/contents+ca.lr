@@ -1,0 +1,31 @@
+_model: question
+---
+title: Hi ha alguna manera de canviar l'adreça IP que el navegador Tor m'assigna per a un lloc concret?
+---
+seo_slug: canviar-adreça-ip
+---
+description:
+EL Navegador Tor té dues maneres de canviar el circuit del repetidor: "Nova identitat" i "Nou circuit Tor per a aquest lloc".
+
+Ambdues opcions es troben al Menú, però també podeu accedir a l'opció Nou Circuit dins del menú d'informació del lloc, a la barra d'URL.
+
+##### Nova identitat
+
+Aquesta opció és útil si voleu evitar que la vostra activitat posterior del navegador sigui vinculada al que hagueu fet abans.
+
+Si ho seleccioneu, tanqueu totes les pestanyes i finestres, esborreu tota la informació privada, com ara les galetes i l'historial de navegació, i utilitzeu els nous circuits Tor per a totes les connexions.
+
+El Navegador Tor us avisarà que tota activitat i descàrregues s'aturaran, així que teniu això en compte abans de fer clic a "Nova identitat".
+
+<img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
+
+##### Nou Circuit Tor per a aquest lloc
+
+This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
+Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
+
+Altres pestanyes obertes i finestres del mateix lloc web també usaran el nou circuit una vegada que es tornin a carregar.
+
+Aquesta opció no elimina cap informació privada o desenllaça la vostra activitat, ni afecta les vostres connexions actuals a altres llocs web.
+
+<img class="" src="/static/images/new-circuit-display.png" alt="New Circuit for this Site">

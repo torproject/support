@@ -1,0 +1,14 @@
+_model: question
+---
+title: Um site (banco, provedor de e-mail, etc...) bloqueia-me sempre que uso Tor. O que eu posso fazer?
+---
+seo_slug: website-bloqueia-acesso-torbrowser
+---
+description:
+Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
+Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
+
+A melhor maneira de resolver isso é seguir os procedimentos recomendados no site para recuperação de contas, ou contactar os operadores e explicar a situação.
+
+You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
+Contact your provider and ask them if they provide 2FA.

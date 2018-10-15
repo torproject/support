@@ -1,0 +1,11 @@
+_model: question
+---
+title: Bagaimana berbagi file secara anonim melalui Tor?
+---
+seo_slug: share-files-anonymously-through-tor 
+---
+description:
+Many exit nodes are configured to block certain types of file sharing traffic, such as BitTorrent.
+BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+
+Untuk berbagi file melalui Tor, <mark><a href="https://onionshare.org/">OnionShare</a></mark> adalah pilihan yang baik.

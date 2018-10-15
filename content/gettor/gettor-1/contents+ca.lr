@@ -1,0 +1,9 @@
+_model: question
+---
+title: Com puc baixar el Tor si el torproject.org està blocat?
+---
+seo_slug: com-baixar-tor-si-torproject-org-esta-bloquejada
+---
+description:
+If you can't download Tor through our <mark><a href="https://www.torproject.org">website</a></mark>, you can get a copy of Tor delivered to you via GetTor.
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.

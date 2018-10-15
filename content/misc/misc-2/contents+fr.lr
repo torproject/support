@@ -1,0 +1,10 @@
+_model: question
+---
+title: Pourquoi n’empêchez-vous pas les personnes mal intentionnées de commettre des méfaits en utilisant Tor ?
+---
+seo_slug: empêcher-les-personnes-mal-intentionnées-de-commettre des-méfaits-avec-tor
+---
+description:
+Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us.
+We hate that there are some people who use Tor to do terrible things, but we can't do anything to get rid of them without also undermining the human rights activists, journalists, abuse survivors, and other people who use Tor for good things.
+If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.

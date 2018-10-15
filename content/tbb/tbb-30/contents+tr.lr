@@ -1,0 +1,14 @@
+_model: question
+---
+title: Bir web sitesi (banka, e-posta hizmeti sağlayıcısı gibi) Tor kullandığımda beni engelliyor, ne yapabilirim?
+---
+seo_slug: tor-browser-web-sitesi-tarafindan-engelleniyor
+---
+description:
+Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
+Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
+
+Bu sorunu çözmenin tek yolu hesabınızdaki engellemenin kaldırılması için site tarafından önerilen yöntemi uygulamak ya da işletmeci ile görüşerek durumu açıklamaktır.
+
+You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
+Contact your provider and ask them if they provide 2FA.

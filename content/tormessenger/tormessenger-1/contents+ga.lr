@@ -1,0 +1,10 @@
+_model: question
+---
+title: An ndéanann Tionscadal Tor feidhmchlár a thacaíonn le comhrá príobháideach?
+---
+seo_slug: tor-project-app-for-private-chat
+---
+description:
+No. After eleven beta releases, we discontinued support of <a href="https://blog.torproject.org/sunsetting-tor-messenger">Tor Messenger</a>.
+We still believe in Tor's ability to be used in a messaging app, but we don't have the resources to make it happen right now.
+Do you? <mark><a href="https://www.torproject.org/about/contact.html.en">Contact us</a></mark>.

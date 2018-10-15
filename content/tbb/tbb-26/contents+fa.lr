@@ -1,0 +1,9 @@
+_model: question
+---
+title: من با HTTPS Everywhere مشکل دارم.
+---
+seo_slug: مشکل-با-https-everywhere
+---
+description:
+Please see the <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere FAQ</a></mark>.
+If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

@@ -1,0 +1,9 @@
+_model: question
+---
+title: An bhfaighidh sibh réidh leis na CAPTCHAnna?
+---
+seo_slug: get-rid-of-captchas
+---
+description:
+Unfortunately, some websites deliver CAPTCHAs to Tor users, and we are not able to remove CAPTCHAs from websites.
+The best thing to do in these cases is to contact the website owners, and inform them that their CAPTCHAs are preventing users such as yourself from using their services.

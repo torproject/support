@@ -1,0 +1,9 @@
+_model: question
+---
+title: যখন আমি টর ব্রাউজার ব্যবহার করি, তখন কেউ কি বলতে পারবে যে কোন ওয়েবসাইটগুলি আমি ভিজিট করি? ?
+---
+seo_slug: টর-ব্রাউজার-ব্যবহার-করার-সময়-কোন-ওয়েবসাইট-পরিদর্শন-করা-হয়-তা-জানান
+---
+description:
+Tor Browser prevents people from knowing the websites you visit.
+Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. 

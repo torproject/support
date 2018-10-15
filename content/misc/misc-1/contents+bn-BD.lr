@@ -1,0 +1,9 @@
+_model: question
+---
+title: একজন টর ব্যবহারকারী খুঁজে বের করার জন্য আমার একটি কারণ আছে । সাহায্য করতে পারেন?
+---
+seo_slug: tracing-tor-user
+---
+description:
+There is nothing the Tor developers can do to trace Tor users.
+The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.

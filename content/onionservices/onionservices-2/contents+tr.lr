@@ -1,0 +1,20 @@
+_model: question
+---
+title: .onion ya da onion hizmetleri nedir?
+---
+seo_slug: nokta-onion-kisaltmasi-nedir
+---
+description:
+Onion hizmetleri kişilerin içeriklere bakması yanında anonim web siteleri gibi yayınlar yapabilmesini sağlar.
+
+Ayrıca Onion hizmetlerini kullanarak üst veriler olmadan sohbet ve dosya paylaşımı, gazeteciler ve <mark><a href="https://securedrop.org/">SecureDrop</a></mark> ya da <mark><a href="https://onionshare.org/">OnionShare</a></mark> gibi kaynakları arasında daha güvenli etkileşim,  daha güvenli yazılım güncellemeleri ve <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark> gibi yaygın web sitelerine daha güvenli yollarla erişim gibi işlemler yapılabilir. 
+
+Bu hizmetlere erişmek için özel .onion üst düzey etki alanı kısaltması (.com, .net, .org, vb yerine) kullanılır ve erişim yalnız Tor ağı üzerinden yapılabilir.
+
+Onion hizmeti kullanan bir web sitesine erişirken, Tor Browser adres çubuğunda bağlantınızın durumunun güvenli ve bir onion hizmetini kullandığını belirten küçük yeşil bir soğan simgesi görüntülenir.
+
+<img class="" src="/static/images/onion-website.png" alt="Onion icon">
+
+Bir web sitesine https ve onion hizmeti üzerinden erişikiyorsanız  bir yeşil soğan ve bir kilit simgesi görüntülenir.
+
+<img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">

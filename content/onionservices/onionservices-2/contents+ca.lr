@@ -1,0 +1,20 @@
+_model: question
+---
+title: Què és una .onion o què són els serveis onion?
+---
+seo_slug: que-es-un-punt-onion
+---
+description:
+Els serveis de onion permeten que la gent navegui, però també publiqui de manera anònima, inclosa la publicació de llocs web anònims.
+
+Els serveis de onion també es basen en el xat i l'intercanvi d'arxius sense metadades, una interacció més segura entre els periodistes i les seves fonts, com ara <mark><a href="https://securedrop.org/">SecureDrop</a></mark> o <mark>OnionShare<a href="https://onionshare.org/"></mark>, actualitzacions de programari més segures i formes més segures d'arribar a llocs web populars com <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
+
+Aquests serveis utilitzen l'ús especial tld .onion (en lloc de .com, .net, .org, etc.) i només són accessibles a través de la xarxa Tor.
+
+Quan accedeix a un lloc web que utilitza un servei de onion , el Navegador Tor mostrarà a la barra d'URL una icona d'una petita ceba verda que mostra l'estat de la vostra connexió: segur i usant un servei de onion.
+
+<img class="" src="/static/images/onion-website.png" alt="Onion icon">
+
+I si accediu a un lloc web amb https i un servei de onion, es mostrarà una icona d'una ceba verda i un cadenat.
+
+<img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">

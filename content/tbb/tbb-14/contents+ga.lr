@@ -1,0 +1,9 @@
+_model: question
+---
+title: Ar chóir dom breiseáin nó eisínteachtaí a shuiteáil i mBrabhsálaí Tor, ar nós AdBlock Plus nó uBlock Origin?
+---
+seo_slug: installing-add-on-extensions-tor-browser
+---
+description:
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.

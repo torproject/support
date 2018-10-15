@@ -1,0 +1,20 @@
+_model: question
+---
+title: Was ist ein .onion, oder was sind Onion-Dienste?
+---
+seo_slug: was-bedeutet-punkt-onion
+---
+description:
+Onion-Dienste erlauben, anonym zu surfen, aber auch zu publizieren, auch anonyme Webseiten zu veröffentlichen.
+
+Onion-Dienste basieren auch auf Chat und Austausch von Dateien ohne Metadaten, sicherer Interaktion zwischen Journalist*innen und ihren Quellen mittels <mark><a href="https://securedrop.org/">SecureDrop</a></mark> oder <mark><a href="https://onionshare.org/">OnionShare</a></mark>, sichereren Software-Updates und sichereren Möglichkeiten, bekannte Webseiten wie <mark>Facebook<a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/"></a> zu erreichen.
+
+Diese Dienste benutzen die besondere Top Level Domain .onion (an Stelle von .com, .net, .org, etc.) und sind nur über Tor erreichbar.
+
+Tor Browser zeigt für onion-Adressen in der Adressleiste ein grünes Symbol für den Verbindungsstatus an: sicher und direkt von einem onion-Dienst.
+
+<img class="" src="/static/images/onion-website.png" alt="Onion icon">
+
+Beim Zugriff auf einen Onion-Dienst über https zeigt es eine grüne Zwiebel mit einem Vorhängeschloss.
+
+<img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">

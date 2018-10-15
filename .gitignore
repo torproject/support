@@ -9,10 +9,6 @@ public
 *.pyc
 __pycache__
 
-contents+*.lr
-
-i18n/_compiled
-
 ### Lektor Temps ###
 *~*
 

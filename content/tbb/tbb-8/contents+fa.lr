@@ -1,0 +1,12 @@
+_model: question
+---
+title: سایت ما به قصد سانسور، مسدود شده است. آیا مرورگر تور می‌تواند به کاربران در دسترسی به وبسایت ما کمک کند؟
+---
+seo_slug: website-blocked-by-censor-can-tor-browser-help
+---
+description:
+Tor Browser can certainly help people access your website in places where it is blocked.
+Most of the time, simply downloading the <mark><a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser</a></mark> and then using it to navigate to the blocked site will allow access.
+In places where there is heavy censorship we have a number of censorship circumvention options available, including <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark>.
+
+برای اطلاعات بیشتر لطفا <mark><a href="https://tb-manual.torproject.org/en-US/"> را مطالعه کنید، راهنمای مرورگر تور </a></mark> بخش در <mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html"> سانسور </a></mark>.

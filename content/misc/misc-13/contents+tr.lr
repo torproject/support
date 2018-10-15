@@ -1,0 +1,11 @@
+_model: question
+---
+title: Tor ile VPN kullanabilir miyim?
+---
+seo_slug: tor-ile-vpn-kullanimi
+---
+description:
+
+Genel olarak, gizliliğinizi tehlikeye atmayacak şekilde ayarlamayı bilen uzman bir kullanıcı değilseniz, Tor ile VPN  bağlantısını birlikte kullanmanızı önermiyoruz. 
+
+Tor + VPN hakkında ayrıntılı bilgi almak için <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">wiki sayfamıza</a></mark> bakabilirsiniz.

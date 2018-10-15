@@ -1,0 +1,22 @@
+_model: question
+---
+title: ¿Cómo puedo actualizar Tor Browser?
+---
+seo_slug: actualizando-el-navegador-tor
+---
+description:
+Puedes actualizar el navegador Tor en cuanto se publica una nueva versión.
+
+El Tor Browser te solicitará que actualices el software una vez se haya publicado una nueva versión.
+
+El icono de Torbutton (la cebollita en la esquina superior izquierda del navegador) mostrará un triángulo amarillo.
+
+<img class="" src="/static/images/update-tb.png" alt="Averiguar si hay un update del Tor Browser">
+
+Puede que veas una indicación escrita cuando se abra el navegador Tor diciéndote que hay una actualización disponible.
+
+<img class="" src="/static/images/image5.png" alt="Alerta de nueva versión">
+
+El Tor Browser instalará las actualizaciones.
+
+<img class="" src="/static/images/image3.png" alt="Alerta de nueva versión">

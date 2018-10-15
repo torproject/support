@@ -1,0 +1,22 @@
+_model: question
+---
+title: Wie aktualisiere ich den Tor Browser?
+---
+seo_slug: aktualisiere-tor-browser
+---
+description:
+Du kannst den Tor Browser aktualisieren, sobald eine neue Version verfügbar ist.
+
+ Der Tor Browser wird darauf hinweisen, sobald eine neue Version veröffentlicht wurde.
+
+Der Tor-Knopf (die kleine grüne Zwiebel in der linken oberen Ecke des Browsers) wird ein gelbes Dreieck anzeigen.
+
+<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
+
+Beim Start von Tor Browser siehst du möglicherweise eine Nachricht, dass ein Update verfügbar ist.
+
+<img class="" src="/static/images/image5.png" alt="Neuer Veröffentlichungshinweis">
+
+Tor Browser wird die Updates installieren.
+
+<img class="" src="/static/images/image3.png" alt="Neuer Veröffentlichungshinweis">

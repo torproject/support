@@ -1,0 +1,14 @@
+_model: question
+---
+title: একটি ওয়েবসাইট (ব্যাংক, ইমেল প্রদানকারী ইত্যাদি) আমাকে যখন টর ব্যবহার করে তখন আমাকে লক করে দেয়, আমি কি করতে পারি?
+---
+seo_slug: website-locks-torbrowser-out
+---
+description:
+Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
+Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
+
+এটি সমাধান করার একমাত্র উপায় হচ্ছে সাইটের সুপারিশকৃত পদ্ধতি অনুসরণ করে অ্যাকাউন্ট পুনরুদ্ধারের জন্য, অথবা অপারেটরদের সাথে যোগাযোগ করা এবং পরিস্থিতি ব্যাখ্যা করা ।
+
+You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
+Contact your provider and ask them if they provide 2FA.

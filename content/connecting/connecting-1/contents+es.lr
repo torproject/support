@@ -1,0 +1,10 @@
+_model: question
+---
+title: El Tor Browser no conecta, pero no parece ser un problema con la censura.
+---
+seo_slug: navegador-tor-no-conecta
+---
+description:
+One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
+Please make sure your system clock and timezone are set accurately.
+If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.

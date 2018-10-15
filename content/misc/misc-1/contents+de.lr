@@ -1,0 +1,9 @@
+_model: question
+---
+title: Ich habe einen zwingenden Grund, einen Tor-Benutzer zu verfolgen. Können Sie mir helfen?
+---
+seo_slug: tor-anwender-verfolgen
+---
+description:
+There is nothing the Tor developers can do to trace Tor users.
+The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.

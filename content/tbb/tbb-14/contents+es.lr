@@ -1,0 +1,9 @@
+_model: question
+---
+title: ¿Debería instalar un nuevo complemento o extensión en el Tor Browser, como AdBlock Plus o uBlock Origin?
+---
+seo_slug: instalar-añadiendo-extensiones-al-navegador-tor
+---
+description:
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.

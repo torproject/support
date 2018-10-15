@@ -1,0 +1,10 @@
+_model: question
+---
+title: Tor Browser kullanırken Facebook, Twitter ya da başka bir web sitesindeki özellikleri kullanmakta sorun yaşıyorum.
+---
+seo_slug: tor-browser-facebook-twitter-sitelerinde-sorun-cikariyor
+---
+description:
+Sometimes Javascript-heavy websites can have functional issues over Tor Browser.
+The simplest fix is to click on the "onion menu," then click on the security slider.
+Set your security to "Standard".
