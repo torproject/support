@@ -5,6 +5,6 @@ title: Cén fáth arb é DuckDuckGo an t-inneall cuardaigh réamhshocraithe anoi
 seo_slug: why-is-tor-using-duckduckgo
 ---
 description:
-With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine.
-For a while now, Disconnect has had no access to Google search results which we used in Tor Browser.
-Since Disconnect is more of a meta search engine which allows users to choose between different search providers, it fell back to delivering Bing search results which were basically unacceptable quality-wise.
+D'athraíomar an príomhinneall cuardaigh go DuckDuckGo i leagan 6.0.6 de Bhrabhsálaí Tor.
+Le tamaillín anois, ní raibh Disconnect in ann teacht ar na torthaí cuardaigh ó Google a d'úsáidimis i mBrabhsálaí Tor.
+Is inneall meiteachuardaigh é Disconnect a ligeann dá chuid úsáideoirí torthaí ó sholáthraithe cuardaigh éagsúla a roghnú. Mar sin, b'éigean dó dul i muinín ar thorthaí ó Bing nach raibh thar mholadh beirte.

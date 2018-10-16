@@ -5,5 +5,5 @@ title: Quan utilitzi el navegador Tor, algú podrà dir quins llocs web visito?
 seo_slug: algú-pot-saber-quina-web-visito
 ---
 description:
-Tor Browser prevents people from knowing the websites you visit.
-Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. 
+El navegador Tor evita que la gent conegui els llocs web que visiteu.
+Algunes entitats, com ara el vostre proveïdor de serveis d’Internet (ISP), poden veure que està utilitzant Tor, però no saben a on va. 

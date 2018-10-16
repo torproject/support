@@ -6,9 +6,9 @@ seo_slug: tenint-problemes-connectant-a-tor
 ---
 description:
 
-If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+Si teniu problemes per connectar-vos, seleccioneu l'opció "copiar el registre de Tor al porta-retalls".
+A continuació, enganxeu el registre de Tor en un fitxer de text o en un altre document.
+Heu de veure un d'aquests errors de registre comuns (busqueu les següents línies al vostre registre de Tor):
 
 ###### Common log error #1: Proxy connection failure
 
@@ -18,9 +18,9 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
+Si veieu línies com aquestes al vostre registre de Tor, significa que no esteu connectant a un proxy SOCKS.
+Si es requereix un proxy SOCKS per a la configuració de la xarxa, assegureu-vos que heu introduït correctament els vostres detalls del proxy.
+Si no es requereix un proxy SOCKS, o no esteu segur, intenteu connectar-vos a la xarxa Tor sense un proxy SOCKS.
 
 ##### Common log error #2: Can’t reach guard relays
 
@@ -30,9 +30,9 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+Si veieu línies com aquestes en el vostre registre Tor, significa que Tor no s'ha pogut connectar al primer node del circuit Tor.
+Això podria significar que estàs en una xarxa censurada.
+Intenteu connectar-vos amb ponts i això hauria de solucionar el problema.
 
 ##### Common log error #3: Failed to complete TLS handshake
 
@@ -42,8 +42,8 @@ Please try connecting with bridges, and that should fix the problem.
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Si veieu línies com aquesta al registre Tor, significa que Tor no ha pogut completar una encaixada de mans de TLS amb les autoritats del directori.
+Usar ponts probablement solucionarà això.
 
 ##### Common log error #4: Clock skew
 
@@ -51,7 +51,7 @@ Using bridges will likely fix this.
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead.
-    Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+    Tor requereix un rellotge precís per treballar: comproveu la vostra hora, zona horària i configuració de data.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
-Please make sure your clock is set accurately, including the correct timezone. Then restart Tor.
+Si veieu línies com aquesta en el vostre registre Tor, significa que el vostre rellotge del sistema no és correcte.
+Assegureu-vos que el rellotge s'estableixi amb precisió, inclosa la zona horària correcta. Torneu a iniciar Tor.

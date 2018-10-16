@@ -5,6 +5,6 @@ title: Tor Projesi özel sohbet için bir uygulama sunuyor mu?
 seo_slug: tor-ozel-sohbet-uygulamasi
 ---
 description:
-No. After eleven beta releases, we discontinued support of <a href="https://blog.torproject.org/sunsetting-tor-messenger">Tor Messenger</a>.
-We still believe in Tor's ability to be used in a messaging app, but we don't have the resources to make it happen right now.
-Do you? <mark><a href="https://www.torproject.org/about/contact.html.en">Contact us</a></mark>.
+Hayır. Onbir beta sürümünden sonra <a href="https://blog.torproject.org/sunsetting-tor-messenger">Tor Messenger</a> uygulamasını geliştirmeyi bıraktık.
+Tor alt yapısının bir sohbet uygulamasında kullanılabileceğine inanıyoruz ancak şu anda bu konuda bir uygulama geliştirmek için yeterli kaynağımız yok.
+Bu konuyla ilgileniyorsanız <mark><a href="https://www.torproject.org/about/contact.html.en">Bizimle Görüşün</a></mark>.

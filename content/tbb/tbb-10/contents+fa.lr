@@ -5,21 +5,21 @@ title: آنتی‌ویروس یا برنامه‌ی محافظت در برابر
 seo_slug: antivirus-blocking-tor
 ---
 description:
-Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
-Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
-Next, exclude the following processes:
+اکثر آنتی‌ویروس‌ها و برنامه‌های محافظت در برابر بدافزار اجازه می‌دهند پروسه‌های خاصی که در حالت عادی مسدود می‌شوند را به «لیست سفید» اضافه کنید.
+لطفاً آنتی‌ویروس یا برنامه‌ی محافظت در برابر بدافزار را باز کرده و در تنظیمات آن به دنبال «فهرست سفید» یا چیزی شبیه آن بگردید.
+حالا، پروسه‌های زیر را در نظر نگیر:
 
-* For Windows
+*برای ویندوز
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (if you use bridges)
+  obfs4proxy.exe ( اگر شما از پل استفاده می‌کنید)
 
 
-* For OS X
-  * TorBrowser
+* برای سیستم عامل مک
+  * مرورگر تور
   * tor.real
-  * obfs4proxy (if you use bridges)
+  obfs4proxy.exe ( اگر شما از bridge استفاده می کنید)
 
-Finally, restart Tor Browser.
+در آخر، مرورگر تور را مجدداً راه‌اندازی کنید.
 This should fix the issues you're experiencing.
 Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

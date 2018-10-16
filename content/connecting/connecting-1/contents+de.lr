@@ -5,6 +5,6 @@ title: Tor-Browser kann sich nicht verbinden, aber es scheint nicht an Zensur-Ma
 seo_slug: tor-browser-verbindet-sich-nicht
 ---
 description:
-One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
-Please make sure your system clock and timezone are set accurately.
-If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.
+Eines der häufigsten Probleme beim Verbinden mit Tor Browser ist eine falsch konfigurierte Systemuhr.
+Stelle sicher, dass deine System-Uhrzeit und -Zeitzone richtig eingestellt ist.
+Wenn dies das Problem nicht löst, siehe die Troubleshooting-Seite im <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser-Handbuch</a></mark>.

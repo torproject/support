@@ -5,7 +5,7 @@ title: কেন Firefox থেকে নির্মিত টর ব্রা�
 seo_slug: tor-browser-is-built-from-firefox-why
 ---
 description:
-Tor Browser is a modified version of Firefox specifically designed for use with Tor.
-A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
-While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a></mark>.
+টর ব্রাউজার হল ফায়ারফক্সের একটি পরিবর্তিত সংস্করণ বিশেষ করে টর ব্যবহারের জন্য ডিজাইন করা হয়েছে ।
+গোপনীয়তা এবং নিরাপত্তা বাড়াতে অতিরিক্ত প্যাচ ব্যবহার সহ টর ব্রাউজার তৈরি করে অনেক কাজ করা হয়েছে ।
+যখন এটি প্রযুক্তিগত অন্যান্য ব্রাউজারের সাথে টর ব্যবহার করা সম্ভব, আপনি নিজেকে সম্ভাব্য আক্রমণ বা তথ্য তেজস্ক্রিয়তার করতে পারেন, তাই আমরা তা দৃঢ়ভাবে নিরুৎসাহিত করি ।
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">টর ব্রাউজারের নকশা সম্পর্কে আরও জানুন ।</a></mark>

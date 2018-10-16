@@ -5,6 +5,6 @@ title: Comment puis-je visualiser le journal de messages du Navigateur Tor ?
 seo_slug: voir-journal-messages-navigateur-tor
 ---
 description:
-Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
-If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
-Once you have copied the log, you will be able to paste it into a text editor or email client.
+Cliquez sur le bouton « Copier le journal de Tor dans le presse-papiers » qui apparaît dans la fenêtre de dialogue quand le Navigateur Tor se connecte initialement au réseau.
+Si le navigateur est déjà ouvert, cliquez sur l’icône BoutonTor (le petit oignon vert en haut à gauche de l’écran), sur « Paramètres du réseau Tor », puis sur « Copier le journal de Tor dans le presse-papiers ».
+Une fois que vous aurez copié le journal, vous pourrez le coller dans un éditeur de texte ou un client de courriel.

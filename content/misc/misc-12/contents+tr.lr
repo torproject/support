@@ -5,7 +5,7 @@ title: Tor üzerinde anonim dosya paylaşımı nasıl yapılır?
 seo_slug: tor-uzerinden-anonim-dosya-paylasimi-nasil-yapilir
 ---
 description:
-Many exit nodes are configured to block certain types of file sharing traffic, such as BitTorrent.
-BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+Çıkış düğümlerinin çoğu, BitTorrent gibi belirli türlerdeki dosya paylaşım trafiğini engelleyecek şekilde yapılandırılmıştır.
+Özellikle BitTorrent <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">Tor üzerinde anonim değildir</a></mark>.
 
 Tor üzerinden dosya paylaşmak için <mark><a href="https://onionshare.org/">OnionShare</a></mark> kullanmak iyi bir seçenektir.

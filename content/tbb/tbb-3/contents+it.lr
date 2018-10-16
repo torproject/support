@@ -5,5 +5,5 @@ title: Mentre utilizzo Tor Browser, qualcuno potrebbe essere in grado di vedere 
 seo_slug: indica-quali-siti-internet-sono-visitati-durante-l'utilizzo-di-tor-browser
 ---
 description:
-Tor Browser prevents people from knowing the websites you visit.
-Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. 
+Tor browser evita che le persone conoscano i siti web che visiti.
+Alcune entità, come il tuo Internet Service Provider (ISP), potrebbero essere in grado di vedere che stai usando Tor, ma non sapranno su che siti stai andando. 

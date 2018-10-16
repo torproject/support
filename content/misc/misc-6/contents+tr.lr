@@ -5,5 +5,5 @@ title: Tor günlük kayıtları tutuyor mu?
 seo_slug: tor-gunluk-kayitlari-tutuyor-mu
 ---
 description:
-Tor doesn't keep any logs that could identify a particular user.
-We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.
+Tor sizin kim olduğunuzun anlaşılmasını sağlayacak herhangi bir günlük kaydı tutmaz.
+<mark><a href="https://metrics.torproject.org/">Tor İstatistikleri</a></mark> bölümünde görebileceğiniz gibi yalnız ağın nasıl çalıştığı ile ilgili bazı güvenli ölçümler yapıyoruz.

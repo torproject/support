@@ -5,5 +5,5 @@ title: آیا مدیر شبکه‌ام می‌تواند بفهمد که من ا
 seo_slug: network-admin-know-i-am-using-tor
 ---
 description:
-When using Tor Browser, no one can see the websites that you visit.
-However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.
+وقتی از مرورگر تور استفاده می‌کنید، هیچ‌کس نمی‌تواند ببیند که شما از چه سایت‌هایی دیدن می‌کنید.
+با این حال سرویس‌دهنده یا مدیر شبکه‌ی شما می‌تواند ببیند که به شبکه‌ی تور وصل شده‌اید، هرچند امکان مشاهده‌ی کارهای شما را ندارد.

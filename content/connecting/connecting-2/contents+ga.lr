@@ -6,9 +6,9 @@ seo_slug: having-trouble-connecting-to-tor
 ---
 description:
 
-If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+Má tá fadhb agat ag ceangal le líonra Tor, úsáid an rogha “Cóipeáil Logchomhad Tor go dtí an Ghearrthaisce.”
+Ansin, greamaigh an logchomhad Tor isteach i dtéacschomhad nó i gcáipéis eile.
+Is dócha go bhfeicfidh tú ceann de na hearráidí coitianta seo (cuardaigh na línte seo a leanas sa logchomhad Tor):
 
 ###### Earráid choitianta #1 sa logchomhad: Theip ar cheangal le seachfhreastalaí
 
@@ -18,9 +18,9 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
+Má fheiceann tú línte den sórt seo i do logchomhad Tor, ciallaíonn sé gur theip ort ceangal a bhunú le seachfhreastalaí SOCKS.
+Má theastaíonn seachfhreastalaí SOCKS uait ar do líonra, deimhnigh gur chuir tú mionsonraí an fhreastalaí isteach go ceart.
+Mura dteastaíonn seachfhreastalaí SOCKS uait, nó mura bhfuil tú cinnte, déan iarracht ceangal a bhunú le líonra Tor gan seachfhreastalaí SOCKS.
 
 ##### Earráid choitianta #2 sa logchomhad: Ní féidir garda iontrála a bhaint amach
 
@@ -30,9 +30,9 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+Má fheiceann tú línte den sórt seo sa logchomhad Tor, ciallaíonn sé gur theip ar Tor ceangal a bhunú leis an chéad nód sa gciorcad Tor.
+Seans go gciallaíonn sé seo go bhfuil do líonra faoi chinsireacht.
+Ba chóir duit triail a bhaint as droichead; is dócha go réiteoidh sin an fhadhb.
 
 ##### Earráid choitianta #3 sa logchomhad: Níorbh fhéidir an croitheadh láimhe TLS a chur i gcrích
 
@@ -42,8 +42,8 @@ Please try connecting with bridges, and that should fix the problem.
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Má fheiceann tú línte den sórt seo i do logchomhad Tor, ciallaíonn sé gur theip ar Tor croitheadh láimhe TLS leis na húdaráis a chur i gcrích.
+Is dócha go réiteoidh droichead an fhadhb seo.
 
 ##### Earráid choitianta #4 sa logchomhad: Clog ar sceabha
 
@@ -52,5 +52,5 @@ Using bridges will likely fix this.
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
-Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 
+Má fheiceann tú línte den sórt seo i do logchomhad Tor, ciallaíonn sé go bhfuil an clog i do ríomhaire mícheart.
+Ba chóir duit deimhniú go bhfuil an clog socraithe mar is ceart, an crios ama san áireamh. Ansin, atosaigh Tor. 

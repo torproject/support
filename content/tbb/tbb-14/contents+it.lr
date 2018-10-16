@@ -5,5 +5,5 @@ title: Posso installare una nuova estensione su Tor Browser, ad esempio AdBlock 
 seo_slug: installare-estensioni-su-tor-browser
 ---
 description:
-It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
-Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.
+È fortemente sconsigliato installare nuovi componenti aggiuntivi in Tor Browser, perché possono compromettere la privacy e la sicurezza.
+Tor Browser viene fornito con con due componenti aggiuntivi preinstallati - HTTPS Everywhere e NoScript - e l'aggiunta di qualsiasi altro componente potrebbe deanonimizzarvi.

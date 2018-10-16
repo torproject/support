@@ -7,40 +7,40 @@ seo_slug: com-puc-fer-una-sortida
 description:
 Per obtenir un recurs més complet en l'execució d'un repetidor, consulteu la <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia de repetidors de Tor</a></mark>.
 
-* Review our <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Exit relay guidelines</a></mark>
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* Reviseu les nostres <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">pautes de repetidors de sortida</a></mark>
+* Executa "apt-get install tor" (com root).
+* Assegureu-vos que el rellotge, la data i la zona horària estiguin configurades correctament. Instal·leu el paquet ntp o openntpd (o similar) per mantenir-lo d'aquesta manera.
+* Edita /etc/tor/torrc per que s'assembli al següent:
 
 
-    ## Set the nickname of this relay
+    ## Edita l'àlies d'aquest repetidor
     Nickname ididnteditheconfig
 
-    ## Set your own contact info
+    ## Posa la teva info de contacte
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
     ORPort 9001
     DirPort 9030
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
-    #Address noname.example.com
+    ## La adreça IP o el hostname per les connexions d'entrada (deixeu comentat i Tor ho resoldrà)
+    #adreça noname.example.com
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Edita el teu ample de banda (deixa-ho comentat i Tor funcionarà sense limits d'ample de banda)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-    ## If you control multiple relays, include them in the family
+    ## Si tu controles multiples repetidors, inclou-los a la familia
     #MyFamily $keyid,$keyid,...
 
 
-* Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-  This step is usually fast, but it may take a few minutes.
-  Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-  If you don't see this message, it means that your relay is not reachable from the outside.
-  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
-* When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
-  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-  If it hasn't, re-check firewalls, IP and ports again.
+* Executa "service tor reload" (com root)
+* Després que el repetidor es connecti a la xarxa, intentarà determinar si els ports que heu configurat es poden accedir des de l'exterior.
+  Aquest pas sol ser ràpid, però pot trigar uns quants minuts.
+  Busqueu una entrada de registre en el vostre /var/log/syslog com "Self-testing indicates your ORPort is reachable from the outside. Excellent.".
+  Si no veu aquest missatge, vol dir que el repetidor no es pot accedir des de l'exterior.
+  Heu de tornar a comprovar els tallafocs, comproveu que la IP i els ports que heu especificat al torrc són correctes, etc.
+* Quan confirmi que és accessible, carregarà un "descriptor de servidor" a les autoritats del directori perquè els clients sàpiguen quina adreça, ports, claus, etc., utilitza el vostre repetidor.
+  Després d'unes hores (per donar-li prou temps de propagació), podeu consultar <mark><a href="https://metrics.torproject.org/rs.html#search">mètriques</a></mark> per veure si el vostre repetidor s'ha registrat correctament a la xarxa.
+  Si no ho ha fet, torni a comprovar els tallafocs, IP i ports.
 
 Tingueu en compte si voleu canviar a la <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">política de sortida reduïda</a></mark>.

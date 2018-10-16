@@ -5,7 +5,7 @@ title: Ní féidir liom ceangal le Brabhsálaí Tor. An bhfuil mo líonra faoi c
 seo_slug: cant-connect-to-tor-browser
 ---
 description:
-You might be on a censored network, and so you should try using bridges.
-Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time.
-If you need other bridges, you can get them at our <mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>.
-For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.
+B'fhéidir é. Má tá, ba chóir duit triail a bhaint as droichead.
+Tá roinnt droichead ionsuite i mBrabhsálaí Tor, agus is féidir leat iad siúd a úsáid trí "Cumraigh" a roghnú (agus na treoracha a leanúint) sa bhfuinneog Tor Launcher a osclaíonn an chéad uair a úsáideann tú Brabhsálaí Tor.
+Má theastaíonn droichid eile uait, is féidir leat iad a fháil <mark><a href="https://bridges.torproject.org/">ón suíomh seo</a></mark>.
+Chun tuilleadh eolais maidir le droichid a fháil, féach ar <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">lámhleabhar Bhrabhsálaí Tor</a></mark>.

@@ -5,10 +5,10 @@ title: Devrais-je exécuter un relais de sortie à partir mon domicile ?
 seo_slug: faire-fonctionner-sortie-chez-vous
 ---
 description:
-No.
-If law enforcement becomes interested in traffic from your exit relay, it's possible that officers will seize your computer.
-For that reason, it's best not to run your exit relay in your home or using your home internet connection.
+Non.
+Si la police s’intéresse au trafic en provenance de votre relais de sortie, il est possible que des officiers saisissent votre ordinateur.
+C’est pourquoi il est préférable de ne pas faire fonctionner votre relais de sortie chez vous ou en utilisant votre connexion à Internet résidentielle.
 
-Instead, consider running your exit relay in a commercial facility that is supportive of Tor.
-Have a separate IP address for your exit relay, and don't route your own traffic through it.
-Of course, you should avoid keeping any sensitive or personal information on the computer hosting your exit relay.
+Envisagez plutôt de faire fonctionner votre relais de sortie dans une installation commerciale favorable à Tor.
+Utilisez une adresse IP séparée pour votre relais de sortie et n’acheminez pas votre propre trafic par ce relais.
+Bien entendu, vous devriez éviter de laisser des informations personnelles ou sensibles sur l’ordinateur qui héberge votre relais de sortie.

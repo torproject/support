@@ -5,5 +5,5 @@ title: Soll ich neue Add-Ons oder Erweiterungen wie AdBlock Plus oder uBlock Ori
 seo_slug: installiere-add-on-erweiterungen-tor-browser
 ---
 description:
-It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
-Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.
+Es ist stark davon abzuraten, neue Add-Ons im Tor Browser zu installieren, weil diese Ihre Privatsphäre und Sicherheit gefärden können.
+Im Tor Browser werden bereits zwei Add-Ons mitgeliefert — HTTPS Everywhere und NoScript — weitere Add-Ons hinzuzufügen könnte Sie deanonymisieren.

@@ -5,7 +5,7 @@ title: Tor Browser bağlantısını kuramıyorum. Ağım sansürleniyor mu?
 seo_slug: agim-sansurleniyor-mu
 ---
 description:
-You might be on a censored network, and so you should try using bridges.
-Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time.
-If you need other bridges, you can get them at our <mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>.
-For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.
+Sansürlenen bir ağ üzerinde olabilirsiniz. Köprüleri kullanmayı denemelisiniz.
+Tor Browser üzerinde bazı köprüler bulunur ve bu köprüler Tor Browser ilk kez başlatıldığında açılan Tor Başlatıcı penceresindeki "yapılandırma" bölümünden (yönergeleri izleyerek) seçilebilir.
+Başka köprüler kullanmanız gerekiyorsa <mark><a href="https://bridges.torproject.org/">Köprüler web sitesinden</a></mark> bilgi alabilirsiniz.
+Köprüler hakkında ayrıntılı bilgi almak için <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser belgelerine</a></mark> bakabilirsiniz.

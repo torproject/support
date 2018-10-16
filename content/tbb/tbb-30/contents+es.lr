@@ -5,10 +5,10 @@ title: Un sitio web (banco, proveedor de correo, etc.) me bloquea cada vez que u
 seo_slug: web-bloquea-navegador-tor
 ---
 description:
-Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
-Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
+El Tor Browser a menudo hace que tu conexión parezca que viene de una parte totalmente distinta del mundo.
+Algunos sitios web, como bancos o proveedores de correo electrónico, podrían interpretar esto como un signo de que tu cuenta está comprometida, y la bloquean.
 
 La única forma de resolver esto es siguiendo el procedimiento recomendado del sitio para recuperación de cuenta, o contactando con los operadores para explicarles la situación.
 
-You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
-Contact your provider and ask them if they provide 2FA.
+Puedes evitar esto si tu proveedor ofrece autentificación en 2 pasos, que es una opción de seguridad mucho mejor que las basadas en IP. Contacta con tu proveedor y pregúntale si proporciona 2FA (autentificación en 2 pasos).
+Contacta con tu proveedor y pregúntale si proporciona 2FA (autentificación en 2 pasos).

@@ -7,9 +7,9 @@ seo_slug: updating-tor-browser
 description:
 Anda dapat memperbarui Tor Browser segera setelah versi baru dirilis.
 
-Tor Browser will prompt you to update the software once a new version has been released.
+Tor Browser akan meminta Anda untuk memperbarui perangkat lunak ketika versi baru telah dirilis.
 
-The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+Ikon Torbutton (gambar bawang hijau di sudut kiri atas browser) akan menampilkan segi tiga kuning.
 
 <img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 

@@ -8,39 +8,39 @@ description:
 Más mian leat athsheachadán de do chuid féin a rith, gheobhaidh tú na mionsonraí go léir sa <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Lámhleabhar Athsheachadán Tor</a>.
 
 
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* Rith "apt-get install tor" (mar root).
+* Deimhnigh go bhfuil an clog, an dáta, agus an crios ama socraithe mar is ceart ar do ríomhaire. Suiteáil ntp nó openntpd (nó pacáiste eile den sórt seo) chun an t-am cheart a choinneáil.
+* Cuir /etc/tor/torrc in eagar mar seo a leanas:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ## Seoladh IP nó óstainm a úsáideann ceangail isteach (fág mar nóta tráchta é agus tabharfaidh Tor buille faoi thuairim)
     #Address noname.example.com
 
-    ## Set the nickname of this relay
+    ## Tabhair leasainm don athsheachadán seo
     Nickname ididnteditheconfig
 
-    ## Set your own contact info
-    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
+    ## Do chuid sonraí teagmhála
+    ContactInfo 0xFFFFFFFF Duine Randamach <tadhgorodai AG example ponc com>
 
-    ## If you control multiple relays, include them in the family
+    ## Má tá tú i gceannas ar níos mó ná athsheachadán amháin, cuir le clann amháin iad
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001
     DirPort 9030
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Socraigh an ráta bandaleithid (fág mar nóta tráchta é agus rithfidh Tor gan teorainn ar bhandaleithead)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
-* Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-   This step is usually fast, but it may take a few minutes.
+* Rith "service tor reload" (mar root)
+* Tar éis don athsheachadán ceangal a bhunú leis an líonra, déanfaidh sé iarracht fáil amach an bhfuil na poirt a shocraigh tú insroichte ón taobh amuigh.
+   Bíonn an chéim seo sciobtha de ghnáth, ach uaireanta tógann sé cúpla nóiméad.
 
-Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-If you don't see this message, it means that your relay is not reachable from the outside.
-You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+Téigh ar lorg iontráil in /var/log/syslog ar nós "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+Mura bhfeiceann tú an teachtaireacht seo, ciallaíonn sé nach bhfuil an t-athsheachadán insroichte ón taobh amuigh.
+Ba chóir duit deimhniú gur shonraigh tú an seoladh IP, na poirt, agus na sonraí maidir le ballaí dóiteáin sa gcomhad torrc go ceart.
 
-When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
-After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-If it hasn't, re-check firewalls, IP and ports again.
+Nuair a dheimhníonn sé go bhfuil an t-athsheachadán insroichte, uaslódálann sé "cur síos ar fhreastalaí" go dtí údaráis an eolaire le cur in iúl do chliaint an seoladh a úsáideann an t-athsheachadán, chomh maith le poirt, eochracha, srl.
+Tar éis cúpla uair an chloig (dóthain ama chun na sonraí a bhaineann le d'athsheachadán a scaipeadh), beidh tú in ann iarratas a chur chuig <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> le féachaint an bhfuil an t-athsheachadán cláraithe leis an líonra mar is ceart.
+Mura bhfuil, deimhnigh an seoladh IP, na poirt, agus aon bhallaí dóiteáin arís.

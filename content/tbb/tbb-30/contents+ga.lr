@@ -5,10 +5,10 @@ title: Cuireann suíomh Gréasáin (banc, soláthraí r-phoist, srl.) cosc orm n
 seo_slug: website-locks-torbrowser-out
 ---
 description:
-Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
-Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
+Nuair a úsáideann tú Brabhsálaí Tor, is minic go ndealraíonn sé go bhfuil do cheangal ag teacht ó áit éigin go hiomlán difriúil ar domhan.
+Dá bharr seo, tá seans ann go gceapfadh suímh áirithe, mar shampla bainc nó soláthraithe ríomhphoist, gur bhris bradaí isteach i do chuntas agus chuirfidís do chuntas faoi ghlas.
 
 An t-aon slí atá ann leis seo a réiteach ná treoracha an tsuímh a leanúint d'athshlánú do chuntais, nó trí dul i dteagmháil le riarthóirí an tsuímh agus an fhadhb a mhíniú.
 
-You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
-Contact your provider and ask them if they provide 2FA.
+D'fhéadfá an cás seo a sheachaint go hiomlán trí úsáid a bhaint as fíordheimhniú 2-fhachtóir, rogha slándála i bhfad níos fearr ná clú bunaithe ar sheoltaí IP.
+Téigh i dteagmháil le do sholáthraí seirbhíse le fáil amach an bhfuil fíordheimhniú 2-fhachtóir ar fáil.

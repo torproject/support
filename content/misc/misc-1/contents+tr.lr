@@ -5,5 +5,5 @@ title: Zorunlu bir nedenle bir Tor kullanıcısını bulmalıyım. Yardım edebi
 seo_slug: tor-kullanicilarinin-izlenmesi
 ---
 description:
-There is nothing the Tor developers can do to trace Tor users.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.
+Tor geliştiricileri Tor kullanıcılarını izlemek için herhangi bir şey yapmaz.
+Kötü niyetli kişilerin Tor anonimliğini bozmasını engelleyen koruma yöntemleri bizim Tor kullanıcılarını izlememizi de engeller.

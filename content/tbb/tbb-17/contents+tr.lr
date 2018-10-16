@@ -5,5 +5,5 @@ title: Tor Browser ile başka bir web tarayıcısını aynı anda çalıştırma
 seo_slug: tor-browser-ile-baska-bir-web-tarayicisini-birlikte-calistirmak
 ---
 description:
-If you run Tor Browser and another browser at the same time, it won't affect Tor's performance or privacy properties.
-However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.
+Tor Browser ile başka bir web tarayıcısını aynı anda çalıştırırsanız, Tor başarımı ya da kişisel gizliliği koruma özellikleri etkilenmez.
+Bununla birlikte diğer web tarayıcısında yapacağınız işlemlerin gizliliğin korunmayacağını unutmayın ve Tor Browser üzerinde yapmak istediğiniz bir işlemi yanlışlıkla diğer tarayıcı üzerinde yapmamaya özen gösterin.

@@ -5,8 +5,8 @@ title: ¿Puedo cambiar el número de saltos que usa Tor?
 seo_slug: cambiar-el-número-de-saltos-de-los-usuarios-de-tor
 ---
 description:
-Right now the path length is hard-coded at 3 plus the number of nodes in your path that are sensitive.
-That is, in normal cases it's 3, but for example if you're accessing an onion service or a ".exit" address it could be more.
+Ahora mismo la longitud de la ruta está internamente codificada en 3 más el número de nodos en tu ruta que sean sensibles.
+Esto en casos normales es 3, pero por ejemplo, si estás accediendo a un servicio cebolla o a una dirección ".exit" podrían ser más.
 
-We don't want to encourage people to use paths longer than this as it increases load on the network without (as far as we can tell) providing any more security.
-Also, using paths longer than 3 could harm anonymity, first because it makes<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denial of security</a></mark> attacks easier, and second because it could act as an identifier if only a small number of users have the same path length as you.
+No queremos animar a que la gente use rutas más largas que esta, ya que incrementaría la carga de la red sin (hasta donde podemos decir) proporcionar más seguridad.
+Además, usar más de 3 rutas podría dañar el anonimato, en primer lugar porque facilita los ataques de <mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denegación de seguridad</a></mark>,  y en segundo lugar porque podría actuar como un identificador si sólo un pequeño número de usuarios tienen la misma longitud de ruta que tú.

@@ -5,5 +5,5 @@ title: Tor Browser üzerine, AdBlock Plus ya da uBlock Origin gibi yeni bir ekle
 seo_slug: tor-browser-uzerine-eklenti-kurmak
 ---
 description:
-It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
-Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.
+Gizlilik ve güvenliğinizi tehlikeye atabileceğinden Tor Browser üzerine yeni eklentiler kurmaktan kaçınmanız önerilir.
+Tor Browser HTTPS Everywhere ve NoScript eklentileri kurulmuş olarak gelir. Bunun dışında bir eklenti kurmak anonim kalmanızı engelleyebilir.

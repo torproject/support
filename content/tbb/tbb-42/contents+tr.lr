@@ -5,6 +5,6 @@ title: Tor Browser neden Firefox çalışmıyor gibi uyarılar veriyor?
 seo_slug: tor-browser-firefox-calismiyor-hatasi
 ---
 description:
-Tor Browser is built using <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, so errors regarding Firefox may occur.
-Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for.
-If you are running an anti-virus, please see <mark><a href="http://support.torproject.org/#tbb-10">My antivirus/malware protection is blocking me from accessing Tor Browser</a></mark>, it is common for anti-virus / anti-malware software to cause this type of issue.
+TOr Browser <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Fİrefox ESR</a></mark> üzerine kurulmuştur. Bu nedenle Firefox uygulamasına bağlı olarak sorunlar çıkabilir.
+Lütfen başka bir Tor Browser kopyasının çalışmadığından ve Tor Browser dosyalarının kullanıcı tarafından doğru ve yeterli izinler ile erişilebilecek bir konuma kopyalandığından emin olun.
+Bir virusten koruma uygulaması çalıştırıyorsanız <mark><a href="http://support.torproject.org/#tbb-10">Virüs ya da kötü amaçlı yazılımdan korunma uygulamam Tor Browser kullanmamı engelliyor</a></mark>Bu tür bir soruna genellikle virüs ya da kötü amaçlı yazılımdan korunma uygulamaları yol açar.

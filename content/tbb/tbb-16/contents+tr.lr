@@ -5,7 +5,7 @@ title: Çıkış yapacağım ülkeyi seçebilir miyim?
 seo_slug: cikis-yapacagim-ulkeyi-secebilir-miyim
 ---
 description:
-Modifying the way that Tor creates its circuits is strongly discouraged.
-You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity.
-If the outcome you want is simply to be able to access resources that are only available in one country, you may want to consider using a VPN instead of using Tor.
-Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.
+Tor devresi oluşturma işleminde değişiklik yapılmaması önemle önerilir.
+Yönlendirme seçiminin Tor tarafından yapılmasına izin verdiğinizde en iyi güvenliği elde edersiniz. Giriş ya da çıkış noktalarını kendiniz seçtiğinizde anonim kalma olasılığınız azalır.
+Yalnız bir ülkenin içinden erişilebilecek kaynaklara erişmeniz gerekiyorsa, Tor yerine VPN kullanmayı düşünebilirsiniz.
+VPN bağlantılarının TOr ile aynı düzeyde gizlilik sağlamadığını unutmayın. Ancak VPN kullanarak coğrafi konum kısıtlamalarını aşabilirsiniz.

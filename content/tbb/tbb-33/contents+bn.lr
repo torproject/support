@@ -5,6 +5,6 @@ title: টর ব্রাউজার কি আমাকে রিলে ক�
 seo_slug: running-tor-browser-make-me-relay
 ---
 description:
-Running Tor Browser does not make you act as a relay in the network.
-This means that your computer will not be used to route traffic for others.
-If you'd like to become a relay, please see our <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+টর ব্রাউজার চালনা আপনাকে নেটওয়ার্কে রিলে হিসেবে কাজ করে না ।
+এর মানে হলো আপনার কম্পিউটার অন্যদের জন্য রুটে চলাচলের কাজে ব্যবহার করা হবে না ।
+যদি আপনি একটি রিলে হতে চান, অনুগ্রহ করে আমাদের <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">টর রিলে গাইড</a></mark> দেখুন ।

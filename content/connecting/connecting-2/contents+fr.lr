@@ -6,9 +6,9 @@ seo_slug: difficultés-connexion-à-tor
 ---
 description:
 
-If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+Si vous éprouvez des difficultés à vous connecter, veuillez sélectionner l’option « Copier le journal de Tor dans le presse-papiers ».
+Collez ensuite le journal de Tor dans un fichier texte ou dans un autre document.
+Vous devriez trouver l’une de ces erreurs de journal courantes (cherchez les lignes suivantes dans votre journal de Tor) :
 
 ###### Erreur de journal courante no 1 : échec de connexion au mandataire
 
@@ -18,9 +18,9 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these  in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure,  please try connecting to the Tor network without a SOCKS proxy.
+Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie que vous n’arrivez pas à vous connecter à un mandataire SOCKS.
+Si un mandataire SOCKS est exigé pour votre configuration réseau, veuillez alors vous assurer d’avoir bien saisi les renseignements concernant le mandataire.
+Si un mandataire SOCKS n’est pas nécessaire ou que vous n’êtes pas sûr, veuillez essayer de vous connecter au réseau Tor sans mandataire SOCKS.
 
 ##### Erreur de journal courante no 2 : impossible d’atteindre les relais de garde
 
@@ -30,9 +30,9 @@ If a SOCKS proxy is not required, or you’re not sure,  please try connecting t
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie que vous n’arrivez pas à vous connecter au premier nœud du circuit Tor.
+Cela pourrait signifier que vous êtes sur un réseau qui est censuré.
+Tentez de vous connecter avec des ponts, ce qui devrait corriger le problème.
 
 ##### Erreur de journal courante no3 : Échec d’établissement d’une connexion TLS
 
@@ -42,15 +42,15 @@ Please try connecting with bridges, and that should fix the problem.
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie que Tor n’est pas parvenu à établir une connexion TLS avec les autorités d’annuaire.
+Utiliser des ponts réglera probablement le problème.
 
-##### Common log error #4: Clock skew
+##### Erreur de journal courante no 4 : Décalage de l’horloge
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
-Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 
+Si vous rencontrez de telles lignes dans votre journal de Tor, cela signifie que votre horloge système n’est pas à l’heure.
+Veuillez vous assurer que votre horloge est réglée avec précision, y compris le fuseau horaire, puis redémarrez Tor. 

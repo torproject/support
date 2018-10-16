@@ -5,16 +5,16 @@ title: Quan utilitzo el Tor, poden esbrinar la informació que comparteixo amb e
 seo_slug: poden-espies-veure-informació-i-compartir
 ---
 description:
-Tor prevents eavesdroppers from learning sites that you visit.
-However, information sent unencrypted over the internet using plain HTTP can still be intercepted by exit relay operators or anyone observing the traffic between your exit relay and your destination website.
-If the site you are visiting uses HTTPS, then the traffic leaving your exit relay will be encrypted, and won't be visible to eavesdroppers.
+Tor evita que els que espien sàpiguen quins llocs visiteu.
+Tanmateix, la informació enviada sense xifrar a Internet mitjançant HTTP simple encara pot ser interceptada pels operadors de repetidors de sortida o qualsevol persona que observi el trànsit entre el repetidor de sortida i el lloc web de destinació.
+Si el lloc que esteu visitant utilitza HTTPS, el trànsit que surt del relleu de sortida es xifrarà i no serà visible per als espies.
 
 <div class="row">
   <div class="col-md-6">
     <div class="card">
       <img class="card-img-top" src="/static/images/image2.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">If you are using HTTPS, your website URL will begin with "https://".</h4>
+        <h4 class="card-title">Si utilitzeu HTTPS, l'URL del vostre lloc web començarà amb "https: //".</h4>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ If the site you are visiting uses HTTPS, then the traffic leaving your exit rela
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
+        <h4 class="card-title">Aquesta visualització mostra quina informació és visible per a les escapades amb i sense Navegador Tor i encriptació HTTPS.</h4>
       </div>
     </div>
   </div>

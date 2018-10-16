@@ -5,5 +5,5 @@ title: An bhfuil sé sábháilte Brabhsálaí Tor agus brabhsálaí eile a úsá
 seo_slug: run-tor-browser-and-different-browser
 ---
 description:
-If you run Tor Browser and another browser at the same time, it won't affect Tor's performance or privacy properties.
-However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.
+Má úsáideann tú Brabhsálaí Tor agus brabhsálaí eile san am gcéanna, níl aon éifeacht ar fheidhmíocht Tor nó ar a ghnéithe príobháideachais.
+Mar sin féin, ba chóir duit a bheith ar an eolas nach mbeidh na gnéithe príobháideachais céanna ar fáil sa mbrabhsálaí eile. Mar sin, caithfidh tú a bheith cúramach gan an brabhsálaí eile a úsáid chun rud éigin a dhéanamh a bhí tú ag iarraidh a dhéanamh i mBrabhsálaí Tor.

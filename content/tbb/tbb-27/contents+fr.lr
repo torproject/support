@@ -7,9 +7,9 @@ seo_slug: mettre-à-jour-navigateur-tor
 description:
 Vous pouvez mettre le Navigateur Tor à jour dès qu’une nouvelle version paraît.
 
-Tor Browser will prompt you to update the software once a new version has been released.
+Le Navigateur Tor vous invitera à mettre le logiciel à jour dès qu’une nouvelle version est parue.
 
-The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
+L’icône de BoutonTor (le petit oignon vert dans le coin supérieur droit du navigateur) affichera un triangle jaune.
 
 <img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
 

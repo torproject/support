@@ -5,10 +5,10 @@ title: Eine Webseite (Bank, Email-Dienst, etc.) sperrt mich aus, wenn ich Tor be
 seo_slug: webseite-blockt-tor-browser
 ---
 description:
-Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
-Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
+Tor Browser lässt die Verbindung immer wieder so aussehen, als käme sie von einem anderen Teil der Welt.
+Einige Webseiten, wie Banken und Emailanbieter, könnten dies als Zeichen eines Betrugsversuches interpretieren und sperren deshalb den Zugriff.
 
 Die einzige Möglichkeit ist, den Anweisungen zur Wiederherstellung des Kontos zu folgen, oder die Betreiber zu kontaktieren und die Situation zu erklären.
 
-You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
-Contact your provider and ask them if they provide 2FA.
+Dieses Szenario lässt sich mit 2-Faktoren-Authentifizierung vermeiden. Diese Option ist viel sicherer als IP-basierte Beurteilung.
+Kontaktiere den Anbieter und frage nach 2FA.

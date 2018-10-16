@@ -5,5 +5,5 @@ title: آیا من باید افزونه اضافه شدنی جدیدی مانن
 seo_slug: installing-add-on-extensions-tor-browser
 ---
 description:
-It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
-Tor Browser already comes installed with two add-ons — HTTPS Everywhere and NoScript — and adding anything else could deanonymize you.
+شدیداً توصیه می‌شود از نصب افزونه‌های جدید در مرورگر تور خودداری کنید، چون این کار می‌تواند حریم خصوصی و امنیت شما را به خطر بیندازد.
+مرورگر تور به طور پیش‌فرض با دو افزونه‌ی HTTPS Everywhere و NoScript عرضه می‌شود. نصب افزونه‌های بیشتر می‌تواند ناشناس بودن شما را از بین ببرد.

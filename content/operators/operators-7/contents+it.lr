@@ -6,9 +6,9 @@ seo_slug: implementare-exit-da-casa
 ---
 description:
 No.
-If law enforcement becomes interested in traffic from your exit relay, it's possible that officers will seize your computer.
-For that reason, it's best not to run your exit relay in your home or using your home internet connection.
+Se le forze dell'ordine si interessano al traffico passato dal tuo exit relay, è possibile che gli agenti sequestrino il tuo computer.
+Per questo motivo, è meglio non implementare un exit relay a casa tua né utilizzare la tua connessione internet domestica.
 
-Instead, consider running your exit relay in a commercial facility that is supportive of Tor.
-Have a separate IP address for your exit relay, and don't route your own traffic through it.
-Of course, you should avoid keeping any sensitive or personal information on the computer hosting your exit relay.
+Considera invece di implementare il tuo exit relay in una struttura che sia favorevole a Tor.
+Utilizza un indirizzo IP dedicato per il tuo exit relay, e non fare passare da lì il tuo traffico.
+Naturalmente, dovresti evitare di tenere dati sensibili o personali sul computer che utilizzi come host per il tuo exit relay.

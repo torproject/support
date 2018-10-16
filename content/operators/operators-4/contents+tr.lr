@@ -5,15 +5,15 @@ title: Ubuntu üzerinde doğru paketleri kullandığımdan nasıl emin olabiliri
 seo_slug: ubuntu-üzerinde-dogru-paketleri-kullanmak
 ---
 description:
-* Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
-* Determine your Ubuntu version by running the following command:
+* Güvenilir şekilde güncellenmediğinden Ubuntu depolarındaki paketleri kullanmayın. Ubuntu depolarındaki paketleri kullanırsanız önemli kararlılık ve güncelleme düzeltmeleri eksik kalır.
+* Şu komutu yürüterek kullandığınız Ubuntu sürümünü belirleyin:
        $ lsb_release -c
-* As root, add the following lines to /etc/apt/sources.list. Use the version you found in the previous step for <version>.
+* /et/apt/sources.list dosyasına root olarak şu satırları ekleyin. Bir önceki adımda öğrendiğiniz <version> sürümünü kullanın.
        $ deb http://deb.torproject.org/torproject.org <version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
-* Add the gpg key used to sign the packages by running the following commands:
+* Şu komutları yürüterek paketleri imzalamak için kullanılan gpg anahtarını ekleyin:
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-* Run the following commands to install tor and check its signatures:
+* Tor uygulamasını kurmak ve imzalarını denetlemek için şu komutları yürütün:
        $ sudo apt-get update
        $ sudo apt-get install tor deb.torproject.org-keyring
