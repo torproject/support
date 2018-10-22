@@ -1,0 +1,11 @@
+_model: question
+---
+title: 无法连接 Tor，我的网络被审查了吗？
+---
+seo_slug: 我的网络被审查了？
+---
+description:
+你所用的网络可能存在封锁，因此你应该试试使用桥。
+有一些网桥是 Tor Browser 内置的，在第一次启动 Tor Browser 时你可以通过点击 Tor Launcher 中的“设置”（并遵循提示）来使用这些网桥。
+如果您需要其他的网桥，你可以从<mark><a href="https://bridges.torproject.org/">网桥网站</a></mark>上查询。
+关于网桥的更多信息请参阅 <mark><a href="https://tb-manual. Tor project.org/en-US/bridges.html">Tor Browser 用户手册</a></mark>。

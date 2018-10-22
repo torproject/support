@@ -1,0 +1,9 @@
+_model: question
+---
+title: Tor Browser 是否为每个网站使用不同的线路？
+---
+seo_slug: 为每一个网站使用不同的线路
+---
+description:
+Tor Browser 中，每一个新的羽毛会分配到一条独立的链路。
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">Tor Browser 的设计和实现 </a></mark>文档进一步解释了设计背后的思考。

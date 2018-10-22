@@ -1,0 +1,15 @@
+_model: question
+---
+title: 我如何卸载 Tor Browser?
+---
+seo_slug: 卸载 Tor Browser
+---
+description:
+在您的系统上删除 Tor Browser 非常简单：
+
+* 打开你 Tor Browser 的文件夹。
+  Windows 中的默认位置是桌面，macOS 中位于应用程序文件夹（你需要在安装完毕后把浏览器移动到应用程序文件夹来运行。）
+在 Windows 系统中默认是在桌面；在 Mac OS X 中则是应用程序文件夹；而在  Linux 系统中则没有默认路径，但是若您的  Tor Browser是英文版的话，那目录的名称会是“ Tor -browser_en-US”。
+* 删除 Tor Browser 文件夹或者应用程序。
+* 清空回收站。
+* 不需要使用操作系统中的卸载工具。

@@ -1,0 +1,20 @@
+_model: question
+---
+title: 什么是 .onion，或者说什么是洋葱服务？
+---
+seo_slug: 什么是 .onion 
+---
+description:
+洋葱服务允许人们匿名的访问和发表信息，包括架设匿名网站。
+
+有各种各样的洋葱服务网站，例如让记者和他的资料来源间无元数据的交谈和安全的传输文件的 <mark><a href="https://securedrop.org/">SecureDrop</a></mark> 和 <mark><a href="https://onionshare.org/">OnionShare</a>，安全的更新软件，以及以更安全的方式访问<mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>一类的网站。
+
+这些服务使用特殊的 tld .onion （而不是.com .net .org等）而且这些服务只有在 Tor 网络 里可以连接。
+
+当你浏览洋葱服务网站时，Tor Browser 会在地址栏左侧以一个绿色的洋葱图标表示（使用洋葱服务的安全连接）。 
+
+<img class="" src="/static/images/onion-website.png" alt="Onion icon">
+
+如果你正在通过 https 访问一个洋葱服务网站，你会在地址栏的左侧看到一个有绿色锁的洋葱图标。
+
+<img class="" src="/static/images/padlock-onion.png" alt="有锁型标志的绿色洋葱">

@@ -1,0 +1,11 @@
+_model: question
+---
+title: 为什么 Tor Browser 是基于 Firefox 而不是其他的浏览器呢？
+---
+seo_slug: Tor Browser 为何基于 Firefox 
+---
+description:
+Tor Browser 是为和 Tor 一起使用而定制的 Firefox 。
+Tor Browser 做了很多工作，例如加入强化隐私和安全的补丁。
+虽然你可以同时使用 Tor Browser 和其他的浏览器，但是同时使用其他浏览器会暴露你的身份信息。我们强烈建议您不要使用其他浏览器。
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">了解关于 Tor Browser 的设计的更多信息</a></mark>。

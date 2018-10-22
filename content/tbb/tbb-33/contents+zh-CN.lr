@@ -1,0 +1,10 @@
+_model: question
+---
+title: 运行 Tor Browser让我成为一个中继吗？
+---
+seo_slug: 运行 Tor Browser让我成为一个中继吗
+---
+description:
+运行 Tor Browser 不会使你成为网络中的一个中继节点。
+这意味着你的电脑不会用于中继其他人的流量。
+如果你希望成为一个 Tor 中继，请参阅<mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor 中继指南</a></mark>。

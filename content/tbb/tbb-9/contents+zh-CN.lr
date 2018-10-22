@@ -1,0 +1,9 @@
+_model: question
+---
+title: 我能用其他的浏览器使用 Tor 服务吗？
+---
+seo_slug: 在非 Tor Browser 的浏览器上使用 Tor
+---
+description:
+我们强烈不推荐把 Tor 和 Tor Browser 以外的浏览器搭配使用。
+在其它浏览器中使用 Tor 可能会使你置于没有 Tor Browser 提供的隐私保护的风险中。

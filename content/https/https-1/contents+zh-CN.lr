@@ -1,0 +1,29 @@
+_model: question
+---
+title: 当我使用 Tor 时，窃听者能够获取我分享给网站的信息（登陆信息或者其他以这种格式传递的信息）吗？
+---
+seo_slug: 窃听者能看到我分享的信息吗
+---
+description:
+Tor Browser 防止窃听者获知您访问过的网站。
+不过，出口节点和出口节点与目标网站之间的监听者能看到通过 HTTP 协议传输的未加密的内容。
+如果你访问的网站使用了 HTTPS，你的流量在离开出口节点时是加密的，不会被窃听者看到。
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <img class="card-img-top" src="/static/images/image2.png" alt="https">
+      <div class="card-body">
+        <h4 class="card-title">如果你正在使用 HTTPS ，你的 URL 会以 “https://” 开头。</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <img class="card-img-top" src="/static/images/image6.png" alt="https">
+      <div class="card-body">
+        <h4 class="card-title">这个可视化实例展示了窃听者在不同的情况（网站是否支持 HTTPS ，是否在使用 Tor Browser）时会看到哪些信息。</h4>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+_model: question
+---
+title: 我能在使用 Tor Browser 时使用其它的浏览器吗（例如 Chrome 或 Firefox）？
+---
+seo_slug: 我能为 ChromeOS 下载 Tor Browser 吗
+---
+description:
+你当然可以在使用 Tor Browser 时使用其它的浏览器。
+不过你应该清楚其他浏览器不能提供和 Tor Browser 一样的隐私保护。
+不过在切换浏览器时要多加小心，你也许会不小心在普通浏览器里执行要在 Tor Browser 中执行的操作。

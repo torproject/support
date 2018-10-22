@@ -1,0 +1,11 @@
+_model: question
+---
+title: 我了解到有些网站只能使用Tor访问。这些网站是什么？我该如何访问它们？
+---
+seo_slug: 登录只有通过 Tor 才能访问的网站
+---
+description:
+只能通过 Tor 访问的网站称作“洋葱服务”，它们以 .onion 结尾。
+例如 DuckDuckGo 的洋葱服务： <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
+您可以用 Tor Browser 访问这些网站。
+因为洋葱服务并不能像普通的网站一样被索引，所以必须由网站所有者把洋葱服务的地址分享给你。

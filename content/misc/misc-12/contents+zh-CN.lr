@@ -1,0 +1,11 @@
+_model: question
+---
+title: 我如何使用 Tor 匿名的分享文件？
+---
+seo_slug: 使用 Tor 匿名的分享文件
+---
+description:
+很多出口节点会设置成阻止 BitTorrent 一类的文件共享服务的流量。
+<mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">即使通过 Tor 网络，BitTorrent 也不是匿名的</a></mark>。
+
+通过 Tor 网络分享文件，<mark><a href="https://onionshare.org/">OnionShare 洋葱分享</a></mark>是一个不错的选项。

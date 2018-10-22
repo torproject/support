@@ -1,0 +1,12 @@
+_model: question
+---
+title: 我的网站被审查机构屏蔽了，Tor Browser 能帮助用户访问我的网站吗？
+---
+seo_slug: 网站被审查者封锁？
+---
+description:
+Tor Browser 可以帮助人们访问所在地区被封锁的网站。
+大多数时候，只需下载<mark><a href="https://www. Tor project.org/download/download-easy.html.en"> Tor Browser</a></mark>，您就可以使用它去访问被屏蔽的网站。
+我们在审查严重的地区提供了诸如<mark><a href="https://www. Tor project.org/docs/pluggable-transports.html.en">可插拔传输</a></mark>等一系列选项。
+
+参阅 <mark><a href="https://tb-manual.torproject.org/en-US/">Tor Browser 用户手册</a></mark>关于<mark><a href="https://tb-manual.torproject.org/en-US/circumvention.html">审查</a></mark>的章节获得更多信息。

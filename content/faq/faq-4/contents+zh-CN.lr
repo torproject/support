@@ -1,0 +1,10 @@
+_model: question
+---
+title: Tor Browser 支持哪些平台？
+---
+description:
+Tor Browser 目前支持 <mark><a href="https://www.torproject.org/download/download-easy.html.en#windows">Windows</a></mark>、<mark><a href="https://www.torproject.org/download/download-easy.html.en#linux">GNU/Linux</a></mark> 和 <mark><a href="https://www.torproject.org/download/download-easy.html.en#mac">macOS (OS X)</a></mark>操作系统。
+
+<mark><a href="https://www. Tor project.org/docs/android.html.en">Android 用户</a></mark>可以通过<mark><a href="https://guardianproject.info/">The Guardian Project</a></mark>维护的<mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark>和<mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>来使用 Tor 网络。
+
+目前尚未有官方版本的基于 iOS 平台的 Tor 软件。尽管如此，我们仍然推荐使用<mark><a href="https://onionbrowser.com/">Onion Browser</a></mark>。

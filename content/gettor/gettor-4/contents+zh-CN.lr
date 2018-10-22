@@ -1,0 +1,12 @@
+_model: question
+---
+title: 通过 XMPP（Jitsi，CoyM）使用 GetTor。
+---
+seo_slug: 通过 XMPP 使用 GetTor
+---
+description:
+要获得 Tor Browser 的下载链接，你可以向  gettor@torproject.org  发送带有下面信息的电子邮件：
+
+* GNU/Linux
+* macOS (OS X)
+* Windows

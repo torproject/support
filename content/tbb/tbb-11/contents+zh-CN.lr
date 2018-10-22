@@ -1,0 +1,14 @@
+_model: question
+---
+title: 我在 Windows 上下载并安装了 Tor Browser 但是没办法找到它。
+---
+seo_slug: （Windows）找不到 Tor Browser
+---
+description:
+你下载或运行的文件会提示你选择一个目标位置。
+如果您忘记了它位于哪里，那么最大的可能性它会位于桌面或者下载文件夹。
+
+Tor Browser 的 Windows 安装程序默认会在桌面上创建一个快捷方式，也许你不小心取消选中了那个选项。
+
+如果你在文件夹中找不到，请再次下载并注意询问你下载位置的提示。
+选择一个你能简单记住的目录，下载完成后你能在选择的目录中看到 Tor Browser 文件夹。
