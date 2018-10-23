@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Qué son los puentes?
 ---
-seo_slug: qué-es-un-puente
+seo_slug: qu-es-un-puente
 ---
 description:
 Los repetidores puente son repetidores Tor que no están listados en el directorio público de Tor.

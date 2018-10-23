@@ -5,5 +5,5 @@ title: Quando eu uso o Navegador Tor, é possível que alguém saiba quais sites
 seo_slug: will-anyone-be-able-to-tell-which-website-i-visit
 ---
 description:
-Tor Browser prevents people from knowing the websites you visit.
-Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. 
+O Navegador Tor impede que outras pessoas saibam quais sites você visita.
+Algumas entidades, como o seu provedor de serviços de Internet (ISP), podem ver que você está usando o Tor, mas elas não sabem para onde você está indo quando você o faz. 

@@ -34,16 +34,13 @@ description:
 
 
 * 以 root 用户运行 "service tor reload"
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* 你的中继连接到网络以后，它将尝试确定您配置的端口是否可从外部访问。
   这一步通常很快，不过有时会需要几分钟。
-
   查找日志中例如 "Self-testing indicates your ORPort is reachable from the outside. Excellent." 这样的日志记录。
   如果你没看到这条消息，你的中继可能无法被访问。
   你应该复查你的防火墙设置，检查你在你的 torrc 中设置的用户名和端口是否正确。
-
 * 当它确认可以连接的时候，它会发送“服务器描述符”到中继目录来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。
-
-在几个小时后（传播需要足够的时间），你可以访问<mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> 来确认你的中继有没有注册到网路中。
-如果没有的话，请复查你的防火墙设置、IP 地址和端口。
+  在几个小时后（传播需要足够的时间），你可以访问<mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> 来确认你的中继有没有注册到网路中。
+  如果没有的话，请复查你的防火墙设置、IP 地址和端口。
 
 在切换到<mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">严格出口政策</a></mark>时请稍加考虑。

@@ -5,7 +5,7 @@ title: O que eu posso fazer para que Tor rode mais rápido? O Navegador Tor é m
 seo_slug: Faça-o-tor-mais-rápido
 ---
 description:
-Using Tor Browser can sometimes be slower than other browsers.
-The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency.
-You can help improve the speed of the network by running your own relay, or encouraging others to do so.
-That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.
+Usar o Navegador Tor às vezes pode ser mais lento do que outros navegadores.
+A rede Tor tem mais de um milhão de usuários diariamente, e acima de mais de 6000 retransmissores, e para encaminhar todo esse tráfego, a carga em cada servidor às vezes pode provocar latência. 
+Você pode ajudar a melhorar a velocidade da rede rodando seu próprio relay ou encorajando outros a rodarem os seus. 
+Dito isto, o Tor é muito mais rápido do que costumava ser e talvez você não note nenhuma diferença na velocidade em comparação a outros browsers.

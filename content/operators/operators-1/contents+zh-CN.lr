@@ -33,10 +33,9 @@ description:
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
-
 * 以 root 用户运行 "service tor reload"
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-这一步通常很快，不过有时会需要几分钟。
+* 你的中继连接到网络以后，它将尝试确定您配置的端口是否可从外部访问。
+   这一步通常很快，不过有时会需要几分钟。
 
 查找 /var/log/syslog 中例如 "Self-testing indicates your ORPort is reachable from the outside. Excellent." 这样的日志记录。
 如果你没看到这条消息，你的中继可能无法被访问。

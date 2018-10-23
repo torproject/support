@@ -12,10 +12,11 @@ description:
 
 ##### 常见错误#1: 代理连接失败
 
-    2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150
-    2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server
-    2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
-    2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
+    2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+    2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server 
+    2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
+    2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
+    2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
 如果您看见这些提示出现在您的日志里面，这意味着您连接 SOCKS 代理失败了。
 如果您的网络连接需要设置 SOCKS 代理，请确认您代理服务器的信息正确。
@@ -23,15 +24,14 @@ description:
 
 ##### 常见错误 #2: 无法连接到中继
 
-    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
-    11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network
-    11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
-    11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop
+    11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
+    11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network 
+    11/1/2017 21:11:44 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit. 
+    11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 如果您看见这些提示出现在您的日志里面，这意味着您的Tor连接 Tor网络中的第一个节点失败了。
 这可能意味着您处于有审查的网络中。
-
 请尝试通过网桥连接，这应该能解决您的问题。
 
 ##### Common log error #3: Failed to complete TLS handshake

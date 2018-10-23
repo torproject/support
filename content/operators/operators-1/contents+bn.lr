@@ -22,7 +22,7 @@ description:
     # # নিজের যোগাযোগের তথ্য সেট করুন
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## If you control multiple relays, include them in the family
+    ## যদি আপনি একাধিক রিলে নিয়ন্ত্রণ করেন তবে পরিবারের অন্তর্ভুক্ত করুন
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001

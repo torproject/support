@@ -36,7 +36,7 @@ description:
 
 *请确认在开机时启动 Tor 。可以以 root 用户运行 "sysrc tor_enable=YES" 来启用此功能。
 * 以 root 用户运行 "service tor start"
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+* 你的中继连接到网络以后，它将尝试确定您配置的端口是否可从外部访问。
   这一步通常很快，不过有时会需要几分钟。
   在 /var/log/tor/notices.log 中查找例如 "Self-testing indicates your ORPort is reachable from the outside. Excellent." 这样的日志记录。
   如果你没看到这条消息，你的中继可能无法被访问。
