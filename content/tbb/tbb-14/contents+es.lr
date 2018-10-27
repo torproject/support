@@ -6,4 +6,4 @@ seo_slug: instalar-anadiendo-extensiones-al-navegador-tor
 ---
 description:
 Se desaconseja vivamente la instalación de nuevos complementos en el Navegador Tor, ya que pueden comprometer tu privacidad y seguridad.
-El Navegador Tor ya trae instalado dos complementos - HTTPS Everywhere y NoScript - y añadir cualquier otra cosa podría desanonimizarte.
+El Navegador Tor ya trae instalado dos complementos - <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> y <mark><a href="https://noscript.net/">NoScript</a></mark> - y añadir cualquier otra cosa podría hacer que pierdas tu anonimato.

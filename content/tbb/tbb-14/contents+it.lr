@@ -6,4 +6,4 @@ seo_slug: installare-estensioni-su-tor-browser
 ---
 description:
 È fortemente sconsigliato installare nuovi componenti aggiuntivi in Tor Browser, perché possono compromettere la privacy e la sicurezza.
-Tor Browser viene fornito con con due componenti aggiuntivi preinstallati - HTTPS Everywhere e NoScript - e l'aggiunta di qualsiasi altro componente potrebbe deanonimizzarvi.
+Tor Browser include già due componenti aggiuntivi — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> e <mark><a href="https://noscript.net/">NoScript</a></mark> — e aggiungere qualsiasi altra cosa potrebbe deanonimizzarti.

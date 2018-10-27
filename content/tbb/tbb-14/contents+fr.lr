@@ -6,4 +6,4 @@ seo_slug: installer-modules-complémentaires-extensions-navigateur-tor
 ---
 description:
 Il est fortement déconseillé d’installer des extensions supplémentaires dans le Navigateur Tor, car elles peuvent compromettre votre confidentialité et votre sécurité.
-Le Navigateur Tor comprend déjà deux extensions pré-installées — HTTPS Everywhere et NoScript — et ajouter quoi que ce soit d’autre pourrait vous faire perdre votre anonymat.
+Le Navigateur Tor comprend déjà deux extensions préinstallées, <mark><a href="https://www.eff.org/https-everywhere">HTTPS partout et <mark><a href="https://noscript.net/">NoScript</a></mark>, et en ajouter d’autres pourrait vous faire perdre votre anonymat.

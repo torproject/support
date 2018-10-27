@@ -6,4 +6,4 @@ seo_slug: installiere-add-on-erweiterungen-tor-browser
 ---
 description:
 Es ist stark davon abzuraten, neue Add-Ons im Tor Browser zu installieren, weil diese Ihre Privatsphäre und Sicherheit gefärden können.
-Im Tor Browser werden bereits zwei Add-Ons mitgeliefert — HTTPS Everywhere und NoScript — weitere Add-Ons hinzuzufügen könnte Sie deanonymisieren.
+Tor Browser hat zwei vorinstallierte Add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> und <mark><a href="https://noscript.net/">NoScript</a></mark> — jede andere Erweiterung könnte dich deanomysieren.
