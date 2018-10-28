@@ -7,7 +7,7 @@ seo_slug: how-do-i-run-a-obfs4-bridge-debian
 description:
 * 以 root 用户运行 "apt-get install tor obfs4proxy"
 * 请确认你的时钟，日期和时区设置正确。
-  * 你可以安装 ntp / openntpd （或类似的软件）来确保时间正确。
+  你可以安装 ntp / openntpd （或类似的软件）来确保时间正确。
 * 编辑 /etc/tor/torrc：
 
 
