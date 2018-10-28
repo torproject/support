@@ -2,7 +2,7 @@ _model: question
 ---
 title: 无法连接 Tor，我的网络被审查了吗？
 ---
-seo_slug: 无法连接 Tor Browser
+seo_slug: cant-connect-to-tor-browser
 ---
 description:
 你所用的网络可能存在封锁，因此你应该试试使用桥。
