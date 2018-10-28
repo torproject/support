@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我如何在 Debian 上运行出口节点？
 ---
-seo_slug: 我如何运行一个出口节点
+seo_slug: how-do-i-run-an-exit
 ---
 description:
 请参阅<mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor 中继指南</a></mark>以了解关于运行一个 Tor 中继的更多信息。
@@ -13,7 +13,7 @@ description:
 * 编辑 /etc/tor/torrc：
 
 
-    ## Set the nickname of this relay
+    ## 给中继起个昵称
     Nickname ididnteditheconfig
 
     ## 设置你的联系方式

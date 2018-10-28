@@ -1,8 +1,8 @@
 _model: question
 ---
-title: 一个网站（银行，电子邮件等）封锁了我（即使我没再使用 Tor Browser），我该怎么办。
+title: 一个网站（银行，电子邮件等）封锁了我（即使我没再使用 Tor Browser），我该怎么办？
 ---
-seo_slug: 网站封锁了来自 Tor Browser 的访问？
+seo_slug: website-locks-torbrowser-out
 ---
 description:
 Tor Browser 会让你的网络活动看起来像是来自于世界各个不同地区的网络连接。

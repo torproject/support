@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我需要追查一个 Tor 用户，你们能帮助我吗？
 ---
-seo_slug: 追踪 Tor 用户
+seo_slug: tracing-tor-user
 ---
 description:
 Tor 开发者没有追踪 Tor 用户的手段。

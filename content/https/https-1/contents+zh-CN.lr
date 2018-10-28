@@ -1,8 +1,8 @@
 _model: question
 ---
-title: 当我使用 Tor 时，窃听者能够获取我分享给网站的信息（登陆信息或者其他以这种格式传递的信息）吗？
+title: 当我使用 Tor 时，窃听者能够获取我分享给网站的信息（登录信息或者其他以这种格式传递的信息）吗？
 ---
-seo_slug: 窃听者能看到我分享的信息吗
+seo_slug: can-eavesdroppers-see-information-i-share
 ---
 description:
 Tor Browser 防止窃听者获知您访问过的网站。

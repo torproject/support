@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我能修改 Tor 网络中的跳跃次数吗？
 ---
-seo_slug: 修改 Tor 的中转次数
+seo_slug: change-the-number-of-hops-tor-uses
 ---
 description:
 目前路径的长度为 3 加上你的路径中敏感路径的数量。

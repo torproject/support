@@ -2,10 +2,10 @@ _model: question
 ---
 title: 使用 Tor Browser 能够保护我电脑上的其他应用吗？
 ---
-seo_slug: Tor Browser 保护其它应用
+seo_slug: tor-browser-protecting-other-apps
 ---
 description:
 只有 Tor Browser 的流量会通过 Tor 网络传输。
 你操作系统上的其他程序（包括其他的浏览器）的连接不会使用 Tor 网络，也不会被保护。
 需要单独配置来使用 Tor。
-如果您要确保所有流量都将通过 Tor 网络传输，请尝试能通过 USB 设备或 DVD 在几乎所有电脑上启动的​<mark><a href="https://tails.boum.org/">Tails </a></mark> Live 操作系统。
+如果您要确保所有流量都将通过 Tor 网络传输，请尝试能通过 USB 设备或 DVD 在几乎所有电脑上启动的 ​<mark><a href="https://tails.boum.org/">Tails</a></mark> Live 操作系统。

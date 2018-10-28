@@ -2,7 +2,7 @@ _model: question
 ---
 title: Tor Project 有开发私密聊天软件吗？
 ---
-seo_slug: Tor Project 和私密聊天
+seo_slug: tor-project-app-for-private-chat
 ---
 description:
 不，在几次 beta 版之后，我们终止了 <a href="https://blog.torproject.org/sunsetting-tor-messenger">Tor Messenger</a> 的支持。

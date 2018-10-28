@@ -2,9 +2,9 @@ _model: question
 ---
 title: Tor Browser 没有连接上互联网，但这似乎并不是网络审查造成的问题。
 ---
-seo_slug: Tor Browser 无法连接
+seo_slug: tor-browser-wont-connect
 ---
 description:
-造成 Tor 连接失败的最常见的问题之一是系统时间设置错误。
+造成 Tor Browser 连接失败的最常见的问题之一是系统时间设置错误。
 请确认你的时钟，日期和时区设置正确。
-如果这个问题还没有被解决，请查看位于<mark><a href="https://tb-manual. Tor project.org/en-US/troubleshooting.html"> Tor Browser 手册</a></mark>的故障排查界面。
+如果这个问题还没有被解决，请查看位于 <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser 用户手册</a></mark>的故障排查界面。

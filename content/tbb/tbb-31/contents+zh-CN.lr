@@ -6,5 +6,5 @@ seo_slug: Tor Browser 可用于哪些平台
 ---
 description:
 Tor Browser 目前支持 Windows ，macOS 和 GNU/Linux 操作系统。
- Guardian Project 维护在 Android 上使用 Tor 网络的应用程序 Orbot 和 Orfox。
-目前尚未有官方版本的基于 iOS 平台的 Tor 软件。尽管如此，我们仍然推荐使用<mark><a href="https://onionbrowser.com/">Onion Browser</a></mark>。
+Guardian Project 维护在 Android 上使用 Tor 网络的应用程序 Orbot 和 Orfox。
+目前尚未有官方版本的基于 iOS 平台的 Tor 软件。尽管如此，我们仍然推荐使用 <mark><a href="https://onionbrowser.com/">Onion Browser</a></mark>。

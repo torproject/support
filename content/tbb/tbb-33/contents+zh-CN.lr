@@ -1,8 +1,8 @@
 _model: question
 ---
-title: 运行 Tor Browser让我成为一个中继吗？
+title: 运行 Tor Browser 让我成为一个中继吗？
 ---
-seo_slug: 运行 Tor Browser让我成为一个中继吗
+seo_slug: running-tor-browser-make-me-relay
 ---
 description:
 运行 Tor Browser 不会使你成为网络中的一个中继节点。

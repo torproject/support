@@ -13,7 +13,7 @@ description:
 * 编辑 /usr/local/etc/tor/torrc 文件如下：
 
 
-    ## Set the nickname of this relay
+    ## 给中继起个昵称
     Nickname ididnteditheconfig
 
     ## 设置你的联系方式
@@ -34,7 +34,7 @@ description:
     RunAsDaemon 1
     Log notice file /var/log/ Tor /notices.log
 
-*请确认在开机时启动 Tor 。可以以 root 用户运行 "sysrc tor_enable=YES" 来启用此功能。
+* 请确认在开机时启动 Tor 。可以以 root 用户运行 "sysrc tor_enable=YES" 来启用此功能。
 * 以 root 用户运行 "service tor start"
 * 你的中继连接到网络以后，它将尝试确定您配置的端口是否可从外部访问。
   这一步通常很快，不过有时会需要几分钟。

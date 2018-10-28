@@ -2,8 +2,8 @@ _model: question
 ---
 title: 我遇到 NoScript 的使用问题。
 ---
-seo_slug: 问题-没有脚本
+seo_slug: problem-noscript
 ---
 description:
 请参阅 <mark><a href="https://noscript.net/faq">NoScript 的常见问题 </a></mark>。
-如果你相信这是浏览器的问题，请你报告给<mark><a href="https://trac. Tor project.org/">Bug 跟踪平台</a></mark>。
+如果你确信这是 Tor Browser 的问题，请你报告给<mark><a href="https://trac.torproject.org/">我们的 Bug 跟踪平台</a></mark>。

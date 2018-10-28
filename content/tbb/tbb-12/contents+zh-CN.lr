@@ -2,9 +2,9 @@ _model: question
 ---
 title: 我可以在  Tor Browser上使用 Flash 吗？
 ---
-seo_slug: Tor Browser 和 Flash
+seo_slug: using-flash-tor-browser
 ---
 description:
 Tor Browser 中停用了 Flash，我们也不建议你启用它。
-我们认为无论是什么浏览器 Flash 都是是极不安全的 —— 它可以轻易盗取你的个人情报或者给你安装恶意软件。
-幸运的是，大多数网站、设备，还有其它浏览器正在淘汰 Flash。
+我们认为 Flash 在任何浏览器上都是是极不安全的 —— 它可以轻易盗取你的个人信息或者给你安装恶意软件。
+幸运的是，大多数网站、设备，还有其它浏览器都正在淘汰 Flash。

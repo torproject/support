@@ -2,7 +2,7 @@ _model: question
 ---
 title: 如何避免那些验证码？
 ---
-seo_slug: 摆脱验证码
+seo_slug: get-rid-of-captchas
 ---
 description:
 十分不幸，有些网站要求 Tor 用户填写验证码，我们对此无能为力。

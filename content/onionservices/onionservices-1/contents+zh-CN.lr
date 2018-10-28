@@ -1,8 +1,8 @@
 _model: question
 ---
-title: 我了解到有些网站只能使用Tor访问。这些网站是什么？我该如何访问它们？
+title: 我了解到有些网站只能使用 Tor 访问。这些网站是什么？我该如何访问它们？
 ---
-seo_slug: 登录只有通过 Tor 才能访问的网站
+seo_slug: accessing-websites-that-are-only-accessible-over-tor
 ---
 description:
 只能通过 Tor 访问的网站称作“洋葱服务”，它们以 .onion 结尾。

@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我如何使用 Tor 匿名的分享文件？
 ---
-seo_slug: 使用 Tor 匿名的分享文件
+seo_slug: share-files-anonymously-through-tor
 ---
 description:
 很多出口节点会设置成阻止 BitTorrent 一类的文件共享服务的流量。

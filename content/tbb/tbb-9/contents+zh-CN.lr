@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我能用其他的浏览器使用 Tor 服务吗？
 ---
-seo_slug: 在非 Tor Browser 的浏览器上使用 Tor
+seo_slug: using-tor-with-a-browser-besides-tor-browser
 ---
 description:
 我们强烈不推荐把 Tor 和 Tor Browser 以外的浏览器搭配使用。

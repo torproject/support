@@ -1,8 +1,8 @@
 _model: question
 ---
-title: 我无法访问X.onion！
+title: 我无法访问 X.onion！
 ---
-seo_slug: 我无法访问X.onion
+seo_slug: i-cannot-reach-x-dot-onion
 ---
 description:
 如果无法访问您想访问的洋葱服务，请检查是否正确输入了洋葱地址的16个字符（或者新版地址的56个字符）。只要有一点点错误， Tor Browser 就无法连接到网站。

@@ -2,7 +2,7 @@ _model: question
 ---
 title: 我能在使用 Tor Browser 时使用其它的浏览器吗（例如 Chrome 或 Firefox）？
 ---
-seo_slug: 我能为 ChromeOS 下载 Tor Browser 吗
+seo_slug: download-tor-browser-chromeos
 ---
 description:
 你当然可以在使用 Tor Browser 时使用其它的浏览器。

@@ -2,7 +2,7 @@ _model: question
 ---
 title: 同时运行 Tor Browser 和其他的浏览器安全吗?
 ---
-seo_slug: 运行 Tor Browser 和不同的浏览器
+seo_slug: run-tor-browser-and-different-browser
 ---
 description:
 如果您同时使用 Tor Browser 和其他浏览器，这不会影响 Tor 的安全性和私密性。

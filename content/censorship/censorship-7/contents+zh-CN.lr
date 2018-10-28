@@ -2,7 +2,7 @@ _model: question
 ---
 title: 什么是网桥？
 ---
-seo_slug: 什么是网桥
+seo_slug: what-is-a-bridge
 ---
 description:
 网桥是不在 Tor 公共目录里列出的中继节点。
@@ -15,4 +15,4 @@ description:
 一些国家，包括中国和伊朗，已经发现了检测和屏蔽 Tor 网桥的方法。
 <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> 网桥通过增加一层混淆来解决这些问题。
 需要一些额外软件和设置来运行 obfsproxy 网桥。
-请浏览<mark><a href="https://www. Tor project.org/docs/pluggable-transports.html.en">可插拔传输</a></mark>获取更多信息。
+请浏览<mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">可插拔传输</a></mark>获取更多信息。

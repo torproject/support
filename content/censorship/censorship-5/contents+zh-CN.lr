@@ -2,7 +2,7 @@ _model: question
 ---
 title: 无法连接到 Tor，但我不知道发生了什么什么错误。
 ---
-seo_slug: 连接 Tor 网络出现了问题
+seo_slug: having-trouble-connecting-to-tor
 ---
 description:
 
@@ -10,7 +10,7 @@ description:
 然后粘贴 Tor 日志到文本文件或者其他文档格式中。
 您应该能够在 Tor 日志中发现这些常见问题（请在 Tor 日志里寻找如下所示的错误）:
 
-##### 常见错误#1: 代理连接失败
+##### 常见错误 #1： 代理连接失败
 
     2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server
@@ -30,11 +30,11 @@ description:
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-如果您看见这些提示出现在您的日志里面，这意味着您的Tor连接 Tor网络中的第一个节点失败了。
+如果您看见这些提示出现在您的日志里面，这意味着您的 Tor 无法连接到 Tor 网络中的第一个节点。
 这可能意味着您处于有审查的网络中。
-请尝试通过网桥连接，这应该能解决您的问题。
+请尝试通过网桥连接，这应该能解决问题。
 
-##### Common log error #3: Failed to complete TLS handshake
+##### 常见错误 #3：无法完成 TLS 握手
 
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with direc Tor y server
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx)
@@ -45,7 +45,7 @@ description:
 如果你在 Tor 日志里看见这句话，这意味着 Tor 和目录服务器无法完成 TLS 握手。
 使用网桥可能会解决这个问题。
 
-##### Common log error #4: Clock skew
+##### 常见错误 #4：时钟偏差
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to direc Tor y server
@@ -54,4 +54,4 @@ description:
     Tor 需要准确的时间设置：请检查你的时间，时区和日期设置是否正确。
 
 如果您看见这些提示出现在您的日志里面，这意味着您的系统时间设置错误。
-请确认您的时间设置是正确的，包括正确的时区。然后重新启动Tor。
+请确认您的时间设置是正确的，包括正确的时区。然后重新启动 Tor。

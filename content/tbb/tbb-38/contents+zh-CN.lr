@@ -2,7 +2,7 @@ _model: question
 ---
 title: 网络管理员能发现我正在使用 Tor Browser 吗？
 ---
-seo_slug: 网络管理员是否会知道我使用 Tor 
+seo_slug: network-admin-know-i-am-using-tor
 ---
 description:
 使用 Tor Browser 时，没人能看见你在浏览的网站。

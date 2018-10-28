@@ -2,8 +2,8 @@ _model: question
 ---
 title: 我使用 DuckDuckGo 时遇到了问题。
 ---
-seo_slug: 在使用 DuckDuckGo 时遇到问题
+seo_slug: problem-with-duckduckgo
 ---
 description:
 请访问 <mark><a href="https://duck.co/help">DuckDuckGo 的支持网站</a></mark> 了解详细信息。
-如果你相信这是浏览器的问题，请你报告给<mark><a href="https://trac. Tor project.org/">Bug 跟踪平台</a></mark>。
+如果你确信这是 Tor Browser 的问题，请你报告给<mark><a href="https://trac.torproject.org/">我们的 Bug 跟踪平台</a></mark>。

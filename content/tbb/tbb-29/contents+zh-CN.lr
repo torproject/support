@@ -1,8 +1,8 @@
 _model: question
 ---
-title: 我可以改变  Tor Browser为我在某个网站分配的 IP 地址吗？
+title: 我可以改变  Tor Browser 为我在某个网站分配的 IP 地址吗？
 ---
-seo_slug: 改变 IP 地址
+seo_slug: change-ip-address
 ---
 description:
 Tor Browser 有两种方法改变你的中继线路 —— “新身份”和“为该站点使用新 Tor 线路”。
@@ -15,7 +15,7 @@ Tor Browser 有两种方法改变你的中继线路 —— “新身份”和“
 
 运行此功能将会关闭所有已经打开的浏览器窗口及标签页，清除所有的浏览器 Cookie 与历史记录等个人信息，并且为后续所有的网络连接创建新的洋葱路由回路。
 
-Tor Browser 会警告你所有的活动和下载会被终止，在你点击“新身份”时考虑这一点。
+Tor Browser 会提示你所有的活动和下载会被终止，在你点击“新身份”时考虑这一点。
 
 <img class="" src="/static/images/menu-new-identity.png" alt="Tor Browser Menu">
 
