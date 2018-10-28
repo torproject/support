@@ -320,7 +320,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-8/
 #: (content/tbb/tbb-8/contents+en.lrquestion.seo_slug)
 msgid "website-blocked-by-censor-can-tor-browser-help"
-msgstr ""
+msgstr "검열관은-웹-사이트를-차단합니다-tor-브라우저는-도와줄-수-있습니까"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -353,7 +353,7 @@ msgstr "네트워크 설정에 SOCKS 프록시가 필요한 경우 프록시 세
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.seo_slug)
 msgid "using-correct-packages"
-msgstr ""
+msgstr "정확한-패키지를-사용"
 
 #: http//localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lrquestion.description)
@@ -386,7 +386,7 @@ msgstr "* Deutsch (de)"
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.seo_slug)
 msgid "how-do-i-run-a-middle-or-guard-on-freebsd"
-msgstr ""
+msgstr "중간-중계서버-또는-guard을-freebsd에-실행-방법"
 
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.description)
@@ -470,12 +470,14 @@ msgstr "일시적인 연결 문제일 수도 있고 사이트 관리자는 경�
 msgid "No, the Tor Project does not offer hosting services."
 msgstr "아닙니다. Tor 프로젝트는 호스팅 서비스를 제공하지 않습니다."
 
-#: http//localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lrquestion.description)
+#: http//localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lrquestion.description)
+#: http//localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
-msgstr "아직 공식적인 iOS용 Tor 버전을 없어지만 Onion 브라우저를 권장을 합니다."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
+msgstr ""
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
@@ -527,7 +529,7 @@ msgstr "* OS X"
 msgid ""
 "Once you have copied the log, you will be able to paste it into a text "
 "editor or email client."
-msgstr ""
+msgstr "일단 로그를 복사했으면 문서 편집기며 이메일 클라이언트에 붙여넣을 수 있습니다."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -634,7 +636,7 @@ msgstr "그 흔한 로그 오류중에 하나를 봐야 합니다 (Tor 로그에
 #: http//localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lrquestion.seo_slug)
 msgid "tell-which-website-are-visited-while-using-tor-browser"
-msgstr ""
+msgstr "tor-브라우저로-가는-웹-사이트들을-알습니까"
 
 #: http//localhost/faq/faq-2/
 #: (content/faq/faq-2/contents+en.lrquestion.description)
@@ -659,6 +661,8 @@ msgid ""
 "rights activists, journalists, abuse survivors, and other people who use Tor"
 " for good things."
 msgstr ""
+"어떤 사람은 Tor으로 나쁜 것을 하는 것을 싫습니다. 그렇지만 그들을 제거하면 Tor으로 좋은 것을 하는 인권 운동가며 기자며 학대에서"
+" 살아남은 사람이며 다른 사람도 침해할 것입니다."
 
 #: http//localhost/operators/ (content/operators/contents+en.lrtopic.seo_slug)
 msgid "operators"
@@ -996,13 +1000,9 @@ msgid ""
 "href=\"/#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
 
-#: http//localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lrquestion.description)
-#: http//localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lrquestion.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
+#: http//localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lrquestion.title)
+msgid "How do I run an exit relay on Debian?"
 msgstr ""
 
 #: http//localhost/censorship/censorship-7/
@@ -1882,13 +1882,6 @@ msgstr ""
 msgid "There is nothing the Tor developers can do to trace Tor users."
 msgstr ""
 
-#: http//localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lrquestion.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-
 #: http//localhost/tbb/tbb-4/ (content/tbb/tbb-4/contents+en.lrquestion.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
 msgstr ""
@@ -2133,6 +2126,8 @@ msgstr ""
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lrquestion.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a "
 "href=\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> "
@@ -2943,6 +2938,8 @@ msgstr ""
 
 #: http//localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lrquestion.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -3577,11 +3574,6 @@ msgid ""
 "take a look at the <mark><a href=\"https://tails.boum.org/\">Tails live "
 "operating system</a></mark> which you can start on almost any computer from "
 "a USB stick or a DVD."
-msgstr ""
-
-#: http//localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lrquestion.title)
-msgid "How do I run an exit relay on Debian?"
 msgstr ""
 
 #: http//localhost/tbb/ (content/tbb/contents+en.lrtopic.title)

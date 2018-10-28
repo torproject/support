@@ -524,14 +524,16 @@ msgstr ""
 msgid "No, the Tor Project does not offer hosting services."
 msgstr "Όχι, το Tor Project δεν προσφέρει υπηρεσίες hosting."
 
-#: http//localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lrquestion.description)
+#: http//localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lrquestion.description)
+#: http//localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 msgstr ""
-"Δεν υπάρχει επίσημη έκδοση του Tor για iOS ακόμα, αλλά προτείνουμε το Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
@@ -647,6 +649,10 @@ msgid ""
 "See our page on <mark><a href=\"https://www.torproject.org/docs/pluggable-"
 "transports.html.en\">pluggable transports</a></mark> for more info."
 msgstr ""
+"Δείτε τη σελίδα μας σχετικά με τα <mark><a "
+"href=\"https://www.torproject.org/docs/pluggable-"
+"transports.html.en\">pluggable transports</a></mark> για περισσότερες "
+"πληροφορίες."
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.title)
@@ -702,6 +708,8 @@ msgid ""
 "You should see one of these common log errors (look for the following lines "
 "in your Tor log):"
 msgstr ""
+"Θα πρέπει να δείτε ένα από αυτά τα κοινά σφάλματα καταγραφής (αναζητήστε τις"
+" παρακάτω γραμμές στο αρχείο καταγραφής Tor):"
 
 #: http//localhost/tbb/tbb-3/
 #: (content/tbb/tbb-3/contents+en.lrquestion.seo_slug)
@@ -871,6 +879,9 @@ msgid ""
 "If you believe this is a Tor Browser issue, please report it on our <mark><a"
 " href=\"https://trac.torproject.org/\">bug tracker</a></mark>."
 msgstr ""
+"Αν πιστεύετε ότι πρόκειται για πρόβλημα του Tor Browser, παρακαλούμε να το "
+"αναφέρετε στο <mark><a href=\"https://trac.torproject.org/\">bug "
+"tracker</a></mark> μας."
 
 #: http//localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lrquestion.title)
@@ -931,6 +942,8 @@ msgid ""
 "If you see lines like this in your Tor log, it means that Tor failed to "
 "complete a TLS handshake with the directory authorities."
 msgstr ""
+"Αν δείτε γραμμές όπως αυτό στο αρχείο καταγραφής Tor, αυτό σημαίνει ότι ο "
+"Tor δεν κατάφερε να ολοκληρώσει TLS handshake με τις directory authorities."
 
 #: http//localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -987,6 +1000,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">Reduced"
 " exit policy</a></mark>."
 msgstr ""
+"Σκεφτείτε αν θέλετε να αλλάξετε σε <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">μειωμένη"
+" πολιτική εξόδου</a></mark>."
 
 #: http//localhost/faq/faq-1/
 #: (content/faq/faq-1/contents+en.lrquestion.seo_slug)
@@ -1009,6 +1025,8 @@ msgid ""
 "Can I still use another browser, like Chrome or Firefox, when I am using Tor"
 " Browser?"
 msgstr ""
+"Μπορώ ακόμα να χρησιμοποιήσω έναν άλλο περιήγητη, όπως τον Chrome ή τον "
+"Firefox, όταν χρησιμοποιώ τον Tor Browser;"
 
 #: http//localhost/tormobile/ (content/tormobile/contents+en.lrtopic.title)
 msgid "Tor Mobile"
@@ -1052,7 +1070,7 @@ msgstr "Η χρήση bridges πιθανόν να το διορθώσει."
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "## If you control multiple relays, include them in the family"
-msgstr ""
+msgstr "## Αν ελέγχετε πολλούς κόμβους, συμπεριλάβετε τους στην οικογένεια"
 
 #: http//localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lrquestion.description)
@@ -1061,6 +1079,9 @@ msgid ""
 "href=\"https://www.torproject.org/docs/trademark-faq.html\">Trademark faq "
 "page</a></mark>."
 msgstr ""
+"Μπορείτε να διαβάσετε τα πάντα σχετικά με αυτό στη σελίδα <mark><a "
+"href=\"https://www.torproject.org/docs/trademark-faq.html\">Trademark faq "
+"page</a></mark>."
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1076,6 +1097,8 @@ msgstr "tor-browser-protecting-other-apps"
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
 msgid "Using Tor Browser can sometimes be slower than other browsers."
 msgstr ""
+"Η χρήση του Tor Browser μπορεί μερικές φορές να είναι πιο αργή από άλλους "
+"περιηγητές."
 
 #: http//localhost/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.seo_slug)
@@ -1111,17 +1134,13 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a "
 "href=\"/#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
+"Αν δεν μπορείτε να συνδεθείτε με υπηρεσία onion, παρακαλούμε δείτε το <a "
+"href=\"/#onionservices-3\">Δεν μπορώ να αποκτήσω πρόσβαση στο X.onion!</a>"
 
-#: http//localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lrquestion.description)
-#: http//localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lrquestion.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
+#: http//localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lrquestion.title)
+msgid "How do I run an exit relay on Debian?"
 msgstr ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -1129,6 +1148,8 @@ msgid ""
 "Several countries, including China and Iran, have found ways to detect and "
 "block connections to Tor bridges."
 msgstr ""
+"Πολλές χώρες, συμπεριλαμβανομένης της Κίνας και του Ιράν, έχουν βρει τρόπους"
+" για να εντοπίσουν και να αποκλείσουν τις συνδέσεις σε Tor bridges."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1136,6 +1157,8 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "Then paste the Tor log into a text file or other document."
 msgstr ""
+"Στη συνέχεια, επικολλήστε το αρχείο καταγραφής Tor σε ένα αρχείο κειμένου ή "
+"σε άλλο έγγραφο."
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.description)
@@ -1144,6 +1167,9 @@ msgid ""
 "can check out at <mark><a href=\"https://metrics.torproject.org/\">Tor "
 "Metrics</a></mark>."
 msgstr ""
+"Πραγματοποιούμε κάποιες ασφαλείς μετρήσεις για το πώς λειτουργεί το δίκτυο, "
+"τις οποίες μπορείτε να δείτε στο <mark><a "
+"href=\"https://metrics.torproject.org/\">Tor Metrics</a></mark>."
 
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.description)
@@ -1170,6 +1196,9 @@ msgid ""
 "Most users would give up on Tor entirely if we disabled Javascript by "
 "default because it would cause so many problems for them."
 msgstr ""
+"Οι περισσότεροι χρήστες θα εγκατέλειπαν το Tor εντελώς αν απενεργοποιούσαμε "
+"τη javascript από προεπιλογή, επειδή θα προκαλούσε τόσα πολλά προβλήματα γι'"
+" αυτούς."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1220,6 +1249,7 @@ msgstr ""
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.title)
 msgid "Does Tor Project make an application for private chat?"
 msgstr ""
+"Μήπως έχει φτιάξει το Tor Project κάποια εφαρμογή για ιδιωτικές συνομιλίες;"
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.description)
@@ -1229,6 +1259,9 @@ msgid ""
 "<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark> "
 "web pages."
 msgstr ""
+"Περισσότερες πληροφορίες μπορείτε να βρείτε στις ιστοσελίδες του <mark><a "
+"href=\"https://guardianproject.info/apps/orbot/\">Orbot</a></mark> και του "
+"<mark><a href=\"https://guardianproject.info/apps/orfox/\">Orfox</a></mark>."
 
 #: http//localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.description)
@@ -1237,6 +1270,9 @@ msgid ""
 " onion at the top-left of the screen), then \"Open Network Settings\", then "
 "\"Copy Tor Log To Clipboard\"."
 msgstr ""
+"Αν ο Tor Browser είναι ήδη ανοιχτός, κάντε κλικ στο εικονίδιο Torbutton (το "
+"μικρό πράσινο κρεμμύδι στην επάνω αριστερή γωνία της οθόνης), επιλέξτε "
+"\"Open Network Settings\" και, στη συνέχεια, \"Copy Tor Log To Clipboard\"."
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.description)
@@ -1244,6 +1280,8 @@ msgid ""
 "We strongly recommend against using Tor in any browser other than Tor "
 "Browser."
 msgstr ""
+"Συνιστούμε να μην γίνεται χρήση του Tor από οποιοδήποτε άλλο περιηγητή εκτός"
+" από τον Tor Browser."
 
 #: http//localhost/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.description)
@@ -1266,6 +1304,9 @@ msgid ""
 "visible to eavesdroppers with and without Tor Browser and HTTPS "
 "encryption.</h4>"
 msgstr ""
+"<h4 class=\"card-title\">Η παρακάτω απεικόνιση δείχνει ποιες πληροφορίες "
+"είναι ορατές στους eavesdroppers με και χωρίς τον Tor Browser και την HTTPS "
+"κρυπτογράφηση.</h4>"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -1307,6 +1348,8 @@ msgid ""
 "Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Αναζητήστε μια καταχώρηση στο αρχείο /var/log/syslog όπως \"Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.title)
@@ -1321,7 +1364,7 @@ msgstr "Έχω ένα πρόβλημα με το NoScript."
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.title)
 msgid "Why does Tor Browser ship with Javascript enabled?"
-msgstr ""
+msgstr "Γιατί ο Tor Browser αποστέλλεται με ενεργοποιημένη τη Javascript;"
 
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.seo_slug)
@@ -1340,6 +1383,9 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
+"* Μην χρησιμοποιείτε τα πακέτα των repositories του Ubuntu. Δεν "
+"ενημερώνονται αξιόπιστα. Αν τα χρησιμοποιείτε, θα χάσετε σημαντικές "
+"διορθώσεις σταθερότητας και ασφάλειας."
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1352,6 +1398,8 @@ msgid ""
 "Tor Browser has two ways to change your relay circuit — \"New Identity\" and"
 " \"New Tor Circuit for this Site\"."
 msgstr ""
+"Ο Tor Browser έχει δύο τρόπους για να αλλάξει το κύκλωμα κόμβων σας - \"Νέα "
+"ταυτότητα\" και \"Νέο κύκλωμα Tor για αυτήν την ιστοσελίδα\". "
 
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
@@ -1371,7 +1419,7 @@ msgstr "run-exit-from-home"
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
 msgid "Should I run an exit relay from home?"
-msgstr ""
+msgstr "Να λειτουργήσω έναν κόμβο εξόδου από το σπίτι;"
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.seo_slug)
@@ -1385,6 +1433,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">Exit"
 " relay guidelines</a></mark>"
 msgstr ""
+"* Ανατρέξτε στις <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">οδηγίες"
+" κόμβου εξόδου</a></mark>"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -1427,6 +1478,9 @@ msgid ""
 "Please take a strong stance in favor of digital privacy and internet "
 "freedom, and allow Tor users access to xyz.com. Thank you.\""
 msgstr ""
+"Παρακαλώ να λάβετε μια ισχυρή θέση υπέρ της ψηφιακής ιδιωτικότητας και της "
+"ελευθερίας του διαδικτύου, και να επιτρέψετε στους χρήστες του Tor να έχουν "
+"πρόσβαση στο xyz.com. Ευχαριστώ.\""
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.seo_slug)
@@ -1448,6 +1502,8 @@ msgid ""
 "I’m having trouble using features on Facebook, Twitter, or some other "
 "website when I’m using Tor Browser."
 msgstr ""
+"Αντιμετωπίζω πρόβλημα κατά τη χρήση του Facebook, του Twitter ή κάποιας "
+"άλλης ιστοσελίδας όταν χρησιμοποιώ τον Tor Browser."
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.seo_slug)
@@ -1467,6 +1523,8 @@ msgid ""
 "If you see lines like these  in your Tor log, it means you are failing to "
 "connect to a SOCKS proxy."
 msgstr ""
+"Αν δείτε γραμμές όπως αυτό στο αρχείο καταγραφής Tor, αυτό σημαίνει ότι δεν "
+"μπορείτε να συνδεθείτε σε ένα SOCKS proxy."
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -1475,6 +1533,10 @@ msgid ""
 "inform them that their CAPTCHAs are preventing users such as yourself from "
 "using their services."
 msgstr ""
+"Το καλύτερο που έχετε να κάνετε σε αυτές τις περιπτώσεις είναι να "
+"επικοινωνήσετε με τους κατόχους της ιστοσελίδας και να τους ενημερώσετε ότι "
+"τα CAPTCHA τους εμποδίζουν χρήστες όπως εσάς να κάνουν χρήση των υπηρεσιών "
+"τους."
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.title)
@@ -1489,6 +1551,8 @@ msgstr "Έχω ένα πρόβλημα με το DuckDuckGo."
 #: http//localhost/tbb/tbb-9/ (content/tbb/tbb-9/contents+en.lrquestion.title)
 msgid "Can I use Tor with a browser besides Tor Browser?"
 msgstr ""
+"Μπορώ να χρησιμοποιήσω το Tor με έναν άλλο περιηγητή πέρα από τον Tor "
+"Browser;"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -1508,6 +1572,8 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"* Αναζητήστε μια καταχώρηση στο αρχείο /var/log/syslog όπως \"Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
@@ -1515,6 +1581,8 @@ msgid ""
 "That said, Tor is much faster than it used to be and you may not actually "
 "notice any change in speed from other browsers."
 msgstr ""
+"Ωστόσο, ο Tor είναι πολύ πιο γρήγορος από παλιά και μπορεί να μην "
+"παρατηρήσετε καμία αλλαγή στην ταχύτητα από άλλους περιηγητές."
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1551,6 +1619,12 @@ msgid ""
 "Unfortunately, the protection that our software can provide to these groups "
 "of people can also be abused by criminals and malware authors."
 msgstr ""
+"Ωστόσο, παρακαλούμε να λάβετε υπόψη ότι το λογισμικό μας χρησιμοποιείται "
+"καθημερινά για διάφορους σκοπούς από ακτιβιστές των ανθρωπίνων δικαιωμάτων, "
+"δημοσιογράφους, επιζήσαντες ενδοοικογενειακής βίας, whistleblowers, "
+"αξιωματικούς επιβολής του νόμου και πολλούς άλλους. Δυστυχώς, η προστασία "
+"που μπορεί να προσφέρει το λογισμικό μας σε αυτές τις ομάδες ανθρώπων μπορεί"
+" επίσης να καταχραστεί από εγκληματίες και συγγραφείς κακόβουλου λογισμικού."
 
 #: http//localhost/misc/misc-8/
 #: (content/misc/misc-8/contents+en.lrquestion.seo_slug)
@@ -1568,6 +1642,9 @@ msgid ""
 "The rest of your circuit changes with every new website you visit, and all "
 "together these relays provide the full privacy protections of Tor."
 msgstr ""
+"Το υπόλοιπο κύκλωμα σας αλλάζει με κάθε νέα ιστοσελίδα που επισκέπτεστε, και"
+" όλοι μαζί αυτοί οι κόμβοι παρέχουν την πλήρη προστασία της ιδιωτικότητας "
+"του Tor."
 
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.seo_slug)
@@ -1603,6 +1680,10 @@ msgid ""
 "US/firefox/organizations/\">Firefox ESR</a></mark>, so errors regarding "
 "Firefox may occur."
 msgstr ""
+"Ο Tor Browser είναι κατασκευασμένος χρησιμοποιώντας το <mark><a "
+"href=\"https://www.mozilla.org/en-US/firefox/organizations/\">Firefox "
+"ESR</a></mark>, επομένως μπορεί να προκύψουν σφάλματα σχετικά με τον "
+"Firefox."
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.description)
@@ -1724,6 +1805,9 @@ msgid ""
 "A lot of work has been put into making the Tor Browser, including the use of"
 " extra patches to enhance privacy and security."
 msgstr ""
+"Πολλή δουλειά έχει γίνει για την κατασκευή του Tor Browser, "
+"συμπεριλαμβανομένης της χρήσης επιπλέον patches για τη βελτίωση της "
+"ιδιωτικότητας και της ασφάλειας."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -1736,12 +1820,16 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a "
 "href=\"#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
+"Αν δεν μπορείτε να συνδεθείτε με υπηρεσία onion, παρακαλούμε δείτε το <a "
+"href=\"#onionservices-3\">Δεν μπορώ να αποκτήσω πρόσβαση στο X.onion!</a>"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.description)
 msgid ""
 "This means that your computer will not be used to route traffic for others."
 msgstr ""
+"Αυτό σημαίνει ότι ο υπολογιστής σας δεν θα χρησιμοποιηθεί για τη δρομολόγηση"
+" κίνησης για άλλους."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -1755,6 +1843,8 @@ msgid ""
 "* After your relay connects to the network, it will try to determine whether"
 " the ports you configured are reachable from the outside."
 msgstr ""
+"* Αφού ο κόμβος σας συνδεθεί με το δίκτυο, θα προσπαθήσει να προσδιορίσει αν"
+" οι θύρες που διαμορφώσατε είναι προσβάσιμες εξωτερικά."
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1772,6 +1862,8 @@ msgid ""
 "We are always seeking more diversity in our funding sources, especially from"
 " foundations and individuals."
 msgstr ""
+"Πάντα επιδιώκουμε περισσότερη ποικιλομορφία στις πηγές χρηματοδότησής μας, "
+"ειδικά από ιδρύματα και ιδιώτες."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1786,6 +1878,9 @@ msgid ""
 "We feel that talking openly about our funders and funding model is the best "
 "way to maintain trust with our community."
 msgstr ""
+"Πιστεύουμε ότι το να μιλάμε ανοιχτά σχετικά με τους χρηματοδότες και το "
+"μοντέλο χρηματοδότησης μας είναι ο καλύτερος τρόπος για να διατηρήσουμε την "
+"εμπιστοσύνη με την κοινότητά μας."
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.seo_slug)
@@ -1798,6 +1893,8 @@ msgid ""
 "Unfortunately, there is no supported way to make Tor Browser your default "
 "browser."
 msgstr ""
+"Δυστυχώς, αυτήν τη στιγμή δεν υπάρχει υποστηριζόμενη μέθοδος για να ορίσετε "
+"τον Tor Browser ως προεπιλεγμένο περιηγητή."
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -1806,6 +1903,9 @@ msgid ""
 "you to download Tor Browser presumably to contact them anonymously with the "
 "ransom they're demanding from you."
 msgstr ""
+"Το Tor Project δεν δημιούργησε αυτό το κακόβουλο λογισμικό. Οι συγγραφείς "
+"του κακόβουλου λογισμικού σας ζητούν να κατεβάσετε τον Tor Browser πιθανώς "
+"για να επικοινωνήσετε μαζί τους ανώνυμα για τα λύτρα που σας ζητούν."
 
 #: http//localhost/faq/faq-1/ (content/faq/faq-1/contents+en.lrquestion.title)
 #: http//localhost/tbb/tbb-3/ (content/tbb/tbb-3/contents+en.lrquestion.title)
@@ -1822,11 +1922,14 @@ msgid ""
 "information such as cookies and browsing history, and use new Tor circuits "
 "for all connections."
 msgstr ""
+"Η επιλογή του θα κλείσει όλες τις καρτέλες και τα παράθυρά σας, θα διαγράψει"
+" όλες τις προσωπικές πληροφορίες όπως τα cookies και το ιστορικό περιήγησης,"
+" και θα χρησιμοποιήσει νέα κυκλώματα Tor για όλες τις συνδέσεις."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "##### New Identity"
-msgstr ""
+msgstr "##### Νέα Ταυτότητα"
 
 #: http//localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lrquestion.title)
@@ -1841,6 +1944,9 @@ msgid ""
 "It is a fast and stable relay that remains the first one in your circuit for"
 " 2-3 months in order to protect against a known anonymity-breaking attack."
 msgstr ""
+"Είναι ένας γρήγορος και σταθερός κόμβος που παραμένει πρώτος στο κύκλωμά σας"
+" για 2-3 μήνες προκειμένου να προστατευσεί από μια γνωστή επίθεση κατά της "
+"ανωνυμίας."
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.seo_slug)
@@ -1882,6 +1988,9 @@ msgid ""
 "The same protections that keep bad people from breaking Tor's anonymity also"
 " prevent us from tracking users."
 msgstr ""
+"Οι ίδιες δικλείδες προστασίας που αποτρέπουν τους κακούς ανθρώπους από το να"
+" \"σπάσουν\" την ανωνυμία του Tor, εμποδίζουν επίσης εμάς να παρακολουθούμε "
+"τους χρήστες."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1891,6 +2000,8 @@ msgid ""
 "If you’re having trouble connecting, please select the option to \"copy Tor "
 "log to clipboard.\""
 msgstr ""
+"Αν αντιμετωπίζετε προβλήματα σύνδεσης, επιλέξτε την επιλογή \"αντιγραφή "
+"αρχείου καταγραφής Tor στο πρόχειρο\"."
 
 #: http//localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lrquestion.description)
@@ -1918,6 +2029,8 @@ msgid ""
 "I've heard about websites that are only accessible over Tor. What are these "
 "websites, and how can I access them?"
 msgstr ""
+"Έχω ακούσει για ιστοσελίδες που είναι προσβάσιμες μόνο μέσω του Tor. Ποιες "
+"είναι αυτές οι ιστοσελίδες και πώς μπορώ να έχω πρόσβαση σε αυτές;"
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -1945,6 +2058,8 @@ msgid ""
 "Please see the <mark><a href=\"https://duck.co/help\">DuckDuckGo support "
 "portal</a></mark>."
 msgstr ""
+"Ανατρέξτε στην <mark><a href=\"https://duck.co/help\">υποστήριξη του "
+"DuckDuckGo</a></mark>."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1972,6 +2087,11 @@ msgid ""
 "want to protect themselves from discovery, whistleblowers, activists, and "
 "ordinary people who want to opt out of invasive third party tracking."
 msgstr ""
+"Με τον αποκλεισμό των χρηστών του Tor, είναι πιθανό να εμποδίζετε ανθρώπους "
+"σε καταπιεστικές χώρες που θέλουν να χρησιμοποιήσουν ένα ελεύθερο διαδίκτυο,"
+" δημοσιογράφους και ερευνητές που θέλουν να προστατευθούν από το να "
+"ανακαλυφθούν, whistleblowers, ακτιβιστές και απλούς ανθρώπους που θέλουν να "
+"αποφύγουν την επιθετική παρακολούθηση από τρίτους."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.title)
@@ -1979,6 +2099,8 @@ msgid ""
 "Is there a way to change the IP address that Tor Browser assigns me for a "
 "particular site?"
 msgstr ""
+"Υπάρχει τρόπος να αλλάξω τη διεύθυνση IP που μου αναθέτει ο Tor Browser για "
+"μια συγκεκριμένη ιστοσελίδα;"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2012,6 +2134,8 @@ msgstr "* العربية (ar)"
 #: (content/misc/misc-6/contents+en.lrquestion.description)
 msgid "Tor doesn't keep any logs that could identify a particular user."
 msgstr ""
+"Ο Tor δεν διατηρεί κανένα αρχείο καταγραφής που θα μπορούσε να ταυτοποιήσει "
+"έναν συγκεκριμένο χρήστη."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2022,7 +2146,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set your own contact info"
-msgstr ""
+msgstr "## Ορίστε τις δικές σας πληροφορίες επικοινωνίας"
 
 #: http//localhost/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lrquestion.description)
@@ -2031,6 +2155,9 @@ msgid ""
 "href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">volunteer "
 "page</a></mark> for how to get involved!"
 msgstr ""
+"Δείτε τη <mark><a "
+"href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">σελίδα "
+"εθελοντών</a></mark> μας για το πώς να να συμμετάσχετε!"
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.title)
@@ -2048,6 +2175,8 @@ msgid ""
 "Selecting it will cause the currently-active tab or window to be reloaded "
 "over a new Tor circuit."
 msgstr ""
+"Η επιλογή αυτή θα προκαλέσει την επαναφόρτωση της τρέχουσας καρτέλας ή "
+"παραθύρου μέσω ενός νέου κυκλώματος Tor"
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.description)
@@ -2056,24 +2185,16 @@ msgstr ""
 "Δεν υπάρχει τίποτα που οι προγραμματιστές του Tor να μπορούν να κάνουν για "
 "να εντοπίσουν χρήστες του Tor."
 
-#: http//localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lrquestion.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-"Ο Tor Browser έχει ήδη δυο add-ons προεγκατεστημένα - το HTTPS Everywhere "
-"και το NoScript - και προσθέτοντας οποιοδήποτε άλλο μπορεί να σας "
-"αποανωνυμοποιήσει."
-
 #: http//localhost/tbb/tbb-4/ (content/tbb/tbb-4/contents+en.lrquestion.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
 msgstr ""
+"Γιατί ο Tor Browser είναι δημιουργήθηκε με βάση τον Firefox και όχι από "
+"κάποιον άλλο περιηγητή;"
 
 #: http//localhost/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.title)
 msgid "Can you get rid of all the captchas?"
-msgstr ""
+msgstr "Μπορείτε να απαλλαγείτε από όλα τα captchas;"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -2104,6 +2225,8 @@ msgid ""
 "Have a separate IP address for your exit relay, and don't route your own "
 "traffic through it."
 msgstr ""
+"Έχετε μια ξεχωριστή διεύθυνση IP για τον κόμβο εξόδου και μην δρομολογείται "
+"τη δική σας κίνηση μέσω αυτής."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2128,6 +2251,9 @@ msgid ""
 "You can find more information about donating on our <mark><a "
 "href=\"https://donate.torproject.org/donor-faq\">donor FAQ</a></mark>."
 msgstr ""
+"Μπορείτε να βρείτε περισσότερες πληροφορίες σχετικά με τις δωρεές στις "
+"<mark><a href=\"https://donate.torproject.org/donor-faq\">συχνές ερωτήσεις "
+"δωρητών</a></mark>."
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.seo_slug)
@@ -2140,6 +2266,8 @@ msgid ""
 "A large portion of the features Vidalia offered have now been integrated "
 "into Tor Browser itself."
 msgstr ""
+"Ένα μεγάλο μέρος των λειτουργιών που προσέφερε το Vidalia έχει ενσωματωθεί "
+"τώρα στον ίδιο τον Tor Browser."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.seo_slug)
@@ -2152,6 +2280,8 @@ msgid ""
 "See <mark><a href=\"#operators-6\">How do I run a bridge</a></mark> for "
 "instructions."
 msgstr ""
+"Δείτε <mark><a href=\"#operators-6\">Πώς μπορώ να λειτουργήσω μια "
+"γέφυρα</a></mark> για οδηγίες."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -2161,12 +2291,12 @@ msgstr "* firefox.exe"
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.seo_slug)
 msgid "change-the-number-of-hops-tor-uses"
-msgstr ""
+msgstr "change-the-number-of-hops-tor-uses"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.description)
 msgid "No, we don't provide any online services."
-msgstr ""
+msgstr "Όχι, δεν παρέχουμε ηλεκτρονικές υπηρεσίες."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2195,11 +2325,15 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"Όταν επισκέπτεστε μια ιστοσελίδα που χρησιμοποιεί μια υπηρεσία onion, ο Tor "
+"Browser θα εμφανίσει στη γραμμή URL ένα εικονίδιο με ένα μικρό πράσινο "
+"κρεμμύδι που θα δείχνει την κατάσταση της σύνδεσής σας: ασφαλής και "
+"χρησιμοποιεί μια υπηρεσία onion."
 
 #: http//localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lrquestion.description)
 msgid "Vidalia is no longer maintained or supported."
-msgstr ""
+msgstr "Το Vidalia δεν συντηρείται ή υποστηρίζεται πλέον."
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.description)
@@ -2210,6 +2344,9 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations that are"
 " less likely to be censored, such as Dropbox, Google Drive, and GitHub."
 msgstr ""
+"Το GetTor είναι μια υπηρεσία που απαντά αυτόματα σε μηνύματα με συνδέσμους "
+"της τελευταίας έκδοσης του Tor Browser, που βρίσκεται σε διάφορες "
+"τοποθεσίες, όπως το Dropbox, το Google Drive και το GitHub."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -2247,6 +2384,9 @@ msgid ""
 "href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
 "Messenger</a>."
 msgstr ""
+"Όχι. Μετά από έντεκα εκδόσεις beta, διακόψαμε την υποστήριξη του <a "
+"href=\"https://blog.torproject.org/sunsetting-tor-messenger\">Tor "
+"Messenger</a>."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2256,6 +2396,8 @@ msgid ""
 "If you see lines like this in your Tor log, it means your system clock is "
 "incorrect."
 msgstr ""
+"Εάν βλέπετε γραμμές όπως αυτό στο αρχείο καταγραφής Tor, αυτό σημαίνει ότι "
+"το ρολόι του συστήματός σας είναι λανθασμένο."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2263,6 +2405,9 @@ msgid ""
 "We still believe in Tor's ability to be used in a messaging app, but we "
 "don't have the resources to make it happen right now."
 msgstr ""
+"Εξακολουθούμε να πιστεύουμε στην ικανότητα του Tor να μπορεί να "
+"χρησιμοποιηθεί σε μια εφαρμογή ανταλλαγής μηνυμάτων, αλλά δεν διαθέτουμε "
+"τους πόρους για να το πραγματοποιήσουμε αυτή τη στιγμή."
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.seo_slug)
@@ -2286,6 +2431,9 @@ msgid ""
 " routing, and is developed by someone who works closely with the Tor "
 "Project."
 msgstr ""
+"Συνιστούμε μια εφαρμογή για iOS που ονομάζεται Onion Browser, η οποία είναι "
+"ανοιχτού κώδικα, χρησιμοποιεί τη δρομολόγηση του Tor και αναπτύσσεται από "
+"κάποιον που συνεργάζεται στενά με το Tor Project."
 
 #: http//localhost/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lrquestion.title)
@@ -2319,9 +2467,13 @@ msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
 "been released."
 msgstr ""
+"Ο Tor Browser θα σας ζητήσει να ενημερώσετε το λογισμικό μόλις κυκλοφορήσει "
+"μια νέα έκδοση."
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lrquestion.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a "
 "href=\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> "
@@ -2344,6 +2496,8 @@ msgid ""
 "The Tor Browser works hard to isolate itself from the rest of your system, "
 "and the steps for making it the default browser are unreliable."
 msgstr ""
+"Ο Tor Browser εργάζεται σκληρά για να απομονωθεί από το υπόλοιπο σύστημα "
+"σας, και τα βήματα για να γίνει προεπιλεγμένος περιηγητής είναι αναξιόπιστα."
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -2351,6 +2505,8 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Αναζητήστε μια καταχώρηση στο αρχείο /var/log/tor/notices.log όπως \"Self-"
+"testing indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2359,6 +2515,10 @@ msgid ""
 " still be intercepted by exit relay operators or anyone observing the "
 "traffic between your exit relay and your destination website."
 msgstr ""
+"Ωστόσο, οι πληροφορίες που αποστέλλονται χωρίς κρυπτογράφηση μέσω του "
+"ίντερνετ χρησιμοποιώντας απλό HTTP μπορούν ακόμα να υποκλαπούν από "
+"διαχειριστές κόμβου εξόδου ή οποιονδήποτε παρατηρεί την κίνηση μεταξύ του "
+"κόμβου εξόδου και της ιστοσελίδας προορισμού σας."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2389,6 +2549,8 @@ msgid ""
 "For example, the DuckDuckGo onion is <a "
 "href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a>."
 msgstr ""
+"Για παράδειγμα, το DuckDuckGo onion είναι <a "
+"href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a>."
 
 #: http//localhost/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lrquestion.seo_slug)
@@ -2414,6 +2576,8 @@ msgid ""
 "Websites that are only accessible over Tor are called \"onions\" and end in "
 "the TLD .onion."
 msgstr ""
+"Οι ιστοσελίδες που είναι προσβάσιμες μόνο μέσω του Tor ονομάζονται "
+"\"onions\" και τελειώνουν σε .onion."
 
 #: http//localhost/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -2428,7 +2592,7 @@ msgstr ""
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.title)
 msgid "How do I run a obfs4 bridge on Debian?"
-msgstr ""
+msgstr "Πώς μπορώ να λειτουργήσω μια γέφυρα obfs4 στο Debian;"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.seo_slug)
@@ -2470,6 +2634,9 @@ msgid ""
 "Sometimes websites will block Tor users because they can't tell the "
 "difference between the average Tor user and automated traffic."
 msgstr ""
+"Ορισμένες φορές οι ιστοσελίδες θα εμποδίσουν τους χρήστες του Tor επειδή δεν"
+" μπορούν να διακρίνουν τη διαφορά μεταξύ του μέσου χρήστη Tor και της "
+"αυτοματοποιημένης επισκεψιμότητας."
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -2501,7 +2668,7 @@ msgstr ""
 
 #: http//localhost/tbb/tbb-6/ (content/tbb/tbb-6/contents+en.lrquestion.title)
 msgid "Can I make Tor Browser my default browser?"
-msgstr ""
+msgstr "Μπορώ να κάνω τον Tor Browser τον προεπιλεγμένο μου περιηγητή;"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2535,6 +2702,8 @@ msgid ""
 "* As root, add the following lines to /etc/apt/sources.list. Use the version"
 " you found in the previous step for <version>."
 msgstr ""
+"* Ως root, προσθέστε τις ακόλουθες γραμμές στο /etc/apt/sources.list. "
+"Χρησιμοποιήστε την έκδοση που βρήκατε στο προηγούμενο βήμα για <version>."
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -2542,6 +2711,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show"
 " an icon of a green onion and a padlock."
 msgstr ""
+"Και αν επισκέπτεστε μια ιστοσελίδα με https και υπηρεσία onion, θα "
+"εμφανιστεί ένα εικονίδιο με ένα πράσινο κρεμμύδι και ένα λουκέτο."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2590,7 +2761,7 @@ msgstr "* 日本語 (ja)"
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
 msgid "##### New Tor Circuit for this Site"
-msgstr ""
+msgstr "##### Νέο κύκλωμα Tor για αυτήν την ιστοσελίδα"
 
 #: http//localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lrquestion.title)
@@ -2598,6 +2769,8 @@ msgid ""
 "What search engine comes with Tor Browser and how does it protect my "
 "privacy?"
 msgstr ""
+"Ποια μηχανή αναζήτησης έρχεται με τον Tor Browser και πώς προστατεύει την "
+"ιδιωτικότητα μου;"
 
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.description)
@@ -2605,12 +2778,16 @@ msgstr ""
 #: (content/connecting/connecting-1/contents+en.lrquestion.description)
 msgid "Please make sure your system clock and timezone are set accurately."
 msgstr ""
+"Βεβαιωθείτε ότι το ρολόι του συστήματος και η ζώνη ώρας έχουν ρυθμιστεί με "
+"ακρίβεια."
 
 #: http//localhost/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.description)
 msgid ""
 "You can certainly use another browser while you are also using Tor Browser."
 msgstr ""
+"Βεβαίως και μπορείτε να χρησιμοποιήσετε έναν άλλο περιηγητή ενώ "
+"χρησιμοποιείτε επίσης τον Tor Browser"
 
 #: http//localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lrquestion.description)
@@ -2620,6 +2797,10 @@ msgid ""
 "correctly: even a small mistake will stop Tor Browser from being able to "
 "reach the site."
 msgstr ""
+"Αν δεν μπορείτε να συνδεθείτε στην υπηρεσία onion που χρειάζεστε, "
+"βεβαιωθείτε ότι έχετε εισάγει σωστά τη διεύθυνση onion 16 χαρακτήρων ή τη "
+"νεότερη μορφή 56 χαρακτήρων: ακόμα και ένα μικρό λάθος θα εμποδίσει τον Tor "
+"Browser να βρει την ιστοσελίδα. "
 
 #: http//localhost/censorship/
 #: (content/censorship/contents+en.lrtopic.seo_slug)
@@ -2630,6 +2811,8 @@ msgstr "λογοκρισία"
 #: (content/misc/misc-2/contents+en.lrquestion.title)
 msgid "Why don't you prevent bad people from doing bad things when using Tor?"
 msgstr ""
+"Γιατί δεν εμποδίζετε τους κακούς ανθρώπους να κάνουν κακά πράγματα όταν "
+"χρησιμοποιούν το Tor;"
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -2683,6 +2866,8 @@ msgid ""
 "* Note that your operating system’s standard \"Uninstall\" utility is not "
 "used."
 msgstr ""
+"* Σημειώστε ότι η συνηθισμένη λειτουργία \"Απεγκατάσταση\" του λειτουργικού "
+"σας συστήματος δεν χρησιμοποιείται."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2706,7 +2891,7 @@ msgstr "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
 #: http//localhost/misc/misc-9/
 #: (content/misc/misc-9/contents+en.lrquestion.title)
 msgid "I'm having a problem updating or using Vidalia."
-msgstr ""
+msgstr "Έχω πρόβλημα με την ενημέρωση ή τη χρήση του Vidalia."
 
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.description)
@@ -2716,6 +2901,8 @@ msgid ""
 "One of the most common issues that causes connection errors in Tor Browser "
 "is an incorrect system clock."
 msgstr ""
+"Ένα από τα πιο συνηθισμένα ζητήματα που προκαλεί σφάλματα σύνδεσης στον Tor "
+"Browser είναι ένα λανθασμένο ρολόι συστήματος."
 
 #: http//localhost/tbb/tbb-2/ (content/tbb/tbb-2/contents+en.lrquestion.title)
 msgid "Why is the first IP address in my relay circuit always the same?"
@@ -2748,6 +2935,9 @@ msgid ""
 "procedure for account recovery, or contacting the operators and explaining "
 "the situation."
 msgstr ""
+"Ο μόνος τρόπος για να επιλυθεί αυτό είναι να ακολουθήσετε τη διαδικασία που "
+"προτείνεται στην ιστοσελίδα για την επαναφορά λογαριασμού, ή να "
+"επικοινωνήσετε με τους διαχειριστές της και να εξηγήσετε την κατάσταση."
 
 #: http//localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lrquestion.description)
@@ -2756,6 +2946,9 @@ msgid ""
 "<mark><a href=\"https://tb-manual.torproject.org/en-"
 "US/troubleshooting.html\">Tor Browser manual</a></mark>."
 msgstr ""
+"Αν αυτό δεν διορθώσει το πρόβλημα, ανατρέξτε στη σελίδα αντιμετώπισης "
+"προβλημάτων στο <mark><a href=\"https://tb-manual.torproject.org/en-"
+"US/troubleshooting.html\">εγχειρίδιο του Tor Browser</a></mark>."
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.description)
@@ -2764,6 +2957,9 @@ msgid ""
 "authentication, which is a much better security option than IP-based "
 "reputations."
 msgstr ""
+"Ενδέχεται να μπορείτε να αποφύγετε αυτό το σενάριο αν ο πάροχος σας "
+"προσφέρει έλεγχο ταυτότητας 2 παραγόντων, η οποία είναι πολύ καλύτερη "
+"επιλογή ασφάλειας από την \"IP-based reputations\"."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.title)
@@ -2786,6 +2982,8 @@ msgid ""
 "If you don't see this message, it means that your relay is not reachable "
 "from the outside."
 msgstr ""
+"Αν δεν βλέπετε αυτό το μήνυμα, σημαίνει ότι ο κόμβος σας δεν είναι "
+"προσβάσιμος εξωτερικά."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2808,6 +3006,9 @@ msgid ""
 "browser, because you may accidentally use the other browser for something "
 "you intended to do using Tor."
 msgstr ""
+"Να είστε προσεκτικοί κατά την εναλλαγή μεταξύ του Tor και ενός λιγότερο "
+"ασφαλούς περιηγητή, επειδή μπορεί να χρησιμοποιήσετε κατά λάθος τον άλλο "
+"περιηγητή για κάτι που είχατε σκοπό να κάνετε χρησιμοποιώντας τον Tor."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2845,6 +3046,8 @@ msgid ""
 "Please see the <mark><a href=\"https://noscript.net/faq\">NoScript "
 "FAQ</a></mark>."
 msgstr ""
+"Παρακαλώ ανατρέξτε στο </mark><a href=\"https://noscript.net/faq\">NoScript "
+"FAQ</a></mark>."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2858,6 +3061,8 @@ msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
 msgstr ""
+"Θα πρέπει να ελέγξετε ξανά τα firewalls σας, να ελέγξετε ότι η IP και οι "
+"θύρες που έχετε καθορίσει στο torrc σας είναι σωστές, κτλ."
 
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -2865,6 +3070,9 @@ msgid ""
 "Onion services allow people to browse but also to publish anonymously, "
 "including publishing anonymous websites."
 msgstr ""
+"Οι υπηρεσίες onion επιτρέπουν στους χρήστες να περιηγούνται αλλά και να "
+"δημοσιεύουν ανώνυμα, συμπεριλαμβανομένης της δημοσίευσης ανώνυμων "
+"ιστοσελίδων."
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.seo_slug)
@@ -2907,6 +3115,8 @@ msgid ""
 "If you see lines like these in your Tor log, it means your Tor failed to "
 "connect to the first node in the Tor circuit."
 msgstr ""
+"Αν δείτε γραμμές όπως αυτό στο αρχείο καταγραφής Tor, αυτό σημαίνει ότι ο "
+"Tor σας απέτυχε να συνδεθεί με τον πρώτο κόμβο στο κύκλωμα Tor."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -2915,6 +3125,9 @@ msgid ""
 "href=\"https://www.torproject.org/about/contact.html.en\">Contact "
 "us</a></mark>."
 msgstr ""
+"<mark><a "
+"href=\"https://www.torproject.org/about/contact.html.en\">Επικοινωνήστε μαζί"
+" μας</a></mark>."
 
 #: http//localhost/gettor/gettor-1/
 #: (content/gettor/gettor-1/contents+en.lrquestion.seo_slug)
@@ -2970,12 +3183,12 @@ msgstr ""
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
 msgid "<div class=\"card\">"
-msgstr ""
+msgstr "<div class=\"card\">"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
 msgid "How do I make sure that I'm using the correct packages on Ubuntu?"
-msgstr ""
+msgstr "Πώς μπορώ να βεβαιωθώ ότι χρησιμοποιώ τα σωστά πακέτα στο Ubuntu;"
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.description)
@@ -2985,6 +3198,10 @@ msgid ""
 "href=\"https://guardianproject.info/\">Guardian Project's "
 "website</a></mark>."
 msgstr ""
+"Το Guardian Project διατηρεί το Tor (και άλλες εφαρμογές απορρήτου) για "
+"Android. Περισσότερες πληροφορίες μπορείτε να βρείτε στην <mark><a "
+"href=\"https://guardianproject.info/\">ιστοσελίδα του Guardian "
+"Project</a></mark>."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -3001,7 +3218,7 @@ msgstr "</div>"
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.seo_slug)
 msgid "tor-project-app-for-private-chat"
-msgstr ""
+msgstr "tor-project-app-for-private-chat"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3048,6 +3265,9 @@ msgid ""
 "entered the 16-character onion address correctly: even a small mistake will "
 "stop Tor Browser from being able to reach the site."
 msgstr ""
+"Αν δεν μπορείτε να συνδεθείτε στην υπηρεσία onion που επιθυμείτε, "
+"βεβαιωθείτε ότι έχετε εισάγει σωστά τη διεύθυνση onion 16 χαρακτήρων: ακόμα "
+"και ένα μικρό λάθος θα εμποδίσει τον Tor Browser να βρει την ιστοσελίδα."
 
 #: http//localhost/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lrquestion.description)
@@ -3113,12 +3333,12 @@ msgstr "δεν-μπορώ-να-συνδεθώ-στον-περιηγητή-tor-ε
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.description)
 msgid "Contact your provider and ask them if they provide 2FA."
-msgstr ""
+msgstr "Επικοινωνήστε με τον πάροχο σας και ρωτήστε τους αν παρέχουν 2FA."
 
 #: http//localhost/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.seo_slug)
 msgid "prevent-bad-people-doing-bad-things-with-tor"
-msgstr ""
+msgstr "prevent-bad-people-doing-bad-things-with-tor"
 
 #: http//localhost/faq/ (content/faq/contents+en.lrtopic.title)
 msgid "Most Frequently Asked Questions"
@@ -3127,7 +3347,7 @@ msgstr "Συχνές Ερωτήσεις"
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.title)
 msgid "How do I uninstall Tor Browser?"
-msgstr ""
+msgstr "Πώς μπορώ να απεγκαταστήσω τον Tor Browser;"
 
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.title)
@@ -3140,7 +3360,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
 msgid "* Empty your Trash."
-msgstr ""
+msgstr "* Αδειάστε τον Κάδο Απορριμάτων σας"
 
 #: http//localhost/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.title)
@@ -3180,6 +3400,8 @@ msgstr ""
 
 #: http//localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lrquestion.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -3195,7 +3417,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.seo_slug)
 msgid "change-ip-address"
-msgstr ""
+msgstr "change-ip-address"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3250,7 +3472,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-6/
 #: (content/tbb/tbb-6/contents+en.lrquestion.seo_slug)
 msgid "make-tor-browser-default-browser"
-msgstr ""
+msgstr "make-tor-browser-default-browser"
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.description)
@@ -3264,7 +3486,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-26/
 #: (content/tbb/tbb-26/contents+en.lrquestion.seo_slug)
 msgid "problem-with-https-everywhere"
-msgstr ""
+msgstr "problem-with-https-everywhere"
 
 #: http//localhost/censorship/ (content/censorship/contents+en.lrtopic.title)
 msgid "Censorship"
@@ -3276,6 +3498,9 @@ msgid ""
 "Please take a strong stance in favor of digital privacy and internet "
 "freedom, and allow Tor users access to xyz.com."
 msgstr ""
+"Παρακαλώ να λάβετε μια ισχυρή θέση υπέρ της ψηφιακής ιδιωτικότητας και της "
+"ελευθερίας του διαδικτύου, και να επιτρέψετε στους χρήστες του Tor να έχουν "
+"πρόσβαση στο xyz.com."
 
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.title)
@@ -3292,6 +3517,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
 "Browser Update\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/update-tb.png\" alt=\"Check for Tor "
+"Browser Update\">"
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3313,6 +3540,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
 "Browser Menu\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/menu-new-identity.png\" alt=\"Tor "
+"Browser Menu\">"
 
 #: http//localhost/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3324,7 +3553,7 @@ msgstr ""
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.title)
 msgid "What is a bridge?"
-msgstr ""
+msgstr "Τι είναι η γέφυρα;"
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3411,7 +3640,7 @@ msgstr ""
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
 msgid "Send an email to gettor@torproject.org."
-msgstr ""
+msgstr "Στείλτε ένα email στο gettor@torproject.org."
 
 #: http//localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lrquestion.description)
@@ -3451,7 +3680,7 @@ msgstr ""
 #: http//localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lrquestion.title)
 msgid "Does the Tor Project offer hosting?"
-msgstr ""
+msgstr "Το Tor Project προσφέρει υπηρεσίες hosting;"
 
 #: http//localhost/faq/faq-5/ (content/faq/faq-5/contents+en.lrquestion.title)
 #: http//localhost/misc/misc-13/
@@ -3473,6 +3702,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>'s "
 "Onion Service."
 msgstr ""
+"Μπορείτε επίσης να εξασφαλίσετε ότι έχετε πρόσβαση σε άλλες υπηρεσίες onion,"
+" με σύνδεση στην Onion Υπηρεσία του<a "
+"href=\"http://3g2upl4pq6kufc4m.onion\">DuckDuckGo</a>."
 
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.description)
@@ -3480,6 +3712,8 @@ msgid ""
 "To get links for downloading Tor Browser, send a message to "
 "gettor@torproject.org with one of the following codes in it:"
 msgstr ""
+"Για να λάβετε συνδέσμους για λήψη του Tor Browser, στείλτε ένα μήνυμα στο "
+"gettor@torproject.org με έναν από τους παρακάτω κωδικούς:"
 
 #: http//localhost/tbb/tbb-7/
 #: (content/tbb/tbb-7/contents+en.lrquestion.description)
@@ -3727,6 +3961,7 @@ msgstr ""
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Install the ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"Εγκαταστήστε το πακέτο ntp ή openntpd (ή παρόμοιο) για να τα διατηρήσετε."
 
 #: http//localhost/tbb/tbb-27/
 #: (content/tbb/tbb-27/contents+en.lrquestion.description)
@@ -3817,7 +4052,7 @@ msgstr "* 简体字 (zh-CN)"
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.seo_slug)
 msgid "what-is-a-dot-onion"
-msgstr ""
+msgstr "what-is-a-dot-onion"
 
 #: http//localhost/misc/misc-7/
 #: (content/misc/misc-7/contents+en.lrquestion.title)
@@ -3849,11 +4084,6 @@ msgstr ""
 "href=\"https://tails.boum.org/\">Επισυνάπτει ζωντανό σύστημα "
 "λειτουργίας</a></mark>, που μπορείτε να εκκινήσετε σε σχεδόν κάθε υπολογιστή"
 " χρησιμοποιώντας στικάκι USB ή DVD."
-
-#: http//localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lrquestion.title)
-msgid "How do I run an exit relay on Debian?"
-msgstr ""
 
 #: http//localhost/tbb/ (content/tbb/contents+en.lrtopic.title)
 msgid "Tor Browser"
@@ -3888,7 +4118,7 @@ msgstr ""
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
 msgid "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion icon\">"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -3994,7 +4224,7 @@ msgstr "run-tor-on-ios"
 #: http//localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lrquestion.title)
 msgid "I cannot reach X.onion!"
-msgstr ""
+msgstr "Δεν μπορώ να αποκτήσω πρόσβαση στο X.onion!"
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -4097,7 +4327,7 @@ msgstr ""
 #: http//localhost/gettor/gettor-4/
 #: (content/gettor/gettor-4/contents+en.lrquestion.title)
 msgid "To use GetTor via XMPP (Jitsi, CoyIM)."
-msgstr ""
+msgstr "Για να χρησιμοποιήσετε το GetTor μέσω του XMPP (Jitsi, CoyIM)."
 
 #: http//localhost/tbb/tbb-4/
 #: (content/tbb/tbb-4/contents+en.lrquestion.description)
@@ -4142,7 +4372,7 @@ msgstr ""
 
 #: templates/footer.html:5
 msgid "Our mission:"
-msgstr ""
+msgstr "Η αποστολή μας:"
 
 #: templates/footer.html:5
 msgid ""
@@ -4154,7 +4384,7 @@ msgstr ""
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"
-msgstr ""
+msgstr "Εγγραφείτε στο Newsletter μας"
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
@@ -4168,11 +4398,11 @@ msgstr ""
 
 #: templates/layout.html:7
 msgid "Tor Project | Support"
-msgstr ""
+msgstr "Tor Project | Υποστήριξη"
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
-msgstr ""
+msgstr "Λογότυπο Tor"
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
@@ -4184,4 +4414,4 @@ msgstr "Αναζήτηση"
 
 #: templates/macros/question.html:11
 msgid "Permalink"
-msgstr ""
+msgstr "Permalink"

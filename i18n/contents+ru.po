@@ -2,6 +2,8 @@
 # Sergey Smirnov <cj75300@gmail.com>, 2018
 # erinm, 2018
 # 45Green Anonymous <45tanaa@gmail.com>, 2018
+# Legenden Rifk <rekytcsgo@gmail.com>, 2018
+# diana azaryan, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -509,14 +511,14 @@ msgstr ""
 msgid "No, the Tor Project does not offer hosting services."
 msgstr "Нет, Tor Project не предоставляет услуги хостинга."
 
-#: http//localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lrquestion.description)
+#: http//localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lrquestion.description)
+#: http//localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 msgstr ""
-"Официальной версии Tor для iOS пока нет. Мы советуем использовать Onion "
-"Browser для iOS."
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
@@ -908,6 +910,8 @@ msgid ""
 "If you see lines like this in your Tor log, it means that Tor failed to "
 "complete a TLS handshake with the directory authorities."
 msgstr ""
+"Если вы видите такие строки в вашем журнале Tor, это означает, что Tor не "
+"смог выполнить соединение с TLS с полномочиями каталога."
 
 #: http//localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -962,6 +966,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">Reduced"
 " exit policy</a></mark>."
 msgstr ""
+"Подумайте, хотите ли вы переключиться на политику <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">«Пониженный"
+" выход».</a></mark>"
 
 #: http//localhost/faq/faq-1/
 #: (content/faq/faq-1/contents+en.lrquestion.seo_slug)
@@ -1014,6 +1021,8 @@ msgid ""
 "Both options are located in the Menu, but you can also access the New "
 "Circuit option inside the site information menu, in the URL bar."
 msgstr ""
+"Оба параметра расположены в Меню, но вы также можете получить доступ к опции"
+" Новый цикл в меню информации о сайте в URL строке."
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -1093,14 +1102,10 @@ msgstr ""
 "Если вы не можете подключиться к onion-сервису, пожалуйста, см. страницу <a "
 "href=\"/#onionservices-3\">Не удаётся подключиться к X.onion!</a>"
 
-#: http//localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lrquestion.description)
-#: http//localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lrquestion.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
-msgstr ""
+#: http//localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lrquestion.title)
+msgid "How do I run an exit relay on Debian?"
+msgstr "Как запустить выходной узел на Debian?"
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -1299,6 +1304,8 @@ msgid ""
 "Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Найдите запись в журнале \"/var/log/syslog\" , например \"Само-тестирование "
+"означает, что ORPort доступен извне. Отлично.\""
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.title)
@@ -1381,6 +1388,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">Exit"
 " relay guidelines</a></mark>"
 msgstr ""
+"* Просмотрите наши <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines\">рекомендации"
+" по выходу из ретрансляции</a></mark>"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -1394,6 +1404,8 @@ msgid ""
 "Using Tor in another browser can leave you vulnerable without the privacy "
 "protections of Tor Browser."
 msgstr ""
+"Использование Tor в другом браузере может оставить вас уязвимыми без защиты "
+"конфиденциальности от Tor Browser."
 
 #: http//localhost/tbb/tbb-17/
 #: (content/tbb/tbb-17/contents+en.lrquestion.seo_slug)
@@ -1510,6 +1522,8 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"* Найдите запись в журнале \"/var/log/syslog\" , например \"Само-"
+"тестирование означает, что ORPort доступен извне. Отлично.\""
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
@@ -1578,6 +1592,8 @@ msgid ""
 "The rest of your circuit changes with every new website you visit, and all "
 "together these relays provide the full privacy protections of Tor."
 msgstr ""
+"Часть вашего цикла меняется с каждым новым открытием веб-сайта, который вы "
+"посещаете, ретрансляторы обеспечивают полную защиту конфиденциальности."
 
 #: http//localhost/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.seo_slug)
@@ -1678,6 +1694,8 @@ msgid ""
 "The best success we've had in getting sites to unblock Tor users is getting "
 "users to contact the site administrators directly."
 msgstr ""
+"Наилучший успех, который мы получили в создании сайтов для разблокирования "
+"Tor, - это прямой контакт пользователей с администрацией сайта."
 
 #: http//localhost/tbb/tbb-40/
 #: (content/tbb/tbb-40/contents+en.lrquestion.title)
@@ -1751,6 +1769,8 @@ msgid ""
 "If you are unable to connect to an onion service, please see <a "
 "href=\"#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
+"Если вы не можете подключиться к сайту .onion , см. раздел <a "
+"href=\"#onionservices-3\">Я не могу связаться с X.onion!</a>"
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.description)
@@ -1772,6 +1792,8 @@ msgid ""
 "* After your relay connects to the network, it will try to determine whether"
 " the ports you configured are reachable from the outside."
 msgstr ""
+"* После того, как ваш ретранслятор подключится к сети, он попытается "
+"определить, доступны ли настроенные вами порты для сети."
 
 #: http//localhost/tbb/tbb-37/
 #: (content/tbb/tbb-37/contents+en.lrquestion.description)
@@ -1820,6 +1842,8 @@ msgid ""
 "Unfortunately, there is no supported way to make Tor Browser your default "
 "browser."
 msgstr ""
+"К сожалению, в настоящее время нет возможности установить Tor Browser как "
+"браузер по умолчанию."
 
 #: http//localhost/misc/misc-5/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -1845,6 +1869,9 @@ msgid ""
 "information such as cookies and browsing history, and use new Tor circuits "
 "for all connections."
 msgstr ""
+"Выбор этого закроет все ваши вкладки и окна, очистят все конфиденциальные "
+"данные, такие как файлы cookie и историю просмотров, и будет использоваться "
+"новый цикл для всех подключений."
 
 #: http//localhost/tbb/tbb-29/
 #: (content/tbb/tbb-29/contents+en.lrquestion.description)
@@ -1862,6 +1889,9 @@ msgid ""
 "It is a fast and stable relay that remains the first one in your circuit for"
 " 2-3 months in order to protect against a known anonymity-breaking attack."
 msgstr ""
+"Это быстрый и стабильный ретранслятор, который останется первым в вашем "
+"цикле в течение 2-3 месяцев, чтобы защитить от известной атаки на "
+"анонимность."
 
 #: http//localhost/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.seo_slug)
@@ -1913,6 +1943,8 @@ msgid ""
 "If you’re having trouble connecting, please select the option to \"copy Tor "
 "log to clipboard.\""
 msgstr ""
+"Если у вас возникли проблемы с подключением, выберите вариант «Скопировать "
+"журнал Tor в буфер обмена»."
 
 #: http//localhost/tbb/tbb-23/
 #: (content/tbb/tbb-23/contents+en.lrquestion.description)
@@ -2006,6 +2038,8 @@ msgid ""
 "Is there a way to change the IP address that Tor Browser assigns me for a "
 "particular site?"
 msgstr ""
+"Есть ли способ изменить IP-адрес, который Tor Browser назначает мне для "
+"определенного сайта?"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2079,21 +2113,14 @@ msgid ""
 "Selecting it will cause the currently-active tab or window to be reloaded "
 "over a new Tor circuit."
 msgstr ""
+"При выборе этого параметра активная вкладка или окно будет перезагружена по "
+"новому циклу Tor."
 
 #: http//localhost/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lrquestion.description)
 msgid "There is nothing the Tor developers can do to trace Tor users."
 msgstr ""
 "Разработчики Tor не имеют никакой возможности отслеживать пользователей Tor."
-
-#: http//localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lrquestion.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-"Tor Browser включает дополнения HTTPS Everywhere и NoScript. Установка "
-"другого дополнения может лишить вас анонимности."
 
 #: http//localhost/tbb/tbb-4/ (content/tbb/tbb-4/contents+en.lrquestion.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
@@ -2186,6 +2213,8 @@ msgid ""
 "See <mark><a href=\"#operators-6\">How do I run a bridge</a></mark> for "
 "instructions."
 msgstr ""
+"См. <mark><a href=\"#operators-6\">\"Как я могу запустить мост\"</a></mark> "
+"для получения инструкций."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -2368,6 +2397,8 @@ msgstr "Tor Browser предложит вам обновить программ�
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lrquestion.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a "
 "href=\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> "
@@ -2399,6 +2430,8 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Найдите запись в журнале \"/var/log/syslog\" , например \"Само-тестирование "
+"означает, что ORPort доступен извне. Отлично.\""
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2432,6 +2465,15 @@ msgid ""
 "href=\"https://www.facebook.com/notes/protect-the-graph/making-connections-"
 "to-facebook-more-secure/1526085754298237/\">Facebook</a></mark>."
 msgstr ""
+".onion сайты также используются для обмена чатами без обмена метаданными и "
+"файлами, более безопасного взаимодействия между журналистами и их "
+"источниками, таких как <mark><a "
+"href=\"https://securedrop.org/\">SecureDrop</a></mark> или <mark><a "
+"href=\"https://onionshare.org/\">OnionShare</a></mark>, более безопасных "
+"обновлений ПО и более безопасных способов доступа к популярным сайтам, таким"
+" как <mark><a href=\"https://www.facebook.com/notes/protect-the-graph"
+"/making-connections-to-facebook-more-"
+"secure/1526085754298237/\">Facebook</a></mark>."
 
 #: http//localhost/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -2478,11 +2520,17 @@ msgid ""
 " identifier if only a small number of users have the same path length as "
 "you."
 msgstr ""
+"Кроме того, использование цепей длиной более 3 может нанести ущерб "
+"анонимности, прежде всего потому, что это облегчает <mark><a "
+"href=\"https://www.freehaven.net/anonbib/#ccs07-doa\">атаку на "
+"безопасность</a></mark>, а во-вторых, потому что он может действовать как "
+"идентификатор, если только небольшое количество пользователей имеет ту же "
+"длину пути, что и вы."
 
 #: http//localhost/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.title)
 msgid "How do I run a obfs4 bridge on Debian?"
-msgstr ""
+msgstr "Как я могу запустить obfs4 мост на OC Debian?"
 
 #: http//localhost/tbb/tbb-30/
 #: (content/tbb/tbb-30/contents+en.lrquestion.seo_slug)
@@ -2552,6 +2600,8 @@ msgid ""
 "Write your operating system (such as windows, MacOS (OS X), or linux) in the"
 " body of the message and send."
 msgstr ""
+"Напишите свою операционную систему (например, Windows, MacOS (OS X) или "
+"Linux) в заголовке сообщения и отправьте на почту."
 
 #: http//localhost/tbb/tbb-6/ (content/tbb/tbb-6/contents+en.lrquestion.title)
 msgid "Can I make Tor Browser my default browser?"
@@ -2568,6 +2618,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a></mark>."
 msgstr ""
+"Для получения наиболее мощного ресурса при работе см.<mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\"> "
+"руководство по ретрансляции Tor</a></mark>"
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -2582,6 +2635,8 @@ msgid ""
 "Setting up an obfsproxy bridge requires an additional software package and "
 "additional configurations."
 msgstr ""
+"Настройка моста obfsproxy требует дополнительного программного пакета и "
+"дополнительных конфигураций."
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -2598,6 +2653,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show"
 " an icon of a green onion and a padlock."
 msgstr ""
+"И если вы получаете доступ к веб-сайту с протоколом https или .onion сайтом,"
+" он покажет значок зеленого лука и висячий замок."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -2671,6 +2728,8 @@ msgstr ""
 msgid ""
 "You can certainly use another browser while you are also using Tor Browser."
 msgstr ""
+"Вы можете использовать другой браузер, в то время как вы также используете "
+"Tor Browser."
 
 #: http//localhost/onionservices/onionservices-3/
 #: (content/onionservices/onionservices-3/contents+en.lrquestion.description)
@@ -2680,6 +2739,9 @@ msgid ""
 "correctly: even a small mistake will stop Tor Browser from being able to "
 "reach the site."
 msgstr ""
+"Если вы не можете подключится к .onion сайту, убедитесь, что вы правильно "
+"ввели 16-значный URL или новейший формат 56-числового адреса: даже небольшая"
+" ошибка остановит Tor Browser от возможности добраться до сайта."
 
 #: http//localhost/censorship/
 #: (content/censorship/contents+en.lrtopic.seo_slug)
@@ -2755,6 +2817,9 @@ msgid ""
 " to the directory authorities to let clients know what address, ports, keys,"
 " etc your relay is using."
 msgstr ""
+"Когда подтвердится, что он доступен, он загрузит «серверный дескриптор» в "
+"органы управления каталогом, чтобы клиенты знали, какой адрес, порты, ключи "
+"и т.д. используют ваш ретранслятор."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2859,6 +2924,8 @@ msgid ""
 "If you don't see this message, it means that your relay is not reachable "
 "from the outside."
 msgstr ""
+"Если вы видите это сообщение, означает что ваш ретранслятор не доступен для "
+"сети."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -2989,6 +3056,8 @@ msgid ""
 "If you see lines like these in your Tor log, it means your Tor failed to "
 "connect to the first node in the Tor circuit."
 msgstr ""
+"Если вы видите такие строки в своем журнале Tor, это означает, что ваш Tor "
+"не смог подключиться к первому узлу в цикле Tor."
 
 #: http//localhost/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lrquestion.description)
@@ -3037,6 +3106,10 @@ msgid ""
 "href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> to"
 " see whether your relay has successfully registered in the network."
 msgstr ""
+"Через несколько часов (чтобы дать ему достаточно времени для "
+"распространения) вы можете запросить <mark><a "
+"href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark>, "
+"чтобы узнать, было ли ваш ретранслятор успешно зарегистрировано в сети."
 
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
@@ -3061,7 +3134,7 @@ msgstr "<div class=\"card\">"
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
 msgid "How do I make sure that I'm using the correct packages on Ubuntu?"
-msgstr ""
+msgstr "Как я могу убедиться, что я использую правильные пакеты на Ubuntu?"
 
 #: http//localhost/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.description)
@@ -3082,6 +3155,8 @@ msgid ""
 "Other open tabs and windows from the same website will use the new circuit "
 "as well once they are reloaded."
 msgstr ""
+"Другие открытые вкладки и окна с одного и того же веб-сайта будут "
+"использовать новую схему также после их перезагрузки."
 
 #: http//localhost/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.description)
@@ -3288,6 +3363,8 @@ msgstr ""
 
 #: http//localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lrquestion.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -3342,6 +3419,11 @@ msgid ""
 "users.cs.umn.edu/~hoppernj/single_guard.pdf\">paper</a></mark> on entry "
 "guards."
 msgstr ""
+"Для получения дополнительной информации о том, как работают защитные "
+"ретрансляторы, см. <mark><a href=\"https://blog.torproject.org/improving-"
+"tors-anonymity-changing-guard-parameters\">блог</a></mark> и <mark><a "
+"href=\"https://www-"
+"users.cs.umn.edu/~hoppernj/single_guard.pdf\">документ</a></mark> на входе."
 
 #: http//localhost/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.title)
@@ -3512,6 +3594,9 @@ msgid ""
 "href=\"https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt\">Obfsproxy</a></mark>"
 " bridges address this by adding another layer of obfuscation."
 msgstr ""
+"Мосты <mark><a "
+"href=\"https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt\">Obfsproxy</a></mark>"
+" решают эту проблему, добавляя еще один слой запутанности."
 
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
@@ -3543,7 +3628,7 @@ msgstr ""
 #: http//localhost/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lrquestion.description)
 msgid "Send an email to gettor@torproject.org."
-msgstr ""
+msgstr "Отправьте электронное письмо на gettor@torproject.org."
 
 #: http//localhost/tbb/tbb-13/
 #: (content/tbb/tbb-13/contents+en.lrquestion.description)
@@ -3740,6 +3825,8 @@ msgid ""
 "Tor Browser will warn you that all activity and downloads will be stopped, "
 "so take this into account before clicking \"New Identity\"."
 msgstr ""
+"Tor Browser предупредит вас, что все действия и загрузки будут остановлены, "
+"поэтому примите это во внимание, прежде чем нажимать на \"Новая личность\"."
 
 #: http//localhost/tbb/tbb-33/
 #: (content/tbb/tbb-33/contents+en.lrquestion.title)
@@ -3998,11 +4085,6 @@ msgstr ""
 " Ее можно запустить практически на любом компьютере с USB-флешки или диска "
 "DVD."
 
-#: http//localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lrquestion.title)
-msgid "How do I run an exit relay on Debian?"
-msgstr "Как запустить выходной узел на Debian?"
-
 #: http//localhost/tbb/ (content/tbb/contents+en.lrtopic.title)
 msgid "Tor Browser"
 msgstr "Tor Browser"
@@ -4117,6 +4199,8 @@ msgid ""
 "Click the button labelled \"Copy Tor Log To Clipboard\" that appears in the "
 "dialog window when Tor Browser is first connecting to the network."
 msgstr ""
+"Нажмите на кнопку \"Скопировать лог Tor в буфер обмена\", которая появляется"
+" в диалоговом окне при первом подключении Tor Browser к сети."
 
 #: http//localhost/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -4316,6 +4400,10 @@ msgid ""
 "availability and use, and furthering their scientific and popular "
 "understanding."
 msgstr ""
+"продвижение прав и свобод человека путем создания и внедрения бесплатных "
+"технологий анонимности и конфиденциальности с открытым исходным кодом, "
+"поддержка их неограниченной доступности и использования, а также содействие "
+"их научному и общественному пониманию. "
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"

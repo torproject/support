@@ -442,14 +442,14 @@ msgstr ""
 msgid "No, the Tor Project does not offer hosting services."
 msgstr ""
 
-#: http//localhost/tbb/tbb-31/
-#: (content/tbb/tbb-31/contents+en.lrquestion.description)
+#: http//localhost/connecting/connecting-2/
+#: (content/connecting/connecting-2/contents+en.lrquestion.description)
+#: http//localhost/censorship/censorship-5/
+#: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid ""
-"There is no official version of Tor for iOS yet, though we recommend Onion "
-"Browser."
+"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
+"directory server"
 msgstr ""
-"Det er ingen offisiell versjon av Tor for iOS ennå, selv om vi anbefaler "
-"Onion Browser."
 
 #: http//localhost/tbb/tbb-22/
 #: (content/tbb/tbb-22/contents+en.lrquestion.description)
@@ -963,13 +963,9 @@ msgid ""
 "href=\"/#onionservices-3\">I cannot reach X.onion!</a>"
 msgstr ""
 
-#: http//localhost/connecting/connecting-2/
-#: (content/connecting/connecting-2/contents+en.lrquestion.description)
-#: http//localhost/censorship/censorship-5/
-#: (content/censorship/censorship-5/contents+en.lrquestion.description)
-msgid ""
-"19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with "
-"directory server"
+#: http//localhost/operators/operators-2/
+#: (content/operators/operators-2/contents+en.lrquestion.title)
+msgid "How do I run an exit relay on Debian?"
 msgstr ""
 
 #: http//localhost/censorship/censorship-7/
@@ -1857,15 +1853,6 @@ msgstr ""
 msgid "There is nothing the Tor developers can do to trace Tor users."
 msgstr ""
 
-#: http//localhost/tbb/tbb-14/
-#: (content/tbb/tbb-14/contents+en.lrquestion.description)
-msgid ""
-"Tor Browser already comes installed with two add-ons — HTTPS Everywhere and "
-"NoScript — and adding anything else could deanonymize you."
-msgstr ""
-"Tor Nettleser kommer allerede installert med to tilleggsprogrammer - HTTPS "
-"Everywhere og NoScript - og legge til noe annet kan deanonymisere deg."
-
 #: http//localhost/tbb/tbb-4/ (content/tbb/tbb-4/contents+en.lrquestion.title)
 msgid "Why is Tor Browser built from Firefox and not some other browser?"
 msgstr ""
@@ -2117,6 +2104,8 @@ msgstr ""
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-14/
+#: (content/tbb/tbb-14/contents+en.lrquestion.description)
 msgid ""
 "Tor Browser already comes installed with two add-ons — <mark><a "
 "href=\"https://www.eff.org/https-everywhere\">HTTPS Everywhere</a></mark> "
@@ -2953,6 +2942,8 @@ msgstr ""
 
 #: http//localhost/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lrquestion.description)
+#: http//localhost/tbb/tbb-31/
+#: (content/tbb/tbb-31/contents+en.lrquestion.description)
 msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
@@ -3593,11 +3584,6 @@ msgid ""
 "take a look at the <mark><a href=\"https://tails.boum.org/\">Tails live "
 "operating system</a></mark> which you can start on almost any computer from "
 "a USB stick or a DVD."
-msgstr ""
-
-#: http//localhost/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lrquestion.title)
-msgid "How do I run an exit relay on Debian?"
 msgstr ""
 
 #: http//localhost/tbb/ (content/tbb/contents+en.lrtopic.title)
