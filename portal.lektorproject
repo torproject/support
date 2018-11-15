@@ -2,17 +2,17 @@
 name = Support Portal
 url = https://support.torproject.org/
 url_style = absolute
-locale = en_US
+locale = en
 
 [alternatives.bn]
 name = বাংলা ভাষা  (bn)
 url_prefix = /bn/
-locale = bn_BD
+locale = bn
 
 [alternatives.bn-BD]
 name = বাংলা ভাষা  (bn)
 url_prefix = /bn-BD/
-locale = bn_BD
+locale = bn
 
 [alternatives.ca]
 name = Catala
@@ -28,22 +28,22 @@ locale = de
 name = English
 primary = yes
 url_prefix = /
-locale = en_US
+locale = en
 
 [alternatives.en-US]
 name = English (en)
 url_prefix = /en-US/
-locale = en_US
+locale = en
 
 [alternatives.es]
 name = Español
 url_prefix = /es/
-locale = es_ES
+locale = es
 
 [alternatives.fr]
 name = Français
 url_prefix = /fr/
-locale = fr_FR
+locale = fr
 
 [alternatives.ga]
 name = Gaeilge (ga)
@@ -53,7 +53,7 @@ locale = ga
 [alternatives.id]
 name = Indonesia
 url_prefix = /id/
-locale = id_ID
+locale = id
 
 [alternatives.it]
 name = Indonesia
@@ -68,7 +68,7 @@ locale = he
 [alternatives.pt-BR]
 name = Português (Brasil)
 url_prefix = /pt-BR/
-locale = pt_BR
+locale = pt-BR
 
 [alternatives.tr]
 name = Turkish
@@ -78,4 +78,4 @@ locale = tr
 [alternatives.zh-CN]
 name = 简体字 (zh-CN)
 url_prefix = /zh-CN/
-locale = zh_CN
+locale = zh-CN
