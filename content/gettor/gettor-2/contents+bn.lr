@@ -1,13 +1,12 @@
 _model:
 
-question 
+question
 ---
 title: ইমেইলের মাধ্যমে GetTor ব্যবহার করার জন্য।
 ---
 seo_slug: to-use-gettor-via-email
 ---
 description:
-
 gettor@torproject.org কাছে একটি ই-মেইল প্রেরণ করুন ।
 আপনার অপারেটিং সিস্টেম (যেমন windows, MacOS (ওএস X), বা লিনাক্স)-এর শরীরে মেসেজ এবং সেন্ড করে লিখুন ।
 GetTor এমন একটি লিঙ্ক সহ ইমেইলে সাড়া দেবে যা থেকে আপনি টর ব্রাউজার ডাউনলোড করতে পারেন, ক্রিপ্টোগ্রাফিক স্বাক্ষর (<mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">ডাউনলোড যাচাই</a></mark> করার জন্য প্রয়োজন), স্বাক্ষর করতে ব্যবহৃত কি, এবং প্যাকেজের চেকসাম।

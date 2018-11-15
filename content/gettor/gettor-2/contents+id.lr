@@ -1,13 +1,12 @@
 _model:
 
-question 
+question
 ---
 title: Menggunakan GetTor lewat email:
 ---
 seo_slug: to-use-gettor-via-email 
 ---
 description:
-
 Kirim email ke gettor@torproject.org.
 Tulis sistem operasi Anda (seperti windows, MacOS (OS X), atau linux) dalam tubuh pesan.
 GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh paket Tor Browser, tanda tangan kriptografi (<mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">diperlukan untuk memverikasi unduhan</a></mark>), sidik jari pengguna utama yang akan digunakan untuk membuat tanda tangan, dan paket checksum.

@@ -1,13 +1,12 @@
 _model:
 
-question 
+question
 ---
 title: Le GetTor a úsáid trí ríomhphost.
 ---
 seo_slug: to-use-gettor-via-email
 ---
 description:
-
 Seol teachtaireacht rphoist chuig gettor@torproject.org.
 Cuir ainm do chórais oibriúcháin (m.sh. Windows, MacOS (OS X), nó Linux) i gcorp na teachtaireachta agus seol é.
 Tabharfaidh GetTor freagra ina bhfuil nasc íoslódála do Bhrabhsálaí Tor, síniú cripteagrafach (ag teastáil <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">leis an íoslódáil a dheimhniú</a></mark>), méarlorg na heochrach a úsáideadh chun an síniú a dhéanamh, agus suim sheiceála an phacáiste.

@@ -1,13 +1,12 @@
 _model:
 
-question 
+question
 ---
 title: Um GetTor über E-Mail zu nutzen.
 ---
 seo_slug: gettor-per-email-benutzen
 ---
 description:
-
 Sende eine E-Mail an gettor@torproject.org.
 Schreibe dein Betriebssystem (z.B. windows, MacOS (OS X), oder linux) in die Nachricht und sende sie ab.
 GetTor antwortet mit einer Email mit Links für Tor Browser, der kryptographischen Signatur (um die <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">Datei zu verifizieren</a></mark>), dem Fingerabdruck des Signatur-Schlüssels und der Prüfsumme des Pakets.
