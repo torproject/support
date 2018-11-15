@@ -1,20 +1,20 @@
 _model: question
 ---
-title: Un site Web auquel j’essaye d’accéder bloque l’accès via Tor.
+title: Un site Web auquel j’essaie d’accéder bloque l’accès avec Tor.
 ---
 seo_slug: site-web-bloque-accès-avec-tor
 ---
 description:
 
 Les sites Web bloqueront parfois les utilisateurs de Tor parce qu’ils ne peuvent pas faire la différence entre l’utilisateur de Tor moyen et le trafic automatisé.
-Les meilleurs résultats pour débloquer l’accès des utilisateurs de Tor à un site donné ont été obtenus en demandant aux utilisateurs de contacter directement les administrateurs du dit site.
+Les meilleurs résultats pour débloquer l’accès des utilisateurs de Tor à un site donné ont été obtenus en demandant aux utilisateurs de contacter directement les administrateurs du site en question.
 Ce qui suit pourrait suffire :
 
 « Bonjour ! J’ai essayé d’accéder à votre site xyz.com en utilisant le Navigateur Tor et j’ai découvert que vous ne permettez pas aux utilisateurs de Tor d’y accéder.
 Je vous demande instamment de reconsidérer votre décision ; Tor est utilisé partout dans le monde par des personnes souhaitant protéger leurs renseignements personnels tout en combattant la censure.
-En bloquant les utilisateurs de Tor, vous bloquez vraisemblablement des personnes se trouvant dans des pays où règne la répression et qui souhaitent utiliser un Internet libre, des journalistes et des chercheurs qui ne veulent pas être découverts, des lanceurs d’alerte, des activistes et des personnes ordinaires qui ne veulent pas être suivies à la trace par des tiers invasifs.
+En bloquant les utilisateurs de Tor, vous bloquez vraisemblablement des personnes situées dans des pays où règne la répression et qui souhaitent utiliser un Internet libre, des journalistes et des chercheurs qui ne veulent pas être découverts, des lanceurs d’alerte, des activistes et des personnes ordinaires qui ne veulent pas être suivies à la trace par des tiers invasifs.
 Veuillez adopter une position ferme privilégiant la confidentialité numérique et la liberté sur Internet, et permettre aux utilisateurs de Tor d’accéder à xyz.com. Merci. »
 
-Dans le cas de banques ou autres sites Web délicats, il est aussi habituel de constater un blocage d’après la position géographique (si une banque sait que vous accédez habituellement à ses services à partir d’un pays et que vous vous connectez soudainement à partir d’un relais de sortie situé de l’autre côté de la planète, votre compte pourrait être verrouillé ou suspendu).
+Dans le cas de banques ou autres sites Web sensibles, il est aussi habituel de constater un blocage d’après la position géographique (si une banque sait que vous accédez habituellement à ses services à partir d’un pays et que vous vous connectez soudainement à partir d’un relais de sortie situé de l’autre côté de la planète, votre compte pourrait être verrouillé ou suspendu).
 
 Si vous ne pouvez pas vous connecter à un service onion, veuillez consulter « <a href="/#onionservices-3">Je ne peux pas accéder à X.onion !</a> »

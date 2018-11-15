@@ -1,15 +1,15 @@
 _model: question
 ---
-title: Comment puis-je exécuter un relais intermédiaire ou un relais de garde sous Debian ?
+title: Comment puis-je exécuter un relais intermédiaire ou de garde sous Debian ?
 ---
 seo_slug: comment-puis-je-faire-fonctionner-un-relais-intermédiaire-ou-de-garde
 ---
 description:
-Pour des informations approfondies sur la mise en place d’un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a></mark>.
+Pour les informations les plus détaillées sur la mise en place d’un relais, veuillez consulter le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a></mark>.
 
 
 * Exécutez « apt-get install tor » (en tant que superutilisateur).
-* Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctement réglés. Installez le paquet ntp ou openntpd (ou similaire) pour qu’ils le restent.
+* Assurez-vous que votre horloge, la date et votre fuseau horaire sont réglés avec précision. Installez le paquet ntp ou openntpd (ou similaire) pour qu’ils le restent.
 * Modifiez /etc/tor/torrc pour qu’il ressemble à ce qui suit :
 
 
@@ -23,7 +23,7 @@ Pour des informations approfondies sur la mise en place d’un relais, consultez
     ContactInfo 0xFFFFFFFF Personne au hasard <nobody AT example dot com>
 
     ## Si vous contrôlez plusieurs relais, incluez-les dans la famille
-    #MyFamily $keyid,$keyid,…
+    #MaFamille $keyid,$keyid,…
 
     ORPort 9001
     DirPort 9030
@@ -34,7 +34,7 @@ Pour des informations approfondies sur la mise en place d’un relais, consultez
 
     ExitPolicy reject *:*
 * Exécutez « service tor reload » (en tant que superutilisateur).
-* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l’extérieur.
+* Une fois que votre relais sera connecté au réseau, il essaiera de déterminer si les ports que vous avez configurés sont accessibles de l’extérieur.
    Cette étape est habituellement rapide, mais pourrait prendre quelques minutes.
 
 Cherchez une entrée de journal dans /var/log/syslog comme « Self-testing indicates your ORPort is reachable from the outside. Excellent. »

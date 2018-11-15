@@ -5,10 +5,10 @@ title: Comment puis-je exécuter un relais intermédiaire ou de garde sous FreeB
 seo_slug: comment-puis-je-faire-fonctionner-un-relais-intermédiaire-ou-de-garde-sous-freebsd
 ---
 description:
-Pour des informations approfondies sur la mise en place d’un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a></mark>.
+Pour les informations les plus détaillées sur la mise en place d’un relais, veuillez consulter le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a></mark>.
 
 * Exécutez « pkg install tor » (en tant que superutilisateur).
-Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctement réglés.
+* Assurez-vous que votre horloge, la date et votre fuseau horaire sont  réglés avec précision.
   Il est recommandé d’activer ntpd.
 * Modifiez /usr/local/etc/tor/torrc pour qu’il ressemble à ce qui suit :
 
@@ -29,14 +29,14 @@ Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctemen
     ExitPolicy reject *:*
 
     ## Si vous contrôlez plusieurs relais, incluez-les dans la famille
-    #MyFamily $keyid,$keyid,…
+    #MaFamille $keyid,$keyid,…
 
     RunAsDaemon 1
     Log notice file /var/log/tor/notices.log
 
-* Assurez vous que tor est lancé au démarrage en exécutant « sysrc tor_enable=YES » (en tant que superutilisateur)
+* Assurez-vous que tor démarre lors de l’amorçage en exécutant « sysrc tor_enable=YES » (en tant que superutilisateur)
 * Exécutez « service tor start » (en tant que superutilisateur)
-* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l’extérieur.
+* Une fois que votre relais sera connecté au réseau, il essaiera de déterminer si les ports que vous avez configurés sont accessibles de l’extérieur.
   Cette étape est habituellement rapide, mais pourrait prendre quelques minutes.
   Cherchez une entrée de journal dans /var/log/tor/notices.log comme « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
   Si vous me voyez pas ce message, cela signifie que votre relais n’est pas accessible depuis l’extérieur.

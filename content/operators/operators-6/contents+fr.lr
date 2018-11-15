@@ -2,11 +2,11 @@ _model: question
 ---
 title: Comment puis-je utiliser un pont obfs4 sous Debian ?
 ---
-seo_slug: comment-puis-je-faire-fonctionner-un-pont-obfs4-debian
+seo_slug: comment-puis-je-utiliser-un-pont-obfs4-debian
 ---
 description:
 * Exécutez « apt-get install tor obfs4proxy » (en tant que superutilisateur).
-Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctement réglés.
+* Assurez-vous que votre horloge, la date et votre fuseau horaire sont  réglés avec précision.
   Installez le paquet ntp ou openntpd (ou similaire) pour qu’ils le restent.
 * Modifiez /etc/tor/torrc pour qu’il ressemble à ce qui suit :
 
@@ -30,7 +30,7 @@ Assurez-vous que votre horloge, la date et votre fuseau horaire sont correctemen
     #RelayBandwidthBurst 100 MBytes
 
 * Exécutez « service tor reload » (en tant que superutilisateur).
-* Une fois votre relais connecté au réseau, il essaiera de déterminer lesquels des ports que vous avez configuré sont accessibles depuis l’extérieur.
+* Une fois que votre relais sera connecté au réseau, il essaiera de déterminer si les ports que vous avez configurés sont accessibles de l’extérieur.
   Cette étape est habituellement rapide, mais pourrait prendre quelques minutes.
 * Cherchez une entrée de journal dans /var/log/syslog comme « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
   Si vous me voyez pas ce message, cela signifie que votre relais n’est pas accessible depuis l’extérieur.

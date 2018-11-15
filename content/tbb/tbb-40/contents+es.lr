@@ -6,4 +6,4 @@ seo_slug: diferente-circuito-en-cada-sitio-web
 ---
 description:
 En el navegador Tor, cada nuevo dominio tiene su propio circuito.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">El documento Diseño e Implementación del navegador Tor</a></mark> explica aún más el pensamiento detrás de este diseño.
+El documento de <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability"> Diseño e Implementación del navegador Tor</a></mark> explica aún más el pensamiento detrás de este diseño.

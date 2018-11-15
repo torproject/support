@@ -7,5 +7,5 @@ seo_slug: choisir-mon-pays-de-sortie
 description:
 Il est fortement déconseillé de changer la façon dont Tor crée ses circuits.
 En laissant Tor sélectionner la route, vous obtenez la meilleure sécurité que Tor puisse fournir ; remplacer les nœuds d’entrée et de sortie peut compromettre votre anonymat.
-Si votre objectif est simplement d’accéder aux ressources qui ne sont disponibles que dans un seul pays, vous devriez envisager d’utiliser un VPN au lieu de Tor.
-Veuillez noter que les VPNs ne proposent pas les mêmes propriétés de confidentialité que Tor, mais ils aident à résoudre certains problèmes de restriction liées à l’emplacement géographique.
+Si votre objectif est simplement de pouvoir accéder à des ressources qui ne sont proposées que dans un pays, vous devriez envisager d’utiliser un RPV au lieu de Tor.
+Veuillez noter que les RPV n’offrent pas les mêmes propriétés de confidentialité que Tor, mais ils aideront à résoudre certains problèmes de restriction liés à la position géographique.

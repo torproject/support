@@ -1,9 +1,0 @@
-_model: question
----
-title: آیا تور لاگ‌ها را نگهداری می‌کند؟
----
-seo_slug: آیا-تور-لاگ ها-را-نگهداری-می کند
----
-description:
-Tor doesn't keep any logs that could identify a particular user.
-We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

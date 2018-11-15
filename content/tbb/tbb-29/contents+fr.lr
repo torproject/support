@@ -1,11 +1,11 @@
 _model: question
 ---
-title: Il y a-t-il une façon de changer l’adresse IP que le Navigateur Tor m’attribue pour un site particulier ?
+title: Est-il possible de changer l’adresse IP que le Navigateur Tor m’attribue pour un site particulier ?
 ---
 seo_slug: changer-adresse-ip
 ---
 description:
-Le Navigateur Tor propose deux façons de changer votre circuit de relais — « Nouvelle identité » et « Nouveau circuit Tor pour ce site ».
+Le Navigateur Tor propose deux façons de changer votre circuit de relais : « Nouvelle identité » et « Nouveau circuit Tor pour ce site ».
 
 Both options are located in the Menu, but you can also access the New Circuit option inside the site information menu, in the URL bar.
 

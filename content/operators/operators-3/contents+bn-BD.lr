@@ -28,7 +28,7 @@ description:
 
     ExitPolicy reject *:*
 
-    ## যদি আপনি একাধিক রিলে নিয়ন্ত্রণ করেন তবে পরিবারের অন্তর্ভুক্ত করুন
+    ## If you control multiple relays, include them in the family
     #MyFamily $keyid,$keyid,...
 
     RunAsDaemon 1

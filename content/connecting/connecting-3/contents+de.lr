@@ -6,7 +6,6 @@ seo_slug: kann-onion-nicht-erreichen
 ---
 description:
 Wenn die gewünschten Onion-Dienste nicht erreichbar sind, ist die 16-stellige Adresse falsch: selbst der kleinste Fehler macht es Tor Browser unmöglich, die Seite aufzurufen.
-Sollten Sie sich immer noch nicht mit dem Tor-Netzwerk verbinden können, versuchen Sie es bitte später wieder.
-Eventuell gibt es ein vorübergehendes Verbindungsproblem, oder die Webseitenbetreiber*innen haben die Seite ohne Warnung vom Netz genommen.
+Wenn es dir weiterhin nicht möglich ist, dich mit dem Onion Dienst zu verbinden, versuche es später erneut. Es mag sein, dass ein temporärer Verbindungsfehler aufgetreten ist, oder Internetseitenbetreiber die Internetseite ohne Warnung offline gehen ließ.
 
 Du kannst auch sicherstellen, dass andere onion-Dienste erreichbar sind, z.B. der von <a href="http://3g2upl4pq6kufc4m.onion">Onion-Dienst von DuckDuckGo</a>.

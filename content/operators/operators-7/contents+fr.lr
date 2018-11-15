@@ -1,12 +1,12 @@
 _model: question
 ---
-title: Devrais-je exécuter un relais de sortie à partir mon domicile ?
+title: Devrais-je exécuter un relais de sortie de mon domicile ?
 ---
-seo_slug: faire-fonctionner-sortie-chez-vous
+seo_slug: exécuter-sortie-de-mon-domicile
 ---
 description:
 Non.
-Si la police s’intéresse au trafic en provenance de votre relais de sortie, il est possible que des officiers saisissent votre ordinateur.
+Si un organisme d’application de la loi commence à s’intéresser au trafic de votre relais de sortie, il est possible que des représentants de cet organisme saisissent votre ordinateur.
 C’est pourquoi il est préférable de ne pas faire fonctionner votre relais de sortie chez vous ou en utilisant votre connexion à Internet résidentielle.
 
 Envisagez plutôt de faire fonctionner votre relais de sortie dans une installation commerciale favorable à Tor.

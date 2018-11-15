@@ -12,7 +12,7 @@ Les ponts sont utiles pour les utilisateurs de Tor dans des régimes oppressants
 Un pont n’est qu’un relais normal avec une configuration légèrement différente.
 Consultez <mark><a href="#operators-6">Comment puis-je utiliser un pont</a></mark> pour obtenir des instructions.
 
-Plusieurs pays, y compris la Chine et l’Iran, ont trouvé des manières de détecter et de bloquer les connexions vers des ponts Tor.
-Les ponts <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> y remédient en ajoutant une autre couche de brouillage.
+Plusieurs pays dont la Chine et l’Iran ont trouvé des manières de détecter et de bloquer les connexions vers des ponts Tor.
+Les ponts <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> y remédient en ajoutant une  couche supplémentaire de brouillage.
 La mise en place d’un pont obfsproxy exige un paquet logiciel et une configuration supplémentaires.
 Consultez notre page concernant les <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark> pour de plus amples renseignements.

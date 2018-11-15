@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Hay alguna forma de cambiar la dirección IP que el Tor Browser me asigna para un sitio en concreto?
 ---
-seo_slug: cambio-de-dirección-ip
+seo_slug: cambio-de-direccion-ip
 ---
 description:
 El navegador Tor ofrece dos formas de cambiar su circuito de repetidores - “New Identity” (Nueva identidad) y “New Tor Circuit for this Site” (Nuevo circuito de repetidores para este sitio).

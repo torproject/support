@@ -2,7 +2,7 @@ _model: question
 ---
 title: ¿Cómo puedo ejecutar un puente obfs4 en Debian?
 ---
-seo_slug: cómo-puedo-ejecutar-un-puente-obfs4-en-debian
+seo_slug: como-puedo-ejecutar-un-puente-obfs4-en-debian
 ---
 description:
 * Ejecuta "apt-get install tor obfs4proxy" (como root).

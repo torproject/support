@@ -2,10 +2,10 @@ _model: question
 ---
 title: Je ne peux pas accéder à X.onion !
 ---
-seo_slug: je-ne-peux-pas-atteindre-x-point-onion
+seo_slug: je-ne-peux-pas-accéder-à-x-point-onion
 ---
 description:
-If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+Si vous n’arrivez pas à accéder au service onion que vous souhaitez, assurez-vous d’avoir saisi correctement l’adresse onion de 16 caractères, ou le nouveau format d’adresse onion de 56 caractères. Même une seule petite erreur empêchera le Navigateur Tor d’accéder au site.
 Si vous ne parvenez toujours pas à vous connecter au service onion, veuillez ressayer ultérieurement.
 Il pourrait y avoir un problème temporaire de connexion ou les exploitants du site pourraient l’avoir désactivé sans avertissement.
 

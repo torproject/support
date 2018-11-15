@@ -6,4 +6,4 @@ seo_slug: circuit-différent-chaque-site-web
 ---
 description:
 Dans le Navigateur Tor, chaque nouveau domaine obtient son propre circuit.
-Vous trouverez de plus amples renseignements à ce sujet dans le document <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">La conception et la mise en œuvre du Navigateur</a></mark> Tor (en anglais).
+Les réflexions liées à cette conception sont expliquées dans le document <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">La conception et la mise en œuvre du Navigateur Tor</a></mark>.
