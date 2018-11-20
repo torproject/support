@@ -5,6 +5,6 @@ title: ¿Puedo usar otro navegador como Chrome o Firefox cuando estoy usando el 
 seo_slug: bajar-el-navegador-tor-para-chromeos
 ---
 description:
-Desde luego puedes usar otro navegador mientras estás usando, también, el navegador Tor.
-Sin embargo, debes de saber que las propiedades de privacidad del Tor Browser no estarán presentes en el otro navegador.
-Ten cuidado al cambiar de uno a otro entre el Tor Browser y un navegador menos seguro, porque podrías usar accidentalmente  el otro navegador para algo que tratas de hacer usando Tor.
+You can certainly use another browser while you are also using Tor Browser.
+However, you should know that the privacy properties of Tor Browser will not be present in the other browser.
+Be careful when switching back and forth between Tor and a less safe browser, because you may accidentally use the other browser for something you intended to do using Tor.

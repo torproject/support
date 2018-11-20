@@ -5,7 +5,7 @@ title: Tor Browser kullanmak bilgisayarımdaki diğer uygulamaları korur mu?
 seo_slug: tor-browser-diger-uygulamalari-korumak
 ---
 description:
-Tor ağı üzerine yalnız Tor Browser trafiği yönlendirilir.
-Sisteminizdeki diğer tüm uygulamaların (diğer web tarayıcılar dahil) bağlantıları Tor ağı üzerine yönlendirilmediğinden bu anlamda korunmaz. 
-Bu uygulamaların Tor kullanabilmesi için ayrı ayrı yapılandırılmaları gerekir.
-Tüm trafiğin Tor ağından geçeceğinden emin olmanız gerekiyorsa, ​<mark><a href="https://tails.boum.org/">Tails canlı işletim sistemine</a></mark> bir göz atın. Bu sistemi hemen hemen her bilgisayarda USB bellek ya da DVD üzerinden başlatabilirsiniz.
+Only Tor Browser's traffic will be routed over the Tor network.
+Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected.
+They need to be configured separately to use Tor.
+If you need to be sure that all traffic will go through the Tor network, take a look at the <mark><a href="https://tails.boum.org/">Tails live operating system</a></mark> which you can start on almost any computer from a USB stick or a DVD.

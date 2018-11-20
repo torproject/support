@@ -5,8 +5,8 @@ title: Kenapa alamat IP pertama di relay circuit saya selalu sama?
 seo_slug: first-address-relay-circuit 
 ---
 description:
-Itu adalah perilaku normal Tor.
-Relay pertama di sirkuit Anda disebut "penjaga entri" atau "penjaga".
-Ini adalah relay yang sangat cepat dan stabil yang tetap menjadi relay yang pertama dalam sirkuit Anda selama 2-3 bulan untuk melindungi terhadap serangan perusak anonimitas yang dikenal.
-Sisa sirkuit Anda berubah untuk setiap website baru setiap Anda mengunjunginya, dan semua bersama-sama relay ini memberikan perlindungan privasi lengkap Tor.
-Untuk selengkapnya tentang cara relay penjaga bekerja, melihat ini <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">posting blog</a></mark> dan <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">kertas</a></mark> pada entri penjaga.
+That is normal Tor behavior.
+The first relay in your circuit is called an "entry guard" or "guard".
+It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack.
+The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor.
+For more information on how guard relays work, see this <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">blog post</a></mark> and <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">paper</a></mark> on entry guards.

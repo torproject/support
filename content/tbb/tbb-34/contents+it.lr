@@ -5,9 +5,9 @@ title: Perchè Tor Browser viene configurato con Javascript abilitato?
 seo_slug: tor-browser-js-attivo-di-default
 ---
 description:
-Configuriamo NoScript in modo da abilitare JavaScript di default su Tor Browser perché molti siti internet potrebbero non funzionare se JavaScript è disabilitato.
-Molti utilizzatori abbandonerebbero completamente Tor se disabilitassimo di default JavaScript perché questo gli causerebbe molti problemi.
-In definitiva, vogliamo che Tor Browser sia il più sicuro possibile ma che sia anche utilizzabile per la maggior parte delle persone quindi, per adesso, questo implica lasciare JavaScript attivo di default.
+We configure NoScript to allow JavaScript by default in Tor Browser because many websites will not work with JavaScript disabled.
+Most users would give up on Tor entirely if we disabled Javascript by default because it would cause so many problems for them.
+Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving Javascript enabled by default.
 
-Agli utenti che desideriano avere JavaScript disabilitato di default su tutti i siti HTTP, raccomandiamo di cambiare le impostazioni di sicurezza di Tor Browser (nel menù Tor Browser Onion, alla voce "Impostazioni di Sicurezza")
-L'impostazione bassa/default permette JavaScript, ma i livelli medio e alto bloccano entrambi JavaScript sui siti HTTP.
+For users who want to have Javascript disabled on all HTTP sites by default, we recommend changing your Tor Browser's security slider (in the Tor Browser Onion menu under "Security Settings").
+The low/default setting allows Javascript, but the medium and high levels both block Javascript on HTTP sites.

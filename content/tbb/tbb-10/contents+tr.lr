@@ -5,21 +5,21 @@ title: Virüs ya da kötü amaçlı yazılımdan korunma uygulamam Tor Browser k
 seo_slug: tor-engelleyen-virus-korumasi
 ---
 description:
-Çoğu virus ya da zararlı yazılımdan korunma uygulamasında kullanıcıların düzenleyebileceği ve izin verilecek uygulamaları belirleyen bir "beyaz liste" bulunur.
-Lütfen virus ya da zararlı yazılımdan korunma uygulamasını açarak "beyaz liste" (whitelist) ya da benzer bir ayar bulun.
-Ardından şu işlemleri yapın:
+Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
+Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
+Next, exclude the following processes:
 
-* Windows için
+* For Windows
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (köprüleri kullanıyorsanız)
+  * obfs4proxy.exe (if you use bridges)
 
 
-* OS X için
+* For OS X
   * TorBrowser
   * tor.real
-  * obfs4proxy (köprüleri kullanıyorsanız)
+  * obfs4proxy (if you use bridges)
 
-Son olarak Tor Browser uygulamasını yeniden başlatın.
-Bu işlem yaşadığınız sorunları çözmeli.
-Kaspersky gibi bazı virusten korunma uygulamalarının güvenlik duvarı düzeyinde Tor ağına erişimi engelleyebileceğini unutmayın.
+Finally, restart Tor Browser.
+This should fix the issues you're experiencing.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

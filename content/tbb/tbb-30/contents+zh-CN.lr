@@ -5,10 +5,10 @@ title: 一个网站（银行，电子邮件等）封锁了我（即使我没再�
 seo_slug: website-locks-torbrowser-out
 ---
 description:
-Tor Browser 会让你的网络活动看起来像是来自于世界各个不同地区的网络连接。
-有时候某些像是银行或电子邮件服务的网站会认为您的帐号被他人盗用了，因此自动将您的帐号锁定。
+Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
+Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
 
 要解决此情况的唯一方式是利用网站服务提供的帐号恢复功能，或直接向该网站服务的提供业者说明您的情况。
 
-如果你所使用服务的提供商支持比基于 IP 的验证更安全的双因素认证选项的话，你也许能规避这种场景。
-联系你的服务提供商询问它们有没有支持双因素验证。
+You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
+Contact your provider and ask them if they provide 2FA.

@@ -5,5 +5,5 @@ title: NoScript ile ilgili bir sorun yaşıyorum.
 seo_slug: noscript-sorunu
 ---
 description:
-<mark><a href="https://noscript.net/faq">NoScript SSS</a></mark> bölümüne bakabilirsiniz.
-Sorunun Tor Browser ile ilgili olduğunu düşünüyorsanız <mark><a href="https://trac.torproject.org/">hata izleyici</a></mark> üzerinden bildirin.
+Please see the <mark><a href="https://noscript.net/faq">NoScript FAQ</a></mark>.
+If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

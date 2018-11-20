@@ -5,5 +5,5 @@ title: Speichert Tor Protokolle?
 seo_slug: speichert-tor-logs
 ---
 description:
-Tor speichert keine Logs, die einzelne Personen identifizieren können.
-Wie erfassen einige Daten darüber, wie gut das Tor-Netzwerk funktioniert, siehe unsere Seite <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.
+Tor doesn't keep any logs that could identify a particular user.
+We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

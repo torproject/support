@@ -7,40 +7,40 @@ seo_slug: como-rodar-um-nodo-de-saida
 description:
 Para ver recursos mais detalhados sobre a operação de um relay, veja <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia Tor Relay</a></mark>.
 
-* Revise nossos <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines"> Diretrizes de relays de saída</a></mark>
-* Execute "apt-get install tor" (como root).
-* Certifique-se que seu relógio, data e fuso horário estão configurados corretamente. Instale o pacote ntp ou openntpd (ou similar) para sejam mantidos corretos.
-* Edite /etc/tor/torrc para se assemelhar a:
+* Review our <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorExitGuidelines">Exit relay guidelines</a></mark>
+* Run "apt-get install tor" (as root).
+* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
+* Edit /etc/tor/torrc to look like the following:
 
 
-    ## Defina o nickname deste relay
+    ## Set the nickname of this relay
     Nickname ididnteditheconfig
 
-    ## Defina suas informações de contato
+    ## Set your own contact info
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
     ORPort 9001
     DirPort 9030
 
-    ##O endereço IP ou hostname para conexões de entrada (deixe comentado e o Tor irá saber)
-    #Endereço noname.example.com
+    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    #Address noname.example.com
 
     ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
-    ## Se você controla múltiplos retransmissores, incluam eles na família.
+    ## If you control multiple relays, include them in the family
     #MyFamily $keyid,$keyid,...
 
 
-* Execute "service tor reload" (como root)
-* Depois que seu retransmissor conecta na rede, ele vai tentar determinar se as portas que você configurou são alcançáveis do lado de fora.
-  Esta etapa geralmente é rápida, mas pode levar alguns minutos.
-  Veja sua entrada de log em /var/log/syslog algo como "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-  Se você não consegue visualizar esta mensagem, isto significa que o seu relay não é acessível por fora.
-  Você deve checar novamente seu firewall, verificando qual IP e portas que você especificou no seu torrc estão corretos, etc.
-* Quando ele confirma que está acessível, ele vai enviar um "descritor do servidor" para o diretório de autoridades para deixar os clientes saberem qual endereço, porta, chaves, etc seu retransmissor está usando.
-  Depois de poucas horas (para ter tempo o bastante para propagar), você pode consultar o <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> para ver se seu retransmissor foi registrado com sucesso na rede.
-  Se não for esse o caso, confira novamente os firewalls, IP e portas.
+* Run "service tor reload" (as root)
+* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+  This step is usually fast, but it may take a few minutes.
+  Look for a log entry in your /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+  If you don't see this message, it means that your relay is not reachable from the outside.
+  You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+* When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+  After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+  If it hasn't, re-check firewalls, IP and ports again.
 
 Considere se você não gostaria de mudar para a <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy">Política reduzida de saída</a></mark>.

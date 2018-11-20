@@ -5,10 +5,10 @@ title: Windows için Tor Browser uygulamasını indirdim ve kurdum. Ancak şimdi
 seo_slug: windows-uzerinde-tor-browser-bulunamiyor
 ---
 description:
-İndirip çalıştırdığınız dosya sizden bir hedef klasör ister.
-Bu hedefin ne olduğunu hatırlamıyorsanız, genellikle İndirilenler ya da Masaüstü klasörleri kullanılır.
+The file you download and run prompts you for a destination.
+If you don't remember what this destination was, it's most likely your Downloads or Desktop folder.
 
 Kurulum sırasında kısayolun oluşturulması seçeneğindeki işareti kazayla kaldırmadıysanız, Windows kurucusunun varsayılan ayarları Masaüstünde bir kısayol oluşturur. 
 
-Bu klasörlerde bulamadıysanız, yeniden indirin ve size sorulan indirme klasörünün yerine bakın.
-Kolay hatırlayacağınız bir klasör konumu seçin. İndirme tamamlandığında orada Tor Browser klasörünü görebilmeniz gerekir.
+If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
+Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.

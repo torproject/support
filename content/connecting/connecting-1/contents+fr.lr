@@ -5,6 +5,6 @@ title: Le Navigateur Tor n’arrive pas à se connecter, mais il ne semble pas q
 seo_slug: navigateur-tor-ne-se-connecte-pas
 ---
 description:
-L’un des problèmes les plus courants qui entraîne des erreurs de connexion du Navigateur Tor est que l’horloge de votre système n’est pas à l’heure.
-Veuillez vous assurer que votre horloge système et votre fuseau horaire sont réglés avec précision.
-Si le problème persiste, veuillez consulter la page Dépannage du <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">guide d’utilisation du Navigateur Tor</a></mark>.
+One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
+Please make sure your system clock and timezone are set accurately.
+If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.

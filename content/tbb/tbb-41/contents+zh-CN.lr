@@ -5,6 +5,6 @@ title: 为什么我的搜索引擎换成了 DuckDuckGo?
 seo_slug: why-is-tor-using-duckduckgo
 ---
 description:
-Tor Browser 6.0.6 后使用 DuckDuckGo 作为内置搜索引擎。
-我们以前在 Tor Browser 使用的 Disconnect 已经不能再从 Google 获得搜索结果。
-虽然 Disconnect 是一个允许用户使用不同的搜索提供商的元搜索引擎，它使用 Bing 作为后备，而Bing 的搜索结果质量并不理想。
+With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine.
+For a while now, Disconnect has had no access to Google search results which we used in Tor Browser.
+Since Disconnect is more of a meta search engine which allows users to choose between different search providers, it fell back to delivering Bing search results which were basically unacceptable quality-wise.

@@ -5,8 +5,8 @@ title: Kann ich die Anzahl der Knoten ändern?
 seo_slug: anzahl-der-hops-aendern
 ---
 description:
-Momentan ist die Pfadlänge hardcodiert mit 3 plus die Anzahl der sensitiven Knoten in deinem Pfad.
-Das bedeutet im Normalfall 3, aber für onion-Dienste oder ".exit"-Adressen können es mehr sein.
+Right now the path length is hard-coded at 3 plus the number of nodes in your path that are sensitive.
+That is, in normal cases it's 3, but for example if you're accessing an onion service or a ".exit" address it could be more.
 
-Wir möchte Menschen nicht ermutigen, längere Pfade zu benutzen, denn es erhöht die Last für das Netzwerk ohne (nach unserem Wissen) zusätzliche Sicherheit zu bieten.
-Pfade länger als 3 können auch deine Anonymität gefährden, zum einen weil es <mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denial of security</a></mark>-Angriffe einfacher macht, und zum anderen ist es dadurch möglich, einen kleinen Teil der Nutzer*innen zu identifizieren, welche die gleiche Pfadlänge haben wie du.
+We don't want to encourage people to use paths longer than this as it increases load on the network without (as far as we can tell) providing any more security.
+Also, using paths longer than 3 could harm anonymity, first because it makes<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denial of security</a></mark> attacks easier, and second because it could act as an identifier if only a small number of users have the same path length as you.

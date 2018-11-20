@@ -5,10 +5,10 @@ title: Un lloc web (banc, proveïdor de correu electrònic, etc.) em tanca cada 
 seo_slug: paginaweb-tanca-navegador-tor
 ---
 description:
-El navegador Tor sovint fa que la vostra connexió aparegui com si provingués d'una part completament diferent del món.
-Alguns llocs web, com ara bancs o proveïdors de correu electrònic, poden interpretar-ho com a signe que el vostre compte s'ha vist compromès i us poden bloquejar.
+Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
+Some websites, such as banks or email providers, might interpret this as a sign that your account has been compromised, and lock you out.
 
 L'única manera de resoldre això és seguir el procediment recomanat del lloc per a la recuperació del compte o posar-se en contacte amb els operadors i explicar la situació.
 
-És possible que pugueu evitar aquest escenari si el vostre proveïdor ofereix l'autenticació de doble factor, que és una opció de seguretat molt millor que la reputació basada en IP.
-Poseu-vos en contacte amb el vostre proveïdor i pregunteu-los si proporcionen 2FA. (autenticació de doble factor)
+You may be able to avoid this scenario if your provider offers 2-factor authentication, which is a much better security option than IP-based reputations.
+Contact your provider and ask them if they provide 2FA.

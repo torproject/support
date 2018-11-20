@@ -8,21 +8,21 @@ description:
 请参阅<mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor 中继指南</a></mark>以了解关于运行一个 Tor 中继的更多信息。
 
 
-* 以 root 用户运行 "apt-get install tor"
-* 请确认你的时钟，日期和时区设置正确。你可以安装 ntp / openntpd 等软件来确保时间正确。
-* 编辑 /etc/tor/torrc：
+* Run "apt-get install tor" (as root).
+* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
+* Edit /etc/tor/torrc to look like the following:
 
 
     ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
     #Address noname.example.com
 
-    ## 给中继起个昵称
+    ## Set the nickname of this relay
     Nickname ididnteditheconfig
 
-    ## 设置你的联系方式
+    ## Set your own contact info
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## 如果你管理多个中继，请将它们包含在一起
+    ## If you control multiple relays, include them in the family
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001
@@ -33,14 +33,14 @@ description:
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
-* 以 root 用户运行 "service tor reload"
-* 你的中继连接到网络以后，它将尝试确定您配置的端口是否可从外部访问。
-   这一步通常很快，不过有时会需要几分钟。
+* Run "service tor reload" (as root)
+* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+   This step is usually fast, but it may take a few minutes.
 
-查找 /var/log/syslog 中例如 "Self-testing indicates your ORPort is reachable from the outside. Excellent." 这样的日志记录。
-如果你没看到这条消息，你的中继可能无法被访问。
-你应该复查你的防火墙设置，检查你在你的 torrc 中设置的用户名和端口是否正确。
+Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+If you don't see this message, it means that your relay is not reachable from the outside.
+You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
 
-当它确认可以连接的时候，它会发送“服务器描述符”到中继目录来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。
-在几个小时后（传播需要足够的时间），你可以访问<mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> 来确认你的中继有没有注册到网路中。
-如果没有的话，请复查你的防火墙设置、IP 地址和端口。
+When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+If it hasn't, re-check firewalls, IP and ports again.

@@ -5,5 +5,5 @@ title: যখন আমি টর ব্রাউজার ব্যবহার
 seo_slug: যে-কেও-কি-জানাতে-পারবেন-আমি-কোন-ওয়েবসাইট-আমি-পরিদর্শন-করি
 ---
 description:
-টর ব্রাউজার আপনি কোন ওয়েবসাইটের পরিদর্শন করেন তা জানতে বাধা দেয়।
-কিছু সত্ত্বা যেমন, আপনার ইন্টারনেট সেবা প্রদানকারী (আইএসপি), দেখতে সক্ষম হতে পারে, যে আপনি টর ব্যবহার করছেন, কিন্তু তারা জানেন না, আপনি যেখানে যাচ্ছেন, যখন আপনি করবেন।
+Tor Browser prevents people from knowing the websites you visit.
+Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do.

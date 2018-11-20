@@ -5,5 +5,5 @@ title: Devrais-je installer une nouvelle extension dans le Navigateur Tor, comme
 seo_slug: installer-module-complémentaire-extension-navigateur-tor
 ---
 description:
-Il est fortement déconseillé d’installer de nouveaux modules complémentaires dans le Navigateur Tor, car ils peuvent compromettre la confidentialité de vos données et votre sécurité.
-Le Navigateur Tor comprend déjà deux modules complémentaires préinstallés, <mark><a href="https://www.eff.org/https-everywhere">HTTPS partout et <mark><a href="https://noscript.net/">NoScript</a></mark>. En ajouter d’autres pourrait vous faire perdre votre anonymat.
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> and <mark><a href="https://noscript.net/">NoScript</a></mark> — and adding anything else could deanonymize you.

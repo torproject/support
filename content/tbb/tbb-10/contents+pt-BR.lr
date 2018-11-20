@@ -5,21 +5,21 @@ title: O meu antivírus ou proteção contra malware está bloqueando o meu aces
 seo_slug: antivirus-bloqueia-tor
 ---
 description:
-A maioria dos antivírus ou proteção contra malwares permitem que o usuário dê autorização a  processos que normalmente seriam bloqueados.
-Por favor, abra seu software antivírus ou antimalware e procure nas configurações por uma "lista branca" ou algo semelhante.
-Em seguida, exclua os seguintes processos:
+Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
+Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
+Next, exclude the following processes:
 
-* Para Windows
+* For Windows
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (caso você use conexões de ponte)
+  * obfs4proxy.exe (if you use bridges)
 
 
-* Para OS X
-  * Tor Browser
+* For OS X
+  * TorBrowser
   * tor.real
-  * obfs4proxy (caso você use conexões de ponte)
+  * obfs4proxy (if you use bridges)
 
-Finalmente, reinicie o navegador TOR.
-Isto deve resolver os problemas que você está encontrando.
-Observe que alguns clientes de antivírus, como o Kaspersky, também podem estar bloqueando o Tor no nível do firewall.
+Finally, restart Tor Browser.
+This should fix the issues you're experiencing.
+Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.

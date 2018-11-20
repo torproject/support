@@ -1,11 +1,11 @@
 _model: question
 ---
-title: Pourquoi le Navigateur Tor est-il conçu à partir de Firefox et non pas d’un autre navigateur ?
+title: Pourquoi le Navigateur Tor est-il conçu à partir de Firefox et pas d’un autre navigateur ?
 ---
 seo_slug: navigateur-tor-conçu-à-partir-de-firefox-pourquoi
 ---
 description:
-Le Navigateur Tor est une version modifiée de Firefox spécifiquement conçue pour être utilisée avec Tor.
-De grands efforts ont été déployés pour concevoir le Navigateur Tor, y compris l’utilisation de correctifs supplémentaires pour améliorer la confidentialité et la sécurité.
-Bien qu’il soit techniquement possible d’utiliser Tor avec d’autres navigateurs, vous pourriez vous exposer à des attaques potentiels ou divulguer des renseignements.
- <mark><a href="https://www.torproject.org/projects/torbrowser/design/">En apprendre davantage sur la conception du Navigateur Tor</a></mark>.
+Tor Browser is a modified version of Firefox specifically designed for use with Tor.
+A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
+While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a></mark>.

@@ -5,5 +5,5 @@ title: Kann jemand feststellen, welche Webseiten ich besuche, wenn ich Tor Brows
 seo_slug: kann-jemand-feststellen-welche-webseiten-ich-besuche
 ---
 description:
-Tor Browser verhindert, dass andere sehen können, welche Webseiten du besuchst.
-Einige Organisationen, wie z.B. dein Internetprovider (ISP), sind möglicherweise in der Lage zu erkennen, dass du Tor verwendest. Sie können aber nicht sehen, was du darüber aufgerufen hast.
+Tor Browser prevents people from knowing the websites you visit.
+Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do.

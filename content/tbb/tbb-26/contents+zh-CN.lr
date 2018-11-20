@@ -5,5 +5,5 @@ title: 我遇到 HTTPS Everywhere 的使用问题。
 seo_slug: 我遇到了 HTTPS Everywhere 的问题
 ---
 description:
-请参阅 <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere 的常见问题 </a></mark>。
-如果你确信这是 Tor Browser 的问题，请你报告给<mark><a href="https://trac.torproject.org/">我们的 Bug 跟踪平台</a></mark>。
+Please see the <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere FAQ</a></mark>.
+If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

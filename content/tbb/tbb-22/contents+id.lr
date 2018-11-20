@@ -5,7 +5,7 @@ title: Bagaimana saya dapat membuat Tor berjalan lebih cepat? Adalah Tor Browser
 seo_slug: make-tor-faster 
 ---
 description:
-Tor Browser kadang-kadang lebih lambat dari peramban lain.
-Jaringan Tor memiliki lebih dari satu juta pengguna harian, dan lebih dari 6000 relay untuk merutekan semua lalu lintas mereka, dan beban pada setiap server kadang-kadang dapat menyebabkan latency.
-Anda dapat membantu meningkatkan kecepatan jaringan dengan menjalankan relai Anda sendiri, atau mendorong orang lain untuk melakukannya.
-Walaupun begitu, Tor sekarang jauh lebih cepat daripada sebelumnya dan Anda mungkin tidak benar-benar melihat perubahan kecepatan dari peramban lain.
+Using Tor Browser can sometimes be slower than other browsers.
+The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency.
+You can help improve the speed of the network by running your own relay, or encouraging others to do so.
+That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.

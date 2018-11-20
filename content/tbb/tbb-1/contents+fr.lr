@@ -5,6 +5,6 @@ title: Quels sont les problèmes les plus courants avec la dernière version sta
 seo_slug: problèmes-les-plus-courants-dernière-version-stable-navigateur-tor
 ---
 description:
-Quand nous publions une nouvelle version stable du Navigateur Tor, nous rédigeons un article de blogue qui explique en détail ses nouvelles fonctions et ses problèmes connus.
-Si vous avez commencé à éprouver des problèmes avec votre Navigateur Tor à la suite d’une mise à jour, veuillez consulter le dernier article concernant la version stable du Navigateur Tor sur <mark><a href="https://blog.torproject.org">blog.torproject.org</a></mark> et voir si votre problème s’y trouve.
-Si votre problème n’est pas listé, veuillez remplir un <mark><a href="https://trac.torproject.org">relevé de bogue</a></mark> sur le problème que vous rencontrez.
+Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues.
+If you started having issues with your Tor Browser after an update, check out <mark><a href="https://blog.torproject.org">blog.torproject.org</a></mark> for the most recent stable Tor Browser post to see if your issue is listed.
+If your issue is not listed, please file a <mark><a href="https://trac.torproject.org">bug report</a></mark> about what you're experiencing.

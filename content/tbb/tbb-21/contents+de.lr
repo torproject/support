@@ -5,6 +5,6 @@ title: Wie kann ich das Nachrichtenprotokoll des Tor Browsers lesen?
 seo_slug: zeige-tor-browser-protokoll
 ---
 description:
-Klicke auf den Knopf "Tor-Protokoll in die Zwischenablage kopieren", der im Dialogfenster erscheint, wenn sich der Tor Browser zum ersten Mal mit dem Netzwerk verbindet.
-Wenn Tor Browser bereits geöffnet ist, klicke auf das Torbutton-Symbol (die kleine grüne Zwiebel oben links im Fenster), dann "Tor-Netzwerk-Einstellungen" und "Tor-Protokoll in die Zwischenablage kopieren".
-Sobald du das Log kopiert hast, kannst du es in einem Texteditor oder E-Mail-Programm einfügen.
+Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
+If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
+Once you have copied the log, you will be able to paste it into a text editor or email client.

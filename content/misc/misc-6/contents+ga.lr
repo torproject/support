@@ -5,5 +5,5 @@ title: An gcoinníonn Tor logchomhaid?
 seo_slug: does-tor-keep-logs
 ---
 description:
-Ní choinníonn Tor aon logchomhad a chabhródh linn úsáideoirí a aithint.
-Ní dhéanaimid ach tomhas rialta ar fheidhmiú an líonra, agus tá na huimhreacha sin ar fáil ar <mark><a href="https://metrics.torproject.org/">​Meadaracht Tor</a></mark>.
+Tor doesn't keep any logs that could identify a particular user.
+We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

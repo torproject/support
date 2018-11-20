@@ -1,46 +1,46 @@
 _model: question
 ---
-title: Comment puis-je exécuter un relais intermédiaire ou de garde sous Debian ?
+title: Comment puis-je exécuter un relais intermédiaire ou un relais de garde sous Debian ?
 ---
 seo_slug: comment-puis-je-faire-fonctionner-un-relais-intermédiaire-ou-de-garde
 ---
 description:
-Pour les informations les plus détaillées sur la mise en place d’un relais, veuillez consulter le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a></mark>.
+Pour des informations approfondies sur la mise en place d’un relais, consultez le <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">guide sur les relais Tor</a></mark>.
 
 
-* Exécutez « apt-get install tor » (en tant que superutilisateur).
-* Assurez-vous que votre horloge, la date et votre fuseau horaire sont réglés avec précision. Installez le paquet ntp ou openntpd (ou similaire) pour qu’ils le restent.
-* Modifiez /etc/tor/torrc pour qu’il ressemble à ce qui suit :
+* Run "apt-get install tor" (as root).
+* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
+* Edit /etc/tor/torrc to look like the following:
 
 
-    ## L’adresse IP ou le nom d’hôte pour les connexions entrantes (laissez commenté et Tor déterminera cela)
-    #Adresse sansnom.exemple.com
+    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    #Address noname.example.com
 
-    ## Définissez le pseudonyme de ce relais
-    Nickname jaipasmodifiélaconfig
+    ## Set the nickname of this relay
+    Nickname ididnteditheconfig
 
-    ## Définissez vos propres renseignements de contact
-    ContactInfo 0xFFFFFFFF Personne au hasard <nobody AT example dot com>
+    ## Set your own contact info
+    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## Si vous contrôlez plusieurs relais, incluez-les dans la famille
-    #MaFamille $keyid,$keyid,…
+    ## If you control multiple relays, include them in the family
+    #MyFamily $keyid,$keyid,...
 
     ORPort 9001
     DirPort 9030
 
-    ## Définissez le débit de votre bande passante (laissez en commentaire et Tor s’exécutera sans limite de bande passante)
+    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
-* Exécutez « service tor reload » (en tant que superutilisateur).
-* Une fois que votre relais sera connecté au réseau, il essaiera de déterminer si les ports que vous avez configurés sont accessibles de l’extérieur.
-   Cette étape est habituellement rapide, mais pourrait prendre quelques minutes.
+* Run "service tor reload" (as root)
+* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+   This step is usually fast, but it may take a few minutes.
 
-Cherchez une entrée de journal dans /var/log/syslog comme « Self-testing indicates your ORPort is reachable from the outside. Excellent. »
-Si vous me voyez pas ce message, cela signifie que votre relais n’est pas accessible depuis l’extérieur.
-Vous devriez à nouveau vérifier vos pare-feux, que l’IP et les ports que vous avez spécifié dans votre torrc sont corrects, etc.
+Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+If you don't see this message, it means that your relay is not reachable from the outside.
+You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
 
-Quand il aura confirmé qu’il est accessible, il téléversera un « descripteur de serveur » vers les autorités d’annuaire pour informer les clients de l’adresse, des ports, clés, etc. que votre relais utilise.
-Après quelques heures (le temps que l’information se propage), vous pouvez envoyer une requête à <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> pour voir si votre relais a été enregistré dans le réseau avec succès.
-Si ce n’est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos ports.
+When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+If it hasn't, re-check firewalls, IP and ports again.

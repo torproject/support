@@ -5,10 +5,10 @@ title: Eu deveria rodar um retransmissor de saída a partir de casa?
 seo_slug: operar-saida-de-casa
 ---
 description:
-Não.
-Se as forças de segurança ficar interessada no tráfego do seu retransmissor de saída, é possível que policiais apreendam seu computador.
-Por essa razão, é melhor não rodar seu retransmissor de saída em sua casa ou usando a conexão de internet da sua residência.
+No.
+If law enforcement becomes interested in traffic from your exit relay, it's possible that officers will seize your computer.
+For that reason, it's best not to run your exit relay in your home or using your home internet connection.
 
-Em vez disso, considere executar seu retransmissor de saída em uma instalação comercial que é solidária com Tor.
-Tenha um endereço de  IP separado de seu retransmissor de saída, e não roteie seu próprio tráfego através dele.
-Naturalmente, você deveria evitar manter qualquer informação sensível ou pessoal em computadores que hospedam seu retransmissor de saída.
+Instead, consider running your exit relay in a commercial facility that is supportive of Tor.
+Have a separate IP address for your exit relay, and don't route your own traffic through it.
+Of course, you should avoid keeping any sensitive or personal information on the computer hosting your exit relay.

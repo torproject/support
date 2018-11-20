@@ -5,6 +5,6 @@ title: Como eu faço para consultar as mensagens de log do Navegador Tor?
 seo_slug: mostrar-log-de-mensagens-do-navegador-tor
 ---
 description:
-Clique no botão "Copy Tor Log To Clipboard" que aparece na janela de diálogo quando o Navegador Tor está se conectando pela primeira vez a rede. 
-Se o Navegador Tor já está aberto, clique no ícone do Torbutton (a pequena cebola verde no canto superior esquerdo da tela), então clique em "Open Network Settings", e então em "Copy Tor Log To Clipboard". 
-Uma vez copiado o log, você poderá colá-lo em um editor de texto ou cliente de email.
+Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
+If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
+Once you have copied the log, you will be able to paste it into a text editor or email client.

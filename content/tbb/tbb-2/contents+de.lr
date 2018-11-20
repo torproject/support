@@ -5,8 +5,8 @@ title: Warum ist die erste IP-Adresse in meinem Relais-Schaltkreis immer die sel
 seo_slug: erste-adresse-relais-kanal
 ---
 description:
-Das ist ein normales Verhalten für Tor.
-Das erste Relais im Kanal wird Eingangswache ("entry guard") oder Wache ("guard") genannt.
-Dies ist ein schnelles und stabiles Relais, das für 2-3 Monate dein Eintrittsserver bleibt, um vor einem bekannten Angriff auf die Anonymität zu schützen.
-Alle anderen Server im Kanal wechseln bei jeder Webseite, und zusammen bieten sie vollen Schutz der Privatsphäre durch Tor.
-Für weitere Informationen wie Wächter-Relais funktionieren, siehe diesen <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">Blogbeitrag</a></mark> und diese <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">Publikation</a></mark>.
+That is normal Tor behavior.
+The first relay in your circuit is called an "entry guard" or "guard".
+It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack.
+The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor.
+For more information on how guard relays work, see this <mark><a href="https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters">blog post</a></mark> and <mark><a href="https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf">paper</a></mark> on entry guards.

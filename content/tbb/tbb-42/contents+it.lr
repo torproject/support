@@ -5,6 +5,6 @@ title: Perchè Tor Browser mi avvisa riguardo a qualcosa relativo a Firefox non 
 seo_slug: tor-browser-firefox-non-funziona-errore
 ---
 description:
-Tor Browser è realizzato utilizzando <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, quindi è possibile che si verifichino errori che riugardano Firefox. 
-Per favore assicurati che non vi siano in esecuzione altre istanze di Tor Browser, e che tu abbia estratto Tor Browser in una cartella in cui il tuo utente abbia i corretti permessi per eseguirlo.
-Se state utilizzando un antivirus, guardate la sezione <mark><a href="http://support.torproject.org/#tbb-10">La protezione del mio antivirus/antimalware mi sta impedendo di accedere a Tor Browser</a></mark>, è abbastanza comune che questo tipo di problema si verifichi con i software antivirus/antimalware.
+Tor Browser is built using <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, so errors regarding Firefox may occur.
+Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for.
+If you are running an anti-virus, please see <mark><a href="http://support.torproject.org/#tbb-10">My antivirus/malware protection is blocking me from accessing Tor Browser</a></mark>, it is common for anti-virus / anti-malware software to cause this type of issue.

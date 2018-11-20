@@ -5,5 +5,5 @@ title: Apakah Tor Browser menggunakan sirkuit yang berbeda untuk setiap situs we
 seo_slug: different-circuit-each-website 
 ---
 description:
-Di Tor Browser, setiap domain baru mendapatkan sirkuitnya sendiri.
-<mark> <a href="https://www.torproject.org/projects/torbrowser/design/">Pelajari lebih lanjut tentang desain Tor Browser</a> </mark> .
+In Tor Browser, every new domain gets its own circuit.
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document further explains the thinking behind this design.

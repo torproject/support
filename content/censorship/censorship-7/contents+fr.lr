@@ -5,14 +5,14 @@ title: Qu’est-ce qu’un pont ?
 seo_slug: qu’est-ce-qu’un-pont
 ---
 description:
-Les relais ponts sont des relais Tor qui ne sont pas listés dans l’annuaire public de Tor.
-Cela signifie que des FAIs ou des gouvernements qui tentent de bloquer l’accès au réseau Tor ne peuvent pas simplement bloquer tous les ponts.
-Les ponts sont utiles pour les utilisateurs de Tor dans des régimes oppressants, et pour les gens qui veulent une couche supplémentaire de sécurité parce qu’ils se préoccupent du fait que quelqu’un puisse savoir qu’ils contactent l’adresse IP d’un relais Tor public.
+Bridge relays are Tor relays that are not listed in the public Tor directory.
+That means that ISPs or governments trying to block access to the Tor network can't simply block all bridges.
+Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
 
-Un pont n’est qu’un relais normal avec une configuration légèrement différente.
-Consultez <mark><a href="#operators-6">Comment puis-je utiliser un pont</a></mark> pour obtenir des instructions.
+A bridge is just a normal relay with a slightly different configuration.
+See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
 
-Plusieurs pays dont la Chine et l’Iran ont trouvé des manières de détecter et de bloquer les connexions vers des ponts Tor.
-Les ponts <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> y remédient en ajoutant une  couche supplémentaire de brouillage.
-La mise en place d’un pont obfsproxy exige un paquet logiciel et une configuration supplémentaires.
-Consultez notre page concernant les <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">transports enfichables</a></mark> pour de plus amples renseignements.
+Several countries, including China and Iran, have found ways to detect and block connections to Tor bridges.
+<mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.
+Setting up an obfsproxy bridge requires an additional software package and additional configurations.
+See our page on <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark> for more info.

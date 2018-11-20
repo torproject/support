@@ -5,7 +5,7 @@ title: আমি টর ব্রাউজারে সংযোগ করতে
 seo_slug: is-my-network-censored
 ---
 description:
-আপনি একটি সেন্সর নেটওয়ার্ক হতে পারে, এবং তাই আপনি ব্রিজ ব্যবহার করে চেষ্টা করা উচিত।
-কিছু ব্রিজগুলি টর ব্রাউজারে তৈরি করা হয়েছে এবং আপনি টর লঞ্চার উইন্ডোতে "কনফিগার করুন" (তারপর প্রম্পটগুলি অনুসরণ করে) নির্বাচন করে এই সেতুগুলি ব্যবহার করতে পারেন যা প্রথমবার টর ব্রাউজার খোলার সময় পপ আপ করে।
-আপনি যদি অন্য ব্রিজগুলির প্রয়োজন হয়, তাহলে আপনি আমাদের <mark><a href="https://bridges.torproject.org/">ব্রিজেস ওয়েবসাইটে</a></mark> তাদের পেতে পারেন।
-ব্রিজ সম্পর্কে আরও তথ্যের জন্য, <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">টর ব্রাউজার ম্যানুয়াল</a></mark> দেখুন।
+You might be on a censored network, and so you should try using bridges.
+Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time.
+If you need other bridges, you can get them at our <mark><a href="https://bridges.torproject.org/">Bridges website</a></mark>.
+For more information about bridges, see the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.

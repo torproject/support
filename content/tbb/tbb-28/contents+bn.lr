@@ -7,9 +7,9 @@ seo_slug: uninstall-tor-browser
 description:
 আপনার সিস্টেম থেকে টর ব্রাউজার অপসারণ সহজ:
 
-* আপনার টর ব্রাউজার ফোল্ডার বা অ্যাপ্লিকেশন সনাক্ত করুন
-  Windows-এ ডিফল্ট অবস্থানটি হল ডেস্কটপ; macOS এটি অ্যাপ্লিকেশন ফোল্ডার (অন macOS, আপনি ইনস্টলেশন প্রক্রিয়া সম্পূর্ণ করার সময় অ্যাপ্লিকেশন ফোল্ডারে এটি সরাতে হবে).
-লিনাক্সে, কোন ডিফল্ট অবস্থান নেই, তবে ফোল্ডারটি "টর-browser_en-ইউএস "-এর নাম হবে যদি আপনি ইংরেজী টর ব্রাউজার চালাচ্ছেন ।
-* টর ব্রাউজার ফোল্ডার বা অ্যাপ্লিকেশন মুছে দিন
-* আবর্জনা খালি করুন ।
-* লক্ষ্য করুন যে আপনার অপারেটিং সিস্টেমের স্ট্যান্ডার্ড "আনইনস্টল " ইউটিলিটি ব্যবহার করা হয় না.
+* Locate your Tor Browser folder or application.
+  The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process).
+On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+* Delete the Tor Browser folder or application.
+* Empty your Trash.
+* Note that your operating system’s standard "Uninstall" utility is not used.

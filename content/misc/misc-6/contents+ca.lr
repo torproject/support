@@ -5,5 +5,5 @@ title: Tor manté els registres?
 seo_slug: guarda-tor-logs
 ---
 description:
-Tor no guarda registres que puguin identificar un usuari concret.
-Realitzem mesures segures sobre com funciona la xarxa, que podeu consultar a <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.
+Tor doesn't keep any logs that could identify a particular user.
+We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.

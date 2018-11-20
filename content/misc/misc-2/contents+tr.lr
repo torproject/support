@@ -5,6 +5,6 @@ title: Neden kötü insanların Tor kullanarak kötü şeyler yapmasını engell
 seo_slug: kotu-niyetli-kisilerin-tor-kullanarak-kotu-seyler-yapmasini-engellemek
 ---
 description:
-Tor insan hakları ve kişisel gizliliğin korunmasını sağlamak ve bir şeylerin sansürlenmesinin önüne geçmek için tasarlanmıştır.
-Tor kullanan bazı insanların korkunç şeyler yapmasından nefret ediyoruz. Ancak insan hakları aktivistleri, gazeteciler, taciz kurbanları gibi diğer kullanıcıları açığa çıkarabilecek verileri toplamamız gerekeceğinden kötü niyetli kişilerden kurtulmak için de bir şey yapamıyoruz.
-Belirli kişilerin Tor kullanmasını engellemek istersek yazılıma bir arka kapı eklememiz gerekir. Ancak bu kapı kötü niyetli yönetimler ve kuruluşlar tarafından kullanıcılarımıza saldırmak için kullanılabilir.
+Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us.
+We hate that there are some people who use Tor to do terrible things, but we can't do anything to get rid of them without also undermining the human rights activists, journalists, abuse survivors, and other people who use Tor for good things.
+If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.

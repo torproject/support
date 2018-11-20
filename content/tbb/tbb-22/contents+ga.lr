@@ -5,7 +5,7 @@ title: An féidir liom dlús a chur le Brabhsálaí Tor? An bhfuil sé níos moi
 seo_slug: make-tor-faster
 ---
 description:
-Uaireanta bíonn Brabhsálaí Tor níos moille ná brabhsálaithe eile.
-Tá thart ar mhilliún duine ag baint úsáide as líonra Tor gach uile lá, gan ach 6000 athsheachadán leis an trácht go léir a láimhseáil. Tagann moill ar an líonra mar gheall ar an lód mór ar gach freastalaí.
-Is féidir leat luas an líonra a fheabhsú trí athsheachadán de do chuid féin a rith, nó daoine eile a spreagadh chun é seo a dhéanamh.
-É sin ráite, tá Tor i bhfad níos sciobtha ná a bhíodh sé, agus seans nach dtabharfaidh tú aon mhoill faoi deara.
+Using Tor Browser can sometimes be slower than other browsers.
+The Tor network has over a million daily users, and just over 6000 relays to route all of their traffic, and the load on each server can sometimes cause latency.
+You can help improve the speed of the network by running your own relay, or encouraging others to do so.
+That said, Tor is much faster than it used to be and you may not actually notice any change in speed from other browsers.

@@ -5,6 +5,6 @@ title: আমি একটি আইওএস ডিভাইস টর্চ �
 seo_slug: run-tor-on-ios
 ---
 description:
-আমরা একটি আইওএস অ্যাপ নামে একটি iOS অ্যাপের সুপারিশ করি, যা ওপেন সোর্স, টর সমন্বয়করণ ব্যবহার করে, এবং এমন একজনের দ্বারা বিকশিত হয় যারা টর প্রকল্পের সাথে ঘনিষ্ঠভাবে কাজ করে ।
-তবে অ্যাপলের জন্য আইওএস-এর ব্রাউজার প্রয়োজন, যা Webkit নামে কিছু ব্যবহার করতে চায়, যা থেকে পেঁয়াজ ব্রাউজারকে একই গোপনীয়তা রক্ষা করে টর ব্রাউজার হিসেবে ।
-<mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">পেঁয়াজের ব্রাউজার সম্পর্কে আরও জানুন</a></mark> ।
+We recommend an iOS app called Onion Browser, which is open source, uses Tor routing, and is developed by someone who works closely with the Tor Project.
+However, Apple requires browsers on iOS to use something called Webkit, which prevents Onion Browser from having the same privacy protections as Tor Browser.
+<mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">Learn more about Onion Browser</a></mark>.

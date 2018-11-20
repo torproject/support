@@ -5,5 +5,5 @@ title: ¿Debería instalar un nuevo complemento o extensión en el Tor Browser, 
 seo_slug: instalar-anadiendo-extensiones-al-navegador-tor
 ---
 description:
-Se desaconseja vivamente la instalación de nuevos complementos en el Navegador Tor, ya que pueden comprometer tu privacidad y seguridad.
-El Navegador Tor ya trae instalados dos complementos - <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> y <mark><a href="https://noscript.net/">NoScript</a></mark> - y añadir cualquier otra cosa podría hacer que pierdas tu anonimato.
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> and <mark><a href="https://noscript.net/">NoScript</a></mark> — and adding anything else could deanonymize you.

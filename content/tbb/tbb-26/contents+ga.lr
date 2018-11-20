@@ -5,5 +5,5 @@ title: Tá fadhb agam le HTTPS Everywhere.
 seo_slug: problem-with-https-everywhere
 ---
 description:
-Féach na ceisteanna coitianta ar shuíomh <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere</a></mark>.
-Má chreideann tú go mbaineann an fhadhb le Brabhsálaí Tor, is féidir leat tuairisc a dhéanamh ar ár <mark><a href="https://trac.torproject.org/">rianaire fabhtanna</a></mark>.
+Please see the <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere FAQ</a></mark>.
+If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

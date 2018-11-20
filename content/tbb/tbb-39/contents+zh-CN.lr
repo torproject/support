@@ -5,6 +5,6 @@ title: 我用 Tor Browser 访问 Facebook、Twitter 之类的网站时遇到了�
 seo_slug: tor-browser-issues-facebook-twitter-websites
 ---
 description:
-有时重度依赖 JavaScript 的网站无法在 Tor Browser 中正确运作。
-最简单的方法打开点开洋葱菜单的安全滑块。
-把安全等级设置为“标准”。
+Sometimes Javascript-heavy websites can have functional issues over Tor Browser.
+The simplest fix is to click on the "onion menu," then click on the security slider.
+Set your security to "Standard".

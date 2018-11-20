@@ -5,5 +5,5 @@ title: El meu administrador de la xarxa pot dir que estic utilitzant el navegado
 seo_slug: administrador-xarxa-pot-saber-utilitzo-tor
 ---
 description:
-Quan utilitzeu el navegador Tor, ningú pot veure els llocs web que visiteu.
-Tanmateix, el vostre proveïdor de serveis o administradors de xarxa poden veure que esteu connectant a la xarxa Tor, encara que no sabran què feu quan arribeu.
+When using Tor Browser, no one can see the websites that you visit.
+However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.

@@ -5,6 +5,6 @@ title: Ní féidir le Brabhsálaí Tor ceangal a bhunú, cé nach mbaineann an f
 seo_slug: tor-browser-will-not-connect-no-censorship
 ---
 description:
-Is minic go mbíonn fadhb le clog an chórais ina cúis le hearráidí i mBrabhsálaí Tor.
-Ba chóir duit deimhniú go bhfuil clog an chórais agus an crios ama socraithe mar is ceart.
-Mura réitíonn seo an fhadhb, féach an leathanach Fabhtcheartú i <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Lámhleabhar Bhrabhsálaí Tor</a></mark>.
+One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
+Please make sure your system clock and timezone are set accurately.
+If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/bridges.html">Tor Browser manual</a></mark>.

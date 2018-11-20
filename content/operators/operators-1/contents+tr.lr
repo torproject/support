@@ -8,39 +8,39 @@ description:
 Bir aktarıcı işletmek ile ilgili ayrıntılı bilgi almak için <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Aktarıcı Belgesine</a></mark> bakabilirsiniz.
 
 
-* Run "apt-get install tor" komutunu yürütün (root olarak).
-* Saat, tarih ve saat dilimi ayarlarının doğru olduğundan emin olun. Ayarların doğru kalmasını sağlamak için ntp ya da openntpd (ya da benzeri) bir paket kurun.
-* /etc/tor/torrc dosyasını şu şekilde düzenleyin:
+* Run "apt-get install tor" (as root).
+* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
+* Edit /etc/tor/torrc to look like the following:
 
 
-    ## Gelen bağlantıların IP adresi ya da sunucu adı (Tor tarafından bulunması için bu şekilde açıklama olarak bırakın)
-    #Address adsiz.websitem.com
+    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    #Address noname.example.com
 
-    ## Bu aktarıcının kısa adı
-    Yapılandırmadaki kısa ad kodu
+    ## Set the nickname of this relay
+    Nickname ididnteditheconfig
 
-    ## İletişim bilgilerinizi yazın
-    ContactInfo 0xFFFFFFFF Herhangi Bir Kişi <nobody AT example dot com>
+    ## Set your own contact info
+    ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## Birden çok aktarıcı yönetiyorsanız bunları bir aile içine katın
-    #Ailem $AnahtarKodu,$AnahtarKodu,...
+    ## If you control multiple relays, include them in the family
+    #MyFamily $keyid,$keyid,...
 
     ORPort 9001
     DirPort 9030
 
-    ## Bant genişliği hızınızı ayarlayın (Tor uygulamasının bant genişliği sınırlaması olmadan kullanılabilmesi için açıklama olarak bırakın)
+    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
-* "service tor reload" komutunu yürütün (root olarak)
-* Aktarıcınız ağa bağlandıktan sonra, ayarladığınız kapı numaralarına dışarıdan erişilip erişilemediği denetlenir.
-   Bu adım genellikle hızlı geçilir ancak bir kaç dakika sürebilir.
+* Run "service tor reload" (as root)
+* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
+   This step is usually fast, but it may take a few minutes.
 
-/var/log/syslog günlük dosyasında "Self-testing indicates your ORPort is reachable from the outside. Excellent." gibi bir satır olup olmadığına bakın.
-Bu kaydı göremiyorsanız, aktarıcınıza dışarıdan erişilemiyor demektir.
-Güvenlik duvarlarınızı yeniden gözden geçirin, torrc üzerinde belirttiğiniz IP adresi ve kapı numaralarının doğru olduğundan emin olun.
+Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
+If you don't see this message, it means that your relay is not reachable from the outside.
+You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
 
-Erişilebilir olduğu doğrulandıktan sonra, dizin yöneticilerine istemcilerin adres, kapı numaraları, anahtarlar gibi bilgileri almaları için bir "sunucu belirteci" yüklenir.
-Bir kaç saat sonra (bilgilerin yayılması için yeterli zamanı tanıyın), <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> üzerinde bir sorgu yürüterek aktarıcınızın ağa kayıt olup olmadığına bakabilirsiniz.
-Aktarıcınız ağa kayıt olmamış ise güvenlik duvarlarını, IP adresi ve kapı numaralarını yeniden denetleyin.
+When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
+After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
+If it hasn't, re-check firewalls, IP and ports again.

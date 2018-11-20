@@ -5,5 +5,5 @@ title: DuckDuckGo ile ilgili bir sorun yaşıyorum.
 seo_slug: dukduckgo-sorunu
 ---
 description:
-<mark><a href="https://duck.co/help">DuckDuckGo destek portaline</a></mark> bakabilirsiniz.
-Sorunun Tor Browser ile ilgili olduğunu düşünüyorsanız <mark><a href="https://trac.torproject.org/">hata izleyici</a></mark> üzerinden bildirin.
+Please see the <mark><a href="https://duck.co/help">DuckDuckGo support portal</a></mark>.
+If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.

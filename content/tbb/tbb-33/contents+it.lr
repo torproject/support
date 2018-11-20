@@ -5,6 +5,6 @@ title: Il fatto di usare Tor Browser, fa di me un relay?
 seo_slug: usare-tor-browser-fa-di-me-un-relay
 ---
 description:
-Utilizzare Tor Browser non ti fa agire come se fossi un relay nel network.
-Questo significa che il tuo computer non sarà utilizato per indirizare il traffico per altri utenti.
-Se desideri diventare un relay, puoi consultare la nostra <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guida ai Tor Relay</a></mark>. 
+Running Tor Browser does not make you act as a relay in the network.
+This means that your computer will not be used to route traffic for others.
+If you'd like to become a relay, please see our <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.

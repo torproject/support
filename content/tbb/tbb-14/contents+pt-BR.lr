@@ -5,5 +5,5 @@ title: Eu deveria instalar um novo add-on ou extensão no Navegador Tor, como o 
 seo_slug: instalando-add-on-extensões-tor-browser
 ---
 description:
-É fortemente desencorajado instalar novos add-ons no navegador Tor, pois eles podem comprometer a sua privacidade e segurança.
-O Navegador Tor já vem instalado com dois add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> e <mark><a href="https://noscript.net/">NoScript</a></mark> — e adicionar qualquer outra coisa poderia comprometer seu anonimato.
+It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
+Tor Browser already comes installed with two add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> and <mark><a href="https://noscript.net/">NoScript</a></mark> — and adding anything else could deanonymize you.

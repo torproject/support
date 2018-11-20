@@ -5,6 +5,6 @@ title: Tinc problemes per utilitzar funcions a Facebook, a Twitter o a algun alt
 seo_slug: navegador-tor-problemes-facebook-twitter
 ---
 description:
-De vegades, els llocs web amb molt contingut Javascript poden tenir problemes funcionals sobre el navegador Tor.
-La solució més senzilla és fer clic al "menú de la ceba" i, a continuació, feu clic al control lliscant de seguretat.
-Establiu la seguretat a "Estàndard".
+Sometimes Javascript-heavy websites can have functional issues over Tor Browser.
+The simplest fix is to click on the "onion menu," then click on the security slider.
+Set your security to "Standard".
