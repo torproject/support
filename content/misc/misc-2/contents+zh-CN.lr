@@ -5,6 +5,6 @@ title: 你们为什么不阻止那些心怀不轨的人用 Tor 做坏事呢？
 seo_slug: 为何不阻止用 Tor Browser 作恶的人？
 ---
 description:
-Tor is designed to defend human rights and privacy by preventing anyone from censoring things, even us.
-We hate that there are some people who use Tor to do terrible things, but we can't do anything to get rid of them without also undermining the human rights activists, journalists, abuse survivors, and other people who use Tor for good things.
-If we wanted to block certain people from using Tor, we'd basically be adding a backdoor to the software, which would open up our vulnerable users to attacks from bad regimes and other adversaries.
+Tor 被设计成通过防止被各种人（甚至是我们）监控和审查来抵御人权和隐私。
+我们厌恶用 Tor 做糟糕的事情的人，但是我们并不能在剔除他们的同时，不伤害到人权活动者，记者，虐待后的幸存者们，以及其他用 Tor 做好事的人们。
+虽然我们仅需要增加一些软件后门就可以阻止某些人使用 Tor 网络，但是这会导致我们的用户遭更容易受到专制政权和其他组织的攻击。

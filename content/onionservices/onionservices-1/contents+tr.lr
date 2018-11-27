@@ -5,7 +5,7 @@ title: Yalnız Tor üzerinden erişilebilen web siteleri olduğunu duydum. Bu we
 seo_slug: yalniz-tor-agi-uzerinden-erisilebilen-siteler
 ---
 description:
-Websites that are only accessible over Tor are called "onions" and end in the TLD .onion.
-For example, the DuckDuckGo onion is <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
-You can access these websites by using Tor Browser.
-The addresses must be shared with you by the website host, as onions are not indexed in search engines in the typical way that vanilla websites are.
+Yalnız Tor ağı üzerinden erişilebilen web sitelerine "onions" denir ve adreslerinin sonunda .onion bulunur.
+Örneğin DuckDuckGo onion adresi <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a> şeklindedir.
+Bu web sitelerine Tor Browser kullanarak erişebilirsiniz.
+Onion siteleri arama motorlarının dizinlerine vanilla siteleri gibi normal şekilde eklenmediğinden adresler sizin tarafınızdan web sitesi sunucusu ile paylaşılmalıdır.

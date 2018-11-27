@@ -5,10 +5,10 @@ title: He baixat i instal·lat Tor Browser per a Windows, però ara no ho puc tr
 seo_slug: no-trobo-tor-al-windows
 ---
 description:
-The file you download and run prompts you for a destination.
-If you don't remember what this destination was, it's most likely your Downloads or Desktop folder.
+El fitxer descarregat i executat us demana un lloc per la destinació
+Si no recordeu quina era aquesta destinació, és probable que sigui la vostra carpeta de descàrregues o escriptori.
 
 La configuració predeterminada a l'instal·lador de Windows també crea una drecera per a vosaltres en el vostre escriptori, tot i que tingueu en compte que potser heu desactivat accidentalment l'opció per crear un accés directe.
 
-If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
-Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.
+Si no podeu trobar-lo en cap d'aquestes carpetes, torneu a descarregar-lo i busqueu l'indicador que us demanarà que trieu un directori per baixar-lo.
+Trieu una ubicació del directori que us recordeu fàcilment i, un cop finalitzada la descàrrega, heu de veure una carpeta del navegador Tor allà.

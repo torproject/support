@@ -5,15 +5,15 @@ title: Como eu me certifico de que estou usando os pacotes corretos para o Ubunt
 seo_slug: utilizando-pacotes-corretos
 ---
 description:
-* Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
-* Determine your Ubuntu version by running the following command:
+* Não use os pacotes dos repositórios do Ubuntu. Eles não são atualizados de maneira confiável. Se você usar eles, você perderá importante estabilidade e atualizações na segurança.
+* Determine a sua versão Ubuntu utilizada executando o seguinte comando:
        $ lsb_release -c
-* As root, add the following lines to /etc/apt/sources.list. Use the version you found in the previous step for <version>.
-       $ deb http://deb.torproject.org/torproject.org <version> main
+* Como root, adicione as seguintes linhas em /etc/apt/sources.list. Use a versão que você encontrou no passo anterior para <version>.
+       $ deb http://deb.torproject.org/torproject.org<version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
-* Add the gpg key used to sign the packages by running the following commands:
+* Adicione a chave gpd usada para assinar os pacotes executando os seguintes comandos
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-* Run the following commands to install tor and check its signatures:
+Rode os seguintes comandos pra instalar o tor e checar suas assinaturas:
        $ sudo apt-get update
        $ sudo apt-get install tor deb.torproject.org-keyring

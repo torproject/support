@@ -6,9 +6,9 @@ seo_slug: having-trouble-connecting-to-tor
 ---
 description:
 
-If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+如果你遇到了连接问题，请选择 “复制 Tor 日志到剪贴板” 选项。
+然后粘贴 Tor 日志到文本文件或者其他文档格式中。
+您应该能够在 Tor 日志中发现这些常见问题（请在 Tor 日志里寻找如下所示的错误）:
 
 ##### 常见错误 #1： 代理连接失败
 
@@ -18,9 +18,9 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure, please try connecting to the Tor network without a SOCKS proxy.
+如果您看见这些提示出现在您的日志里面，这意味着您连接 SOCKS 代理失败了。
+如果您的网络连接需要设置 SOCKS 代理，请确认您代理服务器的信息正确。
+如果您的系统不需要代理，或者您不敢肯定，请尝试直接连接 Tor 网络。
 
 ##### 常见错误 #2: 无法连接到中继
 
@@ -30,27 +30,27 @@ If a SOCKS proxy is not required, or you’re not sure, please try connecting to
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+如果您看见这些提示出现在您的日志里面，这意味着您的 Tor 无法连接到 Tor 网络中的第一个节点。
+这可能意味着您处于有审查的网络中。
+请尝试通过网桥连接，这应该能解决问题。
 
 ##### 常见错误 #3：无法完成 TLS 握手
 
-    13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
+    13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with direc Tor y server 
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 
     13-11-17 19:53:49.300 [WARN] 10 connections have failed: 
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+如果你在 Tor 日志里看见这句话，这意味着 Tor 和目录服务器无法完成 TLS 握手。
+使用网桥可能会解决这个问题。
 
 ##### 常见错误 #4：时钟偏差
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
-    19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
+    19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to direc Tor y server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
-Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 
+如果您看见这些提示出现在您的日志里面，这意味着您的系统时间设置错误。
+请确认您的时间设置是正确的，包括正确的时区。然后重新启动 Tor。 

@@ -5,5 +5,5 @@ title: Mon administrateur réseau saura-t-il que j’utilise le Navigateur Tor�
 seo_slug: admin-réseau-sait-que-j’utilise-tor
 ---
 description:
-When using Tor Browser, no one can see the websites that you visit.
-However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.
+Si vous utilisez le navigateur Tor, personne ne peut voir les sites que vous visitez.
+Cependant, votre fournisseur de services ou vos administrateurs de réseau pourraient voir que vous vous connectez au réseau Tor, bien qu’ils ne sachent pas ce que vous y faites.

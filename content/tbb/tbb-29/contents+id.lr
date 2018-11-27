@@ -21,8 +21,8 @@ Browser Tor akan memperingatkan Anda bahwa semua aktivitas dan unduhan akan dihe
 
 ##### Sirkuit Tor Baru untuk Situs ini
 
-This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
-Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.
+Pilihan ini berguna jika relay keluar tidak dapat terhubung ke situs web, atau situsnya tidak ditampilkan dengan benar.
+Memilihnya akan menyebabkan tab atau jendela yang aktif saat ini akan dimuat ulang melalui sebuah sirkuit Tor yang baru.
 
 Tabs atau jendela lain yang sedang terbuka dari website yang sama akan menggunakan sirkuit yang baru demikian juga dengan yang sedang dijalankan.
 

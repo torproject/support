@@ -5,5 +5,5 @@ title: Tor Browser kullandığımda, herhangi biri hangi siteleri ziyaret ettiğ
 seo_slug: herhangi-biri-ziyaret-ettigim-siteleri-gorebilir-mi
 ---
 description:
-Tor Browser prevents people from knowing the websites you visit.
-Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do.
+Tor Browser ziyaret ettiğiniz sitelerin başkaları tarafından bilinmesini engeller.
+İnternet Hizmeti Sağlayıcınız (ISP) gibi bazı kuruluşlar Tor kullandığınızı görebilir ancak Tor üzerinden nereleri ziyaret ettiğinizi göremez.

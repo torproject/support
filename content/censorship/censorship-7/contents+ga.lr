@@ -5,14 +5,14 @@ title: Cad is droichead ann?
 seo_slug: what-is-a-bridge
 ---
 description:
-Bridge relays are Tor relays that are not listed in the public Tor directory.
-That means that ISPs or governments trying to block access to the Tor network can't simply block all bridges.
-Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
+Is éard atá i nDroichead ná athsheachadán Tor nach bhfuil liostáilte san eolaire poiblí Tor.
+Ciallaíonn sé seo nach féidir le soláthraithe seirbhíse nó le rialtais cosc a chur ar líonra Tor trí cosc a chur ar gach uile dhroichead.
+Tá droichid úsáideach d'úsáideoirí Tor ina gcónaí i dtíortha faoi réimeas leatromach, nó dóibh siúd ar mhaith leo sraith bhreise slándála toisc go bhfuil imní orthu go n-aithneofar go bhfuil siad ag baint úsáide as seoladh IP ceangailte le hathsheachadán poiblí Tor.
 
-A bridge is just a normal relay with a slightly different configuration.
-See <mark><a href="#operators-6">How do I run a bridge</a></mark> for instructions.
+Is gá cumraíocht rud beag difriúil a dhéanamh le droichid.
+Tá treoracha ar fáil faoi <mark><a href="#operators-6">Conas a shocraítear droichead</a></mark>
 
-Several countries, including China and Iran, have found ways to detect and block connections to Tor bridges.
-<mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> bridges address this by adding another layer of obfuscation.
-Setting up an obfsproxy bridge requires an additional software package and additional configurations.
-See our page on <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">pluggable transports</a></mark> for more info.
+Tá roinnt tíortha, an tSín agus an Iaráin san áireamh, in ann ceangail trí dhroichead Tor a aimsiú agus cosc a chur orthu.
+Déileálann droichid <mark><a href="https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt">Obfsproxy</a></mark> leis seo trí shraith bhreise criptiúcháin a úsáid.
+Teastaíonn pacáiste agus cumraíocht bhreise uait chun droichead obfsproxy a shocrú.
+Gheobhaidh tú tuilleadh eolais ar an leathanach a bhaineann le <mark><a href="https://www.torproject.org/docs/pluggable-transports.html.en">córais iompair ionphlugáilte</a></mark>.

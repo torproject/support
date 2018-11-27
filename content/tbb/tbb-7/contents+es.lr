@@ -5,15 +5,15 @@ title: Un sitio web que quiero abrir está bloqueando el acceso a través de Tor
 seo_slug: sitio-web-bloquea-acceso-por-tor
 ---
 description:
-Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
-The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+Algunas veces los sitios web bloquean a los usuarios de Tor ya que no pueden distinguir entre el usuario medio de Tor y el tráfico automatizado.
+Lo más, que hemos podido conseguir para que los sitios desbloqueen a los usuarios de Tor es hacer que los usuarios se pongan en contacto con los administradores del sitio directamente.
+Algo así podría ayudar:
 
-"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
-I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
-By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
-Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com.
-Thank you."
+"Intenté acceder a tu sitio xyz.com mientras usaba el Tor Browser y descubrí que no permites a los usuarios de Tor acceder a tu sitio.
+Te pido que reconsideres esta decisión; Tor lo usa gente de todo el mundo para proteger su privacidad y luchar contra la censura.
+Al bloquear a los usuarios de Tor, es probable que estés bloqueando a personas en países represivos que quieren usar un Internet libre, periodistas e investigadores que quieren protegerse a sí mismos de ser descubiertos, denunciantes, activistas, y gente común que quiere optar por no participar en el rastreo invasivo de terceros. 
+Por favor, ten una postura firme a favor de la privacidad digital y la libertad de Internet, y permite a los usuarios de Tor acceder a xyz.com.
+Gracias."
 
 En el caso de bancos y otros sitios web sensibles, también es normal que bloqueen basándose en la geografía (si un banco sabe que generalmente accedes a sus servicios desde un país, y de repente te estás conectando desde un repetidor de salida al otro lado del mundo, pueden bloquear tu cuenta o suspenderla).
-If you are unable to connect to an onion service, please see <a href="#onionservices-3">I cannot reach X.onion!</a>
+Si no puedes conectarte a un servicio cebolla, por favor mira <a href="#onionservices-3">¡no puedo entrar en X.onion!</a>

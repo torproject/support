@@ -5,21 +5,21 @@ title: 一些反病毒程序和恶意程序防护软件禁止我使用  Tor Brow
 seo_slug: antivirus-blocking-tor
 ---
 description:
-Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
-Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
-Next, exclude the following processes:
+大多数防病毒软件允许你将某些进程添加到白名单中。
+请打开你的防病毒软件（或反恶意软件工具）中的设置，寻找白名单或类似的选项。
+接下来，执行以下步骤：
 
-* For Windows
+* Windows
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (if you use bridges)
+  * obfs4proxy.exe （如果你使用网桥）
 
 
-* For OS X
-  * TorBrowser
+* OS X
+  * Tor Browser
   * tor.real
-  * obfs4proxy (if you use bridges)
+  * obfs4proxy  （如果你使用网桥）
 
-Finally, restart Tor Browser.
-This should fix the issues you're experiencing.
-Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.
+最后，重新启动 Tor Browser。
+这应该能解决你遇到的问题。
+请注意 Kaspersky 一类的防病毒软件可能会在防火墙等级封锁 Tor。

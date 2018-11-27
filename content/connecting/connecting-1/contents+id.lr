@@ -5,6 +5,6 @@ title: Tor Browser tidak dapat tersambung, tapi ini tampaknya bukan akibat senso
 seo_slug: tor-browser-wont-connect 
 ---
 description:
-One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
-Please make sure your system clock and timezone are set accurately.
-If this doesn't fix the problem, see the Troubleshooting page on the <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">Tor Browser manual</a></mark>.
+Salah satu masalah yang paling umum yang menyebabkan kesalahan koneksi di Tor Browser adalah jam sistem yang keliru.
+Silakan pastikan jam di sistem operasi dan zona waktu diatur dengan tepat di komputer Anda.
+Jika ini tidak memperbaiki masalah koneksi, lihat halaman Troubleshooting di <mark><a href="https://tb-manual.torproject.org/en-US/troubleshooting.html">petunjuk Tor Browser</a></mark>.

@@ -5,5 +5,5 @@ title: Le Navigateur Tor utilise-t-il un circuit différent pour chaque site Web
 seo_slug: circuit-différent-chaque-site-web
 ---
 description:
-In Tor Browser, every new domain gets its own circuit.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document further explains the thinking behind this design.
+Dans le Navigateur Tor, chaque nouveau domaine obtient son propre circuit.
+Les réflexions liées à cette conception sont expliquées dans le document <mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">La conception et la mise en œuvre du Navigateur Tor</a></mark>.

@@ -5,6 +5,6 @@ title: 我该怎么查询 Tor Browser 的消息日志？
 seo_slug: view-tor-browser-message-log
 ---
 description:
-Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
-If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
-Once you have copied the log, you will be able to paste it into a text editor or email client.
+当 Tor Browser 第一次连接到网络时，点击窗口下方的“复制 Tor 日志到剪贴板”按钮。
+如果 Tor Browser 已开启，点击 TorButton （屏幕左上角的绿色洋葱图标），然后点击“打开网络设置” - “复制 Tor 日志到剪贴板”。
+当你复制了日志以后，你就可以粘贴到文字编辑器或邮件客户端中里。

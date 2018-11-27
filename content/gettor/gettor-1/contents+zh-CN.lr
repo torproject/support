@@ -5,5 +5,5 @@ title: torproject.org 被屏蔽了，怎么下载 Tor？
 seo_slug: how-to-download-tor-if-torproject-org-is-blocked
 ---
 description:
-If you can't download Tor through our <mark><a href="https://www.torproject.org">website</a></mark>, you can get a copy of Tor delivered to you via GetTor.
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.
+如果无法通过我们的<mark><a href="https://www.torproject.org">网站</a></mark>下载 Tor，你可以通过 GetTor 获取 Tor。
+GetTor 是一项通过不同方式自动回复最新版  Tor Browser 下载链接的服务。这些链接由不同处所托管，例如 Dropbox 、Google Drive 和 GitHub.

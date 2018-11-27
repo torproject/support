@@ -7,9 +7,9 @@ seo_slug: desinstal·lar-navegador-tor
 description:
 Desinstal·lar el navegador Tor del sistema operatiu és simple:
 
-* Locate your Tor Browser folder or application.
-  The default location on Windows is the Desktop; on macOS it is the Applications folder (on macOS, you have to move it into the Applications folder when you complete the installation process).
-On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
-* Delete the Tor Browser folder or application.
-* Empty your Trash.
-* Note that your operating system’s standard "Uninstall" utility is not used.
+* Localitzeu la vostra carpeta o aplicació del navegador Tor.
+  La ubicació predeterminada a Windows és l'escriptori; a macOS és la carpeta d'aplicacions (a macOS, heu de moure-la a la carpeta d'aplicacions quan finalitzeu el procés d'instal·lació).
+En Linux, no hi ha cap ubicació per defecte, però la carpeta es dirà "tor-browser_en-US" si esteu utilitzant el navegador Tor anglès.
+* Elimineu la carpeta o aplicació del navegador Tor.
+* Buida la paperera.
+* Tingueu en compte que la utilitat estàndard "Desinstal·lació" del vostre sistema operatiu no s'utilitza.

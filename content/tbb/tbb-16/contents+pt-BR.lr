@@ -5,7 +5,7 @@ title: Eu posso escolher de qual país eu estou saindo?
 seo_slug: Escolher-o-país-que-estou-saindo
 ---
 description:
-Modifying the way that Tor creates its circuits is strongly discouraged.
-You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity.
-If the outcome you want is simply to be able to access resources that are only available in one country, you may want to consider using a VPN instead of using Tor.
-Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.
+Modificar o modo como o Tor cria os seus circuitos não é recomendado.
+Você consegue a melhor segurança que o Tor pode provar quando você deixa a seleção de rota para ele; passar por cima dos nós de entrada / saída pode comprometer seu anonimato.
+Caso o resultado desejado seja apenas a possibilidade de acesso a recursos somente disponíveis em um determinado país, você deve avaliar a possibilidade de usar uma VPN em vez do Tor.
+Por favor, observe que as VPNs não dispõem de idênticas propriedades de anonimato do Tor, mas ajudam a resolver certos problemas de limites à geolocalização.

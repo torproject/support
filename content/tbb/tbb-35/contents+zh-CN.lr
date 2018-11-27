@@ -5,5 +5,5 @@ title: 如何避免那些验证码？
 seo_slug: get-rid-of-captchas
 ---
 description:
-Unfortunately, some websites deliver CAPTCHAs to Tor users, and we are not able to remove CAPTCHAs from websites.
-The best thing to do in these cases is to contact the website owners, and inform them that their CAPTCHAs are preventing users such as yourself from using their services.
+十分不幸，有些网站要求 Tor 用户填写验证码，我们对此无能为力。
+最有效的方法往往是联系网站管理员，告诉他们验证码给像你一样的用户带来的不便。

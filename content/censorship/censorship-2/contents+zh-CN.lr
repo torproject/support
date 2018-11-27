@@ -6,14 +6,14 @@ seo_slug: website-is-blocking-access-over-tor
 ---
 description:
 
-Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
-The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+有些网站因为他们无法分辨出普通 Tor 用户和机器人的区别而屏蔽了 Tor 用户的访问。
+我们能让网站解封 Tor 用户的最成功的手段是让用户直接联系网站管理员
+这么做也许能解决你的问题：
 
-"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
-I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
-By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
-Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
+“嗨！我正在使用 Tor Browser 访问 xyz.com ，不过似乎你们并没有允许 Tor 用户访问。
+我建议您重新考虑这个决定; Tor 被世界各地的人用来保护隐私和对抗审查。
+封锁 Tor 用户意味着也可能封锁了希望在专制国家自由的浏览互联网的用户，希望隐藏自己避免被发现的研究人员、记者、举报人和社会活动家，或只是希望不被第三方跟踪的普通人。
+请采取强硬立场支持数字隐私和互联网自由，以及允许 Tor 用户访问 xyz.com，谢谢。”
 
 另外，银行等比较敏感的网站经常进行地区范围的屏蔽（例如如果你平时只在某个特定的国家使用他们的服务，从其他国家进行访问时你的账号可能就会被冻结）。
 

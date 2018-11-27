@@ -6,9 +6,9 @@ seo_slug: probleme-beim-verbinden-mit-tor
 ---
 description:
 
-If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+Wenn du beim Verbinden ein Problem hast, wähle die Option "Tor-Protokoll in die Zwischenablage kopieren".
+Dann kopiere das Tor-Protokoll in eine Textdatei oder ein anderes Dokument.
+Du solltest einen dieser üblichen Fehler im Protokoll sehen (suche nach diesen Zeilen in deiner Tor-Logdatei):
 
 ###### Üblicher Fehler #1: Proxy-Verbindungsfehler
 
@@ -18,9 +18,9 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure") 
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
 
-If you see lines like these in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure, please try connecting to the Tor network without a SOCKS proxy.
+Wenn in der Log-Datei Zeile wie diese auftauchen, bedeutet das, der SOCKS-Proxy kann nicht erreicht werden.
+Wenn ein SOCKS-Proxy für die Netzwerkeinstelung nötig ist, sollten die Proxy-Details überprüft werden.
+Wenn kein SOCKS-Proxy nötig ist, oder du nicht sicher bist, versuche dich mit dem Tor-Netzwerk ohne SOCKS-Proxy zu verbinden.
 
 ###### Üblicher Fehler #2: Kann Guard-Relays nicht erreichen
 
@@ -30,9 +30,9 @@ If a SOCKS proxy is not required, or you’re not sure, please try connecting to
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop 
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+Wenn du diese Zeilen in deiner Tor-Protokolldatei siehst, konnte sich Tor nicht mit dem ersten Knoten (Guard) von deinem Kanal (Circuit) verbinden.
+Das könnte bedeuten, dass du dich in einem Netzwerk befindest, das zensiert wird.
+Bitte versuche dich über Brücken zu verbinden, das sollte das Problem lösen.
 
 ###### Üblicher Fehler 31: Konnte TLS-Verbindungsaufbau nicht abschließen
 
@@ -42,15 +42,15 @@ Please try connecting with bridges, and that should fix the problem.
     13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE 
     13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Wenn du Zeilen wie diese in Tors Logdatei siehst, bedeutet dies, dass Tor keinen vollständigen TLS-Handschlag mit den Verzeichnis-Autoritäten herstellen konnte.
+Bridges zu benutzen, wird dieses Problem wahrscheinlich lösen.
 
 ##### Übliche Fehlermeldung #4: Clock skew (Zeitunterschied)
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
-    19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+    19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): Scheinbar ist Ihre Uhr um 1 Tag, 0 Stunden, 1 Minute zurück gefallen, oder die des Gegenübers geht vor. Tor benötigt eine korrekt eingestellte Uhr, um zu funktionieren: Bitte überprüfen Sie die Uhrzeit, Zeitzone und Datumseinstellungen.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
-Please make sure your clock is set accurately, including the correct timezone. Then restart Tor. 
+Bei Zeilen wie diesen im Tor log ist die Uhrzeit falsch eingestellt.
+Bitte stelle sicher, dass deine Uhr und Zeitzone korrekt eingestellt sind. Starte anschließend Tor neu. 

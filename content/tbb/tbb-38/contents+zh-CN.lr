@@ -5,5 +5,5 @@ title: 网络管理员能发现我正在使用 Tor Browser 吗？
 seo_slug: network-admin-know-i-am-using-tor
 ---
 description:
-When using Tor Browser, no one can see the websites that you visit.
-However, your service provider or network admins may be able to see that you're connecting to the Tor network, though they won't know what you're doing when you get there.
+使用 Tor Browser 时，没人能看见你在浏览的网站。
+不过你的网络提供商或网络管理员也许可以发现你在使用 Tor，但他们无法知道你浏览的具体网站。

@@ -5,21 +5,21 @@ title: Cuireann mo bhogearra frithvíris cosc ar Bhrabhsálaí Tor.
 seo_slug: antivirus-blocking-tor
 ---
 description:
-Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
-Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
-Next, exclude the following processes:
+Go minic is féidir próisis áirithe a chur ar "liosta bán" sa chaoi nach gcuirfidh an bogearra frithvíris cosc orthu.
+Ba chóir duit an bogearra frithvíris a oscailt agus "liosta bán" nó a leithéid a lorg sna socruithe.
+Ansin, cuir na próisis seo a leanas ar an liosta bán:
 
-* For Windows
+* Ar Windows
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (if you use bridges)
+  * obfs4proxy.exe (má úsáideann tú droichid)
 
 
-* For OS X
+* Ar OS X
   * TorBrowser
   * tor.real
-  * obfs4proxy (if you use bridges)
+  * obfs4proxy (má úsáideann tú droichid)
 
-Finally, restart Tor Browser.
-This should fix the issues you're experiencing.
-Please note that some antivirus clients, like Kaspersky, may also be blocking Tor at the firewall level.
+Ansin, atosaigh Brabhsálaí Tor.
+Is dócha go réiteoidh seo an fhadhb.
+Tabhair faoi deara go gcuireann bogearraí frithvíris áirithe, mar shampla Kaspersky, cosc ar Tor ag leibhéal an bhalla dóiteáin.

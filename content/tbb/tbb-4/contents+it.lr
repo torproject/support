@@ -5,7 +5,7 @@ title: Perché Tor Browser è stato creato a partire da Firefox e non da qualche
 seo_slug: tor-browser-è-realizzato-a-partire-da-firefox-perché
 ---
 description:
-Tor Browser is a modified version of Firefox specifically designed for use with Tor.
-A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
-While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Learn more about the design of Tor Browser</a></mark>.
+Tor Browser è una versione modificata di Firefox progettata specificamente per essere utilizzata con Tor.
+Molti sforzi sono stati fatti per realizzare Tor Browser, incluso l'utilizzo di patch aggiuntive per accrescere la privacy e la sicurezza.
+Per quanto sia tecnicamente possibile utilizzare Tor con altri browser, potresti esporti a potenziali attacchi di fuga di informazioni, quindi ti sconsigliamo fortemente di farlo.
+<mark><a href="https://www.torproject.org/projects/torbrowser/design/">Scopri di più riguardo alla progettazione di Tor Browser</a></mark>. 

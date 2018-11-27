@@ -5,15 +5,15 @@ title: ¿Cómo me puedo asegurar de que estoy usando el paquete correcto en Ubun
 seo_slug: usando-corrector-de-paquetes
 ---
 description:
-* Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
-* Determine your Ubuntu version by running the following command:
+No utilices los paquetes de los repositorios de Ubuntu. Éstos seguramente no están actualizados. Si los usas, perderás importantes parches de estabilidad y seguridad.
+* Concreta tu versión de Ubuntu para ejecutar el siguiente comando:
        $ lsb_release -c
-* As root, add the following lines to /etc/apt/sources.list. Use the version you found in the previous step for <version>.
+* Como root, añade las líneas siguientes a /etc/apt/sources.list. Utiliza la versión que has encontrado en el paso anterior para <version>.
        $ deb http://deb.torproject.org/torproject.org <version> main
        $ deb-src http://deb.torproject.org/torproject.org <version> main
-* Add the gpg key used to sign the packages by running the following commands:
+* Añade la clave gpg utilizada para firmar los paquetes ejecutando los siguientes comandos:
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-* Run the following commands to install tor and check its signatures:
+* Ejecuta los siguientes comandos para instalar tor y comprobar sus firmas:
        $ sudo apt-get update
        $ sudo apt-get install tor deb.torproject.org-keyring

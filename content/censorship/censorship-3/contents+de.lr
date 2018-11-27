@@ -6,5 +6,5 @@ seo_slug: wie-lade-ich-tor-wenn-torproject-org-blockiert-wird
 ---
 description:
 
-If you can't download Tor through our <mark><a href="https://www.torproject.org">website</a></mark>, you can get a copy of Tor delivered to you via GetTor.
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.
+Wenn du Tor nicht über unsere <mark><a href="https://www.torproject.org">Webseite</a></mark> herunterladen kannst, versuche mittels GetTor eine Kopie zu bekommen.
+GetTor ist ein Dienst zum automatischen Empfangen von Links für das Herunterladen von Tor Browser an verschiedenen Orten, die weniger wahrscheinlich zensiert werden, wie z.B. Dropbox, Google Drive und GitHub. 

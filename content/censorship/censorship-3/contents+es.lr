@@ -2,9 +2,9 @@ _model: question
 ---
 title: ¿Cómo descargo Tor si torproject.org está bloqueada?
 ---
-seo_slug: como-bajarse-el-navegador-tor-si-el-proyecto-tor-está-bloqueado
+seo_slug: como-bajarse-el-navegador-tor-si-el-proyecto-tor-esta-bloqueado
 ---
 description:
 
-If you can't download Tor through our <mark><a href="https://www.torproject.org">website</a></mark>, you can get a copy of Tor delivered to you via GetTor.
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.
+Si no puedes descargar Tor a través de nuestro ​<mark><a href="https://www.torproject.org">sitio web</a></mark>, puedes obtener una copia de Tor que se te entregará vía GetTor.
+GetTor es un servicio que responde automáticamente a los mensajes, con enlaces a la última versión del navegador Tor, alojado en una serie de lugares que tienen menos probabilidades de ser censurados, como Dropbox, Google Drive y GitHub.

@@ -9,38 +9,38 @@ description:
 
 
 * Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* নিশ্চিত করুন যে আপনার ঘড়ি, তারিখ এবং সময়-নির্ধারিত আছে । এই ntp বা openntpd (বা অনুরূপ) প্যাকেজ ইনস্টল করুন.
+*/etc/tor/torrc সম্পাদনা করুন নিচের দিকে:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    # # অন্তর্গামী সংযোগের জন্য IP ঠিকানা অথবা হোস্ট (ম্যারেজ মন্তব্য এবং টর অনুমান করা হবে)
     #Address noname.example.com
 
-    ## Set the nickname of this relay
-    Nickname ididnteditheconfig
+    # # এই রিলে ডাকনাম সেট করুন
+    ডাকনাম ididnteditheconfig
 
-    ## Set your own contact info
+    # # নিজের যোগাযোগের তথ্য সেট করুন
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## If you control multiple relays, include them in the family
+    ## যদি আপনি একাধিক রিলে নিয়ন্ত্রণ করেন তবে পরিবারের অন্তর্ভুক্ত করুন
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001
     DirPort 9030
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    # # # # # # আপনার ব্যান্ডউইথ রেট নির্ধারণ করুন (কোন মন্তব্য এবং টর বিনা ব্যান্ডউইথ ক্যাপ ছাড়াই চালানো হবে)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
 * Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-   This step is usually fast, but it may take a few minutes.
+* আপনার রিলে নেটওয়ার্কের সাথে সংযুক্ত হওয়ার পর, এটি পাওয়া যাচ্ছে বাইরে থেকে আপনার কনফিগার করা পোর্ট কিনা তা নির্ধারণ করার চেষ্টা করবে ।
+   এই ধাপটি সাধারণত দ্রুত হয়, কিন্তু কিছু সময় লাগতে পারে ।
 
-Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-If you don't see this message, it means that your relay is not reachable from the outside.
-You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+/var/log/syslog লগ-ইন দেখুন যেমন "আত্ম পরীক্ষা নির্দেশ করে আপনার ORPort বাইরে থেকে পাওয়া যাচ্ছে. চমৎকার । "
+আপনি যদি এই বার্তাটি দেখতে না পান, তার মানে হল যে আপনার রিলে বাইরে থেকে পাওয়া যাচ্ছে নয় ।
+আপনার torrc আপনি যে আইপি এবং পোর্ট উল্লেখ করেছেন তা সঠিক কিনা তা পরীক্ষা করে দেখতে আপনার ফায়ারওয়াল পুনরায় পরীক্ষা করা উচিত ।
 
-When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
-After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-If it hasn't, re-check firewalls, IP and ports again.
+যখন এটি পাওয়া যাচ্ছে, এটি একটি "সার্ভার বর্ণনাকারী "-কে নির্দেশিকা কর্তৃপক্ষের কাছে আপলোড করবে যা কোন ঠিকানা, পোর্ট, কী ইত্যাদি আপনার রিলে ব্যবহার করছে তা জানার জন্য ।
+কয়েক ঘন্টা পর ( প্রচারিত করা জন্য যথেষ্ট সময় দিতে), আপনি <mark><a href="https://metrics.torproject.org/rs.html#search">মেট্রিকগুলো</a></mark> জিজ্ঞাসা করতে পারেন যে আপনার রিলে নেটওয়ার্কে সফলভাবে নিবন্ধিত আছে কিনা ।
+যদি তা না হয়, পুনরায় চেক ফায়ারওয়াল, আইপি এবং পোর্ট আবার.

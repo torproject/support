@@ -8,39 +8,39 @@ description:
 Die ausführlichste Resource, um ein Relay zu betreiben, ist die <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor-Relay-Anleitung</a></mark>.
 
 
-* Run "apt-get install tor" (as root).
-* Make sure your clock, date, and timezone are set correctly. Install the ntp or openntpd (or similar) package to keep it that way.
-* Edit /etc/tor/torrc to look like the following:
+* Führe "apt get install tor" aus (als root).
+* Stelle sicher, dass Uhrzeit, Datum und Zeitzone richtig eingestellt sind. Installiere das Paket ntp oder openntpd (oder ähnlich), um die Zeit aktuell zu halten.
+* Bearbeite die Datei /etc/tor/torrc damit sie so aussieht:
 
 
-    ## The IP address or hostname for incoming connections (leave commented and Tor will guess)
+    ## Die IP-Adresse oder Hostname für eingehende Verbindungen (Tor wird raten, wenn dies kommentiert ist)
     #Address noname.example.com
 
-    ## Set the nickname of this relay
+    ## Wähle den Namen des Relays
     Nickname ididnteditheconfig
 
-    ## Set your own contact info
+    ## Setze deine eigenen Kontaktinformationen
     ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>
 
-    ## If you control multiple relays, include them in the family
+    ## Wenn du mehrere Relays betreibst, füge sie der Familie hinzu
     #MyFamily $keyid,$keyid,...
 
     ORPort 9001
     DirPort 9030
 
-    ## Set your bandwidth rate (leave commented and Tor will run without bandwidth caps)
+    ## Bandbreiten-Beschränkung (Tor funktioniert ohne, wenn dies kommentiert ist)
     #RelayBandwidthRate 30 MBytes
     #RelayBandwidthBurst 100 MBytes
 
     ExitPolicy reject *:*
-* Run "service tor reload" (as root)
-* After your relay connects to the network, it will try to determine whether the ports you configured are reachable from the outside.
-   This step is usually fast, but it may take a few minutes.
+* Führe "service tor reload" als root aus.
+* Nachdem sich dein Relay mit dem Tor-Netzwerk verbunden hat, versucht es festzustellen, welche Ports der konfigurierten Ports von außen erreichbar sind.
+   Normalerweise ist dieser Schritt ziemlich schnell, es könnte jedoch einige Minuten in Anspruch nehmen.
 
-Look for a log entry in /var/log/syslog such as "Self-testing indicates your ORPort is reachable from the outside. Excellent."
-If you don't see this message, it means that your relay is not reachable from the outside.
-You should re-check your firewalls, check that the IP and ports you specified in your torrc are correct, etc.
+Suche nach Log-Einträgen in /var/log/syslog wie "Self-testing indicates your ORPort is reachable from the outside. Excellent." (Dein ORPort scheint von außerhalb erreichbar zu sein. Exzellent.)
+Wenn du diese Nachricht nicht siehst, bedeutet das, dass das Relay nicht von außen erreichbar ist.
+Überprüfe deine Firewalls und dass die in deiner torrc eingestellten IP-Adresse und Ports korrekt sind, etc.
 
-When it confirms that it's reachable, it will upload a "server descriptor" to the directory authorities to let clients know what address, ports, keys, etc your relay is using.
-After a few hours (to give it enough time to propagate), you can query <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics</a></mark> to see whether your relay has successfully registered in the network.
-If it hasn't, re-check firewalls, IP and ports again.
+Wenn es die Erreichbarkeit überprüft hat, überträgt es einen "Server-Deskriptor" zu den Verzeichnis-Autoritäten, um Nutzer*innen über die Adresse, Ports, Schlüssel, etc. deines Relays zu informieren.
+Nach einigen Stunden (wenn es genügend Zeit hatte, sich zu verbreiten), kannst du auf der <mark><a href="https://metrics.torproject.org/rs.html#search">Metrics-Webseite</a></mark> nachsehen, ob sich dein Relay erfolgreich im Netzwerk registriert hat.
+Wenn nicht, überprüfe Firewalls, IP-Adresse und Ports noch ein Mal.

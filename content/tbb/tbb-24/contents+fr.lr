@@ -1,9 +1,9 @@
 _model: question
 ---
-title: J’ai un problème avec DuckDuckGo.
+title: Je rencontre un problème avec DuckDuckGo.
 ---
 seo_slug: problème-avec-duckduckgo
 ---
 description:
-Please see the <mark><a href="https://duck.co/help">DuckDuckGo support portal</a></mark>.
-If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.
+Veuillez consulter le <mark><a href="https://duck.co/help">portail d’assistance de DuckDuckGo</a></mark>.
+Si vous croyez que le problème provient du Navigateur Tor, veuillez le signaler sur notre ​<mark><a href="https://trac.torproject.org/">gestionnaire de bogues</a></mark>.

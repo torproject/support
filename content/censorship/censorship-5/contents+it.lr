@@ -6,9 +6,9 @@ seo_slug: problemi-a-connettersi-a-tor
 ---
 description:
 
-If you’re having trouble connecting, please select the option to "copy Tor log to clipboard."
-Then paste the Tor log into a text file or other document.
-You should see one of these common log errors (look for the following lines in your Tor log):
+Se hai dei problemi nel connetterti, per favore seleziona l'opzione "copia il log di Tor negli appunti".
+Dopodiché incolla il logo di Tor in un file di testo o in un altro documento.
+Dovresti visualizzare uno dei seguenti errori di registro comuni (cerca una delle seguenti righe nel tuo log di Tor):
 
 ###### Errore di registro comune #1: Connessione al proxy non riuscita
 
@@ -16,11 +16,11 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
-    2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  ("general SOCKS server failure")
+    2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
 
-If you see lines like these in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure, please try connecting to the Tor network without a SOCKS proxy.
+Se vedi delle righe simili a queste nel tuo log di Tor, significa che non riesci a conetterti al SOCKS proxy.
+Se le impostazioni del tuo network prevedono l'utilizzo di un SOCKS proxy, assicurati per favore che tu abbia inserito in modo corretto i dettagli del proxy.
+Se non è richiesto un SOCKS proxy, o non ne sei sicuro, prova per favore a connetterti al network Tor senza utilizzare un SOCKS proxy.
 
 ##### Errore di registro comune #2: Impossibile raggiungere i guard relay
 
@@ -30,28 +30,28 @@ If a SOCKS proxy is not required, or you’re not sure, please try connecting to
     11/1/2017 21:11:44 PM.500 [NOTICE] Bootstrapped 85%: Finishing handshake with first hop
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
-If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
-Please try connecting with bridges, and that should fix the problem.
+Se vedi delle righe simili a queste nel tuo log di Tor, significa che il tuo Tor non è riuscito a connettersi al primo nodo del circuito Tor.
+Questo potrebbe indicare che sei in un network sottoposto a censura.
+Per favore prova a conetterti tramite i ponti, questo dovrebbe risolvere il problema.
 
 ##### Errore di registro comune #3: Impossibile completare la connessione TLS.
 
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
-    13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx)
-    13-11-17 19:53:49.300 [WARN] 10 connections have failed:
-    13-11-17 19:53:49.300 [WARN]  9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
-    13-11-17 19:53:49.300 [WARN]  1 connections died in state connect()ing with SSL state (No SSL object)
+    13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 
+    13-11-17 19:53:49.300 [WARN] 10 connections have failed: 
+    13-11-17 19:53:49.300 [WARN] 9 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
+    13-11-17 19:53:49.300 [WARN]  1 connessione interrotta in connessione con stato SSL (nessun oggetto SSL)
 
-If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
-Using bridges will likely fix this.
+Se vedi righe come questa nel tuo log di Tor, significa che Tor ha fallito un handshake TLS con l'elenco autorità.
+L'uso di bridge potrebbe risolvere il problema.
 
 ##### Errore di log comune #4: orologio disallineato
 
-    19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150
+    19.11.2017 00:04:47.400 [NOTICE] Apertura listener Socks su 127.0.0.1:9150
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server
     19.11.2017 00:04:48.200 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server
     19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead.
-    Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+    Per funzionare Tor richiede un orologio preciso: per favore controlla l'ora, il tuo fuso oraio e le impostazioni della data.
 
-If you see lines like this in your Tor log, it means your system clock is incorrect.
-Please make sure your clock is set accurately, including the correct timezone. Then restart Tor.
+Se vedi delle linee come queste nel tuo log di Tor, significa che l'orologio del tuo sistema non è corretto.
+Per favore assicurati che il tuo orologio sia impostato correttamente, compreso il fuso orario. Quindi riavvia Tor.

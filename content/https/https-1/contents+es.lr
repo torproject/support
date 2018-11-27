@@ -2,19 +2,19 @@ _model: question
 ---
 title: Cuando estoy usando Tor, ¿alguien a la escucha todavía puede ver la información que comparto con los sitios web, como la información de inicio de sesión y las cosas que escribo en los formularios?
 ---
-seo_slug: pueden-escuchas-ver-información-compartida
+seo_slug: pueden-escuchas-ver-informacion-compartida
 ---
 description:
-Tor prevents eavesdroppers from learning sites that you visit.
-However, information sent unencrypted over the internet using plain HTTP can still be intercepted by exit relay operators or anyone observing the traffic between your exit relay and your destination website.
-If the site you are visiting uses HTTPS, then the traffic leaving your exit relay will be encrypted, and won't be visible to eavesdroppers.
+Tor evita que alguien a la escucha sepa los sitios que visitas.
+Sin embargo, la información enviada sin cifrar por Internet usando HTTP simple todavía puede ser interceptada por los operadores de los repetidores de salida o cualquiera que observe el tráfico entre su repetidor de salida y su sitio web de destino.
+Si el sitio que estás visitando usa HTTPS, el tráfico que sale de tu repetidor de salida estará cifrado, y no será visible para quien se encuentre a la escucha.
 
 <div class="row">
   <div class="col-md-6">
     <div class="card">
       <img class="card-img-top" src="/static/images/image2.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">If you are using HTTPS, your website URL will begin with "https://".</h4>
+        <h4 class="card-title">Si estás usando HTTPS, la URL de tu sitio web comenzará con "​https://".</h4>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ If the site you are visiting uses HTTPS, then the traffic leaving your exit rela
     <div class="card">
       <img class="card-img-top" src="/static/images/image6.png" alt="https">
       <div class="card-body">
-        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
+        <h4 class="card-title">Esta visualización muestra qué información es visible para alguien a la escucha con y sin el navegador Tor y el cifrado HTTPS.</h4>
       </div>
     </div>
   </div>

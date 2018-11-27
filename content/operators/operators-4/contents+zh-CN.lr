@@ -5,15 +5,15 @@ title: 我如何确定我正在 Ubuntu 上使用正确的软件包？
 seo_slug: 使用正确的安装包
 ---
 description:
-* Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
-* Determine your Ubuntu version by running the following command:
+* 不要使用 Ubuntu 仓库中的包，它们未得到可靠更新。 如果您使用它们，您可能会错过重要的稳定性和安全性修复。
+* 运行下面的命令确定你 Ubuntu 的版本
        $ lsb_release -c
-* As root, add the following lines to /etc/apt/sources.list. Use the version you found in the previous step for <version>.
+* 以 root 用户把下面的行添加到 /etc/apt/sources.list 中。用前一步你获得的版本号代替 <version>。
        $ deb http://deb.torproject.org/torproject.org <version> main
-       $ deb-src http://deb.torproject.org/torproject.org <version> main
-* Add the gpg key used to sign the packages by running the following commands:
+       $ deb-src http://deb.torproject.org/torproject.org project.org <version> main
+* 运行下面的命令来添加签名软件包的 gpg 公钥：
        $ gpg --keyserver keys.gnupg.net --recv A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89
        $ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
-* Run the following commands to install tor and check its signatures:
+* 运行下面的命令来检查签名并安装 tor：
        $ sudo apt-get update
        $ sudo apt-get install tor deb.torproject.org-keyring

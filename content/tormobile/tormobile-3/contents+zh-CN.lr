@@ -5,6 +5,6 @@ title: 我能在 iOS 设备上使用 Tor 吗？
 seo_slug: 在 iOS 上运行 Tor
 ---
 description:
-We recommend an iOS app called Onion Browser, which is open source, uses Tor routing, and is developed by someone who works closely with the Tor Project.
-However, Apple requires browsers on iOS to use something called Webkit, which prevents Onion Browser from having the same privacy protections as Tor Browser.
-<mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">Learn more about Onion Browser</a></mark>.
+在 iOS 上我们推荐 Onion Browser，它是开放源代码软件，使用 Tor 线路，而且由和 Tor Project 关系密切的人开发。
+但是，苹果要求所有在 iOS 运行的浏览器使用 Webkit ，这会使 Onion Browser 不能提供和 Tor Browser 相同的隐私保护。
+<mark><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">了解更多关于 Onion Browser 的信息</a></mark>。

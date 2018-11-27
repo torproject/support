@@ -5,10 +5,10 @@ title: Eu fiz o download e instalei o Tor Browser para Windows, mas agora não c
 seo_slug: nao-consigo-achar-tor-no-windows
 ---
 description:
-The file you download and run prompts you for a destination.
-If you don't remember what this destination was, it's most likely your Downloads or Desktop folder.
+O arquivo que você baixou e rodou está solicitando um destino.
+Se você não lembra qual era este destino, provavelmente está na sua pasta de Downloads ou no Desktop.
 
 A configuração padrão no instalador do Windows também cria um atalho para você no seu Desktop, mas esteja ciente de que você pode acidentalmente ter desativado a opção para criar um atalho.
 
-If you can't find it in either of those folders, download it again and look for the prompt that asks you to choose a directory to download it in.
-Choose a directory location that you'll remember easily, and once the download finishes you should see a Tor Browser folder there.
+Caso você não consiga encontrá-lo em uma dessas pastas, baixe-o novamente e preste atenção à caixa de diálogo que pede a seleção de um diretório para download.
+Selecione um diretório de que você consiga lembrar-se facilmente e, quando o download estiver finalizado, você verá uma pasta chamada "Tor Browser" nesse local.

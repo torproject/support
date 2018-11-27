@@ -5,6 +5,6 @@ title: Funktioniert Flash im Tor Browser?
 seo_slug: benutze-flash-tor-brower
 ---
 description:
-Flash is disabled in Tor Browser, and we recommend you do not enable it.
-We don’t think Flash is safe to use in any browser — it's a very insecure piece of software that can easily compromise your privacy or serve you malware.
-Fortunately, most websites, devices, and other browsers are moving away from the use of Flash.
+Flash ist im Tor Browser ausgeschaltet, und wir empfehlen auch nicht dies manuell zu aktivieren.
+Wir denken, es ist nicht sicher, Flash in irgendeinem Browser zu verwenden - es ist wirklich unsichere Software, die schnell deine Sicherheit oder deine Privatsphäre verletzen kann. Unter Umständen kann dir sogar Malware untergeschoben werden.
+Glücklicherweise setzen viele Webseiten und Geräte, sowie Browser, heute kaum noch Flash ein, oder unterstützen dies in der Zukunft nicht mehr.

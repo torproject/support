@@ -4,10 +4,10 @@ question
 ---
 title: To use GetTor via email.
 ---
-seo_slug: usar-gettor-vía-correoelectrónico
+seo_slug: usar-gettor-via-correoelectronico
 ---
 description:
-Send an email to gettor@torproject.org.
-Write your operating system (such as windows, MacOS (OS X), or linux) in the body of the message and send.
-GetTor will respond with an email containing links from which you can download Tor Browser, the cryptographic signature (needed for <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">verifying the download</a></mark>), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using; consult documentation about your computer to find out more.
+Envía un correo electrónico a gettor@torproject.org.
+Señala tu sistema operativo (Windows, MacOS (OS X) o Linux) en el cuerpo del mensaje y envíalo.
+GetTor te responderá con un correo conteniendo vínculos desde los que te puedes bajar el Navegador Tor, la firma criptográfica (necesaria para <mark><a href="https://www.torproject.org/docs/verifying-signatures.html.en">verificar la bajada</a></mark>), la huella digital de la clave utilizada para hacer la firma y la suma de comprobación del paquete.
+Es posible que se te ofrezca la opción de elegir entre software de "32 bits" o "64 bits": esto depende del modelo de ordenador que estés utilizando; consulta la documentación de tu ordenador para obtener más información.

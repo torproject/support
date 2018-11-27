@@ -5,7 +5,7 @@ title: O uso do Navegador Tor protege outros programas no meu computador?
 seo_slug: tor-browser-protegendo-outros-apps
 ---
 description:
-Only Tor Browser's traffic will be routed over the Tor network.
-Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected.
-They need to be configured separately to use Tor.
-If you need to be sure that all traffic will go through the Tor network, take a look at the <mark><a href="https://tails.boum.org/">Tails live operating system</a></mark> which you can start on almost any computer from a USB stick or a DVD.
+Apenas o tráfego do Tor Browser será redirecionado para a rede Tor.
+Quaisquer outros aplicativos em seu sistema (incluindo outros navegadores) não serão roteados através da rede Tor e, portanto, não estarão protegidos.
+Eles precisam ser configurados separadamente para utilizar o Tor.
+Caso você necessite garantir que todo o tráfego passará pela rede Tor, confira o <mark><a href="https://tails.boum.org/">Sistema operacional "live" Tails</a></mark> com o qual você pode inicializar praticamente qualquer computador a partir de um drive USB ou de um DVD.

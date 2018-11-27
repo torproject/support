@@ -5,6 +5,6 @@ title: Por que meu sistema de pesquisa mudou para o DuckDuckGo?
 seo_slug: por que-tor-está-utilizando-duckduckgo
 ---
 description:
-With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine.
-For a while now, Disconnect has had no access to Google search results which we used in Tor Browser.
-Since Disconnect is more of a meta search engine which allows users to choose between different search providers, it fell back to delivering Bing search results which were basically unacceptable quality-wise.
+Com o lançamento do Navegador Tor 6.0.6, nós mudamos para DuckDuckGo como mecanismo de busca primário.
+Por enquanto, Desconectar não teve acesso aos resultados de pesquisa do Google que usamos no Navegador Tor.
+Como o Disconnect é mais um mecanismo de meta busca que permite que os usuários escolham entre diferentes provedores de pesquisa, ele recorre à entrega de resultados de pesquisa do Bing que são basicamente inaceitáveis em termos de qualidade.

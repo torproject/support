@@ -5,5 +5,5 @@ title: Tor 会留存日志吗？
 seo_slug: does-tor-keep-logs
 ---
 description:
-Tor doesn't keep any logs that could identify a particular user.
-We do take some safe measurements of how the network functions, which you can check out at <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark>.
+Tor 不会保留能识别用户身份的日志记录。
+不过，为了用于提高网络的安全性，我们会存留一些关于网络功能的日志。您可以在 <mark><a href="https://metrics.torproject.org/">Tor Metrics</a></mark> 中查看到。

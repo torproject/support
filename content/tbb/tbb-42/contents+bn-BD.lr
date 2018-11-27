@@ -5,6 +5,6 @@ title: আমার টর ব্রাউজার কেন ফায়ার
 seo_slug: tor-browser-firefox-not-working-error
 ---
 description:
-Tor Browser is built using <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">Firefox ESR</a></mark>, so errors regarding Firefox may occur.
-Please be sure no other instance of Tor Browser is already running, and that you have extracted Tor Browser in a location that your user has the correct permissions for.
-If you are running an anti-virus, please see <mark><a href="http://support.torproject.org/#tbb-10">My antivirus/malware protection is blocking me from accessing Tor Browser</a></mark>, it is common for anti-virus / anti-malware software to cause this type of issue.
+টর ব্রাউজার <mark><a href="https://www.mozilla.org/en-US/firefox/organizations/">ফায়ারফক্স ESR</a></mark> ব্যবহার করে তৈরি করা হয়, তাই firefox সম্পর্কে ত্রুটি দেখা দিতে পারে ।
+অনুগ্রহ করে নিশ্চিত হোন যে টর ব্রাউজারের অন্য কোনও দৃষ্টান্ত ইতিমধ্যেই চলছে না এবং আপনি যে টর্ ব্রাউজারটি আপনার ব্যবহারকারীর জন্য যথাযথ অনুমতির আছে সেটিতে আটক করেছেন।
+আপনি যদি অ্যান্টি-ভাইরাস চালাচ্ছেন, তাহলে দয়া করে দেখুন <mark><a href="http://support.torproject.org/#tbb-10">আমার অ্যান্টিভাইরাস/ম্যালওয়্যার সুরক্ষা আমাকে টর ব্রাউজারে প্রবেশ থেকে আটকাতে যাচ্ছে</a></mark>, এটা সাধারণ অ্যান্টি-ভাইরাস/এন্টি ম্যালওয়্যার সফটওয়্যারের জন্য এই ধরনের ইস্যু ।

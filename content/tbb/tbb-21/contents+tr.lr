@@ -5,6 +5,6 @@ title: Tor Browser ileti günlüğünü nasıl görüntülerim?
 seo_slug: tor-browser-ileti-gunlugunu-goruntule
 ---
 description:
-Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
-If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
-Once you have copied the log, you will be able to paste it into a text editor or email client.
+Tor Browser ilk kez ağa bağlantığında görüntülenen penceredeki "Tor Günlüğünü Panoya Kopyala" düğmesine tıklayın.
+Tor Browser zaten açıksa Torbutton simgesine tıklayın (ekranın sol üst bölümündeki küçük yeşil soğan) ve "Ağ Ayarlarını Aç" üzerine tıklayıp "Tor Günlüğünü Panoya Kopyala" üzerine tıklayın.
+Günlüğü kopyaladıktan sonra bir metin düzenleyici ya da e-posta istemcisine yapıştırabilirsiniz.

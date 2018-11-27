@@ -5,6 +5,6 @@ title: Executar el Navegador Tor em converteix en repetidor?
 seo_slug: executar-navegador-tor-em-fa-ser-repetidor
 ---
 description:
-Running Tor Browser does not make you act as a relay in the network.
-This means that your computer will not be used to route traffic for others.
-If you'd like to become a relay, please see our <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Tor Relay Guide</a></mark>.
+Executar el navegador Tor no us fa actuar com un repetidor a la xarxa.
+Això significa que l'ordinador no s'utilitzarà per encaminar el trànsit per a tercers.
+Si voleu convertir-vos en un repetidor, consulteu la nostra <mark><a href="https://trac.torproject.org/projects/tor/wiki/TorRelayGuide">Guia de repetidors de Tor</a></mark>.

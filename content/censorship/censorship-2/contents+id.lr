@@ -6,14 +6,14 @@ seo_slug: website-is-blocking-access-over-tor
 ---
 description:
 
-Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.
-The best success we've had in getting sites to unblock Tor users is getting users to contact the site administrators directly.
-Something like this might do the trick:
+Kadang beberapa situs web memblokir pengguna Tor karena tidak dapat membedakan pengguna Tor biasa dan lalu-lintas otomatis.
+Hal terbaik yang dapat dilakukan adalah pengguna menghubungi langsung admin situsnya.
+Ini mungkin dapat menjadi contoh:
 
-"Hi! I tried to access your site xyz.com while using Tor Browser and discovered that you don't allow Tor users to access your site.
-I urge you to reconsider this decision; Tor is used by people all over the world to protect their privacy and fight censorship.
-By blocking Tor users, you are likely blocking people in repressive countries who want to use a free internet, journalists and researchers who want to protect themselves from discovery, whistleblowers, activists, and ordinary people who want to opt out of invasive third party tracking.
-Please take a strong stance in favor of digital privacy and internet freedom, and allow Tor users access to xyz.com. Thank you."
+Halo! Saya berusaha melakukan akses terhadap situs xyz.com Anda melalui Tor Browser dan ternyata Anda tidak mengizinkan pengguna Tor untuk melakukan akses terhadap situs Anda.
+Saya mohon dengan sangat untuk mempertimbangkan hal ini; Tor digunakan orang-orang di seluruh dunia untuk melindungi privasi mereka dan melawan sensor.
+Dengan memblokir pengguna Tor, Anda akan memblokir orang-orang di negara-negara represif yang ingin menggunakan Internet secara bebas, wartawan, dan peneliti yang ingin melindungi diri sendiri dari penemuan, termasuk whistleblower, aktivis, dan orang-orang biasa yang ingin terbebas dari pelacakan menyeluruh yang dilakukan pihak lain.
+Mohon dukungan penuh terhadap privasi digital dan kebebasan Internet, dan  izinkan pengguna Tor untuk melakukan akses ke xyz.com. Terima kasih!
 
 Untuk situs web perbankan dan situs web lain yang sensitif, umumnya ada pemblokiran berdasarkan wilayah geografis (jika bank Anda mengetahui Anda biasanya melakukan akses terhadap jasa mereka dari suatu negara dan jika tiba-tiba Anda membuka situs web mereka dari exit relay di negara lain, akun Anda mungkin akan dikunci atau dibekukan).
 

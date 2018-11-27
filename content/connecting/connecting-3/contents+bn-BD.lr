@@ -5,8 +5,8 @@ title: আমি X.onion এ পৌঁছাতে পারছি না!
 seo_slug: cannot-reach-x-onion
 ---
 description:
-If you cannot reach the onion service you desire, make sure that you have entered the 16-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
-If you are still unable to connect to the onion service, please try again later.
-There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+আপনি যদি পেঁয়াজের সেবায় পৌঁছাতে না পারেন, তাহলে নিশ্চিত করুন যে আপনি 16 অক্ষরের পেঁয়াজের ঠিকানা সঠিকভাবে প্রবেশ করিয়েছেন: এমনকি একটি ছোট ভুল এই সাইটে পৌঁছে যাওয়া থেকে টর ব্রাউজার বন্ধ করে দেবে ।
+আপনি যদি এখনও অনিওন সেবায় যুক্ত হতে না পারেন, তবে অনুগ্রহ করে পরে আবার চেষ্টা করুন ।
+একটি অস্থায়ী সংযোগ সমস্যা হতে পারে, বা সাইট অপারেটর এটি সতর্কবার্তা ছাড়া অফলাইনে যেতে অনুমতি দেওয়া হতে পারে।
 
 আপনি <a href="http://3g2upl4pq6kufc4m.onion">DuckDuckGo</a>-এর পেঁয়াজের সেবায় যুক্ত হয়ে অন্যান্য পেঁয়াজের সেবায় প্রবেশ করতে পারবেন কিনা তা নিশ্চিত করতে পারবেন ।

@@ -5,6 +5,6 @@ title: Bagaimana cara melihat pesan log di Tor Browser?
 seo_slug: view-tor-browser-message-log 
 ---
 description:
-Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
-If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
-Once you have copied the log, you will be able to paste it into a text editor or email client.
+Klik tombol yang berlabel "Salin Tor Log ke Clipboard" yang muncul dalam jendela dialog ketika Tor Browser pertama kali terhubung ke jaringan.
+Jika Tor Browser sudah terbuka, klik pada ikon Torbutton (hijau bawang kecil di kiri atas layar), kemudian "Membuka pengaturan jaringan", kemudian "Salin Tor Log ke Clipboard".
+Setelah Anda telah menyalin log, Anda akan dapat menyalinya ke dalam teks editor atau email klien.
