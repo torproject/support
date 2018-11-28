@@ -1,6 +1,3 @@
-i18n/.gitignore
-i18n/README.md
-
 node_modules
 
 .sass-cache
@@ -10,7 +7,7 @@ public
 
 contents+*.lr
 
-i18n
+i18n/*
 
 *.egg-info
 *.pyc
