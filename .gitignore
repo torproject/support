@@ -7,8 +7,6 @@ public
 
 contents+*.lr
 
-i18n/*
-
 *.egg-info
 *.pyc
 __pycache__
