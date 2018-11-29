@@ -15,7 +15,7 @@
       	{% set menubag = 'menu+' + this.alt %}
       	{% for id, item in bag(menubag).items() %}
       	<li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-          <a class="nav-link" href="{{ item.path|url }}">{{ item.label }}
+          <a class="nav-link" href="{{ item.path }}">{{ _(item.label) }}
             {% if this.is_child_of(item.path) %}
             <span class="sr-only">(current)</span>
             {% endif %}
@@ -31,7 +31,7 @@
       <div class="dropdown-menu">
         {% for id, item in bag('alternatives').items() %}
           {% if this.alt != id %}
-          <a class="dropdown-item" href="{{ item.url }}{{ this.path }}">{{ item.language }}</a>
+            <a class="dropdown-item" href="{{ this.path|url(alt=id) }}">{{ item.language }}</a>
           {% endif %}
         {% endfor %}
       </div>
