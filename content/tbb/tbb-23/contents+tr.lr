@@ -1,9 +1,0 @@
-_model: question
----
-title: Tor Browser ile hangi arama motoru kullanılıyor ve gizliliğim nasıl korunuyor?
----
-seo_slug: tor-browser-arama-motoru
----
-description:
-Tor Browser için varsayılan arama motoru olarak <mark><a href="https://duckduckgo.com/">DuckDuckGo</a></mark> kullanılıyor.
-DuckDuckGo kullanıcılarını izlemez ya da kullanıcı aramaları ile ilgili herhangi bir veriyi kaydetmez. Ayrıntılı bilgi almak için <mark><a href="https://duckduckgo.com/privacy">DuckDuckGo gizlilik ilkesine bakabilirsiniz</a></mark>.

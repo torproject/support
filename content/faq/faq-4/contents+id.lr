@@ -1,8 +1,0 @@
-_model: question
----
-title: Tor Browser tersedia di platform atau sistem operasi apa saja?
----
-description:
-Peramban Tor saat ini tersedia untuk <mark><a href="https://www.torproject.org/download/download-easy.html.en#windows">Windows</a></mark>,<mark><a href="https://www.torproject.org/download/download-easy.html.en#linux">Linux</a></mark> dan <mark><a href="https://www.torproject.org/download/download-easy.html.en#mac">MacOS (OSX)</a></mark>.
-Untuk <mark><a href="https://www.torproject.org/docs/android.html.en">Android</a></mark>,<mark><a href="https://guardianproject.info/">The Guardian Project</a></mark>mengelola aplikasi-aplikasi yang dipersembahkan oleh Tor <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark>dan<mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>.
-Belum ada versi resmi untuk iOS, walau kami menyarankan peramban <mark><a href="https://onionbrowser.com/">Onion Browser</a></mark>.

@@ -1,9 +1,0 @@
-_model: question
----
-title: Es pot desfer-se de tots els captchas?
----
-seo_slug: desfer-se-dels-captchas
----
-description:
-Malauradament, alguns llocs web envien CAPTCHAs als usuaris de Tor, i no podem eliminar CAPTCHAs dels llocs web.
-El millor que es pot fer en aquests casos és posar-se en contacte amb els propietaris del lloc web i informar-los que els seus CAPTCHAs estan impedint que els usuaris, com vostè mateix, utilitzin els seus serveis.

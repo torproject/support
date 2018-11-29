@@ -1,9 +1,0 @@
-_model: question
----
-title: Puc instal·lar un nou complement o una extensió al navegador Tor, com ara AdBlock Plus o uBlock Origin?
----
-seo_slug: instal·la-complement-tor-browser
----
-description:
-S’ha desaconsellat encarecidament que instal·leu nous complements al navegador Tor, ja que poden comprometre la vostra privadesa i seguretat.
-El Navegador Tor ja ve instal·lat amb dos complements: <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> i <mark><a href="https://noscript.net/">NoScript</a></mark>, i afegir qualsevol altra cosa podria fer perdre l'anonimat.

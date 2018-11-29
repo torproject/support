@@ -1,9 +1,0 @@
-_model: question
----
-title: Ho una ragione valida per tracciare un utente Tor. Potete aiutarmi?
----
-seo_slug: tracciare-utenti-tor
----
-description:
-Non c'è nulla che gli sviluppatori di Tor possano fare per tracciare gli utenti di Tor.
-Le stesse protezioni che evitano che i malintenzionati infrangano l'anonimità di Tor impediscono anche a noi di tracciare gli utenti.

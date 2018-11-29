@@ -1,9 +1,0 @@
-_model: question
----
-title: HTTPS Everywhere ile ilgili bir sorun yaşıyorum.
----
-seo_slug: https-everywhere-sorunu
----
-description:
-<mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere SSS</a></mark> bölümüne bakabilirsiniz.
-Sorunun Tor Browser ile ilgili olduğunu düşünüyorsanız <mark><a href="https://trac.torproject.org/">hata izleyici</a></mark> üzerinden bildirin.

@@ -1,9 +1,0 @@
-_model: question
----
-title: 我应该在 Tor Browser 中安装新的扩展程序吗， 例如 AdBlock Plus 或者 uBlock Origin ?
----
-seo_slug: install-add-on-extension-tor-browser
----
-description:
-强烈建议不要在 Tor Browser 上安装新的附加组件，因为这可能会损害你的隐私和安全。
-Tor Browser 已经默认安装了两个插件 —— <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> 和 <mark><a href="https://noscript.net/">NoScript</a></mark> —— 再安装别的插件将会让你降低（或失去）匿名性。

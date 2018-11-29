@@ -1,9 +1,0 @@
-_model: question
----
-title: Tinc un problema amb NoScript.
----
-seo_slug: problema-noscript
----
-description:
-Consulteu les <mark><a href="https://noscript.net/faq">PMF de NoScript</a></mark>.
-Si creieu que aquest és un problema del navegador Tor, informeu-lo al nostre <mark><a href="https://trac.torproject.org/">seguidor d'errors</a></mark>.

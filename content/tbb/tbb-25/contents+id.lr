@@ -1,9 +1,0 @@
-_model: question
----
-title: Saya mendapatkan masalah dalam menggunakan NoScript.
----
-seo_slug: problem-noscript 
----
-description:
-Silakan lihat <mark><a href="https://noscript.net/faq">NoScript FAQ</a></mark>.
-Jika Anda yakin ini adalah masalah peramban Tor, silakan melaporkannya kepada kami di <mark><a href="https://trac.torproject.org/">pelacak bug</a></mark>.

@@ -1,9 +1,0 @@
-_model: question
----
-title: 有对 *BSD 的支持吗?
----
-seo_slug: 支持 BSD 吗
----
-description:
-抱歉，我们没有官方支持 *BSD 系统上的 Tor Browser 。
-不过有一个非官方支持的 <mark><a href="https://www.torbsd.org/">TorBSD 项目</a></mark>。

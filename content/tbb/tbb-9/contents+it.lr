@@ -1,9 +1,0 @@
-_model: question
----
-title: Posso usare Tor con un browser affiancato a Tor Browser?
----
-seo_slug: utilizzare-tor-con-un-browser-affiancando-tor-browser
----
-description:
-Noi raccomandiamo fermamente di non utilizzare Tor in qualsiasi altro browser che non sia Tor Browser.
-Utilizzare Tor in un altro browser può farti rimanere vulnerabile e senza le protezioni privacy implementate in Tor Browser.

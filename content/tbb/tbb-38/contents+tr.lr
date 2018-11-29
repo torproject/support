@@ -1,9 +1,0 @@
-_model: question
----
-title: Ağ yöneticim Tor Browser kullandığımı görebilir mi?
----
-seo_slug: ag-yoneticisi-tor-kullandigimi-biliyor
----
-description:
-Tor Browser kullanırken hiç kimse ziyaret ettiğiniz siteleri göremez.
-Bununla birlikte İnternet Hizmeti Sağlayıcınız ya da ağ yöneticileriniz Tor ağına bağlandığınızı görebilir ancak orada ne yaptığınızı bilemez.

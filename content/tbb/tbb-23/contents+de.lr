@@ -1,9 +1,0 @@
-_model: question
----
-title: Welche Suchmaschine verwendet der Tor Browser und wie schützt diese meine Privatsphäre?
----
-seo_slug: suchmaschine-tor-browser
----
-description:
-<mark><a href="https://duckduckgo.com/">DuckDuckGo</a></mark> ist die Standard-Suchmaschine in Tor Browser.
-DuckDuckGo verwendet keine Tracker und speichert keine Daten über Suchen. Erfahre mehr über die <mark><a href="https://duckduckgo.com/privacy">Datenschutzrichtlinie von DuckDuckGo</a></mark>.

@@ -1,9 +1,0 @@
-_model: question
----
-title: Zorunlu bir nedenle bir Tor kullanıcısını bulmalıyım. Yardım edebilir misiniz?
----
-seo_slug: tor-kullanicilarinin-izlenmesi
----
-description:
-Tor geliştiricileri Tor kullanıcılarını izlemek için herhangi bir şey yapmaz.
-Kötü niyetli kişilerin Tor anonimliğini bozmasını engelleyen koruma yöntemleri bizim Tor kullanıcılarını izlememizi de engeller.
