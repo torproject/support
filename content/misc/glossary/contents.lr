@@ -1,0 +1,490 @@
+_model: question
+---
+title: Tor Glossary
+---
+seo_slug: tor-glossary
+---
+description:
+
+The community team has developed this Glossary of terms about and related to Tor
+
+## A
+
+### add-on, extension, or plugin
+
+Add-ons, extensions, and plugins are components that can be added to [web browsers](#web-browser) to give them new features.
+Tor Browser comes with two add-ons installed: [NoScript](#noscript) and [HTTPS Everywhere](#https-everywhere).
+You should not install any additional add-ons to Tor Browser because that can compromise some of its privacy features.
+
+### antivirus software
+
+An antivirus software is used to prevent, detect and remove malicious software.
+Antivirus software can interfere with [Tor](#tor-/-tor-network/-core-tor) running on your computer.
+You may need to consult the documentation for your antivirus software if you do not know how to allow Tor.
+
+### App
+
+A web application (web app), is an application which the [client](#client) runs in a [web browser](#web-browser).
+App can also refer to software that you install on mobile [operating systems](#operating-system-os).
+
+### Atlas
+
+Atlas is a web application to learn about currently running Tor [relays](#relay).
+
+## B
+
+### bandwidth authority
+
+To determine a relay's throughput, special relays called bandwidth authorities take periodic measurements of the [relays](#relay) in the [consensus](#consensus).
+
+### bridge
+
+Like ordinary Tor [relays](#relay), bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily.
+[Pluggable transports](#pluggable-transports) are a type of bridge that help disguise the fact that you are using Tor.
+
+### bridge authority
+
+A special-purpose relay that maintains the list of [bridges](#bridge).
+
+### browser fingerprinting
+
+Fingerprinting is the process of collecting information about a device or service to make educated guesses about its identity or characteristics.
+Unique behavior or responses can be used to identify the device or service analyzed.
+[Tor Browser](#tor-browser) prevents fingerprinting.
+
+### browsing history
+
+A browser history is a record of requests made while using a [web browser](#web-browser), and includes information like websites visited and when.
+[Tor Browser](#tor-browser) deletes your browsing history after you close your [session](#session).
+
+## C
+
+### CAPTCHA
+
+Captchas are a challenge-response test used in computing to determine whether the user is human or not.
+[Tor](#tor-/-tor-network/-core-tor) users are often served captchas because Tor [relays](#relay) make so many requests that sometimes websites have a hard time determining whether or not those requests are coming from humans or from bots.
+
+### checksum
+
+Checksums are [hash](#hash)values of files. If you are downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
+
+### circuit
+
+A path through the [Tor network](#tor-/-tor-network/-core-tor) built by [clients](#client) consisting of randomly selected nodes. The circuit begins with either a [bridge](#bridge) or a [guard](#guard). Most circuits consist of three nodes - a guard or bridge, a [middle relay](#middle-relay), and an [exit](#exit). Most [onion services](#onion-services) use six hops in a circuit (with the exception of [single onion services](#single-onion-service)), and never an exit node. You can view your current Tor circuit by clicking on the onion button in Tor Browser.
+
+### client
+
+In [Tor](#tor-/-tor-network/-core-tor), a client is a node in the Tor network, typically running on behalf of one user, that routes application connections over a series of [relays](#relay).
+
+### Compass
+
+Compass is a web application to learn about currently running [Tor relays](#relay) in bulk.
+
+### consensus
+
+In Tor terms, a single document compiled and voted on by the [directory authorities](#directory-authority) once per hour, ensuring that all [clients](#client) have the same information about the [relays](#relay) that make up the [Tor network](#tor-/-tor-network/-core-tor).
+
+### cookie
+
+An [HTTP](#http) cookie (also called web cookie, Internet cookie, browser cookie or simply cookie) is a small piece of data sent from a website and stored on the user's computer by the user's [web browser](#web-browser) while the user is browsing. [Tor Browser](#tor-browser) does not store cookies.
+### cross-site scripting (XSS)
+
+Cross-Site Scripting (XSS) allows an attacker to add malicious functionality or behavior to a website when they shouldn't have the ability to do so.
+
+### cryptographic signature
+
+A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as sig files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. For more information about how you can verify signatures, please see https://www.torproject.org/docs/verifying-signatures.html.en.
+
+## D
+
+### Daemon
+
+A daemon is a computer program that runs as a background process, rather than being under the direct control of a user.
+
+### directory authority
+
+A special-purpose [relay](#relay) that maintains a list of currently-running relays and periodically publishes a [consensus](#consensus) together with the other directory authorities.
+
+## E
+
+### encryption
+
+The process of taking a piece of data and scrambling it into a secret code that can only be read by the intended recipient. [Tor](#tor-/-tor-network/-core-tor) uses three layers of encryption in the Tor [circuit](#circuit); each [relay](#relay) decrypts one layer before passing the request on to the next relay. 
+
+### end-to-end encrypted
+
+Transmitted data which is [encrypted](#encryption) from origin to destination is called end-to-end encrypted.
+
+### exit
+
+The last [relay](#relay) in the [Tor circuit](#circuit) which sends [traffic](#traffic) out onto the public Internet. The service you are connecting to (website, chat service, email provider, etc..) will see the [IP address](#ip-address) of the exit.
+
+### ExoneraTor
+
+The ExoneraTor service maintains a database of [relay](#relay) [IP addresses](#ip-address) that have been part of the Tor network. It answers the question whether there was a [Tor](#tor-/-tor-network/-core-tor) relay running on a given IP address on a given date.  This service is often useful when dealing with law enforcement.
+
+## F
+
+### Firefox
+
+Mozilla Firefox is a free and open-source [web browser](#web-browser) developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.
+[Tor Browser](#tor-browser) is built from a modified version of Firefox ESR (Extended Support Release).
+Firefox is available for Windows, OS X and Linux [operating systems](#operating-system-os), with its mobile versions available for Android, and Firefox OS.
+
+### firewall
+
+A firewall is a network security system which monitors and controls the incoming and outgoing network [traffic](#traffic). This traffic filter is based on predetermined rules. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network but it can also be used as a content filter in the sense of [censorship](#network-censorship). Sometimes people have trouble connecting to [Tor](#tor-/-tor-network/-core-tor) because their firewall blocks Tor connections. You can reconfigure or disable your firewall and restart Tor to test this.
+
+### Flash Player
+
+Flash Player is a [browser plugin](#add-on-extension-or-plugin)for Internet [applications](#app) to watch audio and video content. You should never enable Flash to run in [Tor Browser](#tor-browser) as it is unsafe. Many services that use Flash also offer an HTML5 alternative, which should work in the Tor Browser.
+
+### fte
+
+FTE (format-transforming encryption) is a pluggable transport that disguises [Tor traffic](#traffic) as ordinary web (HTTP) traffic.
+
+## G
+
+### GetTor
+
+It is a service that automatically responds to messages (Email, XMPP, Twitter) with links to the latest version of [Tor Browser](#tor-browser), hosted at a variety of locations, such as Dropbox, Google Drive and Github.
+
+### GSoC
+
+The Tor Project participates in the Google Summer of Code, which is a summer program for university students.
+
+### guard
+
+The first [relay](#relay) in the [Tor circuit](#circuit), unless using a [bridge](#bridge). When using a bridge, the bridge takes the place of the guard.
+
+## H
+
+### hash
+
+A cryptographic hash value is the result of a mathematical algorithm that maps data to a bit string of a fixed size. It's designed as one-way-function which means the value is easy to calculate in one direction but infeasible to invert. Hash values serve to verify the integrity of data.
+
+### hidden services
+
+Former name for "[onion services](#onion-services)", sometimes still in use in [Tor](#tor-/-tor-network/-core-tor) documentation or communication.
+
+### hop
+
+In [Tor](#tor-/-tor-network/-core-tor) terms, a "hop" refers to [traffic](#traffic) moving between [relay](#relay) in a [circuit](#circuit). 
+
+### HTTP
+
+The [Hypertext Transfer Protocol(HTTP)](#http) is a channel used to send files and data between devices on a network. Originally used to transfer only web pages, it is now relied upon to deliver many forms of data and communication. 
+
+### HTTPS
+
+Hypertext Transfer Protocol Secure is the [encrypted](#encryption) version of the HTTP channel used to transfer files and data between devices on a network.
+
+### HTTPS-Everywhere
+
+HTTPS Everywhere is a [Firefox](#firefox), Chrome, and Opera [extension](#add-on-extension-or-plugin) that makes [HTTPS](#https) the default on websites that have set up HTTPS but have not made it the default.
+HTTPS Everywhere is installed in [Tor Browser](#tor-browser).
+
+## I
+
+### Internet Service Provider (ISP)
+
+An Internet service provider (ISP) is an organization that provides services for accessing and using the Internet. When using [Tor Browser](#tor-browser), your ISP cannot see what websites you're visiting.
+
+### IP address
+
+An Internet Protocol address (IP address) is a numerical (or alpha-numeric in the case of IPv6) label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication.
+IP addresses are the location address of the device, similar to the addresses of physical locations.
+[Tor Browser](#tor-browser) obscures your location by making it look like your [traffic](#traffic) is coming from an IP address that is not your own.
+
+## J
+
+### JavaScript
+
+JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the [web browser](#web-browser), which might lead to deanonymization. The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Browser](#tor-browser) can be used to manage Javascript on different websites.
+
+## K
+
+## L
+
+### little-t tor
+
+"little-t tor" is one way of referring to tor the network daemon, as opposed to Tor Browser or Tor Project. 
+
+## M
+
+### meek
+
+These [pluggable transports](#pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](#tor-/-tor-network/-core-tor). Meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+
+### middle relay
+
+The middle position in the [Tor circuit](#circuit). Non-exit relays can function as either a "middle" or a "[guard](#guard)" for different users.
+
+## N
+
+### New Identity
+
+New Identity is a [Tor Browser](#tor-browser) feature if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
+Selecting it will close all your open tabs and windows, clear all private information such as [cookies](#cookie) and [browsing history](#browsing-history), and use New [Tor circuits](#circuit) for all connections.
+Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
+New Identity can also help if Tor Browser is having trouble connecting to a particular site, similarly to "[New Tor Circuit for this Site](#new-tor-circuit-for-this-site)".
+
+### New Tor Circuit for this Site
+
+This option is useful if the [exit](#exit) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new [Tor circuit](#circuit). Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+
+### network censorship
+
+Sometimes the direct access to the [Tor network](#tor-/-tor-network/-core-tor) is blocked by your [Internet Service Provider (ISP)](#internet-service-provider-isp) or by a government. Tor Browser includes some circumvention tools for getting around these blocks, including [bridges](#bridge), [pluggable transports](#pluggable-transports), and [GetTor](#gettor).
+
+### NoScript
+
+[Tor Browser](#tor-browser) includes an [add-on](#add-on-extension-or-plugin) called NoScript, accessed through the “S” icon at the top-left of the window, which allows you to control the [JavaScript](#javascript)that runs on individual web pages, or to block it entirely.
+
+### nyx
+
+The anonymizing [relay](#relay) monitor (formerly arm, now nyx) is a terminal status monitor for [Tor](#tor-/-tor-network/-core-tor), intended for command-line usage. This is a tool for monitoring the core Tor process on a system, often useful for relay operators.
+
+## O
+
+### obfs3
+
+Obfs3 is a [pluggable transport](#pluggable-transports) that makes [Tor](#tor-/-tor-network/-core-tor) [traffic](#traffic) look random, so that it does not look like Tor or any other protocol. Obfs3 bridges will work in most places.
+
+### obfs4
+
+Obfs4 is a [pluggable transport](#pluggable-transports) that makes [Tor](#tor-/-tor-network/-core-tor) [traffic](#traffic) look random like obfs3, and also prevents censors from finding bridges by Internet scanning. Obfs4 bridges are less likely to be blocked than obfs3 [bridges](#bridge).
+
+### onion address
+
+A standardized internet domain name used by onion services that ends in .onion and is designed to be [self-authenticating](#self-authenticating).
+
+### OONI
+
+OONI stands for "Open Observatory of Network Interference", it is a global observation network for detecting [censorship](#network-censorship), surveillance and [traffic](#traffic) manipulation on the internet.
+
+### onion services
+
+Onion services (formerly known as “[hidden services](#hidden-services)”) are services (like websites) that are only accessible through the [Tor network](#tor-/-tor-network/-core-tor).
+Onion services offer advantages over ordinary services on the non-private web, including:
+
+* hidden location and [IP address](#ip-address)
+
+* [end-to-end encrypted](#end-to-end-encrypted) [traffic](#traffic) between Tor users and onion services
+
+### Onionoo
+
+Onionoo is a web-based protocol to learn about currently running [Tor relays](#relay) and [bridges](#bridge). Onionoo provides the data for other applications and websites(compass, atlas, etc..) which in turn present Tor network status information to humans.
+
+### onionsite
+
+An onionsite is another name for an [onion service](#onion-services), but refers exclusively to websites.
+These websites use the .onion Top Level Domain (TLD).
+
+### onionspace
+
+The set of available [onion services](#onion-services). For example, you can say "my site is in onionspace" instead of "my site is in the Dark Web."
+
+### Operating System (OS)
+
+The main system software that manages computer hardware and software resources and provides common services for computer programs. The most used desktop operating systems are Windows, OS X and Linux. Android and iOS are the dominant mobile operating systems.
+
+### Orbot
+
+Orbot is a free [app](#app) from The Guardian Project that empowers other apps on your device to use the internet more securely. Orbot uses [Tor](#tor-/-tor-network/-core-tor) to [encrypt](#encryption) your Internet [traffic](#traffic) and hide it by bouncing through a series of computers around the world.
+
+### Orfox
+
+Orfox is free [app](#app) from The Guardian Project built from the same source code as [Tor Browser](#tor-browser) which is built upon [Firefox](#firefox)), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android [operating system](#operating-system-os).
+
+## P
+
+### pluggable transports
+
+Tools that [Tor](#tor-/-tor-network/-core-tor) can use to disguise the [traffic](#traffic) it sends out.
+This can be useful in situations where an [Internet Service Provider (ISP)](#internet-service-provider-isp) or other authority is actively blocking connections to the [Tor network](#tor-/-tor-network/-core-tor). 
+
+### private key
+
+The private portion of a [public/private key pair](#public-key-cryptography).
+This is the key that must be kept private, and not disseminated to others.
+
+### proxy
+
+A proxy is a middle man between a [client](#client) (like a [web browser](#web-browser)) and a service (like a [web server](#server)).
+Instead of connecting directly to the service, a client sends the message to the proxy. The proxy makes the request on behalf of the client, and passes the response back to the client. The service only communicates with and sees the proxy.
+
+### public key
+
+The public portion of a [public/private key pair](#public-key-cryptography).
+This is the key that can be disseminated to others.
+
+### public key cryptography
+
+A public-key cryptography system uses pairs of mathematical keys.
+The [public key](#public-key) can be disseminated widely while its belonging [private key](#private-key) is known only by the owner of the key pair.
+Any person can [encrypt](#encryption) a message using the public key of the receiver but only the receiver in possession of the private key is able to decrypt the message.
+Additionally, the private key can be used to create a [signature](#cryptographic-signature) to proof the identity of the creator of a message or other files.
+This signature can be verified by the public key. 
+
+## Q
+
+## R
+
+### relay
+
+A publicly-listed node in the [Tor network](#tor-/-tor-network/-core-tor) that forwards [traffic](#traffic) on behalf of [clients](#client), and that registers itself with the [directory authorities](#directory-authority).
+
+## S
+
+### Satori
+
+It is an [add-on](#add-on-extension-or-plugin) for the Chrome or Chromium browsers that allows you to download several security and privacy programs, including [Tor Browser](#tor-browser), from different sources. You can Install Satori from the Chrome App Store.
+
+### scramblesuit
+
+Scramblesuit is similar to obfs4 but has a different set of [bridges](#bridge).
+
+### script
+
+Elements used for offering dynamic/interactive content via websites.
+
+### Security Slider
+
+[Tor Browser](#tor-browser) includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. It is located in Torbutton’s “Privacy and Security Settings” menu.
+Increasing the level (Low, Medium-Low, Medium-High, High) of the Security Slider will disable or partially disable certain [web browser](#web-browser) features to protect against possible attacks.
+
+### self-authenticating address
+
+The specialized address format of [onion addresses](#onion-address) is self-authenticating. The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onionsite](#onionsite). Ordinary internet domain names require site owners to trust and be approved by a Certificate Authority (CA) for this binding, and they are subject to hijack by the CA and typically by many other parties as well.
+
+### server
+
+A device on a network which offers a service, such as file and web page storage, email or chat.
+
+### session
+
+A session refers to a conversation between two devices communicating on a network. Using [Tor Browser](#tor-browser) means that your session data will be wiped when you close the [web browser](#web-browser).
+
+### single onion service
+
+A single onion service is an onion service that can be configured for services that do not require anonymity, but want to offer it for clients connecting to their service. Single onion services use only three hops in the [circuit](#circuit) rather than the typical six hops for onion services.
+
+### Stem
+
+Stem is a Python(programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). Ifyou want to control core Tor with python, this is for you.
+
+### Sybil attack
+
+The Sybil attack in computer security is an attack wherein a reputation system is subverted by creating a large number of identities, and using them to gain a disproportionately large influence in the network.
+
+## T
+
+### Tails
+
+Tails is a "live" [operating system](#operating-system-os), that you can start on almost any computer from a DVD, USB stick, or SD card.
+It aims to preserve your privacy and anonymity.
+
+### The Tor Project
+
+The Tor Project can refer to either The Tor Project Inc, a 501(c)3 US nonprofit responsible for maintaining the Tor software, or the Tor Project community made up of thousands of volunteers from all over the world who help create Tor. 
+
+### third-party tracking
+
+Most websites use numerous third-party services, including advertising and analytics trackers, which collect data about your [IP address](#ip-address), [web browser](#web-browser), [system](#operating-system-os) and your browsing behavior itself, all of which can link your activity across different sites.
+[Tor Browser](#tor-browser) prevents a lot of this activity from happening. 
+
+### Tor / Tor network/ Core Tor
+
+Tor is a program you can run on your computer that helps keep you safe on the Internet.
+It protects you by bouncing your communications around a distributed network of [relays](#relay) run by volunteers all around the world: it prevents somebody watching your Internet connection from learning what sites you visit, and it prevents the sites you visit from learning your physical location.
+This set of volunteer relays is called the Tor network. Sometimes the software associated with this network is called Core Tor, and sometimes ["little-t tor"](#little-t-tor).
+The way most people use Tor is with [Tor Browser](#tor-browser) which is a version of [Firefox](#firefox) that fixes many privacy issues.
+
+### Tor Browser
+
+Tor Browser uses the [Tor network](#tor-/-tor-network/-core-tor) to protect your privacy and anonymity.
+Your internet activity, including the names and addresses of the websites you visit, will be hidden from your [Internet Service Provider (ISP)](#internet-service-provider-isp) and from anyone watching your connection locally.
+The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet [(IP) address](#ip-address), and will not know who you are unless you explicitly identify yourself.
+In addition, Tor Browser is designed to prevent websites from “[fingerprinting](#browser-fingerprinting)” or identifying you based on your browser configuration.
+By default, Tor Browser does not keep any [browsing history](#browsing-history).
+[Cookies](#cookie) are only valid for a single [session](#session) (until Tor Browser is exited or a [New Identity](#new-identity) is requested).
+
+### Tor Launcher
+
+When you run [Tor Browser](#tor-browser) for the first time, you will see the Tor Launcher window.
+It offers you the option to connect directly to the [Tor network](#tor-/-tor-network/-core-tor), or to configure Tor Browser for your connection.
+In the second case Tor Launcher will take you through a series of configuration options.
+
+### Tor log
+
+"Tor log" is an automatically-generated list of [Tor](#tor-/-tor-network/-core-tor)’s activity that can help diagnose problems.
+When something goes wrong with Tor, you may see an option with the error message to "copy Tor log to clipboard".
+If you don't see this option and you have [Tor Browser](#tor-browser) open, you can navigate to the [Tor button](#torbutton) (on the top left of the browser immediately to the left of the URL bar).
+Click the Tor button, then open Tor Network Settings.
+You should see an option at the bottom to copy the log to your clipboard, which you can then paste to a document to show whoever is helping you troubleshoot.
+
+### Tor Messenger
+
+Tor Messenger was a cross-platform chat program that aims to be secure by default and sends all of its [traffic](#traffic) over [Tor](#tor-/-tor-network/-core-tor).
+Tor Messenger is not in development anymore.
+It supported Jabber (XMPP), IRC, Google Talk, Facebook Chat, Twitter, Yahoo, and others; enabled Off-the-Record (OTR) Messaging automatically; and had an easy-to-use graphical user interface localized into multiple languages.
+
+### TorBirdy
+
+This [extension](#add-on-extension-or-plugin) configures Thunderbird to make connections over [Tor](#tor-/-tor-network/-core-tor).
+
+### Torbutton
+
+A button marked by a little green onion to the left of the URL bar.
+Its menu offers you "[New Identity](#new-identity)", "[New Tor Circuit for this Site](#new-tor-circuit-for-this-site)", "Privacy and Security Settings...", "Tor Network Settings..." and "Check for [Tor Browser](#tor-browser) Update..." options.
+
+### torrc
+
+The core [Tor](#tor-/-tor-network/-core-tor) configuration file.
+
+### Torsocks
+
+Torsocks allows you to use many applications in a safer way with [Tor](#tor-/-tor-network/-core-tor).
+It ensures that DNS requests are handled safely and explicitly rejects any [traffic](#traffic) other than TCP from the application you're using. 
+
+### Tor2Web
+
+Tor2web is a project to let users access [onion services](#onion-services) without using the [Tor Browser](#tor-browser).
+NOTE: This is not as safe as connecting to the [onion services](#onion-services) via Tor Browser, and will remove all [Tor](#tor-/-tor-network/-core-tor)-related protections the [client](#client) would otherwise have.
+
+### TPI
+
+TPI is an acronym for The Tor Project, Inc.
+
+### tpo
+
+People on IRC often use `tpo` to abbreviate `torproject.org` when writing hostnames. For example, `trac.tpo` is an abbreviation for `trac.torproject.org`.
+
+### traffic
+
+Traffic is the data sent and received by [clients](#client) and [servers](#server).
+
+## U
+
+## V
+
+## W
+
+### Web Browser
+
+A web browser (commonly referred to as a browser) is a software application for retrieving, presenting, and traversing information resources on the World Wide Web.
+Major web browsers include [Firefox](#firefox), Chrome, Internet Explorer, and Safari.
+
+### website mirror
+
+A website mirror is an one-to-one copy of a website which you can find under other web addresses.
+A current list of torproject.org mirrors is available at https://www.torproject.org/getinvolved/mirrors.html.en.
+
+## X
+
+## Y
+
+## Z
+
+
