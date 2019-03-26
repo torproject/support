@@ -4,17 +4,21 @@ node_modules
 .DS_Store
 
 public
-
+*.mo
+*.po
 contents+*.lr
 
-.gitmodules
- 
+*.ipynb*
+
 *.egg-info
 *.pyc
 __pycache__
 
 ### Lektor Temps ###
 *~*
+
+### Idea (IDE) ###
+.idea/
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
