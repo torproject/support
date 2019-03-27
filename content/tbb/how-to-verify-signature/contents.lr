@@ -43,10 +43,16 @@ Please substitute "Alice" with your own username.
 
 The output should say "Good signature":
 
+<<<<<<< HEAD
     gpg: assuming signed data in 'torbrowser-install-8.0.8_en-US.exe'
     gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET
     gpg:                using RSA key 0xD1483FA6C3C07136
     gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser&at;torproject.org>" [unknown]
+=======
+    gpg: Signature made Tue 12 Feb 2019 08:27:41 AM EST
+    gpg:                using RSA key EB774491D9FF06E2
+    gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
+>>>>>>> 1f381b2b... Removed the line "gpg: assuming signed data in 'torbrowser-install-..." because we're specifying the filenames
     gpg: WARNING: This key is not certified with a trusted signature!
     gpg:          There is no indication that the signature belongs to the owner.
     Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
@@ -96,14 +102,13 @@ To verify the signature of the package you downloaded, you will need to download
 
 The output should say "Good signature":
 
-    gpg: assuming signed data in 'tor-browser-linux64-8.0.8_en-US.tar.xz'
     gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET
     gpg:                using RSA key 0xD1483FA6C3C07136
     gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser&at;torproject.org>" [unknown]
     gpg: WARNING: This key is not certified with a trusted signature!
     gpg:          There is no indication that the signature belongs to the owner.
     Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-     Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
+         Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
     
 Currently valid subkey fingerprints are:
 
