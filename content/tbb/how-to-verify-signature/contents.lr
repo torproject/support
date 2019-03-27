@@ -55,9 +55,12 @@ Please substitute "Alice" with your own username.
 The output should say "Good signature":
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     gpg: assuming signed data in 'torbrowser-install-win64-8.0.8_en-US.exe'
 >>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
+=======
+>>>>>>> 1f381b2b... Removed the line "gpg: assuming signed data in 'torbrowser-install-..." because we're specifying the filenames
     gpg: Signature made Tue 12 Feb 2019 08:27:41 AM EST
     gpg:                using RSA key EB774491D9FF06E2
     gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
@@ -82,13 +85,9 @@ The best method is to meet the developer in person and exchange key fingerprints
 
 ### Mac OS X and Linux
 
-<<<<<<< HEAD
 You need to have GnuPG installed before you can verify signatures.
 If you are using Mac OS X, you can install it from <https://www.gpgtools.org/>.
 If you are using Linux, then you probably already have GnuPG in your system, as most Linux distributions come with it preinstalled.
-=======
-You need to have GnuPG installed before you can verify signatures. If you are using Mac OS X, you can install it from <mark><a href="https://www.gpgtools.org/">https://www.gpgtools.org/</a></mark>. If you are using Linux, then you probably already have GnuPG in your system, as most Linux distributions come with it preinstalled.
->>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
 
 The next step is to use GnuPG to import the key that signed your package.
 The Tor Browser team signs Tor Browser releases.
