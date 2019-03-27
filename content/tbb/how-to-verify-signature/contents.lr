@@ -39,19 +39,25 @@ You should see:
     pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
     uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser&at;torproject.org>
-    sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
-          Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
     sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
           Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
 To verify the signature of the package you downloaded, you will need to download the ".asc" file as well. Assuming you downloaded the package and its signature to your Desktop, run:
 
+<<<<<<< HEAD
     gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-win64-8.0.8_en-US.exe.asc C:\Users\Alice\Desktop\torbrowser-install-8.0.8_en-US.exe
+=======
+    gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-win64-8.0.8_en-US.exe.asc
+>>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
 
 Please substitute "Alice" with your own username.
 
 The output should say "Good signature":
 
+<<<<<<< HEAD
+=======
+    gpg: assuming signed data in 'torbrowser-install-win64-8.0.8_en-US.exe'
+>>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
     gpg: Signature made Tue 12 Feb 2019 08:27:41 AM EST
     gpg:                using RSA key EB774491D9FF06E2
     gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
@@ -59,6 +65,10 @@ The output should say "Good signature":
     gpg:          There is no indication that the signature belongs to the owner.
     Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
          Subkey fingerprint: 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
 
 Currently valid subkey fingerprints are:
 
@@ -72,9 +82,13 @@ The best method is to meet the developer in person and exchange key fingerprints
 
 ### Mac OS X and Linux
 
+<<<<<<< HEAD
 You need to have GnuPG installed before you can verify signatures.
 If you are using Mac OS X, you can install it from <https://www.gpgtools.org/>.
 If you are using Linux, then you probably already have GnuPG in your system, as most Linux distributions come with it preinstalled.
+=======
+You need to have GnuPG installed before you can verify signatures. If you are using Mac OS X, you can install it from <mark><a href="https://www.gpgtools.org/">https://www.gpgtools.org/</a></mark>. If you are using Linux, then you probably already have GnuPG in your system, as most Linux distributions come with it preinstalled.
+>>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
 
 The next step is to use GnuPG to import the key that signed your package.
 The Tor Browser team signs Tor Browser releases.
@@ -91,8 +105,6 @@ You should see:
     pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
     uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser&at;torproject.org>
-    sub   rsa4096/0xD1483FA6C3C07136 2016-08-24 [S] [expires: 2018-08-24]
-          Key fingerprint = A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136
     sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
           Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
@@ -101,7 +113,7 @@ To verify the signature of the package you downloaded, you will need to download
 
 #### For Mac OS X users:
 
-    gpg --verify ~/Downloads/TorBrowser-8.0.8-osx64_en-US.dmg{.asc*,}
+    gpg --verify ~/Downloads/TorBrowser-8.0.8-osx64_en-US.dmg{.asc,}
 
 #### For Linux users (change 64 to 32 if you have the 32-bit package):
 
@@ -123,8 +135,4 @@ Currently valid subkey fingerprints are:
 
 Notice that there is a warning because you haven't assigned a trust index to this person. This means that GnuPG verified that the key made that signature, but it's up to you to decide if that key really belongs to the developer. The best method is to meet the developer in person and exchange key fingerprints.
 
-If you're a Linux user and you're using the Debian Tor (not Tor Browser) packages, you should read the instructions on importing these keys to apt. If you're using the RPMs (for Tor, not Tor Browser), you can manually verify the signatures on the RPM packages by
-
-    rpm -K filename.rpm
-
-See <https://www.gnupg.org/documentation/> to learn more about GnuPG.
+See https://www.gnupg.org/documentation/ to learn more about GnuPG.
