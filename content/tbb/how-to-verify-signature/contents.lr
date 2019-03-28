@@ -44,23 +44,12 @@ You should see:
 
 To verify the signature of the package you downloaded, you will need to download the ".asc" file as well. Assuming you downloaded the package and its signature to your Desktop, run:
 
-<<<<<<< HEAD
     gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-win64-8.0.8_en-US.exe.asc C:\Users\Alice\Desktop\torbrowser-install-8.0.8_en-US.exe
-=======
-    gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-win64-8.0.8_en-US.exe.asc
->>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
 
 Please substitute "Alice" with your own username.
 
 The output should say "Good signature":
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    gpg: assuming signed data in 'torbrowser-install-win64-8.0.8_en-US.exe'
->>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
-=======
->>>>>>> 1f381b2b... Removed the line "gpg: assuming signed data in 'torbrowser-install-..." because we're specifying the filenames
     gpg: Signature made Tue 12 Feb 2019 08:27:41 AM EST
     gpg:                using RSA key EB774491D9FF06E2
     gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
@@ -68,10 +57,6 @@ The output should say "Good signature":
     gpg:          There is no indication that the signature belongs to the owner.
     Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
          Subkey fingerprint: 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
-<<<<<<< HEAD
-=======
-    
->>>>>>> 867f37cc... Removed old subkey, removed how to check a RPM (out of scope), updated the GPG Linux command to verify the signature.
 
 Currently valid subkey fingerprints are:
 
