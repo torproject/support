@@ -1,4 +1,6 @@
 RewriteEngine On
 
-RewriteRule ^en-US/tbb/tbb-2/ /tbb/antivirus-blocking-tor$1 [R=301,L]
-RewriteRule ^en/(.*) en-US/$1 [R=302,L]
+RewriteRule ^en-US/tbb/tbb-2/ /tbb/tbb-10/ [R=301,L]
+
+# forward requests in /en to the root folder
+RewriteRule ^en/(.*) /$1 [R=302,L]
