@@ -21,9 +21,10 @@ As long as you have verified the signature you should not worry that the reporte
 ### Windows
 
 First of all you need to have GnuPG installed before you can verify signatures.
-Download it from <https://gpg4win.org/download.html>.
+Download it from https://gpg4win.org/download.html.
 
-Once it's installed, use GnuPG to import the key that signed your package. In order to verify the signature you will need to type a few commands in windows command-line, cmd.exe.
+Once it's installed, use GnuPG to import the key that signed your package.
+In order to verify the signature you will need to type a few commands in windows command-line, cmd.exe.
 
 The Tor Browser team signs Tor Browser releases.
 Import its key (0x4E2C6E8793298290) by starting cmd.exe and typing:
@@ -42,7 +43,8 @@ You should see:
     sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
           Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
-To verify the signature of the package you downloaded, you will need to download the ".asc" file as well. Assuming you downloaded the package and its signature to your Desktop, run:
+To verify the signature of the package you downloaded, you will need to download the ".asc" file as well.
+Assuming you downloaded the package and its signature to your Desktop, run:
 
     gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-win64-8.0.8_en-US.exe.asc C:\Users\Alice\Desktop\torbrowser-install-8.0.8_en-US.exe
 
@@ -71,7 +73,7 @@ The best method is to meet the developer in person and exchange key fingerprints
 ### Mac OS X and Linux
 
 You need to have GnuPG installed before you can verify signatures.
-If you are using Mac OS X, you can install it from <https://www.gpgtools.org/>.
+If you are using Mac OS X, you can install it from https://www.gpgtools.org/.
 If you are using Linux, then you probably already have GnuPG in your system, as most Linux distributions come with it preinstalled.
 
 The next step is to use GnuPG to import the key that signed your package.
@@ -92,8 +94,8 @@ You should see:
     sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
           Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
-
-To verify the signature of the package you downloaded, you will need to download the ".asc" file as well. Assuming you downloaded the package and its signature to your Downloads folder, run:
+To verify the signature of the package you downloaded, you will need to download the ".asc" file as well.
+Assuming you downloaded the package and its signature to your Downloads folder, run:
 
 #### For Mac OS X users:
 
@@ -117,6 +119,8 @@ Currently valid subkey fingerprints are:
 
     1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
-Notice that there is a warning because you haven't assigned a trust index to this person. This means that GnuPG verified that the key made that signature, but it's up to you to decide if that key really belongs to the developer. The best method is to meet the developer in person and exchange key fingerprints.
+Notice that there is a warning because you haven't assigned a trust index to this person.
+This means that GnuPG verified that the key made that signature, but it's up to you to decide if that key really belongs to the developer.
+The best method is to meet the developer in person and exchange key fingerprints.
 
 See https://www.gnupg.org/documentation/ to learn more about GnuPG.
