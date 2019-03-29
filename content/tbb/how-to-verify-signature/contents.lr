@@ -11,7 +11,7 @@ Below we explain why it is important and how to verify that the Tor program you 
 Each file on our [download page](https://www.torproject.org/download/) is accompanied by a file with the same name as the package and the extension ".asc". These .asc files are GPG signatures.
 They allow you to verify the file you've downloaded is exactly the one that we intended you to get.
 For example, torbrowser-install-8.0.8_en-US.exe is accompanied by torbrowser-install-8.0.8_en-US.exe.asc.
-For a list of which developer signs which package, see our [signing keys page](https://2019.www.torproject.org/docs/signing-keys.html.en).
+For a list of which developer signs which package, see our [signing keys page](https://www.torproject.org/docs/signing-keys.html.en).
 
 We now show how you can verify the downloaded file's digital signature on different operating systems.
 Please notice that a signature is dated the moment the package has been signed.
