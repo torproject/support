@@ -46,7 +46,7 @@ You should see:
 To verify the signature of the package you downloaded, you will need to download the ".asc" file as well.
 Assuming you downloaded the package and its signature to your Desktop, run:
 
-    gpg.exe --verify C:\Users\Alice\Desktop\torbrowser-install-win64-8.0.8_en-US.exe.asc C:\Users\Alice\Desktop\torbrowser-install-8.0.8_en-US.exe
+    gpg.exe --verify C:\\Users\\Alice\\Desktop\\torbrowser-install-win64-8.0.8_en-US.exe.asc C:\\Users\\Alice\\Desktop\\torbrowser-install-8.0.8_en-US.exe
 
 Please substitute "Alice" with your own username.
 
