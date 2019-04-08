@@ -19,6 +19,11 @@ name = Catala
 url_prefix = /ca/
 locale = ca
 
+[alternatives.cs]
+name = česky (cs)
+url_prefix = /cs/
+locale = cs
+
 [alternatives.de]
 name = Deutsch
 url_prefix = /de/
