@@ -1,6 +1,5 @@
 RewriteEngine On
 
-RewriteRule ^en-US(.+)$ /$1 [R=302,L]
 
 # forward requests in /en to the root folder
 RewriteRule ^en/(.*)$ /$1 [R=302,L]
