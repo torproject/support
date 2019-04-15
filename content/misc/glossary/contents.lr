@@ -372,7 +372,7 @@ A single onion service is an onion service that can be configured for services t
 
 ### Stem
 
-Stem is a Python(programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). Ifyou want to control core Tor with python, this is for you.
+Stem is a Python(programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with python, this is for you.
 
 ### Sybil attack
 
@@ -437,7 +437,7 @@ This [extension](#add-on-extension-or-plugin) configures Thunderbird to make con
 ### Torbutton
 
 A button marked by a little green onion to the left of the URL bar.
-Its menu offers you "[New Identity](#new-identity)", "[New Tor Circuit for this Site](#new-tor-circuit-for-this-site)", "Privacy and Security Settings...", "Tor Network Settings..." and "Check for [Tor Browser](#tor-browser) Update..." options.
+Its menu offers you "[New Identity](#new-identity)", "Security Settings..." and "Check for [Tor Browser](#tor-browser) Update..." options.
 
 ### torrc
 
