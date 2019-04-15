@@ -426,7 +426,7 @@ You should see an option at the bottom to copy the log to your clipboard, which 
 
 ### Tor Messenger
 
-Tor Messenger was a cross-platform chat program that aims to be secure by default and sends all of its [traffic](#traffic) over [Tor](#tor-/-tor-network/-core-tor).
+Tor Messenger was a cross-platform chat program that aimed to be secure by default and send all of its [traffic](#traffic) over [Tor](#tor-/-tor-network/-core-tor).
 Tor Messenger is not in development anymore.
 It supported Jabber (XMPP), IRC, Google Talk, Facebook Chat, Twitter, Yahoo, and others; enabled Off-the-Record (OTR) Messaging automatically; and had an easy-to-use graphical user interface localized into multiple languages.
 
