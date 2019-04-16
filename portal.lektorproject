@@ -40,6 +40,11 @@ name = Gaeilge (ga)
 url_prefix = /ga/
 locale = ga
 
+[alternatives.he]
+name = Ivrit
+url_prefix = /he/
+locale = he
+
 [alternatives.id]
 name = Indonesia (id)
 url_prefix = /id/
@@ -49,11 +54,6 @@ locale = id
 name = Italiano (it)
 url_prefix = /it/
 locale = it
-
-[alternatives.he]
-name = Ivrit
-url_prefix = /he/
-locale = he
 
 [alternatives.pt-BR]
 name = Português (Brasil)
