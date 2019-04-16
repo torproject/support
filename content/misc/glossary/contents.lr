@@ -147,7 +147,7 @@ FTE (format-transforming encryption) is a pluggable transport that disguises [To
 
 ### GetTor
 
-It is a service that automatically responds to messages (Email, XMPP, Twitter) with links to the latest version of [Tor Browser](#tor-browser), hosted at a variety of locations, such as Dropbox, Google Drive and Github.
+It is a service that automatically responds to messages (Email, XMPP, Twitter) with links to the latest version of [Tor Browser](#tor-browser), hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
 ### GSoC
 
@@ -200,7 +200,7 @@ IP addresses are the location address of the device, similar to the addresses of
 
 ### JavaScript
 
-JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the [web browser](#web-browser), which might lead to deanonymization. The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Browser](#tor-browser) can be used to manage Javascript on different websites.
+JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the [web browser](#web-browser), which might lead to deanonymization. The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Browser](#tor-browser) can be used to manage JavaScript on different websites.
 
 ## K
 
