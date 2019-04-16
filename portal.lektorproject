@@ -41,12 +41,12 @@ url_prefix = /ga/
 locale = ga
 
 [alternatives.id]
-name = Indonesia
+name = Indonesia (id)
 url_prefix = /id/
 locale = id
 
 [alternatives.it]
-name = Indonesia
+name = Italiano (it)
 url_prefix = /it/
 locale = it
 
