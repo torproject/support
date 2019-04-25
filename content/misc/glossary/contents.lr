@@ -263,6 +263,11 @@ A standardized internet domain name used by onion services that ends in .onion a
 
 OONI stands for "Open Observatory of Network Interference", it is a global observation network for detecting [censorship](#network-censorship), surveillance and [traffic](#traffic) manipulation on the internet.
 
+### Onion Browser
+
+An iOS app which is open source, uses Tor routing, and is developed by someone who works closely with the Tor Project.
+[Learn more about Onion Browser](https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor)
+
 ### onion services
 
 Onion services (formerly known as “[hidden services](#hidden-services)”) are services (like websites) that are only accessible through the [Tor network](#tor-/-tor-network/-core-tor).
@@ -384,6 +389,7 @@ The Sybil attack in computer security is an attack wherein a reputation system i
 
 Tails is a "live" [operating system](#operating-system-os), that you can start on almost any computer from a DVD, USB stick, or SD card.
 It aims to preserve your privacy and anonymity.
+[Learn more about Tails](https://tails.boum.org/).
 
 ### The Tor Project
 
