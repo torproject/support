@@ -129,7 +129,7 @@ The ExoneraTor service maintains a database of [relay](#relay) [IP addresses](#i
 
 Mozilla Firefox is a free and open-source [web browser](#web-browser) developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.
 [Tor Browser](#tor-browser) is built from a modified version of Firefox ESR (Extended Support Release).
-Firefox is available for Windows, OS X and Linux [operating systems](#operating-system-os), with its mobile versions available for Android, and Firefox OS.
+Firefox is available for Windows, macOS and Linux [operating systems](#operating-system-os), with its mobile versions available for Android, and Firefox OS.
 
 ### firewall
 
@@ -292,7 +292,7 @@ The set of available [onion services](#onion-services). For example, you can say
 
 ### Operating System (OS)
 
-The main system software that manages computer hardware and software resources and provides common services for computer programs. The most used desktop operating systems are Windows, OS X and Linux. Android and iOS are the dominant mobile operating systems.
+The main system software that manages computer hardware and software resources and provides common services for computer programs. The most used desktop operating systems are Windows, macOS and Linux. Android and iOS are the dominant mobile operating systems.
 
 ### Orbot
 

@@ -70,15 +70,15 @@ This means that GnuPG verified that the key made that signature, but it's up to 
 The best method is to meet the developer in person and exchange key fingerprints.
 
 
-### Mac OS X and Linux
+### MacOS and Linux
 
 You need to have GnuPG installed before you can verify signatures.
-If you are using Mac OS X, you can install it from https://www.gpgtools.org/.
+If you are using macOS, you can install it from https://www.gpgtools.org/.
 If you are using Linux, then you probably already have GnuPG in your system, as most Linux distributions come with it preinstalled.
 
 The next step is to use GnuPG to import the key that signed your package.
 The Tor Browser team signs Tor Browser releases.
-Import its key (0x4E2C6E8793298290) by starting the terminal (under "Applications" in Mac OS X) and typing:
+Import its key (0x4E2C6E8793298290) by starting the terminal (under "Applications" in macOS) and typing:
 
     gpg --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290
 
@@ -97,7 +97,7 @@ You should see:
 To verify the signature of the package you downloaded, you will need to download the ".asc" file as well.
 Assuming you downloaded the package and its signature to your Downloads folder, run:
 
-#### For Mac OS X users:
+#### For macOS users:
 
     gpg --verify ~/Downloads/TorBrowser-8.0.8-osx64_en-US.dmg{.asc,}
 
