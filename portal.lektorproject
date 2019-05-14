@@ -2,7 +2,7 @@
 name = Support Portal
 url = https://support.torproject.org/
 url_style = relative
-locale = en_US
+locale = en
 
 [alternatives.bn]
 name = বাংলা ভাষা  (bn)
@@ -56,7 +56,7 @@ url_prefix = /it/
 locale = it
 
 [alternatives.pt-BR]
-name = Português (Brasil)
+name = Português Br. (pt-BR)
 url_prefix = /pt-BR/
 locale = pt-BR
 
