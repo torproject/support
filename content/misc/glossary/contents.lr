@@ -66,7 +66,7 @@ Captchas are a challenge-response test used in computing to determine whether th
 
 ### checksum
 
-Checksums are [hash](#hash)values of files. If you are downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
+Checksums are [hash](#hash)values of files. If you have downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
 
 ### circuit
 
