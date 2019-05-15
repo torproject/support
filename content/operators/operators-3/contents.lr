@@ -13,7 +13,7 @@ For the most in-depth resource on running a relay, see the <mark><a href="https:
 * Edit /usr/local/etc/tor/torrc to look like the following:
 
 
-    ## Set the nickname of this relay
+    ## A handle for your relay, so people don't have to refer to it by key.
     Nickname ididnteditheconfig
 
     ## Set your own contact info
