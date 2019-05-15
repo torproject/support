@@ -179,7 +179,7 @@ The [Hypertext Transfer Protocol (HTTP)](#http) is a channel used to send files 
 
 Hypertext Transfer Protocol Secure is the [encrypted](#encryption) version of the HTTP channel used to transfer files and data between devices on a network.
 
-### HTTPS-Everywhere
+### HTTPS Everywhere
 
 HTTPS Everywhere is a [Firefox](#firefox), Chrome, and Opera [extension](#add-on-extension-or-plugin) that makes [HTTPS](#https) the default on websites that have set up HTTPS but have not made it the default.
 HTTPS Everywhere is installed in [Tor Browser](#tor-browser).
