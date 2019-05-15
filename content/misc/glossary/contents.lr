@@ -169,7 +169,7 @@ Former name for "[onion services](#onion-services)", sometimes still in use in [
 
 ### hop
 
-In [Tor](#tor-/-tor-network/-core-tor) terms, a "hop" refers to [traffic](#traffic) moving between [relay](#relay) in a [circuit](#circuit). 
+In [Tor](#tor-/-tor-network/-core-tor) terms, a "hop" refers to [traffic](#traffic) moving between [relays](#relay) in a [circuit](#circuit).
 
 ### HTTP
 
