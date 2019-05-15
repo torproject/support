@@ -70,7 +70,7 @@ This means that GnuPG verified that the key made that signature, but it's up to 
 The best method is to meet the developer in person and exchange key fingerprints.
 
 
-### MacOS and Linux
+### macOS and Linux
 
 You need to have GnuPG installed before you can verify signatures.
 If you are using macOS, you can install it from https://www.gpgtools.org/.
