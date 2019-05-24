@@ -93,7 +93,7 @@ Cross-Site Scripting (XSS) allows an attacker to add malicious functionality or 
 
 ### cryptographic signature
 
-A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as sig files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. For more information about how you can verify signatures, please see https://www.torproject.org/docs/verifying-signatures.html.en.
+A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as signature files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. For more information about how you can verify signatures, please see [here](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 ## D
 

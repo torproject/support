@@ -15,6 +15,6 @@ When accessing a website that uses an onion service, Tor Browser will show at th
 
 <img class="" src="/static/images/onion-website.png" alt="Onion icon">
 
-And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+And if you're accessing a website with HTTPS and onion service, it will show an icon of a green onion and a padlock.
 
 <img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
