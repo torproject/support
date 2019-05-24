@@ -301,7 +301,7 @@ Orbot is a free [app](#app) from The Guardian Project that empowers other apps o
 
 ### Orfox
 
-Orfox is free [app](#app) from The Guardian Project built from the same source code as [Tor Browser](#tor-browser) which is built upon [Firefox](#firefox)), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android [operating system](#operating-system-os).
+Orfox is free [app](#app) from The Guardian Project built from the same source code as [Tor Browser](#tor-browser) which is built upon [Firefox](#firefox), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android [operating system](#operating-system-os).
 
 ## P
 
@@ -355,11 +355,6 @@ Scramblesuit is similar to obfs4 but has a different set of [bridges](#bridge).
 
 Elements used for offering dynamic/interactive content via websites.
 
-### Security Slider
-
-[Tor Browser](#tor-browser) includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. It is located in Torbutton’s “Privacy and Security Settings” menu.
-Increasing the level (Low, Medium-Low, Medium-High, High) of the Security Slider will disable or partially disable certain [web browser](#web-browser) features to protect against possible attacks.
-
 ### self-authenticating address
 
 The specialized address format of [onion addresses](#onion-address) is self-authenticating. The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onionsite](#onionsite). Ordinary internet domain names require site owners to trust and be approved by a Certificate Authority (CA) for this binding, and they are subject to hijack by the CA and typically by many other parties as well.
@@ -378,7 +373,7 @@ A single onion service is an onion service that can be configured for services t
 
 ### Stem
 
-Stem is a Python(programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with python, this is for you.
+Stem is a Python (programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with python, this is for you.
 
 ### Sybil attack
 
