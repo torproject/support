@@ -39,7 +39,7 @@ You should see:
 
     pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser&at;torproject.org>
+    uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
     sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
           Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
@@ -90,7 +90,7 @@ You should see:
 
     pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
           Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser&at;torproject.org>
+    uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
     sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
           Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
@@ -109,7 +109,7 @@ The output should say "Good signature":
 
     gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET
     gpg:                using RSA key 0xD1483FA6C3C07136
-    gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser&at;torproject.org>" [unknown]
+    gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
     gpg: WARNING: This key is not certified with a trusted signature!
     gpg:          There is no indication that the signature belongs to the owner.
     Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
