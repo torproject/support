@@ -27,21 +27,20 @@ Once it's installed, use GnuPG to import the key that signed your package.
 In order to verify the signature you will need to type a few commands in windows command-line, cmd.exe.
 
 The Tor Browser team signs Tor Browser releases.
-Import its key (0x4E2C6E8793298290) by starting cmd.exe and typing:
+Import its key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290) by starting cmd.exe and typing:
 
     gpg.exe --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
 
 After importing the key, you can verify that the fingerprint is correct:
 
-    gpg.exe --fingerprint 0x4E2C6E8793298290
+    gpg.exe --list-keys 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
 You should see:
 
-    pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
-          Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
-    sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
-          Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
+    pub   rsa4096 2014-12-15 [C] [expires: 2020-08-24]
+          EF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+    uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+    sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
 
 To verify the signature of the package you downloaded, you will need to download the ".asc" file as well.
 Assuming you downloaded the package and its signature to your Desktop, run:
@@ -78,21 +77,20 @@ If you are using Linux, then you probably already have GnuPG in your system, as 
 
 The next step is to use GnuPG to import the key that signed your package.
 The Tor Browser team signs Tor Browser releases.
-Import its key (0x4E2C6E8793298290) by starting the terminal (under "Applications" in macOS) and typing:
+Import its key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290) by starting the terminal (under "Applications" in macOS) and typing:
 
     gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
 
 After importing the key, you can verify that the fingerprint is correct:
 
-    gpg --fingerprint 0x4E2C6E8793298290
+    gpg --list-keys 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
 You should see:
 
-    pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]
-          Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-    uid                   [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
-    sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]
-          Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
+    pub   rsa4096 2014-12-15 [C] [expires: 2020-08-24]
+          EF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+    uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+    sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
 
 To verify the signature of the package you downloaded, you will need to download the ".asc" file as well.
 Assuming you downloaded the package and its signature to your Downloads folder, run:
