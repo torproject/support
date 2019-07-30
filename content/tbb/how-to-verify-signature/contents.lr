@@ -29,11 +29,11 @@ In order to verify the signature you will need to type a few commands in windows
 The Tor Browser team signs Tor Browser releases.
 Import its key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290) by starting cmd.exe and typing:
 
-    gpg.exe --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+    gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
 
 After importing the key, you can verify that the fingerprint is correct:
 
-    gpg.exe --list-keys 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+    gpg --list-keys 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
 You should see:
 
@@ -45,7 +45,7 @@ You should see:
 To verify the signature of the package you downloaded, you will need to download the ".asc" file as well.
 Assuming you downloaded the package and its signature to your Desktop, run:
 
-    gpg.exe --verify C:\\Users\\Alice\\Desktop\\torbrowser-install-win64-8.0.8_en-US.exe.asc C:\\Users\\Alice\\Desktop\\torbrowser-install-8.0.8_en-US.exe
+    gpg --verify C:\\Users\\Alice\\Desktop\\torbrowser-install-win64-8.0.8_en-US.exe.asc C:\\Users\\Alice\\Desktop\\torbrowser-install-8.0.8_en-US.exe
 
 Please substitute "Alice" with your own username.
 
@@ -65,7 +65,7 @@ Currently valid subkey fingerprints are:
 
 Notice that there is a warning because GnuPG does not know for certain that this OpenPGP certificate belongs to the Tor Browser Developers.
 The best way to be sure is to meet someone from Tor in person and get the fingerprint from them.
-Then you can certify it locally (`gpg.exe --lsign-key 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290`) so that GnuPG knows that you are confident in its validity.
+Then you can certify it locally (`gpg --lsign-key 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290`) so that GnuPG knows that you are confident in its validity.
 
 
 ### macOS and Linux
