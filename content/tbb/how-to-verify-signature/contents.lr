@@ -63,10 +63,9 @@ Currently valid subkey fingerprints are:
 
     1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
-
-Notice that there is a warning because you haven't assigned a trust index to this person.
-This means that GnuPG verified that the key made that signature, but it's up to you to decide if that key really belongs to the developer.
-The best method is to meet the developer in person and exchange key fingerprints.
+Notice that there is a warning because GnuPG does not know for certain that this OpenPGP certificate belongs to the Tor Browser Developers.
+The best way to be sure is to meet someone from Tor in person and get the fingerprint from them.
+Then you can certify it locally (`gpg.exe --lsign-key 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290`) so that GnuPG knows that you are confident in its validity.
 
 
 ### macOS and Linux
@@ -117,8 +116,8 @@ Currently valid subkey fingerprints are:
 
     1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
 
-Notice that there is a warning because you haven't assigned a trust index to this person.
-This means that GnuPG verified that the key made that signature, but it's up to you to decide if that key really belongs to the developer.
-The best method is to meet the developer in person and exchange key fingerprints.
+Notice that there is a warning because GnuPG does not know for certain that this OpenPGP certificate belongs to the Tor Browser Developers.
+The best way to be sure is to meet someone from Tor in person and get the fingerprint from them.
+Then you can certify it locally (`gpg --lsign-key 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290`) so that GnuPG knows that you are confident in its validity.
 
 See https://www.gnupg.org/documentation/ to learn more about GnuPG.
