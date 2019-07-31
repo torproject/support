@@ -24,13 +24,13 @@ First of all you need to have GnuPG installed before you can verify signatures.
 
 #### For Windows users:
 
-If you run Windows, download Gpg4win from https://gpg4win.org/download.html and run the installer.
+If you run Windows, [download Gpg4win](https://gpg4win.org/download.html) and run its installer.
 
-In order to verify the signature you will need to type a few commands in windows command-line, cmd.exe.
+In order to verify the signature you will need to type a few commands in windows command-line, `cmd.exe`.
 
 #### For macOS users:
 
-If you are using macOS, you can install GPGTools from https://www.gpgtools.org/.
+If you are using macOS, you can [install GPGTools](https://www.gpgtools.org).
 
 In order to verify the signature you will need to type a few commands in the Terminal (under "Applications").
 
@@ -87,4 +87,4 @@ The result of the command should produce something like this:
     gpgv --keyring ./tor.keyring tor-browser-linux64-8.5.4_en-US.tar.xz{.asc,}
 
 
-See https://www.gnupg.org/documentation/ to learn more about GnuPG.
+You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
