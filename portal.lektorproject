@@ -4,6 +4,17 @@ url = https://support.torproject.org/
 url_style = relative
 locale = en
 
+[alternatives.en]
+name = English (en)
+primary = yes
+url_prefix = /
+locale = en
+
+[alternatives.ar]
+name = عربية (ar)
+url_prefix = /ar/
+locale = ar
+
 [alternatives.bn]
 name = বাংলা ভাষা  (bn)
 url_prefix = /bn/
@@ -14,16 +25,20 @@ name = Catala
 url_prefix = /ca/
 locale = ca
 
+[alternatives.cs]
+name = česky (cs)
+url_prefix = /cs/
+locale = cs
+
 [alternatives.de]
 name = Deutsch
 url_prefix = /de/
 locale = de
 
-[alternatives.en]
-name = English
-primary = yes
-url_prefix = /
-locale = en
+[alternatives.el]
+name = Ελληνικά (el)
+url_prefix = /el/
+locale = el
 
 [alternatives.es]
 name = Español
@@ -45,20 +60,50 @@ name = Ivrit
 url_prefix = /he/
 locale = he
 
+[alternatives.hu]
+name = Magyar nyelv (hu)
+url_prefix = /hu/
+locale = hu
+
 [alternatives.id]
 name = Indonesia (id)
 url_prefix = /id/
 locale = id
+
+[alternatives.is]
+name = Íslenska (is)
+url_prefix = /is/
+locale = is
 
 [alternatives.it]
 name = Italiano (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ka]
+name = Georgian (ka)
+url_prefix = /ka/
+locale = ka
+
+[alternatives.pl]
+name = polski (pl)
+url_prefix = /pl/
+locale = pl
+
 [alternatives.pt-BR]
 name = Português Br. (pt-BR)
 url_prefix = /pt-BR/
 locale = pt-BR
+
+[alternatives.pt-PT]
+name = Português Port. (pt-PT)
+url_prefix = /pt-PT/
+locale = pt-PT
+
+[alternatives.ru]
+name = Русский (ru)
+url_prefix = /ru/
+locale = ru
 
 [alternatives.tr]
 name = Turkish
@@ -66,6 +111,6 @@ url_prefix = /tr/
 locale = tr
 
 [alternatives.zh-CN]
-name = 简体中文 (zh-CN)
+name = 简体字 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
