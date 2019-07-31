@@ -66,7 +66,7 @@ Captchas are a challenge-response test used in computing to determine whether th
 
 ### checksum
 
-Checksums are [hash](#hash)values of files. If you are downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
+Checksums are [hash](#hash)values of files. If you have downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
 
 ### circuit
 
@@ -93,7 +93,7 @@ Cross-Site Scripting (XSS) allows an attacker to add malicious functionality or 
 
 ### cryptographic signature
 
-A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as sig files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. For more information about how you can verify signatures, please see https://www.torproject.org/docs/verifying-signatures.html.en.
+A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as signature files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. For more information about how you can verify signatures, please see [here](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 ## D
 
@@ -129,7 +129,7 @@ The ExoneraTor service maintains a database of [relay](#relay) [IP addresses](#i
 
 Mozilla Firefox is a free and open-source [web browser](#web-browser) developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.
 [Tor Browser](#tor-browser) is built from a modified version of Firefox ESR (Extended Support Release).
-Firefox is available for Windows, OS X and Linux [operating systems](#operating-system-os), with its mobile versions available for Android, and Firefox OS.
+Firefox is available for Windows, macOS and Linux [operating systems](#operating-system-os), with its mobile version (fennec) available for Android.
 
 ### firewall
 
@@ -169,17 +169,17 @@ Former name for "[onion services](#onion-services)", sometimes still in use in [
 
 ### hop
 
-In [Tor](#tor-/-tor-network/-core-tor) terms, a "hop" refers to [traffic](#traffic) moving between [relay](#relay) in a [circuit](#circuit). 
+In [Tor](#tor-/-tor-network/-core-tor) terms, a "hop" refers to [traffic](#traffic) moving between [relays](#relay) in a [circuit](#circuit).
 
 ### HTTP
 
-The [Hypertext Transfer Protocol(HTTP)](#http) is a channel used to send files and data between devices on a network. Originally used to transfer only web pages, it is now relied upon to deliver many forms of data and communication. 
+The [Hypertext Transfer Protocol (HTTP)](#http) is a channel used to send files and data between devices on a network. Originally used to transfer only web pages, it is now relied upon to deliver many forms of data and communication.
 
 ### HTTPS
 
 Hypertext Transfer Protocol Secure is the [encrypted](#encryption) version of the HTTP channel used to transfer files and data between devices on a network.
 
-### HTTPS-Everywhere
+### HTTPS Everywhere
 
 HTTPS Everywhere is a [Firefox](#firefox), Chrome, and Opera [extension](#add-on-extension-or-plugin) that makes [HTTPS](#https) the default on websites that have set up HTTPS but have not made it the default.
 HTTPS Everywhere is installed in [Tor Browser](#tor-browser).
@@ -193,14 +193,15 @@ An Internet service provider (ISP) is an organization that provides services for
 ### IP address
 
 An Internet Protocol address (IP address) is a numerical (or alpha-numeric in the case of IPv6) label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication.
-IP addresses are the location address of the device, similar to the addresses of physical locations.
+The IP address is the location address of the device, similar to the addresses of physical locations.
 [Tor Browser](#tor-browser) obscures your location by making it look like your [traffic](#traffic) is coming from an IP address that is not your own.
 
 ## J
 
 ### JavaScript
 
-JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the [web browser](#web-browser), which might lead to deanonymization. The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Browser](#tor-browser) can be used to manage JavaScript on different websites.
+JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the [web browser](#web-browser), which might lead to deanonymization.
+The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Browser](#tor-browser) can be used to manage JavaScript on different websites.
 
 ## K
 
@@ -231,7 +232,7 @@ New Identity can also help if Tor Browser is having trouble connecting to a part
 
 ### New Tor Circuit for this Site
 
-This option is useful if the [exit](#exit) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new [Tor circuit](#circuit). Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+This option is useful if the [exit](#exit) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently active tab or window to be reloaded over a new [Tor circuit](#circuit). Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
 
 ### network censorship
 
@@ -292,7 +293,7 @@ The set of available [onion services](#onion-services). For example, you can say
 
 ### Operating System (OS)
 
-The main system software that manages computer hardware and software resources and provides common services for computer programs. The most used desktop operating systems are Windows, OS X and Linux. Android and iOS are the dominant mobile operating systems.
+The main system software that manages computer hardware and software resources and provides common services for computer programs. The most used desktop operating systems are Windows, macOS and Linux. Android and iOS are the dominant mobile operating systems.
 
 ### Orbot
 
@@ -300,7 +301,7 @@ Orbot is a free [app](#app) from The Guardian Project that empowers other apps o
 
 ### Orfox
 
-Orfox is free [app](#app) from The Guardian Project built from the same source code as [Tor Browser](#tor-browser) which is built upon [Firefox](#firefox)), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android [operating system](#operating-system-os).
+Orfox is free [app](#app) from The Guardian Project built from the same source code as [Tor Browser](#tor-browser) which is built upon [Firefox](#firefox), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android [operating system](#operating-system-os).
 
 ## P
 
@@ -354,11 +355,6 @@ Scramblesuit is similar to obfs4 but has a different set of [bridges](#bridge).
 
 Elements used for offering dynamic/interactive content via websites.
 
-### Security Slider
-
-[Tor Browser](#tor-browser) includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. It is located in Torbutton’s “Privacy and Security Settings” menu.
-Increasing the level (Low, Medium-Low, Medium-High, High) of the Security Slider will disable or partially disable certain [web browser](#web-browser) features to protect against possible attacks.
-
 ### self-authenticating address
 
 The specialized address format of [onion addresses](#onion-address) is self-authenticating. The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onionsite](#onionsite). Ordinary internet domain names require site owners to trust and be approved by a Certificate Authority (CA) for this binding, and they are subject to hijack by the CA and typically by many other parties as well.
@@ -377,7 +373,7 @@ A single onion service is an onion service that can be configured for services t
 
 ### Stem
 
-Stem is a Python(programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with python, this is for you.
+Stem is a Python (programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with python, this is for you.
 
 ### Sybil attack
 
