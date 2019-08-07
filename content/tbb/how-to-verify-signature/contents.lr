@@ -34,7 +34,7 @@ If you are using macOS, you can [install GPGTools](https://www.gpgtools.org).
 
 In order to verify the signature you will need to type a few commands in the Terminal (under "Applications").
 
-#### for GNU/Linux users:
+#### For GNU/Linux users:
 
 If you are using GNU/Linux, then you probably already have GnuPG in your system, as most GNU/Linux distributions come with it preinstalled.
 
@@ -88,3 +88,4 @@ The result of the command should produce something like this:
 
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
+
