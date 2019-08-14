@@ -76,7 +76,7 @@ The result of the command should produce something like this:
 
 #### For Windows users:
 
-    gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-8.5.4_en-US.exe.asc Downloads\torbrowser-win64-install-8.5.4_en-US.exe
+    gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-8.5.4_en-US.exe.asc Downloads\torbrowser-install-win64-8.5.4_en-US.exe
 
 #### For macOS users:
 
