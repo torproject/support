@@ -3,8 +3,8 @@ _model: question
 title: Which platforms is Tor Browser available for?
 ---
 description:
-Tor Browser is currently available on <a href="https://www.torproject.org/download/download-easy.html.en#windows">Windows</a>, <a href="https://www.torproject.org/download/download-easy.html.en#linux">Linux</a> and <a href="https://www.torproject.org/download/download-easy.html.en#mac">macOS</a>.
+Tor Browser is currently available on [Windows](https://www.torproject.org/download/download-easy.html.en#windows), [Linux](https://www.torproject.org/download/download-easy.html.en#linux) and [macOS](https://www.torproject.org/download/download-easy.html.en#mac).
 
-For <mark><a href="https://www.torproject.org/docs/android.html.en">Android</a></mark>, <mark><a href="https://guardianproject.info/">The Guardian Project</a></mark> maintains the Tor-powered apps <mark><a href="https://guardianproject.info/apps/orbot/">Orbot</a></mark> and <mark><a href="https://guardianproject.info/apps/orfox/">Orfox</a></mark>.
+There is a version of Tor Browser for [Android](https://www.torproject.org/download/#android) and [The Guardian Project](https://guardianproject.info) also provides the app [Orbot](https://play.google.com/store/apps/details?id=org.torproject.android) to route other apps on your Android device over the Tor network.
 
-There is no official version of Tor for iOS yet, though we recommend <a href="https://onionbrowser.com/">Onion Browser</a>.
+There is no official version of Tor for iOS yet, though we recommend [Onion Browser](https://onionbrowser.com).

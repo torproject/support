@@ -109,7 +109,7 @@ A special-purpose [relay](#relay) that maintains a list of currently-running rel
 
 ### encryption
 
-The process of taking a piece of data and scrambling it into a secret code that can only be read by the intended recipient. [Tor](#tor-/-tor-network/-core-tor) uses three layers of encryption in the Tor [circuit](#circuit); each [relay](#relay) decrypts one layer before passing the request on to the next relay. 
+The process of taking a piece of data and scrambling it into a secret code that can only be read by the intended recipient. [Tor](#tor-/-tor-network/-core-tor) uses three layers of encryption in the Tor [circuit](#circuit); each [relay](#relay) decrypts one layer before passing the request on to the next relay.
 
 ### end-to-end encrypted
 
@@ -209,7 +209,7 @@ The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Brows
 
 ### little-t tor
 
-"little-t tor" is one way of referring to tor the network daemon, as opposed to Tor Browser or Tor Project. 
+"little-t tor" is one way of referring to tor the network daemon, as opposed to Tor Browser or Tor Project.
 
 ## M
 
@@ -297,18 +297,20 @@ The main system software that manages computer hardware and software resources a
 
 ### Orbot
 
-Orbot is a free [app](#app) from The Guardian Project that empowers other apps on your device to use the internet more securely. Orbot uses [Tor](#tor-/-tor-network/-core-tor) to [encrypt](#encryption) your Internet [traffic](#traffic) and hide it by bouncing through a series of computers around the world.
+[Orbot](https://play.google.com/store/apps/details?id=org.torproject.android) is a free [app](#app) from The Guardian Project that empowers other apps on your device to use the internet more securely. Orbot uses [Tor](#tor-/-tor-network/-core-tor) to [encrypt](#encryption) your Internet [traffic](#traffic) and hide it by bouncing through a series of computers around the world.
 
 ### Orfox
 
-Orfox is free [app](#app) from The Guardian Project built from the same source code as [Tor Browser](#tor-browser) which is built upon [Firefox](#firefox), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android [operating system](#operating-system-os).
+Orfox is no longer maintained or supported.
+
+To browse the web using Tor on Android, please use the supported [Tor Browser for Android](https://www.torproject.org/download/#android) [app](#app) developed by the Tor Project.
 
 ## P
 
 ### pluggable transports
 
 Tools that [Tor](#tor-/-tor-network/-core-tor) can use to disguise the [traffic](#traffic) it sends out.
-This can be useful in situations where an [Internet Service Provider (ISP)](#internet-service-provider-isp) or other authority is actively blocking connections to the [Tor network](#tor-/-tor-network/-core-tor). 
+This can be useful in situations where an [Internet Service Provider (ISP)](#internet-service-provider-isp) or other authority is actively blocking connections to the [Tor network](#tor-/-tor-network/-core-tor).
 
 ### private key
 
@@ -331,7 +333,7 @@ A public-key cryptography system uses pairs of mathematical keys.
 The [public key](#public-key) can be disseminated widely while its belonging [private key](#private-key) is known only by the owner of the key pair.
 Any person can [encrypt](#encryption) a message using the public key of the receiver but only the receiver in possession of the private key is able to decrypt the message.
 Additionally, the private key can be used to create a [signature](#cryptographic-signature) to proof the identity of the creator of a message or other files.
-This signature can be verified by the public key. 
+This signature can be verified by the public key.
 
 ## Q
 
@@ -389,12 +391,12 @@ It aims to preserve your privacy and anonymity.
 
 ### The Tor Project
 
-The Tor Project can refer to either The Tor Project Inc, a 501(c)3 US nonprofit responsible for maintaining the Tor software, or the Tor Project community made up of thousands of volunteers from all over the world who help create Tor. 
+The Tor Project can refer to either The Tor Project Inc, a 501(c)3 US nonprofit responsible for maintaining the Tor software, or the Tor Project community made up of thousands of volunteers from all over the world who help create Tor.
 
 ### third-party tracking
 
 Most websites use numerous third-party services, including advertising and analytics trackers, which collect data about your [IP address](#ip-address), [web browser](#web-browser), [system](#operating-system-os) and your browsing behavior itself, all of which can link your activity across different sites.
-[Tor Browser](#tor-browser) prevents a lot of this activity from happening. 
+[Tor Browser](#tor-browser) prevents a lot of this activity from happening.
 
 ### Tor / Tor network/ Core Tor
 
@@ -448,7 +450,7 @@ The core [Tor](#tor-/-tor-network/-core-tor) configuration file.
 ### Torsocks
 
 Torsocks allows you to use many applications in a safer way with [Tor](#tor-/-tor-network/-core-tor).
-It ensures that DNS requests are handled safely and explicitly rejects any [traffic](#traffic) other than TCP from the application you're using. 
+It ensures that DNS requests are handled safely and explicitly rejects any [traffic](#traffic) other than TCP from the application you're using.
 
 ### Tor2Web
 
@@ -488,5 +490,3 @@ A current list of torproject.org mirrors is available at https://www.torproject.
 ## Y
 
 ## Z
-
-
