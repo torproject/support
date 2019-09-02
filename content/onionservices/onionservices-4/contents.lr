@@ -1,8 +1,8 @@
 _model: question
 ---
-title: Does the Tor Project run any onion services?
+title: Does the Tor Project run any Onion Services?
 ---
 seo_slug: tor-project-onion-services
 ---
 description:
-Yes! A list of our onion services is available at [onion.torproject.org](https://onion.torproject.org/).
+Yes! A list of our Onion Services is available at [onion.torproject.org](https://onion.torproject.org/).
