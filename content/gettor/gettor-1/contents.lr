@@ -7,3 +7,5 @@ seo_slug: how-to-download-tor-browser-if-torproject-org-is-blocked
 description: 
 If you can't download Tor Browser through our [website](https://www.torproject.org), you can get a copy of Tor Browser delivered to you via [GetTor](https://gettor.torproject.org/).
 GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations that are less likely to be censored, such as Dropbox, Google Drive, and GitHub.
+
+Or if that doesn't work, you can also manually select one of mirrors such as those from [the EFF](https://tor.eff.org), [the Chaos Computer Club](https://tor.ccc.de), or one of many more which you can find in our list [here.](https://2019.www.torproject.org/getinvolved/mirrors.html.en)
