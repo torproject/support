@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
 title: Who is the Guardian Project?
 ---
 seo_slug: who-is-the-guardian-project
 ---
-description: 
-The Guardian Project maintains Tor (and other privacy applications) on Android. More info can be found on the <mark><a href="https://guardianproject.info/">Guardian Project's website</a></mark>.
+description:
+The Guardian Project maintains Orbot (and other privacy applications) on Android. More info can be found on the [Guardian Project's website](https://guardianproject.info/).
