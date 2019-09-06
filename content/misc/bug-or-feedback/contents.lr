@@ -45,9 +45,13 @@ Learn how to connect to [OFTC servers](https://www.oftc.net/).
 For reporting issues or feedback using email lists, we recommend that you do on the one that is related to what you would like to report. 
 
 For feedback or issues related to Tor Browser use: [tbb-bugs](https://lists.torproject.org/cgi-bin/mailman/listinfo/tbb-bugs)
+
 For feedback or issues related to our websites, please use: [ux](https://lists.torproject.org/cgi-bin/mailman/listinfo/ux)
+
 For feedback or issues related to Tor network or other projects developed by Tor please use: [tor-dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev)
+
 For feedback or issues related to running a Tor relay please use: [tor-relays](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays)
+
 For feedback on content related to Tor Browser Manual or support website: [tor-community-team](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-community-team)
 ---
 seo_slug: bug-or-feedback
