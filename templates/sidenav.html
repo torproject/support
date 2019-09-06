@@ -18,9 +18,9 @@
 	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
       <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}
       {% if this.is_child_of(this.parent) %}
-        href="../../{{ item.path }}">
+        href="{{ '/' + item.control }}">
       {% else %}
-        href="{{ item.path }}">
+        href="{{ item.control|url }}">
       {% endif %}
       {{ _(item.label) }}</a>
 	</li>
@@ -39,9 +39,9 @@
       <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
         <a role="button" {% if this.is_child_of(item.path) %} class="nav-link active" {% else %} class="nav-link" {% endif %}
         {% if this.is_child_of(this.parent) %}
-          href="../../{{ item.path }}">
+          href="{{ '/' + item.control }}">
         {% else %}
-          href="{{ item.path }}">
+          href="{{ item.control|url }}">
         {% endif %}
         {{ _(item.label) }}</a>
       </li>
