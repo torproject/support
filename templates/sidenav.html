@@ -18,7 +18,8 @@
 	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
       <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}
       {% if this.is_child_of(this.parent) %}
-        href="{{ '/' + item.control }}">
+        {% set control_path = '/' + item.control %}
+        href="{{ control_path|url(alt=this.alt) }}">
       {% else %}
         href="{{ item.control|url }}">
       {% endif %}
@@ -39,7 +40,8 @@
       <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
         <a role="button" {% if this.is_child_of(item.path) %} class="nav-link active" {% else %} class="nav-link" {% endif %}
         {% if this.is_child_of(this.parent) %}
-          href="{{ '/' + item.control }}">
+          {% set control_path = '/' + item.control %}
+          href="{{ control_path|url(alt=this.alt) }}">
         {% else %}
           href="{{ item.control|url }}">
         {% endif %}
