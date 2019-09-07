@@ -15,11 +15,6 @@ A green onion means:
 A green onion with a lock means:
 - The Onion Service is served over HTTPS with a CA-Issued certificate.
 
-![Image of a green onion with a warning triangle](/static/images/green-onion-with-warning.png)
-A green onion with a warning triangle means:
-- The Onion Service is served over HTTPS with a CA-Issued certificate.
-- The webpage contains subresources served over HTTPS.
-
 ![Image of a grey onion with a red slash](/static/images/grey-onion-with-red-slash.png)
 A grey onion with a red slash means:
 - The Onion Service is served over HTTPS with a self-signed or CA-Issued certificate.
