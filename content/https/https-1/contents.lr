@@ -18,12 +18,4 @@ If the site you are visiting uses HTTPS, then the traffic leaving your exit rela
       </div>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="card">
-      <img class="card-img-top" src="/static/images/image6.png" alt="https">
-      <div class="card-body">
-        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
-      </div>
-    </div>
-  </div>
 </div>
