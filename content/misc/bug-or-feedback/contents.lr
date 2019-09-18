@@ -38,7 +38,7 @@ You can always leave comments on the blog post related to the issue or feedback 
 
 You can find us in the #tor channel on OFTC to give us feedback or report bugs/issues. We may not respond right away, but we do check the backlog and will get back to you when we can.
 
-Learn how to connect to [OFTC servers](https://www.oftc.net/).
+Learn how to connect to [OFTC servers](/get-in-touch/irc-help).
 
 #### Email Lists
 
@@ -52,6 +52,6 @@ For feedback or issues related to Tor network or other projects developed by Tor
 
 For feedback or issues related to running a Tor relay please use: [tor-relays](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays)
 
-For feedback on content related to Tor Browser Manual or support website: [tor-community-team](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-community-team)
+For feedback on content related to Tor Browser Manual or Support website: [tor-community-team](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-community-team)
 ---
 seo_slug: bug-or-feedback
