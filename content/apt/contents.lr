@@ -1,8 +1,7 @@
 _model: topic
 ---
-title: Apt
+title: Debian Repository
 ---
 seo_slug: apt
 ---
-key:14
----
+key: 14
