@@ -7,4 +7,4 @@ seo_slug: tor-ubuntu
 description: 
 **No.** Do not use the packages in Ubuntu's universe. 
 In the past they have not reliably been updated. That means you could be missing stability and security fixes. 
-Please, use [Tor Debian repository](/apt/deb-repo).
+Please, use [Tor Debian repository](/apt/apt-1).
