@@ -1,5 +1,0 @@
-title: Can I use tor from Ubuntu's repository?
----
-description: **No.** Do not use the packages in Ubuntu's universe. In the past they have not reliably been updated. That means you could be missing stability and security fixes. Please, use [Tor Debian repository](/misc/tor-deb-repository/).
----
-seo_slug: 
