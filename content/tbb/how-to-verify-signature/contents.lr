@@ -67,13 +67,6 @@ To verify the signature of the package you downloaded, you will need to download
 
 The examples below assume that you downloaded these two files to your "Downloads" folder.
 
-The result of the command should produce something like this:
-
-    gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
-    gpgv:                using RSA key EB774491D9FF06E2
-    gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
-
-
 #### For Windows users:
 
     gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-8.5.5_en-US.exe.asc Downloads\torbrowser-install-win64-8.5.5_en-US.exe
@@ -86,6 +79,13 @@ The result of the command should produce something like this:
 
     gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-8.5.5_en-US.tar.xz{.asc,}
 
+
+The result of the command should produce something like this:
+
+    gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
+    gpgv:                using RSA key EB774491D9FF06E2
+    gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
+    
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
 
