@@ -4,6 +4,8 @@ title: Can I use APT over Tor?
 ---
 seo_slug: apt-over-tor
 ---
+_slug: apt-over-tor
+---
 description:
 Yes, `deb.torproject.org` is also served through via an Onion Service: http://sdscoq7snqtznauu.onion/
 
