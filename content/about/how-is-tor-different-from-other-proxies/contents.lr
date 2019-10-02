@@ -1,5 +1,7 @@
 title: How is Tor different from other proxies?
 ---
+key: 4
+---
 description:
 
 A typical proxy provider sets up a server somewhere on the Internet and allows you to use it to relay your traffic.
