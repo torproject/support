@@ -1,5 +1,7 @@
 title: Does Tor remove personal information from the data my application sends?
 ---
+key: 3
+---
 description:
 No, it doesn't.
 You need to use a separate program that understands your application and protocol and knows how to clean or "scrub" the data it sends.
