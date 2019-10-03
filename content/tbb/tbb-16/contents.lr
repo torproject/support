@@ -6,6 +6,6 @@ seo_slug: pick-which-country-i-am-exiting
 ---
 description:
 Modifying the way that Tor creates its circuits is strongly discouraged.
-You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can compromise your anonymity.
+You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry/exit nodes can compromise your anonymity.
 If the outcome you want is simply to be able to access resources that are only available in one country, you may want to consider using a VPN instead of using Tor.
 Please note that VPNs do not have the same privacy properties as Tor, but they will help solve some geolocation restriction issues.
