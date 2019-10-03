@@ -1,0 +1,7 @@
+title: Can I run a Tor relay using a dynamic IP address?
+---
+description:
+
+Tor can handle relays with dynamic IP addresses just fine. Just leave the "Address" line in your [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) blank, and Tor will guess. 
+---
+seo_slug: relay-with-dynamic-ip
