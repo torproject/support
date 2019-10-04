@@ -1,0 +1,8 @@
+title: What is the BadExit flag?
+---
+description:
+
+When an exit is misconfigured or malicious it's assigned the BadExit flag. This tells Tor to avoid exiting through that relay. In effect, relays with this flag become non-exits.
+If you got this flag then we either discovered a problem or suspicious activity when routing traffic through your exit and weren't able to contact you. Please reach out to the [bad-relays team](https://community.torproject.org/relay/community-resources/bad-relays/) so we can sort out the issue. 
+---
+seo_slug: bad-exit
