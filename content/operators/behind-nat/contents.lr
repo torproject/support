@@ -1,0 +1,15 @@
+title: I'm behind a NAT/Firewall.
+---
+description:
+
+See [portforward.com](http://portforward.com/) for directions on how to port forward with your NAT/router device.
+
+If your relay is running on a internal net you need to setup port forwarding. Forwarding TCP connections is system dependent but the firewalled-clients FAQ entry offers some examples on how to do this.
+
+Also, here's an example of how you would do this on GNU/Linux if you're using iptables:
+
+    /sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 9001 -j ACCEPT
+
+You may have to change "eth0" if you have a different external interface (the one connected to the Internet). Chances are you have only one (except the loopback) so it shouldn't be too hard to figure out.
+---
+seo_slug: behind-nat

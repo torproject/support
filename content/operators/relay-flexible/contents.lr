@@ -1,0 +1,11 @@
+title: How stable does my relay need to be?
+---
+description:
+
+We aim to make setting up a Tor relay easy and convenient:
+
+* It's fine if the relay goes offline sometimes. The directories notice this quickly and stop advertising the relay. Just try to make sure it's not too often, since connections using the relay when it disconnects will break.
+* Each Tor relay has an [exit policy](https://2019.www.torproject.org/docs/faq.html.en#ExitPolicies) that specifies what sort of outbound connections are allowed or refused from that relay. If you are uncomfortable allowing people to exit from your relay, you can set it up to only allow connections to other Tor relays.
+* Your relay will passively estimate and advertise its recent bandwidth capacity, so high-bandwidth relays will attract more users than low-bandwidth ones. Therefore having low-bandwidth relays is useful too.
+---
+seo_slug: how-stable-does-my-relay-need-to-be
