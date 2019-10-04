@@ -1,0 +1,38 @@
+title: How can I limit the total amount of bandwidth used by my Tor relay?
+---
+description:
+
+The accounting options in the torrc file allow you to specify the maximum amount of bytes your relay uses for a time period.
+
+```
+    AccountingStart day week month [day] HH:MM
+```
+
+This specifies when the accounting should reset. For instance, to setup a total amount of bytes served for a week (that resets every Wednesday at 10:00am), you would use:
+
+```
+    AccountingStart week 3 10:00
+    AccountingMax 500 GBytes
+```
+
+This specifies the maximum amount of data your relay will send during an accounting period, and the maximum amount of data your relay will receive during an account period. When the accounting period resets (from AccountingStart), then the counters for AccountingMax are reset to 0.
+
+Example: Let's say you want to allow 50 GB of traffic every day in each direction and the accounting should reset at noon each day:
+
+```
+    AccountingStart day 12:00
+    AccountingMax 50 GBytes
+```
+
+Note that your relay won't wake up exactly at the beginning of each accounting period. It will keep track of how quickly it used its quota in the last period, and choose a random point in the new interval to wake up. This way we avoid having hundreds of relays working at the beginning of each month but none still up by the end.
+
+If you have only a small amount of bandwidth to donate compared to your connection speed, we recommend you use daily accounting, so you don't end up using your entire monthly quota in the first day. Just divide your monthly amount by 30. You might also consider rate limiting to spread your usefulness over more of the day: if you want to offer X GB in each direction, you could set your RelayBandwidthRate to 20*X KBytes. For example, if you have 50 GB to offer each way, you might set your RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful for at least half of each day.
+
+```
+    AccountingStart day 0:00
+    AccountingMax 50 GBytes
+    RelayBandwidthRate 1000 KBytes
+    RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average
+```
+---
+seo_slug: limit-total-bandwidth
