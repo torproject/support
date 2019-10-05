@@ -5,8 +5,10 @@ title: How can I share files anonymously through Tor?
 seo_slug: share-files-anonymously-through-tor
 ---
 description:
-For sharing files over Tor, <mark><a href="https://onionshare.org/">OnionShare</a></mark> is a good option. OnionShare is temporarily/stealthily made available as a Tor Onion Service when a web server is started. Files of any size can be securely shared. Because you host the files on your computer and use no third-party software, you don't have to worry about prying eyes.  
+For sharing files over Tor, [OnionShare](https://onionshare.org/) is a good option. 
+OnionShare is temporarily/stealthily made available as a Tor Onion Service when a web server is started.
+Files of any size can be securely shared. Because you host the files on your computer and use no third-party software, you don't have to worry about prying eyes.  
 
 Many exit nodes are configured to block certain types of file sharing traffic, such as BitTorrent.
-BitTorrent in particular is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+BitTorrent in particular is [not anonymous over Tor.](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)
 
