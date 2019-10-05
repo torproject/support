@@ -1,0 +1,15 @@
+_model: question
+---
+title: What's the difference between Tor and DoH (DNS over HTTPS)?
+---
+seo_slug: difference-between-tor-doh
+---
+description:
+DNS over HTTPS (DoH) is a protocol for performing remote DNS resolution via the HTTPS protocol. A goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data by man-in-the-middle attacks by using the HTTPS protocol to encrypt the data between the DoH client and the DoH-base DNS resolver. Encryption by itself does not protect privacy, encryption is simply a method to obfuscate the data.
+DoH specifies how to send and receive DNS queries over HTTPS. Server configuration is performed out of band, and the connection with the resolver is secured as any other HTTPS traffic. DoH is mostly targeted at web browsers and does not have the potential for improving the privacy properties of transactions between recursive resolvers and authoritative nameservers.
+One possible benefit from a user standpoint is that since DNS queries can be intermingled with normal web traffic, DoH might prove more difficult to block.
+
+Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as relays) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+It works on the concept of Onion routing method in which the user data is first encrypted and then transferred through different relays present in the Tor network, thus creating a multi-layered encryption (layers like an onion), thereby keeping the identity of the user is safe.
+The mechanism of DoH should not be seen as a  replacement for other privacy implementations of Onion routing such as that in the Tor software.
+
