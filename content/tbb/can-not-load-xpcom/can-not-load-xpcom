@@ -1,0 +1,11 @@
+_model: question
+---
+title: When I start Tor Browser I get an error message: "Cannot load XPCOM"
+---
+seo_slug: can-not-load-xpcom-tor-browser
+---
+description:
+XPCOM problem is specifically caused by the [Webroot SecureAnywhere Antivirus software](https://www.webroot.com/us/en/business). 
+From the Webroot control panel, go to Identity Protection → Application Protection, and set all the files in your Tor Browser folder to 'Allow'. 
+We encourage affected Webroot users to contact [Webroot support](https://www.webroot.com/us/en/support) about this issue or ask your question 
+in the [Webroot Forum](https://community.webroot.com/). 
