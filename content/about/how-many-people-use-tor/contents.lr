@@ -1,0 +1,14 @@
+title: How many people use Tor? How many relays or exit nodes are there?
+---
+key: 8
+---
+description:
+
+The [Tor](https://www.torproject.org/) network is one of the largest deployed anonymity networks,
+consisting of [thousands](https://metrics.torproject.org/networksize.html) of volunteer-run 
+relays and [millions](https://metrics.torproject.org/userstats-relay-country.html) of users.
+
+You can get the exact numbers of users and nodes of the Tor
+ network by visiting [Tor Metrics](https://metrics.torproject.org/).
+
+_slug: how-many-people-use-tor
