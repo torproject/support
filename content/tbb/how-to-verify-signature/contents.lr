@@ -85,7 +85,12 @@ The result of the command should produce something like this:
     gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
     gpgv:                using RSA key EB774491D9FF06E2
     gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
-    
+
+
+If you encounter errors you cannot fix, feel free to [download and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Alternatively, may enter the following into the terminal window:
+
+    curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
+
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
 
