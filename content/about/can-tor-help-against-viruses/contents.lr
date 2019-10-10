@@ -1,0 +1,11 @@
+_model: question
+---
+title: Can Tor help you against viruses?
+---
+seo_slug: use-tor-against-viruses
+---
+description:
+Tor is not an Anti-virus/Malware Software.
+It is an anonymity network,and you can use the Tor browser to avoid getting tracked on the internet.
+If you use it to gain access to a web page full of malware,and your browser and OS are vulnerable to the malware on that page then yes you will be affected.
+In some circumstances,Tor may aid security from viruses but that's not the reason why you should use it. If you want anonymity and a high level of privacy,then use Tor.
