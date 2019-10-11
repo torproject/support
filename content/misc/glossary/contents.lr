@@ -440,8 +440,8 @@ This [extension](#add-on-extension-or-plugin) configures Thunderbird to make con
 
 ### Torbutton
 
-A button marked by a little green onion to the left of the URL bar.
-Its menu offers you "[New Identity](#new-identity)", "Security Settings..." and "Check for [Tor Browser](#tor-browser) Update..." options.
+A button marked by a little gray onion to the right of the URL bar.
+Its menu offers you "[New Identity](#new-identity)", "Tor Network Settings..." and "Check for [Tor Browser](#tor-browser) Update..." options.
 
 ### torrc
 
