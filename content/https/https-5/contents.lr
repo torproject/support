@@ -1,0 +1,12 @@
+_model: question
+---
+title: Why should you use Tor instead of your regular browser with DoH?
+---
+seo_slug: browser-with-doh-or-tor
+---
+description:
+DoH doesn't guarantee actual privacy. 
+
+Centralised DoH is currently a privacy net negative since anyone that could see your metadata can still see your metadata when DNS is moved to a third party. Additionally, that third party then gets a complete log per device of all DNS queries, in a way that can even be tracked across IP addresses.
+
+Tor browser does not deploy DoH and Users who want to hide their web traffic should still look at Tor as a safer solution.

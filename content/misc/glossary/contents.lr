@@ -105,6 +105,14 @@ A daemon is a computer program that runs as a background process, rather than be
 
 A special-purpose [relay](#relay) that maintains a list of currently-running relays and periodically publishes a [consensus](#consensus) together with the other directory authorities.
 
+### DoH
+
+DNS over HTTPS (DoH) is an internet security protocol which communicates domain name server information in an encrypted way over HTTPS connections.
+A goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data by man-in-the-middle attacks by using the HTTPS protocol to encrypt the data between the DoH client and the DoH-base DNS resolver. 
+Encryption by itself does not protect privacy, encryption is simply a method to obfuscate the data.
+DoH specifies how to send and receive DNS queries over HTTPS. Server configuration is performed out of band, and the connection with the resolver is secured as any other HTTPS traffic. DoH is mostly targeted at web browsers and does not have the potential for improving the privacy properties of transactions between recursive resolvers and authoritative nameservers.
+One possible benefit from a user standpoint is that since DNS queries can be intermingled with normal web traffic, DoH might prove more difficult to block.
+
 ## E
 
 ### encryption
