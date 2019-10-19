@@ -4,9 +4,16 @@ description:
 
 If your Tor relay is using more memory than you'd like, here are some tips for reducing its footprint:
 
-* If you're on Linux, you may be encountering memory fragmentation bugs in glibc's malloc implementation. That is, when Tor releases memory back to the system, the pieces of memory are fragmented so they're hard to reuse. The Tor tarball ships with OpenBSD's malloc implementation, which doesn't have as many fragmentation bugs (but the tradeoff is higher CPU load). You can tell Tor to use this malloc implementation instead: ./configure --enable-openbsd-malloc
-* If you're running a fast relay, meaning you have many TLS connections open, you are probably losing a lot of memory to OpenSSL's internal buffers (38KB+ per socket). We've patched OpenSSL to [release unused buffer memory more aggressively](https://lists.torproject.org/pipermail/tor-dev/2008-June/001519.html). If you update to OpenSSL 1.0.0 or newer, Tor's build process will automatically recognize and use this feature.
-* If you still can't handle the memory load, consider reducing the amount of bandwidth your relay advertises. Advertising less bandwidth means you will attract fewer users, so your relay shouldn't grow as large. See the MaxAdvertisedBandwidth option in the man page.
+* If you're on Linux, you may be encountering memory fragmentation bugs in glibc's malloc implementation.
+  That is, when Tor releases memory back to the system, the pieces of memory are fragmented so they're hard to reuse.
+  The Tor tarball ships with OpenBSD's malloc implementation, which doesn't have as many fragmentation bugs (but the tradeoff is higher CPU load).
+  You can tell Tor to use this malloc implementation instead: `./configure --enable-openbsd-malloc`.
+* If you're running a fast relay, meaning you have many TLS connections open, you are probably losing a lot of memory to OpenSSL's internal buffers (38KB+ per socket).
+  We've patched OpenSSL to [release unused buffer memory more aggressively](https://lists.torproject.org/pipermail/tor-dev/2008-June/001519.html).
+  If you update to OpenSSL 1.0.0 or newer, Tor's build process will automatically recognize and use this feature.
+* If you still can't handle the memory load, consider reducing the amount of bandwidth your relay advertises.
+  Advertising less bandwidth means you will attract fewer users, so your relay shouldn't grow as large.
+  See the `MaxAdvertisedBandwidth` option in the man page.
 
 All of this said, fast Tor relays do use a lot of ram. It is not unusual for a fast exit relay to use 500-1000 MB of memory. 
 ---

@@ -4,10 +4,10 @@ description:
 
 If you're using Debian or Ubuntu especially, there are a number of benefits to installing Tor from the [Tor Project's repository](https://support.torproject.org/apt/tor-deb-repo/).
 
-* Your ulimit -n gets set to 32768  high enough for Tor to keep open all the connections it needs.
+* Your `ulimit -n` gets set to 32768  high enough for Tor to keep open all the connections it needs.
 * A user profile is created just for Tor, so Tor doesn't need to run as root.
 * An init script is included so that Tor runs at boot.
-* Tor runs with --verify-config, so that most problems with your config file get caught.
+* Tor runs with `--verify-config`, so that most problems with your config file get caught.
 * Tor can bind to low level ports, then drop privileges.
 ---
 seo_slug: packaged-tor
