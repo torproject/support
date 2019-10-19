@@ -2,16 +2,19 @@ title: Why can I not browse anymore after limiting bandwidth on my Tor relay?
 ---
 description:
 
-The parameters assigned in the [AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth) and [BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping) apply to both client and relay functions of the Tor process. Thus you may find that you are unable to browse as soon as your Tor goes into hibernation, signaled by this entry in the log:
+The parameters assigned in the [AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth) and [BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping) apply to both client and relay functions of the Tor process.
+Thus you may find that you are unable to browse as soon as your Tor goes into hibernation, signaled by this entry in the log:
 ```
 Bandwidth soft limit reached; commencing hibernation. No new
     connections will be accepted
 ```
-The solution is to run two Tor processes - one relay and one client, each with its own config. One way to do this (if you are starting from a working relay setup) is as follows:
+The solution is to run two Tor processes - one relay and one client, each with its own config.
+One way to do this (if you are starting from a working relay setup) is as follows:
 
 * In the relay Tor torrc file, simply set the SocksPort to 0.
-* Create a new client torrc file from the torrc.sample and ensure it uses a different log file from the relay. One naming convention may be torrc.client and torrc.relay.
-* Modify the Tor client and relay startup scripts to include '-f /path/to/correct/torrc'.
-* In Linux/BSD/Mac OS X, changing the startup scripts to Tor.client and Tor.relay may make separation of configs easier.
+* Create a new client torrc file from the torrc.sample and ensure it uses a different log file from the relay.
+  One naming convention may be torrc.client and torrc.relay.
+* Modify the Tor client and relay startup scripts to include `-f /path/to/correct/torrc`.
+* In Linux/BSD/Mac OS X, changing the startup scripts to `Tor.client` and `Tor.relay` may make separation of configs easier.
 ---
 seo_slug: hibernation
