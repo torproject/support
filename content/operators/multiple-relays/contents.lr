@@ -1,16 +1,17 @@
-title: I want to run more than one relay.
+title: I want to run more than one Tor relay.
 ---
 description:
 
-Great. If you want to run several relays to donate more to the network, we're happy with that. But please don't run more than a few dozen on the same network, since part of the goal of the Tor network is dispersal and diversity.
+Great. If you want to run several relays to donate more to the network, we're happy with that.
+But please don't run more than a few dozen on the same network, since part of the goal of the Tor network is dispersal and diversity.
 
 If you do decide to run more than one relay, please set the "MyFamily" config option in the torrc of each relay, listing all the relays (comma-separated) that are under your control:
 
     MyFamily $fingerprint1,$fingerprint2,$fingerprint3
-    
 
 where each fingerprint is the 40 character identity fingerprint (without spaces).
 
-That way clients will know to avoid using more than one of your relays in a single circuit. You should set MyFamily if you have administrative control of the computers or of their network, even if they're not all in the same geographic location.
+That way, Tor clients will know to avoid using more than one of your relays in a single circuit.
+You should set MyFamily if you have administrative control of the computers or of their network, even if they're not all in the same geographic location.
 ---
 seo_slug: multiple-relays
