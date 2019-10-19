@@ -4,13 +4,20 @@ description:
 
 There are two options you can add to your torrc file:
 
-**BandwidthRate** is the maximum long-term bandwidth allowed (bytes per second). For example, you might want to choose "BandwidthRate 10 MBytes" for 10 megabytes per second (a fast connection), or "BandwidthRate 500 KBytes" for 500 kilobytes per second (a decent cable connection). The minimum BandwidthRate setting is 75 kilobytes per second.
+**BandwidthRate** is the maximum long-term bandwidth allowed (bytes per second).
+For example, you might want to choose "BandwidthRate 10 MBytes" for 10 megabytes per second (a fast connection), or "BandwidthRate 500 KBytes" for 500 kilobytes per second (a decent cable connection).
+The minimum BandwidthRate setting is 75 kilobytes per second.
 
-**BandwidthBurst** is a pool of bytes used to fulfill requests during short periods of traffic above BandwidthRate but still keeps the average over a long period to BandwidthRate. A low Rate but a high Burst enforces a long-term average while still allowing more traffic during peak times if the average hasn't been reached lately. For example, if you choose "BandwidthBurst 500 KBytes" and also use that for your BandwidthRate, then you will never use more than 500 kilobytes per second; but if you choose a higher BandwidthBurst (like 5 MBytes), it will allow more bytes through until the pool is empty.
+**BandwidthBurst** is a pool of bytes used to fulfill requests during short periods of traffic above BandwidthRate but still keeps the average over a long period to BandwidthRate.
+A low Rate but a high Burst enforces a long-term average while still allowing more traffic during peak times if the average hasn't been reached lately.
+For example, if you choose "BandwidthBurst 500 KBytes" and also use that for your BandwidthRate, then you will never use more than 500 kilobytes per second; but if you choose a higher BandwidthBurst (like 5 MBytes), it will allow more bytes through until the pool is empty.
 
-If you have an asymmetric connection (upload less than download) such as a cable modem, you should set BandwidthRate to less than your smaller bandwidth (Usually that's the upload bandwidth). (Otherwise, you could drop many packets during periods of maximum bandwidth usage - you may need to experiment with which values make your connection comfortable.) Then set BandwidthBurst to the same as BandwidthRate.
+If you have an asymmetric connection (upload less than download) such as a cable modem, you should set BandwidthRate to less than your smaller bandwidth (Usually that's the upload bandwidth).
+Otherwise, you could drop many packets during periods of maximum bandwidth usage - you may need to experiment with which values make your connection comfortable.
+Then set BandwidthBurst to the same as BandwidthRate.
 
-Linux-based Tor nodes have another option at their disposal: they can prioritize Tor traffic below other traffic on their machine, so that their own personal traffic is not impacted by Tor load. A [script to do this](https://gitweb.torproject.org/tor.git/tree/contrib/operator-tools/linux-tor-prio.sh) can be found in the Tor source distribution's contrib directory.
+Linux-based Tor nodes have another option at their disposal: they can prioritize Tor traffic below other traffic on their machine, so that their own personal traffic is not impacted by Tor load.
+A [script to do this](https://gitweb.torproject.org/tor.git/tree/contrib/operator-tools/linux-tor-prio.sh) can be found in the Tor source distribution's contrib directory.
 
 Additionally, there are hibernation options where you can tell Tor to only serve a certain amount of bandwidth per time period (such as 100 GB per month). These are covered in the hibernation entry below.
 
