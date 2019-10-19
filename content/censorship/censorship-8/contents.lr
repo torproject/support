@@ -1,0 +1,13 @@
+_model: question 
+---
+title: Should I use bridges or not?
+---
+seo_slug: should-i-use-bridge-or-not
+---
+description:
+
+Under normal circumstances, Internet Service Providers (ISPs), governments and other entities can know you are using Tor. 
+By getting a list of Tor relays, they can then block access to them. 
+When using a bridge, it is harder to identify you as a Tor user. 
+Because bridges are not listed on Tor's public directory, it is difficult to know their IP Addresses. 
+To connect to a bridge, see [this guide](https://tb-manual.torproject.org/bridges/). 
