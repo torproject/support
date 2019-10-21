@@ -9,5 +9,6 @@ We configure NoScript to allow JavaScript by default in Tor Browser because many
 Most users would give up on Tor entirely if we disabled JavaScript by default because it would cause so many problems for them.
 Ultimately, we want to make Tor Browser as secure as possible while also making it usable for the majority of people, so for now, that means leaving JavaScript enabled by default.
 
-For users who want to have JavaScript disabled on all HTTP sites by default, we recommend changing your Tor Browser's security slider (in the Tor Browser Onion menu under "Security Settings").
-The standard level allows JavaScript, but the safer and safest levels both block JavaScript on HTTP sites.
+For users who want to have JavaScript disabled on all HTTP sites by default, we recommend changing your Tor Browser's "Security Level" option. 
+This can be done by navigating the Security icon (the small gray shield at the top-right of the screen), then clicking "Advanced Security Settings...".
+The "Standard" level allows JavaScript, but the "Safer" and "Safest" levels both block JavaScript on HTTP sites.
