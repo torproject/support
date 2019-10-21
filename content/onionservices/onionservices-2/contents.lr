@@ -7,14 +7,14 @@ seo_slug: what-is-a-dot-onion
 description:
 Onion services allow people to browse but also to publish anonymously, including publishing anonymous websites.
 
-Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with <mark><a href="https://securedrop.org/">SecureDrop</a></mark> or <mark><a href="https://onionshare.org/">OnionShare</a></mark>, safer software updates, and more secure ways to reach popular websites like <mark><a href="https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/">Facebook</a></mark>.
+Onion services are also relied on for metadata-free chat and file sharing, safer interaction between journalists and their sources like with [SecureDrop](https://securedrop.org/) or [OnionShare](https://onionshare.org/), safer software updates, and more secure ways to reach popular websites like [Facebook](https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237/).
 
 These services use the special-use top level domain (TLD) .onion (instead of .com, .net, .org, etc..) and are only accessible through the Tor network.
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
 
-<img class="" src="/static/images/onion-website.png" alt="Onion icon">
+![Onion icon](/static/images/onion-website.png)
 
 And if you're accessing a website with HTTPS and onion service, it will show an icon of a green onion and a padlock.
 
-<img class="" src="/static/images/padlock-onion.png" alt="Green onion with a padlock">
+![Green onion with a padlock](/static/images/padlock-onion.png)
