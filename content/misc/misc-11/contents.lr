@@ -9,4 +9,4 @@ Right now the path length is hard-coded at 3 plus the number of nodes in your pa
 That is, in normal cases it's 3, but for example if you're accessing an onion service or a ".exit" address it could be more.
 
 We don't want to encourage people to use paths longer than this as it increases load on the network without (as far as we can tell) providing any more security.
-Also, using paths longer than 3 could harm anonymity, first because it makes<mark><a href="https://www.freehaven.net/anonbib/#ccs07-doa">denial of security</a></mark> attacks easier, and second because it could act as an identifier if only a small number of users have the same path length as you.
+Also, using paths longer than 3 could harm anonymity, first because it makes [denial of security](https://www.freehaven.net/anonbib/#ccs07-doa) attacks easier, and second because it could act as an identifier if only a small number of users have the same path length as you.
