@@ -8,4 +8,4 @@ description:
 
 Generally speaking, we don't recommend using a VPN with Tor unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy.
 
-You can find more detailed information about Tor + VPN at <mark><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN">our wiki</a></mark>.
+You can find more detailed information about Tor + VPN at [our wiki](https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN).
