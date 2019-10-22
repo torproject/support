@@ -1,10 +1,10 @@
-_model: question
----
 title: Should I install a new add-on or extension in Tor Browser, like AdBlock Plus or uBlock Origin?
 ---
-seo_slug: installing-add-on-extensions-tor-browser
+key: 25
 ---
+
 description:
+
 It's strongly discouraged to install new add-ons in Tor Browser, because they can compromise your privacy and security.
 
 Installing new add-ons may affect Tor Browser in unforeseen ways and potentially make your Tor Browser fingerprint unique.
@@ -22,3 +22,7 @@ The add-on itself could even be maliciously designed to spy on you.
 Tor Browser already comes installed with two add-ons — <mark><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></mark> and <mark><a href="https://noscript.net/">NoScript</a></mark> — and adding anything else could deanonymize you.
 
 Want to learn more about browser fingerprinting? Here's an [article](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead) on The Tor Blog all about it!
+
+seo_slug: installing-add-on-extensions-tor-browser
+---
+_slug: installing-add-on-extensions-tor-browser
