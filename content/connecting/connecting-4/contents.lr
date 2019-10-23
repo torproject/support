@@ -1,0 +1,17 @@
+_model: question 
+---
+title: "Proxy server is refusing connection" error
+---
+seo_slug: tor-proxy-server-refusing-connection
+---
+description: 
+Proxy server errors can occur for a variety of reasons. 
+You may try one or more of the following activities, in case you encounter this error:
+* If you have an antivirus, it may be interfering with the Tor service. Disable the antivirus and restart the browser.
+* You should not have moved the Tor Browser folder from its original location to a different location. 
+If you did this, revert the change. 
+* You should also check the port that you are connecting with. Windows users can do this by going to the task manager, under the "performance" tab, click the "Resource Monitor" button. 
+Then, navigate to the "Network" tab, expand "Listening Ports". Maximize window and sort by port. Finally, select port "9050".
+* When all else fails, reinstall the browser. This time, make sure to install the Tor Browser Bundle in a new directory, not over a previously installed bundle.
+
+If the error persists, please report it on our [bug tracker](https://trac.torproject.org/)
