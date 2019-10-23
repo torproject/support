@@ -6,6 +6,6 @@ description:
 No, it doesn't.
 You need to use a separate program that understands your application and protocol and knows how to clean or "scrub" the data it sends.
 Tor Browser tries to keep application-level data, like the user-agent string, uniform for all users.
-Tor Browser can't do anything about text that you type into forms, though.
+Tor Browser can't do anything about the text that you type into forms, though.
 ---
 _slug: no-data-scrubbing
