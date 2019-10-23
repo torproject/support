@@ -1,9 +1,13 @@
-_model: question
----
 title: I'm having a problem with HTTPS Everywhere.
 ---
-seo_slug: problem-with-https-everywhere
+key: 19
 ---
+
 description:
+
 Please see the <mark><a href="https://www.eff.org/https-everywhere/faq">HTTPS Everywhere FAQ</a></mark>.
 If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.
+
+seo_slug: problem-with-https-everywhere
+---
+_slug: problem-with-https-everywhere
