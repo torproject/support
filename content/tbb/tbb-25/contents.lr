@@ -10,13 +10,9 @@ It can block or unblock active web content such as JavaScript, Flash and other p
 By default, several plugins, including Flash, are blocked by NoScript. 
 NoScript provides protection against Cross-site scripting (XSS), CSRF (Cross-site request forgery), clickjacking, man-in-the-middle attacks, and DNS rebinding.
 
-You can enable or disable NoScript on Tor Browser by going to the add-ons manager. 
-After clicking "Preferences", sites can be set as "allowed", "trusted" or "untrusted".
-
-NoScript default settings are automatically restored on restart, in case you mess with the Tor's NoScript settings and worry about this affecting your privacy.
-
-NoScript settings can also be changed using the Security Level options (accessible by clicking the small gray shield at the top right of the screen, then selecting "Advanced Security Settings..."). 
-The NoScript changes incurred by this are kept even after quitting the browser.
+You can disable NoScript by using the "Standard" level in Security Settings (accessible by clicking the small gray shield at the top right of the screen, then selecting "Advanced Security Settings..."). 
+Because JavaScript is an attack vector against the Tor Browser, it is recommended to use the 'Safer' option and most websites will work normally.
+The changes incurred by modifying the Secuirity Level affect all open tabs and are kept even after quitting the browser. 
 
 Please, see the [NoScript FAQ](https://noscript.net/faq) for more problem solutions.
 If you believe this is a Tor Browser issue, please report it on our [bug tracker](https://trac.torproject.org/).
