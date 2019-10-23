@@ -1,10 +1,10 @@
-_model: question
----
 title: What is the difference between using Tor Browser and 'Incognito mode' or private tabs?
 ---
-seo_slug: difference-between-tor-browser-incognito-mode
+key: 1
 ---
+
 description:
+
 While the names may imply otherwise, 'Incognito mode' and 'private tabs' do not make you anonymous on the Internet.
 They erase all the information on your machine relating to the browsing session after they are closed, but have no measures in place to hide your activity or digital fingerprint online.
 This means that an observer can collect your traffic just as easily as any regular browser.
@@ -12,3 +12,7 @@ This means that an observer can collect your traffic just as easily as any regul
 Tor Browser offers all the amnesic features of private tabs while also hiding the source IP, browsing habits and details about a device that can be used to fingerprint activity across the web, allowing for a truly private browsing session that's fully obfuscated from end-to-end.
 
 For more information regarding the limitations of Incognito mode and private tabs, see Mozilla's article on [Common Myths about Private Browsing](https://support.mozilla.org/en-US/kb/common-myths-about-private-browsing).
+
+seo_slug: difference-between-tor-browser-incognito-mode
+---
+_slug: difference-between-tor-browser-incognito-mode
