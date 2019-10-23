@@ -1,5 +1,7 @@
 title: Why does Google show up in foreign languages?
 ---
+key: 37
+---
 description:
 
 Google uses "geolocation" to determine where in the world you are, so it can give you a personalized experience. This includes using the language it thinks you prefer, and it also includes giving you different results on your queries.
@@ -11,3 +13,5 @@ Note that Google search URLs take name/value pairs as arguments and one of those
 https://encrypted.google.com/search?q=online%20anonymity&hl=en
 
 Another method is to simply use your country code for accessing Google. This can be google.be, google.de, google.us and so on.
+
+_slug: google-show-up-in-foreign-languages
