@@ -6,7 +6,7 @@ seo_slug: tor-glossary
 ---
 description:
 
-The community team has developed this Glossary of terms about and related to Tor
+The community team has developed this glossary of terms about and related to Tor.
 
 ## A
 
@@ -14,7 +14,7 @@ The community team has developed this Glossary of terms about and related to Tor
 
 Add-ons, extensions, and plugins are components that can be added to [web browsers](#web-browser) to give them new features.
 Tor Browser comes with two add-ons installed: [NoScript](#noscript) and [HTTPS Everywhere](#https-everywhere).
-You should not install any additional add-ons to Tor Browser because that can compromise some of its privacy features.
+You should not install any additional add-ons on Tor Browser because that can compromise some of its privacy features.
 
 ### antivirus software
 
@@ -40,7 +40,7 @@ To determine a relay's throughput, special relays called bandwidth authorities t
 ### bridge
 
 Like ordinary Tor [relays](#relay), bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily.
-[Pluggable transports](#pluggable-transports) are a type of bridge that help disguise the fact that you are using Tor.
+[Pluggable transports](#pluggable-transports) are a type of bridge that helps disguise the fact that you are using Tor.
 
 ### bridge authority
 
@@ -70,7 +70,10 @@ Checksums are [hash](#hash)values of files. If you have downloaded the software 
 
 ### circuit
 
-A path through the [Tor network](#tor-/-tor-network/-core-tor) built by [clients](#client) consisting of randomly selected nodes. The circuit begins with either a [bridge](#bridge) or a [guard](#guard). Most circuits consist of three nodes - a guard or bridge, a [middle relay](#middle-relay), and an [exit](#exit). Most [onion services](#onion-services) use six hops in a circuit (with the exception of [single onion services](#single-onion-service)), and never an exit node. You can view your current Tor circuit by clicking on the onion button in Tor Browser.
+A path through the [Tor network](#tor-/-tor-network/-core-tor) built by [clients](#client) consisting of randomly selected nodes. The circuit begins with either a [bridge](#bridge) or a [guard](#guard). 
+Most circuits consist of three nodes - a guard or bridge, a [middle relay](#middle-relay), and an [exit](#exit). 
+Most [onion services](#onion-services) use six hops in a circuit (with the exception of [single onion services](#single-onion-service)), and never an exit node. 
+You can view your current Tor circuit by clicking on the onion button in Tor Browser.
 
 ### client
 
@@ -86,14 +89,19 @@ In Tor terms, a single document compiled and voted on by the [directory authorit
 
 ### cookie
 
-An [HTTP](#http) cookie (also called web cookie, Internet cookie, browser cookie or simply cookie) is a small piece of data sent from a website and stored on the user's computer by the user's [web browser](#web-browser) while the user is browsing. [Tor Browser](#tor-browser) does not store cookies.
+An [HTTP](#http) cookie (also called web cookie, Internet cookie, browser cookie or simply cookie) is a small piece of data sent from a website and stored on the user's computer by the user's [web browser](#web-browser) while the user is browsing. 
+By default, [Tor Browser](#tor-browser) does not store cookies. You can change this after visiting "preferences" (accessible from the hamburger menu at the top-right of the screen) and navigating to "Privacy & Security".
+
 ### cross-site scripting (XSS)
 
 Cross-Site Scripting (XSS) allows an attacker to add malicious functionality or behavior to a website when they shouldn't have the ability to do so.
 
 ### cryptographic signature
 
-A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as signature files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. For more information about how you can verify signatures, please see [here](https://support.torproject.org/tbb/how-to-verify-signature/).
+A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. 
+If you download software from torproject.org, you will find it as signature files (.asc). 
+These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. 
+For more information about how you can verify signatures, please see [here](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 ## D
 
@@ -117,11 +125,13 @@ Transmitted data which is [encrypted](#encryption) from origin to destination is
 
 ### exit
 
-The last [relay](#relay) in the [Tor circuit](#circuit) which sends [traffic](#traffic) out onto the public Internet. The service you are connecting to (website, chat service, email provider, etc..) will see the [IP address](#ip-address) of the exit.
+The last [relay](#relay) in the [Tor circuit](#circuit) which sends [traffic](#traffic) out onto the public Internet. 
+The service you are connecting to (website, chat service, email provider, etc..) will see the [IP address](#ip-address) of the exit.
 
 ### ExoneraTor
 
-The ExoneraTor service maintains a database of [relay](#relay) [IP addresses](#ip-address) that have been part of the Tor network. It answers the question whether there was a [Tor](#tor-/-tor-network/-core-tor) relay running on a given IP address on a given date.  This service is often useful when dealing with law enforcement.
+The ExoneraTor service maintains a database of [relay](#relay) [IP addresses](#ip-address) that have been part of the Tor network. 
+It answers the question whether there was a [Tor](#tor-/-tor-network/-core-tor) relay running on a given IP address on a given date.  This service is often useful when dealing with law enforcement.
 
 ## F
 
@@ -133,11 +143,16 @@ Firefox is available for Windows, macOS and Linux [operating systems](#operating
 
 ### firewall
 
-A firewall is a network security system which monitors and controls the incoming and outgoing network [traffic](#traffic). This traffic filter is based on predetermined rules. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network but it can also be used as a content filter in the sense of [censorship](#network-censorship). Sometimes people have trouble connecting to [Tor](#tor-/-tor-network/-core-tor) because their firewall blocks Tor connections. You can reconfigure or disable your firewall and restart Tor to test this.
+A firewall is a network security system which monitors and controls the incoming and outgoing network [traffic](#traffic). 
+This traffic filter is based on predetermined rules. 
+A firewall typically establishes a barrier between a trusted, secure internal network and another outside network but it can also be used as a content filter in the sense of [censorship](#network-censorship). 
+Sometimes people have trouble connecting to [Tor](#tor-/-tor-network/-core-tor) because their firewall blocks Tor connections. You can reconfigure or disable your firewall and restart Tor to test this.
 
 ### Flash Player
 
-Flash Player is a [browser plugin](#add-on-extension-or-plugin)for Internet [applications](#app) to watch audio and video content. You should never enable Flash to run in [Tor Browser](#tor-browser) as it is unsafe. Many services that use Flash also offer an HTML5 alternative, which should work in the Tor Browser.
+Flash Player is a [browser plugin](#add-on-extension-or-plugin)for Internet [applications](#app) to watch audio and video content. 
+You should never enable Flash to run in [Tor Browser](#tor-browser) as it is unsafe. 
+Many services that use Flash also offer an HTML5 alternative, which should work in the Tor Browser.
 
 ### fte
 
@@ -153,9 +168,14 @@ It is a service that automatically responds to messages (Email, XMPP, Twitter) w
 
 The Tor Project participates in the Google Summer of Code, which is a summer program for university students.
 
+### GSoD
+
+The Tor Project participates in the Google Season of Docs, which is a program for technical writers. 
+
 ### guard
 
-The first [relay](#relay) in the [Tor circuit](#circuit), unless using a [bridge](#bridge). When using a bridge, the bridge takes the place of the guard.
+The first [relay](#relay) in the [Tor circuit](#circuit), unless using a [bridge](#bridge). 
+When using a bridge, the bridge takes the place of the guard.
 
 ## H
 
@@ -188,7 +208,8 @@ HTTPS Everywhere is installed in [Tor Browser](#tor-browser).
 
 ### Internet Service Provider (ISP)
 
-An Internet service provider (ISP) is an organization that provides services for accessing and using the Internet. When using [Tor Browser](#tor-browser), your ISP cannot see what websites you're visiting.
+An Internet service provider (ISP) is an organization that provides services for accessing and using the Internet. 
+When using [Tor Browser](#tor-browser), your ISP cannot see what websites you're visiting.
 
 ### IP address
 
@@ -200,7 +221,8 @@ The IP address is the location address of the device, similar to the addresses o
 
 ### JavaScript
 
-JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the [web browser](#web-browser), which might lead to deanonymization.
+JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. 
+Unfortunately, JavaScript can also enable attacks on the security of the [web browser](#web-browser), which might lead to deanonymization.
 The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Browser](#tor-browser) can be used to manage JavaScript on different websites.
 
 ## K
@@ -215,7 +237,8 @@ The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Brows
 
 ### meek
 
-These [pluggable transports](#pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](#tor-/-tor-network/-core-tor). Meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+These [pluggable transports](#pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](#tor-/-tor-network/-core-tor). 
+Meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 
 ### middle relay
 
@@ -227,30 +250,37 @@ The middle position in the [Tor circuit](#circuit). Non-exit relays can function
 
 New Identity is a [Tor Browser](#tor-browser) feature if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
 Selecting it will close all your open tabs and windows, clear all private information such as [cookies](#cookie) and [browsing history](#browsing-history), and use New [Tor circuits](#circuit) for all connections.
-Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
+Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity” (accessible through the small sparkly broom icon at the top-right of the screen).
 New Identity can also help if Tor Browser is having trouble connecting to a particular site, similarly to "[New Tor Circuit for this Site](#new-tor-circuit-for-this-site)".
 
 ### New Tor Circuit for this Site
 
-This option is useful if the [exit](#exit) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently active tab or window to be reloaded over a new [Tor circuit](#circuit). Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+This option is useful if the [exit](#exit) you are using is unable to connect to the website you require, or is not loading it properly. 
+Selecting it will cause the currently active tab or window to be reloaded over a new [Tor circuit](#circuit). 
+Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. 
+This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
 
 ### network censorship
 
-Sometimes the direct access to the [Tor network](#tor-/-tor-network/-core-tor) is blocked by your [Internet Service Provider (ISP)](#internet-service-provider-isp) or by a government. Tor Browser includes some circumvention tools for getting around these blocks, including [bridges](#bridge), [pluggable transports](#pluggable-transports), and [GetTor](#gettor).
+Sometimes the direct access to the [Tor network](#tor-/-tor-network/-core-tor) is blocked by your [Internet Service Provider (ISP)](#internet-service-provider-isp) or by a government. 
+Tor Browser includes some circumvention tools for getting around these blocks, including [bridges](#bridge), [pluggable transports](#pluggable-transports), and [GetTor](#gettor).
 
 ### NoScript
 
-[Tor Browser](#tor-browser) includes an [add-on](#add-on-extension-or-plugin) called NoScript, accessed through the “S” icon at the top-left of the window, which allows you to control the [JavaScript](#javascript)that runs on individual web pages, or to block it entirely.
+[Tor Browser](#tor-browser) includes an [add-on](#add-on-extension-or-plugin) called NoScript, accessed by clicking the hamburger menu at the top-right of the screen, then navigating to "Add-ons". 
+NoScript allows you to control the [JavaScript](#javascript) that runs on individual web pages, or to block it entirely.
 
 ### nyx
 
-The anonymizing [relay](#relay) monitor (formerly arm, now nyx) is a terminal status monitor for [Tor](#tor-/-tor-network/-core-tor), intended for command-line usage. This is a tool for monitoring the core Tor process on a system, often useful for relay operators.
+The anonymizing [relay](#relay) monitor (formerly arm, now nyx) is a terminal status monitor for [Tor](#tor-/-tor-network/-core-tor), intended for command-line usage. 
+This is a tool for monitoring the core Tor process on a system, often useful for relay operators.
 
 ## O
 
 ### obfs3
 
-Obfs3 is a [pluggable transport](#pluggable-transports) that makes [Tor](#tor-/-tor-network/-core-tor) [traffic](#traffic) look random, so that it does not look like Tor or any other protocol. Obfs3 bridges will work in most places.
+Obfs3 is a [pluggable transport](#pluggable-transports) that makes [Tor](#tor-/-tor-network/-core-tor) [traffic](#traffic) look random, so that it does not look like Tor or any other protocol. 
+Obfs3 bridges will work in most places.
 
 ### obfs4
 
@@ -280,7 +310,8 @@ Onion services offer advantages over ordinary services on the non-private web, i
 
 ### Onionoo
 
-Onionoo is a web-based protocol to learn about currently running [Tor relays](#relay) and [bridges](#bridge). Onionoo provides the data for other applications and websites(compass, atlas, etc..) which in turn present Tor network status information to humans.
+Onionoo is a web-based protocol to learn about currently running [Tor relays](#relay) and [bridges](#bridge). 
+Onionoo provides the data for other applications and websites(compass, atlas, etc..) which in turn present Tor network status information to humans.
 
 ### onionsite
 
@@ -289,15 +320,19 @@ These websites use the .onion Top Level Domain (TLD).
 
 ### onionspace
 
-The set of available [onion services](#onion-services). For example, you can say "my site is in onionspace" instead of "my site is in the Dark Web."
+The set of available [onion services](#onion-services). 
+For example, you can say "my site is in onionspace" instead of "my site is in the Dark Web."
 
 ### Operating System (OS)
 
-The main system software that manages computer hardware and software resources and provides common services for computer programs. The most used desktop operating systems are Windows, macOS and Linux. Android and iOS are the dominant mobile operating systems.
+The main system software that manages computer hardware and software resources and provides common services for computer programs. 
+The most used desktop operating systems are Windows, macOS and Linux. 
+Android and iOS are the dominant mobile operating systems.
 
 ### Orbot
 
-[Orbot](https://play.google.com/store/apps/details?id=org.torproject.android) is a free [app](#app) from The Guardian Project that empowers other apps on your device to use the internet more securely. Orbot uses [Tor](#tor-/-tor-network/-core-tor) to [encrypt](#encryption) your Internet [traffic](#traffic) and hide it by bouncing through a series of computers around the world.
+[Orbot](https://play.google.com/store/apps/details?id=org.torproject.android) is a free [app](#app) from The Guardian Project that empowers other apps on your device to use the internet more securely. 
+Orbot uses [Tor](#tor-/-tor-network/-core-tor) to [encrypt](#encryption) your Internet [traffic](#traffic) and hide it by bouncing through a series of computers around the world.
 
 ### Orfox
 
@@ -347,7 +382,8 @@ A publicly-listed node in the [Tor network](#tor-/-tor-network/-core-tor) that f
 
 ### Satori
 
-It is an [add-on](#add-on-extension-or-plugin) for the Chrome or Chromium browsers that allows you to download several security and privacy programs, including [Tor Browser](#tor-browser), from different sources. You can Install Satori from the Chrome Web Store.
+It is an [add-on](#add-on-extension-or-plugin) for the Chrome or Chromium browsers that allows you to download several security and privacy programs, including [Tor Browser](#tor-browser), from different sources. 
+You can Install Satori from the Chrome Web Store.
 
 ### scramblesuit
 
@@ -359,7 +395,9 @@ Elements used for offering dynamic/interactive content via websites.
 
 ### self-authenticating address
 
-The specialized address format of [onion addresses](#onion-address) is self-authenticating. The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onionsite](#onionsite). Ordinary internet domain names require site owners to trust and be approved by a Certificate Authority (CA) for this binding, and they are subject to hijack by the CA and typically by many other parties as well.
+The specialized address format of [onion addresses](#onion-address) is self-authenticating. 
+The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onionsite](#onionsite). 
+Ordinary internet domain names require site owners to trust and be approved by a Certificate Authority (CA) for this binding, and they are subject to hijack by the CA and typically by many other parties as well.
 
 ### server
 
@@ -367,15 +405,18 @@ A device on a network which offers a service, such as file and web page storage,
 
 ### session
 
-A session refers to a conversation between two devices communicating on a network. Using [Tor Browser](#tor-browser) means that your session data will be wiped when you close the [web browser](#web-browser).
+A session refers to a conversation between two devices communicating on a network. 
+Using [Tor Browser](#tor-browser) means that your session data will be wiped when you close the [web browser](#web-browser).
 
 ### single onion service
 
-A single onion service is an onion service that can be configured for services that do not require anonymity, but want to offer it for clients connecting to their service. Single onion services use only three hops in the [circuit](#circuit) rather than the typical six hops for onion services.
+A single onion service is an onion service that can be configured for services that do not require anonymity, but want to offer it for clients connecting to their service. 
+Single onion services use only three hops in the [circuit](#circuit) rather than the typical six hops for onion services.
 
 ### Stem
 
-Stem is a Python (programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with python, this is for you.
+Stem is a Python (programming language) controller library for core [Tor](#tor-/-tor-network/-core-tor). 
+If you want to control core Tor with python, this is for you.
 
 ### Sybil attack
 
@@ -424,9 +465,9 @@ In the second case Tor Launcher will take you through a series of configuration 
 
 "Tor log" is an automatically-generated list of [Tor](#tor-/-tor-network/-core-tor)’s activity that can help diagnose problems.
 When something goes wrong with Tor, you may see an option with the error message to "copy Tor log to clipboard".
-If you don't see this option and you have [Tor Browser](#tor-browser) open, you can navigate to the [Torbutton](#torbutton) (on the top left of the browser, to the left of the URL bar).
-Click the Tor button, then open Tor Network Settings.
-You should see an option at the bottom to copy the log to your clipboard, which you can then paste to a document to show whoever is helping you troubleshoot.
+If you don't see this option and you have [Tor Browser](#tor-browser) open, you can navigate to the hamburger menu (on the top-right of the browser, to the right of the URL bar), then click on "Preferences", and finally on "Tor" in the side bar.
+At the bottom of the page, next to the "View the Tor logs" text, click the button "View Logs...". 
+You should see an option to copy the log to your clipboard, which you can then paste to a document to show whoever is helping you troubleshoot.
 
 ### Tor Messenger
 
@@ -437,11 +478,6 @@ It supported Jabber (XMPP), IRC, Google Talk, Facebook Chat, Twitter, Yahoo, and
 ### TorBirdy
 
 This [extension](#add-on-extension-or-plugin) configures Thunderbird to make connections over [Tor](#tor-/-tor-network/-core-tor).
-
-### Torbutton
-
-A button marked by a little green onion to the left of the URL bar.
-Its menu offers you "[New Identity](#new-identity)", "Security Settings..." and "Check for [Tor Browser](#tor-browser) Update..." options.
 
 ### torrc
 
@@ -463,7 +499,8 @@ TPI is an acronym for The Tor Project, Inc.
 
 ### tpo
 
-People on IRC often use `tpo` to abbreviate `torproject.org` when writing hostnames. For example, `trac.tpo` is an abbreviation for `trac.torproject.org`.
+People on IRC often use `tpo` to abbreviate `torproject.org` when writing hostnames. 
+For example, `trac.tpo` is an abbreviation for `trac.torproject.org`.
 
 ### traffic
 
