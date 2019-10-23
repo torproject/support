@@ -1,9 +1,13 @@
-_model: question 
----
 title: I'm having a problem with DuckDuckGo.
 ---
-seo_slug: problem-with-duckduckgo
+key: 44
 ---
+
 description: 
+
 Please see the <mark><a href="https://duck.co/help">DuckDuckGo support portal</a></mark>.
 If you believe this is a Tor Browser issue, please report it on our <mark><a href="https://trac.torproject.org/">bug tracker</a></mark>.
+
+seo_slug: problem-with-duckduckgo
+---
+_slug: problem-with-duckduckgo
