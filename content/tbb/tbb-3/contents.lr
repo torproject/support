@@ -1,9 +1,13 @@
-_model: question
----
 title: When I use Tor Browser, will anyone be able to tell which websites I visit?
 ---
-seo_slug: tell-which-website-are-visited-while-using-tor-browser
+key: 2
 ---
+
 description:
+
 Tor Browser prevents people from knowing the websites you visit.
 Some entities, such as your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do. 
+
+seo_slug: tell-which-website-are-visited-while-using-tor-browser
+---
+_slug: tell-which-website-are-visited-while-using-tor-browser
