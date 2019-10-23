@@ -1,10 +1,10 @@
-_model: question
----
 title: I'm supposed to "edit my torrc". What does that mean?
 ---
-seo-slug: edit-torrc
+key: 48
 ---
+
 description:
+
 WARNING: Do NOT follow random advice instructing you to edit your `torrc`!
 Doing so can allow an attacker to compromise your security and anonymity through malicious configuration of your `torrc`.
 
@@ -27,3 +27,7 @@ Some options will have no effect as Tor Browser overrides them with command line
 Have a look at the [sample `torrc`](https://gitweb.torproject.org/tor.git/tree/src/config/torrc.sample.in) file for hints on common configurations.
 For other configuration options you can use, see the [Tor manual page](https://2019.www.torproject.org/docs/tor-manual.html.en).
 Remember, all lines beginning with `#` in torrc are treated as comments and have no effect on Tor's configuration.
+
+seo-slug: edit-torrc
+---
+_slug: edit-torrc
