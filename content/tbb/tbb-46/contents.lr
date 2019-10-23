@@ -1,3 +1,9 @@
 title: How do I install Tor Browser?
 ---
-description: Please see the [Installation](https://tb-manual.torproject.org/installation/) section in the Tor Browser Manual.
+key: 14
+---
+description:
+
+Please see the [Installation](https://tb-manual.torproject.org/installation/) section in the Tor Browser Manual.
+
+_slug: install-tor-browser
