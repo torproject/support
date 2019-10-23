@@ -1,8 +1,12 @@
-_model: question
----
 title: How do I update Tor Browser?
 ---
+key: 46
+---
+
+description:
+
+Please see the [Updating section](https://tb-manual.torproject.org/updating/) in the Tor Browser Manual.
+
 seo_slug: updating-tor-browser
 ---
-description:
-Please see the [Updating section](https://tb-manual.torproject.org/updating/) in the Tor Browser Manual.
+_slug: updating-tor-browser
