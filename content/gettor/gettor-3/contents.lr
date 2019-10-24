@@ -2,7 +2,11 @@ _model: question
 ---
 title: To use GetTor via Twitter.
 ---
-seo_slug: to-use-gettor-via-twitter
+key: 3
 ---
 description: 
 GetTor via Twitter is currently under maintenance. Please use the [email](https://support.torproject.org/gettor/gettor-2) instead.
+---
+seo_slug: to-use-gettor-via-twitter
+---
+_slug: to-use-gettor-via-twitter
