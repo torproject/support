@@ -1,0 +1,15 @@
+title: Do I get better anonymity if I run a relay?
+---
+description:
+
+Yes, you do get better anonymity against some attacks.
+
+The simplest example is an attacker who owns a small number of Tor relays. They will see a connection from you, but they won't be able to know whether the connection originated at your computer or was relayed from somebody else.
+
+There are some cases where it doesn't seem to help: if an attacker can watch all of your incoming and outgoing traffic, then it's easy for them to learn which connections were relayed and which started at you. (In this case they still don't know your destinations unless they are watching them too, but you're no better off than if you were an ordinary client.)
+
+There are also some downsides to running a Tor relay. First, while we only have a few hundred relays, the fact that you're running one might signal to an attacker that you place a high value on your anonymity. Second, there are some more esoteric attacks that are not as well-understood or well-tested that involve making use of the knowledge that you're running a relay -- for example, an attacker may be able to "observe" whether you're sending traffic even if they can't actually watch your network, by relaying traffic through your Tor relay and noticing changes in traffic timing.
+
+It is an open research question whether the benefits outweigh the risks. A lot of that depends on the attacks you are most worried about. For most users, we think it's a smart move. 
+---
+seo_slug: better-anonymity

@@ -2,24 +2,26 @@ title: How can I chat with Tor Project teams?
 ---
 description:
 
-Here is the simplest possible guide for getting onto IRC and starting to chat with Tor people in real time.
+Here is how you can get onto IRC and start to chat with Tor contributors in real time:
 
-(1) Enter in ​[OFTC](https://webchat.oftc.net/) webchat.
+1. Enter in [OFTC](https://webchat.oftc.net/) webchat.
 
-(2) Fill in the blanks: 
+2. Fill in the blanks: 
 
-**NICKNAME:** Anything you want, but choose the same nickname (nick) every time you use IRC to talk to people on Tor. If your nick is already being used, you will get a message from the system and you should choose another nick.
+  **NICKNAME:** Anything you want, but choose the same nickname (nick) every time you use IRC to talk to people on Tor. If your nick is already being used, you will get a message from the system and you should choose another nick.
 
-**CHANNEL:** #tor
+  **CHANNEL:** #tor
 
-(3) Click Enter
+3. Click Enter
 
-Congratulations! You’re on IRC. 
+Congratulations! You're on IRC. 
 
-After a few seconds, you will automatically enter #tor, which is essentially a chatroom. It usually includes Tor developers, relay operators and other community members. There are some random people in #tor as well.
+After a few seconds, you will automatically enter #tor, which is a chatroom with Tor developers, relay operators and other community members. There are some random people in #tor as well.
 
-You can ask questions here (in the empty bar at the bottom of the screen), and people may be able to answer right away, or there may be a bit of a delay (some people are listed on the channel but are away from their keyboards and record channel activities to read later). 
+You can ask questions in the empty bar at the bottom of the screen. Please, don't ask to ask, just ask your question.
 
-If you want to chat with someone specific, start your comment with their nick (if you know it) and they will typically receive a notification that someone is trying to contact them. Please, don't ask to ask, just ask your question.
+People may be able to answer right away, or there may be a bit of a delay (some people are listed on the channel but are away from their keyboards and record channel activities to read later). 
+
+If you want to chat with someone specific, start your comment with their nick and they will typically receive a notification that someone is trying to contact them. 
 
 You should also consider to use an IRC client.

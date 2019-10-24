@@ -2,17 +2,17 @@ title: How to Report a Bug or Give Feedback
 ---
 description:
 
- Tor relies on the support of users and volunteers around the world to help us improve our software and resources, so your feedback is extremely valuable to us (and to all Tor users). 
+Tor relies on the support of users and volunteers around the world to help us improve our software and resources, so your feedback is extremely valuable to us (and to all Tor users). 
 
 ### Feedback template
 
- When sending us feedback or reporting a bug, please include as many of these as possible:
+When sending us feedback or reporting a bug, please include as many of these as possible:
 
-* OS you are using
-* Tor Browser version
-* Step by step of how you got to the issue, so we can reproduce it (e.g. I opened the browser, typed a url, clicked on (i) icon, then my browser crashed)
-* A screenshot of the problem
-* The log
+ * OS you are using
+ * Tor Browser version
+ * Step by step of how you got to the issue, so we can reproduce it (e.g. I opened the browser, typed a url, clicked on (i) icon, then my browser crashed)
+ * A screenshot of the problem
+ * The log
 
 ### How to Reach Us
 
@@ -24,9 +24,9 @@ You can file a ticket at [https://trac.torproject.org](https://trac.torproject.o
 
 #### Email
 
-Send us an email at frontdesk at torproject.org
+Send us an email to frontdesk@torproject.org
 
- In the subject line of your email, please tell us what you're reporting. The more objective your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser, "I need a bridge"), the easier it will be for us to understand and follow up. Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
+In the subject line of your email, please tell us what you're reporting. The more objective your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser, "I need a bridge"), the easier it will be for us to understand and follow up. Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
 
 For the fastest response, please write in English, Spanish, and/or Portuguese if you can. If none of these languages works for you, please write on any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it. 
 
@@ -44,14 +44,26 @@ Learn how to connect to [OFTC servers](/get-in-touch/irc-help).
 
 For reporting issues or feedback using email lists, we recommend that you do on the one that is related to what you would like to report. 
 
-For feedback or issues related to Tor Browser use: [tbb-bugs](https://lists.torproject.org/cgi-bin/mailman/listinfo/tbb-bugs)
+For feedback or issues related to Tor Browser, Tor network or other projects developed by Tor: [tor-talk](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk)
 
-For feedback or issues related to our websites, please use: [ux](https://lists.torproject.org/cgi-bin/mailman/listinfo/ux)
+For feedback or issues related to our websites: [ux](https://lists.torproject.org/cgi-bin/mailman/listinfo/ux)
 
-For feedback or issues related to Tor network or other projects developed by Tor please use: [tor-dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev)
-
-For feedback or issues related to running a Tor relay please use: [tor-relays](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays)
+For feedback or issues related to running a Tor relay: [tor-relays](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays)
 
 For feedback on content related to Tor Browser Manual or Support website: [tor-community-team](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-community-team)
+
+### Report a security issue
+
+If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org. If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:
+
+```
+  gpg --fingerprint tor-security@lists.torproject.org
+  pub 4096R/1A7BF184 2017-03-13
+  Key fingerprint = 8B90 4624 C5A2 8654 E453 9BC2 E135 A8B4 1A7B F184
+  uid tor-security@lists.torproject.org
+  uid tor-security@lists.torproject.org
+  uid tor-security@lists.torproject.org
+  sub 4096R/C00942E4 2017-03-13
+```
 ---
 seo_slug: bug-or-feedback

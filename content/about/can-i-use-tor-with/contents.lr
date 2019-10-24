@@ -1,0 +1,14 @@
+title: What programs can I use with Tor?
+---
+key: 6
+---
+description:
+
+There are plenty of other programs you can use with Tor, but we haven't researched the application-level anonymity issues on all of them well enough to be able to recommend a safe configuration.
+Our wiki has a community-maintained list of instructions for [Torifying specific applications](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO).
+Please add to these lists and help us keep them accurate!
+
+Most people use Tor Browser, which includes everything you need to browse the web safely using Tor.
+Using Tor with other browsers is [dangerous and not recommended](/tbb/tbb-9/).
+---
+_slug: can-i-use-tor-with

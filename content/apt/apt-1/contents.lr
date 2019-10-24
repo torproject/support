@@ -4,6 +4,8 @@ title: Why and how I can enable Tor Package Repository in Debian?
 ---
 seo_slug: tor-deb-repo
 ---
+_slug: tor-deb-repo
+---
 description:
 
 The Tor Project maintains its own [Debian package repository](https://deb.torproject.org). Since Debian provides the LTS version of Tor that this might not always give you the latest stable Tor version, it's recommended to install `tor` from our repository.

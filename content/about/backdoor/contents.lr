@@ -1,0 +1,28 @@
+title: Is there a backdoor in Tor?
+---
+key: 7
+---
+description:
+
+There is absolutely no backdoor in Tor.
+
+We know some smart lawyers who say that it's unlikely that anybody will try to make us add one in our jurisdiction (U.S.).
+If they do ask us, we will fight them, and (the lawyers say) probably win.
+
+We will never put a backdoor in Tor.
+We think that putting a backdoor in Tor would be tremendously irresponsible to our users, and a bad precedent for security software in general.
+If we ever put a deliberate backdoor in our security software, it would ruin our professional reputations.
+Nobody would trust our software ever again - for excellent reason!
+
+But that said, there are still plenty of subtle attacks people might try.
+Somebody might impersonate us, or break into our computers, or something like that.
+Tor is open source, and you should always check the source (or at least the diffs since the last release) for suspicious things.
+If we (or the distributors) don't give you source, that's a sure sign something funny might be going on.
+You should also check the [PGP signatures](/tbb/how-to-verify-signature/) on the releases, to make sure nobody messed with the distribution sites.
+
+Also, there might be accidental bugs in Tor that could affect your anonymity.
+We periodically find and fix anonymity-related bugs, so make sure you keep your Tor versions up-to-date.
+---
+seo_slug: backdoor
+---
+_slug: backdoor

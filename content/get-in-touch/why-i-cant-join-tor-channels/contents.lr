@@ -4,13 +4,13 @@ description:
 
 The #tor-project channel is where Tor people discuss and coordinate daily Tor work. It has fewer members than #tor and is more focused on the work at hand. You are also welcome to join this channel. To access #tor-project, your nickname (nick) must be registered and verified.
 
-Here's how to reach #tor-project and other registered channels. This can be tricky; bring your patience and a cup of your favorite beverage.
+Here's how to reach #tor-project and other registered channels.
 
 ### Register your nickname
 
-1. Log onto #tor. See [How can I chat with Tor Project teams?](FIXME)
+1. Log onto #tor. See [How can I chat with Tor Project teams?](/get-in-touch/irc-help/)
 
-2. Then, click on the word "Status" at the top left of the screen. 
+2. Then, click on the word **"Status"** at the top left of the screen. 
 
 3. In the window at the bottom of the page, type:  `/msg nickserv REGISTER yournewpassowrd youremailaddress`
 
@@ -24,21 +24,21 @@ If so, just go with it but remember you are user_ and not user.
 
 Every time you log on to IRC, to identify your registered nick, type: 
 
-`/nick yournick`
+  `/nick yournick`
+  
+  `/msg nickserv IDENTIFY YourPassWord`
 
-`/msg nickserv IDENTIFY YourPassWord`
+### How to verify your nickname
 
-### To verify your nickname
+Then, to complete the registration and ultimately gain access to the #tor-project channel, your nickname must be **verified**.
 
-Then, to complete the registration and ultimately gain access to the #tor-project channel, your nickname must be **VERIFIED**.
-
-1. To verify your nick, open a new browser window and go to ​https://services.oftc.net/. 
+1. To verify your nick, open a new browser window and go to https://services.oftc.net/login. 
 
 2. Log in with your IRC nickname and password. 
 
-3. Look for the word VERIFIED and log in there. It may appear that nothing has happened. Look at the top of the page, and there will be a column called ACCOUNT. 
+3. Look for the word **verify** and log in there. It may appear that nothing has happened. Look at the top of the page, and there will be a column called **Account**. 
 
-4. Click on ACCOUNT. 
+4. Click on **Account**. 
 
 5. Click on the small sentence at the bottom of the square that says: Verify account. 
 
@@ -47,9 +47,10 @@ Then, to complete the registration and ultimately gain access to the #tor-projec
 7. A tiny message will appear: "Your NickServ account has been verified."
 
 8. Go back to the IRC webpage where you are logged in and type: 
-`/msg nickserv checkverify`
 
-9. Click ENTER
+  `/msg nickserv checkverify`
+
+9. Click ENTER.
 
 10. If all is well, you will receive a message that says: 
 
@@ -59,9 +60,9 @@ Then, to complete the registration and ultimately gain access to the #tor-projec
 Usermodechange: +R
 
 !NickServ- Successfully set +R on your nick.
+````
 
-Your nick is verified! Hurrah!
-```
+Your nick is verified!
 
 Now, to join #tor-project, you can just type: 
 
@@ -69,4 +70,6 @@ Now, to join #tor-project, you can just type:
 
 You will be allowed into the channel. If so, Congratulations!
 
-However, if you get stuck, you can ask for help in the #tor channel. You can toggle back and forth between channels by clicking on the different channel names at the top left of the IRC window.
+However, if you get stuck, you can ask for help in the #tor channel. 
+
+You can toggle back and forth between channels by clicking on the different channel names at the top left of the IRC window.
