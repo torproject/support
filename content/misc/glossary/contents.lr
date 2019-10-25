@@ -72,6 +72,10 @@ Checksums are [hash](#hash)values of files. If you have downloaded the software 
 
 A path through the [Tor network](#tor-/-tor-network/-core-tor) built by [clients](#client) consisting of randomly selected nodes. The circuit begins with either a [bridge](#bridge) or a [guard](#guard). Most circuits consist of three nodes - a guard or bridge, a [middle relay](#middle-relay), and an [exit](#exit). Most [onion services](#onion-services) use six hops in a circuit (with the exception of [single onion services](#single-onion-service)), and never an exit node. You can view your current Tor circuit by clicking on the onion button in Tor Browser.
 
+### clickjacking
+
+A technique of tricking a user into clicking on something different from what the user perceives, thus potentially revealing confidential information or allowing others to take control of their computer while clicking on seemingly harmless objects, including web pages.
+
 ### client
 
 In [Tor](#tor-/-tor-network/-core-tor), a client is a node in the Tor network, typically running on behalf of one user, that routes application connections over a series of [relays](#relay).
@@ -87,9 +91,15 @@ In Tor terms, a single document compiled and voted on by the [directory authorit
 ### cookie
 
 An [HTTP](#http) cookie (also called web cookie, Internet cookie, browser cookie or simply cookie) is a small piece of data sent from a website and stored on the user's computer by the user's [web browser](#web-browser) while the user is browsing. [Tor Browser](#tor-browser) does not store cookies.
+
+### cross-site request forgery (CSRF)
+
+Cross-site request forgery (CSRF), is a type of malicious exploit of a website where unauthorized commands are transmitted from a user that the web application trusts.
+
 ### cross-site scripting (XSS)
 
 Cross-Site Scripting (XSS) allows an attacker to add malicious functionality or behavior to a website when they shouldn't have the ability to do so.
+
 
 ### cryptographic signature
 
@@ -104,6 +114,10 @@ A daemon is a computer program that runs as a background process, rather than be
 ### directory authority
 
 A special-purpose [relay](#relay) that maintains a list of currently-running relays and periodically publishes a [consensus](#consensus) together with the other directory authorities.
+
+### DNS rebinding
+
+A form of computer attack where a malicious web page causes visitors to run a client-side [script](#script) that attacks machines elsewhere on the network
 
 ## E
 
@@ -213,14 +227,20 @@ The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Brows
 
 ## M
 
+### man-in-the-middle attack (MITM)
+
+An attack where the attacker secretly relays and possibly alters the communications between two parties who believe they are directly communicating with each other.
+
 ### meek
 
 These [pluggable transports](#pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](#tor-/-tor-network/-core-tor). Meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+
 
 ### middle relay
 
 The middle position in the [Tor circuit](#circuit). Non-exit relays can function as either a "middle" or a "[guard](#guard)" for different users.
 
+ 
 ## N
 
 ### New Identity
