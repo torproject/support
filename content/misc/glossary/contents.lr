@@ -100,7 +100,6 @@ Cross-site request forgery (CSRF), is a type of malicious exploit of a website w
 
 Cross-Site Scripting (XSS) allows an attacker to add malicious functionality or behavior to a website when they shouldn't have the ability to do so.
 
-
 ### cryptographic signature
 
 A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as signature files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. For more information about how you can verify signatures, please see [here](https://support.torproject.org/tbb/how-to-verify-signature/).
@@ -235,12 +234,10 @@ An attack where the attacker secretly relays and possibly alters the communicati
 
 These [pluggable transports](#pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](#tor-/-tor-network/-core-tor). Meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 
-
 ### middle relay
 
 The middle position in the [Tor circuit](#circuit). Non-exit relays can function as either a "middle" or a "[guard](#guard)" for different users.
 
- 
 ## N
 
 ### New Identity
