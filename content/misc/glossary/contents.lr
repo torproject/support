@@ -227,7 +227,7 @@ The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Brows
 
 ## M
 
-### man-in-the-middle attack (MITM)
+### man-in-the-middle (MITM) attack
 
 An attack where the attacker secretly relays and possibly alters the communications between two parties who believe they are directly communicating with each other.
 
