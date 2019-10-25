@@ -8,11 +8,11 @@ description:
 NoScript is a web browser extension.
 It can block or unblock active web content such as JavaScript, Flash and other plugins. 
 By default, several plugins, including Flash, are blocked by NoScript. 
-NoScript provides protection against Cross-site scripting (XSS), CSRF (Cross-site request forgery), clickjacking, man-in-the-middle attacks, and DNS rebinding.
+NoScript provides protection against [Cross-site scripting (XSS)](https://support.torproject.org/misc/glossary/#cross-site-scripting-xss), [Cross-site request forgery (CSRF)](https://support.torproject.org/misc/glossary/#cross-site-request-forgery-csrf), [clickjacking](https://support.torproject.org/misc/glossary/#clickjacking), [man-in-the-middle (MiTM)](https://support.torproject.org/misc/glossary/#man-in-the-middle-mitm-attack) attacks, and [DNS rebinding](https://support.torproject.org/misc/glossary/#dns-rebinding).
 
 You can disable NoScript by using the "Standard" level in Security Settings (accessible by clicking the small gray shield at the top right of the screen, then selecting "Advanced Security Settings..."). 
 Because JavaScript is an attack vector against the Tor Browser, it is recommended to use the 'Safer' option and most websites will work normally.
-The changes incurred by modifying the Secuirity Level affect all open tabs and are kept even after quitting the browser. 
+The changes incurred by modifying the Security Level affect all open tabs and are kept even after quitting the browser. 
 
 Please, see the [NoScript FAQ](https://noscript.net/faq) for more problem solutions.
-If you believe this is a Tor Browser issue, please report it on our [bug tracker](https://trac.torproject.org/).
+If you believe this is a Tor Browser issue, please [give us feedback](https://support.torproject.org/misc/bug-or-feedback/).
