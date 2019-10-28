@@ -6,6 +6,8 @@ seo_slug: tor-ubuntu
 ---
 _slug: tor-ubuntu
 ---
+key: 2
+---
 description: 
 **No.** Do not use the packages in Ubuntu's universe. 
 In the past they have not reliably been updated. That means you could be missing stability and security fixes. 
