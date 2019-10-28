@@ -6,6 +6,8 @@ seo_slug: apt-over-tor
 ---
 _slug: apt-over-tor
 ---
+key: 3
+---
 description:
 Yes, `deb.torproject.org` is also served through via an Onion Service: http://sdscoq7snqtznauu.onion/
 
