@@ -54,7 +54,9 @@ For feedback on content related to Tor Browser Manual or Support website: [tor-c
 
 ### Report a security issue
 
-If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org. If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:
+If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org.
+If you've found a security bug in Tor or Tor Browser, feel free to submit it for our [bug bounty program](https://hackerone.com/torproject).
+If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:
 
 ```
   gpg --fingerprint tor-security@lists.torproject.org

@@ -6,5 +6,5 @@ seo_slug: tor-browser-issues-facebook-twitter-websites
 ---
 description:
 Sometimes JavaScript-heavy websites can have functional issues over Tor Browser.
-The simplest fix is to click on the "onion menu," then click on the security slider.
+The simplest fix is to click on the Security icon (the small gray shield at the top-right of the screen), then click "Advanced Security Settings..."
 Set your security to "Standard".

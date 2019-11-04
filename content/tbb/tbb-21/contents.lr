@@ -6,5 +6,5 @@ seo_slug: view-tor-browser-message-log
 ---
 description: 
 Click the button labelled "Copy Tor Log To Clipboard" that appears in the dialog window when Tor Browser is first connecting to the network.
-If Tor Browser is already open, click on the Torbutton icon (the small green onion at the top-left of the screen), then "Open Network Settings", then "Copy Tor Log To Clipboard".
+If Tor Browser is already open, click on the Torbutton icon (the small gray onion at the top-right of the screen), then "Tor Network Settings", then "Copy Tor Log To Clipboard".
 Once you have copied the log, you will be able to paste it into a text editor or email client.
