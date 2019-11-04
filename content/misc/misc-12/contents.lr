@@ -16,9 +16,6 @@ So long as you share the unguessable web address in a secure way (like pasting i
 OnionShare is developed by [Micah Lee](https://github.com/micahflee/onionshare).
 
 Many exit nodes are configured to block certain types of file sharing traffic, such as BitTorrent.
-<<<<<<< HEAD
 BitTorrent specifically is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
-=======
-BitTorrent in particular is [not anonymous over Tor.](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)
->>>>>>> master
+
 
