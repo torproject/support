@@ -1,0 +1,29 @@
+_model: question
+---
+title: I'm supposed to "edit my torrc". What does that mean?
+---
+seo-slug: edit-torrc
+---
+description:
+WARNING: Do NOT follow random advice instructing you to edit your `torrc`!
+Doing so can allow an attacker to compromise your security and anonymity through malicious configuration of your `torrc`.
+
+Tor uses a text file called `torrc` that contains configuration instructions for how Tor should behave.
+The default configuration should work fine for most Tor users (hence the warning above.)
+
+To find your Tor Browser `torrc`, follow the instructions for your operating system below.
+
+On Windows or Linux:
+* The `torrc` is in the Tor Browser Data directory at `Browser/TorBrowser/Data/Tor` inside your Tor Browser directory.
+
+On macOS:
+* The `torrc` is in the Tor Browser Data directory at `~/Library/Application Support/TorBrowser-Data/Tor`.
+* Note the Library folder is hidden on newer versions of macOS. To navigate to this folder in Finder, select "Go to Folder..." in the "Go" menu.
+* Then type "~/Library/Application Support/" in the window and click Go.
+
+Close Tor Browser before you edit your `torrc`, otherwise Tor Browser may erase your modifications.
+Some options will have no effect as Tor Browser overrides them with command line options when it starts Tor.
+
+Have a look at the [sample `torrc`](https://gitweb.torproject.org/tor.git/tree/src/config/torrc.sample.in) file for hints on common configurations.
+For other configuration options you can use, see the [Tor manual page](https://2019.www.torproject.org/docs/tor-manual.html.en).
+Remember, all lines beginning with `#` in torrc are treated as comments and have no effect on Tor's configuration.

@@ -1,8 +1,8 @@
-_model: question 
+_model: question
 ---
 title: How do I volunteer with Tor Project?
 ---
 seo_slug: volunteer-with-tor-project
 ---
-description: 
-Please see our <mark><a href="https://www.torproject.org/getinvolved/volunteer.html.en">volunteer page</a></mark> for how to get involved!
+description:
+Please see our [community page](https://community.torproject.org) for how to get involved!

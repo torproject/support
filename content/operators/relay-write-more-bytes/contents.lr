@@ -1,0 +1,13 @@
+title: Why does my relay write more bytes onto the network than it reads?
+---
+description:
+
+You're right, for the most part a byte into your Tor relay means a byte out, and vice versa. But there are a few exceptions:
+
+If you open your DirPort, then Tor clients will ask you for a copy of the directory.
+The request they make (an HTTP GET) is quite small, and the response is sometimes quite large.
+This probably accounts for most of the difference between your "write" byte count and your "read" byte count.
+
+Another minor exception shows up when you operate as an exit node, and you read a few bytes from an exit connection (for example, an instant messaging or ssh connection) and wrap it up into an entire 512 byte cell for transport through the Tor network.
+---
+seo_slug: relay-writes-more-than-it-reads

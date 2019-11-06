@@ -9,21 +9,4 @@ Tor prevents eavesdroppers from learning sites that you visit.
 However, information sent unencrypted over the internet using plain HTTP can still be intercepted by exit relay operators or anyone observing the traffic between your exit relay and your destination website.
 If the site you are visiting uses HTTPS, then the traffic leaving your exit relay will be encrypted, and won't be visible to eavesdroppers.
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card">
-      <img class="card-img-top" src="/static/images/image2.png" alt="https">
-      <div class="card-body">
-        <h4 class="card-title">If you are using HTTPS, your website URL will begin with "https://".</h4>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="card">
-      <img class="card-img-top" src="/static/images/image6.png" alt="https">
-      <div class="card-body">
-        <h4 class="card-title">This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.</h4>
-      </div>
-    </div>
-  </div>
-</div>
+#### This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.

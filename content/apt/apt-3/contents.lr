@@ -1,0 +1,35 @@
+_model: question
+---
+title: Can I use APT over Tor?
+---
+seo_slug: apt-over-tor
+---
+_slug: apt-over-tor
+---
+description:
+Yes, `deb.torproject.org` is also served through via an Onion Service: http://sdscoq7snqtznauu.onion/
+
+To use Apt over Tor, the apt transport needs to be installed:
+
+   ```
+   # apt install apt-transport-tor
+   ```
+
+Then replace the address in the lines added before with, for example:
+
+   ```
+   # For the stable version.
+   deb tor://sdscoq7snqtznauu.onion/torproject.org <DISTRIBUTION> main
+
+   # For the unstable version.
+   deb tor://sdscoq7snqtznauu.onion/torproject.org tor-nightly-master-<DISTRIBUTION> main
+   ```
+
+Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to discover.
+
+Now refresh your sources and try if it's still possible to install tor:
+
+   ```
+   # apt update
+   # apt install tor
+   ```

@@ -1,9 +1,8 @@
 _model: question
 ---
-title: When is Tor Browser for Android being released?
+title: What happened to Orfox?
 ---
 seo_slug: tor-browser-for-android
 ---
 description:
-We are currently working on Tor Browser for Android, and you can [test our alpha releases](https://blog.torproject.org/new-alpha-release-tor-browser-android).
-Please watch our <mark><a href="https://blog.torproject.org">blog</a></mark> for future announcements and details regarding this project.
+With the release of [Tor Browser for Android](https://www.torproject.org/download/#android) Orfox has been [retired](https://blog.torproject.org/orfox-paved-way-tor-browser-android).

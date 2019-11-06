@@ -1,0 +1,71 @@
+title: How to Report a Bug or Give Feedback
+---
+description:
+
+Tor relies on the support of users and volunteers around the world to help us improve our software and resources, so your feedback is extremely valuable to us (and to all Tor users). 
+
+### Feedback template
+
+When sending us feedback or reporting a bug, please include as many of these as possible:
+
+ * OS you are using
+ * Tor Browser version
+ * Step by step of how you got to the issue, so we can reproduce it (e.g. I opened the browser, typed a url, clicked on (i) icon, then my browser crashed)
+ * A screenshot of the problem
+ * The log
+
+### How to Reach Us
+
+There are several ways to reach us, so please use what works best for you.
+
+#### Trac
+
+You can file a ticket at [https://trac.torproject.org](https://trac.torproject.org). We track all Tor Browser 9 related issues with the tbb-9.0-issues keyword. Tickets related to our website should be added with the component "Webpages/Website." 
+
+#### Email
+
+Send us an email to frontdesk@torproject.org
+
+In the subject line of your email, please tell us what you're reporting. The more objective your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser, "I need a bridge"), the easier it will be for us to understand and follow up. Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
+
+For the fastest response, please write in English, Spanish, and/or Portuguese if you can. If none of these languages works for you, please write on any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it. 
+
+#### Blog post comments
+
+You can always leave comments on the blog post related to the issue or feedback you want to report. If there is not a blog post related to your issue, please contact us another way. 
+
+#### IRC
+
+You can find us in the #tor channel on OFTC to give us feedback or report bugs/issues. We may not respond right away, but we do check the backlog and will get back to you when we can.
+
+Learn how to connect to [OFTC servers](/get-in-touch/irc-help).
+
+#### Email Lists
+
+For reporting issues or feedback using email lists, we recommend that you do on the one that is related to what you would like to report. 
+
+For feedback or issues related to Tor Browser, Tor network or other projects developed by Tor: [tor-talk](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk)
+
+For feedback or issues related to our websites: [ux](https://lists.torproject.org/cgi-bin/mailman/listinfo/ux)
+
+For feedback or issues related to running a Tor relay: [tor-relays](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays)
+
+For feedback on content related to Tor Browser Manual or Support website: [tor-community-team](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-community-team)
+
+### Report a security issue
+
+If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org.
+If you've found a security bug in Tor or Tor Browser, feel free to submit it for our [bug bounty program](https://hackerone.com/torproject).
+If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:
+
+```
+  gpg --fingerprint tor-security@lists.torproject.org
+  pub 4096R/1A7BF184 2017-03-13
+  Key fingerprint = 8B90 4624 C5A2 8654 E453 9BC2 E135 A8B4 1A7B F184
+  uid tor-security@lists.torproject.org
+  uid tor-security@lists.torproject.org
+  uid tor-security@lists.torproject.org
+  sub 4096R/C00942E4 2017-03-13
+```
+---
+seo_slug: bug-or-feedback

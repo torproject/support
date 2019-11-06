@@ -5,4 +5,4 @@ title: How do I run an obfs4 bridge?
 seo_slug: how-do-i-run-an-obfs4-bridge
 ---
 description:
-See our <mark><a href="https://community.torproject.org/relay/setup/bridge/">obfs4 setup guide</a></mark> to learn how to set up an obfs4 bridge.
+See our [obfs4 setup guide](https://community.torproject.org/relay/setup/bridge/) to learn how to set up an obfs4 bridge.

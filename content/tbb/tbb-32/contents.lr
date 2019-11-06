@@ -7,4 +7,4 @@ seo_slug: setting-tor-browser-as-default
 description: 
 There is currently no supported method for setting Tor Browser as your default browser.
 The Tor Browser works hard to isolate itself from the rest of your system, and the steps for making it the default browser are unreliable.
-This means sometimes a website would load in the Tor Browser, and sometimes it would load in another browser, this type of behavior can be dangerous and anonymity-breaking.
+This means sometimes a website would load in the Tor Browser, and sometimes it would load in another browser. This type of behavior can be dangerous and break anonymity.

@@ -5,18 +5,4 @@ title: How do I update Tor Browser?
 seo_slug: updating-tor-browser
 ---
 description:
-You can update Tor Browser as soon as a new version is released.
-
-Tor Browser will prompt you to update the software once a new version has been released.
-
-The Torbutton icon (the little onion in the top left corner of the browser) will display a yellow triangle.
-
-<img class="" src="/static/images/update-tb.png" alt="Check for Tor Browser Update">
-
-You may see a written indication when Tor Browser opens telling you that an update is available.
-
-<img class="" src="/static/images/image5.png" alt="New release alert">
-
-Tor browser will install the updates.
-
-<img class="" src="/static/images/image3.png" alt="New release alert">
+Please see the [Updating section](https://tb-manual.torproject.org/updating/) in the Tor Browser Manual.

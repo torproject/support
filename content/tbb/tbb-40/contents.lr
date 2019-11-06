@@ -6,4 +6,4 @@ seo_slug: different-circuit-each-website
 ---
 description:
 In Tor Browser, every new domain gets its own circuit.
-<mark><a href="https://www.torproject.org/projects/torbrowser/design/#identifier-linkability">The Design and Implementation of Tor Browser</a></mark> document further explains the thinking behind this design.
+[The Design and Implementation of Tor Browser](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability) document further explains the thinking behind this design.
