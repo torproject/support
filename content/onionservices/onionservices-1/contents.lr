@@ -1,10 +1,10 @@
-_model: question 
+_model: question
 ---
 title: I've heard about websites that are only accessible over Tor. What are these websites, and how can I access them?
 ---
 seo_slug: accessing-websites-that-are-only-accessible-over-tor
 ---
-description: 
+description:
 Websites that are only accessible over Tor are called "onions" and end in the TLD .onion.
 For example, the DuckDuckGo onion is <a href="http://3g2upl4pq6kufc4m.onion">https://3g2upl4pq6kufc4m.onion</a>.
 You can access these websites by using Tor Browser.
