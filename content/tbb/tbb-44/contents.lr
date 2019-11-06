@@ -6,6 +6,8 @@ This is a known and intermittent problem; it does not mean that Google considers
 
 When you use Tor, you are sending queries through exit relays that are also shared by thousands of other users. Tor users typically see this message when many Tor users are querying Google in a short period of time. Google interprets the high volume of traffic from a single IP address (the exit relay you happened to pick) as somebody trying to "crawl" their website, so it slows down traffic from that IP address for a short time.
 
+You can try 'change the circuit for this site' to access the website from a different IP address.
+
 An alternate explanation is that Google tries to detect certain kinds of spyware or viruses that send distinctive queries to Google Search. It notes the IP addresses from which those queries are received (not realizing that they are Tor exit relays), and tries to warn any connections coming from those IP addresses that recent queries indicate an infection.
 
 To our knowledge, Google is not doing anything intentionally specifically to deter or block Tor use. The error message about an infected machine should clear up again after a short time.
