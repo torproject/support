@@ -22,7 +22,7 @@ An antivirus software is used to prevent, detect and remove malicious software.
 Antivirus software can interfere with [Tor](#tor-/-tor-network/-core-tor) running on your computer.
 You may need to consult the documentation for your antivirus software if you do not know how to allow Tor.
 
-### App
+### app
 
 A web application (web app), is an application that the [client](#client) runs in a [web browser](#web-browser).
 App can also refer to software that you install on mobile [operating systems](#operating-system-os).
@@ -97,7 +97,7 @@ A cryptographic signature proves the authenticity of a message or file. It is cr
 
 ## D
 
-### Daemon
+### daemon
 
 A daemon is a computer program that runs as a background process, rather than being under the direct control of a user.
 
@@ -262,7 +262,7 @@ A standardized internet domain name used by onion services that end in .onion an
 
 ### OONI
 
-OONI stands for "Open Observatory of Network Interference", it is a global observation network for detecting [censorship](#network-censorship), surveillance and [traffic](#traffic) manipulation on the internet.
+OONI stands for "[Open Observatory of Network Interference](https://ooni.io/)", it is a global observation network for detecting [censorship](#network-censorship), surveillance and [traffic](#traffic) manipulation on the internet.
 
 ### Onion Browser
 
