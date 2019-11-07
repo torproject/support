@@ -10,7 +10,7 @@ If you’re having trouble connecting, please select the option to "copy Tor log
 Then paste the Tor log into a text file or other document.
 You should see one of these common log errors (look for the following lines in your Tor log):
 
-###### Common log error #1: Proxy connection failure
+##### Common log error #1: Proxy connection failure
 
     2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server
