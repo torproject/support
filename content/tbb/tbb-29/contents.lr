@@ -7,7 +7,7 @@ seo_slug: change-ip-address
 description:
 Tor Browser has two ways to change your relay circuit — "New Identity" and "New Tor Circuit for this Site".
 
-Both options are located in the harmbuger menu, but you can also access the New Circuit option by clicking the small sparky broom icon at the top-right of the screen.
+Both options are located in the hamburger menu, but you can also access the New Circuit option by clicking the small sparky broom icon at the top-right of the screen.
 
 ##### New Identity
 
