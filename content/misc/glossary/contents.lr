@@ -66,14 +66,14 @@ Captchas are a challenge-response test used in computing to determine whether th
 
 ### checksum
 
-Checksums are [hash](#hash)values of files. If you have downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
+Checksums are [hash](#hash) values of files. If you have downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
 
 ### circuit
 
 A path through the [Tor network](#tor-/-tor-network/-core-tor) built by [clients](#client) consisting of randomly selected nodes. The circuit begins with either a [bridge](#bridge) or a [guard](#guard). 
 Most circuits consist of three nodes - a guard or bridge, a [middle relay](#middle-relay), and an [exit](#exit). 
 Most [onion services](#onion-services) use six hops in a circuit (with the exception of [single onion services](#single-onion-service)), and never an exit node. 
-You can view your current Tor circuit by clicking on the onion button in Tor Browser.
+You can view your current Tor circuit by clicking on the [i] on the URL bar.
 
 ### client
 
@@ -90,7 +90,7 @@ In Tor terms, a single document compiled and voted on by the [directory authorit
 ### cookie
 
 An [HTTP](#http) cookie (also called web cookie, Internet cookie, browser cookie or simply cookie) is a small piece of data sent from a website and stored on the user's computer by the user's [web browser](#web-browser) while the user is browsing. 
-By default, [Tor Browser](#tor-browser) does not store cookies. You can change this after visiting "preferences" (accessible from the hamburger menu at the top-right of the screen) and navigating to "Privacy & Security".
+By default, [Tor Browser](#tor-browser) does not store cookies. 
 
 ### cross-site scripting (XSS)
 
@@ -101,7 +101,7 @@ Cross-Site Scripting (XSS) allows an attacker to add malicious functionality or 
 A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](#public-key-cryptography) key pair and can be verified by the corresponding public key. 
 If you download software from torproject.org, you will find it as signature files (.asc). 
 These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get. 
-For more information about how you can verify signatures, please see [here](https://support.torproject.org/tbb/how-to-verify-signature/).
+For more information, see [how you can verify signatures](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 ## D
 
@@ -237,8 +237,9 @@ The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor Brows
 
 ### meek
 
-These [pluggable transports](#pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](#tor-/-tor-network/-core-tor). 
-Meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+These [pluggable transports](#pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](#tor-/-tor-network/-core-tor). Meek-azure makes it look like you are using a Microsoft web site.
+
+
 
 ### middle relay
 
@@ -280,7 +281,7 @@ This is a tool for monitoring the core Tor process on a system, often useful for
 ### obfs3
 
 Obfs3 is a [pluggable transport](#pluggable-transports) that makes [Tor](#tor-/-tor-network/-core-tor) [traffic](#traffic) look random, so that it does not look like Tor or any other protocol. 
-Obfs3 bridges will work in most places.
+Obfs3 is not supported anymore. 
 
 ### obfs4
 
@@ -311,11 +312,11 @@ Onion services offer advantages over ordinary services on the non-private web, i
 ### Onionoo
 
 Onionoo is a web-based protocol to learn about currently running [Tor relays](#relay) and [bridges](#bridge). 
-Onionoo provides the data for other applications and websites(compass, atlas, etc..) which in turn present Tor network status information to humans.
+Onionoo provides the data for other applications and websites ([metrics.torproject.org](https://metrics.torproject.org/)) which in turn present Tor network status information to humans.
 
-### onionsite
+### onion site
 
-An onionsite is another name for an [onion service](#onion-services), but refers exclusively to websites.
+An onion site is another name for an [onion service](#onion-services), but refers exclusively to websites.
 These websites use the .onion Top Level Domain (TLD).
 
 ### onionspace
@@ -383,7 +384,6 @@ A publicly-listed node in the [Tor network](#tor-/-tor-network/-core-tor) that f
 ### Satori
 
 It is an [add-on](#add-on-extension-or-plugin) for the Chrome or Chromium browsers that allows you to download several security and privacy programs, including [Tor Browser](#tor-browser), from different sources. 
-You can Install Satori from the Chrome Web Store.
 
 ### scramblesuit
 
@@ -396,7 +396,7 @@ Elements used for offering dynamic/interactive content via websites.
 ### self-authenticating address
 
 The specialized address format of [onion addresses](#onion-address) is self-authenticating. 
-The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onionsite](#onionsite). 
+The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onion site](#onion-site). 
 Ordinary internet domain names require site owners to trust and be approved by a Certificate Authority (CA) for this binding, and they are subject to hijack by the CA and typically by many other parties as well.
 
 ### server
