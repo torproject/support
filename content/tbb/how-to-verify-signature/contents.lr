@@ -11,7 +11,8 @@ Below we explain why it is important and how to verify that the Tor program you 
 
 Each file on our [download page](https://www.torproject.org/download/) is accompanied by a file with the same name as the package and the extension ".asc". These .asc files are OpenPGP signatures.
 They allow you to verify the file you've downloaded is exactly the one that we intended you to get.
-For example, `torbrowser-install-win64-9.0.1_en-US.exe` is accompanied by `torbrowser-install-win64-9.0.1_en-US.exe.asc`.
+
+For example, `torbrowser-install-win64-9.0_en-US.exe` is accompanied by `torbrowser-install-win64-9.0_en-US.exe.asc`.
 
 We now show how you can verify the downloaded file's digital signature on different operating systems.
 Please notice that a signature is dated the moment the package has been signed.
@@ -69,15 +70,15 @@ The examples below assume that you downloaded these two files to your "Downloads
 
 #### For Windows users:
 
-    gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0.1_en-US.exe.asc Downloads\torbrowser-install-win64-9.0.1_en-US.exe
+    gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0_en-US.exe.asc Downloads\torbrowser-install-win64-9.0_en-US.exe
 
 #### For macOS users:
 
-    gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0.1-osx64_en-US.dmg{.asc,}
+    gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg{.asc,}
 
 #### For GNU/Linux users (change 64 to 32 if you have the 32-bit package):
 
-    gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-9.0.1_en-US.tar.xz{.asc,}
+    gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz{.asc,}
 
 
 The result of the command should produce something like this:
@@ -85,6 +86,16 @@ The result of the command should produce something like this:
     gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
     gpgv:                using RSA key EB774491D9FF06E2
     gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
+<<<<<<< HEAD
+=======
+
+#### Workaround (using a public key)
+
+If you encounter errors you cannot fix, feel free to [download and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Alternatively, you may use the following command:
+
+    curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
+
+>>>>>>> 4c7b199efc403f7f73b9ae06733568f8945eb6ae
 
 #### Workaround (using a public key)
 
