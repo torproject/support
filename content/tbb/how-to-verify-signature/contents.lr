@@ -86,16 +86,7 @@ The result of the command should produce something like this:
     gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
     gpgv:                using RSA key EB774491D9FF06E2
     gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
-<<<<<<< HEAD
-=======
 
-#### Workaround (using a public key)
-
-If you encounter errors you cannot fix, feel free to [download and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Alternatively, you may use the following command:
-
-    curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
-
->>>>>>> 4c7b199efc403f7f73b9ae06733568f8945eb6ae
 
 #### Workaround (using a public key)
 
