@@ -12,12 +12,12 @@ The Tor Project maintains its own [Debian package repository](https://deb.torpro
 
 Here's how you can enable Tor Package Repository in Debian based distributions:
 
-#### 1. Install `apt-transport-https`
+#### 1. Install `apt-transport-https` and `curl`
 
 To enable all package managers using the libapt-pkg library to access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure). 
 
    ```
-   # apt install apt-transport-https
+   # apt install apt-transport-https curl
    ```
 
 #### 2. Add the following entries to `/etc/apt/sources.list` or a new file in `/etc/apt/sources.list.d/` 
