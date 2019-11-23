@@ -1,10 +1,10 @@
-_model: question 
+_model: question
 ---
 title: Can I change the number of hops Tor uses?
 ---
 seo_slug: change-the-number-of-hops-tor-uses
 ---
-description: 
+description:
 Right now the path length is hard-coded at 3 plus the number of nodes in your path that are sensitive.
 That is, in normal cases it's 3, but for example if you're accessing an onion service or a ".exit" address it could be more.
 
