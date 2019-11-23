@@ -90,6 +90,12 @@ name = മലയാളം (ml)
 url_prefix = /ml/
 locale = ml
 
+[ms]
+direction = text-left
+order = order-last
+language = Melayu (ms)
+url = /ms/
+
 [alternatives.pl]
 name = polski (pl)
 url_prefix = /pl/
