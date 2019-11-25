@@ -22,7 +22,7 @@
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
         {% include 'sidenav.html' %}
-        {% set locale = bag('alternatives', alternative) %}
+        {% set locale = bag('alternatives', this.alt) %}
         <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9  {{ locale.order }} {{ locale.direction }}">
           {% block body %}{% endblock %}
         </main>
