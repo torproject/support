@@ -45,6 +45,12 @@ name = Español (es)
 url_prefix = /es/
 locale = es
 
+[alternatives.fa]
+name = فارسی (fa)
+url_prefix = /fa/
+locale = fa
+
+
 [alternatives.fr]
 name = Français (fr)
 url_prefix = /fr/
@@ -114,6 +120,11 @@ locale = pt-BR
 name = Português Port. (pt-PT)
 url_prefix = /pt-PT/
 locale = pt-PT
+
+[alternatives.ro]
+name = Română (ro)
+url_prefix = /ro/
+locale = ro
 
 [alternatives.ru]
 name = Русский (ru)
