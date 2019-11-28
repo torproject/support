@@ -7,12 +7,16 @@
   </h4>
   <div id="{{ item._id }}" class="collapse show anchor-spacer" role="tabpanel" data-parent="#{{ t_id }}Accordion">
     {{ item.description|safe }}
+
+    {% if item._id == "https-1" %}
+      {% include 'secure-connections.html' %}
+    {% endif %}
     <div class="card mt-5">
       <ul class="list-group list-group-flush">
          <!--li class="list-group-item"><a><span class="card-text text-muted">{{ _("Contributors to this page:") }} <a href="#" title="#">cypherpunk</a></span></li-->
          <li class="list-group-item">
-           <a href="https://dip.torproject.org/web/support/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
-           <a href="https://dip.torproject.org/web/support/issues/new?issue[assignee_id]=&issue[milestone_id]=&issue[title]=User feedback about {{ item.path }}">{{ _("Suggest Feedback") }}</a> -
+           <a href="https://github.com/torproject/support/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
+           <a href="https://support.torproject.org/misc/bug-or-feedback/">{{ _("Suggest Feedback") }}</a> -
            <a href="{{ item|url }}">{{ _("Permalink") }}</a>
           </li>
        </ul>
