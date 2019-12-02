@@ -1,0 +1,8 @@
+title: My relay recently got the Guard flag and traffic dropped by half.
+---
+description:
+
+Since it's now a guard, clients are using it less in other positions, but not many clients have rotated their existing guards out to use it as a guard yet.
+Read more details in this [blog post](https://blog.torproject.org/blog/lifecycle-of-a-new-relay) or in [Changing of the Guards: A Framework for Understanding and Improving Entry Guard Selection in Tor](https://www.freehaven.net/anonbib/cache/wpes12-cogs.pdf).
+---
+seo_slug: my-relay-got-guard-flag-traffic-dropped

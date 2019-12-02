@@ -1,0 +1,10 @@
+title: Why isn't my relay being used more?
+---
+description:
+
+If your relay is relatively new then give it time. 
+Tor decides which relays it uses heuristically based on reports from Bandwidth Authorities. These authorities take measurements of your relay's capacity and, over time, directs more traffic there until it reaches an optimal load. 
+The lifecycle of a new relay is explained in more depth in [this blog post](https://blog.torproject.org/blog/lifecycle-of-a-new-relay).
+If you've been running a relay for a while and still having issues then try asking on the [tor-relays list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays/). 
+---
+seo_slug: why-isnt-my-relay-being-used-more

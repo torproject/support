@@ -1,6 +1,6 @@
 {% from "macros/topic.html" import render_topic %}
 <div>
-  {% for item in this.children %}
+  {% for item in this.children.order_by('key') %}
     {{ render_topic(item, this.alt) }}
   {% endfor %}
 </div>

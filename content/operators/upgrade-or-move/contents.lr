@@ -1,0 +1,16 @@
+title: I want to upgrade/move my relay. How do I keep the same key?
+---
+description:
+
+When upgrading your Tor relay, or moving it on a different computer, the important part is to keep the same identity keys (stored in "keys/ed25519_master_id_secret_key" and "keys/secret_id_key" in your DataDirectory).
+Keeping backups of the identity keys so you can restore a relay in the future is the recommended way to ensure the reputation of the relay won't be wasted.
+
+This means that if you're upgrading your Tor relay and you keep the same torrc and the same DataDirectory, then the upgrade should just work and your relay will keep using the same key.
+If you need to pick a new DataDirectory, be sure to copy your old keys/ed25519_master_id_secret_key and keys/secret_id_key over.
+
+Note: As of Tor 0.2.7 we are using new generation identities for relays based on ed25519 elliptic curve cryptography.
+Eventually they will replace the old RSA identities, but that will happen in time, to ensure compatibility with older versions.
+Until then, each relay will have both an ed25519 identity (identity key file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key file: keys/secret_id_key).
+You need to copy / backup both of them in order to restore your relay, change your DataDirectory or migrate the relay on a new computer.
+---
+seo_slug: upgrade-or-move

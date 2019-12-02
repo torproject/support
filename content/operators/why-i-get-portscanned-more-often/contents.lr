@@ -1,0 +1,11 @@
+title: Why do I get portscanned more often when I run a Tor relay?
+---
+description:
+
+If you allow exit connections, some services that people connect to from your relay will connect back to collect more information about you. For example, some IRC servers connect back to your identd port to record which user made the connection. (This doesn't really work for them, because Tor doesn't know this information, but they try anyway.) Also, users exiting from you might attract the attention of other users on the IRC server, website, etc. who want to know more about the host they're relaying through.
+
+Another reason is that groups who scan for open proxies on the Internet have learned that sometimes Tor relays expose their socks port to the world. We recommend that you bind your socksport to local networks only.
+
+In any case, you need to keep up to date with your security. See this article on [security for Tor relays](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide/Security) for more suggestions. 
+---
+seo_slug: why-i-get-portscanned-more-often

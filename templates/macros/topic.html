@@ -1,6 +1,6 @@
 {% from "macros/question.html" import render_question %}
 {% macro render_topic(item, alternative) %}
-{% set b_alt = 'topics+'+alternative %}
+{% set b_alt = 'topics' %}
 {% set t = bag(b_alt, item._id) %}
 <div class="item">
   <h3 class="text-primary">
@@ -9,8 +9,13 @@
   <div id="{{ t.control }}" role="tabpanel" data-parent="#topics" class="anchor-spacer">
     <div id="{{ t.control }}Accordion" data-children=".question">
       <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ item.title }}</h5>
-      {% for q in item.children %}
-        {{ render_question(q, item._id, alternative) }}
+      {% for q in item.children.include_undiscoverable(true).order_by('key') %}
+        {% if q._model == 'redirect' %}
+          {% set r = site.get(q.target) %}
+          {{ render_question(r, item._id, alternative) }}
+        {% else %}
+          {{ render_question(q, item._id, alternative) }}
+        {% endif %}
       {% endfor %}
     </div>
   </div>

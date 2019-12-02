@@ -22,9 +22,9 @@ An antivirus software is used to prevent, detect and remove malicious software.
 Antivirus software can interfere with [Tor](#tor-/-tor-network/-core-tor) running on your computer.
 You may need to consult the documentation for your antivirus software if you do not know how to allow Tor.
 
-### App
+### app
 
-A web application (web app), is an application which the [client](#client) runs in a [web browser](#web-browser).
+A web application (web app), is an application that the [client](#client) runs in a [web browser](#web-browser).
 App can also refer to software that you install on mobile [operating systems](#operating-system-os).
 
 ### Atlas
@@ -62,7 +62,7 @@ A browser history is a record of requests made while using a [web browser](#web-
 ### CAPTCHA
 
 Captchas are a challenge-response test used in computing to determine whether the user is human or not.
-[Tor](#tor-/-tor-network/-core-tor) users are often served captchas because Tor [relays](#relay) make so many requests that sometimes websites have a hard time determining whether or not those requests are coming from humans or from bots.
+[Tor](#tor-/-tor-network/-core-tor) users are often served captchas because Tor [relays](#relay) make so many requests that sometimes websites have a hard time determining whether or not those requests are coming from humans or bots.
 
 ### checksum
 
@@ -105,7 +105,7 @@ For more information, see [how you can verify signatures](https://support.torpro
 
 ## D
 
-### Daemon
+### daemon
 
 A daemon is a computer program that runs as a background process, rather than being under the direct control of a user.
 
@@ -130,8 +130,11 @@ The service you are connecting to (website, chat service, email provider, etc..)
 
 ### ExoneraTor
 
+
 The ExoneraTor service maintains a database of [relay](#relay) [IP addresses](#ip-address) that have been part of the Tor network. 
-It answers the question whether there was a [Tor](#tor-/-tor-network/-core-tor) relay running on a given IP address on a given date.  This service is often useful when dealing with law enforcement.
+It answers the question of whether there was a [Tor](#tor-/-tor-network/-core-tor) relay running on a given IP address on a given date.  
+This service is often useful when dealing with law enforcement.
+
 
 ## F
 
@@ -143,16 +146,18 @@ Firefox is available for Windows, macOS and Linux [operating systems](#operating
 
 ### firewall
 
-A firewall is a network security system which monitors and controls the incoming and outgoing network [traffic](#traffic). 
+A firewall is a network security system that monitors and controls incoming and outgoing network [traffic](#traffic). 
 This traffic filter is based on predetermined rules. 
 A firewall typically establishes a barrier between a trusted, secure internal network and another outside network but it can also be used as a content filter in the sense of [censorship](#network-censorship). 
-Sometimes people have trouble connecting to [Tor](#tor-/-tor-network/-core-tor) because their firewall blocks Tor connections. You can reconfigure or disable your firewall and restart Tor to test this.
+Sometimes people have trouble connecting to [Tor](#tor-/-tor-network/-core-tor) because their firewall blocks Tor connections. 
+You can reconfigure or disable your firewall and restart Tor to test this.
 
 ### Flash Player
 
-Flash Player is a [browser plugin](#add-on-extension-or-plugin)for Internet [applications](#app) to watch audio and video content. 
+Flash Player is a [browser plugin](#add-on-extension-or-plugin) for Internet [applications](#app) to watch audio and video content. 
 You should never enable Flash to run in [Tor Browser](#tor-browser) as it is unsafe. 
 Many services that use Flash also offer an HTML5 alternative, which should work in the Tor Browser.
+
 
 ### fte
 
@@ -289,11 +294,11 @@ Obfs4 is a [pluggable transport](#pluggable-transports) that makes [Tor](#tor-/-
 
 ### onion address
 
-A standardized internet domain name used by onion services that ends in .onion and is designed to be [self-authenticating](#self-authenticating).
+A standardized internet domain name used by onion services that end in .onion and is designed to be [self-authenticating](#self-authenticating).
 
 ### OONI
 
-OONI stands for "Open Observatory of Network Interference", it is a global observation network for detecting [censorship](#network-censorship), surveillance and [traffic](#traffic) manipulation on the internet.
+OONI stands for "[Open Observatory of Network Interference](https://ooni.io/)", it is a global observation network for detecting [censorship](#network-censorship), surveillance and [traffic](#traffic) manipulation on the internet.
 
 ### Onion Browser
 
@@ -368,7 +373,7 @@ This is the key that can be disseminated to others.
 A public-key cryptography system uses pairs of mathematical keys.
 The [public key](#public-key) can be disseminated widely while its belonging [private key](#private-key) is known only by the owner of the key pair.
 Any person can [encrypt](#encryption) a message using the public key of the receiver but only the receiver in possession of the private key is able to decrypt the message.
-Additionally, the private key can be used to create a [signature](#cryptographic-signature) to proof the identity of the creator of a message or other files.
+Additionally, the private key can be used to create a [signature](#cryptographic-signature) to prove the identity of the creator of a message or other files.
 This signature can be verified by the public key.
 
 ## Q
@@ -401,7 +406,7 @@ Ordinary internet domain names require site owners to trust and be approved by a
 
 ### server
 
-A device on a network which offers a service, such as file and web page storage, email or chat.
+A device on a network that offers a service, such as file and web page storage, email or chat.
 
 ### session
 
@@ -449,7 +454,7 @@ The way most people use Tor is with [Tor Browser](#tor-browser) which is a versi
 ### Tor Browser
 
 Tor Browser uses the [Tor network](#tor-/-tor-network/-core-tor) to protect your privacy and anonymity.
-Your internet activity, including the names and addresses of the websites you visit, will be hidden from your [Internet Service Provider (ISP)](#internet-service-provider-isp) and from anyone watching your connection locally.
+Your internet activity, including the names and addresses of the websites you visit, will be hidden from your [Internet Service Provider (ISP)](#internet-service-provider-isp) and anyone watching your connection locally.
 The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet [(IP) address](#ip-address), and will not know who you are unless you explicitly identify yourself.
 In addition, Tor Browser is designed to prevent websites from “[fingerprinting](#browser-fingerprinting)” or identifying you based on your browser configuration.
 By default, Tor Browser does not keep any [browsing history](#browsing-history).
@@ -459,7 +464,7 @@ By default, Tor Browser does not keep any [browsing history](#browsing-history).
 
 When you run [Tor Browser](#tor-browser) for the first time, you see the Tor Launcher window.
 It offers you the option to connect directly to the [Tor network](#tor-/-tor-network/-core-tor), or to configure Tor Browser for your connection.
-In the second case Tor Launcher will take you through a series of configuration options.
+In the second case, Tor Launcher will take you through a series of configuration options.
 
 ### Tor log
 
@@ -519,7 +524,7 @@ Major web browsers include [Firefox](#firefox), Chrome, Internet Explorer, and S
 
 ### website mirror
 
-A website mirror is an one-to-one copy of a website which you can find under other web addresses.
+A website mirror is a one-to-one copy of a website that you can find under other web addresses.
 A current list of torproject.org mirrors is available at https://www.torproject.org/getinvolved/mirrors.html.en.
 
 ## X

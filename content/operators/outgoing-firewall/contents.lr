@@ -1,0 +1,14 @@
+title: How should I configure the outgoing filters on my relay?
+---
+description:
+
+All outgoing connections must be allowed, so that each relay can communicate with every other relay.
+
+In many jurisdictions, Tor relay operators are legally protected by the same common carrier regulations that prevent internet service providers from being held liable for third-party content that passes through their network.
+Exit relays that filter some traffic would likely forfeit those protections.
+
+Tor promotes free network access without interference.
+Exit relays must not filter the traffic that passes through them to the internet.
+Exit relays found to be filtering traffic will get the [BadExit](https://community.torproject.org/relay/community-resources/bad-relays/) flag once detected.
+---
+seo_slug: configure-outgoing-filters-on-relay
