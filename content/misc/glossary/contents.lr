@@ -240,7 +240,7 @@ Sometimes the direct access to the [Tor network](#tor-/-tor-network/-core-tor) i
 
 ### NoScript
 
-[Tor Browser](#tor-browser) includes an [add-on](#add-on-extension-or-plugin) called NoScript, accessed through the “S” icon at the top-left of the window, which allows you to control the [JavaScript](#javascript)that runs on individual web pages, or to block it entirely.
+[Tor Browser](#tor-browser) includes an [add-on](#add-on-extension-or-plugin) called NoScript, accessed through the “S” icon at the top-left of the window, which allows you to control the [JavaScript](#javascript) that runs on individual web pages, or to block it entirely.
 
 ### nyx
 
