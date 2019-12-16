@@ -41,12 +41,18 @@ url_prefix = /el/
 locale = el
 
 [alternatives.es]
-name = Español
+name = Español (es)
 url_prefix = /es/
 locale = es
 
+[alternatives.fa]
+name = فارسی (fa)
+url_prefix = /fa/
+locale = fa
+
+
 [alternatives.fr]
-name = Français
+name = Français (fr)
 url_prefix = /fr/
 locale = fr
 
@@ -81,9 +87,24 @@ url_prefix = /it/
 locale = it
 
 [alternatives.ka]
-name = Georgian (ka)
+name = ქართული ენა (ka)
 url_prefix = /ka/
 locale = ka
+
+[alternatives.lt]
+name = lietuvių (lt)
+url_prefix = /lt/
+locale = lt
+
+[alternatives.ml]
+name = മലയാളം (ml)
+url_prefix = /ml/
+locale = ml
+
+[alternatives.ms]
+name = Melayu (m
+url_prefix = /ms/
+locale = ms
 
 [alternatives.pl]
 name = polski (pl)
@@ -100,13 +121,23 @@ name = Português Port. (pt-PT)
 url_prefix = /pt-PT/
 locale = pt-PT
 
+[alternatives.ro]
+name = Română (ro)
+url_prefix = /ro/
+locale = ro
+
 [alternatives.ru]
 name = Русский (ru)
 url_prefix = /ru/
 locale = ru
 
+[alternatives.th]
+name =  ภาษาไทย (th)
+url_prefix = /th/
+locale = th
+
 [alternatives.tr]
-name = Türkçe
+name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr
 
@@ -114,3 +145,8 @@ locale = tr
 name = 简体字 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
+
+[alternatives.zh-TW]
+name = 正體字 (zh-TW)
+url_prefix = /zh-TW/
+locale = zh-TW
