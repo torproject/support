@@ -29,7 +29,6 @@ Possibly.
 A bad first of three servers can see encrypted Tor traffic coming from your computer.
 It still doesn't know who you are and what you are doing over Tor.
 It merely sees "This IP address is using Tor".
-Tor is not illegal anywhere in the world, so using Tor by itself is fine.
 You are still protected from this node figuring out both who you are and where you are going on the Internet.
 
 ### Can't the third server see my traffic?
