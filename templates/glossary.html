@@ -1,7 +1,13 @@
 {% extends "layout.html" %}
 {% block body %}
   <div>
+    {% set ns = namespace(head="A") %}
     {% for item in this.children %}
+      {% set l_head = item.term[0] %}
+      {% if (l_head > ns.head)  %}
+        <h2>{{ l_head|capitalize }}</h2>
+        {% set ns.head = l_head %}
+      {% endif %}
       <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', this.alt, 'direction') }}">
         <a href="{{ item.path|url(alt=this.alt) }}" >{{ item.term }}</a>
       </h5>

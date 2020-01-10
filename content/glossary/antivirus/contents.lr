@@ -1,0 +1,16 @@
+_model: word
+---
+term: antivirus software
+---
+original_term: antivirus software
+---
+definition:
+
+An antivirus software is used to prevent, detect and remove malicious software.
+Antivirus software can interfere with [Tor](#tor-/-tor-network/-core-tor) running on your computer.
+You may need to consult the documentation for your antivirus software if you do not know how to allow Tor.
+
+---
+translation: A few translation notes
+---
+spelling: Some spelling notes
