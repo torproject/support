@@ -1,5 +1,3 @@
+_model: glossary
+---
 title: Glossary
----
-seo_slug: glossary
----
-_template: glossary.html
