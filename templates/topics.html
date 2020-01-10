@@ -1,6 +1,8 @@
 {% from "macros/topic.html" import render_topic %}
 <div>
   {% for item in this.children.order_by('key') %}
-    {{ render_topic(item, this.alt) }}
+    {% if item._id != "glossary" %}
+      {{ render_topic(item, this.alt) }}
+    {% endif %}
   {% endfor %}
 </div>
