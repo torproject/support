@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-  {{ this.body }}
-{% endblock %}
+<div>
+  {% for item in this.children %}
+    <a href="{{ item.path }}" >{{ item.title }}</a>
+  {% endfor %}
+</div>
