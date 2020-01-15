@@ -302,7 +302,7 @@ These websites use the .onion Top Level Domain (TLD).
 
 The set of available [onion services](#onion-services). For example, you can say "my site is in onionspace" instead of "my site is in the Dark Web."
 
-### Operating System (OS)
+### operating system (OS)
 
 The main system software that manages computer hardware and software resources and provides common services for computer programs. The most used desktop operating systems are Windows, macOS and Linux. Android and iOS are the dominant mobile operating systems.
 
@@ -360,13 +360,13 @@ A publicly-listed node in the [Tor network](#tor-/-tor-network/-core-tor) that f
 
 It is an [add-on](#add-on-extension-or-plugin) for the Chrome or Chromium browsers that allows you to download several security and privacy programs, including [Tor Browser](#tor-browser), from different sources.
 
-### scramblesuit
+### ScrambleSuit
 
-Scramblesuit is similar to obfs4 but has a different set of [bridges](#bridge).
+ScrambleSuit is similar to obfs4 but has a different set of [bridges](#bridge).
 
 ### script
 
-Elements used for offering dynamic/interactive content via websites.
+Element used for offering dynamic/interactive content via websites.
 
 ### self-authenticating address
 
@@ -420,7 +420,7 @@ The way most people use Tor is with [Tor Browser](#tor-browser) which is a versi
 
 Tor Browser uses the [Tor network](#tor-/-tor-network/-core-tor) to protect your privacy and anonymity.
 Your internet activity, including the names and addresses of the websites you visit, will be hidden from your [Internet Service Provider (ISP)](#internet-service-provider-isp) and anyone watching your connection locally.
-The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet [(IP) address](#ip-address), and will not know who you are unless you explicitly identify yourself.
+The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real [(IP) address](#ip-address), and will not know who you are unless you explicitly identify yourself.
 In addition, Tor Browser is designed to prevent websites from “[fingerprinting](#browser-fingerprinting)” or identifying you based on your browser configuration.
 By default, Tor Browser does not keep any [browsing history](#browsing-history).
 [Cookies](#cookie) are only valid for a single [session](#session) (until Tor Browser is exited or a [New Identity](#new-identity) is requested).
@@ -481,9 +481,9 @@ Traffic is the data sent and received by [clients](#client) and [servers](#serve
 
 ## W
 
-### Web Browser
+### web browser
 
-A web browser (commonly referred to as a browser) is a software application for retrieving, presenting, and traversing information resources on the World Wide Web.
+A web browser (commonly referred to as a browser) is a software application for retrieving, presenting, and browsing information resources on the World Wide Web.
 Major web browsers include [Firefox](#firefox), Chrome, Internet Explorer, and Safari.
 
 ### website mirror
