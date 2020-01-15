@@ -12,7 +12,7 @@ Here's how to reach #tor-project and other registered channels.
 
 2. Then, click on the word **"Status"** at the top left of the screen. 
 
-3. In the window at the bottom of the page, type:  `/msg nickserv REGISTER yournewpassowrd youremailaddress`
+3. In the window at the bottom of the page, type:  `/msg nickserv REGISTER yournewpassword youremailaddress`
 
 4. Hit enter.
 

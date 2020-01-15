@@ -12,7 +12,7 @@ If your copy of Tor Browser has a unique fingerprint, your browsing activities c
 
 Basically, each browser's settings and features create what is called a "browser fingerprint".
 Most browsers inadvertently create a unique fingerprint for each user which can be tracked across the internet.
-Tor Browser is specifically engineered to have a nearly identical (we're not perfect!) fingerprint across it's users.
+Tor Browser is specifically engineered to have a nearly identical (we're not perfect!) fingerprint across its users.
 This means each Tor Browser user looks like every other Tor Browser user, making it difficult to track any individual user.
 
 There's also a good chance a new add-on will increase the attack surface of Tor Browser.
