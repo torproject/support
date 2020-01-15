@@ -8,7 +8,7 @@ Tor is the onion routing network.
 When we were starting the new next-generation design and implementation of onion routing in 2001-2002, we would tell people we were working on onion routing, and they would say "Neat. Which one?"
 Even if onion routing has become a standard household term, Tor was born out of the actual [onion routing project](https://www.onion-router.net/) run by the Naval Research Lab.
 
-(It's also got a fine translation from German and Turkish.)
+(It's also got a fine meaning in German and Turkish.)
 
 Note: even though it originally came from an acronym, Tor is not spelled "TOR".
 Only the first letter is capitalized.

@@ -61,7 +61,7 @@ A browser history is a record of requests made while using a [web browser](#web-
 
 ### CAPTCHA
 
-Captchas are a challenge-response test used in computing to determine whether the user is human or not.
+CAPTCHAs are a challenge-response test used in computing to determine whether the user is human or not.
 [Tor](#tor-/-tor-network/-core-tor) users are often served captchas because Tor [relays](#relay) make so many requests that sometimes websites have a hard time determining whether or not those requests are coming from humans or bots.
 
 ### checksum
@@ -193,7 +193,7 @@ HTTPS Everywhere is installed in [Tor Browser](#tor-browser).
 
 ## I
 
-### Internet Service Provider (ISP)
+### internet service provider (ISP)
 
 An Internet service provider (ISP) is an organization that provides services for accessing and using the Internet. When using [Tor Browser](#tor-browser), your ISP cannot see what websites you're visiting.
 
