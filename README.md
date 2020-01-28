@@ -27,4 +27,3 @@ The translation statistics for this website can be seen at https://torpat.ch/sup
 
 Translations are managed with the i18n plugin:
 https://github.com/numericube/lektor-i18n-plugin
-
