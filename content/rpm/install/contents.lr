@@ -1,6 +1,6 @@
 _model: question
 ---
-title: How can I install tor rpm package
+title: How can I install Tor rpm package
 ---
 seo_slug: tor-rpm-install
 ---
@@ -9,4 +9,59 @@ key: 2
 _slug: tor-rpm-install
 ---
 description:
-Here the text of the file. The key is for the ordering.
+
+The Tor Project maintains its own RPM package repository](https://rpm.torproject.org) for CentOS and RHEL and Fedora.
+
+Here's how you can enable Tor Package Repository for both CentOS and RHEL and Fedora:
+
+#### 1. Enable epel repository (only for CentOS and RHEL)
+
+    ```
+    # dnf install epel-release -y
+    ```
+
+### 2. Add the following to /etc/yum.repos.d/tor.repo
+
+
+For CentOS or RHEL:
+
+    ```
+    [tor]
+    name=Tor for Enterprise Linux $releasever - $basearch
+    baseurl=https://rpm.torproject.org/centos/$releasever/$basearch
+    enabled=1
+    gpgcheck=1
+    gpgkey=https://rpm.torproject.org/centos/public_gpg.key
+    cost=100
+    ```
+
+For Fedora:
+
+
+    ```
+    [tor]
+    name=Tor for Fedora $releasever - $basearch
+    baseurl=https://rpm.torproject.org/fedora/$releasever/$basearch
+    enabled=1
+    gpgcheck=1
+    gpgkey=https://rpm.torproject.org/fedora/public_gpg.key
+    cost=100
+    ```
+
+### 3. Install the Tor package
+
+Then you can install the latest Tor package.
+
+    ```
+    # dnf install tor -y
+    ```
+
+Using it for the for first time, you will have to import the GPG public key.
+
+    ```
+    Importing GPG key 0x3621CD35:
+    Userid     : "Kushal Das (RPM Signing key) <kushal@torproject.org>"
+    Fingerprint: 999E C8E3 14BC 8D46 022D 6C7D E217 C30C 3621 CD35
+    From       : https://rpm.torproject.org/fedora/public_gpg.key
+    Is this ok [y/N]: y
+    ```
