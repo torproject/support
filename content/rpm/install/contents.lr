@@ -10,7 +10,7 @@ _slug: tor-rpm-install
 ---
 description:
 
-The Tor Project maintains its own RPM package repository](https://rpm.torproject.org) for CentOS and RHEL and Fedora.
+The Tor Project maintains its own [RPM package repository](https://rpm.torproject.org) for CentOS and RHEL and Fedora.
 
 Here's how you can enable Tor Package Repository for both CentOS and RHEL and Fedora:
 
