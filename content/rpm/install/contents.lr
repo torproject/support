@@ -46,7 +46,7 @@ Then you can install the latest Tor package.
 
     # dnf install tor -y
 
-Using it for the for first time, you will have to import the GPG public key.
+Using it for the first time, you will have to import the GPG public key.
 
     Importing GPG key 0x3621CD35:
     Userid     : "Kushal Das (RPM Signing key) <kushal@torproject.org>"
