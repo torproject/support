@@ -1,0 +1,41 @@
+title: So what should I expect if I run an exit relay?
+---
+key: 10
+---
+description:
+
+We're sorry to hear that.
+here are some situations where it makes sense to block anonymous users for an Internet service.
+But in many cases, there are easier solutions that can solve your problem while still allowing users to access your website securely.
+
+First, ask yourself if there's a way to do application-level decisions to separate the legitimate users from the jerks.
+For example, you might have certain areas of the site, or certain privileges like posting, available only to people who are registered.
+It's easy to build an up-to-date list of Tor IP addresses that allow connections to your service, so you could set up this distinction only for Tor users.
+This way you can have multi-tiered access and not have to ban every aspect of your service.
+
+For example, the Freenode IRC network had a problem with a coordinated group of abusers joining channels and subtly taking over the conversation;
+but when they labeled all users coming from Tor nodes as "anonymous users," removing the ability of the abusers to blend in, the abusers moved back to using their open proxies and bot networks.
+
+Second, consider that hundreds of thousands of people use Tor every day simply for good data hygiene — for example, to protect against data-gathering advertising companies while going about their normal activities.
+Others use Tor because it's their only way to get past restrictive local firewalls.
+Some Tor users may be legitimately connecting to your service right now to carry on normal activities.
+You need to decide whether banning the Tor network is worth losing the contributions of these users, as well as potential future legitimate users.
+(Often people don't have a good measure of how many polite Tor users are connecting to their service — you never notice them until there's an impolite one.)
+
+At this point, you should also ask yourself what you do about other services that aggregate many users behind a few IP addresses.
+Tor is not so different from AOL in this respect.
+
+Lastly, please remember that Tor relays have [individual exit policies](https://support.torproject.org/operators/exit-policies/).
+Many Tor relays do not allow exiting connections at all.
+Many of those that do allow some exit connections might already disallow connections to your service.
+When you go about banning nodes, you should parse the exit policies and only block the ones that allow these connections; 
+and you should keep in mind that exit policies can change (as well as the overall list of nodes in the network).
+
+If you really want to do this, we provide a [Tor exit relay list](https://check.torproject.org/cgi-bin/TorBulkExitList.py) or a [DNS-based list you can query](https://2019.www.torproject.org/projects/tordnsel.html.en).
+
+(Some system administrators block ranges of IP addresses because of official policy or some abuse pattern, but some have also asked about whitelisting Tor exit relays because they want to permit access to their systems only using Tor.
+These scripts are usable for whitelisting as well.)
+---
+seo_slug: exit-relay-expectations
+---
+_slug: exit-relay-expectations

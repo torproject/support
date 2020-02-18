@@ -1,0 +1,27 @@
+title: Doesn't Tor enable criminals to do bad things?
+---
+key: 1
+---
+description:
+
+Criminals can already do bad things.
+Since they're willing to break laws, they already have lots of options available that provide better privacy than Tor provides. 
+They can steal cell phones, use them, and throw them in a ditch;
+they can crack into computers in Korea or Brazil and use them to launch abusive activities;
+they can use spyware, viruses, and other techniques to take control of literally millions of Windows machines around the world.
+
+Tor aims to provide protection for ordinary people who want to follow the law.
+Only criminals have privacy right now, and we need to fix that.
+
+Some advocates of anonymity explain that it's just a tradeoff — accepting the bad uses for the good ones — but there's more to it than that.
+Criminals and other bad people have the motivation to learn how to get good anonymity, and many have the motivation to pay well to achieve it.
+Being able to steal and reuse the identities of innocent victims (identity theft) makes it even easier.
+Normal people, on the other hand, don't have the time or money to spend figuring out how to get privacy online.
+This is the worst of all possible worlds.
+
+So yes, criminals can use Tor, but they already have better options, and it seems unlikely that taking Tor away from the world will stop them from doing their bad things.
+At the same time, Tor and other privacy measures can fight identity theft, physical crimes like stalking, and so on.
+---
+seo_slug: what-about-criminals
+---
+_slug: what-about-criminals

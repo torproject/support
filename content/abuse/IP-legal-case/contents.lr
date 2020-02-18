@@ -1,0 +1,13 @@
+title: I have questions about a Tor IP address for a legal case.
+---
+key: 15
+---
+description:
+Please read the [legal FAQ written by EFF lawyers](https://community.torproject.org/relay/community-resources/eff-tor-legal-faq/). There's a growing [legal directory](https://blog.torproject.org/blog/start-tor-legal-support-directory) of people who may be able to help you.
+
+If you need to check if a certain IP address was acting as a Tor exit node at a certain date and time, you can use the [ExoneraTor tool](https://exonerator.torproject.org/) to query the historic Tor relay lists and get an answer.
+---
+seo_slug: tor-ip-for-legal-case
+---
+_slug: tor-ip-for-legal-case
+
