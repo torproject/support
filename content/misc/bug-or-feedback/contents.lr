@@ -1,62 +1,62 @@
-title: How to Report a Bug or Give Feedback
+title: Как сообщить об ошибке или оставить отзыв
 ---
-description:
+описание:
 
-Tor relies on the support of users and volunteers around the world to help us improve our software and resources, so your feedback is extremely valuable to us (and to all Tor users). 
+Tor опирается на поддержку пользователей и волонтеров по всему миру, которые помогают нам улучшать наше программное обеспечение и ресурсы, поэтому ваши отзывы очень важны для нас (и для всех пользователей Tor).
 
-### Feedback template
+### Шаблон обратной связи
 
-When sending us feedback or reporting a bug, please include as many of these as possible:
+При отправке нам отзыва или сообщении об ошибке, укажите как можно больше из них:
 
- * OS you are using
- * Tor Browser version
- * Step by step of how you got to the issue, so we can reproduce it (e.g. I opened the browser, typed a url, clicked on (i) icon, then my browser crashed)
- * A screenshot of the problem
- * The log
+  * Операционная система, которую вы используете
+  * Версия браузера Tor
+  * Опишите шаг за шагом, как вы добрались до проблемы, чтобы мы могли воспроизвести ее (например, я открыл браузер, набрал URL-адрес, щелкнул значок (i), затем мой браузер потерпел крах)
+  * Скриншот проблемы
+  * Журнал
 
-### How to Reach Us
+### Как нас найти
 
-There are several ways to reach us, so please use what works best for you.
+Есть несколько способов связаться с нами, поэтому, пожалуйста, используйте то, что подходит вам лучше всего.
 
-#### Trac
+#### Trac [Не могу перевести]
 
-You can file a ticket at [https://trac.torproject.org](https://trac.torproject.org). We track all Tor Browser 9 related issues with the tbb-9.0-issues keyword. Tickets related to our website should be added with the component "Webpages/Website." 
+Вы можете отправить заявку по адресу: [https://trac.torproject.org](https://trac.torproject.org). Мы отслеживаем все проблемы, связанные с Tor Browser 9, с ключевым словом tbb-9.0-issues. Билеты, связанные с нашим сайтом, должны быть добавлены с помощью компонента «Веб-страницы / Сайт».
 
-#### Email
+#### Адрес электронной почты E-Mail
 
-Send us an email to frontdesk@torproject.org
+Мы ждём от Вас письма по адресу: frontdesk@torproject.org
 
-In the subject line of your email, please tell us what you're reporting. The more specific your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser, "I need a bridge"), the easier it will be for us to understand and follow up. Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
+В строке темы вашего письма, пожалуйста, сообщите нам, что вы сообщаете. Раскройте тему более конкретно (то есть: "Ошибка подключения", "обратная связь на сайте", "Отзыв о Tor Browser, "Мне нужен мост"), так нам будет легче понять в о чём Вы хотели сказать. Иногда, когда мы получаем письма без строки ТЕМА, они помечаются как спам, и мы их не видим.
 
-For the fastest response, please write in English, Spanish, and/or Portuguese if you can. If none of these languages works for you, please write in any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it. 
+Чтобы получить быстрый ответ, пожалуйста, напишите на английском, испанском и / или португальском языках, если можете. Если ни один из этих языков не подходит для вас, пожалуйста, пишите на любом удобном для вас языке, но имейте в виду, что ответ займет у нас немного больше времени, поскольку нам потребуется помощь с переводом, чтобы понять его.. 
 
-#### Blog post comments
+#### Комментарии в блоге
 
-You can always leave comments on the blog post related to the issue or feedback you want to report. If there is not a blog post related to your issue, please contact us another way. 
+Вы всегда можете оставить комментарии к сообщению в блоге, связанные с проблемой или отзыв, который вы хотите сообщить. Если нет сообщения в блоге, связанного с вашей проблемой, пожалуйста, свяжитесь с нами другим способом. 
 
-#### IRC
+#### IRC — протокол прикладного уровня для обмена сообщениями в режиме реального времени.
 
-You can find us in the #tor channel on OFTC to give us feedback or report bugs/issues. We may not respond right away, but we do check the backlog and will get back to you when we can.
+Вы можете найти нас в канале #tor на OFTC, чтобы оставить отзыв или сообщить об ошибках / проблемах. Мы можем не ответить сразу, но мы проверяем отставание и свяжемся с вами, когда сможем.
 
-Learn how to connect to [OFTC servers](/get-in-touch/irc-help).
+Узнайте подробнее, как подключаться к серверам OFTC: [OFTC servers](/get-in-touch/irc-help).
 
-#### Email Lists
+#### Списки адресов электронной почты
 
-For reporting issues or feedback using email lists, we recommend that you do so on the one that is related to what you would like to report. 
+Для сообщений о проблемах или обратной связи, используя списки адресов электронной почты, мы рекомендуем вам делать это в том, что связано с тем, что вы хотели бы сообщить. 
 
-For feedback or issues related to Tor Browser, Tor network or other projects developed by Tor: [tor-talk](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk)
+Для обратной связи или вопросов, связанных с Tor Browser, сетью Tor или другими проектами, разработанными Tor: [tor-talk](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk)
 
-For feedback or issues related to our websites: [ux](https://lists.torproject.org/cgi-bin/mailman/listinfo/ux)
+Для обратной связи или вопросов, связанных с нашими сайтами: [ux](https://lists.torproject.org/cgi-bin/mailman/listinfo/ux)
 
-For feedback or issues related to running a Tor relay: [tor-relays](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays)
+Для обратной связи или вопросов, связанных с перезапуском Tor: [tor-relays](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays)
 
-For feedback on content related to Tor Browser Manual or Support website: [tor-community-team](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-community-team)
+Для обратной связи по содержанию, связанному с Руководством по браузеру Tor или веб-сайтом поддержки: [tor-community-team](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-community-team)
 
-### Report a security issue
+### Сообщить о проблеме безопасности
 
-If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org.
-If you've found a security bug in Tor or Tor Browser, feel free to submit it for our [bug bounty program](https://hackerone.com/torproject).
-If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:
+Если вы обнаружили проблему безопасности в одном из наших проектов или в нашей инфраструктуре, пожалуйста, напишите на адрес электронной почты tor-security@lists.torproject.org.
+Если вы обнаружили ошибку безопасности в Tor или Tor Browser, не стесняйтесь отправить ее для нашего [bug bounty program](https://hackerone.com/torproject).
+Если вы хотите зашифровать свою почту, вы можете получить открытый ключ GPG для списка, связавшись с tor-security-sendkey@lists.torproject.org или pool.sks-keyservers.net. Вот отпечаток:
 
 ```
   gpg --fingerprint tor-security@lists.torproject.org
