@@ -28,7 +28,7 @@ For CentOS or RHEL:
     enabled=1
     gpgcheck=1
     gpgkey=https://rpm.torproject.org/centos/public_gpg.key
-    cost=100
+    cost=1000
 
 For Fedora:
 
@@ -38,7 +38,7 @@ For Fedora:
     enabled=1
     gpgcheck=1
     gpgkey=https://rpm.torproject.org/fedora/public_gpg.key
-    cost=100
+    cost=1000
 
 ### 3. Install the Tor package
 
