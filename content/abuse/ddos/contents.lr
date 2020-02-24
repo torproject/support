@@ -3,7 +3,6 @@ title: What about distributed denial of service attacks?
 key: 2
 ---
 description:
-
 Distributed denial of service (DDoS) attacks typically rely on having a group of thousands of computers all sending floods of traffic to a victim.
 Since the goal is to overpower the bandwidth of the victim, they typically send UDP packets since those don't require handshakes or coordination.
 

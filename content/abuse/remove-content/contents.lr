@@ -3,7 +3,6 @@ title: I want some content removed from a .onion address.
 key: 12
 ---
 description:
-
 The Tor Project does not host, control, nor have the ability to discover the owner or location of a .onion address.
 The .onion address is an address from [an onion service](https://tb-manual.torproject.org/onion-services/).
 The name you see ending in .onion is an onion service descriptor.

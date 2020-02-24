@@ -3,7 +3,6 @@ title: Tor is banned from the IRC network I want to use.
 key: 8
 ---
 description:
-
 Sometimes jerks make use of Tor to troll IRC channels.
 This abuse results in IP-specific temporary bans ("klines" in IRC lingo), as the network operators try to keep the troll off of their network.
 

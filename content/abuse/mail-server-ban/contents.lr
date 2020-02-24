@@ -3,7 +3,6 @@ title: Your nodes are banned from the mail server I want to use.
 key: 9
 ---
 description:
-
 Even though [Tor isn't useful for spamming](/abuse/what-about-spammers/), some over-zealous blacklisters seem to think that all open networks like Tor are evil —
 they attempt to strong-arm network administrators on policy, service, and routing issues, and then extract ransoms from victims.
 

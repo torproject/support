@@ -3,7 +3,6 @@ title: What about spammers?
 key: 3
 ---
 description:
-
 First of all, the default Tor exit policy rejects all outgoing port 25 (SMTP) traffic.
 So sending spam mail through Tor isn't going to work by default.
 It's possible that some relay operators will enable port 25 on their particular exit node, in which case that computer will allow outgoing mails;
@@ -20,6 +19,3 @@ Also, remember that many of their more subtle communication mechanisms (like spo
 seo_slug: what-about-spammers
 ---
 _slug: what-about-spammers
-
-
-

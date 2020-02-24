@@ -3,7 +3,6 @@ title: So what should I expect if I run an exit relay?
 key: 6
 ---
 description:
-
 If you run a Tor relay that allows exit connections (such as the default exit policy), it's probably safe to say that you will eventually hear from somebody.
 Abuse complaints may come in a variety of forms. For example:
 
