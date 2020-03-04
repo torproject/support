@@ -2,7 +2,8 @@
 {% block body %}
   <div class="question {{ bag('alternatives', alternative, 'direction') }}">
     <h4 class="text-primary">
-      {% if this.alt != "en" %}{{ this.original_term }} / {% endif %}{{ this.term }}
+      {% set original_term = site.get(this.path) %}
+      {% if this.alt != "en" %}{{ original_term.term }} / {% endif %}{{ this.term }}
     </h4>
     <div class="anchor-spacer">
       {{ this.definition|safe }}
