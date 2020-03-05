@@ -1,0 +1,9 @@
+_model: question
+---
+title: Why is X.onion asking for a private key?
+---
+seo_slug: onion-service-asking-for-private-key
+---
+description:
+If you see this, then you're trying to access an authenticated onion. An authenticated onion service is an onion service that requires you to provide an authentication token (in this case, a private key) before accessing the service.
+[Learn more about onion authentication.](https://tb-manual.torproject.org/onion-services/#client-auth) 
