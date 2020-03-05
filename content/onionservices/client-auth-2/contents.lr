@@ -1,0 +1,8 @@
+_model: question
+---
+title: How can I set up client authorization for my onion service?
+---
+seo_slug: setup-client-authorization-for-onion-service
+---
+description:
+Please see the [Client Authorization](https://community.torproject.org/onion-services/client-auth) section in the Tor Community website. 
