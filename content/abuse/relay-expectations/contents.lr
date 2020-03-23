@@ -1,0 +1,26 @@
+title: So what should I expect if I run an exit relay?
+---
+key: 6
+---
+description:
+If you run a Tor relay that allows exit connections (such as the default exit policy), it's probably safe to say that you will eventually hear from somebody.
+Abuse complaints may come in a variety of forms. For example:
+
+- Somebody connects to Hotmail, and sends a ransom note to a company. The FBI sends you a polite email, you explain that you run a Tor relay, and they say "oh well" and leave you alone. [Port 80]
+- Somebody tries to get you shut down by using Tor to connect to Google groups and post spam to Usenet, and then sends an angry mail to your ISP about how you're destroying the world. [Port 80]
+- Somebody connects to an IRC network and makes a nuisance of himself. Your ISP gets polite mail about how your computer has been compromised; and/or your computer gets DDoSed. [Port 6667]
+- Somebody uses Tor to download a Vin Diesel movie, and your ISP gets a DMCA takedown notice. See EFF's [Tor DMCA Response Template](https://community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/), which explains why your ISP can probably ignore the notice without any liability. [Arbitrary ports]
+
+Some hosting providers are friendlier than others when it comes to Tor exits. For a listing see the [good and bad ISPs wiki](https://community.torproject.org/relay/community-resources/good-bad-isps/).
+
+For a complete set of template responses to different abuse complaint types, see the [collection of templates](https://community.torproject.org/relay/community-resources/tor-abuse-templates/).
+You can also proactively reduce the amount of abuse you get by following [these tips for running an exit node with minimal harassment](https://blog.torproject.org/blog/tips-running-exit-node) and [running a reduced exit policy](https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy).
+
+You might also find that your Tor relay's IP is blocked from accessing some Internet sites/services.
+This might happen regardless of your exit policy, because some groups don't seem to know or care that Tor has exit policies.
+(If you have a spare IP not used for other activities, you might consider running your Tor relay on it.) 
+In general, it's advisable not to use your home internet connection to provide a Tor relay.
+---
+seo_slug: exit-relay-expectations
+---
+_slug: exit-relay-expectations
