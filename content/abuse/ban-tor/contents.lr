@@ -1,10 +1,10 @@
-title: So what should I expect if I run an exit relay?
+title: I want to ban the Tor network from my service.
 ---
 key: 10
 ---
 description:
 We're sorry to hear that.
-here are some situations where it makes sense to block anonymous users for an Internet service.
+There are some situations where it makes sense to block anonymous users for an Internet service.
 But in many cases, there are easier solutions that can solve your problem while still allowing users to access your website securely.
 
 First, ask yourself if there's a way to do application-level decisions to separate the legitimate users from the jerks.
