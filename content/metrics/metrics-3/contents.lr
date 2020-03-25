@@ -3,6 +3,7 @@ title: How do you get from these directory requests to user numbers?
 key: 3
 ---
 description:
+
 We put in the assumption that the average client makes 10 such requests
 per day.  A tor client that is connected 24/7 makes about 15 requests per
 day, but not all clients are connected 24/7, so we picked the number 10
