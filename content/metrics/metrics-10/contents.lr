@@ -10,6 +10,6 @@ the last two days from the graphs, because we want to avoid that the last
 data point in a graph indicates a recent trend change which is in fact
 just an artifact of the algorithm.
 ---
-seo_slug: metrics
+seo_slug: graph-data-point
 ---
-_slug: metrics
+_slug: graph-data-point
