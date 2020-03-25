@@ -3,6 +3,7 @@ title: Why do the graphs end 2 days in the past and not today?
 key: 10
 ---
 description:
+
 Relays and bridges report some of the data in 24-hour intervals which
 may end at any time of the day.  And after such an interval is over relays
 and bridges might take another 18 hours to report the data.  We cut off
