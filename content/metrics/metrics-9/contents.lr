@@ -10,6 +10,6 @@ default we consider requests to use the default OR protocol and IPv4.
 Once more bridges report these data, the numbers will become more
 accurate.
 ---
-seo_slug: metrics
+seo_slug: bridges-reports
 ---
-_slug: metrics
+_slug: bridges-reports
