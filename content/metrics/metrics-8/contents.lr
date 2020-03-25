@@ -8,6 +8,6 @@ The directories resolve IP addresses to country codes and report these
 numbers in aggregate form.  This is one of the reasons why tor ships with
 a GeoIP database.
 ---
-seo_slug: metrics
+seo_slug: country-origin
 ---
-_slug: metrics
+_slug: country-origin
