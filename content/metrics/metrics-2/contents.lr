@@ -3,12 +3,8 @@ title: Do all directories report these directory request numbers?
 key: 2
 ---
 description:
-
-No, but we can see what fraction of directories reported them, and then
-we can extrapolate the total number in the network.
-
-
+No, but we can see what fraction of directories reported them, and then we can extrapolate the total number in the network.
 ---
-seo_slug: metrics
+seo_slug: directories-reports
 ---
-_slug: metrics
+_slug: directories-reports
