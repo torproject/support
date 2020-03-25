@@ -3,6 +3,10 @@ events?
 ---
 key: 15
 ---
+seo_slug: censorship
+---
+_slug: censorship
+---
 description:
 
 We run an anomaly-based censorship-detection system that looks at
@@ -10,7 +14,3 @@ estimated user numbers over a series of days and predicts the user number
 in the next days.  If the actual number is higher or lower, this might
 indicate a possible censorship event or release of censorship.  For more
 details, see our [technical report](https://research.torproject.org/techreports/detector-2011-09-09.pdf).
----
-seo_slug: censorship
----
-_slug: censorship
