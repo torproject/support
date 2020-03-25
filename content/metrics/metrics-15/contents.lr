@@ -4,6 +4,7 @@ events?
 key: 15
 ---
 description:
+
 We run an anomaly-based censorship-detection system that looks at
 estimated user numbers over a series of days and predicts the user number
 in the next days.  If the actual number is higher or lower, this might
