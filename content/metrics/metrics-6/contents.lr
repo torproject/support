@@ -9,6 +9,6 @@ Then we count those users as one.  We really count clients, but it's
 more intuitive for most people to think of users, that's why we say users
 and not clients.
 ---
-seo_slug: metrics
+seo_slug: users-or-clients
 ---
-_slug: metrics
+_slug: users-or-clients
