@@ -12,6 +12,8 @@ The Tor Project maintains its own [Debian package repository](https://deb.torpro
 
 Here's how you can enable Tor Package Repository in Debian based distributions:
 
+> **Note:** The symbol # refers to be running the code as root. That means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
+
 #### 1. Install `apt-transport-https`
 
 To enable all package managers using the libapt-pkg library to access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure). 
