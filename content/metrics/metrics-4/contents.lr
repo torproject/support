@@ -4,6 +4,7 @@ over the day, or what?
 key: 4
 ---
 description:
+
 Average number of concurrent users, estimated from data collected over
 a day.  We can't say how many distinct users there are.
 ---
