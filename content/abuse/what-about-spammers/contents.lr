@@ -5,16 +5,14 @@ key: 3
 description:
 First of all, the default Tor exit policy rejects all outgoing port 25 (SMTP) traffic.
 So sending spam mail through Tor isn't going to work by default.
-It's possible that some relay operators will enable port 25 on their particular exit node, in which case that computer will allow outgoing mails;
-but that individual could just set up an open mail relay too, independent of Tor.
+It's possible that some relay operators will enable port 25 on their particular exit node, in which case that computer will allow outgoing mails; but that individual could just set up an open mail relay too, independent of Tor.
 In short, Tor isn't useful for spamming, because nearly all Tor relays refuse to deliver the mail.
 
 Of course, it's not all about delivering the mail.
-Spammers can use Tor to connect to open HTTP proxies (and from there to SMTP servers);
-to connect to badly written mail-sending CGI scripts; and to control their botnets — that is, to covertly communicate with armies of compromised computers that deliver the spam.
+Spammers can use Tor to connect to open HTTP proxies (and from there to SMTP servers); to connect to badly written mail-sending CGI scripts; and to control their botnets — that is, to covertly communicate with armies of compromised computers that deliver the spam.
 
 This is a shame, but notice that spammers are already doing great without Tor.
-Also, remember that many of their more subtle communication mechanisms (like spoofed UDP packets) can't be used over Tor, because it only transports correctly-formed TCP connections. 
+Also, remember that many of their more subtle communication mechanisms (like spoofed UDP packets) can't be used over Tor, because it only transports correctly-formed TCP connections.
 ---
 seo_slug: what-about-spammers
 ---
