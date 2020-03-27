@@ -1,0 +1,11 @@
+_model: question
+---
+title: Why using DoH (DNS over HTTPS) is not enough to protect your privacy?
+---
+seo_slug: doh-privacy-protection
+---
+description:
+The short answer is: **No actual privacy is added by DoH.**
+
+The main downsides of DoH are that it’s both effective and potentially not effective enough.
+DNS over HTTPS encrypts DNS queries going over the network, which means that no one between you and the DoH server can see your DNS queries or modify the DNS responses, but the operator of the DNS server can see, sell, block and modify your DNS data - your real IP address, your localization, your browser fingerprint. 

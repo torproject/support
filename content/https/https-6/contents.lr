@@ -1,0 +1,17 @@
+_model: question
+---
+title: Why Tor Browser doesn't deploy DoH?
+---
+seo_slug: reason-tor-not-deploy-doh
+---
+description:
+There are two main reasons:
+DoH is centralized and there are not many diverse DoH servers today.
+
+It has also its cons:
+•	It adds a central party seeing all Tor Browser users's DNS requests
+•   It might add latency
+•	Several more round-trips across the Tor network for each web request, which would seem to be a huge performance penalty and so on.
+
+Encrypting DNS is good, but DNS was never meant to be centralized, and we should resist that centralization now.
+
