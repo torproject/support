@@ -93,10 +93,22 @@ After installing GnuPG open cmd.exe and follow the steps below
    uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
    sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
    
-   To verify the signature of the package you downloaded, you will need to download the ".asc" file as well. Assuming you downloaded the package and its signature to your Downloads, run:
+   To verify the signature of the package you downloaded, you will need to download the ".asc" file as well 
+   which you can find directly below the tor browser version you downloaded with the name signature or right beside it with the name sig.
+   
+   ### To download the .asc file
+   
+      * Click on either the Signature or sig, this will open the file 
+      * right click and select save as	and your file explorer will come up letting you save in your desired folder
+   ## N:B it is advisable you save both the .exe file and .asc file in the same folder for easy reference	  
+	  
+   Assuming you downloaded the package and its signature to your Downloads, run:
    go  into the download folder by typing cd downloads and type
    
     * gpg.exe --verify torbrowser-install-win64-9.0.6_en-US.exe.asc.txt torbrowser-install-win64-9.0.6_en-us.exe
+	
+	You should notice that we added .txt to the .asc file that is because it was saved as a text file and your cmd wont recognize it if you dont identify
+	it as a text file
    
    it should look like this
    C:\Users\chidi\Downloads> gpg.exe --verify torbrowser-install-win64-9.0.6_en-US.exe.asc.txt torbrowser-install-win64-9.0.6_en-us.exe
