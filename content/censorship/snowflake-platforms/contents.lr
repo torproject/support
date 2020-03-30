@@ -1,0 +1,10 @@
+_model: question
+---
+title: Which platforms is Snowflake supported on?
+---
+seo_slug: which-platforms-is-snowflake-supported-on
+---
+description:
+Snowflake is supported on Windows, MacOS and Linux.
+Android is still a work in progress.
+
