@@ -77,8 +77,6 @@ The examples below assume that you downloaded these two files to your "Downloads
 
     gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0_en-US.exe.asc.txt Downloads\torbrowser-install-win64-9.0_en-US.exe
 	
-
-
 #### For macOS users:
 
     gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg{.asc,}
