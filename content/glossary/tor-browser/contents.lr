@@ -12,6 +12,11 @@ By default, Tor Browser does not keep any [browsing history](#browsing-history).
 [Cookies](#cookie) are only valid for a single [session](#session) (until Tor Browser is exited or a [New Identity](#new-identity) is requested).
 
 ---
-translation: 
+translation:
+
+**Do not translate "Tor", however you can translate "Browser"**. Example in Spanish: Navegador Tor (altering the order because is more natural like that in Spanish.)
+Some languages such as Arabic *transliterate* the word Tor, تور. That is, they write Tor with other characters.
+
 ---
-spelling: 
+spelling:
+Tor Browser. Sometimes also mentioned as [tbb](../../tbb). Not 'TOR Browser'.
