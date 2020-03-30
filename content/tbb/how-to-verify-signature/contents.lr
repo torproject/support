@@ -19,36 +19,17 @@ Please notice that a signature is dated the moment the package has been signed.
 Therefore every time a new file is uploaded a new signature is generated with a different date.
 As long as you have verified the signature you should not worry that the reported date may vary.
 
-### Installing GnuPG
+###For Windows users:
 
-First of all you need to have GnuPG installed before you can verify signatures.
+[Download](https://www.torproject.org/download/) the .exe installer and its corresponding .asc file. For example, `torbrowser-install-win64-9.0.6_en-US.exe` is accompanied by `torbrowser-install-win64-9.0.6_en-US.exe.asc`. (you may have to right click on the .asc link and select "save as" in order to download it)
 
-#### For Windows users:
+[Download](https://gpg4win.org/download.html/) Gpg4win and run its installer.
 
-If you run Windows, [download Gpg4win](https://gpg4win.org/download.html) and run its installer.
+Next, Proceed to fetch the Tor Developers key. (The Tor Browser team signs Tor Browser releases. Import the Tor Browser Developers signing key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290)). To do this, open command prompt by pressing the windows button, type cmd and hit enter. Input the following command: 
 
-In order to verify the signature you will need to type a few commands in windows command-line, `cmd.exe`.
+  gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
 
-#### For macOS users:
-
-If you are using macOS, you can [install GPGTools](https://www.gpgtools.org).
-
-In order to verify the signature you will need to type a few commands in the Terminal (under "Applications").
-
-#### For GNU/Linux users:
-
-If you are using GNU/Linux, then you probably already have GnuPG in your system, as most GNU/Linux distributions come with it preinstalled.
-
-In order to verify the signature you will need to type a few commands in a terminal window.  How to do this will vary depending on your distribution.
-
-### Fetching the Tor Developers key
-
-The Tor Browser team signs Tor Browser releases.
-Import the Tor Browser Developers signing key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290):
-
-    gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
-
-This should show you something like:
+ This should show you something like:
 
     gpg: key 4E2C6E8793298290: public key "Tor Browser Developers (signing key) <torbrowser@torproject.org>" imported
     gpg: Total number processed: 1
@@ -58,41 +39,124 @@ This should show you something like:
     uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
     sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
 
-After importing the key, you can save it to a file (identifying it by fingerprint here):
+If you encounter errors you cannot fix, feel free to [download (save as) and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Take note of the file name you downloaded and import it with the following commandS (we assume that the file's name is **filename.txt** and that it is downloaded in your "Downloads" folder)
 
-    gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+In Command Prompt input:
 
-### Verifying the signature
+	cd Downloads
+	gpg --import filename.txt
 
-To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
+This should show you something like:
+
+    gpg: key 4E2C6E8793298290: public key "Tor Browser Developers (signing key) <torbrowser@torproject.org>" imported
+    gpg: Total number processed: 1
+    gpg:               imported: 1
+
+Next, proceed to save it to a file from the command prompt (identifying it by fingerprint here):
+
+gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+
+Verifying the signature. To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
 
 The examples below assume that you downloaded these two files to your "Downloads" folder.
 
-#### For Windows users:
-
-    gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0_en-US.exe.asc Downloads\torbrowser-install-win64-9.0_en-US.exe
-
-#### For macOS users:
-
-    gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg{.asc,}
-
-#### For GNU/Linux users (change 64 to 32 if you have the 32-bit package):
-
-    gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz{.asc,}
-
+In Command Prompt input:
+gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0.6_en-US.exe.asc Downloads\torbrowser-install-win64-9.0.6_en-US.exe
 
 The result of the command should produce something like this:
 
-    gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
-    gpgv:                using RSA key EB774491D9FF06E2
-    gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
+gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
+gpgv:                using RSA key EB774491D9FF06E2
+gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
+
+###For MacOS users:
+
+[Download](https://www.torproject.org/download/) the installer and its corresponding .asc file. For example, `https://www.torproject.org/dist/torbrowser/9.0.6/TorBrowser-9.0.6-osx64_en-US.dmg` is accompanied by `https://www.torproject.org/dist/torbrowser/9.0.6/TorBrowser-9.0.6-osx64_en-US.dmg.asc`.
+
+If you are using macOS, you can install GPGTools.
+
+In order to verify the signature you will need to type a few commands in the Terminal (under "Applications").
 
 
-#### Workaround (using a public key)
+Next, Proceed to fetch the Tor Developers key. (The Tor Browser team signs Tor Browser releases. Import the Tor Browser Developers signing key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290)).
 
-If you encounter errors you cannot fix, feel free to [download and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Alternatively, you may use the following command:
+ gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
 
-    curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
+ This should show you something like:
 
+    gpg: key 4E2C6E8793298290: public key "Tor Browser Developers (signing key) <torbrowser@torproject.org>" imported
+    gpg: Total number processed: 1
+    gpg:               imported: 1
+    pub   rsa4096 2014-12-15 [C] [expires: 2020-08-24]
+          EF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+    uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+    sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
 
+After importing the key, you can save it to a file (identifying it by fingerprint here) from the terminal:
+
+gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+
+Verifying the signature. To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
+
+The examples below assume that you downloaded these two files to your "Downloads" folder.
+
+In the terminal, type:
+gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg{.asc,}
+
+The result of the command should produce something like this:
+
+gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
+gpgv:                using RSA key EB774491D9FF06E2
+gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
+
+Workaround (using a public key)
+If you encounter errors you cannot fix, feel free to download and use this public key instead. Alternatively, you may use the following command:
+
+curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
+
+###For GNU/Linux users:
+
+[Download](https://www.torproject.org/download/) the linux installer and its corresponding .asc file. For example, `https://www.torproject.org/dist/torbrowser/9.0.6/tor-browser-linux64-9.0.6_en-US.tar.xz` is accompanied by `https://www.torproject.org/dist/torbrowser/9.0.6/tor-browser-linux64-9.0.6_en-US.tar.xz.asc`.
+
+If you are using GNU/Linux, then you probably already have GnuPG in your system, as most GNU/Linux distributions come with it preinstalled.
+
+In order to verify the signature you will need to type a few commands in a terminal window. How to do this will vary depending on your distribution.
+
+Next, Proceed to fetch the Tor Developers key. (The Tor Browser team signs Tor Browser releases. Import the Tor Browser Developers signing key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290)).
+
+ gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+
+ This should show you something like:
+
+    gpg: key 4E2C6E8793298290: public key "Tor Browser Developers (signing key) <torbrowser@torproject.org>" imported
+    gpg: Total number processed: 1
+    gpg:               imported: 1
+    pub   rsa4096 2014-12-15 [C] [expires: 2020-08-24]
+          EF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+    uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
+    sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
+
+After importing the key, you can save it to a file (identifying it by fingerprint here) from the terminal:
+
+gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+
+Verifying the signature. To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
+
+The examples below assume that you downloaded these two files to your "Downloads" folder.
+
+In the terminal, type:
+gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz{.asc,}
+
+(change 64 to 32 if you have the 32-bit package)
+
+The result of the command should produce something like this:
+
+gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
+gpgv:                using RSA key EB774491D9FF06E2
+gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
+
+Workaround (using a public key)
+If you encounter errors you cannot fix, feel free to download and use this public key instead. Alternatively, you may use the following command:
+
+curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
