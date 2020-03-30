@@ -1,0 +1,11 @@
+_model: question
+---
+title: How can you use Snowflake with Tor browser alpha?
+---
+seo_slug: How-can-you-use-Snowflake-with-Tor-browser-alpha
+---
+description:
+Snowflake is included in [​alpha releases of Tor Browser](https://www.torproject.org/download/alpha/) for GNU/Linux and macOS. Not yet in Windows.
+The user flow is the same as [Meek](https://trac.torproject.org/projects/tor/wiki/doc/meek). For now, how it works is you select Snowflake from a list of pluggable transport options on Tor browser and it will automatically connect through a Snowflake for you.
+
+For more information on integration with Tor bowser see the [documentation wiki](https://trac.torproject.org/projects/tor/wiki/doc/Snowflake#IntegrationwithTorBrowser).

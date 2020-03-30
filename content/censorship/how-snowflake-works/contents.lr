@@ -1,0 +1,26 @@
+_model: question
+---
+title: Our website is blocked by a censor. Can Tor Browser help users access our website?
+---
+seo_slug: our-website-is-blocked-by-a-censor
+---
+description:
+Tor Browser can certainly help people access your website in places where it is blocked.
+Most of the time, simply downloading the [Tor Browser](https://www.torproject.org/download) and then using it to navigate to the blocked site will allow access.
+In places where there is heavy censorship we have a number of censorship circumvention options available, including [pluggable transports](https://tb-manual.torproject.org/transports/).
+
+For more information, please see the [Tor Browser User Manual](https://tb-manual.torproject.org/) section on [censorship](https://tb-manual.torproject.org/circumvention/).
+_model: question
+---
+title: How does Snowflake work and what are the benefits?
+---
+seo_slug: How-does-snowflake-work-and-what-are-the-benefits
+---
+description:
+Clients make webRTC connections to your browser, which will then proxy information between them and the default Snowflake bridge. 
+There is no need to worry about which websites people are accessing through your proxy. Their visible browsing IP address will match their Tor exit node not yours.
+
+One of the benefits of Snowflake is that it has the ease of [Meek](https://trac.torproject.org/projects/tor/wiki/doc/meek) but can support more uers with trivial CDN costs.
+Another benefit is that a high number of volunteer proxies are possible like in [Flashproxy](http://crypto.stanford.edu/flashproxy/) but without Flashproxy's problems with NAT.
+
+
