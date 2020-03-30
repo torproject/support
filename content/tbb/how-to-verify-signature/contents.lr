@@ -66,63 +66,17 @@ After importing the key, you can save it to a file (identifying it by fingerprin
 
 To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
 
+### To download the .asc file on windows
+
+      * Click on either the Signature or sig, this will open the file 
+      * right click and select save as and your file explorer will come up letting you save in your desired folder
+	  
 The examples below assume that you downloaded these two files to your "Downloads" folder.
 
 #### For Windows users:
 
     gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0_en-US.exe.asc.txt Downloads\torbrowser-install-win64-9.0_en-US.exe
 	
-#### Alternative for windows
-
-After installing GnuPG open cmd.exe and follow the steps below
-
-	* gpg.exe --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290
-	
-   This imports a key and its fingerprint  You should see 
-     gpg: key 4E2C6E8793298290: "Tor Browser Developers (signing key) <torbrowser@torproject.org>" not changed
-     gpg: Total number processed: 1
-     gpg:              unchanged: 1
-	 
-	 
-    * gpg.exe --fingerprint 0x4E2C6E8793298290
-	 
-     This verifies the finger print and you should see
-	 
-     pub   rsa4096 2014-12-15 [C] [expires: 2020-08-24]
-      EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-   uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
-   sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
-   
-   To verify the signature of the package you downloaded, you will need to download the ".asc" file as well 
-   which you can find directly below the tor browser version you downloaded with the name signature or right beside it with the name sig.
-   
-   ### To download the .asc file
-   
-      * Click on either the Signature or sig, this will open the file 
-      * right click and select save as	and your file explorer will come up letting you save in your desired folder
-   ## N:B it is advisable you save both the .exe file and .asc file in the same folder for easy reference	  
-	  
-   Assuming you downloaded the package and its signature to your Downloads, run:
-   go  into the download folder by typing cd downloads and type
-   
-    * gpg.exe --verify torbrowser-install-win64-9.0.6_en-US.exe.asc.txt torbrowser-install-win64-9.0.6_en-us.exe
-	
-	You should notice that we added .txt to the .asc file that is because it was saved as a text file and your cmd wont recognize it if you dont identify
-	it as a text file
-   
-   it should look like this
-   C:\Users\chidi\Downloads> gpg.exe --verify torbrowser-install-win64-9.0.6_en-US.exe.asc.txt torbrowser-install-win64-9.0.6_en-us.exe
-   Please substitute "chidi" with your own username.
-            The output should say
-   gpg: Signature made
-   gpg:                using RSA key EB774491D9FF06E2
-   gpg: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>" [unknown]
-   gpg: WARNING: This key is not certified with a trusted signature!
-   gpg:          There is no indication that the signature belongs to the owner.
-   Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290
-     Subkey fingerprint: 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2
-	 
-	 kindly ignore the warning 
 
 
 #### For macOS users:
