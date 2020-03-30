@@ -7,7 +7,7 @@ Great. That's exactly why we implemented exit policies.
 Each Tor relay has an exit policy that specifies what sort of outbound connections are allowed or refused from that relay.
 The exit policies are propagated to Tor clients via the directory, so clients will automatically avoid picking exit relays that would refuse to exit to their intended destination.
 This way each relay can decide the services, hosts, and networks it wants to allow connections to, based on abuse potential and its own situation.
-Read the [Support entry on issues you might encounter](https://2019.www.torproject.org/docs/faq-abuse.html.en#TypicalAbuses) if you use the default exit policy, and then read Mike Perry's [tips for running an exit node with minimal harassment](https://blog.torproject.org/blog/tips-running-exit-node).
+Read the [Support entry on issues you might encounter](https://support.torproject.org/abuse/exit-relay-expectations/) if you use the default exit policy, and then read Mike Perry's [tips for running an exit node with minimal harassment](https://blog.torproject.org/blog/tips-running-exit-node).
 
 The default exit policy allows access to many popular services (e.g. web browsing), but restricts some due to abuse potential (e.g. mail) and some since the Tor network can't handle the load (e.g. default file-sharing ports).
 You can change your exit policy by editing your torrc file.
