@@ -7,15 +7,20 @@ seo_slug: address-bar-onion-icons
 description:
 When browsing an Onion Service, Tor Browser displays different onion icons in the address bar indicating the security of the current webpage.
 
-![Image of a green onion](/static/images/green-onion.png)
-A green onion means:
-- The Onion Service is served over HTTP, or HTTPS with a self-signed certificate.
+![Image of a black onion](/static/images/black-onion.png)
+A black onion means:
+- The Onion Service is served over HTTP or HTTPS with a self-signed certificate.
+- The Onion Service is served over HTTPS.
+- The Onion Service is served over HTTP form or Onion HTTP form.
+- The Onion Service is served over HTTPs with unknown CA (Certificate Authority). 
+- The Onion Service is served over HTTPS with EV (Extended Validation) certificate.
 
-![Image of a green onion with a lock](/static/images/green-onion-with-lock.png)
-A green onion with a lock means:
-- The Onion Service is served over HTTPS with a CA-Issued certificate.
+![Image of a black onion with a yellow caution sign](/static/images/black-onion-with-caution.png)
+A black onion with a yellow caution sign means:
+- The Onion Service is served over HTTPS with wrong domain.
+- The Onion service is served over HTTPS with mixed content.
+- The Onion service is served over HTTPS with expired certificate.
 
-![Image of a grey onion with a red slash](/static/images/grey-onion-with-red-slash.png)
-A grey onion with a red slash means:
-- The Onion Service is served over HTTPS with a self-signed or CA-Issued certificate.
-- The webpage contains subresources served over HTTP.
+![Image of a black onion with a red slash](/static/images/black-onion-with-red-slash.png)
+A black onion with a red slash means:
+- The Onion Service is served over HTTPS with a mixed script.
