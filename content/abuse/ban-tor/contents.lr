@@ -33,6 +33,6 @@ If you really want to do this, we provide a [Tor exit relay list](https://check.
 (Some system administrators block ranges of IP addresses because of official policy or some abuse pattern, but some have also asked about whitelisting Tor exit relays because they want to permit access to their systems only using Tor.
 These scripts are usable for whitelisting as well.)
 ---
-seo_slug: exit-relay-expectations
+seo_slug: i-want-to-ban-tor
 ---
-_slug: exit-relay-expectations
+_slug: i-want-to-ban-tor
