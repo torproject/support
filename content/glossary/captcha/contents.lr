@@ -8,6 +8,6 @@ CAPTCHAs are a challenge-response test used in computing to determine whether th
 [Tor](#tor-/-tor-network/-core-tor) users are often served captchas because Tor [relays](#relay) make so many requests that sometimes websites have a hard time determining whether or not those requests are coming from humans or bots.
 
 ---
-translation: 
+translation:
 ---
-spelling: 
+spelling: Always in capital letters: CAPTCHA
