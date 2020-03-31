@@ -4,7 +4,7 @@ term: Compass
 ---
 definition:
 
-Compass is a web application to learn about currently running [Tor relays](#relay) in bulk.
+Compass is a web application to learn about currently running [Tor relays](../relay) in bulk.
 
 ---
 translation: 

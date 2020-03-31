@@ -4,7 +4,7 @@ term: HTTPS
 ---
 definition:
 
-Hypertext Transfer Protocol Secure is the [encrypted](#encryption) version of the HTTP channel used to transfer files and data between devices on a network.
+Hypertext Transfer Protocol Secure is the [encrypted](../encryption) version of the HTTP channel used to transfer files and data between devices on a network.
 
 ---
 translation: 

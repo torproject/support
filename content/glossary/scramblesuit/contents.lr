@@ -4,7 +4,7 @@ term: ScrambleSuit
 ---
 definition:
 
-ScrambleSuit is similar to obfs4 but has a different set of [bridges](#bridge).
+ScrambleSuit is similar to obfs4 but has a different set of [bridges](../bridge).
 
 ---
 translation: 

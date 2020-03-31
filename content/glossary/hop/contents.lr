@@ -4,7 +4,7 @@ term: hop
 ---
 definition:
 
-In [Tor](#tor-/-tor-network/-core-tor) terms, a "hop" refers to [traffic](#traffic) moving between [relays](#relay) in a [circuit](#circuit).
+In [Tor](../tor-/-tor-network/-core-tor) terms, a "hop" refers to [traffic](../traffic) moving between [relays](../relay) in a [circuit](../circuit).
 
 ---
 translation: 

@@ -4,7 +4,7 @@ term: OONI
 ---
 definition:
 
-OONI stands for "[Open Observatory of Network Interference](https://ooni.io/)", it is a global observation network for detecting [censorship](#network-censorship), surveillance and [traffic](#traffic) manipulation on the internet.
+OONI stands for "[Open Observatory of Network Interference](https://ooni.io/)", it is a global observation network for detecting [censorship](../network-censorship), surveillance and [traffic](../traffic) manipulation on the internet.
 
 ---
 translation: 

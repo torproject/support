@@ -4,8 +4,8 @@ term: bridge
 ---
 definition:
 
-Like ordinary Tor [relays](#relay), bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily.
-[Pluggable transports](#pluggable-transports) are a type of bridge that helps disguise the fact that you are using Tor.
+Like ordinary Tor [relays](../relay), bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily.
+[Pluggable transports](../pluggable-transports) are a type of bridge that helps disguise the fact that you are using Tor.
 
 ---
 translation: 

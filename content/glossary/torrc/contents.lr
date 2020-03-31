@@ -4,7 +4,7 @@ term: torrc
 ---
 definition:
 
-The core [Tor](#tor-/-tor-network/-core-tor) configuration file.
+The core [Tor](../tor-/-tor-network/-core-tor) configuration file.
 
 ---
 translation: 
