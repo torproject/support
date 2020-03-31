@@ -1,17 +1,5 @@
 _model: question
 ---
-title: Our website is blocked by a censor. Can Tor Browser help users access our website?
----
-seo_slug: our-website-is-blocked-by-a-censor
----
-description:
-Tor Browser can certainly help people access your website in places where it is blocked.
-Most of the time, simply downloading the [Tor Browser](https://www.torproject.org/download) and then using it to navigate to the blocked site will allow access.
-In places where there is heavy censorship we have a number of censorship circumvention options available, including [pluggable transports](https://tb-manual.torproject.org/transports/).
-
-For more information, please see the [Tor Browser User Manual](https://tb-manual.torproject.org/) section on [censorship](https://tb-manual.torproject.org/circumvention/).
-_model: question
----
 title: How does Snowflake work and what are the benefits?
 ---
 seo_slug: How-does-snowflake-work-and-what-are-the-benefits
