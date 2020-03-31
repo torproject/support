@@ -39,7 +39,7 @@ Next, Proceed to fetch the Tor Developers key. (The Tor Browser team signs Tor B
     uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
     sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
 
-If you encounter errors you cannot fix, feel free to [download (save as) and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Take note of the file name you downloaded and import it with the following commandS (we assume that the file's name is **filename.txt** and that it is downloaded in your "Downloads" folder)
+If you encounter errors you cannot fix, feel free to [download (save as) and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Take note of the file name you downloaded and import it with the following commands (we assume that the file's name is **filename.txt** and that it is downloaded in your "Downloads" folder)
 
 In Command Prompt input:
 
@@ -54,14 +54,19 @@ This should show you something like:
 
 Next, proceed to save it to a file from the command prompt (identifying it by fingerprint here):
 
-gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+    gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
-Verifying the signature. To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
+Verifying the signature. To verify the signature of the package you downloaded, you will need to have downloaded the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
 
 The examples below assume that you downloaded these two files to your "Downloads" folder.
 
 In Command Prompt input:
-gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0.6_en-US.exe.asc Downloads\torbrowser-install-win64-9.0.6_en-US.exe
+
+    cd .. 
+    (this command takes it to the user directory)
+
+    gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-9.0.7_en-US.exe.asc Downloads\torbrowser-install-win64-9.0.7_en-US.exe
+    (you would have to use the filename for your current version of installer. it could be 9.0.7 or 9.0.8 depending on the latest version)
 
 The result of the command should produce something like this:
 
