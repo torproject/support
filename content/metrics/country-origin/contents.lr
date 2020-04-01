@@ -8,6 +8,4 @@ _slug: country-origin
 ---
 description:
 
-The directories resolve IP addresses to country codes and report these
-numbers in aggregate form.  This is one of the reasons why tor ships with
-a GeoIP database.
+The directories resolve IP addresses to country codes and report these numbers in aggregate form.  This is one of the reasons why tor ships with a GeoIP database.
