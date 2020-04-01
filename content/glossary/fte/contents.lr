@@ -1,0 +1,11 @@
+_model: word
+---
+term: fte
+---
+definition:
+
+FTE (format-transforming encryption) is a pluggable transport that disguises [Tor traffic](../traffic) as ordinary web (HTTP) traffic.
+---
+translation: 
+---
+spelling: 

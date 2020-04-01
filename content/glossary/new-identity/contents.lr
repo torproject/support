@@ -1,0 +1,15 @@
+_model: word
+---
+term: New Identity
+---
+definition:
+
+New Identity is a [Tor Browser](../tor-browser) feature if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
+Selecting it will close all your open tabs and windows, clear all private information such as [cookies](../cookie) and [browsing history](../browsing-history), and use New [Tor circuits](../circuit) for all connections.
+Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity” (accessible through the small sparkly broom icon at the top-right of the screen).
+New Identity can also help if Tor Browser is having trouble connecting to a particular site, similarly to "[New Tor Circuit for this Site](../new-tor-circuit-for-this-site)".
+
+---
+translation: 
+---
+spelling: 

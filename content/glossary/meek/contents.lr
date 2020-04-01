@@ -1,0 +1,13 @@
+_model: word
+---
+term: meek
+---
+definition:
+
+These [pluggable transports](../pluggable-transports) all make it look like you are browsing a major web site instead of using [Tor](../tor-tor-network-core-tor).
+Meek-azure makes it look like you are using a Microsoft web site.
+
+---
+translation: 
+---
+spelling: 

@@ -1,0 +1,13 @@
+_model: word
+---
+term: Torsocks
+---
+definition:
+
+Torsocks allows you to use many applications in a safer way with [Tor](../tor-tor-network-core-tor).
+It ensures that DNS requests are handled safely and explicitly rejects any [traffic](../traffic) other than TCP from the application you're using.
+
+---
+translation: 
+---
+spelling: 

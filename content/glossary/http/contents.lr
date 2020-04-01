@@ -1,0 +1,12 @@
+_model: word
+---
+term: HTTP
+---
+definition:
+
+The [Hypertext Transfer Protocol (HTTP)](../http) is a channel used to send files and data between devices on a network. Originally used to transfer only web pages, it is now relied upon to deliver many forms of data and communication.
+
+---
+translation: 
+---
+spelling: 

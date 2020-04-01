@@ -1,0 +1,13 @@
+_model: word
+---
+term: private key
+---
+definition:
+
+The private portion of a [public/private key pair](../public-key-cryptography).
+This is the key that must be kept private, and not disseminated to others.
+
+---
+translation: 
+---
+spelling: 

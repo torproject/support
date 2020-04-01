@@ -1,0 +1,12 @@
+_model: word
+---
+term: self-authenticating address
+---
+definition:
+
+The specialized address format of [onion addresses](../onion-address) is self-authenticating. The format automatically guarantees that the onion address is bound to the key used to protect connections to the [onion site](../onion-site). Ordinary internet domain names require site owners to trust and be approved by a Certificate Authority (CA) for this binding, and they are subject to hijack by the CA and typically by many other parties as well.
+
+---
+translation: 
+---
+spelling: 

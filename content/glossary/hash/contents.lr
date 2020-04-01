@@ -1,0 +1,12 @@
+_model: word
+---
+term: hash
+---
+definition:
+
+A cryptographic hash value is the result of a mathematical algorithm that maps data to a bit string of a fixed size. It's designed as one-way-function which means the value is easy to calculate in one direction but infeasible to invert. Hash values serve to verify the integrity of data.
+
+---
+translation: 
+---
+spelling: 

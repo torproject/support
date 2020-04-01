@@ -1,0 +1,14 @@
+_model: word
+---
+term: Tor Launcher
+---
+definition:
+
+When you run [Tor Browser](../tor-browser) for the first time, you see the Tor Launcher window.
+It offers you the option to connect directly to the [Tor network](../tor-tor-network-core-tor), or to configure Tor Browser for your connection.
+In the second case, Tor Launcher will take you through a series of configuration options.
+
+---
+translation: 
+---
+spelling: 

@@ -1,0 +1,12 @@
+_model: word
+---
+term: session
+---
+definition:
+
+A session refers to a conversation between two devices communicating on a network. Using [Tor Browser](../tor-browser) means that your session data will be wiped when you close the [web browser](../web-browser).
+
+---
+translation: 
+---
+spelling: 

@@ -1,0 +1,13 @@
+_model: word
+---
+term: proxy
+---
+definition:
+
+A proxy is a middle man between a [client](../client) (like a [web browser](../web-browser)) and a service (like a [web server](../server)).
+Instead of connecting directly to the service, a client sends the message to the proxy. The proxy makes the request on behalf of the client, and passes the response back to the client. The service only communicates with and sees the proxy.
+
+---
+translation: 
+---
+spelling: 
