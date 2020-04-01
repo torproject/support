@@ -9,7 +9,5 @@ _slug: graph-data-point
 ---
 description:
 
-The reason is that we publish user numbers once we're confident enough
-that they won't change significantly anymore.  But it's always possible
-that a directory reports data a few hours after we were confident enough,
-but which then slightly changed the graph.
+The reason is that we publish user numbers once we're confident enough that they won't change significantly anymore.  
+But it's always possible that a directory reports data a few hours after we were confident enough, but which then slightly changed the graph.
