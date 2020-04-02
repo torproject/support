@@ -2,7 +2,7 @@ _model: question
 ---
 title: Where do I get a private key for onion authentication?
 ---
-seo_slug: setup-client-authorization-for-onion-service
+seo_slug: get-private-key-for-authentication
 ---
 description:
 You can get the access credentials from the onion service operator. Reach out to the operator and request access.
