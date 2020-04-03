@@ -6,4 +6,12 @@ seo_slug: using-tor-with-a-browser-besides-tor-browser
 ---
 description: 
 We strongly recommend against using Tor in any browser other than Tor Browser.
-Using Tor in another browser can leave you vulnerable without the privacy protections of Tor Browser.
+Tor Browser comes with default [security measures](https://tb-manual.torproject.org/security-settings/) that protect your digital footprint, and using Tor in another browser can leave you vulnerable without the privacy protection of Tor Browser.
+
+Some of the security measures you get to enjoy using Tor Browser include:
+1. Hiding your real IP address, so you can't be monitored. 
+2. No browsing history being stored, so everything is wiped once you close the browser. 
+3. Anyone snooping around can't see the websites you visit. 
+4. No third party cookies or fingerprinting following you around, collecting information about you from websites you visit.  
+5. Nothing being written on your drive, unlike other browsers that incessantly eat at your drive.
+6. Cross platform:Works on macOS, Windows, Android and Linux. 
