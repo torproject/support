@@ -1,0 +1,15 @@
+_model: word
+---
+term: public key cryptography
+---
+definition:
+
+A public-key cryptography system uses pairs of mathematical keys.
+The [public key](../public-key) can be disseminated widely while its corresponding [private key](../private-key) is known only by the owner of the key pair.
+Any person can [encrypt](../encryption) a message using the public key of the receiver but only the receiver in possession of the private key is able to decrypt the message.
+Additionally, the private key can be used to create a [signature](../cryptographic-signature) to prove the identity of the creator of a message or other files.
+This signature can be verified by the public key.
+---
+translation: 
+---
+spelling: 

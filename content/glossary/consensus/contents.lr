@@ -1,0 +1,12 @@
+_model: word
+---
+term: consensus
+---
+definition:
+
+In Tor terms, a single document compiled and voted on by the [directory authorities](../directory-authority) once per hour, ensuring that all [clients](../client) have the same information about the [relays](../relay) that make up the [Tor network](../tor-tor-network-core-tor).
+
+---
+translation: 
+---
+spelling: 

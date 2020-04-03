@@ -1,0 +1,12 @@
+_model: word
+---
+term: obfs4
+---
+definition:
+
+Obfs4 is a [pluggable transport](../pluggable-transports) that makes [Tor](../tor-tor-network-core-tor) [traffic](../traffic) look random like obfs3, and also prevents censors from finding bridges by Internet scanning. Obfs4 bridges are less likely to be blocked than obfs3 [bridges](../bridge).
+
+---
+translation: 
+---
+spelling: 

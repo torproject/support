@@ -1,0 +1,12 @@
+_model: word
+---
+term: client
+---
+definition:
+
+In [Tor](../tor-tor-network-core-tor), a client is a node in the Tor network, typically running on behalf of one user, that routes application connections over a series of [relays](../relay).
+
+---
+translation: 
+---
+spelling: 

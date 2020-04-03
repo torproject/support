@@ -1,0 +1,12 @@
+_model: word
+---
+term: single onion service
+---
+definition:
+
+A single onion service is an onion service that can be configured for services that do not require anonymity, but want to offer it for clients connecting to their service. Single onion services use only three hops in the [circuit](../circuit) rather than the typical six hops for onion services.
+
+---
+translation: 
+---
+spelling: 

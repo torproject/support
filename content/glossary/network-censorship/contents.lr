@@ -1,0 +1,12 @@
+_model: word
+---
+term: network censorship
+---
+definition:
+
+Sometimes the direct access to the [Tor network](../tor-tor-network-core-tor) is blocked by your [Internet Service Provider (ISP)](../internet-service-provider-isp) or by a government. Tor Browser includes some circumvention tools for getting around these blocks, including [bridges](../bridge), [pluggable transports](../pluggable-transports), and [GetTor](../gettor).
+
+---
+translation: 
+---
+spelling: 

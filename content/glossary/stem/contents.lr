@@ -1,0 +1,12 @@
+_model: word
+---
+term: Stem
+---
+definition:
+
+Stem is a Python (programming language) controller library for core [Tor](../tor-tor-network-core-tor). If you want to control core Tor with python, this is for you.
+
+---
+translation: 
+---
+spelling: 

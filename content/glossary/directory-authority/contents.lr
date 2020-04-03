@@ -1,0 +1,11 @@
+_model: word
+---
+term: directory authority
+---
+definition:
+
+A special-purpose [relay](../relay) that maintains a list of currently-running relays and periodically publishes a [consensus](../consensus) together with the other directory authorities.
+---
+translation: 
+---
+spelling: 

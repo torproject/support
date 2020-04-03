@@ -1,1 +1,5 @@
-../../onionservices/onionservices-3/contents.lr
+_model: redirect
+---
+target: /onionservices/onionservices-3
+---
+_discoverable: no

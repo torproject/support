@@ -1,0 +1,12 @@
+_model: word
+---
+term: Flash Player
+---
+definition:
+
+Flash Player is a [browser plugin](../add-on-extension-or-plugin) for Internet [applications](../app) to watch audio and video content. You should never enable Flash to run in [Tor Browser](../tor-browser) as it is unsafe. Many services that use Flash also offer an HTML5 alternative, which should work in the Tor Browser.
+
+---
+translation: 
+---
+spelling: 

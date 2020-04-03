@@ -1,0 +1,14 @@
+_model: word
+---
+term: browser fingerprinting
+---
+definition:
+
+Fingerprinting is the process of collecting information about a device or service to make educated guesses about its identity or characteristics.
+Unique behavior or responses can be used to identify the device or service analyzed.
+[Tor Browser](../tor-browser) prevents fingerprinting.
+
+---
+translation: 
+---
+spelling: 

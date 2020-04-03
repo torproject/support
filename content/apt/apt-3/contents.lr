@@ -9,6 +9,8 @@ _slug: apt-over-tor
 description:
 Yes, `deb.torproject.org` is also served through via an Onion Service: http://sdscoq7snqtznauu.onion/
 
+> **Note:** The symbol # refers to be running the code as root. That means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
+
 To use Apt over Tor, the apt transport needs to be installed:
 
    ```

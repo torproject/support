@@ -1,0 +1,13 @@
+_model: word
+---
+term: third-party tracking
+---
+definition:
+
+Most websites use numerous third-party services, including advertising and analytics trackers, which collect data about your [IP address](../ip-address), [web browser](../web-browser), [system](../operating-system-os) and your browsing behavior itself, all of which can link your activity across different sites.
+[Tor Browser](../tor-browser) prevents a lot of this activity from happening.
+
+---
+translation: 
+---
+spelling: 

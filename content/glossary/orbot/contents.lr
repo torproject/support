@@ -1,0 +1,12 @@
+_model: word
+---
+term: Orbot
+---
+definition:
+
+[Orbot](https://play.google.com/store/apps/details?id=org.torproject.android) is a free [app](../app) from The Guardian Project that empowers other apps on your device to use the internet more securely. Orbot uses [Tor](../tor-tor-network-core-tor) to [encrypt](../encryption) your Internet [traffic](../traffic) and hide it by bouncing through a series of computers around the world.
+
+---
+translation: 
+---
+spelling: 

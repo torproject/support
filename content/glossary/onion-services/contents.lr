@@ -1,0 +1,12 @@
+_model: word
+---
+term: onion services
+---
+definition:
+
+Onion services (formerly known as “[hidden services](../hidden-services)”) are services (like websites) that are only accessible through the [Tor network](../tor-tor-network-core-tor).
+Onion services offer advantages over ordinary services on the non-private web, including:
+---
+translation: 
+---
+spelling: 

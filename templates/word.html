@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class="question {{ bag('alternatives', alternative, 'direction') }}">
+    <h4 class="text-primary">
+      {% set original_term = site.get(this.path) %}
+      {% if this.alt != "en" %}{{ original_term.term }} / {% endif %}{{ this.term }}
+    </h4>
+    <div class="anchor-spacer">
+      {{ this.definition|safe }}
+
+      {% if this.spelling %}
+        <div class="card mt-5 p-3">
+          <span>Spelling notes: </span> {{ this.spelling }}
+        </div>
+      {% endif %}
+      {% if this.translation %}
+        <div class="card mt-5 p-3">
+          <span>Translation notes: </span> {{ this.translation }}
+        </div>
+      {% endif %}
+      <div class="card mt-5">
+        <ul class="list-group list-group-flush">
+           <!--li class="list-group-item"><a><span class="card-text text-muted">{{ _("Contributors to this page:") }} <a href="#" title="#">cypherpunk</a></span></li-->
+           <li class="list-group-item">
+             <a href="https://github.com/torproject/support/edit/master/content{{ this.path }}/contents.lr">{{ _("Edit this page") }}</a> -
+             <a href="https://support.torproject.org/misc/bug-or-feedback/">{{ _("Suggest Feedback") }}</a> -
+             <a href="{{ this.path|url(alt=this.alt) }}">{{ _("Permalink") }}</a>
+            </li>
+         </ul>
+      </div>
+    </div>
+  </div>
+{% endblock %}

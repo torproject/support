@@ -1,0 +1,11 @@
+_model: word
+---
+term: ExoneraTor
+---
+definition:
+
+The ExoneraTor service maintains a database of [relay](../relay) [IP addresses](../ip-address) that have been part of the Tor network. It answers the question of whether there was a [Tor](../tor-tor-network-core-tor) relay running on a given IP address on a given date.  This service is often useful when dealing with law enforcement.
+---
+translation: 
+---
+spelling: 

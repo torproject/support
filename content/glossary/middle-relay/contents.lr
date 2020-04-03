@@ -1,0 +1,11 @@
+_model: word
+---
+term: middle relay
+---
+definition:
+
+The middle position in the [Tor circuit](../circuit). Non-exit relays can function as either a "middle" or a "[guard](../guard)" for different users.
+---
+translation: 
+---
+spelling: 

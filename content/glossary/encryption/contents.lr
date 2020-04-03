@@ -1,0 +1,12 @@
+_model: word
+---
+term: encryption
+---
+definition:
+
+The process of taking a piece of data and scrambling it into a secret code that can only be read by the intended recipient. [Tor](../tor-tor-network-core-tor) uses three layers of encryption in the Tor [circuit](../circuit); each [relay](../relay) decrypts one layer before passing the request on to the next relay.
+
+---
+translation: 
+---
+spelling: 

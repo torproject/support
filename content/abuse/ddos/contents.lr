@@ -1,0 +1,17 @@
+title: What about distributed denial of service attacks?
+---
+key: 2
+---
+description:
+Distributed denial of service (DDoS) attacks typically rely on having a group of thousands of computers all sending floods of traffic to a victim.
+Since the goal is to overpower the bandwidth of the victim, they typically send UDP packets since those don't require handshakes or coordination.
+
+But because Tor only transports correctly formed TCP streams, not all IP packets, you cannot send UDP packets over Tor.
+(You can't do specialized forms of this attack like SYN flooding either.)
+So ordinary DDoS attacks are not possible over Tor. Tor also doesn't allow bandwidth amplification attacks against external sites:
+you need to send in a byte for every byte that the Tor network will send to your destination.
+So in general, attackers who control enough bandwidth to launch an effective DDoS attack can do it just fine without Tor.
+---
+seo_slug: what-about-ddos
+---
+_slug: what-about-ddos

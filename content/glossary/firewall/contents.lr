@@ -1,0 +1,12 @@
+_model: word
+---
+term: firewall
+---
+definition:
+
+A firewall is a network security system that monitors and controls incoming and outgoing network [traffic](../traffic). This traffic filter is based on predetermined rules. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network but it can also be used as a content filter in the sense of [censorship](../network-censorship). Sometimes people have trouble connecting to [Tor](../tor-tor-network-core-tor) because their firewall blocks Tor connections. You can reconfigure or disable your firewall and restart Tor to test this.
+
+---
+translation: 
+---
+spelling: 

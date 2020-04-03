@@ -1,0 +1,12 @@
+_model: word
+---
+term: checksum
+---
+definition:
+
+Checksums are [hash](../hash) values of files. If you have downloaded the software without errors, the given checksum and the checksum of your downloaded file will be identical.
+
+---
+translation: 
+---
+spelling: 
