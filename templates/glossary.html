@@ -1,10 +1,38 @@
+
 {% extends "layout.html" %}
+{% macro render_glossary(item, alternative) %}
 {% block body %}
-  <div>
-    {% for item in this.children %}
-      <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', this.alt, 'direction') }}">
-        <a href="{{ item.path|url(alt=this.alt) }}" >{{ item.term }}</a>
-      </h5>
-    {% endfor %}
+<div class="question None">
+  <h3 class="text-primary">
+    <a  role="button"></a>
+  </h3>
+      <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ this.title }}</h5>
+      {% for item in this.children %}
+      <div class=" {{ bag('alternatives', alternative, 'direction') }}">
+  <h4 class="text-primary">
+    <a data-toggle="collapse" data-target="#{{ item._id }}" role="button" aria-expanded="false" aria-controls="{{ item._id }}" href="{{ item.path|url}}" >{{ item.term }}</a>
+  </h4>
+  <div id="{{ item._id }}" class="collapse show anchor-spacer" role="tabpanel" data-parent="#{{ this.title }}Accordion">
+
+      {{ item.body|safe }}
+      {% if item._id == "https-1" %}
+        {% include 'secure-connections.html' %}
+      {% endif %}
+    
+    <div class="card mt-5">
+      <ul class="list-group list-group-flush">
+         <!--li class="list-group-item"><a><span class="card-text text-muted">{{ _("Contributors to this page:") }} <a href="#" title="#">cypherpunk</a></span></li-->
+         <li class="list-group-item">
+           <a href="https://github.com/torproject/support/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
+           <a href="https://support.torproject.org/misc/bug-or-feedback/">{{ _("Suggest Feedback") }}</a> -
+           <a href="{{ item|url }}">{{ _("Permalink") }}</a>
+          </li>
+       </ul>
+    </div>
   </div>
+  </div>
+{% endfor %}
+</div>  
 {% endblock %}
+{% endmacro %}
+
