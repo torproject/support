@@ -9,7 +9,7 @@ description:
 Bookmarks in the Tor Browser can be exported, imported, backup, restored as well as imported from another browser.
 In order to export , import, backup or restore bookmarks in Tor browser, go to:
 
-- Settings >> Library >> Bookmarks >> Show All Bookmarks (below the menu)
+- Hamburger-menu >> Library >> Bookmarks >> Show All Bookmarks (below the menu)
 - From the toolbar on the Library window, click Import and Backup
 
 **If you wish to export bookmarks**
