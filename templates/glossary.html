@@ -1,10 +1,38 @@
 {% extends "layout.html" %}
 {% block body %}
   <div>
-    {% for item in this.children %}
+    {% for item in this.children.order_by('term') %}
       <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', this.alt, 'direction') }}">
-        <a href="{{ item.path|url(alt=this.alt) }}" >{{ item.term }}</a>
+        <a data-toggle="collapse" href="#{{ item._id }}" data-target="#{{ item._id }}" role="button" aria-expanded="false" aria-controls="{{ item._id }}">
+          {{ item.term }}
+        </a>
       </h5>
+      <div id="{{ item._id }}" class="collapse show anchor-spacer" role="tabpanel" >
+        <div class="anchor-spacer">
+          {{ item.definition|safe }}
+
+          {% if item.spelling %}
+            <div class="card mt-5 p-3">
+              <span>Spelling notes: </span> {{ item.spelling }}
+            </div>
+          {% endif %}
+          {% if item.translation %}
+            <div class="card mt-5 p-3">
+              <span>Translation notes: </span> {{ item.translation }}
+            </div>
+          {% endif %}
+          <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+               <!--li class="list-group-item"><a><span class="card-text text-muted">{{ _("Contributors to item page:") }} <a href="#" title="#">cypherpunk</a></span></li-->
+               <li class="list-group-item">
+                 <a href="https://github.com/torproject/support/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit item page") }}</a> -
+                 <a href="https://support.torproject.org/misc/bug-or-feedback/">{{ _("Suggest Feedback") }}</a> -
+                 <a href="{{ item.path|url(alt=item.alt) }}">{{ _("Permalink") }}</a>
+                </li>
+             </ul>
+          </div>
+        </div>
+      </div>
     {% endfor %}
   </div>
 {% endblock %}
