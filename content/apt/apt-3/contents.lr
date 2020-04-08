@@ -9,7 +9,7 @@ _slug: apt-over-tor
 description:
 Yes, `deb.torproject.org` is also served through via an Onion Service: http://sdscoq7snqtznauu.onion/
 
-> **Note:** The symbol # refers to be running the code as root. That means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
+> **Note:** The symbol # refers to running the code as root. This means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
 
 To use Apt over Tor, the apt transport needs to be installed:
 
@@ -27,9 +27,9 @@ Then replace the address in the lines added before with, for example:
    deb tor://sdscoq7snqtznauu.onion/torproject.org tor-nightly-master-<DISTRIBUTION> main
    ```
 
-Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to discover.
+Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to check the Operating System version.
 
-Now refresh your sources and try if it's still possible to install tor:
+Now refresh your sources and try to install tor again:
 
    ```
    # apt update
