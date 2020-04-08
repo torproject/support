@@ -1,0 +1,12 @@
+title: And what about the advantage of the current approach over the old one when it comes to bridge users?
+---
+key: 14
+---
+seo_slug: bridge-users
+---
+_slug: bridge-users
+---
+description:
+
+Oh, that's a whole different story.  We wrote a 13 page long [technical report](https://research.torproject.org/techreports/counting-daily-bridge-users-2012-10-24.pdf) explaining the reasons for retiring the old approach.  
+tl;dr: in the old approach we measured the wrong thing, and now we measure the right thing.

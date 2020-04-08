@@ -1,0 +1,12 @@
+title: What if a user runs tor on a laptop and changes their IP address a few
+times per day?  Don't you overcount that user?
+---
+key: 7
+---
+seo_slug: user-overcount
+---
+_slug: user-overcount
+---
+description:
+
+No, because that user updates their list of relays as often as a user that doesn't change IP address over the day.

@@ -1,0 +1,13 @@
+title: Why are there so few bridge users that are not using the default OR
+protocol or that are using IPv6?
+---
+key: 9
+---
+seo_slug: bridges-reports
+---
+_slug: bridges-reports
+---
+description:
+
+Very few bridges report data on transports or IP versions yet, and by default we consider requests to use the default OR protocol and IPv4.
+Once more bridges report these data, the numbers will become more accurate.
