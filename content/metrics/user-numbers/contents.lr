@@ -1,0 +1,13 @@
+title: How do you get from these directory requests to user numbers?
+---
+key: 3
+---
+seo_slug: user-numbers
+---
+_slug: user-numbers
+---
+description:
+
+We put in the assumption that the average client makes 10 such requests per day.  A tor client that is connected 24/7 makes about 15 requests per day, but not all clients are connected 24/7, so we picked the number 10 for the average client.  
+We simply divide directory requests by 10 and consider the result as the number of users.  
+Another way of looking at it, is that we assume that each request represents a client that stays online  for one tenth of a day, so 2 hours and 24 minutes.

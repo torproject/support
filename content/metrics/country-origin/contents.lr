@@ -1,0 +1,11 @@
+title: How do you know which countries users come from?
+---
+key: 8
+---
+seo_slug: country-origin
+---
+_slug: country-origin
+---
+description:
+
+The directories resolve IP addresses to country codes and report these numbers in aggregate form.  This is one of the reasons why tor ships with a GeoIP database.

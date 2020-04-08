@@ -1,0 +1,13 @@
+title: Why do you believe the current approach to estimate user numbers is
+more accurate?
+---
+key: 13
+---
+seo_slug: methodology
+---
+_slug: methodology
+---
+description:
+
+For direct users, we include all directories which we didn't do in the old approach.  
+We also use histories that only contain bytes written to answer directory requests, which is more precise than using general byte histories.

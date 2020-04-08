@@ -1,0 +1,11 @@
+title: How is it even possible to count users in an anonymity network?
+---
+key: 1
+------
+seo_slug: user-estimation
+---
+_slug: user-estimation
+---
+description:
+
+We actually don't count users, but we count requests to the directories that clients make periodically to update their list of relays and estimate user numbers indirectly from there.
