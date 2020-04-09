@@ -1,0 +1,13 @@
+_model: question
+---
+title: How can you run Snowflake proxies to help other users?
+---
+seo_slug: running-snowflake-proxies
+---
+description:
+There are a few ways this can be done:
+**Option 1 (Addon)**
+If your internet is not censored, you can install the Snowflake extension in [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tor-project-snowflake) or in [Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie) which will let you become a snowflake proxy. Ensure you have WebRTC enable before installing the extension
+
+**Option 2 (Web Browser)**
+In a browser where WebRTC is enabled, go to [Snowflake website](https://snowflake.torproject.org/embed) and toggle the button to enable Snowflake and become a proxy. Ensure you keep the tab open.

@@ -2,10 +2,12 @@ _model: question
 ---
 title: How does Snowflake work and what are the benefits?
 ---
-seo_slug: How-does-snowflake-work-and-what-are-the-benefits
+seo_slug: How-snowflake-works
 ---
 description:
-Clients make webRTC connections to your browser, which will then proxy information between them and the default Snowflake bridge. 
+Tor clients automatically find available browsers through the Broker (an online database that serves to match clients with snowflake proxies), the clients make connections 
+to the browser proxies which will then forwards their traffic to the bridge which is a a full-featured proxy capable of connecting to any destination.
+
 There is no need to worry about which websites people are accessing through your proxy. Their visible browsing IP address will match their Tor exit node not yours.
 
 One of the benefits of Snowflake is that it has the ease of [Meek](https://trac.torproject.org/projects/tor/wiki/doc/meek) but can support more uers with trivial CDN costs.

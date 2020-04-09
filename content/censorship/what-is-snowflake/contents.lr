@@ -5,7 +5,7 @@ title: What is Snowflake?
 seo_slug: what-is-snowflake
 ---
 description:
-Snowflake is a system used to defeat internet censorship, it is a webRTC pluggable transport for Tor. 
+Snowflake is a system used to defeat internet censorship, so people who are censored can use it to access the internet.
 Snowflake is used to help users in censored countries connect to the Tor network. You can turn your browser into a proxy that connects Tor users in censored regions to the Tor network by enabling this extension.
 
 Snowflake is still under development.
