@@ -5,8 +5,8 @@ description:
 The parameters assigned in the [AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth) and [BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping) apply to both client and relay functions of the Tor process.
 Thus you may find that you are unable to browse as soon as your Tor goes into hibernation, signaled by this entry in the log:
 ```
-Bandwidth soft limit reached; commencing hibernation. No new
-    connections will be accepted
+Bandwidth soft limit reached; commencing hibernation.
+No new connections will be accepted
 ```
 The solution is to run two Tor processes - one relay and one client, each with its own config.
 One way to do this (if you are starting from a working relay setup) is as follows:
