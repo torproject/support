@@ -2,8 +2,8 @@ title: How do I decide if I should run a relay?
 ---
 description:
 
-We're looking for people with reasonably reliable Internet connections, that have at least 10 Mbit/s (Mbps) available bandwidth each way. If that's you, please consider [running a Tor relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide).
+We're looking for people with reasonably reliable Internet connections, that have at least 10 Mbit/s (Mbps) available bandwidth each way. If that's you, please consider [running a Tor relay](https://community.torproject.org/relay/).
 
-Even if you do not have at least 10 Mbit/s of available bandwidth you can still help the Tor network by running a [Tor bridge with obfs4 support](https://community.torproject.org/relay/setup/brige). In that case you should have at least 1 MBit/s of available bandwidth. 
+Even if you do not have at least 10 Mbit/s of available bandwidth you can still help the Tor network by running a [Tor bridge with obfs4 support](https://community.torproject.org/relay/setup/bridge). In that case you should have at least 1 MBit/s of available bandwidth.
 ---
 seo_slug: should-i-run-a-relay
