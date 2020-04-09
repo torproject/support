@@ -1,5 +1,4 @@
-title: Are there more fine-grained numbers available, for example, on the
-number of users per hour?
+title: Are there more fine-grained numbers available, for example, on the number of users per hour?
 ---
 key: 5
 ---
@@ -9,5 +8,5 @@ _slug: stats-report
 ---
 description:
 
-No, the relays that report these statistics aggregate requests by country of origin and over a period of 24 hours.  
+No, the relays that report these statistics aggregate requests by country of origin and over a period of 24 hours.
 The statistics we would need to gather for the number of users per hour would be too detailed and might put users at risk.

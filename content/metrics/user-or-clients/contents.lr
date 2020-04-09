@@ -1,5 +1,4 @@
-title: Are these tor clients or users?  What if there's more than one user
-behind a tor client?
+title: Are these tor clients or users?  What if there's more than one user behind a tor client?
 ---
 key: 6
 ---
@@ -9,4 +8,4 @@ _slug: users-or-clients
 ---
 description:
 
-Then we count those users as one.  We really count clients, but it's more intuitive for most people to think of users, that's why we say users and not clients.
+Then we count those users as one. We really count clients, but it's more intuitive for most people to think of users, that's why we say users and not clients.
