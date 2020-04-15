@@ -71,7 +71,8 @@ If `./tor.keyring` doesn't exist after running this command, something has gone 
 
 To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
 
-The examples below assume that you downloaded these two files to your "Downloads" folder. Note that these commands use example file names and yours will be different: you will have downloaded a different version than 9.0 and you may not have chosen the English (en) version.
+The examples below assume that you downloaded these two files to your "Downloads" folder.
+Note that these commands use example file names and yours will be different: you will have downloaded a different version than 9.0 and you may not have chosen the English (en-US) version.
 
 #### For Windows users:
 
