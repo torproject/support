@@ -36,18 +36,16 @@ In order to export, import, backup or restore bookmarks in Tor Browser, go to:
 - Choose Restore and then select the bookmark file you wish to restore. 
 - Click okay to the pop up box that appears and hurray, you just restored your backup bookmark.
 
-**Import Data from another browser**
+**Import data from another browser**
 > Bookmarks can be transferred from Firefox to Tor Browser. There are two ways to export and import bookmarks in Firefox: [HTML file](https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer) or JSON file. Remember any custom bridges and search engine additions.
 After exporting the data from the browser, follow the above step to import the bookmark file into your Tor Browser.
 
-We can also export Bookmarks from an old version of **Tor Browser for Android** and Import in a New version of the Tor Browser for Android following the steps below.
+**Export and Import bookmarks from Tor Browser for Android**
+> We can also export Bookmarks from an old version of Tor Browser for Android and import in a new version of the Tor Browser for Android following the steps below.
 
-1. Install regular esr or portable esr Firefox, of the same version of esr that Tor Browser used in the "old version" Tor Browser of your bookmarks.
-2. Drag you old places.sqlite (bookmarks file) into the Firefox profile (This will replace the new default places.sqlite).
-3. Start up the Firefox, open bookmarks manager, then export bookmarks as .html.
+1. Install a portable Firefox Extended Support Release (esr) which is of the same version used in the "old version" of your Tor Browser.
+2. Drag your old bookmark file (named places.sqlite which can be found in [profile folder.](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data)) into the firefox profile. This will replace the new default bookmarks file.
+3. Start up the Firefox, open bookmarks manager, then export bookmarks file with the .html extension.
 4. Then start current Tor Browser, open bookmarks manager, then import that .html file. Those bookmarks will show up as a folder added at the end of the bookmarks manager tree pane.
 
-
-**BEWARE**  Because of the fact that the contents of the ../tor-browser-en-US/ directory will be cleared (the exact name depends on your particular language localisation), you should place the bookmarks .JSON backup file at a different location, otherwise you'll lose it.
-
-
+- Always place the bookmarks.JSON backup file at a different location so your file could be saved, since the contents of the ../tor-browser-en-US/directory will be cleared when an update occurs.
