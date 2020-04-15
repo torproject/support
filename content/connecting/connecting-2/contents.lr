@@ -9,7 +9,7 @@ description:
 If you’re having trouble connecting, an error message may appear and you can select the option to "copy Tor log to clipboard".
 Then paste the Tor log into a text file or other document.
 
-Alternatively, if you don't see this option and you have Tor Browser open, you can navigate to the hamburger menu (on the top-right of the browser, to the right of the URL bar), then click on "Preferences", and finally on "Tor" in the side bar.
+Alternatively, if you don't see this option and you have Tor Browser open, you can navigate to the [hamburger menu ("≡")](../../glossary/hamburger-menu), then click on "Preferences", and finally on "Tor" in the side bar.
 At the bottom of the page, next to the "View the Tor logs" text, click the button "View Logs...".
 
 You should see one of these common log errors (look for the following lines in your Tor log):
