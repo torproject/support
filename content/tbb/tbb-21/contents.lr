@@ -5,7 +5,7 @@ title: How do I view Tor Browser message log?
 seo_slug: view-tor-browser-message-log
 ---
 description:
-When you have Tor Browser open, you can navigate to the hamburger menu (on the top-right of the browser, next to the URL bar), then click on "Preferences", and finally on "Tor" in the side bar.
+When you have Tor Browser open, you can navigate to the [hamburger menu ("≡")](../../glossary/hamburger-menu), then click on "Preferences", and finally on "Tor" in the side bar.
 At the bottom of the page, next to the "View the Tor logs" text, click the button "View Logs...".
 You should see an option to copy the log to your clipboard, which you will be able to paste it into a text editor or an email client.
 
