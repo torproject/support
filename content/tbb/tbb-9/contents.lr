@@ -9,9 +9,8 @@ We strongly recommend against using Tor in any browser other than Tor Browser.
 Tor Browser comes with default [security measures](https://tb-manual.torproject.org/security-settings/) that protect your digital footprint, and using Tor in another browser can leave you vulnerable without the privacy protection of Tor Browser.
 
 Some of the security measures you get to enjoy using Tor Browser include:
-1. Hiding your real IP address, so you can't be monitored. 
-2. No browsing history being stored, so everything is wiped once you close the browser. 
-3. Anyone snooping around can't see the websites you visit. 
-4. No third party cookies or fingerprinting following you around, collecting information about you from websites you visit.  
-5. Nothing being written on your drive, unlike other browsers that incessantly eat at your drive.
-6. Cross platform:Works on macOS, Windows, Android and Linux. 
+1. Hiding your real IP address to preserve your online privacy.
+2. No browsing history being stored, because your browsing history is wiped once you close the browser. 
+3. Isolates cookies and scripts, to prevent it from collecting information about you every time you visit a website.  
+5. Nothing being written on your drive, so your hard drive is free from unnecessary cached data.
+6. Cross platform: Works on macOS, Windows, Android and GNU/Linux. 
