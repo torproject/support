@@ -40,12 +40,4 @@ In order to export, import, backup or restore bookmarks in Tor Browser, go to:
 > Bookmarks can be transferred from Firefox to Tor Browser. There are two ways to export and import bookmarks in Firefox: [HTML file](https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer) or JSON file. Remember any custom bridges and search engine additions.
 After exporting the data from the browser, follow the above step to import the bookmark file into your Tor Browser.
 
-**Export and Import bookmarks from Tor Browser for Android**
-> We can also export Bookmarks from an old version of Tor Browser for Android and import in a new version of the Tor Browser for Android following the steps below.
-
-1. Install a portable Firefox Extended Support Release (esr) which is of the same version used in the "old version" of your Tor Browser on your phone.
-2. Drag your old bookmark file (named places.sqlite which can be found in [profile folder.](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data)) into the firefox profile. This will replace the new default bookmarks file.
-3. Start up the Firefox, open bookmarks manager, then export bookmarks file with the .html extension.
-4. Then start current Tor Browser, open bookmarks manager, then import that .html file. Those bookmarks will show up as a folder added at the end of the bookmarks manager tree pane.
-
-- Always place the bookmarks.JSON backup file at a different location so your file could be saved, since the contents of the Tor Browser directory will be cleared when an update occurs.
+- Always place the bookmark.JSON backup file in a different location inorder to save your file. This is because when an update occurs, Tor Browser directory is usually cleared.
