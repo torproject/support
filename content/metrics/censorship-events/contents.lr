@@ -1,0 +1,13 @@
+title: What are these red and blue dots indicating possible censorship events?
+---
+key: 15
+---
+seo_slug: censorship-events
+---
+_slug: censorship-events
+---
+description:
+
+We run an anomaly-based censorship-detection system that looks at estimated user numbers over a series of days and predicts the user number in the next days.
+If the actual number is higher or lower, this might indicate a possible censorship event or release of censorship.
+For more details, see our [technical report](https://research.torproject.org/techreports/detector-2011-09-09.pdf).
