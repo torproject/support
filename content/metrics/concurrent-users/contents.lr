@@ -1,3 +1,5 @@
+_model: question
+---
 title: So, are these distinct users per day, average number of users connected over the day, or what?
 ---
 key: 4

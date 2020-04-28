@@ -1,3 +1,5 @@
+_model: question
+---
 title: I want to ban the Tor network from my service.
 ---
 key: 10

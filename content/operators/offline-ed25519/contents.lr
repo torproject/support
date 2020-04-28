@@ -1,3 +1,5 @@
+_model: question
+---
 title: How do offline ed25519 identity keys work? What do I need to know?
 ---
 description:

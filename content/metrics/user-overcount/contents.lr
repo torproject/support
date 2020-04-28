@@ -1,4 +1,6 @@
-title: What if a user runs tor on a laptop and changes their IP address a few times per day?  Don't you overcount that user?
+_model: question
+---
+title: What if a user runs tor on a laptop and changes their IP address a few times per day? Don't you overcount that user?
 ---
 key: 7
 ---
