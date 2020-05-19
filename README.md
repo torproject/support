@@ -5,7 +5,7 @@ The site is accessible at the following locations:
 - https://support.torproject.org/
 - http://4bflp2c4tnynnbes.onion/
 
-**This is not a direct support helpdesk** and questions should not be submitted through this site. Head over to ```#tor``` on [OFTC IRC](https://webchat.oftc.net/) instead.
+**This is not a direct support helpdesk** and questions should not be submitted through this site. Head over to ```#tor``` on [OFTC IRC](https://webchat.oftc.net/?channels=tor) instead.
 
 ## Reporting Bugs or Feedback
 Bugs and feedback tickets can be submitted to the [trac.](https://trac.torproject.org/projects/tor)
