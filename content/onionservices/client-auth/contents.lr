@@ -1,0 +1,12 @@
+_model: question
+---
+title: What's a client or onion authentication?
+---
+seo_slug: client-auth
+---
+description:
+An authenticated onion service is an onion service that requires you to provide an authentication token (in this case, a private key) before accessing the service.
+The private key is not transmitted to the service, and it's only used to decrypt its descriptor locally.
+You can get the access credentials from the onion service operator. Reach out to the operator and request access.
+Learn more about [how to use onion authentication](https://tb-manual.torproject.org/onion-services/) in Tor Browser.
+If you want to create an onion service with client authentication, please see the [Client Authorization](https://community.torproject.org/onion-services/advanced/client-auth) in the Community portal.
