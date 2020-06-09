@@ -2,5 +2,5 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  {{ render_question(this, "topic", this.alt) }}
+  {{ render_question(this, this._id, "topic", this.alt) }}
 {% endblock %}
