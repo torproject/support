@@ -8,7 +8,7 @@ Tor relies on the support of users and volunteers around the world to help us im
 
 When sending us feedback or reporting a bug, please include as many of these as possible:
 
- * OS you are using
+ * Operating System you are using
  * Tor Browser version
  * Step by step of how you got to the issue, so we can reproduce it (e.g. I opened the browser, typed a url, clicked on (i) icon, then my browser crashed)
  * A screenshot of the problem
@@ -18,25 +18,34 @@ When sending us feedback or reporting a bug, please include as many of these as 
 
 There are several ways to reach us, so please use what works best for you.
 
-#### Trac
+#### GitLab
 
-You can file a ticket at [https://trac.torproject.org](https://trac.torproject.org). We track all Tor Browser 9 related issues with the tbb-9.0-issues keyword. Tickets related to our website should be added with the component "Webpages/Website." 
+First, check if the bug is already known.
+You can search and read all the issues at [https://gitlab.torproject.org/](https://gitlab.torproject.org/groups/tpo/-/issues).
+To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue.
+We track all Tor Browser related issues at [Tor Browser issue tracker](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues).
+Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
 
 #### Email
 
 Send us an email to frontdesk@torproject.org
 
-In the subject line of your email, please tell us what you're reporting. The more specific your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser", "I need a bridge"), the easier it will be for us to understand and follow up. Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
+In the subject line of your email, please tell us what you're reporting. 
+The more specific your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser, "I need a bridge"), the easier it will be for us to understand and follow up. 
+Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
 
-For the fastest response, please write in English, Spanish, and/or Portuguese if you can. If none of these languages works for you, please write in any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it. 
+For the fastest response, please write in English, Spanish, and/or Portuguese if you can. 
+If none of these languages works for you, please write in any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it. 
 
 #### Blog post comments
 
-You can always leave comments on the blog post related to the issue or feedback you want to report. If there is not a blog post related to your issue, please contact us another way. 
+You can always leave comments on the blog post related to the issue or feedback you want to report. 
+If there is not a blog post related to your issue, please contact us another way. 
 
 #### IRC
 
-You can find us in the #tor channel on OFTC to give us feedback or report bugs/issues. We may not respond right away, but we do check the backlog and will get back to you when we can.
+You can find us in the #tor channel on OFTC to give us feedback or report bugs/issues. 
+We may not respond right away, but we do check the backlog and will get back to you when we can.
 
 Learn how to connect to [OFTC servers](/get-in-touch/irc-help).
 
