@@ -6,4 +6,4 @@ seo_slug: problem-with-duckduckgo
 ---
 description: 
 Please see the [DuckDuckGo support portal](https://duck.co/help).
-If you believe this is a Tor Browser issue, please report it on our [bug tracker](https://trac.torproject.org/).
+If you believe this is a Tor Browser issue, please report it on our [issue tracker](https://gitlab.torproject.org/groups/tpo/-/issues).
