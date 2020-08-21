@@ -7,4 +7,4 @@ seo_slug: most-common-issues-latest-stable-tor-browser
 description:
 Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues.
 If you started having issues with your Tor Browser after an update, check out <a href="https://blog.torproject.org">blog.torproject.org</a> for a post on the most recent stable Tor Browser to see if your issue is listed.
-If your issue is not listed, please file a [bug report](https://trac.torproject.org) about what you're experiencing.
+If your issue is not listed, please create a [GitLab issue](https://gitlab.torproject.org/groups/tpo/-/issues) about what you're experiencing.
