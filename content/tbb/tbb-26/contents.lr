@@ -6,4 +6,4 @@ seo_slug: problem-with-https-everywhere
 ---
 description:
 Please see the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq).
-If you believe this is a Tor Browser issue, please report it on our [bug tracker](https://trac.torproject.org/).
+If you believe this is a Tor Browser issue, please report it on our [issue tracker](https://gitlab.torproject.org/groups/tpo/-/issues).
