@@ -1,0 +1,13 @@
+_model: word
+---
+term: pluggable transports
+---
+definition:
+
+Tools that [Tor](../tor-tor-network-core-tor) can use to disguise the [traffic](../traffic) it sends out.
+This can be useful in situations where an [Internet Service Provider (ISP)](../internet-service-provider-isp) or other authority is actively blocking connections to the [Tor network](../tor-tor-network-core-tor).
+
+---
+translation: 
+---
+spelling: 

@@ -12,6 +12,8 @@ description:
 
 The Tor Project maintains its own [RPM package repository](https://rpm.torproject.org) for CentOS and RHEL and Fedora.
 
+> **Note:** The symbol # refers to be running the code as root. That means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
+
 Here's how you can enable Tor Package Repository for both CentOS and RHEL and Fedora:
 
 #### 1. Enable epel repository (only for CentOS and RHEL)

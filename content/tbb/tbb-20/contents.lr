@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: /connecting/connecting-1
+---
+_discoverable: no

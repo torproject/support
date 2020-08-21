@@ -1,0 +1,12 @@
+_model: word
+---
+term: bandwidth authority
+---
+definition:
+
+To determine a relay's throughput, special relays called bandwidth authorities take periodic measurements of the [relays](../relay) in the [consensus](../consensus).
+
+---
+translation: 
+---
+spelling: 

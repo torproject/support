@@ -1,10 +1,12 @@
+_model: question
+---
 title: How can I chat with Tor Project teams?
 ---
 description:
 
 Here is how you can get onto IRC and start to chat with Tor contributors in real time:
 
-1. Enter in [OFTC](https://webchat.oftc.net/) webchat.
+1. Enter in [OFTC](https://webchat.oftc.net/?channels=tor) webchat.
 
 2. Fill in the blanks: 
 

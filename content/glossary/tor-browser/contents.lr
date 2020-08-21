@@ -1,0 +1,22 @@
+_model: word
+---
+term: Tor Browser
+---
+definition:
+
+Tor Browser uses the [Tor network](../tor-tor-network-core-tor) to protect your privacy and anonymity.
+Your internet activity, including the names and addresses of the websites you visit, will be hidden from your [Internet Service Provider (ISP)](../internet-service-provider-isp) and anyone watching your connection locally.
+The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real [(IP) address](../ip-address), and will not know who you are unless you explicitly identify yourself.
+In addition, Tor Browser is designed to prevent websites from “[fingerprinting](../browser-fingerprinting)” or identifying you based on your browser configuration.
+By default, Tor Browser does not keep any [browsing history](../browsing-history).
+[Cookies](../cookie) are only valid for a single [session](../session) (until Tor Browser is exited or a [New Identity](../new-identity) is requested).
+
+---
+translation:
+
+**Do not translate "Tor", however you can translate "Browser"**. Example in Spanish: Navegador Tor (altering the order because is more natural like that in Spanish.)
+Some languages such as Arabic *transliterate* the word Tor, تور. That is, they write Tor with other characters.
+
+---
+spelling:
+Tor Browser. Sometimes also mentioned as [tbb](../../tbb). Not 'TOR Browser'.

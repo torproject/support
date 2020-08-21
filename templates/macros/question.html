@@ -1,14 +1,14 @@
-{% macro render_question(item, t_id, alternative) %}
+{% macro render_question(item, q_id, t_id, alternative) %}
 <div class="question {{ bag('alternatives', alternative, 'direction') }}">
   <h4 class="text-primary">
-    <a data-toggle="collapse" href="#{{ item._id }}" data-target="#{{ item._id }}" role="button" aria-expanded="false" aria-controls="{{ item._id }}">
+    <a data-toggle="collapse" href="#{{ q_id }}" data-target="#{{ q_id }}" role="button" aria-expanded="false" aria-controls="{{ q_id }}">
       {{ item.title }}
     </a>
   </h4>
-  <div id="{{ item._id }}" class="collapse show anchor-spacer" role="tabpanel" data-parent="#{{ t_id }}Accordion">
+  <div id="{{ q_id }}" class="collapse show anchor-spacer" role="tabpanel" data-parent="#{{ t_id }}Accordion">
     {{ item.description|safe }}
 
-    {% if item._id == "https-1" %}
+    {% if q_id == "https-1" %}
       {% include 'secure-connections.html' %}
     {% endif %}
     <div class="card mt-5">

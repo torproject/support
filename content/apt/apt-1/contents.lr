@@ -8,9 +8,11 @@ _slug: tor-deb-repo
 ---
 description:
 
-The Tor Project maintains its own [Debian package repository](https://deb.torproject.org). Since Debian provides the LTS version of Tor that this might not always give you the latest stable Tor version, it's recommended to install `tor` from our repository.
+The Tor Project maintains its own [Debian package repository](https://deb.torproject.org). Since Debian provides the LTS version of Tor, this might not always give you the latest stable Tor version. Therefore, it's recommended to install `tor` from our repository.
 
 Here's how you can enable Tor Package Repository in Debian based distributions:
+
+> **Note:** The symbol # refers to running the code as root. This means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
 
 #### 1. Install `apt-transport-https`
 
@@ -41,7 +43,7 @@ Or nightly builds:
    deb-src https://deb.torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main
    ```
 
-Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to discover.
+Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to check the Operating System version.
 
 #### 3. Then add the gpg key used to sign the packages by running the following commands at your command prompt
 

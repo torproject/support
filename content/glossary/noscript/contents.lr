@@ -1,0 +1,13 @@
+_model: word
+---
+term: NoScript
+---
+definition:
+
+[Tor Browser](../tor-browser) includes an [add-on](../add-on-extension-or-plugin) called NoScript, accessed by clicking the [hamburger menu ("≡")](../hamburger-menu) at the top-right of the screen, then navigating to "Add-ons".
+NoScript allows you to control the [JavaScript](../javascript) that runs on individual web pages, or to block it entirely.
+
+---
+translation: 
+---
+spelling: 

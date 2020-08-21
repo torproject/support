@@ -1,0 +1,13 @@
+_model: word
+---
+term: public key
+---
+definition:
+
+The public portion of a [public/private key pair](../public-key-cryptography).
+This is the key that can be disseminated to others.
+
+---
+translation: 
+---
+spelling: 

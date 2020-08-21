@@ -1,0 +1,11 @@
+_model: word
+---
+term: relay
+---
+definition:
+
+A publicly-listed node in the [Tor network](../tor-tor-network-core-tor) that forwards [traffic](../traffic) on behalf of [clients](../client), and that registers itself with the [directory authorities](../directory-authority).
+---
+translation: 
+---
+spelling: 

@@ -1,3 +1,5 @@
+_model: question
+---
 title: I'm facing legal trouble. How do I prove that my server was a Tor relay at a given time?
 ---
 description:

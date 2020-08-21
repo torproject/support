@@ -4,10 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
 <link rel="stylesheet" href="{{ '/static/css/bootstrap.css'|asseturl }}">
-<link rel="stylesheet" href="{{ '/static/css/eoy.css'|asseturl }}">
 <link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
 
-<title>{% block title %}{{ this.title }}{% endblock %} | {{ _("Tor Project | Support") }}</title>
+<title>{% block title %}{{ this.title }} {{ this.term }} {% endblock %} | {{ _("Tor Project | Support") }}</title>
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
   <header>
     {% include 'navbar.html' %}

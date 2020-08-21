@@ -1,0 +1,7 @@
+_model: redirect
+---
+target: /misc/bug-or-feedback
+---
+_discoverable: no
+---
+key: 3

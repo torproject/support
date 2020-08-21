@@ -1,0 +1,11 @@
+_model: word
+---
+term: nyx
+---
+definition:
+
+The anonymizing [relay](../relay) monitor (formerly arm, now nyx) is a terminal status monitor for [Tor](../tor-tor-network-core-tor), intended for command-line usage. This is a tool for monitoring the core Tor process on a system, often useful for relay operators.
+---
+translation: 
+---
+spelling: 

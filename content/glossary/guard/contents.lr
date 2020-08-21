@@ -1,0 +1,11 @@
+_model: word
+---
+term: guard
+---
+definition:
+
+The first [relay](../relay) in the [Tor circuit](../circuit), unless using a [bridge](../bridge). When using a bridge, the bridge takes the place of the guard.
+---
+translation: 
+---
+spelling: 

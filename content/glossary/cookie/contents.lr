@@ -1,0 +1,13 @@
+_model: word
+---
+term: cookie
+---
+definition:
+
+An [HTTP](../http) cookie (also called web cookie, Internet cookie, browser cookie or simply cookie) is a small piece of data sent from a website and stored on the user's computer by the user's [web browser](../web-browser) while the user is browsing. 
+By default, [Tor Browser](../tor-browser) does not store cookies. 
+
+---
+translation: 
+---
+spelling: 

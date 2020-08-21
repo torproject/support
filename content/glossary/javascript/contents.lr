@@ -1,0 +1,12 @@
+_model: word
+---
+term: JavaScript
+---
+definition:
+
+JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the [web browser](../web-browser), which might lead to deanonymization.
+The [NoScript](../noscript) [extension](../add-on-extension-or-plugin) in [Tor Browser](../tor-browser) can be used to manage JavaScript on different websites.
+---
+translation: 
+---
+spelling: 

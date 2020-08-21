@@ -1,0 +1,13 @@
+_model: word
+---
+term: Tor2Web
+---
+definition:
+
+Tor2web is a project to let users access [onion services](../onion-services) without using the [Tor Browser](../tor-browser).
+NOTE: This is not as safe as connecting to the [onion services](../onion-services) via Tor Browser, and will remove all [Tor](../tor-tor-network-core-tor)-related protections the [client](../client) would otherwise have.
+
+---
+translation: 
+---
+spelling: 

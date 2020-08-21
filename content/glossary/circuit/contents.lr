@@ -1,0 +1,12 @@
+_model: word
+---
+term: circuit
+---
+definition:
+
+A path through the [Tor network](../tor-tor-network-core-tor) built by [clients](../client) consisting of randomly selected nodes. The circuit begins with either a [bridge](../bridge) or a [guard](../guard). Most circuits consist of three nodes - a guard or bridge, a [middle relay](../middle-relay), and an [exit](../exit). Most [onion services](../onion-services) use six hops in a circuit (with the exception of [single onion services](../single-onion-service)), and never an exit node. You can view your current Tor circuit by clicking on the [i] on the URL bar.
+
+---
+translation: 
+---
+spelling: 

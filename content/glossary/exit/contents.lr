@@ -1,0 +1,12 @@
+_model: word
+---
+term: exit
+---
+definition:
+
+The last [relay](../relay) in the [Tor circuit](../circuit) which sends [traffic](../traffic) out onto the public Internet. The service you are connecting to (website, chat service, email provider, etc..) will see the [IP address](../ip-address) of the exit.
+
+---
+translation: 
+---
+spelling: 

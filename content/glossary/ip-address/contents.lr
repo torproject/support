@@ -1,0 +1,13 @@
+_model: word
+---
+term: IP address
+---
+definition:
+
+An Internet Protocol address (IP address) is a numerical (or alpha-numeric in the case of IPv6) label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication.
+The IP address is the location address of the device, similar to the addresses of physical locations.
+[Tor Browser](../tor-browser) obscures your location by making it look like your [traffic](../traffic) is coming from an IP address that is not your own.
+---
+translation: 
+---
+spelling: 

@@ -1,0 +1,12 @@
+_model: word
+---
+term: onion address
+---
+definition:
+
+A standardized Internet domain name used by onion services that end in .onion and is designed to be [self-authenticating](../self-authenticating).
+
+---
+translation: Can be partially or totally translated, i.e. for Spanish 'dirección cebolla' or 'dirección onion'.
+---
+spelling:

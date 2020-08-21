@@ -1,0 +1,16 @@
+_model: word
+---
+term: Tor log
+---
+definition:
+
+"Tor log" is an automatically-generated list of [Tor](../tor-tor-network-core-tor)’s activity that can help diagnose problems.
+When something goes wrong with Tor, you may see an option with the error message to "copy Tor log to clipboard".
+If you don't see this option and you have [Tor Browser](../tor-browser) open, you can navigate to the [hamburger menu ("≡")](../glossary/hamburger-menu), then click on "Preferences", and finally on "Tor" in the side bar.
+At the bottom of the page, next to the "View the Tor logs" text, click the button "View Logs...".
+You should see an option to copy the log to your clipboard, which you can then paste to a document to show whoever is helping you troubleshoot.
+
+---
+translation: 
+---
+spelling: 

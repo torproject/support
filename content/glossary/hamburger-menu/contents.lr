@@ -1,0 +1,17 @@
+_model: word
+---
+term: hamburger menu
+---
+definition:
+
+It's a icon with three horizontal lines usually on the top-left corner or top-right corner of the screen.
+By clicking or tapping on the icon, it reveals a menu with options or additional pages.
+
+Reference: https://en.wikipedia.org/wiki/Hamburger_button
+
+![hamburger-menu](/static/images/hamburger-menu.png "Hamburger Menu")
+ 
+---
+translation:
+---
+spelling:

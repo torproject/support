@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: /operators/exit-policies
+---
+_discoverable: no

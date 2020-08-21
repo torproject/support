@@ -1,0 +1,12 @@
+_model: word
+---
+term: New Tor Circuit for this Site
+---
+definition:
+
+This option is useful if the [exit](../exit) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently active tab or window to be reloaded over a new [Tor circuit](../circuit). Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+
+---
+translation: 
+---
+spelling: 

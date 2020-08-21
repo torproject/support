@@ -1,0 +1,11 @@
+_model: word
+---
+term: traffic
+---
+definition:
+
+Traffic is the data sent and received by [clients](../client) and [servers](../server).
+---
+translation: 
+---
+spelling: 

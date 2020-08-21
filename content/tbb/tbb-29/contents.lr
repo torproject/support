@@ -6,7 +6,7 @@ seo_slug: change-ip-address
 ---
 description:
 Tor Browser has two ways to change your relay circuit — "New Identity" and "New Tor Circuit for this Site".
-Both options are located in the hamburger menu.
+Both options are located in the [hamburger menu ("≡")](../../glossary/hamburger-menu).
 You can also access the New Circuit option inside the site information menu in the URL bar, and the New Identity option by clicking the small sparky broom icon at the top-right of the screen
 
 ##### New Identity

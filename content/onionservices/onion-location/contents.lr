@@ -1,0 +1,14 @@
+model: _question
+---
+title: What ".onion available" means in my browser?
+---
+seo_slug: onion-location
+---
+description:
+
+Onion-Location is a new HTTP header that web sites can use to advertise their onion counterpart.
+If the web site that you're visiting has an onion site available, a purple suggestion pill will prompt at the URL bar saying ".onion available".
+When you click on ".onion available", the web site will be reloaded and redirected to its onion counterpart.
+At the moment, Onion-Location is available for Tor Browser desktop (Windows, macOS and GNU/Linux).
+You can learn more about Onion-Location in the [Tor Browser Manual](https://tb-manual.torproject.org/onion-services/).
+If you're an onion service operator, learn [how to configure Onion-Location](https://community.torproject.org/onion-services/advanced/onion-location) in your onion site.

@@ -1,0 +1,14 @@
+_model: word
+---
+term: add-on, extension, or plugin
+---
+definition:
+
+Add-ons, extensions, and plugins are components that can be added to [web browsers](../web-browser) to give them new features.
+Tor Browser comes with two add-ons installed: [NoScript](../noscript) and [HTTPS Everywhere](../https-everywhere).
+You should not install any additional add-ons on Tor Browser because that can compromise some of its privacy features.
+
+---
+translation: 
+---
+spelling: 

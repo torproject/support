@@ -1,0 +1,13 @@
+_model: word
+---
+term: obfs3
+---
+definition:
+
+Obfs3 is a [pluggable transport](../pluggable-transports) that makes [Tor](../tor-tor-network-core-tor) [traffic](../traffic) look random, so that it does not look like Tor or any other protocol.
+Obfs3 is not supported anymore.
+
+---
+translation: 
+---
+spelling: 

@@ -13,6 +13,7 @@ Each file on our [download page](https://www.torproject.org/download/) is accomp
 They allow you to verify the file you've downloaded is exactly the one that we intended you to get.
 
 For example, `torbrowser-install-win64-9.0_en-US.exe` is accompanied by `torbrowser-install-win64-9.0_en-US.exe.asc`.
+These are example file names and will not exactly match the file names that you download.
 
 We now show how you can verify the downloaded file's digital signature on different operating systems.
 Please notice that a signature is dated the moment the package has been signed.
@@ -58,15 +59,20 @@ This should show you something like:
     uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
     sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]
 
+If you get an error message, something has gone wrong and you cannot continue until you've figured out why this didn't work. You might be able to import the key using the **Workaround (using a public key)** section instead.
+
 After importing the key, you can save it to a file (identifying it by fingerprint here):
 
     gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
+
+If `./tor.keyring` doesn't exist after running this command, something has gone wrong and you cannot continue until you've figured out why this didn't work.
 
 ### Verifying the signature
 
 To verify the signature of the package you downloaded, you will need to download the corresponding ".asc" signature file as well as the installer file itself, and verify it with a command that asks GnuPG to verify the file that you downloaded.
 
 The examples below assume that you downloaded these two files to your "Downloads" folder.
+Note that these commands use example file names and yours will be different: you will have downloaded a different version than 9.0 and you may not have chosen the English (en-US) version.
 
 #### For Windows users:
 
@@ -74,12 +80,11 @@ The examples below assume that you downloaded these two files to your "Downloads
 
 #### For macOS users:
 
-    gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg{.asc,}
+    gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg.asc ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg
 
 #### For GNU/Linux users (change 64 to 32 if you have the 32-bit package):
 
-    gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz{.asc,}
-
+    gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz.asc ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz
 
 The result of the command should produce something like this:
 
@@ -87,6 +92,7 @@ The result of the command should produce something like this:
     gpgv:                using RSA key EB774491D9FF06E2
     gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
 
+If you get error messages containing 'No such file or directory', either something went wrong with one of the previous steps, or you forgot that these commands use example file names and yours will be a little different.
 
 #### Workaround (using a public key)
 

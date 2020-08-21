@@ -1,0 +1,23 @@
+_model: question
+---
+title: I want some content removed from a .onion address.
+---
+key: 12
+---
+description:
+The Tor Project does not host, control, nor have the ability to discover the owner or location of a .onion address.
+The .onion address is an address from [an onion service](https://tb-manual.torproject.org/onion-services/).
+The name you see ending in .onion is an onion service descriptor.
+It's an automatically generated name which can be located on any Tor relay or client anywhere on the Internet.
+Onion services are designed to protect both the user and service provider from discovering who they are and where they are from.
+The design of onion services means the owner and location of the .onion site is hidden even from us.
+
+But remember that this doesn't mean that onion services are invulnerable.
+Traditional police techniques can still be very effective against them, such as interviewing suspects, writing style analysis, technical analysis of the content itself, sting operations, keyboard taps, and other physical investigations.
+
+If you have a complaint about child abuse materials, you may wish to report it to the National Center for Missing and Exploited Children, which serves as a national coordination point for investigation of child pornography: http://www.missingkids.com/.
+We do not view links you report.
+---
+seo_slug: remove-content-from-onion-address
+---
+_slug: remove-content-from-onion-address

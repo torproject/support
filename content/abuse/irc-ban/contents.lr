@@ -1,0 +1,40 @@
+_model: question
+---
+title: Tor is banned from the IRC network I want to use.
+---
+key: 8
+---
+description:
+Sometimes jerks make use of Tor to troll IRC channels.
+This abuse results in IP-specific temporary bans ("klines" in IRC lingo), as the network operators try to keep the troll off of their network.
+
+This response underscores a fundamental flaw in IRC's security model:
+they assume that IP addresses equate to humans, and by banning the IP address they can ban the human.
+In reality, this is not the case — many such trolls routinely make use of the literally millions of open proxies and compromised computers around the Internet.
+The IRC networks are fighting a losing battle of trying to block all these nodes, and an entire cottage industry of blacklists and counter-trolls has sprung up based on this flawed security model (not unlike the antivirus industry).
+The Tor network is just a drop in the bucket here.
+
+On the other hand, from the viewpoint of IRC server operators, security is not an all-or-nothing thing.
+By responding quickly to trolls or any other social attack, it may be possible to make the attack scenario less attractive to the attacker.
+And most individual IP addresses do equate to individual humans, on any given IRC network at any given time.
+The exceptions include NAT gateways which may be allocated access as special cases.
+While it's a losing battle to try to stop the use of open proxies, it's not generally a losing battle to keep klining a single ill-behaved IRC user until that user gets bored and goes away.
+
+But the real answer is to implement application-level auth systems, to let in well-behaving users and keep out badly-behaving users.
+This needs to be based on some property of the human (such as a password they know), not some property of the way their packets are transported.
+
+Of course, not all IRC networks are trying to ban Tor nodes.
+After all, quite a few people use Tor to IRC in privacy in order to carry on legitimate communications without tying them to their real-world identity.
+Each IRC network needs to decide for itself if blocking a few more of the millions of IPs that bad people can use is worth losing the contributions from the well-behaved Tor users.
+
+If you're being blocked, have a discussion with the network operators and explain the issues to them.
+They may not be aware of the existence of Tor at all, or they may not be aware that the hostnames they're klining are Tor exit nodes.
+If you explain the problem, and they conclude that Tor ought to be blocked, you may want to consider moving to a network that is more open to free speech.
+Maybe inviting them to #tor on irc.oftc.net will help show them that we are not all evil people.
+
+Finally, if you become aware of an IRC network that seems to be blocking Tor, or a single Tor exit node, please put that information on [The Tor IRC block tracker](https://trac.torproject.org/projects/tor/wiki/doc/BlockingIrc) so that others can share.
+At least one IRC network consults that page to unblock exit nodes that have been blocked inadvertently.
+---
+seo_slug: tor-ban-irc
+---
+_slug: tor-ban-irc

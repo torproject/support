@@ -1,0 +1,13 @@
+_model: word
+---
+term: Onionoo
+---
+definition:
+
+[Onionoo](https://metrics.torproject.org/onionoo.html) is a web-based protocol to learn about currently running [Tor relays](../relay) and [bridges](../bridge).
+Onionoo provides the data for other applications and websites ([metrics.torproject.org](https://metrics.torproject.org/)) which in turn present Tor network status information to humans.
+
+---
+translation: 
+---
+spelling: 
