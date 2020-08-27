@@ -9,7 +9,7 @@ The site is accessible at the following locations:
 
 ## Reporting Bugs or Feedback
 
-Bugs and feedback issues can be submitted on [GitLab](https://gitlab.torproject.org/tpo/web/support/-/issues). To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance.
+Bugs and feedback issues can be submitted on [GitLab](https://gitlab.torproject.org/tpo/web/support/-/issues). To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance. The process for an account creation may require a couple of hours before another human approves it.
 
 ## What is Lektor?
 Lektor is the static site generator behind this website. Documentation can be found [here.](https://www.getlektor.com/docs/)
