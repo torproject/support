@@ -32,7 +32,7 @@ In order to verify the signature you will need to type a few commands in windows
 
 #### For macOS users:
 
-If you are using macOS, you can [install GPGTools](https://www.gpgtools.org).
+If you are using macOS, you can [install GPGTools](https://gpgtools.org).
 
 In order to verify the signature you will need to type a few commands in the Terminal (under "Applications").
 
