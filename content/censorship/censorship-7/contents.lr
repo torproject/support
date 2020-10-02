@@ -17,4 +17,4 @@ See [How do I run a bridge](https://community.torproject.org/relay/setup/bridge/
 Several countries, including China and Iran, have found ways to detect and block connections to Tor bridges.
 [Obfsproxy](https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt) bridges address this by adding another layer of obfuscation.
 Setting up an obfsproxy bridge requires an additional software package and additional configurations.
-See our page on [pluggable transports](https://www.torproject.org/docs/pluggable-transports.html.en) for more info.
+See our page on [pluggable transports](https://tb-manual.torproject.org/circumvention/) for more info.
