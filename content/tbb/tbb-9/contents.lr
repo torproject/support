@@ -4,6 +4,8 @@ title: Can I use Tor with a browser besides Tor Browser?
 ---
 seo_slug: using-tor-with-a-browser-besides-tor-browser
 ---
+key: 15
+---
 description: 
 We strongly recommend against using Tor in any browser other than Tor Browser.
 Using Tor in another browser can leave you vulnerable without the privacy protections of Tor Browser.

@@ -1,3 +1,5 @@
+_model: question
+---
 title: I want to ban the Tor network from my service.
 ---
 key: 10
@@ -30,8 +32,8 @@ When you go about banning nodes, you should parse the exit policies and only blo
 
 If you really want to do this, we provide a [Tor exit relay list](https://check.torproject.org/cgi-bin/TorBulkExitList.py) or a [DNS-based list you can query](https://2019.www.torproject.org/projects/tordnsel.html.en).
 
-(Some system administrators block ranges of IP addresses because of official policy or some abuse pattern, but some have also asked about whitelisting Tor exit relays because they want to permit access to their systems only using Tor.
-These scripts are usable for whitelisting as well.)
+(Some system administrators block ranges of IP addresses because of official policy or some abuse pattern, but some have also asked about allowing Tor exit relays because they want to permit access to their systems only using Tor.
+These scripts are usable for allowlisting as well.)
 ---
 seo_slug: i-want-to-ban-tor
 ---

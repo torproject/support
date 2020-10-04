@@ -2,4 +2,6 @@ _model: redirect
 ---
 target: /connecting/connecting-2
 ---
+key: 5
+---
 _discoverable: no

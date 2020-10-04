@@ -1,4 +1,8 @@
+_model: question
+---
 title: My internet connection requires an HTTP or SOCKS Proxy
+---
+key: 50
 ---
 description:
 

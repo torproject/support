@@ -1,4 +1,8 @@
+_model: question
+---
 title: Gmail warns me that my account may have been compromised
+---
+key: 33
 ---
 description:
 
@@ -14,6 +18,6 @@ Cookie hijacking is possible by either physical access to your computer or by wa
 In theory, only physical access should compromise your system because Gmail and similar services should only send the cookie over an SSL link.
 In practice, alas, it's [way more complex than that](https://fscked.org/blog/fully-automated-active-https-cookie-hijacking).
 
-And if somebody did steal your google cookie, they might end up logging in from unusual places (though of course they also might not). So the summary is that since you're using Tor Browser, this security measure that Google uses isn't so useful for you, because it's full of false positives. You'll have to use other approaches, like seeing if anything looks weird on the account, or looking at the timestamps for recent logins and wondering if you actually logged in at those times.
+And if somebody did steal your Google cookie, they might end up logging in from unusual places (though of course they also might not). So the summary is that since you're using Tor Browser, this security measure that Google uses isn't so useful for you, because it's full of false positives. You'll have to use other approaches, like seeing if anything looks weird on the account, or looking at the timestamps for recent logins and wondering if you actually logged in at those times.
 
 More recently, Gmail users can turn on [2-Step Verification](https://support.google.com/accounts/answer/185839) on their accounts to add an extra layer of security.

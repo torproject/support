@@ -1,5 +1,6 @@
-title: So, are these distinct users per day, average number of users connected
-over the day, or what?
+_model: question
+---
+title: So, are these distinct users per day, average number of users connected over the day, or what?
 ---
 key: 4
 ---
@@ -9,4 +10,4 @@ _slug: concurrent-users
 ---
 description:
 
-Average number of concurrent users, estimated from data collected over a day.  We can't say how many distinct users there are.
+Average number of concurrent users, estimated from data collected over a day. We can't say how many distinct users there are.

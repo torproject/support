@@ -1,3 +1,5 @@
+_model: question
+---
 title: Why I can't join Tor-dev and other channels?
 ---
 description:
@@ -42,7 +44,7 @@ Then, to complete the registration and ultimately gain access to the #tor-projec
 
 5. Click on the small sentence at the bottom of the square that says: Verify account.
 
-6. Fill out the CAPTCHA that pops up, and click ok.
+6. Fill out the Captcha that pops up, and click ok.
 
 7. A tiny message will appear: "Your NickServ account has been verified."
 

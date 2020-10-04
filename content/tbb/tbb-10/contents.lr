@@ -4,9 +4,11 @@ title: My antivirus or malware protection is blocking me from accessing Tor Brow
 ---
 seo_slug: antivirus-blocking-tor
 ---
+key: 29
+---
 description:
-Most antivirus or malware protection allows the user to "whitelist" certain processes that would otherwise be blocked.
-Please open your antivirus or malware protection software and look in the settings for a "whitelist" or something similar.
+Most antivirus or malware protection allows the user to "allowlist" certain processes that would otherwise be blocked.
+Please open your antivirus or malware protection software and look in the settings for a "allowlist" or something similar.
 Next, exclude the following processes:
 
 * For Windows

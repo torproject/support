@@ -1,3 +1,5 @@
+_model: question
+---
 title: Should I install Tor from my package manager, or build from source?
 ---
 description:

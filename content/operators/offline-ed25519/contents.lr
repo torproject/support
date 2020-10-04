@@ -1,23 +1,25 @@
+_model: question
+---
 title: How do offline ed25519 identity keys work? What do I need to know?
 ---
 description:
 
 In simple words, it works like this:
 
-* There is a master ed25519 identity secret key file named "ed25519_master_id_secret_key".
+* There is a primary ed25519 identity secret key file named "ed25519_master_id_secret_key".
   This is the most important one, so make sure you keep a backup in a secure place - the file is sensitive and should be protected.
   Tor could encrypt it for you if you generate it manually and enter a password when asked.
 * A medium term signing key named "ed25519_signing_secret_key" is generated for Tor to use.
-  Also, a certificate is generated named "ed25519_signing_cert" which is signed by the master identity secret key and confirms that the medium term signing key is valid for a certain period of time.
+  Also, a certificate is generated named "ed25519_signing_cert" which is signed by the primary identity secret key and confirms that the medium term signing key is valid for a certain period of time.
   The default validity is 30 days, but this can be customized by setting "SigningKeyLifetime N days|weeks|months" in torrc.
-* There is also a master public key named "ed25519_master_id_public_key, which is the actual identity of the relay advertised in the network.
+* There is also a primary public key named "ed25519_master_id_public_key, which is the actual identity of the relay advertised in the network.
   This one is not sensitive and can be easily computed from "ed5519_master_id_secret_key".
 
-Tor will only need access to the medium term signing key and certificate as long as they are valid, so the master identity secret key can be kept outside DataDirectory/keys, on a storage media or a different computer.
+Tor will only need access to the medium term signing key and certificate as long as they are valid, so the primary identity secret key can be kept outside DataDirectory/keys, on a storage media or a different computer.
 You'll have to manually renew the medium term signing key and certificate before they expire otherwise the Tor process on the relay will exit upon expiration.
 
 This feature is optional, you don't need to use it unless you want to.
-If you want your relay to run unattended for longer time without having to manually do the medium term signing key renewal on regular basis, best to leave the master identity secret key in DataDirectory/keys, just make a backup in case you'll need to reinstall it.
+If you want your relay to run unattended for longer time without having to manually do the medium term signing key renewal on regular basis, best to leave the primary identity secret key in DataDirectory/keys, just make a backup in case you'll need to reinstall it.
 If you want to use this feature, you can consult our more [detailed guide](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys) on the topic.
 ---
 seo_slug: offline-ed25519

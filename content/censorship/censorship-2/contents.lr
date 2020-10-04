@@ -4,6 +4,8 @@ title: A website I am trying to reach is blocking access over Tor.
 ---
 seo_slug: website-is-blocking-access-over-tor
 ---
+key: 2
+---
 description:
 
 Sometimes websites will block Tor users because they can't tell the difference between the average Tor user and automated traffic.

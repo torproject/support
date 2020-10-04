@@ -1,10 +1,5 @@
-title: How do Tor exit policies work?
+_model: redirect
 ---
-key: 4
+target: /operators/exit-policies
 ---
-description:
-[See the main FAQ](https://support.torproject.org/operators/exit-policies/)
----
-seo_slug: how-exit-policies-work
----
-_slug: how-exit-policies-work
+_discoverable: no

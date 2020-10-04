@@ -1,8 +1,10 @@
 _model: question 
 ---
-title: A website (bank, email provider, etc..) locks me out whenever I use Tor, what can I do?
+title: A website (bank, email provider, etc.) locks me out whenever I use Tor, what can I do?
 ---
 seo_slug: website-locks-torbrowser-out
+---
+key: 27
 ---
 description: 
 Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world.
