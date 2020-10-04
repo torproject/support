@@ -29,6 +29,19 @@ To enable all package managers using the libapt-pkg library to access metadata a
    deb-src https://deb.torproject.org/torproject.org <DISTRIBUTION> main
    ```
 
+Note: Ubuntu Focal dropped support for 32bit, so instead use:
+
+   ```
+   deb [arch=amd64] https://deb.torproject.org/torproject.org focal main
+   deb-src [arch=amd64] https://deb.torproject.org/torproject.org focal main
+   ```
+   
+Warning symptom, when running sudo apt update:
+
+   ```
+   Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'http://deb.torproject.org/torproject.org focal InRelease' doesn't support architecture 'i386'
+   ```
+ 
 If you want to try experimental packages:
 
    ```
