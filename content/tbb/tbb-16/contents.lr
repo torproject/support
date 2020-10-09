@@ -4,6 +4,8 @@ title: Can I pick which country I'm exiting from?
 ---
 seo_slug: pick-which-country-i-am-exiting
 ---
+key: 46
+---
 description:
 Modifying the way that Tor creates its circuits is strongly discouraged.
 You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry/exit nodes can compromise your anonymity.

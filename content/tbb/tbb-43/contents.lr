@@ -2,6 +2,8 @@ _model: question
 ---
 title: Why does Google show up in foreign languages?
 ---
+key: 36
+---
 description:
 
 Google uses "geolocation" to determine where in the world you are, so it can give you a personalized experience. This includes using the language it thinks you prefer, and it also includes giving you different results on your queries.

@@ -4,6 +4,8 @@ title: Why did my search engine switch to DuckDuckGo?
 ---
 seo_slug: why-is-tor-using-duckduckgo
 ---
+key: 40
+---
 description:
 With the release of Tor Browser 6.0.6, we switched to DuckDuckGo as the primary search engine.
 For a while now, Disconnect, which was formerly used in Tor Browser, has had no access to Google search results.

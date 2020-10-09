@@ -3,3 +3,5 @@ _model: redirect
 target: ../../censorship/censorship-2/
 ---
 _discoverable: no
+---
+key: 26

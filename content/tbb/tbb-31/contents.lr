@@ -2,6 +2,8 @@ _model: question
 ---
 title: Which platforms is Tor Browser available for?
 ---
+key: 9
+---
 description:
 Tor Browser is currently available on [Windows](https://www.torproject.org/download/), [Linux](https://www.torproject.org/download/) and [macOS](https://www.torproject.org/download/).
 
