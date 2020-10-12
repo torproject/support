@@ -1,0 +1,9 @@
+_model: question
+---
+title: Which platforms is Snowflake supported on?
+---
+seo_slug: snowflake-platforms
+---
+description: 
+Snowflake is supported on Tor Browser Alpha for macOS and GNU/Linux.
+Windows and Android are still a work in progress.
