@@ -1,0 +1,16 @@
+_model: question 
+---
+title: Should I use bridges or not?
+---
+seo_slug: should-i-use-bridge-or-not
+---
+description:
+
+Under normal circumstances, Internet Service Providers (ISPs), governments and other entities can know that you are using Tor. And since all the connections inside the Tor network are encrypted in multiple layers, this is the only information they can learn about you.
+By getting a list of Tor relays, they can then block access to the Tor network.
+
+Bridges are special Tor servers, also run by volunteers around the world, that will obfuscate your internet traffic to not look like Tor, thus making it harder to identify you as a Tor user.
+"Because bridges are not listed on Tor's public directory, it is difficult to know their IP Addresses. Even if your ISP is filtering connections to all the known Tor relays, they probably won't be able to block all the bridges. Using bridges makes it harder for a censor to block you from using the Tor network to browse freely."
+
+So If you suspect your access to the Tor network is being blocked, you may want to use bridges. The addition of bridges to Tor is a step forward in blocking resistance. It is perfectly possible that even if your ISP filters the Internet, you do not require a bridge to use Tor. So you could try to use Tor without bridges first, since it might work.
+To connect to a bridge, please see [this guide](https://tb-manual.torproject.org/bridges/). 
