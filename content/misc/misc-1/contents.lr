@@ -6,4 +6,4 @@ seo_slug: tracing-tor-user
 ---
 description: 
 There is nothing the Tor developers can do to trace Tor users.
-The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users.
+The same protections that keep bad people from breaking Tor's anonymity also prevent us from tracking users. You can try to understand better at https://support.torproject.org/abuse/help-trace-tor-user/.
