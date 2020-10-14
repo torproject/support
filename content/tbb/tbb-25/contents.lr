@@ -1,9 +1,16 @@
 _model: question 
 ---
-title: I'm having a problem with NoScript.
+title: What is NoScript? I'm having a problem with NoScript.
 ---
 seo_slug: problem-noscript
 ---
 description: 
+NoScript is web browser extension or add-on for Mozilla-based web browsers & Google Chrome. 
+NoScript blocks active or executable web content like JavaScript from running on sites you visit by default. NoScript provides protection against [Cross-site scripting (XSS)](/glossary/#cross-site-scripting-xss), [Cross-site request forgery (CSRF)](/glossary/#cross-site-request-forgery-csrf), [clickjacking](/glossary/#clickjacking), [man-in-the-middle (MiTM)](/glossary/#man-in-the-middle-mitm-attack) attacks, and [DNS rebinding](/glossary/#dns-rebinding).
+
+You can enable or disable NoScript by clicking on the security shield icon at the top right corner of the browser next to the URL bar, then click the 'Advanced Security Settings...' button in the shield menu. In the new page, ensure that "Standard" is selected as the security level if you want to disable NoScript or set to "Safer" or "Safest" if you want NoScript enabled.
+Because JavaScript is an attack vector against the Tor Browser, it is recommended to use the 'Safer' option and most websites will work normally.	
+The changes incurred by modifying the Secuirity Level affect all open tabs and are kept even after quitting the browser.
+
 Please see the [NoScript FAQ](https://noscript.net/faq).
-If you believe this is a Tor Browser issue, please report it on our [bug tracker](https://trac.torproject.org/).
+If you believe this is a Tor Browser issue, please [give us feedback](https://support.torproject.org/misc/bug-or-feedback/)
