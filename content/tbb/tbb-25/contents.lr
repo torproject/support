@@ -12,5 +12,5 @@ You can enable or disable NoScript by clicking on the security shield icon at th
 Because JavaScript is an attack vector against the Tor Browser, it is recommended to use the 'Safer' option and most websites will work normally.	
 The changes incurred by modifying the Secuirity Level affect all open tabs and are kept even after quitting the browser.
 
-Please see the [NoScript FAQ](https://noscript.net/faq).
+If you are having a problem with NoScript, please see the [NoScript FAQ](https://noscript.net/faq).
 If you believe this is a Tor Browser issue, please [give us feedback](https://support.torproject.org/misc/bug-or-feedback/)
