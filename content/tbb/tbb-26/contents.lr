@@ -1,9 +1,11 @@
 _model: question
 ---
-title: I'm having a problem with HTTPS Everywhere.
+title: What is HTTPS Everywhere? I'm having a problem with HTTPS Everywhere.
 ---
 seo_slug: problem-with-https-everywhere
 ---
 description:
+HTTPS Everywhere is a web browser extension. It fetches web pages using the secure (encrypted) HTTPS protocol rather than the non-secure HTTP, loading the HTTPS version of the website you are trying to visit. HTTPS Everywhere protects you  against online threats such as surveillance, account hijacking, and some forms of censorship. HTTPS Everywhere comes as a built-in add-on in Tor browser.
+
 Please see the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq).
-If you believe this is a Tor Browser issue, please report it on our [issue tracker](https://gitlab.torproject.org/groups/tpo/-/issues).
+If you believe this is a Tor Browser issue, please please [give us feedback](https://support.torproject.org/misc/bug-or-feedback/).
