@@ -21,8 +21,8 @@ There are several ways to reach us, so please use what works best for you.
 #### GitLab
 
 First, check if the bug is already known.
-You can search and read all the issues at [https://gitlab.torproject.org/](https://gitlab.torproject.org/groups/tpo/-/issues).
-To create a new issue, please [request a new account](https://gitlab.torproject.org/users/sign_in?redirect_to_referer=yes#register-pane) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue.
+You can search and read all the issues at [https://gitlab.torproject.org/](https://gitlab.torproject.org/groups/tpo/-/issues) or search by keywords or filters related.
+To create a new issue, please [request a new account](https://gitlab.torproject.org/users/sign_in?redirect_to_referer=yes#register-pane) to access Tor Project's GitLab instance. To do this, you need to fill out a small form on the login page to request your access. Then, [find the right repository](https://gitlab.torproject.org/tpo) to report your issue.  If you get stuck knowing which project your feedback is related to, create the issue [here](https://gitlab.torproject.org/groups/tpo/-/issues) and describe it with details and links so we can track it faster or feel free to ask on our [OFTC servers](/get-in-touch/irc-help).
 We track all Tor Browser related issues at [Tor Browser issue tracker](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues).
 Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
 
