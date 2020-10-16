@@ -1,9 +1,0 @@
-_model: question
----
-title: what-is-snowflake
----
-seo_slug: How-can-I-use-Snowflake-with-Tor-Browser
----
-description:
-Snowflake is a system used to defeat internet censorship, so people who are censored can use it to access the internet.
-Snowflake is used to help users in censored countries connect to the Tor network. You can turn your browser into a proxy that connects Tor users in censored regions to the Tor network by enabling this extension.
