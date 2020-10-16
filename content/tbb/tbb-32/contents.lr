@@ -4,6 +4,8 @@ title: Can I set Tor Browser as my default browser?
 ---
 seo_slug: setting-tor-browser-as-default
 ---
+key: 14
+---
 description: 
 There are methods for setting Tor Browser as your default browser, but those methods may not work always or in every operating system.
 The Tor Browser works hard to isolate itself from the rest of your system, and the steps for making it the default browser are unreliable.

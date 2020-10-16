@@ -4,6 +4,8 @@ title: I'm supposed to "edit my torrc". What does that mean?
 ---
 seo-slug: edit-torrc
 ---
+key: 47
+---
 description:
 WARNING: Do NOT follow random advice instructing you to edit your `torrc`!
 Doing so can allow an attacker to compromise your security and anonymity through malicious configuration of your `torrc`.

@@ -4,6 +4,8 @@ title: Can I download Tor Browser for Chrome OS?
 ---
 seo_slug: download-tor-browser-chromeos
 ---
+key: 10
+---
 description: 
 Unfortunately, we don't yet have a version of Tor Browser for Chrome OS. 
 You could run [Tor Browser for Android](https://www.torproject.org/download/#android) on Chrome OS. Note that by using Tor Mobile on Chrome OS, you will view the mobile (not desktop) versions of websites.

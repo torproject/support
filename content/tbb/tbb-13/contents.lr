@@ -4,6 +4,8 @@ title: Does using Tor Browser protect other applications on my computer?
 ---
 seo_slug: tor-browser-protecting-other-apps
 ---
+key: 18
+---
 description: 
 Only Tor Browser's traffic will be routed over the Tor network.
 Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected.

@@ -4,6 +4,8 @@ title: I’m having trouble using features on Facebook, Twitter, or some other w
 ---
 seo_slug: tor-browser-issues-facebook-twitter-websites
 ---
+key: 28
+---
 description:
 Sometimes JavaScript-heavy websites can have functional issues over Tor Browser.
 The simplest fix is to click on the Security icon (the small gray shield at the top-right of the screen), then click "Advanced Security Settings..."

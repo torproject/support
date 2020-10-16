@@ -4,6 +4,8 @@ title: Why is Tor Browser built from Firefox and not some other browser?
 ---
 seo_slug: tor-browser-is-built-from-firefox-why
 ---
+key: 21
+---
 description:
 Tor Browser is a modified version of Firefox specifically designed for use with Tor.
 A lot of work has been put into making the Tor Browser, including the use of extra patches to enhance privacy and security.
