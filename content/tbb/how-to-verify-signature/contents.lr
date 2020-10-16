@@ -62,10 +62,11 @@ This should show you something like:
 
 If you get an error message, something has gone wrong and you cannot continue until you've figured out why this didn't work. You might be able to import the key using the **Workaround (using a public key)** section instead.
 
-After importing the key, you can save it to a file (identifying it by fingerprint here):
+After importing the key, you can save it to a file (identifying it by its fingerprint here):
 
     gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
+This command results in the key being saved to a file found at the path `./tor.keyring`, i.e. in the current directory. 
 If `./tor.keyring` doesn't exist after running this command, something has gone wrong and you cannot continue until you've figured out why this didn't work.
 
 ### Verifying the signature
