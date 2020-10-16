@@ -1,0 +1,10 @@
+_model: question
+---
+title: What happens if an ISP blocks some Tor dir auths?
+---
+seo_slug: ISP-blocks-Tor-dir-auths
+---
+description:
+Tor clients stopped needing to contact them directly and can instead get directory information for the first time from a hardcoded list of [fallback directory mirrors(https://trac.torproject.org/projects/tor/wiki/doc/FallbackDirectoryMirrors), basically just very stable relays.
+
+If those are blocked too, then you have to use a [bridge](https://tb-manual.torproject.org/bridges/) to connect to tor. a bridge is basically just an unlisted relay. You obtain a bridge from [https://bridges.torproject.org](https://bridges.torproject.org), bundled with Tor Browser, or from a friend.
