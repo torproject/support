@@ -1,13 +1,13 @@
 _model: word
 ---
-term: CAPTCHA
+term: Captcha
 ---
 definition:
 
-CAPTCHAs are a challenge-response test used in computing to determine whether the user is human or not.
-[Tor](../tor-tor-network-core-tor) users are often served CAPTCHAS because Tor [relays](../relay) make so many requests that sometimes websites have a hard time determining whether or not those requests are coming from humans or bots.
+Captchas are a challenge-response test used in computing to determine whether the user is human or not.
+[Tor](../tor-tor-network-core-tor) users are often served Captchas because Tor [relays](../relay) make so many requests that sometimes websites have a hard time determining whether or not those requests are coming from humans or bots.
 
 ---
 translation:
 ---
-spelling: Always in capital letters: CAPTCHA
+spelling: Only capitalize first letter, as Captcha is now considered a noun
