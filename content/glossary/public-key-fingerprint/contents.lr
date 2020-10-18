@@ -1,0 +1,12 @@
+_model: word
+---
+term: public key fingerprint
+---
+definition:
+
+In [public key cryptography](../public-key-cryptography), a public key fingerprint is a sequence of bytes that is used to identify and authenticate a corresponding longer [public key](../public-key).
+
+---
+translation: 
+---
+spelling: 
