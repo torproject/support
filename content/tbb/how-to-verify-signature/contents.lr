@@ -25,7 +25,7 @@ As long as you have verified the signature you should not worry that the reporte
 
 ### Installing GnuPG
 
-First of all you need to have GnuPG installed before you can verify signatures.
+First of all you need to have GnuPG installed before you can verify signatures for the desktop version of Tor Browser.
 
 #### For Windows users:
 
@@ -106,3 +106,50 @@ If you encounter errors you cannot fix, feel free to [download and use this publ
 
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
+
+### Verification for Android users
+
+There are a number of different methods that Android users can use to verify the signature.
+
+Note: these instructions will only work if you have downloaded the .apk directly from [Tor Project's download page](https://www.torproject.org/download/#android), rather than installing from the Google Play Store or F-Droid. 
+
+In the following instructions involving the command line, the name of the .apk file may be different depending on the version, and should be altered accordingly.
+
+#### Using Checkey
+
+On your mobile device, install the app Checkey, which can be found on the [Google Play Store](https://play.google.com/store/apps/details?id=info.guardianproject.checkey&utm_source=theafternoonrush.com) or [F-Droid](https://f-droid.org/en/packages/info.guardianproject.checkey). 
+
+Scroll down the list of available applications and select "Tor Browser". 
+Tap on the information icon at the top of the screen in order to view the signing certificate.
+Then, you can manually compare the SHAs displayed by Checkey to the ones available via the Tor Browser's latest [Android distribution](https://dist.torproject.org/torbrowser/10.0a8/sha256sums-signed-build.txt).
+
+#### Using jarsigner
+
+Install [jarsigner](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/jarsigner.html), which can be accessed as part of [Java SE](https://www.oracle.com/au/java/technologies/javase-downloads.html).
+
+Using your terminal or command line, navigate to the folder in which the .apk file is contained and input the following: 
+
+    jarsigner -verify -verbose -certs tor-browser-10.0a8-android-aarch64-multi.apk
+
+If the output is `jar verified.`, this means that the signature has been successfully verified. 
+
+#### Using apksigner
+
+Install [apksigner](https://developer.android.com/studio/command-line/apksigner), which can be accessed as part of [Android Studio](https://developer.android.com/studio).
+
+Using your terminal or command line, navigate to the folder in which the .apk file is contained and input the following:
+
+    apksigner verify --verbose --print-certs tor-browser-10.0a8-android-aarch64-multi.apk
+
+The first part of the output should be something like:
+
+    Verifies
+    Verified using v1 scheme (JAR signing): true
+    Verified using v2 scheme (APK Signature Scheme v2): true
+    Verified using v3 scheme (APK Signature Scheme v3): true
+    Verified using v4 scheme (APK Signature Scheme v4): false
+    Verified for SourceStamp: false
+    Number of signers: 1
+    Signer #1 certificate DN: CN=Tor Browser, OU=Applications Team, O=The Tor Project, L=Seattle, ST=WA, C=US
+
+The most important part is the first line, which should display `Verifies` if the signature has been verified.
