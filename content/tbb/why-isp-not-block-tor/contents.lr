@@ -1,0 +1,18 @@
+_model: question
+---
+title: Why doesn't the ISP just block Tor?
+---
+seo_slug: why-isp-not-block-tor
+---
+description:
+### Does my ISP know if I'm using Tor?
+Your Internet Service Provider (ISP), may be able to see that you're using Tor, but they won't know where you're going when you do.
+You can prevent your ISP from knowing this by using a [bridge](https://tb-manual.torproject.org/bridges/). 
+
+### Can Tor be blocked?
+Yes, some governments or network admistrators may be able to block Tor. They can get the list of publiic Tor relays and block them.
+
+### If an entity bans you from using Tor, what can you do to continue using?
+You can bypass this by using [bridges](https://tb-manual.torproject.org/bridges/). 
+If this doesn't work, you may use [circumvention tools](https://tb-manual.torproject.org/circumvention/) such as pluggable transports. 
+This masks your Tor traffic as regular traffic to get around the block.
