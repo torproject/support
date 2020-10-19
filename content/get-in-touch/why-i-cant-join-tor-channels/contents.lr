@@ -75,3 +75,12 @@ You will be allowed into the channel. If so, Congratulations!
 However, if you get stuck, you can ask for help in the #tor channel.
 
 You can toggle back and forth between channels by clicking on the different channel names at the top left of the IRC window.
+
+If you wish to come back after logging out, you just need to go to the [OFCT](https://webchat.oftc.net/?channels=tor-project) main page and insert your nickname. 
+
+You will probably be in "Status" tab and see the log: "#tor-project Cannot join channel (*Need to be identified and verified to join this channel, '/msg NickServ help' to learn how to register and verify.*)". 
+
+If you already had verified your IRC account with the tips above, just type `/IDENTIFY yourpassword`. You should see the message: "-NickServ- You are successfully identified as **YourNickName**."
+
+To join the desired channel, type `/join #tor-project`.
+
