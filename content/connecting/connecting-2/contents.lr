@@ -14,7 +14,7 @@ At the bottom of the page, next to the "View the Tor logs" text, click the butto
 
 You should see one of these common log errors (look for the following lines in your Tor log):
 
-##### Common log error #1: Proxy connection failure
+#### Common log error #1: Proxy connection failure
 
     2017-10-29 09:23:40.800 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     2017-10-29 09:23:47.900 [NOTICE] Bootstrapped 5%: Connecting to directory server
@@ -25,7 +25,7 @@ If you see lines like these in your Tor log, it means you are failing to connect
 If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
 If a SOCKS proxy is not required, or you’re not sure, please try connecting to the Tor network without a SOCKS proxy.
 
-##### Common log error #2: Can’t reach guard relays
+#### Common log error #2: Can’t reach guard relays
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network
@@ -38,7 +38,7 @@ This could mean that you’re on a network that’s censored.
 
 Please try connecting with bridges, and that should fix the problem.
 
-##### Common log error #3: Failed to complete TLS handshake
+#### Common log error #3: Failed to complete TLS handshake
 
     13-11-17 19:52:24.300 [NOTICE] Bootstrapped 10%: Finishing handshake with directory server 
     13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn; host [host] at xxx.xxx.xxx.xx:xxx) 
@@ -49,7 +49,7 @@ Please try connecting with bridges, and that should fix the problem.
 If you see lines like this in your Tor log, it means that Tor failed to complete a TLS handshake with the directory authorities.
 Using bridges will likely fix this.
 
-##### Common log error #4: Clock skew
+#### Common log error #4: Clock skew
 
     19.11.2017 00:04:47.400 [NOTICE] Opening Socks listener on 127.0.0.1:9150 
     19.11.2017 00:04:48.000 [NOTICE] Bootstrapped 5%: Connecting to directory server 

@@ -4,5 +4,7 @@ title: Can I run multiple instances of Tor Browser?
 ---
 seo_slug: run-multible-instances-of-tor-browser
 ---
+key: 19
+---
 description: 
 We do not recommend running multiple instances of Tor Browser, and doing so may not work as anticipated on many platforms.

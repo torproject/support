@@ -1,9 +1,11 @@
 _model: question
 ---
-title: Can you get rid of all the CAPTCHAs?
+title: Can you get rid of all the Captchas?
 ---
 seo_slug: get-rid-of-captchas
 ---
+key: 35
+---
 description:
-Unfortunately, some websites deliver CAPTCHAs to Tor users, and we are not able to remove CAPTCHAs from websites.
-The best thing to do in these cases is to contact the website owners, and inform them that their CAPTCHAs are preventing users such as yourself from using their services.
+Unfortunately, some websites deliver Captchas to Tor users, and we are not able to remove Captchas from websites.
+The best thing to do in these cases is to contact the website owners, and inform them that their Captchas are preventing users such as yourself from using their services.

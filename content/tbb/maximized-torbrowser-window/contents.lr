@@ -4,6 +4,8 @@ title: What are grey bars on resized Tor Browser window?
 ---
 seo_slug: maximized-tor-browser-window
 ---
+key: 24
+---
 description:
 
 Tor Browser in its default mode is starting with a content window rounded to a multiple of 200px x 100px to prevent fingerprinting the screen dimensions.

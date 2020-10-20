@@ -4,12 +4,14 @@ title: Is there a way to change the IP address that Tor Browser assigns me for a
 ---
 seo_slug: change-ip-address
 ---
+key: 42
+---
 description:
 Tor Browser has two ways to change your relay circuit — "New Identity" and "New Tor Circuit for this Site".
 Both options are located in the [hamburger menu ("≡")](../../glossary/hamburger-menu).
 You can also access the New Circuit option inside the site information menu in the URL bar, and the New Identity option by clicking the small sparky broom icon at the top-right of the screen
 
-##### New Identity
+#### New Identity
 
 This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
 
@@ -19,7 +21,7 @@ Tor Browser will warn you that all activity and downloads will be stopped, so ta
 
 ![Tor Browser Menu](/static/images/menu-new-identity.png)
 
-##### New Tor Circuit for this Site
+#### New Tor Circuit for this Site
 
 This option is useful if the exit relay you are using is unable to connect to the website you require, or is not loading it properly.
 Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit.

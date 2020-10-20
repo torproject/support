@@ -4,6 +4,8 @@ title: Why is the first IP address in my relay circuit always the same?
 ---
 seo_slug: first-address-relay-circuit
 ---
+key: 44
+---
 description: 
 That is normal Tor behavior.
 The first relay in your circuit is called an "entry guard" or "guard".

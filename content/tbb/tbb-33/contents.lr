@@ -4,6 +4,8 @@ title: Does running Tor Browser make me a relay?
 ---
 seo_slug: running-tor-browser-make-me-relay
 ---
+key: 43
+---
 description: 
 Running Tor Browser does not make you act as a relay in the network.
 This means that your computer will not be used to route traffic for others.

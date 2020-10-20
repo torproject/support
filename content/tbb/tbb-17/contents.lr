@@ -4,6 +4,8 @@ title: Is it safe to run Tor Browser and another browser at the same time?
 ---
 seo_slug: run-tor-browser-and-different-browser
 ---
+key: 17
+---
 description: 
 If you run Tor Browser and another browser at the same time, it won't affect Tor's performance or privacy properties.
 However, be aware that your other browser is not keeping your activity private, and you may forget and accidentally use that non-private browser to do something that you intended to do in Tor Browser.
