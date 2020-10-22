@@ -16,7 +16,7 @@ The Tor Project maintains its own [RPM package repository](https://rpm.torprojec
 
 Here's how you can enable Tor Package Repository for both CentOS and RHEL and Fedora:
 
-#### 1. Enable epel repository (only for CentOS and RHEL)
+### 1. Enable epel repository (only for CentOS and RHEL)
 
     # dnf install epel-release -y
 
