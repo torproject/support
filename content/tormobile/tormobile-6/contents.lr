@@ -5,6 +5,7 @@ title: Do I need both Tor Browser for Android and Orbot, or only one?
 seo_slug: tor-browser-for-android-and-orbot
 ---
 description:
+
 While both Tor Browser for Android and Orbot are great, they serve different purposes.
 Tor Browser for Android is like the desktop Tor Browser, but on your mobile device. It is a one stop browser that uses the Tor network and tries to be as anonymous as possible.
 Orbot on the other hand is a proxy that will enable you to send the data from your other applications (E-Mail clients, instant messaging apps, etc.) through the tor network; a version of Orbot is also inside of the Tor Browser for Android, and is what enables it to connect to the Tor network.
