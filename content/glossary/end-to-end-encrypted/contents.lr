@@ -4,9 +4,9 @@ term: end-to-end encrypted
 ---
 definition:
 
-Transmitted data which is [encrypted](../encryption) from origin to destination is called end-to-end encrypted.
+Transmitted data which is [encrypted](../encryption) directly from origin to destination (to exclude third party management) is called end-to-end encryption. End-to-End Encryption (E2EE) relies on an exchange of public keys (used to encrypt). A separate complimentary private key decrypts data/messages for reading by intended party only (end-to-end-encrypted).
 
 ---
 translation: 
----
+--
 spelling: 
