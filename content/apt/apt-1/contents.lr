@@ -25,21 +25,21 @@ To enable all package managers using the libapt-pkg library to access metadata a
 #### 2. Add the following entries to `/etc/apt/sources.list` or a new file in `/etc/apt/sources.list.d/` 
 
    ```
-   deb https://deb.torproject.org/torproject.org <DISTRIBUTION> main
+   deb     https://deb.torproject.org/torproject.org <DISTRIBUTION> main
    deb-src https://deb.torproject.org/torproject.org <DISTRIBUTION> main
    ```
 
-If you want to try experimental packages:
+If you want to try experimental packages, add these **in addition** to the lines from above (Note, use whatever is the current experimental version instead of 0.4.5.x from the example below):
 
    ```
-   deb https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-<DISTRIBUTION> main
-   deb-src https://deb.torproject.org/torproject.org tor-experimental-0.3.4.x-<DISTRIBUTION> main
+   deb     https://deb.torproject.org/torproject.org tor-experimental-0.4.5.x-<DISTRIBUTION> main
+   deb-src https://deb.torproject.org/torproject.org tor-experimental-0.4.5.x-<DISTRIBUTION> main
    ```
 
 Or nightly builds:
 
    ```
-   deb https://deb.torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main
+   deb     https://deb.torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main
    deb-src https://deb.torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main
    ```
 
@@ -48,7 +48,7 @@ Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -
 **Note:** Ubuntu Focal dropped support for 32-bit, so instead use:
 
    ```
-   deb [arch=amd64] https://deb.torproject.org/torproject.org focal main
+   deb     [arch=amd64] https://deb.torproject.org/torproject.org focal main
    deb-src [arch=amd64] https://deb.torproject.org/torproject.org focal main
    ```
    
