@@ -1,0 +1,11 @@
+_model: question
+---
+title: How many people use Tor? How many relays or exit nodes are there?
+---
+seo_slug: number-of-tor-users-number-of-exit nodes
+---
+description: 
+### Number of Tor users
+We estimate the number of users by analyzing the requests induced by clients to relays and bridges.The Oxford Internet Institute made a cartogram visualization of Tor users as compared to the overall Internet population. According to their [findings](http://geography.oii.ox.ac.uk/the-anonymous-internet/) Tor is used world-wide by over 750,000 Internet users every day. 
+### Number of exit nodes
+The number of exit nodes can be found from the [network bubble graphs in the "exits only" category](https://metrics.torproject.org/bubbles.html#no-group-exits-only). They use a value derived from a relay's consensus weight that resembles the probability of selecting that relay as exit node. Currently the number of relays used as exit nodes is 1384 out of which 1293 are visible.
