@@ -10,6 +10,7 @@ When sending us feedback or reporting a bug, please include as many of these as 
 
  * Operating System you are using
  * Tor Browser version
+ * Tor Browser Security Level
  * Step by step of how you got to the issue, so we can reproduce it (e.g. I opened the browser, typed a url, clicked on (i) icon, then my browser crashed)
  * A screenshot of the problem
  * The log
