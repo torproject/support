@@ -5,4 +5,4 @@ title: How do I run Tor on Windows Phone?
 seo_slug: run-tor-on-windows-phone
 ---
 description: 
-There is currently no supported method for running Tor on Windows Phone.
+There is currently no supported method for running Tor on older Windows Phones but in case of the newer Microsoft-branded/promoted phones, same steps as in [Tor Browser for Android](https://tb-manual.torproject.org/mobile-tor/#tor-browser-for-android) can be followed.
