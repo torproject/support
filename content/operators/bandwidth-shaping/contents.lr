@@ -17,7 +17,7 @@ Otherwise, you could drop many packets during periods of maximum bandwidth usage
 Then set BandwidthBurst to the same as BandwidthRate.
 
 Linux-based Tor nodes have another option at their disposal: they can prioritize Tor traffic below other traffic on their machine, so that their own personal traffic is not impacted by Tor load.
-A [script to do this](https://gitweb.torproject.org/tor.git/tree/contrib/operator-tools/linux-tor-prio.sh) can be found in the Tor source distribution's contrib directory.
+A [script to do this](https://gitweb.torproject.org/tor.git/plain/contrib/operator-tools/linux-tor-prio.sh?h=maint-0.3.5) can be found in the Tor source distribution's contrib directory.
 
 Additionally, there are hibernation options where you can tell Tor to only serve a certain amount of bandwidth per time period (such as 100 GB per month). These are covered in the hibernation entry below.
 
