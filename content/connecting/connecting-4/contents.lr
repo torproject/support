@@ -13,4 +13,4 @@ If you did this, revert the change.
 * You should also check the port that you are connecting with. Try a different port from the one currently in use, such as 9050 or 9150.
 * When all else fails, reinstall the browser. This time, make sure to install Tor Browser in a new directory, not over a previously installed browser.
 
-If the error persists, please report it on our [bug tracker](https://trac.torproject.org/)
+If the error persists, please [get in touch](https://support.torproject.org/misc/bug-or-feedback/) with us.
