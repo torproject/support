@@ -4,9 +4,13 @@ title: How can I use Snowflake?
 ---
 seo_slug: how-can-i-use-snowflake
 ---
+key: 9
+---
 description:
-If your internet access is censored, you should download [Tor Browser Alpha](https://www.torproject.org/download/alpha/) available for Windows, macOS, GNU/Linux and Android. You can also use Snowflake with [OnionBrowser](https://apps.apple.com/us/app/onion-browser/id519296448) on iOS.
+If your internet access is censored, you should download [Tor Browser Alpha](https://www.torproject.org/download/alpha/) available for Windows, macOS, GNU/Linux and Android.
+You can also use Snowflake with [OnionBrowser](https://apps.apple.com/us/app/onion-browser/id519296448) on iOS.
 
-If you're running Tor Browser Alpha for desktop for the first time, you can click on 'Configure' on the start-up screen and then select 'Tor is censored in my country'. Click on 'Select a built-in bridge' and choose 'snowflake' from the dropdown menu. 
-From within the browser you can click on the [hamburger menu](https://support.torproject.org/glossary/hamburger-menu/) then go to 'Preferences' and go to 'Tor'. Alternatively, you can also type `about:preferences#tor` in the url bar. Check 'Use a Bridge' and 'Use a built-in bridge'. Then select 'snowflake' from the dropdown menu.
-
+If you're running Tor Browser Alpha for desktop for the first time, you can click on 'Configure' on the start-up screen and then select 'Tor is censored in my country'.
+Click on 'Select a built-in bridge' and choose 'snowflake' from the dropdown menu. 
+From within the browser you can click on the [hamburger menu](https://support.torproject.org/glossary/hamburger-menu/) then go to 'Preferences' and go to 'Tor'.
+Alternatively, you can also type `about:preferences#tor` in the url bar. Check 'Use a Bridge' and 'Use a built-in bridge'. Then select 'snowflake' from the dropdown menu.
