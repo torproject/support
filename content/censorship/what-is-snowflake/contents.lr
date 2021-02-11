@@ -11,7 +11,7 @@ Snowflake is a [pluggable transport](https://tb-manual.torproject.org/circumvent
 Like a Tor bridge, a user can access the open internet when even regular Tor connections are censored.
 To use Snowflake is as easy as to switch to a new bridge configuration in Tor Browser.
 
-This system is composed of three components: volunteers running Snowflake proxies, Tor users that want to connect to the internet, and a broker, that deliveries snowflakes proxies to users.
+This system is composed of three components: volunteers running Snowflake proxies, Tor users that want to connect to the internet, and a broker, that delivers snowflake proxies to users.
 
 Volunteers willing to help users on censored networks can help by spinning short-lived proxies on their regular browsers. Check, [how can I use Snowflake?](/censorship/how-can-i-use-snowflake/)
 
