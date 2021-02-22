@@ -72,12 +72,6 @@ Or download the key directly into `/etc/apt/trusted.gpg.d` using Wget:
    sudo wget https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc -O /etc/apt/trusted.gpg.d/torproject.asc
    ```
    
-Or receive the key from a keyserver using gpg, then export the key into `/etc/apt/trusted.gpg.d` directory:
-
-   ```
-   gpg --keyserver=hkp://keys.gnupg.net --receive-keys 74A941BA219EC810
-   gpg --export 74A941BA219EC810 | sudo tee /etc/apt/trusted.gpg.d/torproject.gpg > /dev/null
-   ```
 
 #### 4. Install tor and tor debian keyring
 
