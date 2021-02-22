@@ -58,13 +58,33 @@ Warning symptom, when running sudo apt update:
    Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'http://deb.torproject.org/torproject.org focal InRelease' doesn't support architecture 'i386'
    ```
  
-#### 3. Then add the gpg key used to sign the packages by running the following commands at your command prompt
+#### 3. Then import the gpg key used to sign the packages
+
+   You can download the key directly into `/etc/apt/trusted.gpg.d` either 
+   
+   using **cURL**
+   ```
+   sudo curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc -o /etc/apt/trusted.gpg.d/torproject.asc
+   ``` 
+   OR using **Wget**
+   
+   ```
+   sudo wget https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc -O /etc/apt/trusted.gpg.d/torproject.asc
 
    ```
-   # wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --import
-   # gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
+   You can also receive the key from a keyserver using gpg, then export the key into `/etc/apt/trusted.gpg.d` directory:
+   ```
+   gpg --keyserver=hkp://keys.gnupg.net --receive-keys 74A941BA219EC810
+   gpg --export 74A941BA219EC810 | sudo tee /etc/apt/trusted.gpg.d/torproject.gpg > /dev/null
+
+   ```
+   If you want to avoid ASCII-armored files, go ahead and dearmor it using:
+   ```
+   curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor > /etc/apt/trusted.gpg.d
    ```
 
+   
+   
 #### 4. Install tor and tor debian keyring
 
 We provide a Debian package to help you keep our signing key current. It is recommended you use it. Install it with the following commands:
