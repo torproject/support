@@ -104,5 +104,7 @@ If you encounter errors you cannot fix, feel free to [download and use this publ
 
     curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
 
+Tor Browser Developers key is also available on [keys.openpgp.org](https://keys.openpgp.org/) and can be downloaded from [https://keys.openpgp.org/search?q=torbrowser@torproject.org](https://keys.openpgp.org/search?q=torbrowser@torproject.org). If you're using MacOS or GNU/Linux, the key can also be fetched by running the following command:  
+   `$ gpg --keyserver keys.openpgp.org --search-keys torbrowser@torproject.org`
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
