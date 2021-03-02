@@ -5,7 +5,7 @@ title: Can I browse normal HTTPS sites with Tor?
 seo_slug: browse-normal-https-sites
 ---
 description:
-The short answer is: **Yes, you can browse normal HTTPS Sites using Tor.**
+The short answer is: **Yes, you can browse normal HTTPS sites using Tor.**
 
 HTTPS Connections are used to secure communications over computer networks.
 You can [read more about HTTPS here](https://tb-manual.torproject.org/secure-connections/).
