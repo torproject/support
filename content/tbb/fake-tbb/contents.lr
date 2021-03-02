@@ -1,0 +1,16 @@
+_model: question
+---
+title: Are there any paid versions of Tor Browser?
+---
+seo_slug: fake-tor-browser
+---
+key: 8
+---
+description:
+No, Tor Browser is an open source software and it is free.
+Any browser forcing you to pay and is claiming to be Tor Browser is fake.
+To make sure you are downloading the right Tor Browser visit our [download page](https://www.torproject.org/download/).
+After downloading, you can make sure that you have the official version of Tor Browser by [verifying the signature](https://support.torproject.org/tbb/how-to-verify-signature/).
+If you are not able to access our website, then visit [censorship section](https://support.torproject.org/censorship/censorship-3/) to get information about alternate way of downloading Tor Browser.
+
+You can report fake Tor Browsers on frontdesk@torproject.org
