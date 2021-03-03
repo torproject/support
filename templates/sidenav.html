@@ -4,7 +4,7 @@
 	{{ _('Topics') }}
     </a>
     <label class="side-toggler" for="menu-toggle">
-      <a class="btn btn-lg outline-primary text-primary navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
       	<i class="fas"></i>
       </a>
     </label>
@@ -46,5 +46,19 @@
 
       {% endfor %}
     </ul>
+
+
+    <div class="card-body text-center border w-50 ml-4">
+        <h4 class="text-primary">{{ _("Get in Touch") }}</h4>
+        <i class="fas fa-comments h1 text-primary mx-auto"></i>
+        <div class=" pt-2" style="text-align: center;">
+          <p class="toc-entry toc-h2 nav-item mb-0" >{{ ("Chat with us live!") }}</p>
+          <a href="https://webchat.oftc.net/?channels=tor" target="_blank" class="pt-1">{{ ("Join us on IRC") }}</a>
+        </div>
+    </div>
+
   </nav>
+
+
+
 </div>

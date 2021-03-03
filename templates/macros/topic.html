@@ -12,9 +12,9 @@
       {% for q in item.children.include_undiscoverable(true).order_by('key') %}
         {% if q._model == 'redirect' %}
           {% set r = site.get(q.target, alt=alternative) %}
-          {{ render_question(r, item._id, alternative) }}
+          {{ render_question(r, q._id, item._id, alternative) }}
         {% else %}
-          {{ render_question(q, item._id, alternative) }}
+          {{ render_question(q, q._id, item._id, alternative) }}
         {% endif %}
       {% endfor %}
     </div>
