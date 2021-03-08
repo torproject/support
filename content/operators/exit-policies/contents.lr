@@ -13,7 +13,7 @@ Read the [Support entry on issues you might encounter](https://support.torprojec
 
 The default exit policy allows access to many popular services (e.g. web browsing), but restricts some due to abuse potential (e.g. mail) and some since the Tor network can't handle the load (e.g. default file-sharing ports).
 You can change your exit policy by editing your torrc file.
-If you want to avoid most if not all abuse potential, set it to "reject *:*".
+If you want to avoid most if not all abuse potential, set it to "reject &#42;:&#42;".
 This setting means that your relay will be used for relaying traffic inside the Tor network, but not for connections to external websites or other services.
 
 If you do allow any exit connections, make sure name resolution works (that is, your computer can resolve Internet addresses correctly).
