@@ -13,5 +13,5 @@ These services use the special-use top level domain (TLD) .onion (instead of .co
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of an onion displaying the state of your connection: secure and using an onion service.
 
+![1](https://user-images.githubusercontent.com/66127574/113152525-a7c96f00-924f-11eb-8716-4ed5328cc41b.png)
 
-![31 1](https://user-images.githubusercontent.com/66127574/113146393-0c350000-9249-11eb-95cf-ff85361608e4.png)
