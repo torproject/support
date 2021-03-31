@@ -17,9 +17,11 @@ This option is useful if you want to prevent your subsequent browser activity fr
 
 Selecting it will close all your tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections.
 
-Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
+Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity". 
 
-![Tor Browser Menu](/static/images/menu-new-identity.png)
+
+![31](https://user-images.githubusercontent.com/66127574/113162582-dbf55d80-9258-11eb-87f6-92fa18bef7a0.png)
+
 
 #### New Tor Circuit for this Site
 
@@ -30,5 +32,7 @@ Other open tabs and windows from the same website will use the new circuit as we
 
 This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
 
-![31](https://user-images.githubusercontent.com/66127574/113147586-566ab100-924a-11eb-8010-6f3f7126d9ac.png)
+
+![31 2](https://user-images.githubusercontent.com/66127574/113162628-e57ec580-9258-11eb-9057-e22591aff5de.png)
+
 
