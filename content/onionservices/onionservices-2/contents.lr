@@ -11,6 +11,9 @@ Onion services are also relied on for metadata-free chat and file sharing, safer
 
 These services use the special-use top level domain (TLD) .onion (instead of .com, .net, .org, etc.) and are only accessible through the Tor network.
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of an onion displaying the state of your connection: secure and using an onion service.
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of an onion displaying the state of your connection: secure and using an onion service. Learn more about [accessing an onion service](https://tb-manual.torproject.org/onion-services/).
 
 ![Onion icon](/static/images/onion-website.png)
+
+
+Find out more about [setting up your onion service](https://community.torproject.org/onion-services/setup/). 
