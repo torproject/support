@@ -1,5 +1,18 @@
+
+
 # Tor Project Support
 This repository contains the code for the portal dedicated to answering FAQs and providing information necessary for safe and optimal usage of Tor.
+
+## Table of Contents
+
+1. [Tor Project Support](# Tor Project Support)
+1. [Goal](#Goal)
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [Documentation](#documentation)
+1. [Commands](#commands)
+1. [Contributing](#contributing)
+1. [License](#license)
 
 The site is accessible at the following locations:
 - https://support.torproject.org/
