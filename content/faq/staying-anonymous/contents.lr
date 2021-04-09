@@ -45,7 +45,7 @@ Similarly, we do not recommend [installing additional addons or plugins](/tbb/tb
 
 ### Use HTTPS versions of websites
 
-Tor will encrypt your traffic to and within the Tor network, but the encryption of your traffic to the final destination website depends upon on that website.
+Tor will encrypt your traffic to and within the Tor network, but the encryption of your traffic to the final destination website depends on that website.
 To help ensure private encryption to websites, Tor Browser includes [HTTPS Everywhere](https://www.eff.org/https-everywhere) to force the use of HTTPS encryption with major websites that support it.
 However, you should still watch the browser URL bar to ensure that websites you provide sensitive information to display a [padlock](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure) or [onion icon](/onionservices/onionservices-5) in the address bar, include **https://** in the URL, and display the proper expected name for the website.
 Also see EFF's interactive graphic explaining [how Tor and HTTPS relate](/https/https-1).
