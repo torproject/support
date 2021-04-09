@@ -42,3 +42,5 @@ The bookmarks HTML file you saved is now ready to be imported into another web b
 **Import data from another browser**
 > Bookmarks can be transferred from Firefox to Tor Browser. There are two ways to export and import bookmarks in Firefox: [HTML file](https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer) or JSON file.
 After exporting the data from the browser, follow the above step to import the bookmark file into your Tor Browser.
+
+**Note:** Currently, on [Tor Browser for Android](https://www.torproject.org/download/#android), there is no good way to export and import bookmarks. [Bug #31617](https://bugs.torproject.org/tpo/applications/tor-browser/31617)
