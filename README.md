@@ -5,7 +5,7 @@ This repository contains the code for the portal dedicated to answering FAQs and
 
 ## Table of Contents
 
-1. [Tor Project Support](#Tor-Project-Support)
+1. [Introduction](#Tor-Project-Support)
 1. [Important Notes](#Notes)
 1. [Installation](#installation)
 1. [Reporting Bugs and Submitting Feedback](##Reporting-Bugs-or-Feedback)
