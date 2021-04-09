@@ -6,7 +6,7 @@ This repository contains the code for the portal dedicated to answering FAQs and
 ## Table of Contents
 
 1. [Introduction](#Tor-Project-Support)
-1. [Important Notes](#Notes)
+1. [Important Notes](##Notes)
 1. [Installation](#installation)
 1. [Reporting Bugs and Submitting Feedback](##Reporting-Bugs-or-Feedback)
 1. [Usage](##What-is-Lektor?)
@@ -16,7 +16,7 @@ This repository contains the code for the portal dedicated to answering FAQs and
 1. [License](##license)
 
 
-# Notes
+## Notes
 
 The site is accessible at the following locations:
 - https://support.torproject.org/
