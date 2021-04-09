@@ -3,6 +3,8 @@
 # Tor Project Support
 This repository contains the code for the portal dedicated to answering FAQs and providing information necessary for safe and optimal usage of Tor.
 
+---
+
 ## Table of Contents
 
 1. [Introduction](#Tor-Project-Support)
@@ -15,6 +17,7 @@ This repository contains the code for the portal dedicated to answering FAQs and
 1. [Contributing](##contributing)
 1. [License](##license)
 
+---
 
 ## Notes
 
@@ -46,7 +49,15 @@ https://github.com/numericube/lektor-i18n-plugin
 - [Developing on the site](https://gitlab.torproject.org/web/tpo/wikis/How-to-develop-on-the-website)
 - [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/torproject/web/tpo/wikis/Writing-the-content)
 
-## License 
+---
+
+## License
+
+&copy; Tor Project Support., 2021
+
+Distributed under MIT License (`The MIT License`).
+
+See [LICENSE](LICENSE) for more information.
 
 
 
