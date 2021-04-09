@@ -9,7 +9,7 @@ This repository contains the code for the portal dedicated to answering FAQs and
 1. [Important Notes](#Notes)
 1. [Installation](#installation)
 1. [Reporting Bugs and Submitting Feedback](##Reporting-Bugs-or-Feedback)
-1. [Usage](## What-is-Lektor?)
+1. [Usage](##What-is-Lektor?)
 1. [Commands](#commands)
 1. [Translations](##Translations)
 1. [Contributing](##contributing)
