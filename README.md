@@ -46,4 +46,8 @@ https://github.com/numericube/lektor-i18n-plugin
 - [Developing on the site](https://gitlab.torproject.org/web/tpo/wikis/How-to-develop-on-the-website)
 - [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/torproject/web/tpo/wikis/Writing-the-content)
 
+## License 
+
+
+
 
