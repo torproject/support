@@ -34,6 +34,10 @@ Bugs and feedback issues can be submitted on [GitLab](https://gitlab.torproject.
 ## What is Lektor?
 Lektor is the static site generator behind this website. Documentation can be found [here.](https://www.getlektor.com/docs/)
 
+### Lektor as **CMS**
+
+Lektor takes from content management systems like WordPress and provides a flexible browser-based admin interface from which you can edit your website's contents. Unlike traditional CMS solutions, however, it runs entirely on your own computer.
+
 ## Translations
 
 To translate the Support Portal, please join the Tor Project team in Transifex. Learn how you can [become a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/).
