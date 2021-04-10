@@ -51,13 +51,6 @@ https://github.com/numericube/lektor-i18n-plugin
 
 ---
 
-## License
-
-&copy; Tor Project Support., 2021
-
-Distributed under MIT License (`The MIT License`).
-
-See [LICENSE](LICENSE) for more information.
 
 
 
