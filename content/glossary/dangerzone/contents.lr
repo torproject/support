@@ -1,0 +1,14 @@
+_model: word
+---
+term: dangerzone
+---
+definition:
+
+Dangerzone is used to convert any document (even pdf) to pdf, when the document is potentially dangerous or from an untrustworthy source. 
+This is done by converting the pdf to raw pixel data and then back to pdf.
+Dangerzone should be used if you want to convert documents downloaded through Tor, to pdf. 
+To download dangerzone, check out this [link.](https://github.com/firstlookmedia/dangerzone) 
+---
+translation: 
+---
+spelling: 
