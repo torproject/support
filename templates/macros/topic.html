@@ -7,7 +7,7 @@
     <a href="{{ t.path }}" role="button"></a>
   </h3>
   <div id="{{ t.control }}" role="tabpanel" data-parent="#topics" class="anchor-spacer">
-    <div id="{{ t.control }}Accordion" data-children=".question">
+    <div data-children=".question">
       <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ item.title }}</h5>
       {% for q in item.children.include_undiscoverable(true).order_by('key') %}
         {% if q._model == 'redirect' %}
