@@ -9,7 +9,16 @@
 <link rel="icon" type="image/x-icon" href="{{ '/static/images/favicon.ico'|asseturl }}">
 <!-- Recommended favicon format -->
 <link rel="icon" type="image/png" href="{{ '/static/images/favicon.png'|asseturl }}">
-
+<script>
+  function change(event) {
+    let btn = event.currentTarget;
+    if (btn.innerHTML == "expand") {
+      btn.innerHTML = "collapse";
+    } else {
+      btn.innerHTML = "expand";
+    }
+  }
+</script>
 
 <title>{% block title %}{{ this.title }} {{ this.term }} {% endblock %} | {{ _("Tor Project | Support") }}</title>
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
@@ -32,7 +41,7 @@
         {% include 'sidenav.html' %}
         {% set locale = bag('alternatives', this.alt) %}
         <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9  {{ locale.order }} {{ locale.direction }}">
-          {% block body %}{% endblock %}
+        <button class="btn btn-primary float-right" data-toggle="collapse" data-target=".expand" aria-expanded="false" onclick="change(event)">expand</button>        {% block body %}{% endblock %}
         </main>
       </div>
     </div>
