@@ -14,6 +14,18 @@ Here's how you can enable Tor Package Repository in Debian based distributions:
 
 > **Note:** The symbol # refers to running the code as root. This means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
 
+#### Prerequisite: Verify the CPU architecture
+
+The package repository offers `amd64`, `arm64`, and `i386` binaries. Verify your operating system is capable of running the binary by inspecting the output of the following commend:
+
+  ```
+  # dpkg --print-architecture
+  ```
+
+It should output either `amd64`, `arm64`, or `i386`. The repository does not support other CPU architectures.
+
+> **Note on Raspbian:** The package repository does not offer 32-bit ARM architecture (`armhf`) images. You should either [build Tor from source](https://community.torproject.org/onion-services/setup/install/#installing-tor-from-source), or install the version Debian offers.
+
 #### 1. Install `apt-transport-https`
 
 To enable all package managers using the libapt-pkg library to access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure). 
