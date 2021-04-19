@@ -8,6 +8,6 @@ key:2
 ---
 description:
 Send an email to gettor@torproject.org.
-Write your operating system (such as Windows, macOS, or Linux) in the body of the message and send.
+Write the name of your operating system (such as Windows, macOS, or Linux) in the body of the mail and send.
 GetTor will respond with an email containing links from which you can download Tor Browser, the cryptographic signature (needed for [verifying the download](/tbb/how-to-verify-signature/)), the fingerprint of the key used to make the signature, and the package’s checksum.
 You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using; consult documentation about your computer to find out more.
