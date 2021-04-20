@@ -1,0 +1,15 @@
+_model: word
+---
+term: SOCKS5
+---
+definition:
+
+It is an internet protocol used by VPN/Tor. 
+It sends the traffic through Tor instead throught the IP address into the open network.
+It is a general purpose [proxy](../proxy) that sits at the layer 5 of the OSI model and uses tunneling method.
+The applications that you run on it will be aware of the tunneling but it can prevent identity correlation if set up correctly.
+
+---
+translation: 
+---
+spelling: 
