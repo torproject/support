@@ -6,7 +6,7 @@ seo_slug: tor-proxy-server-refusing-connection
 ---
 description: 
 Proxy server errors can occur for a variety of reasons. 
-You may try one or more of the following activities, in case you encounter this error:
+You may try one or more of the following activities in case you encounter this error:
 * If you have an antivirus, it may be interfering with the Tor service. Disable the antivirus and restart the browser.
 * You should not have moved the Tor Browser folder from its original location to a different location. 
 If you did this, revert the change. 
