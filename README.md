@@ -1,9 +1,29 @@
+
+
 # Tor Project Support
 This repository contains the code for the portal dedicated to answering FAQs and providing information necessary for safe and optimal usage of Tor.
 
+---
+
+## Table of Contents
+
+1. [Introduction](#Tor-Project-Support)
+1. [Important Notes](##Notes)
+1. [Installation](#installation)
+1. [Reporting Bugs and Submitting Feedback](##Reporting-Bugs-or-Feedback)
+1. [Usage](##What-is-Lektor?)
+1. [Commands](#commands)
+1. [Translations](##Translations)
+1. [Contributing](##contributing)
+1. [License](##license)
+
+---
+
+## Notes
+
 The site is accessible at the following locations:
-- https://support.torproject.org/
-- http://4bflp2c4tnynnbes.onion/
+- [Tor support & Help](https://support.torproject.org/)
+- (https://4bflp2c4tnynnbes.onion/)
 
 **This is not a direct support helpdesk** and questions should not be submitted through this site. Head over to ```#tor``` on [OFTC IRC](https://webchat.oftc.net/?channels=tor) instead.
 
@@ -14,10 +34,9 @@ Bugs and feedback issues can be submitted on [GitLab](https://gitlab.torproject.
 ## What is Lektor?
 Lektor is the static site generator behind this website. Documentation can be found [here.](https://www.getlektor.com/docs/)
 
-## Contributing
-- [Compile a local version of the site](https://gitlab.torproject.org/web/tpo/wikis/Compiling-a-local-version-of-the-website) (clone the correct repository).
-- [Developing on the site](https://gitlab.torproject.org/web/tpo/wikis/How-to-develop-on-the-website)
-- [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/torproject/web/tpo/wikis/Writing-the-content)
+### Lektor as **CMS**
+
+Lektor takes from content management systems like WordPress and provides a flexible browser-based admin interface from which you can edit your website's contents. Unlike traditional CMS solutions, however, it runs entirely on your own computer.
 
 ## Translations
 
@@ -28,3 +47,15 @@ The translation statistics for this website can be seen at https://torpat.ch/sup
 
 Translations are managed with the i18n plugin:
 https://github.com/numericube/lektor-i18n-plugin
+
+## Contributing
+- [Compile a local version of the site](https://gitlab.torproject.org/web/tpo/wikis/Compiling-a-local-version-of-the-website) (clone the correct repository).
+- [Developing on the site](https://gitlab.torproject.org/web/tpo/wikis/How-to-develop-on-the-website)
+- [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/torproject/web/tpo/wikis/Writing-the-content)
+
+---
+
+
+
+
+
