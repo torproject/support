@@ -4,7 +4,7 @@ title: A website I am trying to reach is blocking access over Tor.
 ---
 seo_slug: website-is-blocking-access-over-tor
 ---
-key: 2
+key: 26
 ---
 description:
 
@@ -20,3 +20,4 @@ Please take a strong stance in favor of digital privacy and internet freedom, an
 In the case of banks, and other sensitive websites, it is also common to see geography-based blocking (if a bank knows you generally access their services from one country, and suddenly you are connecting from an exit relay on the other side of the world, your account may be locked or suspended).
 
 If you are unable to connect to an onion service, please see [I cannot reach X.onion!](../../onionservices/onionservices-3).
+
