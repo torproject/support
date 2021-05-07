@@ -1,0 +1,11 @@
+_model: question
+---
+title: How can I help Tor network grow?
+---
+key: 8
+---
+description:
+We need more dedicated people like you to run relays and help grow Tor. 
+
+The Tor network relies on volunteers to donate bandwidth. The more people who run relays, the better the Tor network will be.
+However, running relays requires some technical skill and commitment. For detalied resources see [Relay Operations](https://community.torproject.org/relay/).
