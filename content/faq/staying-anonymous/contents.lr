@@ -8,7 +8,7 @@ description:
 Generally it is impossible to have perfect anonymity, even with Tor.
 Though there are some things you can practice to improve your anonymity while using Tor and offline.
 
-### Use Tor Browser and software specifically configured for Tor.
+### Use Tor Browser and software specifically configured for Tor
 
 Tor does not protect all of your computer's Internet traffic when you run it.
 Tor only protects applications that are properly configured to send their Internet traffic through Tor.
@@ -24,7 +24,7 @@ File sharing:
   - Unsafe: [BitTorrent over Tor](/misc/misc-4)
 
 
-### Control what information you provide through web forms.
+### Control what information you provide through web forms
 
 If you visit a website using Tor Browser, they don't know who you are or your true location.
 Unfortunately many sites ask for more personal information than they need through web forms.
