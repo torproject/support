@@ -7,7 +7,7 @@ seo_slug: apt-over-tor
 _slug: apt-over-tor
 ---
 description:
-Yes, `deb.torproject.org` is also served through via an Onion Service: http://sdscoq7snqtznauu.onion/
+Yes, `deb.torproject.org` is also served through via an Onion Service: http://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/
 
 > **Note:** The symbol # refers to running the code as root. This means you should have access to a user account with system administration privileges, e.g your user should be in the sudo group.
 
@@ -21,10 +21,10 @@ Then you need to add the following entries to `/etc/apt/sources.list` or a new f
 
    ```
    # For the stable version.
-   deb tor://sdscoq7snqtznauu.onion/torproject.org <DISTRIBUTION> main
+   deb tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/torproject.org <DISTRIBUTION> main
 
    # For the unstable version.
-   deb tor://sdscoq7snqtznauu.onion/torproject.org tor-nightly-master-<DISTRIBUTION> main
+   deb tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/torproject.org tor-nightly-master-<DISTRIBUTION> main
    ```
 
 Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to check the Operating System version.

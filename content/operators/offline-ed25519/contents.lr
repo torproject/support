@@ -12,7 +12,7 @@ In simple words, it works like this:
 * A medium term signing key named "ed25519_signing_secret_key" is generated for Tor to use.
   Also, a certificate is generated named "ed25519_signing_cert" which is signed by the primary identity secret key and confirms that the medium term signing key is valid for a certain period of time.
   The default validity is 30 days, but this can be customized by setting "SigningKeyLifetime N days|weeks|months" in torrc.
-* There is also a primary public key named "ed25519_master_id_public_key, which is the actual identity of the relay advertised in the network.
+* There is also a primary public key named "ed25519_master_id_public_key", which is the actual identity of the relay advertised in the network.
   This one is not sensitive and can be easily computed from "ed5519_master_id_secret_key".
 
 Tor will only need access to the medium term signing key and certificate as long as they are valid, so the primary identity secret key can be kept outside DataDirectory/keys, on a storage media or a different computer.

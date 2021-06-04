@@ -1,0 +1,72 @@
+_model: question
+---
+title: My relay is slow, how can I fix it?
+---
+seo_slug: why-is-my-relay-slow
+---
+description:
+### Why Relay Load Varies
+Tor manages bandwidth across the entire network. It does a reasonable job for most relays.
+But Tor's goals are different to protocols like BitTorrent.
+Tor wants low-latency web pages, which requires fast connections with headroom.
+BitTorrent wants bulk downloads, which requires using all the bandwidth.
+
+We're working on a [new bandwidth scanner](https://sbws.readthedocs.io/), which is easier to understand and maintain.
+It will have diagnostics for relays that don't get measured, and relays that have low measurements.
+
+### Why does Tor need bandwidth scanners?
+Most providers tell you the maximum speed of your local connection.
+But Tor has users all over the world, and our users connect to one or two Guard relays at random.
+So we need to know how well each relay can connect to the entire world.
+
+So even if all relay operators set their advertised bandwidth to their local
+connection speed, we would still need bandwidth authorities to balance the load
+between different parts of the Internet.
+
+### What is a normal relay load?
+It's normal for most relays to be loaded at 30%-80% of their capacity.
+This is good for clients: an overloaded relay has high latency.
+(We want enough relays to so that each relay is loaded at 10%. Then Tor would be almost as fast as the wider Internet).
+
+Sometimes, a relay is slow because its processor is slow or its connections are limited.
+Other times, it is the network that is slow: the relay has bad peering to most other tor relays, or is a long distance away.
+
+### Finding Out what is Limiting a Relay
+Lots of things can slow down a relay. Here's how to track them down.
+
+#### System Limits
+* Check RAM, CPU, and socket/file descriptor usage on your relay
+
+Tor logs some of these when it starts. Others can be viewed using top or similar tools.
+
+#### Provider Limits
+* Check the Internet peering (bandwidth, latency) from your relay's provider to other relays.
+Relays transiting via Comcast have been slow at times.
+Relays outside North America and Western Europe are usually slower.
+
+#### Tor Network Limits
+Relay bandwidth can be limited by a relay's own observed bandwidth, or by the directory authorities' measured bandwidth.
+Here's how to find out which measurement is limiting your relay:
+* Check each of the votes for your relay on [consensus-health (large page)](https://consensus-health.torproject.org/consensus-health.html), and check the median.
+If your relay is not marked Running by some directory authorities:
+ * Does it have the wrong IPv4 or IPv6 address?
+ * Is its IPv4 or IPv6 address unreachable from some networks?
+ * Are there more than 2 relays on its IPv4 address?
+
+Otherwise, check your relay's observed bandwidth and bandwidth rate (limit).
+Look up your relay on [Metrics](https://metrics.torproject.org/rs.html#search/).
+Then mouse over the bandwidth heading to see the observed bandwidth and relay bandwidth rate.
+
+Here is some more detail and some examples: [Drop in consensus weight](https://lists.torproject.org/pipermail/tor-relays/2016-November/010913.html) and [Rampup speed of Exit relay](https://lists.torproject.org/pipermail/tor-relays/2016-October/010784.html).
+#### How to fix it
+The smallest of these figures is limiting the bandwidth allocated to the relay.
+* If it's the bandwidth rate, increase the BandwidthRate/Burst or RelayBandwidthRate/Burst in your torrc.
+* If it's the observed bandwidth, your relay won't ask for more bandwidth until it sees itself getting faster.
+You need to work out why it is slow.
+* If it's the median measured bandwidth, your relay looks slow from a majority of bandwidth authorities.
+You need to work out why they measure it slow.
+
+### Doing Your Own Relay Measurements
+If your relay thinks it is slow, or the bandwidth authorities think it is slow, you can test the bandwidth yourself:
+* [Run a test using tor](https://lists.torproject.org/pipermail/tor-relays/2016-September/010173.html) to see how fast tor can get on your network/CPU.
+* Run a test using tor and [chutney](https://gitweb.torproject.org/chutney.git/tree/README.md#n105) to find out how fast tor can get on your CPU. Keep increasing the data volume until the bandwidth stops increasing.
