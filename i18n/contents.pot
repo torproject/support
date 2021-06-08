@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-18 17:55+CET\n"
+"POT-Creation-Date: 2021-06-08 20:18+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -11,81 +11,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: (dynamic)
-msgid ""
-"Defend yourself against tracking and surveillance. Circumvent censorship."
+#: https://support.torproject.org/ (content/contents+en.lr:showcase.title)
+msgid "How can we help?"
 msgstr ""
 
-#: (dynamic)
-msgid "Tor Project | Support"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Donate"
-msgstr ""
-
-#: (dynamic)
-msgid "Donate Now"
-msgstr ""
-
-#: (dynamic)
-msgid "Menu"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "About"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Documentation"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Support"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Community"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Blog"
-msgstr ""
-
-#: (dynamic)
-msgid "Download Tor Browser"
-msgstr ""
-
-#: (dynamic)
-msgid "Search"
-msgstr ""
-
-#: (dynamic)
-msgid "Topics"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/faq/
-#: (content/faq/contents+en.lr:topic.title)
+#: https://support.torproject.org/faq/ (content/faq/contents+en.lr:topic.title)
 #: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
 msgid "Most Frequently Asked Questions"
 msgstr ""
 
-#: (dynamic) https://support.torproject.org/about/
+#: https://support.torproject.org/about/
 #: (content/about/contents+en.lr:topic.title)
 #: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
 msgid "About Tor"
 msgstr ""
 
-#: (dynamic) https://support.torproject.org/tbb/
-#: (content/tbb/contents+en.lr:topic.title)
+#: https://support.torproject.org/tbb/ (content/tbb/contents+en.lr:topic.title)
 #: https://support.torproject.org/glossary/tor-browser/
 #: (content/glossary/tor-browser/contents+en.lr:word.term)
 #: https://support.torproject.org/misc/menu/
@@ -93,101 +36,7 @@ msgstr ""
 msgid "Tor Browser"
 msgstr ""
 
-#: (dynamic) https://support.torproject.org/tormobile/
-#: (content/tormobile/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Tor Mobile"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/gettor/
-#: (content/gettor/contents+en.lr:topic.title)
-#: https://support.torproject.org/glossary/gettor/
-#: (content/glossary/gettor/contents+en.lr:word.term)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "GetTor"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/connecting/
-#: (content/connecting/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Connecting To Tor"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/censorship/
-#: (content/censorship/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Censorship"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/https/
-#: (content/https/contents+en.lr:topic.title)
-#: https://support.torproject.org/glossary/https/
-#: (content/glossary/https/contents+en.lr:word.term)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "HTTPS"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/operators/
-#: (content/operators/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Operators"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/onionservices/
-#: (content/onionservices/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Onion Services"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/metrics/
-#: (content/metrics/contents+en.lr:topic.title)
-#: https://support.torproject.org/glossary/metrics/
-#: (content/glossary/metrics/contents+en.lr:word.term)
-msgid "Tor Metrics"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/apt/
-#: (content/apt/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Debian Repository"
-msgstr ""
-
-#: (dynamic)
-msgid "RPM Repository"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/
-#: (content/misc/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Misc"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Abuse FAQs"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/get-in-touch/
-#: (content/get-in-touch/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Get in Touch"
-msgstr ""
-
-#: (dynamic)
-msgid "Glossary"
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/tormessenger/
+#: https://support.torproject.org/tormessenger/
 #: (content/tormessenger/contents+en.lr:topic.title)
 #: https://support.torproject.org/glossary/tor-messenger/
 #: (content/glossary/tor-messenger/contents+en.lr:word.term)
@@ -196,159 +45,77 @@ msgstr ""
 msgid "Tor Messenger"
 msgstr ""
 
-#: (dynamic)
-msgid "Contributors to this page:"
-msgstr ""
-
-#: (dynamic)
-msgid "Edit this page"
-msgstr ""
-
-#: (dynamic)
-msgid "Suggest Feedback"
-msgstr ""
-
-#: (dynamic)
-msgid "Permalink"
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"The following visualization shows what information is visible to "
-"eavesdroppers with and without Tor Browser and HTTPS encryption:"
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"Click the “Tor” button to see what data is visible to observers when you're "
-"using Tor. The button will turn green to indicate that Tor is on."
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"Click the “HTTPS” button to see what data is visible to observers when "
-"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"When both buttons are green, you see the data that is visible to observers "
-"when you are using both tools."
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"When both buttons are grey, you see the data that is visible to observers "
-"when you don't use either tool."
-msgstr ""
-
-#: (dynamic)
-msgid "Tor"
-msgstr ""
-
-#: (dynamic)
-msgid "POTENTIALLY VISIBLE DATA"
-msgstr ""
-
-#: (dynamic)
-msgid "Site.com"
-msgstr ""
-
-#: (dynamic)
-msgid "The site being visited."
-msgstr ""
-
-#: (dynamic)
-msgid "user / pw"
-msgstr ""
-
-#: (dynamic)
-msgid "Username and password used for authentication."
-msgstr ""
-
-#: (dynamic)
-msgid "data"
-msgstr ""
-
-#: (dynamic)
-msgid "Data being transmitted."
-msgstr ""
-
-#: (dynamic)
-msgid "location"
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"Network location of the computer used to visit the website (the public IP "
-"address)."
-msgstr ""
-
-#: (dynamic)
-msgid "Whether or not Tor is being used."
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"Download Tor Browser to experience real private browsing without tracking, "
-"surveillance, or censorship."
-msgstr ""
-
-#: (dynamic)
-msgid "Our mission:"
-msgstr ""
-
-#: (dynamic)
-msgid ""
-"To advance human rights and freedoms by creating and deploying free and open "
-"source anonymity and privacy technologies, supporting their unrestricted "
-"availability and use, and furthering their scientific and popular "
-"understanding."
-msgstr ""
-
-#: (dynamic) https://support.torproject.org/misc/menu/
+#: https://support.torproject.org/tormobile/
+#: (content/tormobile/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
-msgid "Jobs"
+msgid "Tor Mobile"
 msgstr ""
 
-#: (dynamic) https://support.torproject.org/misc/menu/
+#: https://support.torproject.org/gettor/
+#: (content/gettor/contents+en.lr:topic.title)
+#: https://support.torproject.org/glossary/gettor/
+#: (content/glossary/gettor/contents+en.lr:word.term)
+#: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
-msgid "Contact"
+msgid "GetTor"
 msgstr ""
 
-#: (dynamic) https://support.torproject.org/misc/menu/
+#: https://support.torproject.org/connecting/
+#: (content/connecting/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
-msgid "Press"
+msgid "Connecting To Tor"
 msgstr ""
 
-#: (dynamic)
-msgid "Subscribe to our Newsletter"
+#: https://support.torproject.org/censorship/
+#: (content/censorship/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Censorship"
 msgstr ""
 
-#: (dynamic)
-msgid "Get monthly updates and opportunities from the Tor Project:"
+#: https://support.torproject.org/https/
+#: (content/https/contents+en.lr:topic.title)
+#: https://support.torproject.org/glossary/https/
+#: (content/glossary/https/contents+en.lr:word.term)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "HTTPS"
 msgstr ""
 
-#: (dynamic)
-msgid "Sign up"
+#: https://support.torproject.org/operators/
+#: (content/operators/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Operators"
 msgstr ""
 
-#: (dynamic)
-msgid ""
-"Trademark, copyright notices, and rules for use by third parties can be "
-"found in our %(link_to_faq)s"
+#: https://support.torproject.org/onionservices/
+#: (content/onionservices/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Onion Services"
 msgstr ""
 
-#: https://support.torproject.org/ (content/contents+en.lr:showcase.title)
-msgid "How can we help?"
+#: https://support.torproject.org/misc/
+#: (content/misc/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Misc"
 msgstr ""
 
-#: (dynamic)
-msgid "Contributors to item page:"
+#: https://support.torproject.org/get-in-touch/
+#: (content/get-in-touch/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Get in Touch"
 msgstr ""
 
-#: (dynamic)
-msgid "Edit item page"
+#: https://support.torproject.org/apt/ (content/apt/contents+en.lr:topic.title)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Debian Repository"
 msgstr ""
 
 #: https://support.torproject.org/rpm/ (content/rpm/contents+en.lr:topic.title)
@@ -358,6 +125,13 @@ msgstr ""
 #: https://support.torproject.org/abuse/
 #: (content/abuse/contents+en.lr:topic.title)
 msgid "Abuse FAQ"
+msgstr ""
+
+#: https://support.torproject.org/metrics/
+#: (content/metrics/contents+en.lr:topic.title)
+#: https://support.torproject.org/glossary/metrics/
+#: (content/glossary/metrics/contents+en.lr:word.term)
+msgid "Tor Metrics"
 msgstr ""
 
 #: https://support.torproject.org/glossary/add-on-extension-or-plugin/
@@ -4573,7 +4347,7 @@ msgstr ""
 #: (content/tbb/tbb-37/contents+en.lr:question.description)
 msgid ""
 "We want everyone to be able to enjoy Tor Browser in their own language. Tor "
-"Browser is now [available in 35 different languages](https://www.torproject."
+"Browser is now [available in 36 different languages](https://www.torproject."
 "org/download/languages/), and we are working to add more. Want to help us "
 "translate? [Become a Tor translator!](https://community.torproject.org/"
 "localization/becoming-tor-translator/)"
@@ -7003,7 +6777,7 @@ msgstr ""
 #: https://support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
-"* There is also a primary public key named \"ed25519_master_id_public_key, "
+"* There is also a primary public key named \"ed25519_master_id_public_key\", "
 "which is the actual identity of the relay advertised in the network."
 msgstr ""
 
@@ -7642,6 +7416,325 @@ msgid ""
 "tor/wiki/TorRelayGuide/Security) for more suggestions."
 msgstr ""
 
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.title)
+msgid "My relay is slow, how can I fix it?"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "### Why Relay Load Varies"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Tor manages bandwidth across the entire network. It does a reasonable job "
+"for most relays."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "But Tor's goals are different to protocols like BitTorrent."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Tor wants low-latency web pages, which requires fast connections with "
+"headroom."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"BitTorrent wants bulk downloads, which requires using all the bandwidth."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"We're working on a [new bandwidth scanner](https://sbws.readthedocs.io/), "
+"which is easier to understand and maintain."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"It will have diagnostics for relays that don't get measured, and relays that "
+"have low measurements."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "### Why does Tor need bandwidth scanners?"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "Most providers tell you the maximum speed of your local connection."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"But Tor has users all over the world, and our users connect to one or two "
+"Guard relays at random."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "So we need to know how well each relay can connect to the entire world."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"So even if all relay operators set their advertised bandwidth to their local"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"connection speed, we would still need bandwidth authorities to balance the "
+"load"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "between different parts of the Internet."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "### What is a normal relay load?"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "It's normal for most relays to be loaded at 30%-80% of their capacity."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "This is good for clients: an overloaded relay has high latency."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"(We want enough relays to so that each relay is loaded at 10%. Then Tor "
+"would be almost as fast as the wider Internet)."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Sometimes, a relay is slow because its processor is slow or its connections "
+"are limited."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Other times, it is the network that is slow: the relay has bad peering to "
+"most other tor relays, or is a long distance away."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "### Finding Out what is Limiting a Relay"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "Lots of things can slow down a relay. Here's how to track them down."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "#### System Limits"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "* Check RAM, CPU, and socket/file descriptor usage on your relay"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Tor logs some of these when it starts. Others can be viewed using top or "
+"similar tools."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "#### Provider Limits"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"* Check the Internet peering (bandwidth, latency) from your relay's provider "
+"to other relays."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "Relays transiting via Comcast have been slow at times."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "Relays outside North America and Western Europe are usually slower."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "#### Tor Network Limits"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Relay bandwidth can be limited by a relay's own observed bandwidth, or by "
+"the directory authorities' measured bandwidth."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "Here's how to find out which measurement is limiting your relay:"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"* Check each of the votes for your relay on [consensus-health (large page)]"
+"(https://consensus-health.torproject.org/consensus-health.html), and check "
+"the median."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "If your relay is not marked Running by some directory authorities:"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "* Does it have the wrong IPv4 or IPv6 address?"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "* Is its IPv4 or IPv6 address unreachable from some networks?"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "* Are there more than 2 relays on its IPv4 address?"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Otherwise, check your relay's observed bandwidth and bandwidth rate (limit)."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Look up your relay on [Metrics](https://metrics.torproject.org/rs."
+"html#search/)."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Then mouse over the bandwidth heading to see the observed bandwidth and "
+"relay bandwidth rate."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"Here is some more detail and some examples: [Drop in consensus weight]"
+"(https://lists.torproject.org/pipermail/tor-relays/2016-November/010913."
+"html) and [Rampup speed of Exit relay](https://lists.torproject.org/"
+"pipermail/tor-relays/2016-October/010784.html)."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "#### How to fix it"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"The smallest of these figures is limiting the bandwidth allocated to the "
+"relay."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"* If it's the bandwidth rate, increase the BandwidthRate/Burst or "
+"RelayBandwidthRate/Burst in your torrc."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"* If it's the observed bandwidth, your relay won't ask for more bandwidth "
+"until it sees itself getting faster."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "You need to work out why it is slow."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"* If it's the median measured bandwidth, your relay looks slow from a "
+"majority of bandwidth authorities."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "You need to work out why they measure it slow."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid "### Doing Your Own Relay Measurements"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"If your relay thinks it is slow, or the bandwidth authorities think it is "
+"slow, you can test the bandwidth yourself:"
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"* [Run a test using tor](https://lists.torproject.org/pipermail/tor-"
+"relays/2016-September/010173.html) to see how fast tor can get on your "
+"network/CPU."
+msgstr ""
+
+#: https://support.torproject.org/operators/why-is-my-relay-slow/
+#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+msgid ""
+"* Run a test using tor and [chutney](https://gitweb.torproject.org/chutney."
+"git/tree/README.md#n105) to find out how fast tor can get on your CPU. Keep "
+"increasing the data volume until the bandwidth stops increasing."
+msgstr ""
+
 #: https://support.torproject.org/operators/why-isnt-my-relay-being-used-more/
 #: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.title)
 msgid "Why isn't my relay being used more?"
@@ -7998,6 +8091,18 @@ msgstr ""
 msgid "- The Onion Service is served with a mixed form over an insecure URL"
 msgstr ""
 
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.title)
+msgid "V2 Onion Services Deprecation"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"Please read [Onion Service version 2 deprecation timeline](https://blog."
+"torproject.org/v2-deprecation-timeline) for more information."
+msgstr ""
+
 #: https://support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lr:question.title)
 msgid "How to Report a Bug or Give Feedback"
@@ -8294,7 +8399,57 @@ msgstr ""
 
 #: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
+msgid "About"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Documentation"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Press"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Jobs"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Blog"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
 msgid "Newsletter"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Contact"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Donate"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Support"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Community"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Abuse FAQs"
 msgstr ""
 
 #: https://support.torproject.org/misc/misc-1/
@@ -9049,20 +9204,20 @@ msgstr ""
 msgid ""
 "If you want to try experimental packages, add these **in addition** to the "
 "lines from above (Note, use whatever is the current experimental version "
-"instead of 0.4.5.x from the example below):"
+"instead of 0.4.6.x from the example below):"
 msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
 #: (content/apt/apt-1/contents+en.lr:question.description)
 msgid ""
-"deb     https://deb.torproject.org/torproject.org tor-experimental-0.4.5.x-"
+"deb     https://deb.torproject.org/torproject.org tor-experimental-0.4.6.x-"
 "<DISTRIBUTION> main"
 msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
 #: (content/apt/apt-1/contents+en.lr:question.description)
 msgid ""
-"deb-src https://deb.torproject.org/torproject.org tor-experimental-0.4.5.x-"
+"deb-src https://deb.torproject.org/torproject.org tor-experimental-0.4.6.x-"
 "<DISTRIBUTION> main"
 msgstr ""
 
@@ -9199,7 +9354,7 @@ msgstr ""
 #: (content/apt/apt-3/contents+en.lr:question.description)
 msgid ""
 "Yes, `deb.torproject.org` is also served through via an Onion Service: "
-"http://sdscoq7snqtznauu.onion/"
+"http://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/"
 msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
@@ -9226,7 +9381,9 @@ msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.description)
-msgid "deb tor://sdscoq7snqtznauu.onion/torproject.org <DISTRIBUTION> main"
+msgid ""
+"deb tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/"
+"torproject.org <DISTRIBUTION> main"
 msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
@@ -9237,8 +9394,8 @@ msgstr ""
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.description)
 msgid ""
-"deb tor://sdscoq7snqtznauu.onion/torproject.org tor-nightly-master-"
-"<DISTRIBUTION> main"
+"deb tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/"
+"torproject.org tor-nightly-master-<DISTRIBUTION> main"
 msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
@@ -10754,6 +10911,192 @@ msgstr ""
 msgid "Your donation will be matched by Friends of Tor, up to $100,000."
 msgstr ""
 
+#: lego/templates/banner.html:38 lego/templates/footer.html:64
+#: lego/templates/footer.html:66 lego/templates/navbar.html:18
+#: lego/templates/navbar.html:20 templates/banner.html:38
+#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:18
+#: templates/navbar.html:20
+msgid "Donate Now"
+msgstr ""
+
 #: lego/templates/banner.html:40 templates/banner.html:40
 msgid "DONATE NOW"
+msgstr ""
+
+#: lego/templates/footer.html:13 lego/templates/footer.html:22
+#: lego/templates/navbar.html:83 templates/footer.html:13
+#: templates/footer.html:22 templates/navbar.html:83
+msgid "Download Tor Browser"
+msgstr ""
+
+#: lego/templates/footer.html:14 templates/footer.html:14
+msgid ""
+"Download Tor Browser to experience real private browsing without tracking, "
+"surveillance, or censorship."
+msgstr ""
+
+#: lego/templates/footer.html:35 templates/footer.html:35
+msgid "Our mission:"
+msgstr ""
+
+#: lego/templates/footer.html:36 templates/footer.html:36
+msgid ""
+"To advance human rights and freedoms by creating and deploying free and open "
+"source anonymity and privacy technologies, supporting their unrestricted "
+"availability and use, and furthering their scientific and popular "
+"understanding."
+msgstr ""
+
+#: lego/templates/footer.html:75 templates/footer.html:75
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: lego/templates/footer.html:76 templates/footer.html:76
+msgid "Get monthly updates and opportunities from the Tor Project:"
+msgstr ""
+
+#: lego/templates/footer.html:77 templates/footer.html:77
+msgid "Sign up"
+msgstr ""
+
+#: lego/templates/footer.html:98 templates/footer.html:98
+#, python-format
+msgid ""
+"Trademark, copyright notices, and rules for use by third parties can be "
+"found in our %(link_to_faq)s"
+msgstr ""
+
+#: lego/templates/navbar.html:25 templates/navbar.html:25
+msgid "Menu"
+msgstr ""
+
+#: lego/templates/search.html:5 templates/search.html:5
+msgid "Search"
+msgstr ""
+
+#: lego/templates/secure-connections.html:1 templates/secure-connections.html:1
+msgid ""
+"The following visualization shows what information is visible to "
+"eavesdroppers with and without Tor Browser and HTTPS encryption:"
+msgstr ""
+
+#: lego/templates/secure-connections.html:4 templates/secure-connections.html:4
+msgid ""
+"Click the “Tor” button to see what data is visible to observers when you're "
+"using Tor. The button will turn green to indicate that Tor is on."
+msgstr ""
+
+#: lego/templates/secure-connections.html:5 templates/secure-connections.html:5
+msgid ""
+"Click the “HTTPS” button to see what data is visible to observers when "
+"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
+msgstr ""
+
+#: lego/templates/secure-connections.html:6 templates/secure-connections.html:6
+msgid ""
+"When both buttons are green, you see the data that is visible to observers "
+"when you are using both tools."
+msgstr ""
+
+#: lego/templates/secure-connections.html:7 templates/secure-connections.html:7
+msgid ""
+"When both buttons are grey, you see the data that is visible to observers "
+"when you don't use either tool."
+msgstr ""
+
+#: lego/templates/secure-connections.html:15
+#: lego/templates/secure-connections.html:65
+#: templates/secure-connections.html:15 templates/secure-connections.html:65
+msgid "Tor"
+msgstr ""
+
+#: lego/templates/secure-connections.html:32
+#: templates/secure-connections.html:32
+msgid "POTENTIALLY VISIBLE DATA"
+msgstr ""
+
+#: lego/templates/secure-connections.html:37
+#: templates/secure-connections.html:37
+msgid "Site.com"
+msgstr ""
+
+#: lego/templates/secure-connections.html:40
+#: templates/secure-connections.html:40
+msgid "The site being visited."
+msgstr ""
+
+#: lego/templates/secure-connections.html:44
+#: templates/secure-connections.html:44
+msgid "user / pw"
+msgstr ""
+
+#: lego/templates/secure-connections.html:47
+#: templates/secure-connections.html:47
+msgid "Username and password used for authentication."
+msgstr ""
+
+#: lego/templates/secure-connections.html:51
+#: templates/secure-connections.html:51
+msgid "data"
+msgstr ""
+
+#: lego/templates/secure-connections.html:54
+#: templates/secure-connections.html:54
+msgid "Data being transmitted."
+msgstr ""
+
+#: lego/templates/secure-connections.html:58
+#: templates/secure-connections.html:58
+msgid "location"
+msgstr ""
+
+#: lego/templates/secure-connections.html:61
+#: templates/secure-connections.html:61
+msgid ""
+"Network location of the computer used to visit the website (the public IP "
+"address)."
+msgstr ""
+
+#: lego/templates/secure-connections.html:68
+#: templates/secure-connections.html:68
+msgid "Whether or not Tor is being used."
+msgstr ""
+
+#: templates/glossary.html:26
+msgid "Contributors to item page:"
+msgstr ""
+
+#: templates/glossary.html:28
+msgid "Edit item page"
+msgstr ""
+
+#: templates/glossary.html:29 templates/macros/question.html:19
+#: templates/word.html:26
+msgid "Suggest Feedback"
+msgstr ""
+
+#: templates/glossary.html:30 templates/macros/question.html:20
+#: templates/word.html:27
+msgid "Permalink"
+msgstr ""
+
+#: templates/layout.html:5
+msgid ""
+"Defend yourself against tracking and surveillance. Circumvent censorship."
+msgstr ""
+
+#: templates/layout.html:14
+msgid "Tor Project | Support"
+msgstr ""
+
+#: templates/sidenav.html:4 templates/sidenav.html:34
+msgid "Topics"
+msgstr ""
+
+#: templates/macros/question.html:16 templates/word.html:23
+msgid "Contributors to this page:"
+msgstr ""
+
+#: templates/macros/question.html:18 templates/word.html:25
+msgid "Edit this page"
 msgstr ""
