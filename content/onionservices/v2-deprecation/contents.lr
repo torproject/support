@@ -6,4 +6,52 @@ seo_slug: v2-deprecation
 ---
 description:
 
-Please read [Onion Service version 2 deprecation timeline](https://blog.torproject.org/v2-deprecation-timeline) for more information.
+## How do I know if I’m using v2 or v3 onion services?
+If you're an onion service administrator, you must upgrade to v3 onion services as soon as possible. If you're a user, please ensure that you update your bookmarks to the website's v3 onion addresses.
+
+You can identify v3 onion addresses by their 56 character length, e.g. Tor Project's v2 address:`http://expyuzz4wqqyqhjn.onion/`
+Tor Project's v3 address: `http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/`
+
+
+## What is the timeline for the v2 deprecation?What is the timeline for the v2 deprecation?
+In September 2020, Tor started warning onion service operators and clients that v2 will be deprecated and obsolete in version 0.4.6. Tor Browser started warning users in June, 2021.
+
+In July 2021,`0.4.6` Tor will no longer support v2 and support will be removed from the code base.
+
+In October 2021, we will release new Tor client stable versions for all supported series that will disable v2.
+
+You can read more in the Tor Project’s blog post [Onion Service version 2 deprecation timeline](https://blog.torproject.org/v2-deprecation-timeline) for more information.
+
+
+## Can I keep using my v2 onion address? Can I access my v2 onion after September? Is this a backward-incompatible change?Can I keep using my v2 onion address? Can I access my v2 onion after September? Is this a backward-incompatible change?
+v2 onion addresses are fundamentally insecure. If you have a v2 onion, we recommend you migrate now. This is a backward incompatible change: v2 onion services will not be reachable after September 2021.
+
+What is the recommendation for developers to migrate? Any tips on how to spread the new v3 addresses to people?
+In torrc, to create a version 3 address, you simply need to add these two lines. The default version is now set to 3 so you don't need to explicitly set it.
+
+`HiddenServiceDir /full/path/to/your/hs/v3/directory/`
+`HiddenServicePort <virtual port> <target-address>:<target-port>`
+
+If you wish to keep running your version 2 service until it is deprecated to provide a transition path to your users, add this line to the configuration block of your version 2 service:
+
+`HiddenServiceVersion 2`
+
+This will allow you to identify in your configuration file which one is which version.
+
+If you have Onion-Location configured on your website, you need to set the header with your new v3 address.
+
+
+## I didn’t see the announcement, can I get more time to migrate?
+No. v2 onion connections will start failing nowish, first slowly, then suddenly. It’s time to move away.
+
+
+## Will services start failing to be reached in September, or before already?
+Already. Introduction points are not in 0.4.6 anymore, so they will not be reachable if relay operators update.
+
+
+## Can I redirect users from my v2 onion to my v3?
+Yes. It will work until the v2 onion address is unreachable. You may want to encourage users to update their bookmarks.
+
+
+## Is v3 going to help in mitigating DDoS problems?
+Yes. We are continuously working on improving onion services security. Some of the work we have in our roadmap is here, here and here.
