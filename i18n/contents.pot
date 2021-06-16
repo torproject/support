@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 20:18+CET\n"
+"POT-Creation-Date: 2021-06-16 23:10+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -1021,7 +1021,8 @@ msgstr ""
 #: (content/glossary/onion-address/contents+en.lr:word.definition)
 msgid ""
 "A standardized Internet domain name used by onion services that end in ."
-"onion and is designed to be [self-authenticating](../self-authenticating)."
+"onion and is designed to be [self-authenticating](../self-authenticating-"
+"address)."
 msgstr ""
 
 #: https://support.torproject.org/glossary/onion-address/
@@ -8098,9 +8099,232 @@ msgstr ""
 
 #: https://support.torproject.org/onionservices/v2-deprecation/
 #: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "### How do I know if I'm using v2 or v3 onion services?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
 msgid ""
-"Please read [Onion Service version 2 deprecation timeline](https://blog."
-"torproject.org/v2-deprecation-timeline) for more information."
+"You can identify v3 onion addresses by their 56 character length, e.g. Tor "
+"Project's v2 address:`http://expyuzz4wqqyqhjn.onion/`, and Tor Project's v3 "
+"address: `http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid."
+"onion/`"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"If you're an onion service administrator, you must upgrade to v3 onion "
+"services as soon as possible."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"If you're a user, please ensure that you update your bookmarks to the "
+"website's v3 onion addresses."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "### What is the timeline for the v2 deprecation?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"In September 2020, Tor started warning onion service operators and clients "
+"that v2 will be deprecated and obsolete in version 0.4.6."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "Tor Browser started warning users in June, 2021."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"In July 2021, 0.4.6 Tor will no longer support v2 and support will be "
+"removed from the code base."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"In October 2021, we will release new Tor client stable versions for all "
+"supported series that will disable v2."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"You can read more in the Tor Project's blog post [Onion Service version 2 "
+"deprecation timeline](https://blog.torproject.org/v2-deprecation-timeline)."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"### Can I keep using my v2 onion address? Can I access my v2 onion after "
+"September? Is this a backward-incompatible change?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"V2 onion addresses are fundamentally insecure. If you have a v2 onion, we "
+"recommend you migrate now."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"This is a backward incompatible change: v2 onion services will not be "
+"reachable after September 2021."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"### What is the recommendation for developers to migrate? Any tips on how to "
+"spread the new v3 addresses to people?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"In torrc, to create a version 3 address, you simply need to create a new "
+"service just as you did your v2 service, with these two lines:"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "HiddenServiceDir /full/path/to/your/new/v3/directory/"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "HiddenServicePort <virtual port> <target-address>:<target-port>"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"The default version is now set to 3 so you don't need to explicitly set it."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "Restart tor, and look on your directory for the new address."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"If you wish to keep running your version 2 service until it is deprecated to "
+"provide a transition path to your users, add this line to the configuration "
+"block of your version 2 service:"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "HiddenServiceVersion 2"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"This will allow you to identify in your configuration file which one is "
+"which version."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"If you have [Onion-Location](https://community.torproject.org/onion-services/"
+"advanced/onion-location/) configured on your website, you need to set the "
+"header with your new v3 address."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"For technical documentation about running onion services, please read the "
+"[Onion Services](https://community.torproject.org/onion-services/) page in "
+"our Community portal."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "### I didn't see the announcement, can I get more time to migrate?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"No, v2 onion connections will start failing nowish, first slowly, then "
+"suddenly. It's time to move away."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"### Will services start failing to be reached in September, or before "
+"already?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"Already, introduction points are not in Tor 0.4.6 anymore, so they will not "
+"be reachable if relay operators update."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"### As a website administrator, can I redirect users from my v2 onion to v3?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "Yes, it will work until the v2 onion address is unreachable."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "You may want to encourage users to update their bookmarks."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "### Are v3 onion services going to help in mitigating DDoS problems?"
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid "Yes, we are continuously working on improving onion services security."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"Some of the work we have in our roadmap is [ESTABLISH_INTRO Cell DoS Defense "
+"Extension](https://gitweb.torproject.org/torspec.git/tree/proposals/305-"
+"establish-intro-dos-defense-extention.txt), [Res tokens: Anonymous "
+"Credentials for Onion Service DoS Resilience](https://gitweb.torproject.org/"
+"torspec.git/tree/proposals/331-res-tokens-for-anti-dos.md), and [A First "
+"Take at PoW Over Introduction Circuits](https://gitweb.torproject.org/"
+"torspec.git/tree/proposals/327-pow-over-intro.txt)."
+msgstr ""
+
+#: https://support.torproject.org/onionservices/v2-deprecation/
+#: (content/onionservices/v2-deprecation/contents+en.lr:question.description)
+msgid ""
+"For an overview about these proposals, read the detailed blog post [How to "
+"stop the onion denial (of service)](https://blog.torproject.org/stop-the-"
+"onion-denial)."
 msgstr ""
 
 #: https://support.torproject.org/misc/bug-or-feedback/
