@@ -54,7 +54,7 @@ Already, introduction points are not in Tor 0.4.6 anymore, so they will not be r
 Yes, it will work until the v2 onion address is unreachable.
 You may want to encourage users to update their bookmarks.
 
-## Are v3 onion services going to help in mitigating DDoS problems?
+### Are v3 onion services going to help in mitigating DDoS problems?
 
 Yes, we are continuously working on improving onion services security.
 Some of the work we have in our roadmap is [ESTABLISH_INTRO Cell DoS Defense Extension](https://gitweb.torproject.org/torspec.git/tree/proposals/305-establish-intro-dos-defense-extention.txt), [Res tokens: Anonymous Credentials for Onion Service DoS Resilience](https://gitweb.torproject.org/torspec.git/tree/proposals/331-res-tokens-for-anti-dos.md), and [A First Take at PoW Over Introduction Circuits](https://gitweb.torproject.org/torspec.git/tree/proposals/327-pow-over-intro.txt).
