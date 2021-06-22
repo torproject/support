@@ -1,0 +1,15 @@
+_model: question
+---
+title: What happens if an ISP blocks some/all Tor directory authorities?
+---
+seo_slug: what-happens-if-isp-blocks-tor-dir-auths
+---
+key: 11
+---
+description:
+You should try running a bridge.
+
+Bridges are not listed publicly, so an adversary cannot identify them easily, however,  you will need to request them for yourself. Check our [Bridges website](https://bridges.torproject.org/) or email [bridges@torproject.org](mailto:bridges@torproject.org) from a Gmail, or Riseup email address to get a bridge address. Alternatively, you can use MOAT to fetch bridges from within the Tor Browser.
+
+For more information about bridges and how to run them, please see the [Tor Browser manual](https://tb-manual.torproject.org/bridges).
+
