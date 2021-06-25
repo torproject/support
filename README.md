@@ -3,7 +3,7 @@ This repository contains the code for the portal dedicated to answering FAQs and
 
 The site is accessible at the following locations:
 - https://support.torproject.org/
-- http://4bflp2c4tnynnbes.onion/
+- http://rzuwtpc4wb3xdzrj3yeajsvm3fkq4vbeubm2tdxaqruzzzgs5dwemlad.onion/
 
 **This is not a direct support helpdesk** and questions should not be submitted through this site. Head over to ```#tor``` on [OFTC IRC](https://webchat.oftc.net/?channels=tor) instead.
 
