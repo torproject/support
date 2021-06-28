@@ -10,7 +10,7 @@ Google uses "geolocation" to determine where in the world you are, so it can giv
 
 If you really want to see Google in English you can click the link that provides that. But we consider this a feature with Tor, not a bug --- the Internet is not flat, and it in fact does look different depending on where you are. This feature reminds people of this fact.
 
-Note that Google search URLs take name/value pairs as arguments and one of those names is "hl". If you set "hl" to "en" then Google will return search results in English regardless of what Google server you have been sent to. On a query this looks like:
+Note that Google search URLs take name/value pairs as arguments and one of those names is "hl". If you set "hl" to "en" then Google will return search results in English regardless of what Google server you have been sent to. The changed link might look like this:
 
 https://encrypted.google.com/search?q=online%20anonymity&hl=en
 
