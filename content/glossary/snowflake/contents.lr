@@ -1,0 +1,15 @@
+_model: word
+---
+term: Snowflake
+---
+definition:
+
+It is a pluggable transport, which provides censorship circumvention and access to a free and open internet.
+It has three components; the Snowflake client, the Snowflake proxy (the two together known as the Snowflake peers) and the broker.
+Snowflake can allow an open browser tab to act as an ephemeral Tor bridge.
+In order to beat the blocking of proxy IP addresses, Snowflake involves a large number of volunteer proxies, which also make it hard for the censor to pin point.
+
+---
+translation: 
+---
+spelling: 
