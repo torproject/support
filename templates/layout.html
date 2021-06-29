@@ -15,7 +15,17 @@
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
   <header>
     {% include 'navbar.html' %}
-  </header>
+    <script>
+      function change() {
+        var btn = document.getElementById("expand");
+      if (btn.innerHTML == "expand") {
+          btn.innerHTML = "collapse"; }
+        else {
+          btn.innerHTML = "expand";
+          }
+      }
+      </script>
+      </header>
   <div class="page">
     <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
       <div class="container-fluid text-center">
@@ -32,7 +42,8 @@
         {% include 'sidenav.html' %}
         {% set locale = bag('alternatives', this.alt) %}
         <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9  {{ locale.order }} {{ locale.direction }}">
-          {% block body %}{% endblock %}
+        <button class="btn btn-primary float-right" data-toggle="collapse" data-target=".exp" aria-expanded="false" id="expand" onclick="change()">expand</button>
+        {% block body %}{% endblock %}
         </main>
       </div>
     </div>
