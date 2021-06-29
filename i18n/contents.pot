@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 10:35+CET\n"
+"POT-Creation-Date: 2021-06-29 13:00+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -5194,8 +5194,8 @@ msgstr ""
 #: https://support.torproject.org/gettor/gettor-2/
 #: (content/gettor/gettor-2/contents+en.lr:question.description)
 msgid ""
-"Write your operating system (such as Windows, macOS, or Linux) in the body "
-"of the message and send."
+"In the body of the mail, write the name of your operating system (such as "
+"Windows, macOS, or Linux)."
 msgstr ""
 
 #: https://support.torproject.org/gettor/gettor-2/
@@ -5534,7 +5534,7 @@ msgstr ""
 #: https://support.torproject.org/connecting/connecting-4/
 #: (content/connecting/connecting-4/contents+en.lr:question.description)
 msgid ""
-"You may try one or more of the following activities, in case you encounter "
+"You may try one or more of the following activities in case you encounter "
 "this error:"
 msgstr ""
 
@@ -7976,7 +7976,7 @@ msgstr ""
 msgid ""
 "If you cannot reach the onion service you desire, make sure that you have "
 "entered the 16-character or, the newest format, 56-character onion address "
-"correctly: even a small mistake will stop Tor Browser from being able to "
+"correctly; even a small mistake will stop Tor Browser from being able to "
 "reach the site."
 msgstr ""
 
@@ -8079,17 +8079,17 @@ msgstr ""
 
 #: https://support.torproject.org/onionservices/onionservices-5/
 #: (content/onionservices/onionservices-5/contents+en.lr:question.description)
-msgid "- The Onion Service is served over HTTPS with an expired Certificate"
+msgid "- The Onion Service is served over HTTPS with an expired Certificate."
 msgstr ""
 
 #: https://support.torproject.org/onionservices/onionservices-5/
 #: (content/onionservices/onionservices-5/contents+en.lr:question.description)
-msgid "- The Onion Service is served over HTTPS with a wrong Domain"
+msgid "- The Onion Service is served over HTTPS with a wrong Domain."
 msgstr ""
 
 #: https://support.torproject.org/onionservices/onionservices-5/
 #: (content/onionservices/onionservices-5/contents+en.lr:question.description)
-msgid "- The Onion Service is served with a mixed form over an insecure URL"
+msgid "- The Onion Service is served with a mixed form over an insecure URL."
 msgstr ""
 
 #: https://support.torproject.org/onionservices/v2-deprecation/
@@ -9947,7 +9947,7 @@ msgstr ""
 msgid ""
 "For example, the Freenode IRC network had a problem with a coordinated group "
 "of abusers joining channels and subtly taking over the conversation; but "
-"when they labeled all users coming from Tor nodes as \"anonymous users,\" "
+"when they labeled all users coming from Tor nodes as \"anonymous users\", "
 "removing the ability of the abusers to blend in, the abusers moved back to "
 "using their open proxies and bot networks."
 msgstr ""
@@ -10238,7 +10238,7 @@ msgstr ""
 msgid ""
 "Tor's exit policies help separate the role of \"willing to donate resources "
 "to the network\" from the role of \"willing to deal with exit abuse "
-"complaints,\" so we hope our network is more sustainable than past attempts "
+"complaints\", so we hope our network is more sustainable than past attempts "
 "at anonymity networks."
 msgstr ""
 
@@ -10314,7 +10314,7 @@ msgstr ""
 #: (content/abuse/irc-ban/contents+en.lr:question.description)
 msgid ""
 "The IRC networks are fighting a losing battle of trying to block all these "
-"nodes, and an entire cottage industry of blacklists and counter-trolls has "
+"nodes, and an entire cottage industry of blocklists and counter-trolls has "
 "sprung up based on this flawed security model (not unlike the antivirus "
 "industry)."
 msgstr ""
