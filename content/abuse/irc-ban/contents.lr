@@ -11,7 +11,7 @@ This abuse results in IP-specific temporary bans ("klines" in IRC lingo), as the
 This response underscores a fundamental flaw in IRC's security model:
 they assume that IP addresses equate to humans, and by banning the IP address they can ban the human.
 In reality, this is not the case — many such trolls routinely make use of the literally millions of open proxies and compromised computers around the Internet.
-The IRC networks are fighting a losing battle of trying to block all these nodes, and an entire cottage industry of blacklists and counter-trolls has sprung up based on this flawed security model (not unlike the antivirus industry).
+The IRC networks are fighting a losing battle of trying to block all these nodes, and an entire cottage industry of blocklists and counter-trolls has sprung up based on this flawed security model (not unlike the antivirus industry).
 The Tor network is just a drop in the bucket here.
 
 On the other hand, from the viewpoint of IRC server operators, security is not an all-or-nothing thing.

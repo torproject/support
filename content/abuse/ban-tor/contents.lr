@@ -14,7 +14,7 @@ For example, you might have certain areas of the site, or certain privileges lik
 It's easy to build an up-to-date list of Tor IP addresses that allow connections to your service, so you could set up this distinction only for Tor users.
 This way you can have multi-tiered access and not have to ban every aspect of your service.
 
-For example, the Freenode IRC network had a problem with a coordinated group of abusers joining channels and subtly taking over the conversation; but when they labeled all users coming from Tor nodes as "anonymous users," removing the ability of the abusers to blend in, the abusers moved back to using their open proxies and bot networks.
+For example, the Freenode IRC network had a problem with a coordinated group of abusers joining channels and subtly taking over the conversation; but when they labeled all users coming from Tor nodes as "anonymous users", removing the ability of the abusers to blend in, the abusers moved back to using their open proxies and bot networks.
 
 Second, consider that hundreds of thousands of people use Tor every day simply for good data hygiene — for example, to protect against data-gathering advertising companies while going about their normal activities.
 Others use Tor because it's their only way to get past restrictive local firewalls.
