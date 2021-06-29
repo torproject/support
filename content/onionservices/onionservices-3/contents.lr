@@ -5,7 +5,7 @@ title: I cannot reach X.onion!
 seo_slug: i-cannot-reach-x-dot-onion
 ---
 description: 
-If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+If you cannot reach the onion service you desire, make sure that you have entered the 16-character or, the newest format, 56-character onion address correctly; even a small mistake will stop Tor Browser from being able to reach the site.
 If you are still unable to connect to the onion service, please try again later.
 There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
 
