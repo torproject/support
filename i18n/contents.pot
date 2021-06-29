@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-16 23:10+CET\n"
+"POT-Creation-Date: 2021-06-29 10:35+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -4559,7 +4559,7 @@ msgid ""
 "Note that Google search URLs take name/value pairs as arguments and one of "
 "those names is \"hl\". If you set \"hl\" to \"en\" then Google will return "
 "search results in English regardless of what Google server you have been "
-"sent to. On a query this looks like:"
+"sent to. The changed link might look like this:"
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-43/
@@ -11051,8 +11051,8 @@ msgstr ""
 #: (content/metrics/user-estimation/contents+en.lr:question.description)
 msgid ""
 "We actually don't count users, but we count requests to the directories that "
-"clients make periodically to update their list of relays and estimate user "
-"numbers indirectly from there."
+"clients make periodically to update their list of relays and estimate number "
+"of users indirectly from there."
 msgstr ""
 
 #: https://support.torproject.org/metrics/user-numbers/
