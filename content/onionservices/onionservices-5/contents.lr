@@ -18,6 +18,6 @@ An onion with a red slash means:
 
 ![Image of an onion with a caution sign](/static/images/black-onion-with-caution.png)
 An onion with caution sign means:
-- The Onion Service is served over HTTPS with an expired Certificate
-- The Onion Service is served over HTTPS with a wrong Domain
-- The Onion Service is served with a mixed form over an insecure URL
+- The Onion Service is served over HTTPS with an expired Certificate.
+- The Onion Service is served over HTTPS with a wrong Domain.
+- The Onion Service is served with a mixed form over an insecure URL.
