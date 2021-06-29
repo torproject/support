@@ -1,6 +1,6 @@
 _model: redirect
 ---
-target: ../../censorship/censorship-2/
+target: ../../tbb/website-blocking-tor/
 ---
 _discoverable: no
 ---
