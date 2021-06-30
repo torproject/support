@@ -1,0 +1,13 @@
+_model: word
+---
+term: dangerzone
+---
+definition:
+
+[Dangerzone](https://github.com/firstlookmedia/dangerzone) converts any document (even pdf) to pdf, when the document is potentially dangerous or from an untrustworthy source.
+This is done by converting the pdf to raw pixel data and then back to pdf.
+
+---
+translation:
+---
+spelling:
