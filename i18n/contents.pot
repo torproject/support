@@ -469,7 +469,7 @@ msgstr ""
 
 #: https://support.torproject.org/glossary/dangerzone/
 #: (content/glossary/dangerzone/contents+en.lr:word.term)
-msgid "dangerzone"
+msgid "Dangerzone"
 msgstr ""
 
 #: https://support.torproject.org/glossary/dangerzone/
