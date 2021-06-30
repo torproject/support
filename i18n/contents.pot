@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 13:00+CET\n"
+"POT-Creation-Date: 2021-06-30 10:04+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -467,6 +467,25 @@ msgid ""
 "than being under the direct control of a user."
 msgstr ""
 
+#: https://support.torproject.org/glossary/dangerzone/
+#: (content/glossary/dangerzone/contents+en.lr:word.term)
+msgid "dangerzone"
+msgstr ""
+
+#: https://support.torproject.org/glossary/dangerzone/
+#: (content/glossary/dangerzone/contents+en.lr:word.definition)
+msgid ""
+"[Dangerzone](https://github.com/firstlookmedia/dangerzone) converts any "
+"document (even pdf) to pdf, when the document is potentially dangerous or "
+"from an untrustworthy source."
+msgstr ""
+
+#: https://support.torproject.org/glossary/dangerzone/
+#: (content/glossary/dangerzone/contents+en.lr:word.definition)
+msgid ""
+"This is done by converting the pdf to raw pixel data and then back to pdf."
+msgstr ""
+
 #: https://support.torproject.org/glossary/directory-authority/
 #: (content/glossary/directory-authority/contents+en.lr:word.term)
 msgid "directory authority"
@@ -534,6 +553,32 @@ msgid ""
 "the question of whether there was a [Tor](../tor-tor-network-core-tor) relay "
 "running on a given IP address on a given date.  This service is often useful "
 "when dealing with law enforcement."
+msgstr ""
+
+#: https://support.torproject.org/glossary/f-droid/
+#: (content/glossary/f-droid/contents+en.lr:word.term)
+msgid "F-Droid"
+msgstr ""
+
+#: https://support.torproject.org/glossary/f-droid/
+#: (content/glossary/f-droid/contents+en.lr:word.definition)
+msgid ""
+"F-Droid is a repository of FOSS (free and open source software) applications "
+"for Android."
+msgstr ""
+
+#: https://support.torproject.org/glossary/f-droid/
+#: (content/glossary/f-droid/contents+en.lr:word.definition)
+msgid ""
+"Just like in Google Play one can browse, install and keep track of updates "
+"on the device using F-Droid."
+msgstr ""
+
+#: https://support.torproject.org/glossary/f-droid/
+#: (content/glossary/f-droid/contents+en.lr:word.definition)
+msgid ""
+"Tor Browser is available on F-Droid. Follow these [steps](https://tb-manual."
+"torproject.org/mobile-tor/) if you prefer installing the app through F-Droid."
 msgstr ""
 
 #: https://support.torproject.org/glossary/firefox/
@@ -1417,6 +1462,74 @@ msgid ""
 "services."
 msgstr ""
 
+#: https://support.torproject.org/glossary/snowflake/
+#: (content/glossary/snowflake/contents+en.lr:word.term)
+msgid "Snowflake"
+msgstr ""
+
+#: https://support.torproject.org/glossary/snowflake/
+#: (content/glossary/snowflake/contents+en.lr:word.definition)
+msgid ""
+"[Snowflake](https://snowflake.torproject.org) is a pluggable transport which "
+"provides censorship circumvention and access to a free and open internet."
+msgstr ""
+
+#: https://support.torproject.org/glossary/snowflake/
+#: (content/glossary/snowflake/contents+en.lr:word.definition)
+msgid ""
+"It has three components; the Snowflake client, the Snowflake proxy (the two "
+"together known as the Snowflake peers) and the broker."
+msgstr ""
+
+#: https://support.torproject.org/glossary/snowflake/
+#: (content/glossary/snowflake/contents+en.lr:word.definition)
+msgid ""
+"Snowflake can allow an open browser tab to act as an ephemeral Tor bridge."
+msgstr ""
+
+#: https://support.torproject.org/glossary/snowflake/
+#: (content/glossary/snowflake/contents+en.lr:word.definition)
+msgid ""
+"In order to prevent the blocking of proxy IP addresses, Snowflake involves a "
+"large number of volunteer proxies, which also makes them hard to pin point."
+msgstr ""
+
+#: https://support.torproject.org/glossary/socks5/
+#: (content/glossary/socks5/contents+en.lr:word.term)
+msgid "SOCKS5"
+msgstr ""
+
+#: https://support.torproject.org/glossary/socks5/
+#: (content/glossary/socks5/contents+en.lr:word.definition)
+msgid "SOCKS5 is an Internet protocol used by Tor."
+msgstr ""
+
+#: https://support.torproject.org/glossary/socks5/
+#: (content/glossary/socks5/contents+en.lr:word.definition)
+msgid ""
+"It sends the traffic through the Tor network instead of sending it from your "
+"IP address into the open network."
+msgstr ""
+
+#: https://support.torproject.org/glossary/socks5/
+#: (content/glossary/socks5/contents+en.lr:word.definition)
+msgid ""
+"It is a general purpose [proxy](../proxy) that sits at the layer 5 of the "
+"OSI model and uses the tunneling method."
+msgstr ""
+
+#: https://support.torproject.org/glossary/socks5/
+#: (content/glossary/socks5/contents+en.lr:word.definition)
+msgid ""
+"The applications that you run with SOCKS5 will be aware of the tunneling, "
+"but you can prevent identity correlation if set up correctly."
+msgstr ""
+
+#: https://support.torproject.org/glossary/socks5/
+#: (content/glossary/socks5/contents+en.lr:word.spelling)
+msgid "All in caps, as it is an acronym."
+msgstr ""
+
 #: https://support.torproject.org/glossary/ssl/
 #: (content/glossary/ssl/contents+en.lr:word.term)
 msgid "secure sockets layer (SSL)"
@@ -1478,6 +1591,27 @@ msgstr ""
 #: https://support.torproject.org/glossary/tails/
 #: (content/glossary/tails/contents+en.lr:word.definition)
 msgid "[Learn more about Tails](https://tails.boum.org/)."
+msgstr ""
+
+#: https://support.torproject.org/glossary/the-guardian-project/
+#: (content/glossary/the-guardian-project/contents+en.lr:word.term)
+msgid "The Guardian Project"
+msgstr ""
+
+#: https://support.torproject.org/glossary/the-guardian-project/
+#: (content/glossary/the-guardian-project/contents+en.lr:word.definition)
+msgid ""
+"[The Guardian Project](https://guardianproject.info/) is a group of software "
+"developers, activists and designers that create easy to use, secure, "
+"opensource mobile apps and operating system enhancements."
+msgstr ""
+
+#: https://support.torproject.org/glossary/the-guardian-project/
+#: (content/glossary/the-guardian-project/contents+en.lr:word.definition)
+msgid ""
+"[The Orbot app](https://play.google.com/store/apps/details?id=org.torproject."
+"android) provided by The Guardian Project helps route other apps on your "
+"andriod device over the Tor network."
 msgstr ""
 
 #: https://support.torproject.org/glossary/the-tor-project/
@@ -4958,6 +5092,77 @@ msgid ""
 "have no effect on Tor's configuration."
 msgstr ""
 
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.title)
+msgid "A website I am trying to reach is blocking access over Tor."
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"Sometimes websites will block Tor users because they can't tell the "
+"difference between the average Tor user and automated traffic."
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"The best success we've had in getting sites to unblock Tor users is getting "
+"users to contact the site administrators directly."
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid "Something like this might do the trick:"
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"\"Hi! I tried to access your site xyz.com while using Tor Browser and "
+"discovered that you don't allow Tor users to access your site."
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"I urge you to reconsider this decision; Tor is used by people all over the "
+"world to protect their privacy and fight censorship."
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"By blocking Tor users, you are likely blocking people in repressive "
+"countries who want to use a free internet, journalists and researchers who "
+"want to protect themselves from discovery, whistleblowers, activists, and "
+"ordinary people who want to opt out of invasive third party tracking."
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"Please take a strong stance in favor of digital privacy and internet "
+"freedom, and allow Tor users access to xyz.com. Thank you.\""
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"In the case of banks, and other sensitive websites, it is also common to see "
+"geography-based blocking (if a bank knows you generally access their "
+"services from one country, and suddenly you are connecting from an exit "
+"relay on the other side of the world, your account may be locked or "
+"suspended)."
+msgstr ""
+
+#: https://support.torproject.org/tbb/website-blocking-tor/
+#: (content/tbb/website-blocking-tor/contents+en.lr:question.description)
+msgid ""
+"If you are unable to connect to an onion service, please see [I cannot reach "
+"X.onion!](../../onionservices/onionservices-3)."
+msgstr ""
+
 #: https://support.torproject.org/tormessenger/tormessenger-1/
 #: (content/tormessenger/tormessenger-1/contents+en.lr:question.title)
 msgid "Does Tor Project make an application for private chat?"
@@ -5615,77 +5820,6 @@ msgid ""
 "For more information, please see the [Tor Browser User Manual](https://tb-"
 "manual.torproject.org/) section on [censorship](https://tb-manual.torproject."
 "org/circumvention/)."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.title)
-msgid "A website I am trying to reach is blocking access over Tor."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"Sometimes websites will block Tor users because they can't tell the "
-"difference between the average Tor user and automated traffic."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"The best success we've had in getting sites to unblock Tor users is getting "
-"users to contact the site administrators directly."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid "Something like this might do the trick:"
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"\"Hi! I tried to access your site xyz.com while using Tor Browser and "
-"discovered that you don't allow Tor users to access your site."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"I urge you to reconsider this decision; Tor is used by people all over the "
-"world to protect their privacy and fight censorship."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"By blocking Tor users, you are likely blocking people in repressive "
-"countries who want to use a free internet, journalists and researchers who "
-"want to protect themselves from discovery, whistleblowers, activists, and "
-"ordinary people who want to opt out of invasive third party tracking."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"Please take a strong stance in favor of digital privacy and internet "
-"freedom, and allow Tor users access to xyz.com. Thank you.\""
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"In the case of banks, and other sensitive websites, it is also common to see "
-"geography-based blocking (if a bank knows you generally access their "
-"services from one country, and suddenly you are connecting from an exit "
-"relay on the other side of the world, your account may be locked or "
-"suspended)."
-msgstr ""
-
-#: https://support.torproject.org/censorship/censorship-2/
-#: (content/censorship/censorship-2/contents+en.lr:question.description)
-msgid ""
-"If you are unable to connect to an onion service, please see [I cannot reach "
-"X.onion!](../../onionservices/onionservices-3)."
 msgstr ""
 
 #: https://support.torproject.org/censorship/censorship-4/
