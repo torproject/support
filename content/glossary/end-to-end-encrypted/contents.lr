@@ -4,7 +4,7 @@ term: end-to-end encrypted
 ---
 definition:
 
-Transmitted data which is [encrypted](../encryption) from origin to destination is called end-to-end encrypted.
+Transmitted data which is [encrypted](../encryption) directly from origin to destination is called end-to-end encryption. This helps ensure the data or message being sent is only read by the sending and receiving party.
 
 ---
 translation: 
