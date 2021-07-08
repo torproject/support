@@ -1,0 +1,23 @@
+title: Tell me about all the keys Tor uses
+---
+key: 9
+---
+description:
+
+Tor uses a variety of different keys, with three goals in mind: 1) encryption to ensure privacy of data within the Tor network, 2) authentication so clients know they're talking to the relays they meant to talk to, and 3) signatures to make sure all clients know the same set of relays.
+
+**Encryption**: first, all connections in Tor use TLS link encryption, so observers can't look inside to see which circuit a given cell is intended for. Further, the Tor client establishes an ephemeral encryption key with each relay in the circuit; these extra layers of encryption mean that only the exit relay can read the cells. Both sides discard the circuit key when the circuit ends, so logging traffic and then breaking into the relay to discover the key won't work.
+
+**Authentication**: Every Tor relay has a public decryption key called the "onion key". Each relay rotates its onion key once a week. When the Tor client establishes circuits, at each step it [demands that the Tor relay prove knowledge of its onion key](https://svn-archive.torproject.org/svn/projects/design-paper/tor-design.html#subsec:circuits). That way the first node in the path can't just spoof the rest of the path. Because the Tor client chooses the path, it can make sure to get Tor's "distributed trust" property: no single relay in the path can know about both the client and what the client is doing.
+
+**Coordination**: How do clients know what the relays are, and how do they know that they have the right keys for them? Each relay has a long-term public signing key called the "identity key". Each directory authority additionally has a "directory signing key". The directory authorities [provide a signed list](https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt) of all the known relays, and in that list are a set of certificates from each relay (self-signed by their identity key) specifying their keys, locations, exit policies, and so on. So unless the adversary can control a majority of the directory authorities (as of 2012 there are 8 directory authorities), they can't trick the Tor client into using other Tor relays.
+
+How do clients know what the directory authorities are? The Tor software comes with a built-in list of location and public key for each directory authority. So the only way to trick users into using a fake Tor network is to give them a specially modified version of the software.
+
+How do users know they've got the right software? When we distribute the source code or a package, we digitally sign it with [GNU Privacy Guard](http://www.gnupg.org/). See the [instructions on how to check Tor's signatures](https://support.torproject.org/tbb/how-to-verify-signature/).
+
+In order to be certain that it's really signed by us, you need to have met us in person and gotten a copy of our GPG key fingerprint, or you need to know somebody who has. If you're concerned about an attack on this level, we recommend you get involved with the security community and start meeting people.
+---
+seo_slug: key-management
+---
+_slug: key-management
