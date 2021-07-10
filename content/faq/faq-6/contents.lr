@@ -1,0 +1,14 @@
+_model: question
+---
+title: How many people use Tor? How many relays or exit nodes are there?
+---
+slug: number-of-tor-users-number-of-exit nodes
+---
+description:
+
+
+### Number of Tor users
+The number of Tor users is estimated  by analyzing the requests induced by clients to relays and bridges. As of 2020, the number of Tor users stands at approximately 2.5 million users. These statistics can be found at the [Tor Metrics portal](https://metrics.torproject.org/userstats-relay-country.html)
+
+### Number of exit nodes
+This number is graphed at the [Tor Metrics Portal](https://metrics.torproject.org/userstats-relay-country.html). This graph also shows the number of running relays that have had certain flags assigned by the directory authorities. 
