@@ -7,7 +7,16 @@ seo_slug: cannot-connect-to-tor-browser-network-censored
 key: 4
 ---
 description: 
-You might be on a censored network, and so you should try using bridges.
-Some bridges are built in to Tor Browser, and you can use those bridges by choosing "configure" (then following the prompts) in the Tor Launcher window that pops up when you open Tor Browser for the first time.
+You might be on a network that is blocking the Tor network, and so you should try using bridges.
+Some bridges are built in to Tor Browser and requires only a few steps to enable it.
+When you open Tor Browser for the first time, click "Tor Network Settings".
+Under the "Bridges" section, select the checkbox "Use a bridge", and choose the "Select a built-in bridge" option.
+From the dropdown, select whichever [pluggable transport](https://tb-manual.torproject.org/transports/) you'd like to use.
+Once you've selected the pluggable transport, scroll up and click "Connect" to save your settings.
+
+Or, if you have Tor Browser running, click on "Preferences" (or "Options" on Windows) in the hamburger menu (≡) and then on "Tor" in the sidebar.
+In the "Bridges" section, select the checkbox "Use a bridge", and from the option "Select a built-in bridge", choose whichever pluggable transport you'd like to use from the dropdown.
+Your settings will automatically be saved once you close the tab.
+
 If you need other bridges, you can get them at our [Bridges website](https://bridges.torproject.org/).
 For more information about bridges, see the [Tor Browser manual](https://tb-manual.torproject.org/bridges).
