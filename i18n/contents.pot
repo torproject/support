@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-30 10:04+CET\n"
+"POT-Creation-Date: 2021-07-19 16:46+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -1741,6 +1741,13 @@ msgstr ""
 msgid ""
 "In the second case, Tor Launcher will take you through a series of "
 "configuration options."
+msgstr ""
+
+#: https://support.torproject.org/glossary/tor-launcher/
+#: (content/glossary/tor-launcher/contents+en.lr:word.definition)
+msgid ""
+"Tor launcher is no longer used in Tor Browser since the [10.5 release]"
+"(https://blog.torproject.org/new-release-tor-browser-105)."
 msgstr ""
 
 #: https://support.torproject.org/glossary/tor-log/
@@ -5830,15 +5837,62 @@ msgstr ""
 #: https://support.torproject.org/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lr:question.description)
 msgid ""
-"You might be on a censored network, and so you should try using bridges."
+"You might be on a network that is blocking the Tor network, and so you "
+"should try using bridges."
 msgstr ""
 
 #: https://support.torproject.org/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lr:question.description)
 msgid ""
-"Some bridges are built in to Tor Browser, and you can use those bridges by "
-"choosing \"configure\" (then following the prompts) in the Tor Launcher "
-"window that pops up when you open Tor Browser for the first time."
+"Some bridges are built in to Tor Browser and requires only a few steps to "
+"enable it."
+msgstr ""
+
+#: https://support.torproject.org/censorship/censorship-4/
+#: (content/censorship/censorship-4/contents+en.lr:question.description)
+msgid ""
+"When you open Tor Browser for the first time, click \"Tor Network Settings\"."
+msgstr ""
+
+#: https://support.torproject.org/censorship/censorship-4/
+#: (content/censorship/censorship-4/contents+en.lr:question.description)
+msgid ""
+"Under the \"Bridges\" section, select the checkbox \"Use a bridge\", and "
+"choose the \"Select a built-in bridge\" option."
+msgstr ""
+
+#: https://support.torproject.org/censorship/censorship-4/
+#: (content/censorship/censorship-4/contents+en.lr:question.description)
+msgid ""
+"From the dropdown, select whichever [pluggable transport](https://tb-manual."
+"torproject.org/transports/) you'd like to use."
+msgstr ""
+
+#: https://support.torproject.org/censorship/censorship-4/
+#: (content/censorship/censorship-4/contents+en.lr:question.description)
+msgid ""
+"Once you've selected the pluggable transport, scroll up and click \"Connect"
+"\" to save your settings."
+msgstr ""
+
+#: https://support.torproject.org/censorship/censorship-4/
+#: (content/censorship/censorship-4/contents+en.lr:question.description)
+msgid ""
+"Or, if you have Tor Browser running, click on \"Preferences\" (or \"Options"
+"\" on Windows) in the hamburger menu (≡) and then on \"Tor\" in the sidebar."
+msgstr ""
+
+#: https://support.torproject.org/censorship/censorship-4/
+#: (content/censorship/censorship-4/contents+en.lr:question.description)
+msgid ""
+"In the \"Bridges\" section, select the checkbox \"Use a bridge\", and from "
+"the option \"Select a built-in bridge\", choose whichever pluggable "
+"transport you'd like to use from the dropdown."
+msgstr ""
+
+#: https://support.torproject.org/censorship/censorship-4/
+#: (content/censorship/censorship-4/contents+en.lr:question.description)
+msgid "Your settings will automatically be saved once you close the tab."
 msgstr ""
 
 #: https://support.torproject.org/censorship/censorship-4/
@@ -5930,24 +5984,23 @@ msgstr ""
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
 #: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.description)
 msgid ""
-"If your internet access is censored, you should download [Tor Browser Alpha]"
-"(https://www.torproject.org/download/alpha/) available for Windows, macOS, "
-"GNU/Linux and Android."
+"Snowflake is available in [Tor Browser](https://www.torproject.org/"
+"download/) stable for all platforms: Windows, macOS, GNU/Linux, and Android."
 msgstr ""
 
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
 #: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.description)
 msgid ""
-"You can also use Snowflake with [OnionBrowser](https://apps.apple.com/us/app/"
-"onion-browser/id519296448) on iOS."
+"You can also use Snowflake with [Onion Browser](https://apps.apple.com/us/"
+"app/onion-browser/id519296448) on iOS."
 msgstr ""
 
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
 #: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.description)
 msgid ""
-"If you're running Tor Browser Alpha for desktop for the first time, you can "
-"click on 'Configure' on the start-up screen and then select 'Tor is censored "
-"in my country'."
+"If you're running Tor Browser for desktop for the first time, you can click "
+"on 'Tor Network Settings' on the start-up screen and then select 'Use a "
+"bridge'."
 msgstr ""
 
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
@@ -5960,8 +6013,15 @@ msgstr ""
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
 #: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.description)
 msgid ""
-"From within the browser you can click on the [hamburger menu](https://"
-"support.torproject.org/glossary/hamburger-menu/) then go to 'Preferences' "
+"Once you've selected Snowflake, scroll up and click 'Connect' to save your "
+"settings."
+msgstr ""
+
+#: https://support.torproject.org/censorship/how-can-i-use-snowflake/
+#: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.description)
+msgid ""
+"From within the browser, you can click on the [hamburger menu](https://"
+"support.torproject.org/glossary/hamburger-menu/), then go to 'Preferences' "
 "and go to 'Tor'."
 msgstr ""
 
@@ -5969,7 +6029,7 @@ msgstr ""
 #: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.description)
 msgid ""
 "Alternatively, you can also type `about:preferences#tor` in the url bar. "
-"Check 'Use a Bridge' and 'Use a built-in bridge'. Then select 'snowflake' "
+"Check 'Use a bridge' and 'Select a built-in bridge'. Then select 'snowflake' "
 "from the dropdown menu."
 msgstr ""
 
@@ -8041,8 +8101,9 @@ msgstr ""
 #: https://support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lr:question.description)
 msgid ""
-"For example, the DuckDuckGo onion is [https://3g2upl4pq6kufc4m.onion]"
-"(https://3g2upl4pq6kufc4m.onion)."
+"For example, the DuckDuckGo onion is [https://"
+"duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/](https://"
+"duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)."
 msgstr ""
 
 #: https://support.torproject.org/onionservices/onionservices-1/
@@ -8132,7 +8193,8 @@ msgstr ""
 #: (content/onionservices/onionservices-3/contents+en.lr:question.description)
 msgid ""
 "You can also ensure that you're able to access other onion services by "
-"connecting to [DuckDuckGo's onion service](http://3g2upl4pq6kufc4m.onion)."
+"connecting to [DuckDuckGo's onion service](https://"
+"duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)."
 msgstr ""
 
 #: https://support.torproject.org/onionservices/onionservices-4/
