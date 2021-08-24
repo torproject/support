@@ -4,7 +4,8 @@ title: How do I run a relay in Windows?
 ---
 description:
 
-You should only run a Windows relay if you can run it 24/7. If you are unable to guarantee that, a Snowflake is a better way to contribute resources.
+You should only run a Windows relay if you can run it 24/7.
+If you are unable to guarantee that, a Snowflake is a better way to contribute resources.
 
 - Here's the documentation for running a [guard relay][1] in Windows: <https://community.torproject.org/relay/setup/guard/windows/>
 - Here's the documentation for running a [bridge relay][2] in Windows: <https://community.torproject.org/relay/setup/bridge/windows/>
