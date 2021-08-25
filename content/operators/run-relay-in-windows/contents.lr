@@ -1,0 +1,18 @@
+_model: question
+---
+title: How do I run a relay in Windows?
+---
+description:
+
+You can run a relay in Windows following this tutorials:
+
+- For running a [guard relay](https://community.torproject.org/relay/types-of-relays/#guard-and-middle-relay) in Windows, please read: <https://community.torproject.org/relay/setup/guard/windows/>
+- For running a [bridge relay](https://community.torproject.org/relay/types-of-relays/#bridge) in Windows, please read: <https://community.torproject.org/relay/setup/bridge/windows/>
+
+You should **only run a Windows relay if you can run it 24/7**.
+If you are unable to guarantee that, [Snowflake](https://snowflake.torproject.org/) is a better way to contribute your resources to the Tor network.
+
+---
+seo_slug: run-relay-in-windows
+---
+_slug: run-relay-in-windows
