@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-19 16:46+CET\n"
+"POT-Creation-Date: 2021-08-25 11:14+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -6477,6 +6477,50 @@ msgstr ""
 msgid "For most users, we think it's a smart move."
 msgstr ""
 
+#: https://support.torproject.org/operators/change-bridge-distribution/
+#: (content/operators/change-bridge-distribution/contents+en.lr:question.title)
+msgid "How do I change my bridge distribution method?"
+msgstr ""
+
+#: https://support.torproject.org/operators/change-bridge-distribution/
+#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+msgid ""
+"BridgeDB implements [four mechanisms](https://bridges.torproject.org/info) "
+"to distribute bridges: HTTPS, Moat, Email, and Reserved."
+msgstr ""
+
+#: https://support.torproject.org/operators/change-bridge-distribution/
+#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+msgid ""
+"Bridge operators can check which mechanism their bridge is using, on the "
+"[Relay Search](https://metrics.torproject.org/rs.html#search)."
+msgstr ""
+
+#: https://support.torproject.org/operators/change-bridge-distribution/
+#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+msgid ""
+"Enter the bridge's `<HASHED FINGERPRINT>` in the form and click \"Search\"."
+msgstr ""
+
+#: https://support.torproject.org/operators/change-bridge-distribution/
+#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+msgid "Operators can also choose which distribution method their bridge uses."
+msgstr ""
+
+#: https://support.torproject.org/operators/change-bridge-distribution/
+#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+msgid ""
+"To change the method, modify the `BridgeDistribution` setting in the torrc "
+"file to one of these: https, moat, email, none, any."
+msgstr ""
+
+#: https://support.torproject.org/operators/change-bridge-distribution/
+#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+msgid ""
+"Read more on the Bridges [post-install](https://community.torproject.org/"
+"relay/setup/bridge/post-install/) guide."
+msgstr ""
+
 #: https://support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lr:question.title)
 msgid "Can I run a Tor relay using a dynamic IP address?"
@@ -7440,6 +7484,45 @@ msgid ""
 "read a few bytes from an exit connection (for example, an instant messaging "
 "or ssh connection) and wrap it up into an entire 512 byte cell for transport "
 "through the Tor network."
+msgstr ""
+
+#: https://support.torproject.org/operators/run-relay-in-windows/
+#: (content/operators/run-relay-in-windows/contents+en.lr:question.title)
+msgid "How do I run a relay in Windows?"
+msgstr ""
+
+#: https://support.torproject.org/operators/run-relay-in-windows/
+#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+msgid "You can run a relay in Windows following this tutorials:"
+msgstr ""
+
+#: https://support.torproject.org/operators/run-relay-in-windows/
+#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+msgid ""
+"- For running a [guard relay](https://community.torproject.org/relay/types-"
+"of-relays/#guard-and-middle-relay) in Windows, please read: <https://"
+"community.torproject.org/relay/setup/guard/windows/>"
+msgstr ""
+
+#: https://support.torproject.org/operators/run-relay-in-windows/
+#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+msgid ""
+"- For running a [bridge relay](https://community.torproject.org/relay/types-"
+"of-relays/#bridge) in Windows, please read: <https://community.torproject."
+"org/relay/setup/bridge/windows/>"
+msgstr ""
+
+#: https://support.torproject.org/operators/run-relay-in-windows/
+#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+msgid "You should **only run a Windows relay if you can run it 24/7**."
+msgstr ""
+
+#: https://support.torproject.org/operators/run-relay-in-windows/
+#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+msgid ""
+"If you are unable to guarantee that, [Snowflake](https://snowflake."
+"torproject.org/) is a better way to contribute your resources to the Tor "
+"network."
 msgstr ""
 
 #: https://support.torproject.org/operators/should-i-run-a-relay/
