@@ -1,0 +1,17 @@
+_model: word
+---
+term: moat
+---
+definition:
+
+The interactive tool to get [bridges] from within [Tor Browser].
+
+[Click here], to read more about using moat in the Tor Browser manual.
+
+[bridges]: ../bridge
+[Tor Browser]: ../tor-browser
+[Click here]: https://tb-manual.torproject.org/bridges/#using-moat
+---
+translation:
+---
+spelling:
