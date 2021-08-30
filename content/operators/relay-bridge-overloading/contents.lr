@@ -1,0 +1,23 @@
+_model: question
+---
+title: My relay or bridge is overloading what does this mean?
+---
+description:
+
+On relay search we show an amber dot next to the relay nickname when this is overloading.
+This means that one or many of the following load metrics have been triggered:
+
+- Any OOM invocation due to memory pressure
+- Any ntor onionskins are dropped
+- TCP port exhaustion
+- DNS timeout reached
+
+If you notice that your relay is overloading please:
+
+1. Check https://status.torproject.org/ for any known issues in the "network issues" category.
+2. Consider tuning ``sysctl`` for your system for network, memory and CPU load.
+3. Consider enabling MetricsPort to understand what is happening. Please be careful. It 
+   is important to understand that exposing tor metrics publicly is dangerous to the Tor 
+   network users. Please take extra precaution and care when opening this port. 
+   Set a very strict access policy with MetricsPortPolicy and consider using your operating 
+   systems firewall features for defense in depth.
