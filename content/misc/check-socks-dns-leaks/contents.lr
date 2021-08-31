@@ -4,7 +4,9 @@ title: How do I check if my application that uses SOCKS is leaking DNS requests?
 ---
 description:
 
-Even if your application is using the correct variant of the SOCKS protocol, there is still a risk that it could be leaking DNS queries. This problem happens in Firefox extensions that resolve the destination hostname themselves, for example to show you its IP address, what country it's in, etc. If you suspect your application might behave like this, follow the instructions below to check.
+Even if your application is using the correct variant of the SOCKS protocol, there is still a risk that it could be leaking DNS queries.
+This problem happens in Firefox extensions that resolve the destination hostname themselves, for example to show you its IP address, what country it's in, etc.
+If you suspect your application might behave like this, follow the instructions below to check.
 
 1. Add `TestSocks 1` to your [torrc file](https://support.torproject.org/tbb/tbb-editing-torrc/).
 1. Start Tor, and point your program's SOCKS proxy settings to Tor's SOCKS5 server (`socks5://127.0.0.1:9050` by default).
