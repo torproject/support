@@ -2,7 +2,8 @@ title: Is there a list of default exit ports?
 ---
 description:
 
-The default open ports are listed below but keep in mind that, any port or ports can be opened by the relay operator by configuring it in torrc or modifying the source code. The default according to src/or/policies.c ([line 85][1] and [line 1901][2]) from the source code release [release-0.4.6][3]:
+The default open ports are listed below but keep in mind that, any port or ports can be opened by the relay operator by configuring it in torrc or modifying the source code.
+The default according to src/or/policies.c ([line 85][1] and [line 1901][2]) from the source code release [release-0.4.6][3]:
 
 ```
 reject 0.0.0.0/8
