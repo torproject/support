@@ -1,0 +1,15 @@
+_model: word
+---
+term: moat
+---
+definition:
+
+Moat is an interactive tool you can use to get [bridges](../bridge) from within [Tor Browser](../tor-browser).
+It uses [domain fronting](../domain-fronting) to help you circumvent censorship.
+Moat also employs a [Captcha](../captcha) to prevent a censor from quickly blocking all of the bridges.
+
+[Click here](https://tb-manual.torproject.org/bridges/#using-moat), to read more about using moat in the Tor Browser manual.
+---
+translation:
+---
+spelling:
