@@ -8,6 +8,6 @@ Domain fronting is a censorship circumvention technique which masks the site you
 From the perspective of a censor, it appears like you are connecting to a major service which would be costly for a censor to block, like Microsoft or Google.
 However, it does not make you anonymous, or completely hide your destination like [Tor Browser](../tor-browser) does.
 ---
-translation:
+translation: You can translate this term if it sounds better on your language.
 ---
-spelling:
+spelling: No need to capitalize.
