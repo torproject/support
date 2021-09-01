@@ -1,0 +1,17 @@
+title: Exit policies should be able to block websites, not just IP addresses.
+---
+description:
+
+It would be nice to let relay operators say things like `reject www.slashdot.org` in their exit policies, rather than requiring them to learn all the IP address space that could be covered by the site (and then also blocking other sites at those IP addresses).
+
+There are two problems, though.
+First, users could still get around these blocks.
+For example, they could request the IP address rather than the hostname when they exit from the Tor network.
+This means operators would still need to learn all the IP addresses for the destinations in question.
+
+The second problem is that it would allow remote attackers to censor arbitrary sites.
+For example, if a Tor operator blocks www1.slashdot.org, and then some attacker poisons the Tor relay's DNS or otherwise changes that hostname to resolve to the IP address for a major news site, then suddenly that Tor relay is blocking the news site.
+---
+seo_slug: block-websites
+---
+_slug: block-websites

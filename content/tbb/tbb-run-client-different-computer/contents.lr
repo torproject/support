@@ -1,0 +1,12 @@
+_model: question
+---
+title: I want to run my Tor client on a different computer than my applications
+---
+key: 52
+---
+description:
+
+By default, your Tor client only listens for applications that connect from localhost.
+Connections from other computers are refused.
+If you want to torify applications on different computers than the Tor client, you should edit your torrc to define `SocksListenAddress 0.0.0.0` and then restart (or hup) Tor.
+If you want to get more advanced, you can configure your Tor client on a firewall to bind to your internal IP but not your external IP.

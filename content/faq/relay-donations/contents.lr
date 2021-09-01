@@ -1,0 +1,19 @@
+_model: question
+---
+title: Can I donate for a relay rather than run my own?
+---
+description:
+
+Sure! We have a [list of organizations that run Tor relays](https://community.torproject.org/relay/community-resources/relay-associations/) that are happy to turn your donations into better speed and anonymity for the Tor network.
+
+These organizations are not the same as [The Tor Project, Inc](https://donate.torproject.org/), but we consider that a good thing.
+They're run by nice people who are part of the Tor community.
+
+Note that there can be a tradeoff here between anonymity and performance.
+The Tor network's anonymity comes in part from diversity, so if you are in a position to run your own relay, you will be improving Tor's anonymity more than by donating.
+At the same time though, economies of scale for bandwidth mean that combining many small donations into several larger relays is more efficient at improving network performance.
+Improving anonymity and improving performance are both worthwhile goals, so however you can help is great!
+---
+seo_slug: relay-donations
+---
+_slug: relay-donations

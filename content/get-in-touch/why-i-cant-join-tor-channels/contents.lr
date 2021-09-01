@@ -32,29 +32,17 @@ Every time you log on to IRC, to identify your registered nick, type:
 
 ### How to verify your nickname
 
-Then, to complete the registration and ultimately gain access to the #tor-project channel, your nickname must be **verified**.
+After registering your nickname, to gain access to the #tor-project and other protected channels, your nickname must be **verified**.
 
-1. To verify your nick, open a new browser window and go to https://webchat.oftc.net/?channels=tor.
+1. Go to https://services.oftc.net/ and follow the steps in the '*To verify your account*' section
 
-2. Log in with your IRC nickname and password.
-
-3. Look for the word **verify** and log in there. It may appear that nothing has happened. Look at the top of the page, and there will be a column called **Account**.
-
-4. Click on **Account**.
-
-5. Click on the small sentence at the bottom of the square that says: Verify account.
-
-6. Fill out the Captcha that pops up, and click ok.
-
-7. A tiny message will appear: "Your NickServ account has been verified."
-
-8. Go back to the IRC webpage where you are logged in and type:
+2. Go back to the IRC webpage where you are logged in and type:
 
   `/msg nickserv checkverify`
 
-9. Click ENTER.
+3. Click ENTER.
 
-10. If all is well, you will receive a message that says:
+4. If all is well, you will receive a message that says:
 
 ```
 *!NickServ*checkverify

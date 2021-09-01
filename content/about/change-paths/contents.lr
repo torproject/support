@@ -1,0 +1,16 @@
+title: How often does Tor change its paths?
+---
+key: 10
+---
+description:
+
+Tor will reuse the same circuit for new TCP streams for 10 minutes, as long as the circuit is working fine.
+(If the circuit fails, Tor will switch to a new circuit immediately.)
+
+But note that a single TCP stream (e.g. a long IRC connection) will stay on the same circuit forever.
+We don't rotate individual streams from one circuit to the next.
+Otherwise, an adversary with a partial view of the network would be given many chances over time to link you to your destination, rather than just one chance. 
+---
+seo_slug: change-paths
+---
+_slug: change-paths
