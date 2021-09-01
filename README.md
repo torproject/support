@@ -1,6 +1,8 @@
 # Tor Project Support
 This repository contains the code for the portal dedicated to answering FAQs and providing information necessary for safe and optimal usage of Tor.
 
+[![pipeline status](https://gitlab.torproject.org/tpo/web/support/badges/master/pipeline.svg)](https://gitlab.torproject.org/tpo/web/support/-/commits/master)
+
 The site is accessible at the following locations:
 - https://support.torproject.org/
 - http://rzuwtpc4wb3xdzrj3yeajsvm3fkq4vbeubm2tdxaqruzzzgs5dwemlad.onion/
