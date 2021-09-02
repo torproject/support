@@ -17,9 +17,10 @@ Bugs and feedback issues can be submitted on [GitLab](https://gitlab.torproject.
 Lektor is the static site generator behind this website. Documentation can be found [here.](https://www.getlektor.com/docs/)
 
 ## Contributing
-- [Compile a local version of the site](https://gitlab.torproject.org/web/tpo/wikis/Compiling-a-local-version-of-the-website) (clone the correct repository).
-- [Developing on the site](https://gitlab.torproject.org/web/tpo/wikis/How-to-develop-on-the-website)
-- [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/torproject/web/tpo/wikis/Writing-the-content)
+- [Compile a local version of the site](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/Compiling-a-local-version-of-the-website) (clone the correct repository).
+- [Developing on the site](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/How-to-develop-on-the-website)
+- [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/Writing-the-content)
+- [Documentation on how to install, modify and use websites from the Tor project.](https://gitlab.torproject.org/tpo/web/wiki)
 
 ## Translations
 
