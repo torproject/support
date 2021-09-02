@@ -20,6 +20,7 @@ Lektor is the static site generator behind this website. Documentation can be fo
 - [Compile a local version of the site](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/Compiling-a-local-version-of-the-website) (clone the correct repository).
 - [Developing on the site](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/How-to-develop-on-the-website)
 - [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/Writing-the-content)
+- [Documentation on how to install, modify and use websites from the Tor project.](https://gitlab.torproject.org/tpo/web/wiki)
 
 ## Translations
 
