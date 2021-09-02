@@ -44,11 +44,11 @@ pages:
     - lektor plugins reinstall
     - echo 'building lektor 3 times to get translations in place'
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
+    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - echo 'lets see if there are any updates in the strings for translation'
     - l10n/bin/check_po_status.py support-portal
     - echo 'lets check translations links'
     - pip3 install polib
-    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - l10n/bin/check_markdown_links.py i18n/
   artifacts:
     paths:
