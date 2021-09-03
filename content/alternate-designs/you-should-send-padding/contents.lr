@@ -1,0 +1,18 @@
+title: You should send padding so it's more secure.
+---
+description:
+Like all anonymous communication networks that are fast enough for web browsing, Tor is vulnerable to statistical "traffic confirmation" attacks, where the adversary watches traffic at both ends of a circuit and confirms their guess that those endpoints are communicating. It would be really nice if we could use cover traffic to confuse this attack. But there are three problems here:
+
+- Cover traffic is really expensive. And *every* user needs to be doing it. This adds up to a lot of extra bandwidth cost for our volunteer operators, and they're already pushed to the limit.
+- You'd need to always be sending traffic, meaning you'd need to always be online. Otherwise, you'd need to be sending end-to-end cover traffic -- not just to the first hop, but all the way to your final destination -- to prevent the adversary from correlating presence of traffic at the destination to times when you're online. What does it mean to send cover traffic to -- and from -- a web server? That is not supported in most protocols.
+- Even if you *could* send full end-to-end padding between all users and all destinations all the time, you're *still* vulnerable to active attacks that block the padding for a short time at one end and look for patterns later in the path.
+
+In short, for a system like Tor that aims to be fast, we don't see any use for padding, and it would definitely be a serious usability problem. We hope that one day somebody will prove us wrong, but we are not optimistic.
+
+We did however since [implement netflow padding](https://gitweb.torproject.org/torspec.git/tree/proposals/251-netflow-padding.txt) to collapse netflow records for improved security. Now padding is sent between a client's Tor connection and its guard bidirectionally at a random interval that we control from the consensus, with a default of 4 to 14 seconds if the connection is idle. This has the goal of stymying some of the potential traffic analysis attacks out there -- website fingerprinting, end-to-end correlation, and the things in between.
+
+For details see the [blog post](https://blog.torproject.org/blog/network-team-hackfest-wilmington-watch) by the Tor network team, the [announcement](https://lists.torproject.org/pipermail/tor-dev/2015-August/009326.html) on the tor-dev mailinglist or read further [publications](https://www.freehaven.net/anonbib/bibtex.html) on padding.
+---
+seo_slug: you-should-send-padding
+---
+_slug: you-should-send-padding
