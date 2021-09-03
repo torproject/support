@@ -15,12 +15,14 @@ Next, exclude the following processes:
   * firefox.exe
   * tor.exe
   * obfs4proxy.exe (if you use bridges)
+  * snowflake-client.exe
 
 
 * For macOS
   * TorBrowser
   * tor.real
   * obfs4proxy (if you use bridges)
+  * snowflake-client
 
 Finally, restart Tor Browser.
 This should fix the issues you're experiencing.
