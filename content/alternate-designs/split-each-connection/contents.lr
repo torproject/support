@@ -1,0 +1,14 @@
+title: You should split each connection over many paths
+---
+description:
+We don't currently think this is a good idea. You see, the attacks we're worried about are at the endpoints: the adversary watches Alice (or the first hop in the path) and Bob (or the last hop in the path) and learns that they are communicating.
+
+If we make the assumption that timing attacks work well on even a few packets end-to-end, then having more possible ways for the adversary to observe the connection seems to hurt anonymity, not help it.
+
+Now, it's possible that we could make ourselves more resistant to end-to-end attacks with a little bit of padding and by making each circuit send and receive a fixed number of cells. This approach is more well-understood in the context of high-latency systems. See e.g. [Message Splitting Against the Partial Adversary by Andrei Serjantov and Steven J. Murdoch](http://freehaven.net/anonbib/#pet05-serjantov).
+
+But since we don't currently understand what network and padding parameters, if any, could provide increased end-to-end security, our current strategy is to minimize the number of places that the adversary could possibly see.
+---
+seo_slug: split-each-connection
+---
+_slug: split-each-connection
