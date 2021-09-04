@@ -2,7 +2,7 @@ title: You should make every Tor user be a relay.
 ---
 description:
 
-Requiring every Tor user to be a relay would help with scaling the network to handle all our users, and [running a Tor relay may help your anonymity](../../operators/better-anonymity).
+Requiring every Tor user to be a relay would help with scaling the network to handle all our users, and [running a Tor relay may help your anonymity](../../relay-operators/better-anonymity).
 However, many Tor users cannot be good relays — for example, some Tor clients operate from behind restrictive firewalls, connect via modem, or otherwise aren't in a position where they can relay traffic.
 Providing service to these clients is a critical part of providing effective anonymity for everyone, since many Tor users are subject to these or similar constraints and including these clients increases the size of the anonymity set.
 
