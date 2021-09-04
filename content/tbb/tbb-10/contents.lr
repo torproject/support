@@ -22,7 +22,7 @@ Next, exclude the following processes:
   * TorBrowser
   * tor.real
   * obfs4proxy (if you use bridges)
-  * snowflake-client.exe
+  * snowflake-client
 
 Finally, restart Tor Browser.
 This should fix the issues you're experiencing.
