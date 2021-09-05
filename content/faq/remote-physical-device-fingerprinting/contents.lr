@@ -1,0 +1,15 @@
+_model: question
+---
+title: Does Tor resist "remote physical device fingerprinting"?
+---
+description:
+
+Yes, we resist all of these attacks as far as we know.
+
+These attacks come from examining characteristics of the IP headers or TCP headers and looking for information leaks based on individual hardware signatures. One example is the [Oakland 2005 paper](http://www.caida.org/outreach/papers/2005/fingerprinting/) that lets you learn if two packet streams originated from the same hardware, but only if you can see the original TCP timestamps.
+
+Tor transports TCP streams, not IP packets, so we end up automatically scrubbing a lot of the potential information leaks. Because Tor relays use their own (new) IP and TCP headers at each hop, this information isn't relayed from hop to hop. Of course, this also means that we're limited in the protocols we can transport (only correctly-formed TCP, not all IP like ZKS's Freedom network could) -- but maybe that's a good thing at this stage.
+---
+seo_slug: remote-physical-device-fingerprinting
+---
+_slug: remote-physical-device-fingerprinting
