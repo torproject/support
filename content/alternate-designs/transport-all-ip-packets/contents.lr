@@ -2,7 +2,10 @@ title: You should transport all IP packets, not just TCP packets.
 ---
 description:
 
-This would be handy, because it would make Tor better able to handle new protocols like VoIP, it could solve the whole need to socksify applications, and it would solve the fact that exit relays need to allocate a lot of file descriptors to hold open all the exit connections.
+This would be handy for a number of reasons:
+It would make Tor better able to handle new protocols like VoIP.
+It could solve the whole need to socksify applications.
+Exit relays would also not need to allocate a lot of file descriptors for all the exit connections.
 
 We're heading in this direction. Some of the hard problems are:
 
@@ -23,8 +26,10 @@ We're heading in this direction. Some of the hard problems are:
 5. Exit policies for arbitrary IP packets mean building a secure IDS.
    Our node operators tell us that exit policies are one of the main reasons they're willing to run Tor.
    Adding an Intrusion Detection System to handle exit policies would increase the security complexity of Tor, and would likely not work anyway, as evidenced by the entire field of IDS and counter-IDS papers.
-   Many potential abuse issues are resolved by the fact that Tor only transports valid TCP streams (as opposed to arbitrary IP including malformed packets and IP floods), so exit policies become even more important as we become able to transport IP packets.
-   We also need to compactly describe exit policies in the Tor directory, so clients can predict which nodes will allow their packets to exit — and clients need to predict all the packets they will want to send in a session before picking their exit node!
+   Many potential abuse issues are resolved by the fact that Tor only transports valid TCP streams (as opposed to arbitrary IP including malformed packets and IP floods.)
+   Exit policies become even more important as we become able to transport IP packets.
+   We also need to compactly describe exit policies in the Tor directory, so clients can predict which nodes will allow their packets to exit.
+   Clients also need to predict all the packets they will want to send in a session before picking their exit node!
 
 6. The Tor-internal name spaces would need to be redesigned.
    We support onion service ".onion" addresses by intercepting the addresses when they are passed to the Tor client.
