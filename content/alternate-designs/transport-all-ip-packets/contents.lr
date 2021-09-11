@@ -5,7 +5,7 @@ description:
 This would be handy for a number of reasons:
 It would make Tor better able to handle new protocols like VoIP.
 It could solve the whole need to socksify applications.
-Exit relays would also not need to allocate a lot of file descriptors for all the exit connections.
+[Exit relays](../../glossary/exit) would also not need to allocate a lot of file descriptors for all the exit connections.
 
 We're heading in this direction. Some of the hard problems are:
 
