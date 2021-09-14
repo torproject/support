@@ -4,7 +4,7 @@ title: I can’t connect to Tor Browser, is my network censored?
 ---
 seo_slug: cannot-connect-to-tor-browser-network-censored
 ---
-key: 4
+key: 11
 ---
 description: 
 You might be on a network that is blocking the Tor network, and so you should try using bridges.

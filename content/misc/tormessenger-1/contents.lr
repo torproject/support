@@ -1,0 +1,10 @@
+_model: question
+---
+title: Does Tor Project make an application for private chat?
+---
+seo_slug: tor-project-app-for-private-chat
+---
+description:
+No. After eleven beta releases, we discontinued support of [Tor Messenger](https://blog.torproject.org/sunsetting-tor-messenger).
+We still believe in Tor's ability to be used in a messaging app, but we don't have the resources to make it happen right now.
+Do you? [Contact us](https://www.torproject.org/contact).
