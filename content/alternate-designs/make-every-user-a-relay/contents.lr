@@ -12,7 +12,7 @@ We've made a lot of progress with easy configuration in the past few years: Tor 
 There are four steps we need to address before we can do this though:
 
 - First, we still need to get better at automatically estimating the right amount of bandwidth to allow.
-  It might be that switching to UDP transport is the simplest answer here — which alas is not a very simple answer at all.
+  It might be that [switching to UDP transport](../transport-all-ip-packets) is the simplest answer here — which alas is not a very simple answer at all.
 
 - Second, we need to work on scalability, both of the network (how to stop requiring that all Tor relays be able to connect to all Tor relays) and of the directory (how to stop requiring that all Tor users know about all Tor relays).
   Changes like this can have large impact on potential and actual anonymity.
