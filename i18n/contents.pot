@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-01 12:20+CET\n"
+"POT-Creation-Date: 2021-09-15 09:35+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -36,29 +36,11 @@ msgstr ""
 msgid "Tor Browser"
 msgstr ""
 
-#: https://support.torproject.org/tormessenger/
-#: (content/tormessenger/contents+en.lr:topic.title)
-#: https://support.torproject.org/glossary/tor-messenger/
-#: (content/glossary/tor-messenger/contents+en.lr:word.term)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Tor Messenger"
-msgstr ""
-
 #: https://support.torproject.org/tormobile/
 #: (content/tormobile/contents+en.lr:topic.title)
 #: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
 msgid "Tor Mobile"
-msgstr ""
-
-#: https://support.torproject.org/gettor/
-#: (content/gettor/contents+en.lr:topic.title)
-#: https://support.torproject.org/glossary/gettor/
-#: (content/glossary/gettor/contents+en.lr:word.term)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "GetTor"
 msgstr ""
 
 #: https://support.torproject.org/connecting/
@@ -84,11 +66,9 @@ msgstr ""
 msgid "HTTPS"
 msgstr ""
 
-#: https://support.torproject.org/operators/
-#: (content/operators/contents+en.lr:topic.title)
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
-msgid "Operators"
+#: https://support.torproject.org/relay-operators/
+#: (content/relay-operators/contents+en.lr:topic.title)
+msgid "Relay Operators"
 msgstr ""
 
 #: https://support.torproject.org/onionservices/
@@ -132,6 +112,11 @@ msgstr ""
 #: https://support.torproject.org/glossary/metrics/
 #: (content/glossary/metrics/contents+en.lr:word.term)
 msgid "Tor Metrics"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/
+#: (content/little-t-tor/contents+en.lr:topic.title)
+msgid "Little-t-tor"
 msgstr ""
 
 #: https://support.torproject.org/alternate-designs/
@@ -504,6 +489,43 @@ msgid ""
 "together with the other directory authorities."
 msgstr ""
 
+#: https://support.torproject.org/glossary/domain-fronting/
+#: (content/glossary/domain-fronting/contents+en.lr:word.term)
+msgid "domain fronting"
+msgstr ""
+
+#: https://support.torproject.org/glossary/domain-fronting/
+#: (content/glossary/domain-fronting/contents+en.lr:word.definition)
+msgid ""
+"Domain fronting is a censorship circumvention technique which masks the site "
+"you are connecting to."
+msgstr ""
+
+#: https://support.torproject.org/glossary/domain-fronting/
+#: (content/glossary/domain-fronting/contents+en.lr:word.definition)
+msgid ""
+"From the perspective of a censor, it appears like you are connecting to a "
+"major service which would be costly for a censor to block, like Microsoft or "
+"Google."
+msgstr ""
+
+#: https://support.torproject.org/glossary/domain-fronting/
+#: (content/glossary/domain-fronting/contents+en.lr:word.definition)
+msgid ""
+"However, it does not make you anonymous, or completely hide your destination "
+"like [Tor Browser](../tor-browser) does."
+msgstr ""
+
+#: https://support.torproject.org/glossary/domain-fronting/
+#: (content/glossary/domain-fronting/contents+en.lr:word.spelling)
+msgid "No need to capitalize."
+msgstr ""
+
+#: https://support.torproject.org/glossary/domain-fronting/
+#: (content/glossary/domain-fronting/contents+en.lr:word.translation)
+msgid "You can translate this term if it sounds better on your language."
+msgstr ""
+
 #: https://support.torproject.org/glossary/encryption/
 #: (content/glossary/encryption/contents+en.lr:word.term)
 msgid "encryption"
@@ -527,8 +549,9 @@ msgstr ""
 #: https://support.torproject.org/glossary/end-to-end-encrypted/
 #: (content/glossary/end-to-end-encrypted/contents+en.lr:word.definition)
 msgid ""
-"Transmitted data which is [encrypted](../encryption) from origin to "
-"destination is called end-to-end encrypted."
+"Transmitted data which is [encrypted](../encryption) directly from origin to "
+"destination is called end-to-end encryption. This helps ensure the data or "
+"message being sent is only read by the sending and receiving party."
 msgstr ""
 
 #: https://support.torproject.org/glossary/exit/
@@ -656,6 +679,13 @@ msgstr ""
 msgid ""
 "FTE (format-transforming encryption) is a pluggable transport that disguises "
 "[Tor traffic](../traffic) as ordinary web (HTTP) traffic."
+msgstr ""
+
+#: https://support.torproject.org/glossary/gettor/
+#: (content/glossary/gettor/contents+en.lr:word.term)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "GetTor"
 msgstr ""
 
 #: https://support.torproject.org/glossary/gettor/
@@ -925,6 +955,39 @@ msgid ""
 "users."
 msgstr ""
 
+#: https://support.torproject.org/glossary/moat/
+#: (content/glossary/moat/contents+en.lr:word.term)
+msgid "moat"
+msgstr ""
+
+#: https://support.torproject.org/glossary/moat/
+#: (content/glossary/moat/contents+en.lr:word.definition)
+msgid ""
+"Moat is an interactive tool you can use to get [bridges](../bridge) from "
+"within [Tor Browser](../tor-browser)."
+msgstr ""
+
+#: https://support.torproject.org/glossary/moat/
+#: (content/glossary/moat/contents+en.lr:word.definition)
+msgid ""
+"It uses [domain fronting](../domain-fronting) to help you circumvent "
+"censorship."
+msgstr ""
+
+#: https://support.torproject.org/glossary/moat/
+#: (content/glossary/moat/contents+en.lr:word.definition)
+msgid ""
+"Moat also employs a [Captcha](../captcha) to prevent a censor from quickly "
+"blocking all of the bridges."
+msgstr ""
+
+#: https://support.torproject.org/glossary/moat/
+#: (content/glossary/moat/contents+en.lr:word.definition)
+msgid ""
+"[Click here](https://tb-manual.torproject.org/bridges/#using-moat), to read "
+"more about using moat in the Tor Browser manual."
+msgstr ""
+
 #: https://support.torproject.org/glossary/network-censorship/
 #: (content/glossary/network-censorship/contents+en.lr:word.term)
 msgid "network censorship"
@@ -938,7 +1001,7 @@ msgid ""
 "service-provider-isp) or by a government. Tor Browser includes some "
 "circumvention tools for getting around these blocks, including [bridges](../"
 "bridge), [pluggable transports](../pluggable-transports), and [GetTor](../"
-"gettor)."
+"censorship/gettor-1)."
 msgstr ""
 
 #: https://support.torproject.org/glossary/new-identity/
@@ -1798,6 +1861,13 @@ msgstr ""
 msgid ""
 "You should see an option to copy the log to your clipboard, which you can "
 "then paste to a document to show whoever is helping you troubleshoot."
+msgstr ""
+
+#: https://support.torproject.org/glossary/tor-messenger/
+#: (content/glossary/tor-messenger/contents+en.lr:word.term)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Tor Messenger"
 msgstr ""
 
 #: https://support.torproject.org/glossary/tor-messenger/
@@ -3642,16 +3712,15 @@ msgstr ""
 #: (content/tbb/fake-tbb/contents+en.lr:question.description)
 msgid ""
 "After downloading, you can make sure that you have the official version of "
-"Tor Browser by [verifying the signature](https://support.torproject.org/tbb/"
-"how-to-verify-signature/)."
+"Tor Browser by [verifying the signature](/tbb/how-to-verify-signature/)."
 msgstr ""
 
 #: https://support.torproject.org/tbb/fake-tbb/
 #: (content/tbb/fake-tbb/contents+en.lr:question.description)
 msgid ""
-"If you are not able to access our website, then visit [censorship section]"
-"(https://support.torproject.org/censorship/censorship-3/) to get information "
-"about alternate way of downloading Tor Browser."
+"If you are not able to access our website, then visit [censorship section](/"
+"censorship/gettor-1) to get information about alternate way of downloading "
+"Tor Browser."
 msgstr ""
 
 #: https://support.torproject.org/tbb/fake-tbb/
@@ -3666,6 +3735,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "Digital signature is a process ensuring that a certain package was generated "
 "by its developers and has not been tampered with."
@@ -3689,6 +3760,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "They allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
@@ -3711,6 +3784,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "These are example file names and will not exactly match the file names that "
 "you download."
@@ -3718,6 +3793,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "We now show how you can verify the downloaded file's digital signature on "
 "different operating systems."
@@ -3725,6 +3802,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "Please notice that a signature is dated the moment the package has been "
 "signed."
@@ -3732,6 +3811,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "Therefore every time a new file is uploaded a new signature is generated "
 "with a different date."
@@ -3739,6 +3820,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "As long as you have verified the signature you should not worry that the "
 "reported date may vary."
@@ -3746,11 +3829,15 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "### Installing GnuPG"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "First of all you need to have GnuPG installed before you can verify "
 "signatures."
@@ -3758,11 +3845,15 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "#### For Windows users:"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "If you run Windows, [download Gpg4win](https://gpg4win.org/download.html) "
 "and run its installer."
@@ -3770,6 +3861,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "In order to verify the signature you will need to type a few commands in "
 "windows command-line, `cmd.exe`."
@@ -3777,17 +3870,23 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "#### For macOS users:"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "If you are using macOS, you can [install GPGTools](https://gpgtools.org)."
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "In order to verify the signature you will need to type a few commands in the "
 "Terminal (under \"Applications\")."
@@ -3795,11 +3894,15 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "#### For GNU/Linux users:"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "If you are using GNU/Linux, then you probably already have GnuPG in your "
 "system, as most GNU/Linux distributions come with it preinstalled."
@@ -3814,6 +3917,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "### Fetching the Tor Developers key"
 msgstr ""
 
@@ -3837,6 +3942,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "This should show you something like:"
 msgstr ""
 
@@ -3849,11 +3956,15 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "gpg: Total number processed: 1"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "gpg:               imported: 1"
 msgstr ""
 
@@ -3889,6 +4000,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "After importing the key, you can save it to a file (identifying it by its "
 "fingerprint here):"
@@ -3903,6 +4016,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "This command results in the key being saved to a file found at the path `./"
 "tor.keyring`, i.e. in the current directory."
@@ -3910,6 +4025,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "If `./tor.keyring` doesn't exist after running this command, something has "
 "gone wrong and you cannot continue until you've figured out why this didn't "
@@ -3918,11 +4035,15 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "### Verifying the signature"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "To verify the signature of the package you downloaded, you will need to "
 "download the corresponding \".asc\" signature file as well as the installer "
@@ -3932,6 +4053,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "The examples below assume that you downloaded these two files to your "
 "\"Downloads\" folder."
@@ -3939,6 +4062,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "Note that these commands use example file names and yours will be different: "
 "you will have downloaded a different version than 9.0 and you may not have "
@@ -3974,6 +4099,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "The result of the command should produce something like this:"
 msgstr ""
 
@@ -3996,6 +4123,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "If you get error messages containing 'No such file or directory', either "
 "something went wrong with one of the previous steps, or you forgot that "
@@ -4004,11 +4133,15 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid "#### Workaround (using a public key)"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "If you encounter errors you cannot fix, feel free to [download and use this "
 "public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/"
@@ -4018,6 +4151,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject."
 "org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -"
@@ -4047,6 +4182,8 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
 "You may also want to [learn more about GnuPG](https://www.gnupg.org/"
 "documentation/)."
@@ -4188,6 +4325,11 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
+msgid "* snowflake-client.exe"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-10/
+#: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* For macOS"
 msgstr ""
 
@@ -4204,6 +4346,11 @@ msgstr ""
 #: https://support.torproject.org/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lr:question.description)
 msgid "* obfs4proxy (if you use bridges)"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-10/
+#: (content/tbb/tbb-10/contents+en.lr:question.description)
+msgid "* snowflake-client"
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-10/
@@ -4507,8 +4654,8 @@ msgstr ""
 #: https://support.torproject.org/tbb/tbb-18/
 #: (content/tbb/tbb-18/contents+en.lr:question.description)
 msgid ""
-"There is something called the [TorBSD project](https://www.torbsd.org/), but "
-"their Tor Browser is not officially supported."
+"There is something called the [TorBSD project](https://torbsd.github.io/), "
+"but their Tor Browser is not officially supported."
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-2/
@@ -5445,26 +5592,84 @@ msgstr ""
 #: https://support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lr:question.description)
 msgid ""
-"You can set Proxy IP address, port, and authentication information in [Tor "
-"Browser's Network Settings](https://tb-manual.torproject.org/running-tor-"
-"browser/). If you're using Tor another way, check out the HTTPProxy and "
-"HTTPSProxy config options in the [manual page](https://2019.www.torproject."
-"org/docs/tor-manual.html.en), and modify your torrc file accordingly. You "
-"will need an HTTP proxy for doing GET requests to fetch the Tor directory, "
-"and you will need an HTTPS proxy for doing CONNECT requests to get to Tor "
-"relays. (It's fine if they're the same proxy.) Tor also recognizes the torrc "
-"options Socks4Proxy and Socks5Proxy."
+"If you're using Tor Browser, you can set your proxy's address, port, and "
+"authentication information in the [Network Settings](https://tb-manual."
+"torproject.org/running-tor-browser/)."
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lr:question.description)
 msgid ""
-"Also, read up on the HTTPProxyAuthenticator and HTTPSProxyAuthenticator "
-"options if your [proxy requires auth.](https://developer.mozilla.org/en-US/"
-"docs/Web/HTTP/Headers/Proxy-Authenticate) We only support basic auth "
-"currently, but if you need NTLM authentication, you may find [this post in "
-"the archives](https://archives.seul.org/or/talk/Jun-2005/msg00223.html) "
-"useful."
+"If you're using Tor another way, you can set the proxy information in your "
+"torrc file. Check out the `HTTPSProxy` config option in the [manual page]"
+"(https://2019.www.torproject.org/docs/tor-manual.html.en#HTTPSProxy). If "
+"your proxy requires authentication, see the `HTTPSProxyAuthenticator` "
+"option. Example with authentication:"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+#: https://support.torproject.org/tbb/tbb-firewall-ports/
+#: (content/tbb/tbb-firewall-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/tbb/tbb-install-tor-central-server/
+#: (content/tbb/tbb-install-tor-central-server/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/misc/bug-or-feedback/
+#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
+#: https://support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
+#: (content/get-in-touch/why-i-cant-join-tor-channels/contents+en.lr:question.description)
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/apt-1/contents+en.lr:question.description)
+#: https://support.torproject.org/apt/apt-over-tor/
+#: (content/apt/apt-3/contents+en.lr:question.description)
+msgid "```"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+msgid "HTTPSProxy 10.0.0.1:8080"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+msgid "HTTPSProxyAuthenticator myusername:mypass"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+msgid ""
+"We only support Basic auth currently, but if you need NTLM authentication, "
+"you may find [this post in the archives](https://archives.seul.org/or/talk/"
+"Jun-2005/msg00223.html) useful."
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+msgid ""
+"For using a SOCKS proxy, see the `Socks4Proxy`, `Socks5Proxy`, and related "
+"torrc options in the [manual page](https://2019.www.torproject.org/docs/tor-"
+"manual.html.en#Socks4Proxy). Using a SOCKS 5 proxy with authentication might "
+"look like this:"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+msgid "Socks5Proxy 10.0.0.1:1080"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+msgid "Socks5ProxyUsername myuser"
+msgstr ""
+
+#: https://support.torproject.org/tbb/tbb-47/
+#: (content/tbb/tbb-47/contents+en.lr:question.description)
+msgid "Socks5ProxyPassword mypass"
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-47/
@@ -5721,27 +5926,6 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-firewall-ports/
 #: (content/tbb/tbb-firewall-ports/contents+en.lr:question.description)
-#: https://support.torproject.org/tbb/tbb-install-tor-central-server/
-#: (content/tbb/tbb-install-tor-central-server/contents+en.lr:question.description)
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
-#: https://support.torproject.org/misc/bug-or-feedback/
-#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
-#: https://support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
-#: (content/get-in-touch/why-i-cant-join-tor-channels/contents+en.lr:question.description)
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-#: https://support.torproject.org/apt/apt-over-tor/
-#: (content/apt/apt-3/contents+en.lr:question.description)
-msgid "```"
-msgstr ""
-
-#: https://support.torproject.org/tbb/tbb-firewall-ports/
-#: (content/tbb/tbb-firewall-ports/contents+en.lr:question.description)
 msgid "ReachableDirAddresses *:80"
 msgstr ""
 
@@ -5964,30 +6148,6 @@ msgid ""
 "X.onion!](../../onionservices/onionservices-3)."
 msgstr ""
 
-#: https://support.torproject.org/tormessenger/tormessenger-1/
-#: (content/tormessenger/tormessenger-1/contents+en.lr:question.title)
-msgid "Does Tor Project make an application for private chat?"
-msgstr ""
-
-#: https://support.torproject.org/tormessenger/tormessenger-1/
-#: (content/tormessenger/tormessenger-1/contents+en.lr:question.description)
-msgid ""
-"No. After eleven beta releases, we discontinued support of [Tor Messenger]"
-"(https://blog.torproject.org/sunsetting-tor-messenger)."
-msgstr ""
-
-#: https://support.torproject.org/tormessenger/tormessenger-1/
-#: (content/tormessenger/tormessenger-1/contents+en.lr:question.description)
-msgid ""
-"We still believe in Tor's ability to be used in a messaging app, but we "
-"don't have the resources to make it happen right now."
-msgstr ""
-
-#: https://support.torproject.org/tormessenger/tormessenger-1/
-#: (content/tormessenger/tormessenger-1/contents+en.lr:question.description)
-msgid "Do you? [Contact us](https://www.torproject.org/contact)."
-msgstr ""
-
 #: https://support.torproject.org/tormobile/tormobile-1/
 #: (content/tormobile/tormobile-1/contents+en.lr:question.title)
 msgid "Can I run Tor Browser on an Android device?"
@@ -6150,114 +6310,6 @@ msgstr ""
 msgid ""
 "[Learn how to add a repository to F-Droid](https://f-droid.org/en/tutorials/"
 "add-repo/)."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-1/
-#: (content/gettor/gettor-1/contents+en.lr:question.title)
-msgid "How do I download Tor Browser if the torproject.org is blocked?"
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-1/
-#: (content/gettor/gettor-1/contents+en.lr:question.description)
-msgid ""
-"If you can't download Tor Browser through our [website](https://www."
-"torproject.org), you can get a copy of Tor Browser delivered to you via "
-"[GetTor](https://gettor.torproject.org/)."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-1/
-#: (content/gettor/gettor-1/contents+en.lr:question.description)
-msgid ""
-"GetTor is a service that automatically responds to messages with links to "
-"the latest version of Tor Browser, hosted at a variety of locations that are "
-"less likely to be censored, such as Dropbox, Google Drive, and GitHub."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-1/
-#: (content/gettor/gettor-1/contents+en.lr:question.description)
-msgid ""
-"You can also download Tor Browser from [https://tor.eff.org](https://tor.eff."
-"org) or from [https://tor.ccc.de](https://tor.ccc.de)."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-1/
-#: (content/gettor/gettor-1/contents+en.lr:question.description)
-msgid ""
-"For more geographically specific links visit [Tor: Mirrors](https://2019.www."
-"torproject.org/getinvolved/mirrors.html.en)"
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-2/
-#: (content/gettor/gettor-2/contents+en.lr:question.title)
-msgid "To use GetTor via email."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-2/
-#: (content/gettor/gettor-2/contents+en.lr:question.description)
-msgid "Send an email to gettor@torproject.org."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-2/
-#: (content/gettor/gettor-2/contents+en.lr:question.description)
-msgid ""
-"In the body of the mail, write the name of your operating system (such as "
-"Windows, macOS, or Linux)."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-2/
-#: (content/gettor/gettor-2/contents+en.lr:question.description)
-msgid ""
-"GetTor will respond with an email containing links from which you can "
-"download Tor Browser, the cryptographic signature (needed for [verifying the "
-"download](/tbb/how-to-verify-signature/)), the fingerprint of the key used "
-"to make the signature, and the package’s checksum."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-2/
-#: (content/gettor/gettor-2/contents+en.lr:question.description)
-msgid ""
-"You may be offered a choice of \"32-bit\" or \"64-bit\" software: this "
-"depends on the model of the computer you are using; consult documentation "
-"about your computer to find out more."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-3/
-#: (content/gettor/gettor-3/contents+en.lr:question.title)
-msgid "To use GetTor via Twitter."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-3/
-#: (content/gettor/gettor-3/contents+en.lr:question.description)
-msgid ""
-"GetTor via Twitter is currently under maintenance. Please use the [email]"
-"(https://support.torproject.org/gettor/gettor-2) instead."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-4/
-#: (content/gettor/gettor-4/contents+en.lr:question.title)
-msgid "To use GetTor via XMPP (Jitsi, CoyIM)."
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-4/
-#: (content/gettor/gettor-4/contents+en.lr:question.description)
-msgid ""
-"To get links for downloading Tor Browser, send a message to "
-"gettor@torproject.org with one of the following codes in it:"
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-4/
-#: (content/gettor/gettor-4/contents+en.lr:question.description)
-msgid "* Linux"
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-4/
-#: (content/gettor/gettor-4/contents+en.lr:question.description)
-msgid "* macOS (OS X)"
-msgstr ""
-
-#: https://support.torproject.org/gettor/gettor-4/
-#: (content/gettor/gettor-4/contents+en.lr:question.description)
-msgid "* Windows"
 msgstr ""
 
 #: https://support.torproject.org/connecting/connecting-1/
@@ -6770,6 +6822,188 @@ msgid ""
 "circumvention/) for more info."
 msgstr ""
 
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.title)
+msgid "How to circumvent the Great Firewall and connect to Tor from China?"
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"Users in China need to take a few steps to circumvent the [Great Firewall]"
+"(https://en.wikipedia.org/wiki/Great_Firewall) and connect to the Tor "
+"network."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"First, get an updated version of Tor Browser: send an email to "
+"[gettor@torproject.org](mailto:gettor@torproject.org) with the subject "
+"\"windows zh-cn\" or other operating system (linux or macos)"
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"After installing Tor Browser, you will probably not be able to connect "
+"directly to the Tor network, because the Great Firewall is blocking Tor."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"Therefore, the second step will be to obtain a bridge that works in China."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid "There are three options to unblock Tor in China:"
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"1. **meek-azure:** it looks like you are browsing a Microsoft website "
+"instead of using Tor."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"However, because it has a bandwidth limitation, this option will be quite "
+"slow."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid "You can select meek-azure from Tor Browser's built-in bridges dropdown."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"1. **[Snowflake](/censorship/what-is-snowflake/):** uses ephemeral proxies "
+"to connect to the Tor network."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid "It's available in Tor Browser stable version (Desktop and Android)."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"You can select Snowflake from Tor Browser's [built-in bridge dropdown](/"
+"censorship/how-can-i-use-snowflake/)."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"1. **Private and unlisted obfs4 bridges:** users will need to request a "
+"private bridge to [frontdesk@torproject.org](mailto:frontdesk@torproject."
+"org) or, if they are tech-savvy, they can run their own [obfs4 bridge]"
+"(https://community.torproject.org/relay/setup/bridge/) from outside China."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"It's important to note that bridges distributed by BridgeDB ([HTTPS](https://"
+"bridges.torproject.org), email), and built-in obfs4 bridges bundled in Tor "
+"Browser most likely won't work."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"If one of these options below is not working, check your [Tor logs](https://"
+"support.torproject.org/connecting/connecting-2/) and try another option."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-1/
+#: (content/censorship/gettor-1/contents+en.lr:question.title)
+msgid "How do I download Tor Browser if the torproject.org is blocked?"
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-1/
+#: (content/censorship/gettor-1/contents+en.lr:question.description)
+msgid ""
+"If you can't download Tor Browser through our [website](https://www."
+"torproject.org), you can get a copy of Tor Browser delivered to you via "
+"[GetTor](https://gettor.torproject.org/)."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-1/
+#: (content/censorship/gettor-1/contents+en.lr:question.description)
+msgid ""
+"GetTor is a service that automatically responds to messages with links to "
+"the latest version of Tor Browser, hosted at a variety of locations that are "
+"less likely to be censored, such as Dropbox, Google Drive, and GitHub."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-1/
+#: (content/censorship/gettor-1/contents+en.lr:question.description)
+msgid ""
+"You can also download Tor Browser from [https://tor.eff.org](https://tor.eff."
+"org) or from [https://tor.ccc.de](https://tor.ccc.de)."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-1/
+#: (content/censorship/gettor-1/contents+en.lr:question.description)
+msgid ""
+"For more geographically specific links visit [Tor: Mirrors](https://2019.www."
+"torproject.org/getinvolved/mirrors.html.en)"
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-2/
+#: (content/censorship/gettor-2/contents+en.lr:question.title)
+msgid "To use GetTor via email."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-2/
+#: (content/censorship/gettor-2/contents+en.lr:question.description)
+msgid "Send an email to gettor@torproject.org."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-2/
+#: (content/censorship/gettor-2/contents+en.lr:question.description)
+msgid ""
+"In the body of the mail, write the name of your operating system (such as "
+"Windows, macOS, or Linux)."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-2/
+#: (content/censorship/gettor-2/contents+en.lr:question.description)
+msgid ""
+"GetTor will respond with an email containing links from which you can "
+"download Tor Browser, the cryptographic signature (needed for [verifying the "
+"download](/tbb/how-to-verify-signature/)), the fingerprint of the key used "
+"to make the signature, and the package’s checksum."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-2/
+#: (content/censorship/gettor-2/contents+en.lr:question.description)
+msgid ""
+"You may be offered a choice of \"32-bit\" or \"64-bit\" software: this "
+"depends on the model of the computer you are using; consult documentation "
+"about your computer to find out more."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-3/
+#: (content/censorship/gettor-3/contents+en.lr:question.title)
+msgid "To use GetTor via Twitter."
+msgstr ""
+
+#: https://support.torproject.org/censorship/gettor-3/
+#: (content/censorship/gettor-3/contents+en.lr:question.description)
+msgid ""
+"GetTor via Twitter is currently under maintenance. Please use the [email](/"
+"censorship/gettor-2) instead."
+msgstr ""
+
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
 #: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.title)
 msgid "How can I use Snowflake?"
@@ -7034,54 +7268,54 @@ msgid ""
 "\"HTTP\" to more private \"HTTPS\"."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.title)
 msgid "What bandwidth shaping options are available to Tor relays?"
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid "There are two options you can add to your torrc file:"
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "**BandwidthRate** is the maximum long-term bandwidth allowed (bytes per "
 "second)."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "For example, you might want to choose \"BandwidthRate 10 MBytes\" for 10 "
 "megabytes per second (a fast connection), or \"BandwidthRate 500 KBytes\" "
 "for 500 kilobytes per second (a decent cable connection)."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid "The minimum BandwidthRate setting is 75 kilobytes per second."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "**BandwidthBurst** is a pool of bytes used to fulfill requests during short "
 "periods of traffic above BandwidthRate but still keeps the average over a "
 "long period to BandwidthRate."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "A low Rate but a high Burst enforces a long-term average while still "
 "allowing more traffic during peak times if the average hasn't been reached "
 "lately."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "For example, if you choose \"BandwidthBurst 500 KBytes\" and also use that "
 "for your BandwidthRate, then you will never use more than 500 kilobytes per "
@@ -7089,163 +7323,163 @@ msgid ""
 "allow more bytes through until the pool is empty."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "If you have an asymmetric connection (upload less than download) such as a "
 "cable modem, you should set BandwidthRate to less than your smaller "
 "bandwidth (Usually that's the upload bandwidth)."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "Otherwise, you could drop many packets during periods of maximum bandwidth "
 "usage - you may need to experiment with which values make your connection "
 "comfortable."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid "Then set BandwidthBurst to the same as BandwidthRate."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "Linux-based Tor nodes have another option at their disposal: they can "
 "prioritize Tor traffic below other traffic on their machine, so that their "
 "own personal traffic is not impacted by Tor load."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "A [script to do this](https://gitweb.torproject.org/tor.git/plain/contrib/"
 "operator-tools/linux-tor-prio.sh?h=maint-0.3.5) can be found in the Tor "
 "source distribution's contrib directory."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid ""
 "Additionally, there are hibernation options where you can tell Tor to only "
 "serve a certain amount of bandwidth per time period (such as 100 GB per "
 "month). These are covered in the hibernation entry below."
 msgstr ""
 
-#: https://support.torproject.org/operators/bandwidth-shaping/
-#: (content/operators/bandwidth-shaping/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/bandwidth-shaping/
+#: (content/relay-operators/bandwidth-shaping/contents+en.lr:question.description)
 msgid "Note that BandwidthRate and BandwidthBurst are in **Bytes**, not Bits."
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.title)
 msgid "I'm behind a NAT/Firewall."
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
 "See [portforward.com](https://portforward.com/) for directions on how to "
 "port forward with your NAT/router device."
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
 "If your relay is running on a internal net, you need to setup port "
 "forwarding."
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
 "Forwarding TCP connections is system dependent but the firewalled-clients "
 "FAQ entry offers some examples on how to do this."
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
 "Also, here's an example of how you would do this on GNU/Linux if you're "
 "using iptables:"
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
 "`/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 9001 -j ACCEPT`"
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
 "You may have to change \"eth0\" if you have a different external interface "
 "(the one connected to the Internet)."
 msgstr ""
 
-#: https://support.torproject.org/operators/behind-nat/
-#: (content/operators/behind-nat/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/behind-nat/
+#: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
 "Chances are you have only one (except the loopback) so it shouldn't be too "
 "hard to figure out."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.title)
 msgid "Do I get better anonymity if I run a relay?"
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid "Yes, you do get better anonymity against some attacks."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid ""
 "The simplest example is an attacker who owns a small number of Tor relays."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid ""
 "They will see a connection from you, but they won't be able to know whether "
 "the connection originated at your computer or was relayed from somebody else."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid ""
 "There are some cases where it doesn't seem to help: if an attacker can watch "
 "all of your incoming and outgoing traffic, then it's easy for them to learn "
 "which connections were relayed and which started at you."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid ""
 "(In this case they still don't know your destinations unless they are "
 "watching them too, but you're no better off than if you were an ordinary "
 "client.)"
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid "There are also some downsides to running a Tor relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid ""
 "First, while we only have a few hundred relays, the fact that you're running "
 "one might signal to an attacker that you place a high value on your "
 "anonymity."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid ""
 "Second, there are some more esoteric attacks that are not as well-understood "
 "or well-tested that involve making use of the knowledge that you're running "
@@ -7255,241 +7489,241 @@ msgid ""
 "timing."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid ""
 "It is an open research question whether the benefits outweigh the risks."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid "A lot of that depends on the attacks you are most worried about."
 msgstr ""
 
-#: https://support.torproject.org/operators/better-anonymity/
-#: (content/operators/better-anonymity/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/better-anonymity/
+#: (content/relay-operators/better-anonymity/contents+en.lr:question.description)
 msgid "For most users, we think it's a smart move."
 msgstr ""
 
-#: https://support.torproject.org/operators/change-bridge-distribution/
-#: (content/operators/change-bridge-distribution/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/change-bridge-distribution/
+#: (content/relay-operators/change-bridge-distribution/contents+en.lr:question.title)
 msgid "How do I change my bridge distribution method?"
 msgstr ""
 
-#: https://support.torproject.org/operators/change-bridge-distribution/
-#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/change-bridge-distribution/
+#: (content/relay-operators/change-bridge-distribution/contents+en.lr:question.description)
 msgid ""
 "BridgeDB implements [four mechanisms](https://bridges.torproject.org/info) "
 "to distribute bridges: HTTPS, Moat, Email, and Reserved."
 msgstr ""
 
-#: https://support.torproject.org/operators/change-bridge-distribution/
-#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/change-bridge-distribution/
+#: (content/relay-operators/change-bridge-distribution/contents+en.lr:question.description)
 msgid ""
 "Bridge operators can check which mechanism their bridge is using, on the "
 "[Relay Search](https://metrics.torproject.org/rs.html#search)."
 msgstr ""
 
-#: https://support.torproject.org/operators/change-bridge-distribution/
-#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/change-bridge-distribution/
+#: (content/relay-operators/change-bridge-distribution/contents+en.lr:question.description)
 msgid ""
 "Enter the bridge's `<HASHED FINGERPRINT>` in the form and click \"Search\"."
 msgstr ""
 
-#: https://support.torproject.org/operators/change-bridge-distribution/
-#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/change-bridge-distribution/
+#: (content/relay-operators/change-bridge-distribution/contents+en.lr:question.description)
 msgid "Operators can also choose which distribution method their bridge uses."
 msgstr ""
 
-#: https://support.torproject.org/operators/change-bridge-distribution/
-#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/change-bridge-distribution/
+#: (content/relay-operators/change-bridge-distribution/contents+en.lr:question.description)
 msgid ""
 "To change the method, modify the `BridgeDistribution` setting in the torrc "
 "file to one of these: https, moat, email, none, any."
 msgstr ""
 
-#: https://support.torproject.org/operators/change-bridge-distribution/
-#: (content/operators/change-bridge-distribution/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/change-bridge-distribution/
+#: (content/relay-operators/change-bridge-distribution/contents+en.lr:question.description)
 msgid ""
 "Read more on the Bridges [post-install](https://community.torproject.org/"
 "relay/setup/bridge/post-install/) guide."
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.title)
 msgid "Is there a list of default exit ports?"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid ""
 "The default open ports are listed below but keep in mind that, any port or "
 "ports can be opened by the relay operator by configuring it in torrc or "
 "modifying the source code."
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid ""
 "The default according to src/or/policies.c ([line 85][1] and [line 1901][2]) "
 "from the source code release [release-0.4.6][3]:"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject 0.0.0.0/8"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject 169.254.0.0/16"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject 127.0.0.0/8"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject 192.168.0.0/16"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject 10.0.0.0/8"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject 172.16.0.0/12"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:25"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:119"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:135-139"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:445"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:563"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:1214"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:4661-4666"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:6346-6429"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:6699"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "reject *:6881-6999"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "accept *:*"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid ""
 "[1]: https://gitlab.torproject.org/tpo/core/tor/-/blob/release-0.4.6/src/"
 "core/or/policies.c#L85"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid ""
 "[2]: https://gitlab.torproject.org/tpo/core/tor/-/blob/release-0.4.6/src/"
 "core/or/policies.c#L1901"
 msgstr ""
 
-#: https://support.torproject.org/operators/default-exit-ports/
-#: (content/operators/default-exit-ports/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/default-exit-ports/
+#: (content/relay-operators/default-exit-ports/contents+en.lr:question.description)
 msgid "[3]: https://gitlab.torproject.org/tpo/core/tor/-/tree/release-0.4.6/"
 msgstr ""
 
-#: https://support.torproject.org/operators/dynamic-ip/
-#: (content/operators/dynamic-ip/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/dynamic-ip/
+#: (content/relay-operators/dynamic-ip/contents+en.lr:question.title)
 msgid "Can I run a Tor relay using a dynamic IP address?"
 msgstr ""
 
-#: https://support.torproject.org/operators/dynamic-ip/
-#: (content/operators/dynamic-ip/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/dynamic-ip/
+#: (content/relay-operators/dynamic-ip/contents+en.lr:question.description)
 msgid "Tor can handle relays with dynamic IP addresses just fine."
 msgstr ""
 
-#: https://support.torproject.org/operators/dynamic-ip/
-#: (content/operators/dynamic-ip/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/dynamic-ip/
+#: (content/relay-operators/dynamic-ip/contents+en.lr:question.description)
 msgid ""
 "Just leave the \"Address\" line in your [torrc](https://support.torproject."
 "org/tbb/tbb-editing-torrc/) blank, and Tor will guess."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.title)
 msgid "I'd run a relay, but I don't want to deal with abuse issues."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid "Great. That's exactly why we implemented exit policies."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "Each Tor relay has an exit policy that specifies what sort of outbound "
 "connections are allowed or refused from that relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "The exit policies are propagated to Tor clients via the directory, so "
 "clients will automatically avoid picking exit relays that would refuse to "
 "exit to their intended destination."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "This way each relay can decide the services, hosts, and networks it wants to "
 "allow connections to, based on abuse potential and its own situation."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "Read the [Support entry on issues you might encounter](https://support."
 "torproject.org/abuse/exit-relay-expectations/) if you use the default exit "
@@ -7497,8 +7731,8 @@ msgid ""
 "minimal harassment](https://blog.torproject.org/blog/tips-running-exit-node)."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "The default exit policy allows access to many popular services (e.g. web "
 "browsing), but restricts some due to abuse potential (e.g. mail) and some "
@@ -7506,69 +7740,69 @@ msgid ""
 "ports)."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid "You can change your exit policy by editing your torrc file."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "If you want to avoid most if not all abuse potential, set it to \"reject "
 "&#42;:&#42;\"."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "This setting means that your relay will be used for relaying traffic inside "
 "the Tor network, but not for connections to external websites or other "
 "services."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "If you do allow any exit connections, make sure name resolution works (that "
 "is, your computer can resolve Internet addresses correctly)."
 msgstr ""
 
-#: https://support.torproject.org/operators/exit-policies/
-#: (content/operators/exit-policies/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/exit-policies/
+#: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
 "If there are any resources that your computer can't reach (for example, you "
 "are behind a restrictive firewall or content filter), please explicitly "
 "reject them in your exit policy  otherwise Tor users will be impacted too."
 msgstr ""
 
-#: https://support.torproject.org/operators/facing-legal-trouble/
-#: (content/operators/facing-legal-trouble/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/facing-legal-trouble/
+#: (content/relay-operators/facing-legal-trouble/contents+en.lr:question.title)
 msgid ""
 "I'm facing legal trouble. How do I prove that my server was a Tor relay at a "
 "given time?"
 msgstr ""
 
-#: https://support.torproject.org/operators/facing-legal-trouble/
-#: (content/operators/facing-legal-trouble/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/facing-legal-trouble/
+#: (content/relay-operators/facing-legal-trouble/contents+en.lr:question.description)
 msgid ""
 "[Exonerator](https://exonerator.torproject.org/) is a web service that can "
 "check if an IP address was a relay at a given time."
 msgstr ""
 
-#: https://support.torproject.org/operators/facing-legal-trouble/
-#: (content/operators/facing-legal-trouble/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/facing-legal-trouble/
+#: (content/relay-operators/facing-legal-trouble/contents+en.lr:question.description)
 msgid ""
 "We can also [provide a signed letter](https://www.torproject.org/contact/) "
 "if needed."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.title)
 msgid "Why can I not browse anymore after limiting bandwidth on my Tor relay?"
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid ""
 "The parameters assigned in the [AccountingMax](https://2019.www.torproject."
 "org/docs/faq.html.en#LimitTotalBandwidth) and [BandwidthRate](https://2019."
@@ -7576,286 +7810,286 @@ msgid ""
 "and relay functions of the Tor process."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid "Bandwidth soft limit reached; commencing hibernation."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid "No new connections will be accepted"
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid "* In the relay Tor torrc file, simply set the SocksPort to 0."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid ""
 "* Create a new client torrc file from the torrc.sample and ensure it uses a "
 "different log file from the relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid "One naming convention may be torrc.client and torrc.relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid ""
 "* Modify the Tor client and relay startup scripts to include `-f /path/to/"
 "correct/torrc`."
 msgstr ""
 
-#: https://support.torproject.org/operators/hibernation/
-#: (content/operators/hibernation/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/hibernation/
+#: (content/relay-operators/hibernation/contents+en.lr:question.description)
 msgid ""
 "* In Linux/BSD/Mac OS X, changing the startup scripts to `Tor.client` and "
 "`Tor.relay` may make separation of configs easier."
 msgstr ""
 
-#: https://support.torproject.org/operators/ipv6-relay/
-#: (content/operators/ipv6-relay/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/ipv6-relay/
+#: (content/relay-operators/ipv6-relay/contents+en.lr:question.title)
 msgid "Can I use IPv6 on my relay?"
 msgstr ""
 
-#: https://support.torproject.org/operators/ipv6-relay/
-#: (content/operators/ipv6-relay/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/ipv6-relay/
+#: (content/relay-operators/ipv6-relay/contents+en.lr:question.description)
 msgid ""
-"Tor [has partial support for IPv6](https://trac.torproject.org/projects/tor/"
-"wiki/org/roadmaps/Tor/IPv6Features) and we encourage every relay operator to "
-"[enable IPv6 functionality](https://trac.torproject.org/projects/tor/wiki/"
-"TorRelayGuide#IPv6) in their [torrc](https://support.torproject.org/tbb/tbb-"
-"editing-torrc/) configuration files when IPv6 connectivity is available."
+"Tor [has partial support for IPv6](https://blog.torproject.org/state-of-ipv6-"
+"support-tor-network) and we encourage every relay operator to [enable IPv6 "
+"functionality](https://community.torproject.org/relay/setup/post-install/) "
+"in their [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) "
+"configuration files when IPv6 connectivity is available."
 msgstr ""
 
-#: https://support.torproject.org/operators/ipv6-relay/
-#: (content/operators/ipv6-relay/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/ipv6-relay/
+#: (content/relay-operators/ipv6-relay/contents+en.lr:question.description)
 msgid ""
 "For the time being Tor will require IPv4 addresses on relays, you can not "
 "run a Tor relay on a host with IPv6 addresses only."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.title)
 msgid "How can I limit the total amount of bandwidth used by my Tor relay?"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "The accounting options in the torrc file allow you to specify the maximum "
 "amount of bytes your relay uses for a time period."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid "AccountingStart day week month [day] HH:MM"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "This specifies when the accounting should reset. For instance, to setup a "
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid "AccountingStart week 3 10:00"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid "AccountingMax 500 GBytes"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "This specifies the maximum amount of data your relay will send during an "
 "accounting period, and the maximum amount of data your relay will receive "
 "during an account period."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "Example: Let's say you want to allow 50 GB of traffic every day in each "
 "direction and the accounting should reset at noon each day:"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid "AccountingStart day 12:00"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid "AccountingMax 50 GBytes"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "This way we avoid having hundreds of relays working at the beginning of each "
 "month but none still up by the end."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "If you have only a small amount of bandwidth to donate compared to your "
 "connection speed, we recommend you use daily accounting, so you don't end up "
 "using your entire monthly quota in the first day."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "Just divide your monthly amount by 30. You might also consider rate limiting "
 "to spread your usefulness over more of the day: if you want to offer X GB in "
 "each direction, you could set your RelayBandwidthRate to 20*X KBytes."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "For example, if you have 50 GB to offer each way, you might set your "
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful "
 "for at least half of each day."
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid "AccountingStart day 0:00"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid "RelayBandwidthRate 1000 KBytes"
 msgstr ""
 
-#: https://support.torproject.org/operators/limit-total-bandwidth/
-#: (content/operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/limit-total-bandwidth/
+#: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.title)
 msgid "I want to run more than one Tor relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.description)
 msgid ""
 "Great. If you want to run several relays to donate more to the network, "
 "we're happy with that."
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.description)
 msgid ""
 "But please don't run more than a few dozen on the same network, since part "
 "of the goal of the Tor network is dispersal and diversity."
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.description)
 msgid ""
 "If you do decide to run more than one relay, please set the \"MyFamily\" "
 "config option in the torrc of each relay, listing all the relays (comma-"
 "separated) that are under your control:"
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.description)
 msgid "MyFamily $fingerprint1,$fingerprint2,$fingerprint3"
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.description)
 msgid ""
 "where each fingerprint is the 40 character identity fingerprint (without "
 "spaces)."
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.description)
 msgid ""
 "That way, Tor clients will know to avoid using more than one of your relays "
 "in a single circuit."
 msgstr ""
 
-#: https://support.torproject.org/operators/multiple-relays/
-#: (content/operators/multiple-relays/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/multiple-relays/
+#: (content/relay-operators/multiple-relays/contents+en.lr:question.description)
 msgid ""
 "You should set MyFamily if you have administrative control of the computers "
 "or of their network, even if they're not all in the same geographic location."
 msgstr ""
 
-#: https://support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
-#: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/my-relay-got-guard-flag-traffic-dropped/
+#: (content/relay-operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lr:question.title)
 msgid "My relay recently got the Guard flag and traffic dropped by half."
 msgstr ""
 
-#: https://support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
-#: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/my-relay-got-guard-flag-traffic-dropped/
+#: (content/relay-operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lr:question.description)
 msgid ""
 "Since it's now a guard, clients are using it less in other positions, but "
 "not many clients have rotated their existing guards out to use it as a guard "
 "yet."
 msgstr ""
 
-#: https://support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
-#: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/my-relay-got-guard-flag-traffic-dropped/
+#: (content/relay-operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lr:question.description)
 msgid ""
 "Read more details in this [blog post](https://blog.torproject.org/blog/"
 "lifecycle-of-a-new-relay) or in [Changing of the Guards: A Framework for "
@@ -7863,96 +8097,96 @@ msgid ""
 "freehaven.net/anonbib/cache/wpes12-cogs.pdf)."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.title)
 msgid "How do offline ed25519 identity keys work? What do I need to know?"
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid "In simple words, it works like this:"
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "* There is a primary ed25519 identity secret key file named "
 "\"ed25519_master_id_secret_key\"."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "This is the most important one, so make sure you keep a backup in a secure "
 "place - the file is sensitive and should be protected."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "Tor could encrypt it for you if you generate it manually and enter a "
 "password when asked."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "* A medium term signing key named \"ed25519_signing_secret_key\" is "
 "generated for Tor to use."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "Also, a certificate is generated named \"ed25519_signing_cert\" which is "
 "signed by the primary identity secret key and confirms that the medium term "
 "signing key is valid for a certain period of time."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "The default validity is 30 days, but this can be customized by setting "
 "\"SigningKeyLifetime N days|weeks|months\" in torrc."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "* There is also a primary public key named \"ed25519_master_id_public_key\", "
 "which is the actual identity of the relay advertised in the network."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "This one is not sensitive and can be easily computed from "
 "\"ed5519_master_id_secret_key\"."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "Tor will only need access to the medium term signing key and certificate as "
 "long as they are valid, so the primary identity secret key can be kept "
 "outside DataDirectory/keys, on a storage media or a different computer."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "You'll have to manually renew the medium term signing key and certificate "
 "before they expire otherwise the Tor process on the relay will exit upon "
 "expiration."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid "This feature is optional, you don't need to use it unless you want to."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "If you want your relay to run unattended for longer time without having to "
 "manually do the medium term signing key renewal on regular basis, best to "
@@ -7960,428 +8194,428 @@ msgid ""
 "backup in case you'll need to reinstall it."
 msgstr ""
 
-#: https://support.torproject.org/operators/offline-ed25519/
-#: (content/operators/offline-ed25519/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/offline-ed25519/
+#: (content/relay-operators/offline-ed25519/contents+en.lr:question.description)
 msgid ""
 "If you want to use this feature, you can consult our more [detailed guide]"
 "(https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/"
 "OfflineKeys) on the topic."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/operators-1/
+#: (content/relay-operators/operators-1/contents+en.lr:question.title)
 msgid "How do I run a middle or guard relay on Debian?"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lr:question.description)
-#: https://support.torproject.org/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.description)
-#: https://support.torproject.org/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-1/
+#: (content/relay-operators/operators-1/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-2/
+#: (content/relay-operators/operators-2/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-3/
+#: (content/relay-operators/operators-3/contents+en.lr:question.description)
 msgid ""
 "For the most in-depth resource on running a relay, see the [Relay Setup "
 "Guide](https://community.torproject.org/relay/setup)."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-2/
-#: (content/operators/operators-2/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/operators-2/
+#: (content/relay-operators/operators-2/contents+en.lr:question.title)
 msgid "How do I run an exit relay on Debian?"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/operators-3/
+#: (content/relay-operators/operators-3/contents+en.lr:question.title)
 msgid "How do I run a middle or guard relay on FreeBSD or HardenedBSD?"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.title)
 msgid "How do I make sure that I'm using the correct packages on Ubuntu?"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid ""
 "* Do not use the packages in Ubuntu's repositories. They are not reliably "
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "* Determine your Ubuntu version by running the following command:"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "$ lsb_release -c"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid ""
 "* As root, add the following lines to /etc/apt/sources.list. Replace "
 "'version' with the version you found in the previous step:"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "$ deb https://deb.torproject.org/torproject.org version main"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "$ deb-src https://deb.torproject.org/torproject.org version main"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid ""
 "$ curl https://deb.torproject.org/torproject.org/"
 "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | sudo apt-key add -"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "* Run the following commands to install tor and check its signatures:"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "$ sudo apt-get update"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "$ sudo apt-get install tor deb.torproject.org-keyring"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/operators-6/
+#: (content/relay-operators/operators-6/contents+en.lr:question.title)
 msgid "How do I run an obfs4 bridge?"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-6/
+#: (content/relay-operators/operators-6/contents+en.lr:question.description)
 msgid ""
 "See our [obfs4 setup guide](https://community.torproject.org/relay/setup/"
 "bridge/) to learn how to set up an obfs4 bridge."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/operators-7/
+#: (content/relay-operators/operators-7/contents+en.lr:question.title)
 msgid "Should I run an exit relay from home?"
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-7/
+#: (content/relay-operators/operators-7/contents+en.lr:question.description)
 msgid "No."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-7/
+#: (content/relay-operators/operators-7/contents+en.lr:question.description)
 msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-7/
+#: (content/relay-operators/operators-7/contents+en.lr:question.description)
 msgid ""
 "For that reason, it's best not to run your exit relay in your home or using "
 "your home internet connection."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-7/
+#: (content/relay-operators/operators-7/contents+en.lr:question.description)
 msgid ""
 "Instead, consider running your exit relay in a commercial facility that is "
 "supportive of Tor."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-7/
+#: (content/relay-operators/operators-7/contents+en.lr:question.description)
 msgid ""
 "Have a separate IP address for your exit relay, and don't route your own "
 "traffic through it."
 msgstr ""
 
-#: https://support.torproject.org/operators/operators-7/
-#: (content/operators/operators-7/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/operators-7/
+#: (content/relay-operators/operators-7/contents+en.lr:question.description)
 msgid ""
 "Of course, you should avoid keeping any sensitive or personal information on "
 "the computer hosting your exit relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/outgoing-firewall/
-#: (content/operators/outgoing-firewall/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/outgoing-firewall/
+#: (content/relay-operators/outgoing-firewall/contents+en.lr:question.title)
 msgid "How should I configure the outgoing filters on my relay?"
 msgstr ""
 
-#: https://support.torproject.org/operators/outgoing-firewall/
-#: (content/operators/outgoing-firewall/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/outgoing-firewall/
+#: (content/relay-operators/outgoing-firewall/contents+en.lr:question.description)
 msgid ""
 "All outgoing connections must be allowed, so that each relay can communicate "
 "with every other relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/outgoing-firewall/
-#: (content/operators/outgoing-firewall/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/outgoing-firewall/
+#: (content/relay-operators/outgoing-firewall/contents+en.lr:question.description)
 msgid ""
 "In many jurisdictions, Tor relay operators are legally protected by the same "
 "common carrier regulations that prevent internet service providers from "
 "being held liable for third-party content that passes through their network."
 msgstr ""
 
-#: https://support.torproject.org/operators/outgoing-firewall/
-#: (content/operators/outgoing-firewall/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/outgoing-firewall/
+#: (content/relay-operators/outgoing-firewall/contents+en.lr:question.description)
 msgid ""
 "Exit relays that filter some traffic would likely forfeit those protections."
 msgstr ""
 
-#: https://support.torproject.org/operators/outgoing-firewall/
-#: (content/operators/outgoing-firewall/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/outgoing-firewall/
+#: (content/relay-operators/outgoing-firewall/contents+en.lr:question.description)
 msgid "Tor promotes free network access without interference."
 msgstr ""
 
-#: https://support.torproject.org/operators/outgoing-firewall/
-#: (content/operators/outgoing-firewall/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/outgoing-firewall/
+#: (content/relay-operators/outgoing-firewall/contents+en.lr:question.description)
 msgid ""
 "Exit relays must not filter the traffic that passes through them to the "
 "internet."
 msgstr ""
 
-#: https://support.torproject.org/operators/outgoing-firewall/
-#: (content/operators/outgoing-firewall/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/outgoing-firewall/
+#: (content/relay-operators/outgoing-firewall/contents+en.lr:question.description)
 msgid ""
 "Exit relays found to be filtering traffic will get the [BadExit](https://"
 "community.torproject.org/relay/community-resources/bad-relays/) flag once "
 "detected."
 msgstr ""
 
-#: https://support.torproject.org/operators/packaged-tor/
-#: (content/operators/packaged-tor/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/packaged-tor/
+#: (content/relay-operators/packaged-tor/contents+en.lr:question.title)
 msgid "Should I install Tor from my package manager, or build from source?"
 msgstr ""
 
-#: https://support.torproject.org/operators/packaged-tor/
-#: (content/operators/packaged-tor/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/packaged-tor/
+#: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid ""
 "If you're using Debian or Ubuntu especially, there are a number of benefits "
 "to installing Tor from the [Tor Project's repository](https://support."
 "torproject.org/apt/tor-deb-repo/)."
 msgstr ""
 
-#: https://support.torproject.org/operators/packaged-tor/
-#: (content/operators/packaged-tor/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/packaged-tor/
+#: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid ""
 "* Your `ulimit -n` gets set to 32768  high enough for Tor to keep open all "
 "the connections it needs."
 msgstr ""
 
-#: https://support.torproject.org/operators/packaged-tor/
-#: (content/operators/packaged-tor/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/packaged-tor/
+#: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid ""
 "* A user profile is created just for Tor, so Tor doesn't need to run as root."
 msgstr ""
 
-#: https://support.torproject.org/operators/packaged-tor/
-#: (content/operators/packaged-tor/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/packaged-tor/
+#: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid "* An init script is included so that Tor runs at boot."
 msgstr ""
 
-#: https://support.torproject.org/operators/packaged-tor/
-#: (content/operators/packaged-tor/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/packaged-tor/
+#: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid ""
 "* Tor runs with `--verify-config`, so that most problems with your config "
 "file get caught."
 msgstr ""
 
-#: https://support.torproject.org/operators/packaged-tor/
-#: (content/operators/packaged-tor/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/packaged-tor/
+#: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid "* Tor can bind to low level ports, then drop privileges."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.title)
 msgid "How stable does my relay need to be?"
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.description)
 msgid "We aim to make setting up a Tor relay easy and convenient:"
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.description)
 msgid "* It's fine if the relay goes offline sometimes."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.description)
 msgid "The directories notice this quickly and stop advertising the relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.description)
 msgid ""
 "Just try to make sure it's not too often, since connections using the relay "
 "when it disconnects will break."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.description)
 msgid ""
 "* Each Tor relay has an [exit policy](https://2019.www.torproject.org/docs/"
 "faq.html.en#ExitPolicies) that specifies what sort of outbound connections "
 "are allowed or refused from that relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.description)
 msgid ""
 "If you are uncomfortable allowing people to exit from your relay, you can "
 "set it up to only allow connections to other Tor relays."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-flexible/
-#: (content/operators/relay-flexible/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-flexible/
+#: (content/relay-operators/relay-flexible/contents+en.lr:question.description)
 msgid ""
 "* Your relay will passively estimate and advertise its recent bandwidth "
 "capacity, so high-bandwidth relays will attract more users than low-"
 "bandwidth ones. Therefore, having low-bandwidth relays is useful too."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.title)
 msgid "Why is my Tor relay using so much memory?"
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "If your Tor relay is using more memory than you'd like, here are some tips "
 "for reducing its footprint:"
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "* If you're on Linux, you may be encountering memory fragmentation bugs in "
 "glibc's malloc implementation."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "That is, when Tor releases memory back to the system, the pieces of memory "
 "are fragmented so they're hard to reuse."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "The Tor tarball ships with OpenBSD's malloc implementation, which doesn't "
 "have as many fragmentation bugs (but the tradeoff is higher CPU load)."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "You can tell Tor to use this malloc implementation instead: `./configure --"
 "enable-openbsd-malloc`."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "* If you're running a fast relay, meaning you have many TLS connections "
 "open, you are probably losing a lot of memory to OpenSSL's internal buffers "
 "(38KB+ per socket)."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "We've patched OpenSSL to [release unused buffer memory more aggressively]"
 "(https://lists.torproject.org/pipermail/tor-dev/2008-June/001519.html)."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "If you update to OpenSSL 1.0.0 or newer, Tor's build process will "
 "automatically recognize and use this feature."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "* If you still can't handle the memory load, consider reducing the amount of "
 "bandwidth your relay advertises."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "Advertising less bandwidth means you will attract fewer users, so your relay "
 "shouldn't grow as large."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid "See the `MaxAdvertisedBandwidth` option in the man page."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-memory/
-#: (content/operators/relay-memory/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-memory/
+#: (content/relay-operators/relay-memory/contents+en.lr:question.description)
 msgid ""
 "All of this said, fast Tor relays do use a lot of ram. It is not unusual for "
 "a fast exit relay to use 500-1000 MB of memory."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-write-more-bytes/
-#: (content/operators/relay-write-more-bytes/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/relay-write-more-bytes/
+#: (content/relay-operators/relay-write-more-bytes/contents+en.lr:question.title)
 msgid "Why does my relay write more bytes onto the network than it reads?"
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-write-more-bytes/
-#: (content/operators/relay-write-more-bytes/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-write-more-bytes/
+#: (content/relay-operators/relay-write-more-bytes/contents+en.lr:question.description)
 msgid ""
 "You're right, for the most part a byte into your Tor relay means a byte out, "
 "and vice versa. But there are a few exceptions:"
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-write-more-bytes/
-#: (content/operators/relay-write-more-bytes/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-write-more-bytes/
+#: (content/relay-operators/relay-write-more-bytes/contents+en.lr:question.description)
 msgid ""
 "If you open your DirPort, then Tor clients will ask you for a copy of the "
 "directory."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-write-more-bytes/
-#: (content/operators/relay-write-more-bytes/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-write-more-bytes/
+#: (content/relay-operators/relay-write-more-bytes/contents+en.lr:question.description)
 msgid ""
 "The request they make (an HTTP GET) is quite small, and the response is "
 "sometimes quite large."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-write-more-bytes/
-#: (content/operators/relay-write-more-bytes/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-write-more-bytes/
+#: (content/relay-operators/relay-write-more-bytes/contents+en.lr:question.description)
 msgid ""
 "This probably accounts for most of the difference between your \"write\" "
 "byte count and your \"read\" byte count."
 msgstr ""
 
-#: https://support.torproject.org/operators/relay-write-more-bytes/
-#: (content/operators/relay-write-more-bytes/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-write-more-bytes/
+#: (content/relay-operators/relay-write-more-bytes/contents+en.lr:question.description)
 msgid ""
 "Another minor exception shows up when you operate as an exit node, and you "
 "read a few bytes from an exit connection (for example, an instant messaging "
@@ -8389,52 +8623,52 @@ msgid ""
 "through the Tor network."
 msgstr ""
 
-#: https://support.torproject.org/operators/run-relay-in-windows/
-#: (content/operators/run-relay-in-windows/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/run-relay-in-windows/
+#: (content/relay-operators/run-relay-in-windows/contents+en.lr:question.title)
 msgid "How do I run a relay in Windows?"
 msgstr ""
 
-#: https://support.torproject.org/operators/run-relay-in-windows/
-#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/run-relay-in-windows/
+#: (content/relay-operators/run-relay-in-windows/contents+en.lr:question.description)
 msgid "You can run a relay in Windows following this tutorials:"
 msgstr ""
 
-#: https://support.torproject.org/operators/run-relay-in-windows/
-#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/run-relay-in-windows/
+#: (content/relay-operators/run-relay-in-windows/contents+en.lr:question.description)
 msgid ""
 "- For running a [guard relay](https://community.torproject.org/relay/types-"
 "of-relays/#guard-and-middle-relay) in Windows, please read: <https://"
 "community.torproject.org/relay/setup/guard/windows/>"
 msgstr ""
 
-#: https://support.torproject.org/operators/run-relay-in-windows/
-#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/run-relay-in-windows/
+#: (content/relay-operators/run-relay-in-windows/contents+en.lr:question.description)
 msgid ""
 "- For running a [bridge relay](https://community.torproject.org/relay/types-"
 "of-relays/#bridge) in Windows, please read: <https://community.torproject."
 "org/relay/setup/bridge/windows/>"
 msgstr ""
 
-#: https://support.torproject.org/operators/run-relay-in-windows/
-#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/run-relay-in-windows/
+#: (content/relay-operators/run-relay-in-windows/contents+en.lr:question.description)
 msgid "You should **only run a Windows relay if you can run it 24/7**."
 msgstr ""
 
-#: https://support.torproject.org/operators/run-relay-in-windows/
-#: (content/operators/run-relay-in-windows/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/run-relay-in-windows/
+#: (content/relay-operators/run-relay-in-windows/contents+en.lr:question.description)
 msgid ""
 "If you are unable to guarantee that, [Snowflake](https://snowflake."
 "torproject.org/) is a better way to contribute your resources to the Tor "
 "network."
 msgstr ""
 
-#: https://support.torproject.org/operators/should-i-run-a-relay/
-#: (content/operators/should-i-run-a-relay/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/should-i-run-a-relay/
+#: (content/relay-operators/should-i-run-a-relay/contents+en.lr:question.title)
 msgid "How do I decide if I should run a relay?"
 msgstr ""
 
-#: https://support.torproject.org/operators/should-i-run-a-relay/
-#: (content/operators/should-i-run-a-relay/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/should-i-run-a-relay/
+#: (content/relay-operators/should-i-run-a-relay/contents+en.lr:question.description)
 msgid ""
 "We're looking for people with reasonably reliable Internet connections, that "
 "have at least 10 Mbit/s (Mbps) available bandwidth each way. If that's you, "
@@ -8442,8 +8676,8 @@ msgid ""
 "relay/)."
 msgstr ""
 
-#: https://support.torproject.org/operators/should-i-run-a-relay/
-#: (content/operators/should-i-run-a-relay/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/should-i-run-a-relay/
+#: (content/relay-operators/should-i-run-a-relay/contents+en.lr:question.description)
 msgid ""
 "Even if you do not have at least 10 Mbit/s of available bandwidth you can "
 "still help the Tor network by running a [Tor bridge with obfs4 support]"
@@ -8451,13 +8685,13 @@ msgid ""
 "should have at least 1 MBit/s of available bandwidth."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.title)
 msgid "I want to upgrade/move my relay. How do I keep the same key?"
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "When upgrading your Tor relay, or moving it on a different computer, the "
 "important part is to keep the same identity keys (stored in \"keys/"
@@ -8465,73 +8699,73 @@ msgid ""
 "DataDirectory)."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "Keeping backups of the identity keys so you can restore a relay in the "
 "future is the recommended way to ensure the reputation of the relay won't be "
 "wasted."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "This means that if you're upgrading your Tor relay and you keep the same "
 "torrc and the same DataDirectory, then the upgrade should just work and your "
 "relay will keep using the same key."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "If you need to pick a new DataDirectory, be sure to copy your old keys/"
 "ed25519_master_id_secret_key and keys/secret_id_key over."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "Note: As of Tor 0.2.7 we are using new generation identities for relays "
 "based on ed25519 elliptic curve cryptography."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "Eventually they will replace the old RSA identities, but that will happen in "
 "time, to ensure compatibility with older versions."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "Until then, each relay will have both an ed25519 identity (identity key "
 "file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key "
 "file: keys/secret_id_key)."
 msgstr ""
 
-#: https://support.torproject.org/operators/upgrade-or-move/
-#: (content/operators/upgrade-or-move/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/upgrade-or-move/
+#: (content/relay-operators/upgrade-or-move/contents+en.lr:question.description)
 msgid ""
 "You need to copy / backup both of them in order to restore your relay, "
 "change your DataDirectory or migrate the relay on a new computer."
 msgstr ""
 
-#: https://support.torproject.org/operators/what-is-the-bad-exit-flag/
-#: (content/operators/what-is-the-bad-exit-flag/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/what-is-the-bad-exit-flag/
+#: (content/relay-operators/what-is-the-bad-exit-flag/contents+en.lr:question.title)
 msgid "What is the BadExit flag?"
 msgstr ""
 
-#: https://support.torproject.org/operators/what-is-the-bad-exit-flag/
-#: (content/operators/what-is-the-bad-exit-flag/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/what-is-the-bad-exit-flag/
+#: (content/relay-operators/what-is-the-bad-exit-flag/contents+en.lr:question.description)
 msgid ""
 "When an exit is misconfigured or malicious it's assigned the BadExit flag. "
 "This tells Tor to avoid exiting through that relay. In effect, relays with "
 "this flag become non-exits."
 msgstr ""
 
-#: https://support.torproject.org/operators/what-is-the-bad-exit-flag/
-#: (content/operators/what-is-the-bad-exit-flag/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/what-is-the-bad-exit-flag/
+#: (content/relay-operators/what-is-the-bad-exit-flag/contents+en.lr:question.description)
 msgid ""
 "If you got this flag then we either discovered a problem or suspicious "
 "activity when routing traffic through your exit and weren't able to contact "
@@ -8539,38 +8773,38 @@ msgid ""
 "org/relay/community-resources/bad-relays/) so we can sort out the issue."
 msgstr ""
 
-#: https://support.torproject.org/operators/what-type-of-relays-are-most-needed/
-#: (content/operators/what-type-of-relays-are-most-needed/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/what-type-of-relays-are-most-needed/
+#: (content/relay-operators/what-type-of-relays-are-most-needed/contents+en.lr:question.title)
 msgid "What type of relays are most needed?"
 msgstr ""
 
-#: https://support.torproject.org/operators/what-type-of-relays-are-most-needed/
-#: (content/operators/what-type-of-relays-are-most-needed/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/what-type-of-relays-are-most-needed/
+#: (content/relay-operators/what-type-of-relays-are-most-needed/contents+en.lr:question.description)
 msgid ""
 "* The exit relay is the most needed relay type but it also comes with the "
 "highest legal exposure and risk (and **you should NOT run them from your "
 "home**)."
 msgstr ""
 
-#: https://support.torproject.org/operators/what-type-of-relays-are-most-needed/
-#: (content/operators/what-type-of-relays-are-most-needed/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/what-type-of-relays-are-most-needed/
+#: (content/relay-operators/what-type-of-relays-are-most-needed/contents+en.lr:question.description)
 msgid ""
 "* If you are looking to run a relay with minimal effort, fast guard relays "
 "are also very useful"
 msgstr ""
 
-#: https://support.torproject.org/operators/what-type-of-relays-are-most-needed/
-#: (content/operators/what-type-of-relays-are-most-needed/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/what-type-of-relays-are-most-needed/
+#: (content/relay-operators/what-type-of-relays-are-most-needed/contents+en.lr:question.description)
 msgid "* Followed by bridges."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-i-get-portscanned-more-often/
-#: (content/operators/why-i-get-portscanned-more-often/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/why-i-get-portscanned-more-often/
+#: (content/relay-operators/why-i-get-portscanned-more-often/contents+en.lr:question.title)
 msgid "Why do I get portscanned more often when I run a Tor relay?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-i-get-portscanned-more-often/
-#: (content/operators/why-i-get-portscanned-more-often/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-i-get-portscanned-more-often/
+#: (content/relay-operators/why-i-get-portscanned-more-often/contents+en.lr:question.description)
 msgid ""
 "If you allow exit connections, some services that people connect to from "
 "your relay will connect back to collect more information about you. For "
@@ -8581,263 +8815,263 @@ msgid ""
 "website, etc. who want to know more about the host they're relaying through."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-i-get-portscanned-more-often/
-#: (content/operators/why-i-get-portscanned-more-often/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-i-get-portscanned-more-often/
+#: (content/relay-operators/why-i-get-portscanned-more-often/contents+en.lr:question.description)
 msgid ""
 "Another reason is that groups who scan for open proxies on the Internet have "
 "learned that sometimes Tor relays expose their socks port to the world. We "
 "recommend that you bind your socksport to local networks only."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-i-get-portscanned-more-often/
-#: (content/operators/why-i-get-portscanned-more-often/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-i-get-portscanned-more-often/
+#: (content/relay-operators/why-i-get-portscanned-more-often/contents+en.lr:question.description)
 msgid ""
 "In any case, you need to keep up to date with your security. See this "
 "article on [security for Tor relays](https://trac.torproject.org/projects/"
 "tor/wiki/TorRelayGuide/Security) for more suggestions."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.title)
 msgid "My relay is slow, how can I fix it?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "### Why Relay Load Varies"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Tor manages bandwidth across the entire network. It does a reasonable job "
 "for most relays."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "But Tor's goals are different to protocols like BitTorrent."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Tor wants low-latency web pages, which requires fast connections with "
 "headroom."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "BitTorrent wants bulk downloads, which requires using all the bandwidth."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "We're working on a [new bandwidth scanner](https://sbws.readthedocs.io/), "
 "which is easier to understand and maintain."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "It will have diagnostics for relays that don't get measured, and relays that "
 "have low measurements."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "### Why does Tor need bandwidth scanners?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "Most providers tell you the maximum speed of your local connection."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "But Tor has users all over the world, and our users connect to one or two "
 "Guard relays at random."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "So we need to know how well each relay can connect to the entire world."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "So even if all relay operators set their advertised bandwidth to their local"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "connection speed, we would still need bandwidth authorities to balance the "
 "load"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "between different parts of the Internet."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "### What is a normal relay load?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "It's normal for most relays to be loaded at 30%-80% of their capacity."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "This is good for clients: an overloaded relay has high latency."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "(We want enough relays to so that each relay is loaded at 10%. Then Tor "
 "would be almost as fast as the wider Internet)."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Sometimes, a relay is slow because its processor is slow or its connections "
 "are limited."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Other times, it is the network that is slow: the relay has bad peering to "
 "most other tor relays, or is a long distance away."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "### Finding Out what is Limiting a Relay"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "Lots of things can slow down a relay. Here's how to track them down."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "#### System Limits"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "* Check RAM, CPU, and socket/file descriptor usage on your relay"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Tor logs some of these when it starts. Others can be viewed using top or "
 "similar tools."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "#### Provider Limits"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "* Check the Internet peering (bandwidth, latency) from your relay's provider "
 "to other relays."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "Relays transiting via Comcast have been slow at times."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "Relays outside North America and Western Europe are usually slower."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "#### Tor Network Limits"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Relay bandwidth can be limited by a relay's own observed bandwidth, or by "
 "the directory authorities' measured bandwidth."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "Here's how to find out which measurement is limiting your relay:"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "* Check each of the votes for your relay on [consensus-health (large page)]"
 "(https://consensus-health.torproject.org/consensus-health.html), and check "
 "the median."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "If your relay is not marked Running by some directory authorities:"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "* Does it have the wrong IPv4 or IPv6 address?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "* Is its IPv4 or IPv6 address unreachable from some networks?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "* Are there more than 2 relays on its IPv4 address?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Otherwise, check your relay's observed bandwidth and bandwidth rate (limit)."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Look up your relay on [Metrics](https://metrics.torproject.org/rs."
 "html#search/)."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Then mouse over the bandwidth heading to see the observed bandwidth and "
 "relay bandwidth rate."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "Here is some more detail and some examples: [Drop in consensus weight]"
 "(https://lists.torproject.org/pipermail/tor-relays/2016-November/010913."
@@ -8845,89 +9079,89 @@ msgid ""
 "pipermail/tor-relays/2016-October/010784.html)."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "#### How to fix it"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "The smallest of these figures is limiting the bandwidth allocated to the "
 "relay."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "* If it's the bandwidth rate, increase the BandwidthRate/Burst or "
 "RelayBandwidthRate/Burst in your torrc."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "* If it's the observed bandwidth, your relay won't ask for more bandwidth "
 "until it sees itself getting faster."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "You need to work out why it is slow."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "* If it's the median measured bandwidth, your relay looks slow from a "
 "majority of bandwidth authorities."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "You need to work out why they measure it slow."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid "### Doing Your Own Relay Measurements"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "If your relay thinks it is slow, or the bandwidth authorities think it is "
 "slow, you can test the bandwidth yourself:"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "* [Run a test using tor](https://lists.torproject.org/pipermail/tor-"
 "relays/2016-September/010173.html) to see how fast tor can get on your "
 "network/CPU."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-is-my-relay-slow/
-#: (content/operators/why-is-my-relay-slow/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-is-my-relay-slow/
+#: (content/relay-operators/why-is-my-relay-slow/contents+en.lr:question.description)
 msgid ""
 "* Run a test using tor and [chutney](https://gitweb.torproject.org/chutney."
 "git/tree/README.md#n105) to find out how fast tor can get on your CPU. Keep "
 "increasing the data volume until the bandwidth stops increasing."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-isnt-my-relay-being-used-more/
-#: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/why-isnt-my-relay-being-used-more/
+#: (content/relay-operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.title)
 msgid "Why isn't my relay being used more?"
 msgstr ""
 
-#: https://support.torproject.org/operators/why-isnt-my-relay-being-used-more/
-#: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-isnt-my-relay-being-used-more/
+#: (content/relay-operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
 msgid "If your relay is relatively new then give it time."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-isnt-my-relay-being-used-more/
-#: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-isnt-my-relay-being-used-more/
+#: (content/relay-operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
 msgid ""
 "Tor decides which relays it uses heuristically based on reports from "
 "Bandwidth Authorities. These authorities take measurements of your relay's "
@@ -8935,36 +9169,36 @@ msgid ""
 "optimal load."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-isnt-my-relay-being-used-more/
-#: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-isnt-my-relay-being-used-more/
+#: (content/relay-operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
 msgid ""
 "The lifecycle of a new relay is explained in more depth in [this blog post]"
 "(https://blog.torproject.org/blog/lifecycle-of-a-new-relay)."
 msgstr ""
 
-#: https://support.torproject.org/operators/why-isnt-my-relay-being-used-more/
-#: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/why-isnt-my-relay-being-used-more/
+#: (content/relay-operators/why-isnt-my-relay-being-used-more/contents+en.lr:question.description)
 msgid ""
 "If you've been running a relay for a while and still having issues then try "
 "asking on the [tor-relays list](https://lists.torproject.org/cgi-bin/mailman/"
 "listinfo/tor-relays/)."
 msgstr ""
 
-#: https://support.torproject.org/operators/wrong-ip/
-#: (content/operators/wrong-ip/contents+en.lr:question.title)
+#: https://support.torproject.org/relay-operators/wrong-ip/
+#: (content/relay-operators/wrong-ip/contents+en.lr:question.title)
 msgid "My relay is picking the wrong IP address."
 msgstr ""
 
-#: https://support.torproject.org/operators/wrong-ip/
-#: (content/operators/wrong-ip/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/wrong-ip/
+#: (content/relay-operators/wrong-ip/contents+en.lr:question.description)
 msgid ""
 "Tor guesses its IP address by asking the computer for its hostname, and then "
 "resolving that hostname. Often people have old entries in their /etc/hosts "
 "file that point to old IP addresses."
 msgstr ""
 
-#: https://support.torproject.org/operators/wrong-ip/
-#: (content/operators/wrong-ip/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/wrong-ip/
+#: (content/relay-operators/wrong-ip/contents+en.lr:question.description)
 msgid ""
 "If that doesn't fix it, you should use the \"Address\" config option to "
 "specify the IP you want it to pick. If your computer is behind a NAT and it "
@@ -8972,8 +9206,8 @@ msgid ""
 "IP addresses."
 msgstr ""
 
-#: https://support.torproject.org/operators/wrong-ip/
-#: (content/operators/wrong-ip/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/wrong-ip/
+#: (content/relay-operators/wrong-ip/contents+en.lr:question.description)
 msgid ""
 "Also, if you have many addresses, you might also want to set "
 "\"OutboundBindAddress\" so external connections come from the IP you intend "
@@ -9980,6 +10214,11 @@ msgstr ""
 
 #: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
+msgid "Operators"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
 msgid "Abuse FAQs"
 msgstr ""
 
@@ -10337,6 +10576,30 @@ msgstr ""
 msgid ""
 "A large portion of the features Vidalia offered have now been integrated "
 "into Tor Browser itself."
+msgstr ""
+
+#: https://support.torproject.org/misc/tormessenger-1/
+#: (content/misc/tormessenger-1/contents+en.lr:question.title)
+msgid "Does Tor Project make an application for private chat?"
+msgstr ""
+
+#: https://support.torproject.org/misc/tormessenger-1/
+#: (content/misc/tormessenger-1/contents+en.lr:question.description)
+msgid ""
+"No. After eleven beta releases, we discontinued support of [Tor Messenger]"
+"(https://blog.torproject.org/sunsetting-tor-messenger)."
+msgstr ""
+
+#: https://support.torproject.org/misc/tormessenger-1/
+#: (content/misc/tormessenger-1/contents+en.lr:question.description)
+msgid ""
+"We still believe in Tor's ability to be used in a messaging app, but we "
+"don't have the resources to make it happen right now."
+msgstr ""
+
+#: https://support.torproject.org/misc/tormessenger-1/
+#: (content/misc/tormessenger-1/contents+en.lr:question.description)
+msgid "Do you? [Contact us](https://www.torproject.org/contact)."
 msgstr ""
 
 #: https://support.torproject.org/get-in-touch/irc-help/
@@ -11277,8 +11540,8 @@ msgstr ""
 #: https://support.torproject.org/abuse/i-want-to-ban-tor/
 #: (content/abuse/ban-tor/contents+en.lr:question.description)
 msgid ""
-"Lastly, please remember that Tor relays have [individual exit policies]"
-"(https://support.torproject.org/operators/exit-policies/)."
+"Lastly, please remember that Tor relays have [individual exit policies](/"
+"relay-operators/exit-policies/)."
 msgstr ""
 
 #: https://support.torproject.org/abuse/i-want-to-ban-tor/
@@ -12391,6 +12654,190 @@ msgid ""
 "doesn't change IP address over the day."
 msgstr ""
 
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.title)
+msgid "How can I verify tor source code?"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "**Attention: These instructions are to verify the tor source code.**"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"**Please follow the right instructions to verify [Tor Browser's signature?](/"
+"tbb/how-to-verify-signature/).**"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"Below we explain why it is important and how to verify that the [tor source "
+"code](https://www.torproject.org/download/tor/) you download is the one we "
+"have created and has not been modified by some attacker."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"Each file on our [download page](https://www.torproject.org/download/tor) is "
+"accompanied by a file labelled \"sig\" with the same name as the package and "
+"the extension \".asc\"."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "These .asc files are OpenPGP signatures."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"This will vary by web browser, but generally you can download this file by "
+"right-clicking the \"sig\" link and selecting the \"save file as\" option."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"For example, `tor-0.4.6.7.tar.gz` is accompanied by `tor-0.4.6.7.tar.gz.asc`."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"In order to verify the signature you will need to type a few commands in a "
+"terminal window."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "How to do this will vary depending on your distribution."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"Roger Dingledine (0xEB5A896A28988BF5 and 0xC218525819F78451), Nick Mathewson "
+"(0xFE43009C4607B1FB) sign Tor source tarballs."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "Fetching Nick Mathewson most recent key:"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "gpg --auto-key-locate nodefault,wkd --locate-keys nickm@torproject.org"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"gpg: key FE43009C4607B1FB: public key \"Nick Mathewson <nickm@torproject.org>"
+"\" imported"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "pub   rsa4096 2016-09-21 [C] [expires: 2025-10-04]"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "2133BC600AB133E1D826D173FE43009C4607B1FB"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "uid           [ unknown] Nick Mathewson <nickm@torproject.org>"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "sub   rsa4096 2016-09-23 [S] [expires: 2025-10-04]"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "sub   rsa4096 2016-09-23 [E] [expires: 2025-10-04]"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"If you get an error message, something has gone wrong and you cannot "
+"continue until you've figured out why this didn't work."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"You might be able to import the key using the **Workaround (using a public "
+"key)** section instead."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"gpg --output ./tor.keyring --export "
+"0x2133BC600AB133E1D826D173FE43009C4607B1FB"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"gpgv --keyring .\\tor.keyring Downloads\\tor-0.4.6.7.tar.gz.asc Downloads"
+"\\tor-0.4.6.7.tar.gz"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"gpgv --keyring ./tor.keyring ~/Downloads/tor-0.4.6.7.tar.gz.asc ~/Downloads/"
+"tor-0.4.6.7.tar.gz"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "gpgv: Signature made Mon 16 Aug 2021 04:44:27 PM -03"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"gpgv:                using RSA key 7A02B3521DC75C542BA015456AFEE6D49E92B601"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "gpgv: Good signature from \"Nick Mathewson <nickm@torproject.org>\""
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"Nick Mathewson key is also available on [keys.openpgp.org](https://keys."
+"openpgp.org/) and can be downloaded from [https://keys.openpgp.org/vks/v1/by-"
+"fingerprint/2133BC600AB133E1D826D173FE43009C4607B1FB](https://keys.openpgp."
+"org/vks/v1/by-fingerprint/2133BC600AB133E1D826D173FE43009C4607B1FB)."
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"If you're using macOS or GNU/Linux, the key can also be fetched by running "
+"the following command:"
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid "$ gpg --keyserver keys.openpgp.org --search-keys nickm@torproject.org"
+msgstr ""
+
 #: https://support.torproject.org/alternate-designs/block-websites/
 #: (content/alternate-designs/block-websites/contents+en.lr:question.title)
 msgid "Exit policies should be able to block websites, not just IP addresses."
@@ -12465,6 +12912,316 @@ msgstr ""
 msgid ""
 "This would give an adversary the ability to watch all of your traffic end to "
 "end."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.title)
+msgid "You should make every Tor user be a relay."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"Requiring every Tor user to be a relay would help with scaling the network "
+"to handle all our users, and [running a Tor relay may help your anonymity]"
+"(../../relay-operators/better-anonymity)."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"However, many Tor users cannot be good relays — for example, some Tor "
+"clients operate from behind restrictive firewalls, connect via modem, or "
+"otherwise aren't in a position where they can relay traffic."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"Providing service to these clients is a critical part of providing effective "
+"anonymity for everyone, since many Tor users are subject to these or similar "
+"constraints and including these clients increases the size of the anonymity "
+"set."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"That said, we do want to encourage Tor users to run relays, so what we "
+"really want to do is simplify the process of setting up and maintaining a "
+"relay."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"We've made a lot of progress with easy configuration in the past few years: "
+"Tor is good at automatically detecting whether it's reachable and how much "
+"bandwidth it can offer."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid "There are four steps we need to address before we can do this though:"
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"- First, we still need to get better at automatically estimating the right "
+"amount of bandwidth to allow."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"It might be that [switching to UDP transport](../transport-all-ip-packets) "
+"is the simplest answer here — which alas is not a very simple answer at all."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"- Second, we need to work on scalability, both of the network (how to stop "
+"requiring that all Tor relays be able to connect to all Tor relays) and of "
+"the directory (how to stop requiring that all Tor users know about all Tor "
+"relays)."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"Changes like this can have large impact on potential and actual anonymity."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"See Section 5 of the [Challenges](https://svn.torproject.org/svn/projects/"
+"design-paper/challenges.pdf) paper for details."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid "Again, UDP transport would help here."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"- Third, we need to better understand the risks from letting the attacker "
+"send traffic through your relay while you're also initiating your own "
+"anonymized traffic."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"[Three](http://freehaven.net/anonbib/#back01) [different](http://freehaven."
+"net/anonbib/#clog-the-queue) [research](http://freehaven.net/anonbib/"
+"#torta05) papers describe ways to identify the relays in a circuit by "
+"running traffic through candidate relays and looking for dips in the traffic "
+"while the circuit is active."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"These clogging attacks are not that scary in the Tor context so long as "
+"relays are never clients too."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"But if we're trying to encourage more clients to turn on relay functionality "
+"too (whether as [bridge relays](../../censorship/censorship-7) or as normal "
+"relays), then we need to understand this threat better and learn how to "
+"mitigate it."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"- Fourth, we might need some sort of incentive scheme to encourage people to "
+"relay traffic for others, and/or to become exit nodes."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid ""
+"[Here are our current thoughts on Tor incentives](https://blog.torproject."
+"org/blog/two-incentive-designs-tor)."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/make-every-user-a-relay/
+#: (content/alternate-designs/make-every-user-a-relay/contents+en.lr:question.description)
+msgid "Please help on all of these!"
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.title)
+msgid "You should transport all IP packets, not just TCP packets."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "This would be handy for a number of reasons:"
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "It would make Tor better able to handle new protocols like VoIP."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "It could solve the whole need to socksify applications."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"[Exit relays](../../glossary/exit) would also not need to allocate a lot of "
+"file descriptors for all the exit connections."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "We're heading in this direction. Some of the hard problems are:"
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "1. IP packets reveal OS characteristics."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"We would still need to do IP-level packet normalization, to stop things like "
+"TCP fingerprinting attacks."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Given the diversity and complexity of TCP stacks, along with device "
+"fingerprinting attacks, it looks like our best bet is shipping our own user-"
+"space TCP stack."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "2. Application-level streams still need scrubbing."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "We will still need user-side applications like Torbutton."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"So it won't become just a matter of capturing packets and anonymizing them "
+"at the IP layer."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "3. Certain protocols will still leak information."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"For example, we must rewrite DNS requests so they are delivered to an "
+"unlinkable DNS server rather than the DNS server at a user's ISP; thus, we "
+"must understand the protocols we are transporting."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "4. DTLS (datagram TLS) basically has no users, and IPsec sure is big."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Once we've picked a transport mechanism, we need to design a new end-to-end "
+"Tor protocol for avoiding tagging attacks and other potential anonymity and "
+"integrity issues now that we allow drops, resends, et cetera."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"5. Exit policies for arbitrary IP packets mean building a secure Intrusion "
+"Detection System (IDS)."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Our node operators tell us that exit policies are one of the main reasons "
+"they're willing to run Tor."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Adding an IDS to handle exit policies would increase the security complexity "
+"of Tor, and would likely not work anyway, as evidenced by the entire field "
+"of IDS and counter-IDS papers."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Many potential abuse issues are resolved by the fact that Tor only "
+"transports valid TCP streams (as opposed to arbitrary IP including malformed "
+"packets and IP floods.)"
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Exit policies become even more important as we become able to transport IP "
+"packets."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"We also need to compactly describe exit policies in the Tor directory, so "
+"clients can predict which nodes will allow their packets to exit."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Clients also need to predict all the packets they will want to send in a "
+"session before picking their exit node!"
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid "6. The Tor-internal name spaces would need to be redesigned."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"We support onion service \".onion\" addresses by intercepting the addresses "
+"when they are passed to the Tor client."
+msgstr ""
+
+#: https://support.torproject.org/alternate-designs/transport-all-ip-packets/
+#: (content/alternate-designs/transport-all-ip-packets/contents+en.lr:question.description)
+msgid ""
+"Doing so at the IP level will require a more complex interface between Tor "
+"and the local DNS resolver."
 msgstr ""
 
 #: lego/templates/banner.html:3 lego/templates/banner.html:5
