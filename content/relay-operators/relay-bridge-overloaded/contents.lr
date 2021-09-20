@@ -12,8 +12,7 @@ This means that one or many of the following load metrics have been triggered:
 - TCP port exhaustion
 - DNS timeout reached
 
-Note that if a relay reaches an overloaded state we show it for 72 hours after the relay
-has recovered.
+Note that if a relay reaches an overloaded state we show it for 72 hours after the relay has recovered.
 
 If you notice that your relay is overloaded please:
 
@@ -30,10 +29,10 @@ or
 echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range
 ```
 
-If you are experiencing DNS timeout, you should investigate if this is a network
-or a resolver issue.
+If you are experiencing DNS timeout, you should investigate if this is a network or a resolver issue.
 
-In linux in resolve.conf there is an option to set a timeout:
+In Linux in `resolve.conf` there is an option to set a timeout:
+
 ```
 timeout:n
   Sets  the  amount of time the resolver will wait for a response from a remote
@@ -45,11 +44,10 @@ timeout:n
 ```
 Check ``$ man resolve.conf`` for more information.
 
-3. Consider enabling MetricsPort to understand what is happening. Please be careful. It
-   is important to understand that exposing tor metrics publicly is dangerous to the Tor
-   network users. Please take extra precaution and care when opening this port.
-   Set a very strict access policy with MetricsPortPolicy and consider using your operating
-   systems firewall features for defense in depth.
+3. Consider enabling MetricsPort to understand what is happening. Please be careful. 
+It's important to understand that exposing Tor metrics publicly is dangerous to the Tor network users. 
+Please take extra precaution and care when opening this port.
+Set a very strict access policy with MetricsPortPolicy and consider using your operating systems firewall features for defense in depth.
 
 Here is an example of what output enabling MetricsPort will produce:
 
@@ -136,10 +134,9 @@ Any counter in the "*_dns_error_total" realm indicates a DNS problem.
 
 ```tor_relay_load_oom_bytes_total{...}```
 
-This indicates a RAM problem. The relay might need more RAM or it is leaking memory.
-If you noticed that the tor process is leaking memory please report the issue via
-either [gitlab.torproject.org](https://gitlab.torproject.org) or an email to the
-tor-relays@lists.torproject.org mailing list.
+This indicates a RAM problem.
+The relay might need more RAM or it is leaking memory.
+If you noticed that the tor process is leaking memory, please report the issue via either [GitLab](https://gitlab.torproject.org) or send an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 
 ```
 tor_relay_load_socket_total
@@ -149,19 +146,15 @@ tor_relay_load_tcp_exhaustion_total
 ```
 
 These lines indicate the relay is running out of sockets or TCP ports.
-If the issue is socket related the solution is to increase ``ulimit -n`` for the
- tor process
+If the issue is socket related the solution is to increase ``ulimit -n`` for the tor process
 
-If the solution is related to TCP ports exhaustion try to tune sysctl as described
-above.
+If the solution is related to TCP ports exhaustion try to tune sysctl as described above.
 
 ```
 tor_relay_load_global_rate_limit_reached_total
 ```
-If this counter is incremented by some noticeable value over a short period
-of time then it indicates the relay is congested. It is likely being used as a
-Guard by a big onion service or for an ongoing DDoS on the network.
+If this counter is incremented by some noticeable value over a short period of time then it indicates the relay is congested.
+It is likely being used as a Guard by a big onion service or for an ongoing DDoS on the network.
 
-If your relay is still overloaded and you don't know why please get in touch with:
-
-network-report@torproject.org [PGP/GPG](https://keys.openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE)
+If your relay is still overloaded and you don't know why, please get in touch with [network-report@torproject.org](mailto:network-report@torproject.org).
+You can encrypt your email using network-report [OpenPGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE).
