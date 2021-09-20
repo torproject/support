@@ -1,0 +1,39 @@
+title: You should transport all IP packets, not just TCP packets.
+---
+description:
+
+This would be handy for a number of reasons:
+It would make Tor better able to handle new protocols like VoIP.
+It could solve the whole need to socksify applications.
+[Exit relays](../../glossary/exit) would also not need to allocate a lot of file descriptors for all the exit connections.
+
+We're heading in this direction. Some of the hard problems are:
+
+1. IP packets reveal OS characteristics.
+   We would still need to do IP-level packet normalization, to stop things like TCP fingerprinting attacks.
+   Given the diversity and complexity of TCP stacks, along with device fingerprinting attacks, it looks like our best bet is shipping our own user-space TCP stack.
+
+2. Application-level streams still need scrubbing.
+   We will still need user-side applications like Torbutton.
+   So it won't become just a matter of capturing packets and anonymizing them at the IP layer.
+
+3. Certain protocols will still leak information.
+   For example, we must rewrite DNS requests so they are delivered to an unlinkable DNS server rather than the DNS server at a user's ISP; thus, we must understand the protocols we are transporting.
+
+4. DTLS (datagram TLS) basically has no users, and IPsec sure is big.
+   Once we've picked a transport mechanism, we need to design a new end-to-end Tor protocol for avoiding tagging attacks and other potential anonymity and integrity issues now that we allow drops, resends, et cetera.
+
+5. Exit policies for arbitrary IP packets mean building a secure Intrusion Detection System (IDS).
+   Our node operators tell us that exit policies are one of the main reasons they're willing to run Tor.
+   Adding an IDS to handle exit policies would increase the security complexity of Tor, and would likely not work anyway, as evidenced by the entire field of IDS and counter-IDS papers.
+   Many potential abuse issues are resolved by the fact that Tor only transports valid TCP streams (as opposed to arbitrary IP including malformed packets and IP floods.)
+   Exit policies become even more important as we become able to transport IP packets.
+   We also need to compactly describe exit policies in the Tor directory, so clients can predict which nodes will allow their packets to exit.
+   Clients also need to predict all the packets they will want to send in a session before picking their exit node!
+
+6. The Tor-internal name spaces would need to be redesigned.
+   We support onion service ".onion" addresses by intercepting the addresses when they are passed to the Tor client.
+   Doing so at the IP level will require a more complex interface between Tor and the local DNS resolver.
+
+---
+seo_slug: transport-all-ip-packets

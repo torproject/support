@@ -1,6 +1,8 @@
 # Tor Project Support
 This repository contains the code for the portal dedicated to answering FAQs and providing information necessary for safe and optimal usage of Tor.
 
+[![pipeline status](https://gitlab.torproject.org/tpo/web/support/badges/master/pipeline.svg)](https://gitlab.torproject.org/tpo/web/support/-/commits/master)
+
 The site is accessible at the following locations:
 - https://support.torproject.org/
 - http://rzuwtpc4wb3xdzrj3yeajsvm3fkq4vbeubm2tdxaqruzzzgs5dwemlad.onion/
@@ -9,16 +11,16 @@ The site is accessible at the following locations:
 
 ## Reporting Bugs or Feedback
 
-Bugs and feedback issues can be submitted on [GitLab](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo/web/support/-/issues). To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance. The process for an account creation may require a couple of hours before another human approves it.
+Bugs about this page and feedback can be submitted on [GitLab](https://gitlab.torproject.org/tpo/web/support/-/issues). To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance. The process for an account creation may require a couple of hours before another human approves it.
 
 ## What is Lektor?
 Lektor is the static site generator behind this website. Documentation can be found [here.](https://www.getlektor.com/docs/)
 
 ## Contributing
-- [Compile a local version of the site](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/web/tpo/wikis/Compiling-a-local-version-of-the-website) (clone the correct repository).
-- [Developing on the site](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/web/tpo/wikis/How-to-develop-on-the-website)
-- [How to write the content - edition tips and best practices for content creation](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/torproject/web/tpo/wikis/Writing-the-content)
-- [Documentation on how to install, modify and use websites from the Tor project.](http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo/web/wiki)
+- [Compile a local version of the site](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/Compiling-a-local-version-of-the-website) (clone the correct repository).
+- [Developing on the site](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/How-to-develop-on-the-website)
+- [How to write the content - edition tips and best practices for content creation](https://gitlab.torproject.org/tpo/web/wiki/-/wikis/Writing-the-content)
+- [Documentation on how to install, modify and use websites from the Tor project.](https://gitlab.torproject.org/tpo/web/wiki)
 
 ## Translations
 

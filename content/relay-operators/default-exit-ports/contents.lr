@@ -1,0 +1,34 @@
+title: Is there a list of default exit ports?
+---
+description:
+
+The default open ports are listed below but keep in mind that, any port or ports can be opened by the relay operator by configuring it in torrc or modifying the source code.
+The default according to src/or/policies.c ([line 85][1] and [line 1901][2]) from the source code release [release-0.4.6][3]:
+
+```
+reject 0.0.0.0/8
+reject 169.254.0.0/16
+reject 127.0.0.0/8
+reject 192.168.0.0/16
+reject 10.0.0.0/8
+reject 172.16.0.0/12
+
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+
+```
+
+[1]: https://gitlab.torproject.org/tpo/core/tor/-/blob/release-0.4.6/src/core/or/policies.c#L85
+[2]: https://gitlab.torproject.org/tpo/core/tor/-/blob/release-0.4.6/src/core/or/policies.c#L1901
+[3]: https://gitlab.torproject.org/tpo/core/tor/-/tree/release-0.4.6/
+---
+seo_slug: default-exit-ports

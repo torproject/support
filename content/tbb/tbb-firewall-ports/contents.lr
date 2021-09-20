@@ -1,0 +1,18 @@
+_model: question
+---
+title: My firewall only allows a few outgoing ports
+---
+key: 51
+---
+description:
+
+If your firewall works by blocking ports, then you can tell Tor to only use the ports when you start your Tor Browser.
+Or you can add the ports that your firewall permits by adding "FascistFirewall 1" to your torrc configuration file.
+By default, when you set this Tor assumes that your firewall allows only port 80 and port 443 (HTTP and HTTPS respectively).
+You can select a different set of ports with the FirewallPorts torrc option.
+If you want to be more fine-grained with your controls, you can also use the ReachableAddresses config options, e.g.:
+
+```
+ReachableDirAddresses *:80
+ReachableORAddresses *:443
+```

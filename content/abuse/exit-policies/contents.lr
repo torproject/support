@@ -1,5 +1,5 @@
 _model: redirect
 ---
-target: /operators/exit-policies
+target: /relay-operators/exit-policies
 ---
 _discoverable: no

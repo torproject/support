@@ -1,0 +1,11 @@
+title: You should let the network pick the path, not the client.
+---
+description:
+
+No, you cannot trust the network to pick the path.
+Malicious relays could route you through their colluding friends.
+This would give an adversary the ability to watch all of your traffic end to end.
+---
+seo_slug: let-the-network-pick-the-path
+---
+_slug: let-the-network-pick-the-path

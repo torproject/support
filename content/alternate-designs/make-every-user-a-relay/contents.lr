@@ -1,0 +1,32 @@
+title: You should make every Tor user be a relay.
+---
+description:
+
+Requiring every Tor user to be a relay would help with scaling the network to handle all our users, and [running a Tor relay may help your anonymity](../../relay-operators/better-anonymity).
+However, many Tor users cannot be good relays — for example, some Tor clients operate from behind restrictive firewalls, connect via modem, or otherwise aren't in a position where they can relay traffic.
+Providing service to these clients is a critical part of providing effective anonymity for everyone, since many Tor users are subject to these or similar constraints and including these clients increases the size of the anonymity set.
+
+That said, we do want to encourage Tor users to run relays, so what we really want to do is simplify the process of setting up and maintaining a relay.
+We've made a lot of progress with easy configuration in the past few years: Tor is good at automatically detecting whether it's reachable and how much bandwidth it can offer.
+
+There are four steps we need to address before we can do this though:
+
+- First, we still need to get better at automatically estimating the right amount of bandwidth to allow.
+  It might be that [switching to UDP transport](../transport-all-ip-packets) is the simplest answer here — which alas is not a very simple answer at all.
+
+- Second, we need to work on scalability, both of the network (how to stop requiring that all Tor relays be able to connect to all Tor relays) and of the directory (how to stop requiring that all Tor users know about all Tor relays).
+  Changes like this can have large impact on potential and actual anonymity.
+  See Section 5 of the [Challenges](https://svn.torproject.org/svn/projects/design-paper/challenges.pdf) paper for details.
+  Again, UDP transport would help here.
+
+- Third, we need to better understand the risks from letting the attacker send traffic through your relay while you're also initiating your own anonymized traffic.
+  [Three](http://freehaven.net/anonbib/#back01) [different](http://freehaven.net/anonbib/#clog-the-queue) [research](http://freehaven.net/anonbib/#torta05) papers describe ways to identify the relays in a circuit by running traffic through candidate relays and looking for dips in the traffic while the circuit is active.
+  These clogging attacks are not that scary in the Tor context so long as relays are never clients too.
+  But if we're trying to encourage more clients to turn on relay functionality too (whether as [bridge relays](../../censorship/censorship-7) or as normal relays), then we need to understand this threat better and learn how to mitigate it.
+
+- Fourth, we might need some sort of incentive scheme to encourage people to relay traffic for others, and/or to become exit nodes.
+  [Here are our current thoughts on Tor incentives](https://blog.torproject.org/blog/two-incentive-designs-tor).
+
+Please help on all of these! 
+---
+seo_slug: make-every-user-a-relay

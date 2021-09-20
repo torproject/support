@@ -1,9 +1,0 @@
-_model: question
----
-title: Can I use IPv6 on my relay?
----
-description:
-Tor [has partial support for IPv6](https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Tor/IPv6Features) and we encourage every relay operator to [enable IPv6 functionality](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide#IPv6) in their [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) configuration files when IPv6 connectivity is available.
-For the time being Tor will require IPv4 addresses on relays, you can not run a Tor relay on a host with IPv6 addresses only.
----
-seo_slug: ipv6-relay

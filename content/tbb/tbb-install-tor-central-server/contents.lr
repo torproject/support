@@ -1,0 +1,37 @@
+_model: question
+---
+title: Can I install Tor on a central server, and have my clients connect to it?
+---
+key: 52
+---
+description:
+
+Yes. Tor can be configured as a client or a relay on another machine, and allow other machines to be able to connect to it for anonymity.
+This is most useful in an environment where many computers want a gateway of anonymity to the rest of the world.
+However, be forewarned that with this configuration, anyone within your private network (existing between you and the Tor client/relay) can see what traffic you are sending in clear text.
+The anonymity doesn't start until you get to the Tor relay.
+Because of this, if you are the controller of your domain and you know everything's locked down, you will be OK, but this configuration may not be suitable for large private networks where security is key all around.
+
+Configuration is simple, editing your torrc file's SocksListenAddress according to the following examples:
+
+```
+SocksListenAddress 127.0.0.1
+```
+```
+SocksListenAddress 192.168.x.x:9100
+```
+```
+SocksListenAddress 0.0.0.0:9100
+```
+
+You can state multiple listen addresses, in the case that you are part of several networks or subnets.
+
+```
+SocksListenAddress 192.168.x.x:9100 #eth0
+SocksListenAddress 10.x.x.x:9100 #eth1
+```
+
+After this, your clients on their respective networks/subnets would specify a socks proxy with the address and port you specified SocksListenAddress to be.
+Please note that the SocksPort configuration option gives the port ONLY for localhost (127.0.0.1).
+When setting up your SocksListenAddress(es), you need to give the port with the address, as shown above.
+If you are interested in forcing all outgoing data through the central Tor client/relay, instead of the server only being an optional proxy, you may find the program iptables (for *nix) useful.

@@ -1,0 +1,31 @@
+title: What are Entry Guards?
+---
+key: 8
+---
+description:
+
+Tor (like all current practical low-latency anonymity designs) fails when the attacker can see both ends of the communications channel.
+For example, suppose the attacker controls or watches the Tor relay you choose to enter the network, and also controls or watches the website you visit.
+In this case, the research community knows no practical low-latency design that can reliably stop the attacker from correlating volume and timing information on the two sides.
+
+So, what should we do? 
+Suppose the attacker controls, or can observe, C relays.
+Suppose there are N relays total.
+If you select new entry and exit relays each time you use the network, the attacker will be able to correlate all traffic you send with probability around (c/n)2.
+But profiling is, for most users, as bad as being traced all the time: they want to do something often without an attacker noticing, and the attacker noticing once is as bad as the attacker noticing more often.
+Thus, choosing many random entries and exits gives the user no chance of escaping profiling by this kind of attacker.
+
+The solution is "entry guards": each Tor client selects a few relays at random to use as entry points, and uses only those relays for their first hop.
+If those relays are not controlled or observed, the attacker can't win, ever, and the user is secure.
+If those relays are observed or controlled by the attacker, the attacker sees a larger fraction of the user's traffic - but still the user is no more profiled than before.
+Thus, the user has some chance (on the order of (n-c)/n) of avoiding profiling, whereas they had none before.
+
+You can read more at [An Analysis of the Degradation of Anonymous Protocols](http://freehaven.net/anonbib/#wright02), [Defending Anonymous Communication Against Passive Logging Attacks](http://freehaven.net/anonbib/#wright03), and especially [Locating Hidden Servers](http://freehaven.net/anonbib/#hs-attack06).
+
+Restricting your entry nodes may also help against attackers who want to run a few Tor nodes and easily enumerate all of the Tor user IP addresses.
+(Even though they can't learn what destinations the users are talking to, they still might be able to do bad things with just a list of users.) 
+However, that feature won't really become useful until we move to a "directory guard" design as well.
+---
+seo_slug: entry-guards
+---
+_slug: entry-guards

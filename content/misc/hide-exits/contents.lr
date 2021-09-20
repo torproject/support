@@ -1,0 +1,20 @@
+_model: question
+---
+title: You should hide the list of Tor relays, so people can't block the exits.
+---
+description:
+
+There are a few reasons we don't:
+
+1. We can't help but make the information available, since Tor clients need to use it to pick their paths.
+So if the "blockers" want it, they can get it anyway.
+Further, even if we didn't tell clients about the list of relays directly, somebody could still make a lot of connections through Tor to a test site and build a list of the addresses they see.
+1. If people want to block us, we believe that they should be allowed to do so.
+Obviously, we would prefer for everybody to allow Tor users to connect to them, but people have the right to decide who their services should allow connections from, and if they want to block anonymous users, they can.
+1. Being blockable also has tactical advantages: it may be a persuasive response to website maintainers who feel threatened by Tor.
+Giving them the option may inspire them to stop and think about whether they really want to eliminate private access to their system, and if not, what other options they might have.
+The time they might otherwise have spent blocking Tor, they may instead spend rethinking their overall approach to privacy and anonymity.
+---
+seo_slug: hide-exits
+---
+_slug: hide-exits

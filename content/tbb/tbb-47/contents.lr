@@ -6,8 +6,24 @@ key: 50
 ---
 description:
 
-You can set Proxy IP address, port, and authentication information in [Tor Browser's Network Settings](https://tb-manual.torproject.org/running-tor-browser/). If you're using Tor another way, check out the HTTPProxy and HTTPSProxy config options in the [manual page](https://2019.www.torproject.org/docs/tor-manual.html.en), and modify your torrc file accordingly. You will need an HTTP proxy for doing GET requests to fetch the Tor directory, and you will need an HTTPS proxy for doing CONNECT requests to get to Tor relays. (It's fine if they're the same proxy.) Tor also recognizes the torrc options Socks4Proxy and Socks5Proxy.
+If you're using Tor Browser, you can set your proxy's address, port, and authentication information in the [Network Settings](https://tb-manual.torproject.org/running-tor-browser/).
 
-Also, read up on the HTTPProxyAuthenticator and HTTPSProxyAuthenticator options if your proxy requires auth. We only support basic auth currently, but if you need NTLM authentication, you may find [this post in the archives](https://archives.seul.org/or/talk/Jun-2005/msg00223.html) useful.
+If you're using Tor another way, you can set the proxy information in your torrc file. Check out the `HTTPSProxy` config option in the [manual page](https://2019.www.torproject.org/docs/tor-manual.html.en#HTTPSProxy). If your proxy requires authentication, see the `HTTPSProxyAuthenticator` option. Example with authentication:
+
+  ```
+  HTTPSProxy 10.0.0.1:8080
+  HTTPSProxyAuthenticator myusername:mypass
+  ```
+
+We only support Basic auth currently, but if you need NTLM authentication, you may find [this post in the archives](https://archives.seul.org/or/talk/Jun-2005/msg00223.html) useful.
+
+For using a SOCKS proxy, see the `Socks4Proxy`, `Socks5Proxy`, and related torrc options in the [manual page](https://2019.www.torproject.org/docs/tor-manual.html.en#Socks4Proxy). Using a SOCKS 5 proxy with authentication might look like this:
+
+  ```
+  Socks5Proxy 10.0.0.1:1080
+  Socks5ProxyUsername myuser
+  Socks5ProxyPassword mypass
+  ```
 
 If your proxies only allow you to connect to certain ports, look at the entry on [Firewalled](https://2019.www.torproject.org/docs/faq.html.en#FirewallPorts) clients for how to restrict what ports your Tor will try to access.
+
