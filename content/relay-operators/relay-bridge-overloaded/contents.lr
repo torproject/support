@@ -16,9 +16,9 @@ Note that if a relay reaches an overloaded state we show it for 72 hours after t
 
 If you notice that your relay is overloaded please:
 
-1. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
+1\. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
 
-2. Consider tuning ``sysctl`` for your system for network, memory and CPU load.
+2\. Consider tuning ``sysctl`` for your system for network, memory and CPU load.
 
 If you are experiencing TCP port exhaustion consider expanding your local port range
 ```
@@ -44,12 +44,12 @@ timeout:n
 ```
 Check ``$ man resolve.conf`` for more information.
 
-3. Consider enabling MetricsPort to understand what is happening. Please be careful. 
-It's important to understand that exposing Tor metrics publicly is dangerous to the Tor network users. 
+3\. Consider enabling ``MetricsPort`` to understand what is happening. Please be careful. 
+It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users. 
 Please take extra precaution and care when opening this port.
-Set a very strict access policy with MetricsPortPolicy and consider using your operating systems firewall features for defense in depth.
+Set a very strict access policy with ``MetricsPortPolicy`` and consider using your operating systems firewall features for defense in depth.
 
-Here is an example of what output enabling MetricsPort will produce:
+Here is an example of what output enabling ``MetricsPort`` will produce:
 
 ```
 # HELP tor_relay_load_onionskins_total Total number of onionskins handled
@@ -148,7 +148,7 @@ tor_relay_load_tcp_exhaustion_total
 These lines indicate the relay is running out of sockets or TCP ports.
 If the issue is socket related the solution is to increase ``ulimit -n`` for the tor process
 
-If the solution is related to TCP ports exhaustion try to tune sysctl as described above.
+If the solution is related to TCP ports exhaustion try to tune ``sysctl`` as described above.
 
 ```
 tor_relay_load_global_rate_limit_reached_total
