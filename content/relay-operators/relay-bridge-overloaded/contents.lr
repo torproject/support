@@ -47,9 +47,8 @@ Check ``$ man resolve.conf`` for more information.
 3\. Consider enabling ``MetricsPort`` to understand what is happening.
 
 MetricsPort data for relays has been introduced since version >= 0.4.7.1-alpha,
-while the overload data has been added to the relay descriptor since 0.4.6+.
+while the overload data has been added to the relay descriptors since 0.4.6+.
 
-Please be careful.
 It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users.
 Please take extra precaution and care when opening this port.
 Set a very strict access policy with ``MetricsPortPolicy`` and consider using your operating systems firewall features for defense in depth.
@@ -142,7 +141,7 @@ to that pool.
 It can happen that this pool starts dropping work due to memory or CPU pressure
 and this will trigger an overload state.
 
-If your server is running at capacity this will be likely be triggered.
+If your server is running at capacity this will likely be triggered.
 
 ```tor_relay_exit_dns_error_total{...}```
 
@@ -153,7 +152,7 @@ you'll get the overload flag. This might not be because your relay is overloaded
 in terms of resources but it signals a problem on the network.
 
 DNS timeouts at the Exits are a _huge_ UX problem for tor users. Therefore Exit
-operators really need take care of those to help.
+operators really need to take care of these issues to help the network.
 
 ```tor_relay_load_oom_bytes_total{...}```
 
@@ -161,10 +160,10 @@ An Out-Of-Memory invocation indicates a RAM problem.
 The relay might need more RAM or it is leaking memory.
 If you noticed that the tor process is leaking memory, please report the issue via either [GitLab](https://gitlab.torproject.org) or send an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 
-Tor has its own OOM and it is invoked when 75% of the total memory tor thinks it
-can use is reached. Thus, let say tor thinks it can use 2GB in total then at
-1.5GB of memory usage, it will start freeing memory. That, is considered an
-overload state.
+Tor has its own OOM handler and it is invoked when 75%, of the total memory tor
+thinks it is available, is reached. Thus, let say tor thinks it can use 2GB in
+total then at 1.5GB of memory usage, it will start freeing memory. That is
+considered an overload state.
 
 To estimate the amount of memory it has available, when tor starts, it will use
 MaxMemInQueues or will look at the total RAM available on the system and apply
@@ -184,10 +183,10 @@ this algorithm:
 To avoid an overloaded state we recommend to run a relay above 2GB of RAM on
 64bit. 4GB is advised.
 
-One might notice that tor could be called by the OS OOM itself.
+One might notice that tor could be called by the OS OOM handler itself.
 Because tor takes the total memory on the system when it starts, if the overall
 system has many other applications running using RAM, it ends up eating too much
-memory. In This case the OS could OOM tor without tor even noticing  memory
+memory. In This case the OS could OOM tor without tor even noticing memory
 pressure.
 
 ```
