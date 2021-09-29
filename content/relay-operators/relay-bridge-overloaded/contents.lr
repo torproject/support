@@ -147,12 +147,12 @@ If your server is running at capacity this will likely be triggered.
 
 Any counter in the "*_dns_error_total" realm indicates a DNS problem.
 
-DNS timeouts issues interest mainly Exit nodes. If tor starts noticing DNS timeouts,
+DNS timeouts issues only apply to Exit nodes. If tor starts noticing DNS timeouts,
 you'll get the overload flag. This might not be because your relay is overloaded
 in terms of resources but it signals a problem on the network.
 
 DNS timeouts at the Exits are a _huge_ UX problem for tor users. Therefore Exit
-operators really need to take care of these issues to help the network.
+operators really need to address these issues to help the network.
 
 ```tor_relay_load_oom_bytes_total{...}```
 
@@ -161,13 +161,13 @@ The relay might need more RAM or it is leaking memory.
 If you noticed that the tor process is leaking memory, please report the issue via either [GitLab](https://gitlab.torproject.org) or send an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 
 Tor has its own OOM handler and it is invoked when 75%, of the total memory tor
-thinks it is available, is reached. Thus, let say tor thinks it can use 2GB in
+thinks is available, is reached. Thus, let say tor thinks it can use 2GB in
 total then at 1.5GB of memory usage, it will start freeing memory. That is
 considered an overload state.
 
 To estimate the amount of memory it has available, when tor starts, it will use
-MaxMemInQueues or will look at the total RAM available on the system and apply
-this algorithm:
+MaxMemInQueues or, if not set, will look at the total RAM available on the system
+and apply this algorithm:
 ```
     if RAM >= 8GB {
       memory = RAM * 40%
@@ -181,7 +181,8 @@ this algorithm:
 ```
 
 To avoid an overloaded state we recommend to run a relay above 2GB of RAM on
-64bit. 4GB is advised.
+64bit. 4GB is advised, although of course it doesn't hurt to add more RAM if you
+can.
 
 One might notice that tor could be called by the OS OOM handler itself.
 Because tor takes the total memory on the system when it starts, if the overall
