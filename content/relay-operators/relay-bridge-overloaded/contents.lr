@@ -44,8 +44,8 @@ timeout:n
 ```
 Check ``$ man resolve.conf`` for more information.
 
-3\. Consider enabling ``MetricsPort`` to understand what is happening. Please be careful. 
-It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users. 
+3\. Consider enabling ``MetricsPort`` to understand what is happening. Please be careful.
+It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users.
 Please take extra precaution and care when opening this port.
 Set a very strict access policy with ``MetricsPortPolicy`` and consider using your operating systems firewall features for defense in depth.
 
