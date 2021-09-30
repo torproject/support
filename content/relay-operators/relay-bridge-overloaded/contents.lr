@@ -1,0 +1,160 @@
+_model: question
+---
+title: My relay or bridge is overloaded what does this mean?
+---
+description:
+
+On relay search we show an amber dot next to the relay nickname when this is overloaded.
+This means that one or many of the following load metrics have been triggered:
+
+- Any Tor OOM invocation due to memory pressure
+- Any ntor onionskins are dropped
+- TCP port exhaustion
+- DNS timeout reached
+
+Note that if a relay reaches an overloaded state we show it for 72 hours after the relay has recovered.
+
+If you notice that your relay is overloaded please:
+
+1\. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
+
+2\. Consider tuning ``sysctl`` for your system for network, memory and CPU load.
+
+If you are experiencing TCP port exhaustion consider expanding your local port range
+```
+sysctl -w net.ipv4.ip_local_port_range="15000 64000"
+```
+or
+```
+echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range
+```
+
+If you are experiencing DNS timeout, you should investigate if this is a network or a resolver issue.
+
+In Linux in `resolve.conf` there is an option to set a timeout:
+
+```
+timeout:n
+  Sets  the  amount of time the resolver will wait for a response from a remote
+  name server before retrying the query via a different name server.
+  This may not be the total time taken by any resolver API call and there is no guarantee
+  that a single resolver API call maps to a single timeout.
+  Measured in seconds, the default is RES_TIMEOUT (currently 5, see <resolv.h>).
+  The value for this option is silently capped to 30.
+```
+Check ``$ man resolve.conf`` for more information.
+
+3\. Consider enabling ``MetricsPort`` to understand what is happening. Please be careful.
+It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users.
+Please take extra precaution and care when opening this port.
+Set a very strict access policy with ``MetricsPortPolicy`` and consider using your operating systems firewall features for defense in depth.
+
+Here is an example of what output enabling ``MetricsPort`` will produce:
+
+```
+# HELP tor_relay_load_onionskins_total Total number of onionskins handled
+# TYPE tor_relay_load_onionskins_total counter
+tor_relay_load_onionskins_total{type="tap",action="processed"} 0
+tor_relay_load_onionskins_total{type="tap",action="dropped"} 0
+tor_relay_load_onionskins_total{type="fast",action="processed"} 0
+tor_relay_load_onionskins_total{type="fast",action="dropped"} 0
+tor_relay_load_onionskins_total{type="ntor",action="processed"} 0
+tor_relay_load_onionskins_total{type="ntor",action="dropped"} 0
+# HELP tor_relay_exit_dns_query_total Total number of DNS queries done by this relay
+# TYPE tor_relay_exit_dns_query_total counter
+tor_relay_exit_dns_query_total{record="A"} 0
+tor_relay_exit_dns_query_total{record="PTR"} 0
+tor_relay_exit_dns_query_total{record="AAAA"} 0
+# HELP tor_relay_exit_dns_error_total Total number of DNS errors encountered by this relay
+# TYPE tor_relay_exit_dns_error_total counter
+tor_relay_exit_dns_error_total{record="A",reason="success"} 0
+tor_relay_exit_dns_error_total{record="A",reason="format"} 0
+tor_relay_exit_dns_error_total{record="A",reason="serverfailed"} 0
+tor_relay_exit_dns_error_total{record="A",reason="notexist"} 0
+tor_relay_exit_dns_error_total{record="A",reason="notimpl"} 0
+tor_relay_exit_dns_error_total{record="A",reason="refused"} 0
+tor_relay_exit_dns_error_total{record="A",reason="truncated"} 0
+tor_relay_exit_dns_error_total{record="A",reason="unknown"} 0
+tor_relay_exit_dns_error_total{record="A",reason="timeout"} 0
+tor_relay_exit_dns_error_total{record="A",reason="shutdown"} 0
+tor_relay_exit_dns_error_total{record="A",reason="cancel"} 0
+tor_relay_exit_dns_error_total{record="A",reason="nodata"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="success"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="format"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="serverfailed"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="notexist"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="notimpl"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="refused"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="truncated"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="unknown"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="timeout"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="shutdown"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="cancel"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="nodata"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="success"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="format"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="serverfailed"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="notexist"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="notimpl"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="refused"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="truncated"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="unknown"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="timeout"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="shutdown"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="cancel"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="nodata"} 0
+# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out of TCP ports
+# TYPE tor_relay_load_tcp_exhaustion_total counter
+tor_relay_load_tcp_exhaustion_total 0
+# HELP tor_relay_load_socket_total Total number of sockets
+# TYPE tor_relay_load_socket_total gauge
+tor_relay_load_socket_total{state="opened"} 135
+tor_relay_load_socket_total 1048544
+# HELP tor_relay_load_oom_bytes_total Total number of bytes the OOM has freed by subsystem
+# TYPE tor_relay_load_oom_bytes_total counter
+tor_relay_load_oom_bytes_total{subsys="cell"} 0
+tor_relay_load_oom_bytes_total{subsys="dns"} 0
+tor_relay_load_oom_bytes_total{subsys="geoip"} 0
+tor_relay_load_oom_bytes_total{subsys="hsdir"} 0
+# HELP tor_relay_load_global_rate_limit_reached_total Total number of global connection bucket limit reached
+# TYPE tor_relay_load_global_rate_limit_reached_total counter
+tor_relay_load_global_rate_limit_reached_total{side="read"} 0
+tor_relay_load_global_rate_limit_reached_total{side="write"} 0
+```
+
+Let's find out what some of these lines actually mean:
+
+```tor_relay_load_onionskins_total{type="ntor",action="dropped"} 0```
+
+When a relay starts seeing "dropped", it is a CPU/RAM problem usually.
+
+```tor_relay_exit_dns_error_total{...}```
+
+Any counter in the "*_dns_error_total" realm indicates a DNS problem.
+
+```tor_relay_load_oom_bytes_total{...}```
+
+This indicates a RAM problem.
+The relay might need more RAM or it is leaking memory.
+If you noticed that the tor process is leaking memory, please report the issue via either [GitLab](https://gitlab.torproject.org) or send an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
+
+```
+tor_relay_load_socket_total
+
+
+tor_relay_load_tcp_exhaustion_total
+```
+
+These lines indicate the relay is running out of sockets or TCP ports.
+If the issue is socket related the solution is to increase ``ulimit -n`` for the tor process
+
+If the solution is related to TCP ports exhaustion try to tune ``sysctl`` as described above.
+
+```
+tor_relay_load_global_rate_limit_reached_total
+```
+If this counter is incremented by some noticeable value over a short period of time then it indicates the relay is congested.
+It is likely being used as a Guard by a big onion service or for an ongoing DDoS on the network.
+
+If your relay is still overloaded and you don't know why, please get in touch with [network-report@torproject.org](mailto:network-report@torproject.org).
+You can encrypt your email using network-report [OpenPGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE).

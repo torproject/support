@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 09:35+CET\n"
+"POT-Creation-Date: 2021-09-30 16:13+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -5619,6 +5619,8 @@ msgstr ""
 #: (content/relay-operators/hibernation/contents+en.lr:question.description)
 #: https://support.torproject.org/relay-operators/limit-total-bandwidth/
 #: (content/relay-operators/limit-total-bandwidth/contents+en.lr:question.description)
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 #: https://support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lr:question.description)
 #: https://support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
@@ -6904,8 +6906,9 @@ msgstr ""
 msgid ""
 "1. **Private and unlisted obfs4 bridges:** users will need to request a "
 "private bridge to [frontdesk@torproject.org](mailto:frontdesk@torproject."
-"org) or, if they are tech-savvy, they can run their own [obfs4 bridge]"
-"(https://community.torproject.org/relay/setup/bridge/) from outside China."
+"org) with the phrase \"private bridge\" in the subject of the email or, if "
+"they are tech-savvy, they can run their own [obfs4 bridge](https://community."
+"torproject.org/relay/setup/bridge/) from outside China."
 msgstr ""
 
 #: https://support.torproject.org/censorship/connecting-from-china/
@@ -8441,6 +8444,649 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/packaged-tor/
 #: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid "* Tor can bind to low level ports, then drop privileges."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.title)
+msgid "My relay or bridge is overloaded what does this mean?"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"On relay search we show an amber dot next to the relay nickname when this is "
+"overloaded."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"This means that one or many of the following load metrics have been "
+"triggered:"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "- Any Tor OOM invocation due to memory pressure"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "- Any ntor onionskins are dropped"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "- TCP port exhaustion"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "- DNS timeout reached"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Note that if a relay reaches an overloaded state we show it for 72 hours "
+"after the relay has recovered."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "If you notice that your relay is overloaded please:"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"1\\. Check https://status.torproject.org/ for any known issues in the \"Tor "
+"network\" category."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"2\\. Consider tuning ``sysctl`` for your system for network, memory and CPU "
+"load."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"If you are experiencing TCP port exhaustion consider expanding your local "
+"port range"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "sysctl -w net.ipv4.ip_local_port_range=\"15000 64000\""
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "or"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"If you are experiencing DNS timeout, you should investigate if this is a "
+"network or a resolver issue."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "In Linux in `resolve.conf` there is an option to set a timeout:"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "timeout:n"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Sets  the  amount of time the resolver will wait for a response from a remote"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "name server before retrying the query via a different name server."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"This may not be the total time taken by any resolver API call and there is "
+"no guarantee"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "that a single resolver API call maps to a single timeout."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Measured in seconds, the default is RES_TIMEOUT (currently 5, see <resolv."
+"h>)."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "The value for this option is silently capped to 30."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "Check ``$ man resolve.conf`` for more information."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"3\\. Consider enabling ``MetricsPort`` to understand what is happening. "
+"Please be careful."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"It's important to understand that exposing tor metrics publicly is dangerous "
+"to the Tor network users."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "Please take extra precaution and care when opening this port."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Set a very strict access policy with ``MetricsPortPolicy`` and consider "
+"using your operating systems firewall features for defense in depth."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Here is an example of what output enabling ``MetricsPort`` will produce:"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"# HELP tor_relay_load_onionskins_total Total number of onionskins handled"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# TYPE tor_relay_load_onionskins_total counter"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_onionskins_total{type=\"tap\",action=\"processed\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_onionskins_total{type=\"tap\",action=\"dropped\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_onionskins_total{type=\"fast\",action=\"processed\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_onionskins_total{type=\"fast\",action=\"dropped\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_onionskins_total{type=\"ntor\",action=\"processed\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_onionskins_total{type=\"ntor\",action=\"dropped\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"# HELP tor_relay_exit_dns_query_total Total number of DNS queries done by "
+"this relay"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# TYPE tor_relay_exit_dns_query_total counter"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_query_total{record=\"A\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_query_total{record=\"PTR\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_query_total{record=\"AAAA\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"# HELP tor_relay_exit_dns_error_total Total number of DNS errors encountered "
+"by this relay"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# TYPE tor_relay_exit_dns_error_total counter"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"success\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"format\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"serverfailed\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"notexist\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"notimpl\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"refused\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"truncated\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"unknown\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"timeout\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"shutdown\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"cancel\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"A\",reason=\"nodata\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"success\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"format\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"serverfailed\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"notexist\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"notimpl\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"refused\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"truncated\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"unknown\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"timeout\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"shutdown\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"cancel\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"PTR\",reason=\"nodata\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"success\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"format\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"serverfailed\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"notexist\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"notimpl\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"refused\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"truncated\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"unknown\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"timeout\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"shutdown\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"cancel\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_exit_dns_error_total{record=\"AAAA\",reason=\"nodata\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out "
+"of TCP ports"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# TYPE tor_relay_load_tcp_exhaustion_total counter"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_tcp_exhaustion_total 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# HELP tor_relay_load_socket_total Total number of sockets"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# TYPE tor_relay_load_socket_total gauge"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_socket_total{state=\"opened\"} 135"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_socket_total 1048544"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"# HELP tor_relay_load_oom_bytes_total Total number of bytes the OOM has "
+"freed by subsystem"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# TYPE tor_relay_load_oom_bytes_total counter"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_oom_bytes_total{subsys=\"cell\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_oom_bytes_total{subsys=\"dns\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_oom_bytes_total{subsys=\"geoip\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_oom_bytes_total{subsys=\"hsdir\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"# HELP tor_relay_load_global_rate_limit_reached_total Total number of global "
+"connection bucket limit reached"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "# TYPE tor_relay_load_global_rate_limit_reached_total counter"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_global_rate_limit_reached_total{side=\"read\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_global_rate_limit_reached_total{side=\"write\"} 0"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "Let's find out what some of these lines actually mean:"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"```tor_relay_load_onionskins_total{type=\"ntor\",action=\"dropped\"} 0```"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"When a relay starts seeing \"dropped\", it is a CPU/RAM problem usually."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "```tor_relay_exit_dns_error_total{...}```"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "Any counter in the \"*_dns_error_total\" realm indicates a DNS problem."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "```tor_relay_load_oom_bytes_total{...}```"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "This indicates a RAM problem."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "The relay might need more RAM or it is leaking memory."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"If you noticed that the tor process is leaking memory, please report the "
+"issue via either [GitLab](https://gitlab.torproject.org) or send an email to "
+"the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/"
+"listinfo/tor-relays)."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_socket_total"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_tcp_exhaustion_total"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "These lines indicate the relay is running out of sockets or TCP ports."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"If the issue is socket related the solution is to increase ``ulimit -n`` for "
+"the tor process"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"If the solution is related to TCP ports exhaustion try to tune ``sysctl`` as "
+"described above."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "tor_relay_load_global_rate_limit_reached_total"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"If this counter is incremented by some noticeable value over a short period "
+"of time then it indicates the relay is congested."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"It is likely being used as a Guard by a big onion service or for an ongoing "
+"DDoS on the network."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"If your relay is still overloaded and you don't know why, please get in "
+"touch with [network-report@torproject.org](mailto:network-report@torproject."
+"org)."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"You can encrypt your email using network-report [OpenPGP key](https://keys."
+"openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE)."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-flexible/
@@ -12667,7 +13313,7 @@ msgstr ""
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
 #: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
-"**Please follow the right instructions to verify [Tor Browser's signature?](/"
+"**Please follow the right instructions to verify [Tor Browser's signature](/"
 "tbb/how-to-verify-signature/).**"
 msgstr ""
 
