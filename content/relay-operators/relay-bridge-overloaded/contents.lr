@@ -175,7 +175,7 @@ To avoid an overloaded state we recommend to run a relay above 2GB of RAM on 64b
 
 One might notice that tor could be called by the OS OOM handler itself.
 Because tor takes the total memory on the system when it starts, if the overall system has many other applications running using RAM, it ends up eating too much memory.
-In This case the OS could OOM tor without tor even noticing memory pressure.
+In this case the OS could OOM tor, without tor even noticing memory pressure.
 
 ```
 tor_relay_load_socket_total
