@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-10 14:04+CET\n"
+"POT-Creation-Date: 2021-10-10 18:05+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -441,8 +441,8 @@ msgstr ""
 #: https://support.torproject.org/glossary/cryptographic-signature/
 #: (content/glossary/cryptographic-signature/contents+en.lr:word.definition)
 msgid ""
-"For more information, see [how you can verify signatures](/tbb/how-to-verify-"
-"signature/)."
+"For more information, see [how you can verify signatures](../../tbb/how-to-"
+"verify-signature/)."
 msgstr ""
 
 #: https://support.torproject.org/glossary/daemon/
@@ -2198,12 +2198,12 @@ msgstr ""
 
 #: https://support.torproject.org/faq/staying-anonymous/
 #: (content/faq/staying-anonymous/contents+en.lr:question.description)
-msgid "- Safe: [OnionShare](/misc/misc-12)"
+msgid "- Safe: [OnionShare](../../misc/misc-12/)"
 msgstr ""
 
 #: https://support.torproject.org/faq/staying-anonymous/
 #: (content/faq/staying-anonymous/contents+en.lr:question.description)
-msgid "- Unsafe: [BitTorrent over Tor](/misc/misc-4)"
+msgid "- Unsafe: [BitTorrent over Tor](../../misc/misc-4/)"
 msgstr ""
 
 #: https://support.torproject.org/faq/staying-anonymous/
@@ -2290,9 +2290,9 @@ msgstr ""
 #: https://support.torproject.org/faq/staying-anonymous/
 #: (content/faq/staying-anonymous/contents+en.lr:question.description)
 msgid ""
-"Similarly, we do not recommend [installing additional addons or plugins](/"
-"tbb/tbb-14) into Tor Browser, as these may bypass Tor or otherwise harm your "
-"anonymity and privacy."
+"Similarly, we do not recommend [installing additional addons or plugins]"
+"(../../tbb/tbb-14/) into Tor Browser, as these may bypass Tor or otherwise "
+"harm your anonymity and privacy."
 msgstr ""
 
 #: https://support.torproject.org/faq/staying-anonymous/
@@ -2322,15 +2322,16 @@ msgid ""
 "However, you should still watch the browser URL bar to ensure that websites "
 "you provide sensitive information to display a [padlock](https://support."
 "mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure) or [onion "
-"icon](/onionservices/onionservices-5) in the address bar, include **https://"
-"** in the URL, and display the proper expected name for the website."
+"icon](../../onionservices/onionservices-5/) in the address bar, include "
+"**https://** in the URL, and display the proper expected name for the "
+"website."
 msgstr ""
 
 #: https://support.torproject.org/faq/staying-anonymous/
 #: (content/faq/staying-anonymous/contents+en.lr:question.description)
 msgid ""
-"Also see EFF's interactive graphic explaining [how Tor and HTTPS relate](/"
-"https/https-1)."
+"Also see EFF's interactive graphic explaining [how Tor and HTTPS relate]"
+"(../../https/https-1/)."
 msgstr ""
 
 #: https://support.torproject.org/faq/staying-anonymous/
@@ -2568,8 +2569,9 @@ msgstr ""
 #: https://support.torproject.org/about/backdoor/
 #: (content/about/backdoor/contents+en.lr:question.description)
 msgid ""
-"You should also check the [PGP signatures](/tbb/how-to-verify-signature/) on "
-"the releases, to make sure nobody messed with the distribution sites."
+"You should also check the [PGP signatures](../../tbb/how-to-verify-"
+"signature/) on the releases, to make sure nobody messed with the "
+"distribution sites."
 msgstr ""
 
 #: https://support.torproject.org/about/backdoor/
@@ -2621,7 +2623,7 @@ msgstr ""
 #: https://support.torproject.org/about/can-i-use-tor-with/
 #: (content/about/can-i-use-tor-with/contents+en.lr:question.description)
 msgid ""
-"Using Tor with other browsers is [dangerous and not recommended](/tbb/"
+"Using Tor with other browsers is [dangerous and not recommended](../../tbb/"
 "tbb-9/)."
 msgstr ""
 
@@ -3049,8 +3051,8 @@ msgstr ""
 #: https://support.torproject.org/about/how-is-tor-different-from-other-proxies/
 #: (content/about/how-is-tor-different-from-other-proxies/contents+en.lr:question.description)
 msgid ""
-"See this visualization of [Tor and HTTPS](/https/https-1/) to understand how "
-"Tor and HTTPS interact."
+"See this visualization of [Tor and HTTPS](../../https/https-1/) to "
+"understand how Tor and HTTPS interact."
 msgstr ""
 
 #: https://support.torproject.org/about/key-management/
@@ -3710,15 +3712,15 @@ msgstr ""
 #: (content/tbb/fake-tbb/contents+en.lr:question.description)
 msgid ""
 "After downloading, you can make sure that you have the official version of "
-"Tor Browser by [verifying the signature](/tbb/how-to-verify-signature/)."
+"Tor Browser by [verifying the signature](../how-to-verify-signature/)."
 msgstr ""
 
 #: https://support.torproject.org/tbb/fake-tbb/
 #: (content/tbb/fake-tbb/contents+en.lr:question.description)
 msgid ""
-"If you are not able to access our website, then visit [censorship section](/"
-"censorship/gettor-1) to get information about alternate way of downloading "
-"Tor Browser."
+"If you are not able to access our website, then visit [censorship section]"
+"(../../censorship/gettor-1/) to get information about alternate way of "
+"downloading Tor Browser."
 msgstr ""
 
 #: https://support.torproject.org/tbb/fake-tbb/
@@ -4272,7 +4274,7 @@ msgstr ""
 msgid ""
 "If your issue is not listed there, please check first [Tor Browser's issue "
 "tracker](https://gitlab.torproject.org/tpo/applications/tor-browser/-/"
-"issues) and create a [GitLab issue](/misc/bug-or-feedback/) about what "
+"issues) and create a [GitLab issue](../../misc/bug-or-feedback/) about what "
 "you're experiencing."
 msgstr ""
 
@@ -6882,8 +6884,8 @@ msgstr ""
 #: https://support.torproject.org/censorship/connecting-from-china/
 #: (content/censorship/connecting-from-china/contents+en.lr:question.description)
 msgid ""
-"1. **[Snowflake](/censorship/what-is-snowflake/):** uses ephemeral proxies "
-"to connect to the Tor network."
+"1. **[Snowflake](../what-is-snowflake/):** uses ephemeral proxies to connect "
+"to the Tor network."
 msgstr ""
 
 #: https://support.torproject.org/censorship/connecting-from-china/
@@ -6894,8 +6896,8 @@ msgstr ""
 #: https://support.torproject.org/censorship/connecting-from-china/
 #: (content/censorship/connecting-from-china/contents+en.lr:question.description)
 msgid ""
-"You can select Snowflake from Tor Browser's [built-in bridge dropdown](/"
-"censorship/how-can-i-use-snowflake/)."
+"You can select Snowflake from Tor Browser's [built-in bridge dropdown](../"
+"how-can-i-use-snowflake/)."
 msgstr ""
 
 #: https://support.torproject.org/censorship/connecting-from-china/
@@ -12359,8 +12361,8 @@ msgstr ""
 #: https://support.torproject.org/abuse/i-want-to-ban-tor/
 #: (content/abuse/ban-tor/contents+en.lr:question.description)
 msgid ""
-"Lastly, please remember that Tor relays have [individual exit policies](/"
-"relay-operators/exit-policies/)."
+"Lastly, please remember that Tor relays have [individual exit policies]"
+"(../../relay-operators/exit-policies/)."
 msgstr ""
 
 #: https://support.torproject.org/abuse/i-want-to-ban-tor/
@@ -13486,8 +13488,8 @@ msgstr ""
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
 #: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
-"**Please follow the right instructions to verify [Tor Browser's signature](/"
-"tbb/how-to-verify-signature/).**"
+"**Please follow the right instructions to verify [Tor Browser's signature]"
+"(../../tbb/how-to-verify-signature/).**"
 msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
