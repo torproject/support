@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 16:13+CET\n"
+"POT-Creation-Date: 2021-10-10 14:04+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -3189,8 +3189,7 @@ msgstr ""
 msgid ""
 "When we distribute the source code or a package, we digitally sign it with "
 "[GNU Privacy Guard](http://www.gnupg.org/). See the [instructions on how to "
-"check Tor Browser's signature](https://support.torproject.org/tbb/how-to-"
-"verify-signature/)."
+"check Tor Browser's signature](../../tbb/how-to-verify-signature/)."
 msgstr ""
 
 #: https://support.torproject.org/about/key-management/
@@ -3307,8 +3306,8 @@ msgstr ""
 #: https://support.torproject.org/about/protections/
 #: (content/about/protections/contents+en.lr:question.description)
 msgid ""
-"More details on this process can be found in this [visualization](https://"
-"support.torproject.org/https/https-1/)."
+"More details on this process can be found in this [visualization](../../"
+"https/https-1/)."
 msgstr ""
 
 #: https://support.torproject.org/about/protections/
@@ -3372,17 +3371,16 @@ msgstr ""
 #: (content/about/protections/contents+en.lr:question.description)
 msgid ""
 "Because these relays are run by different individuals or organizations, "
-"distributing trust provides more security than the old [one hop proxy]"
-"(https://support.torproject.org/about/#how-is-tor-different-from-other-"
-"proxies) approach."
+"distributing trust provides more security than the old [one hop proxy](../"
+"how-is-tor-different-from-other-proxies/) approach."
 msgstr ""
 
 #: https://support.torproject.org/about/protections/
 #: (content/about/protections/contents+en.lr:question.description)
 msgid ""
 "Note, however, that there are situations where Tor fails to solve these "
-"privacy problems entirely: see the entry below on [remaining attacks]"
-"(https://support.torproject.org/about/#attacks-on-onion-routing)."
+"privacy problems entirely: see the entry below on [remaining attacks](../"
+"attacks-on-onion-routing/)."
 msgstr ""
 
 #: https://support.torproject.org/about/what-is-tor/
@@ -3498,8 +3496,8 @@ msgstr ""
 msgid ""
 "If you downloaded Tor Browser from [our main website](https://www.torproject."
 "org/download/) or used [GetTor](https://gettor.torproject.org/), and "
-"[verified it](https://support.torproject.org/tbb/how-to-verify-signature/), "
-"these are false positives and you have nothing to worry about."
+"[verified it](../how-to-verify-signature/), these are false positives and "
+"you have nothing to worry about."
 msgstr ""
 
 #: https://support.torproject.org/tbb/antivirus-false-positive/
@@ -3514,14 +3512,14 @@ msgstr ""
 msgid ""
 "To make sure that the Tor program you download is the one we have created "
 "and has not been modified by some attacker, you can [verify Tor Browser's "
-"signature](https://support.torproject.org/tbb/how-to-verify-signature/)."
+"signature](../how-to-verify-signature/)."
 msgstr ""
 
 #: https://support.torproject.org/tbb/antivirus-false-positive/
 #: (content/tbb/antivirus-false-positive/contents+en.lr:question.description)
 msgid ""
-"You may also want to [permit certain processes](https://support.torproject."
-"org/tbb/tbb-10) to prevent antiviruses from blocking access to Tor Browser."
+"You may also want to [permit certain processes](../tbb-10/) to prevent "
+"antiviruses from blocking access to Tor Browser."
 msgstr ""
 
 #: https://support.torproject.org/tbb/export-and-import-bookmarks/
@@ -5392,9 +5390,8 @@ msgstr ""
 #: (content/tbb/tbb-42/contents+en.lr:question.description)
 msgid ""
 "If you are running an anti-virus, please see [My antivirus/malware "
-"protection is blocking me from accessing Tor Browser](https://support."
-"torproject.org/#tbb-10), it is common for anti-virus/anti-malware software "
-"to cause this type of issue."
+"protection is blocking me from accessing Tor Browser](../tbb-10/), it is "
+"common for anti-virus/anti-malware software to cause this type of issue."
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-43/
@@ -6635,8 +6632,8 @@ msgstr ""
 #: https://support.torproject.org/connecting/connecting-4/
 #: (content/connecting/connecting-4/contents+en.lr:question.description)
 msgid ""
-"If the error persists, please [get in touch](https://support.torproject.org/"
-"misc/bug-or-feedback/) with us."
+"If the error persists, please [get in touch](../../misc/bug-or-feedback/) "
+"with us."
 msgstr ""
 
 #: https://support.torproject.org/censorship/censorship-1/
@@ -6922,8 +6919,8 @@ msgstr ""
 #: https://support.torproject.org/censorship/connecting-from-china/
 #: (content/censorship/connecting-from-china/contents+en.lr:question.description)
 msgid ""
-"If one of these options below is not working, check your [Tor logs](https://"
-"support.torproject.org/connecting/connecting-2/) and try another option."
+"If one of these options below is not working, check your [Tor logs](../../"
+"connecting/connecting-2/) and try another option."
 msgstr ""
 
 #: https://support.torproject.org/censorship/gettor-1/
@@ -7051,9 +7048,8 @@ msgstr ""
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
 #: (content/censorship/how-can-i-use-snowflake/contents+en.lr:question.description)
 msgid ""
-"From within the browser, you can click on the [hamburger menu](https://"
-"support.torproject.org/glossary/hamburger-menu/), then go to 'Preferences' "
-"and go to 'Tor'."
+"From within the browser, you can click on the [hamburger menu (\"≡\")](../../"
+"glossary/hamburger-menu/), then go to 'Preferences' and go to 'Tor'."
 msgstr ""
 
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
@@ -7689,8 +7685,8 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/dynamic-ip/
 #: (content/relay-operators/dynamic-ip/contents+en.lr:question.description)
 msgid ""
-"Just leave the \"Address\" line in your [torrc](https://support.torproject."
-"org/tbb/tbb-editing-torrc/) blank, and Tor will guess."
+"Just leave the \"Address\" line in your [torrc](../../tbb/tbb-editing-"
+"torrc/) blank, and Tor will guess."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/exit-policies/
@@ -7728,10 +7724,10 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/exit-policies/
 #: (content/relay-operators/exit-policies/contents+en.lr:question.description)
 msgid ""
-"Read the [Support entry on issues you might encounter](https://support."
-"torproject.org/abuse/exit-relay-expectations/) if you use the default exit "
-"policy, and then read Mike Perry's [tips for running an exit node with "
-"minimal harassment](https://blog.torproject.org/blog/tips-running-exit-node)."
+"Read the [Support entry on issues you might encounter](../../abuse/exit-"
+"relay-expectations/) if you use the default exit policy, and then read Mike "
+"Perry's [tips for running an exit node with minimal harassment](https://blog."
+"torproject.org/blog/tips-running-exit-node)."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/exit-policies/
@@ -7886,8 +7882,8 @@ msgid ""
 "Tor [has partial support for IPv6](https://blog.torproject.org/state-of-ipv6-"
 "support-tor-network) and we encourage every relay operator to [enable IPv6 "
 "functionality](https://community.torproject.org/relay/setup/post-install/) "
-"in their [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) "
-"configuration files when IPv6 connectivity is available."
+"in their [torrc](../../tbb/tbb-editing-torrc/) configuration files when IPv6 "
+"connectivity is available."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/ipv6-relay/
@@ -8412,8 +8408,8 @@ msgstr ""
 #: (content/relay-operators/packaged-tor/contents+en.lr:question.description)
 msgid ""
 "If you're using Debian or Ubuntu especially, there are a number of benefits "
-"to installing Tor from the [Tor Project's repository](https://support."
-"torproject.org/apt/tor-deb-repo/)."
+"to installing Tor from the [Tor Project's repository](../../apt/tor-deb-"
+"repo/)."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/packaged-tor/
@@ -8592,9 +8588,20 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "3\\. Consider enabling ``MetricsPort`` to understand what is happening."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"3\\. Consider enabling ``MetricsPort`` to understand what is happening. "
-"Please be careful."
+"MetricsPort data for relays has been introduced since version >= 0.4.7.1-"
+"alpha,"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"while the overload data has been added to the relay descriptors since 0.4.6+."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8994,6 +9001,39 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Tor is sadly single threaded _except_ for when the \"onion skins\" are "
+"processed."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"The \"onion skins\" are the cryptographic work that needs to be done on the "
+"famous \"onion layers\" in every circuits."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"When tor processes the layers we use a thread pool and outsource all of that "
+"work to that pool."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"It can happen that this pool starts dropping work due to memory or CPU "
+"pressure and this will trigger an overload state."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "If your server is running at capacity this will likely be triggered."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid "```tor_relay_exit_dns_error_total{...}```"
 msgstr ""
 
@@ -9004,12 +9044,41 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "DNS timeouts issues only apply to Exit nodes."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "If tor starts noticing DNS timeouts, you'll get the overload flag."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"This might not be because your relay is overloaded in terms of resources but "
+"it signals a problem on the network."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "DNS timeouts at the Exits are a _huge_ UX problem for tor users."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Therefore Exit operators really need to address these issues to help the "
+"network."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid "```tor_relay_load_oom_bytes_total{...}```"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "This indicates a RAM problem."
+msgid "An Out-Of-Memory invocation indicates a RAM problem."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9024,6 +9093,111 @@ msgid ""
 "issue via either [GitLab](https://gitlab.torproject.org) or send an email to "
 "the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/"
 "listinfo/tor-relays)."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Tor has its own OOM handler and it is invoked when 75%, of the total memory "
+"tor thinks is available, is reached."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Thus, let say tor thinks it can use 2GB in total then at 1.5GB of memory "
+"usage, it will start freeing memory."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "That is considered an overload state."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"To estimate the amount of memory it has available, when tor starts, it will "
+"use MaxMemInQueues or, if not set, will look at the total RAM available on "
+"the system and apply this algorithm:"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "if RAM >= 8GB {"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "memory = RAM * 40%"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "} else {"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "memory = RAM * 75%"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "}"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "/* Capped. */"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "memory = min(memory, 8GB) -> [8GB on 64bit and 2GB on 32bit)"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "/* Minimum value. */"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "memory = max(250MB, memory)"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"To avoid an overloaded state we recommend to run a relay above 2GB of RAM on "
+"64bit."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"4GB is advised, although of course it doesn't hurt to add more RAM if you "
+"can."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "One might notice that tor could be called by the OS OOM handler itself."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"Because tor takes the total memory on the system when it starts, if the "
+"overall system has many other applications running using RAM, it ends up "
+"eating too much memory."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"In this case the OS could OOM tor, without tor even noticing memory pressure."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -10714,8 +10888,7 @@ msgstr ""
 #: https://support.torproject.org/misc/check-socks-dns-leaks/
 #: (content/misc/check-socks-dns-leaks/contents+en.lr:question.description)
 msgid ""
-"1. Add `TestSocks 1` to your [torrc file](https://support.torproject.org/tbb/"
-"tbb-editing-torrc/)."
+"1. Add `TestSocks 1` to your [torrc file](../../tbb/tbb-editing-torrc/)."
 msgstr ""
 
 #: https://support.torproject.org/misc/check-socks-dns-leaks/
@@ -10871,14 +11044,14 @@ msgstr ""
 #: https://support.torproject.org/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lr:question.title)
 #: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.title)
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.title)
 msgid "I have a compelling reason to trace a Tor user. Can you help?"
 msgstr ""
 
 #: https://support.torproject.org/misc/misc-1/
 #: (content/misc/misc-1/contents+en.lr:question.description)
 #: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
 msgid "There is nothing the Tor developers can do to trace Tor users."
 msgstr ""
 
@@ -12391,6 +12564,95 @@ msgid ""
 "provide a Tor relay."
 msgstr ""
 
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"The same protections that keep bad people from breaking Tor's anonymity also "
+"prevent us from figuring out what's going on."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"Some fans have suggested that we redesign Tor to include a [backdoor](../../"
+"about/backdoor/)."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid "There are two problems with this idea."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid "First, it technically weakens the system too far."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"Having a central way to link users to their activities is a gaping hole for "
+"all sorts of attackers; and the policy mechanisms needed to ensure correct "
+"handling of this responsibility are enormous and unsolved."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"Second, the [bad people aren't going to get caught by this anyway](/abuse/"
+"what-about-criminals/), since they will use other means to ensure their "
+"anonymity (identity theft, compromising computers and using them as bounce "
+"points, etc)."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"This ultimately means that it is the responsibility of site owners to "
+"protect themselves against compromise and security issues that can come from "
+"anywhere."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid "This is just part of signing up for the benefits of the Internet."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"You must be prepared to secure yourself against the bad elements, wherever "
+"they may come from."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"Tracking and increased surveillance are not the answer to preventing abuse."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid "But remember that this doesn't mean that Tor is invulnerable."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"Traditional police techniques can still be very effective against Tor, such "
+"as investigating means, motive, and opportunity, interviewing suspects, "
+"writing style analysis, technical analysis of the content itself, sting "
+"operations, keyboard taps, and other physical investigations."
+msgstr ""
+
+#: https://support.torproject.org/abuse/help-trace-tor-user/
+#: (content/abuse/help-trace-tor-user/contents+en.lr:question.description)
+msgid ""
+"The Tor Project is also happy to work with everyone including law "
+"enforcement groups to train them how to use the Tor software to safely "
+"conduct investigations or anonymized activities online."
+msgstr ""
+
 #: https://support.torproject.org/abuse/does-tor-get-much-abuse/
 #: (content/abuse/how-much-abuse/contents+en.lr:question.title)
 msgid "Does Tor get much abuse?"
@@ -12753,95 +13015,6 @@ msgid ""
 "A collection of templates for successfully responding to ISPs is [collected "
 "here](https://community.torproject.org/relay/community-resources/tor-abuse-"
 "templates/)."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"The same protections that keep bad people from breaking Tor's anonymity also "
-"prevent us from figuring out what's going on."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"Some fans have suggested that we redesign Tor to include a [backdoor]"
-"(https://support.torproject.org/about/backdoor)."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid "There are two problems with this idea."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid "First, it technically weakens the system too far."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"Having a central way to link users to their activities is a gaping hole for "
-"all sorts of attackers; and the policy mechanisms needed to ensure correct "
-"handling of this responsibility are enormous and unsolved."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"Second, the [bad people aren't going to get caught by this anyway](/abuse/"
-"what-about-criminals/), since they will use other means to ensure their "
-"anonymity (identity theft, compromising computers and using them as bounce "
-"points, etc)."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"This ultimately means that it is the responsibility of site owners to "
-"protect themselves against compromise and security issues that can come from "
-"anywhere."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid "This is just part of signing up for the benefits of the Internet."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"You must be prepared to secure yourself against the bad elements, wherever "
-"they may come from."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"Tracking and increased surveillance are not the answer to preventing abuse."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid "But remember that this doesn't mean that Tor is invulnerable."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"Traditional police techniques can still be very effective against Tor, such "
-"as investigating means, motive, and opportunity, interviewing suspects, "
-"writing style analysis, technical analysis of the content itself, sting "
-"operations, keyboard taps, and other physical investigations."
-msgstr ""
-
-#: https://support.torproject.org/abuse/help-trace-tor-user/
-#: (content/abuse/tracing-users/contents+en.lr:question.description)
-msgid ""
-"The Tor Project is also happy to work with everyone including law "
-"enforcement groups to train them how to use the Tor software to safely "
-"conduct investigations or anonymized activities online."
 msgstr ""
 
 #: https://support.torproject.org/abuse/what-about-criminals/
