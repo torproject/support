@@ -20,8 +20,8 @@ Web browsing:
 
 
 File sharing:
-  - Safe: [OnionShare](/misc/misc-12)
-  - Unsafe: [BitTorrent over Tor](/misc/misc-4)
+  - Safe: [OnionShare](../../misc/misc-12/)
+  - Unsafe: [BitTorrent over Tor](../../misc/misc-4/)
 
 
 ### Control what information you provide through web forms
@@ -41,14 +41,14 @@ Not only do you [deanonymize your torrent traffic and your other simultaneous To
 ### Don't enable or install browser plugins
 
 Tor Browser will block browser plugins such as Flash, RealPlayer, Quicktime, and others: they can be manipulated into revealing your IP address.
-Similarly, we do not recommend [installing additional addons or plugins](/tbb/tbb-14) into Tor Browser, as these may bypass Tor or otherwise harm your anonymity and privacy.
+Similarly, we do not recommend [installing additional addons or plugins](../../tbb/tbb-14/) into Tor Browser, as these may bypass Tor or otherwise harm your anonymity and privacy.
 
 ### Use HTTPS versions of websites
 
 Tor will encrypt your traffic to and within the Tor network, but the encryption of your traffic to the final destination website depends on that website.
 To help ensure private encryption to websites, Tor Browser includes [HTTPS Everywhere](https://www.eff.org/https-everywhere) to force the use of HTTPS encryption with major websites that support it.
-However, you should still watch the browser URL bar to ensure that websites you provide sensitive information to display a [padlock](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure) or [onion icon](/onionservices/onionservices-5) in the address bar, include **https://** in the URL, and display the proper expected name for the website.
-Also see EFF's interactive graphic explaining [how Tor and HTTPS relate](/https/https-1).
+However, you should still watch the browser URL bar to ensure that websites you provide sensitive information to display a [padlock](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure) or [onion icon](../../onionservices/onionservices-5/) in the address bar, include **https://** in the URL, and display the proper expected name for the website.
+Also see EFF's interactive graphic explaining [how Tor and HTTPS relate](../../https/https-1/).
 
 ### Don't open documents downloaded through Tor while online
 

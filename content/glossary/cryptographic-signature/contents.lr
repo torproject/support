@@ -5,8 +5,8 @@ term: cryptographic signature
 definition:
 
 A cryptographic signature proves the authenticity of a message or file. It is created by the holder of the private portion of a [public key cryptography](../public-key-cryptography) key pair and can be verified by the corresponding public key. If you download software from torproject.org, you will find it as signature files (.asc). These are PGP signatures, so you can verify that the file you have downloaded is exactly the one that we intended you to get.
-For more information, see [how you can verify signatures](/tbb/how-to-verify-signature/).
+For more information, see [how you can verify signatures](../../tbb/how-to-verify-signature/).
 ---
-translation: 
+translation:
 ---
-spelling: 
+spelling:

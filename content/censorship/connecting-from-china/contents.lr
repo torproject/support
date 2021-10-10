@@ -18,9 +18,9 @@ There are three options to unblock Tor in China:
 1. **meek-azure:** it looks like you are browsing a Microsoft website instead of using Tor.
 However, because it has a bandwidth limitation, this option will be quite slow.
 You can select meek-azure from Tor Browser's built-in bridges dropdown.
-1. **[Snowflake](/censorship/what-is-snowflake/):** uses ephemeral proxies to connect to the Tor network.
+1. **[Snowflake](../what-is-snowflake/):** uses ephemeral proxies to connect to the Tor network.
 It's available in Tor Browser stable version (Desktop and Android).
-You can select Snowflake from Tor Browser's [built-in bridge dropdown](/censorship/how-can-i-use-snowflake/).
+You can select Snowflake from Tor Browser's [built-in bridge dropdown](../how-can-i-use-snowflake/).
 1. **Private and unlisted obfs4 bridges:** users will need to request a private bridge to [frontdesk@torproject.org](mailto:frontdesk@torproject.org) with the phrase "private bridge" in the subject of the email or, if they are tech-savvy, they can run their own [obfs4 bridge](https://community.torproject.org/relay/setup/bridge/) from outside China.
 It's important to note that bridges distributed by BridgeDB ([HTTPS](https://bridges.torproject.org), email), and built-in obfs4 bridges bundled in Tor Browser most likely won't work.
 
