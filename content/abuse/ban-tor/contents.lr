@@ -25,7 +25,7 @@ You need to decide whether banning the Tor network is worth losing the contribut
 At this point, you should also ask yourself what you do about other services that aggregate many users behind a few IP addresses.
 Tor is not so different from AOL in this respect.
 
-Lastly, please remember that Tor relays have [individual exit policies](/relay-operators/exit-policies/).
+Lastly, please remember that Tor relays have [individual exit policies](../../relay-operators/exit-policies/).
 Many Tor relays do not allow exiting connections at all.
 Many of those that do allow some exit connections might already disallow connections to your service.
 When you go about banning nodes, you should parse the exit policies and only block the ones that allow these connections; and you should keep in mind that exit policies can change (as well as the overall list of nodes in the network).

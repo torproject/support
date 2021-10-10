@@ -39,6 +39,6 @@ Possibly.
 A bad third of three servers can see the traffic you sent into Tor.
 It won't know who sent this traffic.
 If you're using encryption (like HTTPS), it will only know the destination.
-See this visualization of [Tor and HTTPS](/https/https-1/) to understand how Tor and HTTPS interact.
+See this visualization of [Tor and HTTPS](../../https/https-1/) to understand how Tor and HTTPS interact.
 ---
 _slug: how-is-tor-different-from-other-proxies

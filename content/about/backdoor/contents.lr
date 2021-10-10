@@ -20,7 +20,7 @@ But that said, there are still plenty of subtle attacks people might try.
 Somebody might impersonate us, or break into our computers, or something like that.
 Tor is open source, and you should always check the source (or at least the diffs since the last release) for suspicious things.
 If we (or the distributors that gave you Tor) don't give you access to the source code, that's a sure sign something funny might be going on.
-You should also check the [PGP signatures](/tbb/how-to-verify-signature/) on the releases, to make sure nobody messed with the distribution sites.
+You should also check the [PGP signatures](../../tbb/how-to-verify-signature/) on the releases, to make sure nobody messed with the distribution sites.
 
 Also, there might be accidental bugs in Tor that could affect your anonymity.
 We periodically find and fix anonymity-related bugs, so make sure you keep your Tor versions up-to-date.

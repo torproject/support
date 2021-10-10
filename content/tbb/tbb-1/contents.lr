@@ -9,4 +9,4 @@ key: 6
 description:
 Whenever we release a new stable version of Tor Browser, we write a blog post that details its new features and known issues.
 If you started having issues with your Tor Browser after an update, check out [blog.torproject.org](https://blog.torproject.org) for a post on the most recent stable Tor Browser to see if your issue is listed.
-If your issue is not listed there, please check first [Tor Browser's issue tracker](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues) and create a [GitLab issue](/misc/bug-or-feedback/) about what you're experiencing.
+If your issue is not listed there, please check first [Tor Browser's issue tracker](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues) and create a [GitLab issue](../../misc/bug-or-feedback/) about what you're experiencing.

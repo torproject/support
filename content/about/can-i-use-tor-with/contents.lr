@@ -11,6 +11,6 @@ Our wiki has a community-maintained list of instructions for [Torifying specific
 Please add to this list and help us keep it accurate!
 
 Most people use Tor Browser, which includes everything you need to browse the web safely using Tor.
-Using Tor with other browsers is [dangerous and not recommended](/tbb/tbb-9/).
+Using Tor with other browsers is [dangerous and not recommended](../../tbb/tbb-9/).
 ---
 _slug: can-i-use-tor-with
