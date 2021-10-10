@@ -11,7 +11,7 @@ In addition, every server in the Internet that can see any of the packets can pr
 
 The aim of Tor is to improve your privacy by sending your traffic through a series of proxies.
 Your communication is encrypted in multiple layers and routed via multiple hops through the Tor network to the final receiver.
-More details on this process can be found in this [visualization](https://support.torproject.org/https/https-1/). 
+More details on this process can be found in this [visualization](../../https/https-1/).
 Note that all your local ISP can observe now is that you are communicating with Tor nodes.
 Similarly, servers in the Internet just see that they are being contacted by Tor nodes.
 
@@ -24,9 +24,9 @@ Second, Tor prevents people watching your traffic locally (such as your ISP or s
 It also stops them from deciding what you're allowed to learn and publish -- if you can get to any part of the Tor network, you can reach any site on the Internet.
 
 Third, Tor routes your connection through more than one Tor relay so no single relay can learn what you're up to.
-Because these relays are run by different individuals or organizations, distributing trust provides more security than the old [one hop proxy](https://support.torproject.org/about/#how-is-tor-different-from-other-proxies) approach.
+Because these relays are run by different individuals or organizations, distributing trust provides more security than the old [one hop proxy](../how-is-tor-different-from-other-proxies/) approach.
 
-Note, however, that there are situations where Tor fails to solve these privacy problems entirely: see the entry below on [remaining attacks](https://support.torproject.org/about/#attacks-on-onion-routing).
+Note, however, that there are situations where Tor fails to solve these privacy problems entirely: see the entry below on [remaining attacks](../attacks-on-onion-routing/).
 ---
 seo_slug: protections
 ---

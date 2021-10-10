@@ -14,5 +14,5 @@ If you're running Tor Browser for desktop for the first time, you can click on '
 Click on 'Select a built-in bridge' and choose 'snowflake' from the dropdown menu.
 Once you've selected Snowflake, scroll up and click 'Connect' to save your settings.
 
-From within the browser, you can click on the [hamburger menu](https://support.torproject.org/glossary/hamburger-menu/), then go to 'Preferences' and go to 'Tor'.
+From within the browser, you can click on the [hamburger menu ("≡")](../../glossary/hamburger-menu/), then go to 'Preferences' and go to 'Tor'.
 Alternatively, you can also type `about:preferences#tor` in the url bar. Check 'Use a bridge' and 'Select a built-in bridge'. Then select 'snowflake' from the dropdown menu.

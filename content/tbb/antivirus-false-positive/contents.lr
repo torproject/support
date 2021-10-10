@@ -7,7 +7,7 @@ seo_slug: tor-browser-antivirus-false-positive
 key: 30
 ---
 description: Some antivirus software will pop up malware and/or vulnerability warnings when Tor Browser is launched.
-If you downloaded Tor Browser from [our main website](https://www.torproject.org/download/) or used [GetTor](https://gettor.torproject.org/), and [verified it](https://support.torproject.org/tbb/how-to-verify-signature/), these are false positives and you have nothing to worry about.
+If you downloaded Tor Browser from [our main website](https://www.torproject.org/download/) or used [GetTor](https://gettor.torproject.org/), and [verified it](../how-to-verify-signature/), these are false positives and you have nothing to worry about.
 Some antiviruses consider that files that have not been seen by a lot of users as suspicious.
-To make sure that the Tor program you download is the one we have created and has not been modified by some attacker, you can [verify Tor Browser's signature](https://support.torproject.org/tbb/how-to-verify-signature/).
-You may also want to [permit certain processes](https://support.torproject.org/tbb/tbb-10) to prevent antiviruses from blocking access to Tor Browser.
+To make sure that the Tor program you download is the one we have created and has not been modified by some attacker, you can [verify Tor Browser's signature](../how-to-verify-signature/).
+You may also want to [permit certain processes](../tbb-10/) to prevent antiviruses from blocking access to Tor Browser.
