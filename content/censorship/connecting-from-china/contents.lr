@@ -24,4 +24,4 @@ You can select Snowflake from Tor Browser's [built-in bridge dropdown](/censorsh
 1. **Private and unlisted obfs4 bridges:** users will need to request a private bridge to [frontdesk@torproject.org](mailto:frontdesk@torproject.org) with the phrase "private bridge" in the subject of the email or, if they are tech-savvy, they can run their own [obfs4 bridge](https://community.torproject.org/relay/setup/bridge/) from outside China.
 It's important to note that bridges distributed by BridgeDB ([HTTPS](https://bridges.torproject.org), email), and built-in obfs4 bridges bundled in Tor Browser most likely won't work.
 
-If one of these options below is not working, check your [Tor logs](https://support.torproject.org/connecting/connecting-2/) and try another option.
+If one of these options below is not working, check your [Tor logs](../../connecting/connecting-2/) and try another option.

@@ -8,7 +8,7 @@ description:
 There is nothing the Tor developers can do to trace Tor users.
 The same protections that keep bad people from breaking Tor's anonymity also prevent us from figuring out what's going on.
 
-Some fans have suggested that we redesign Tor to include a [backdoor](https://support.torproject.org/about/backdoor).
+Some fans have suggested that we redesign Tor to include a [backdoor](../../about/backdoor/).
 There are two problems with this idea.
 First, it technically weakens the system too far.
 Having a central way to link users to their activities is a gaping hole for all sorts of attackers; and the policy mechanisms needed to ensure correct handling of this responsibility are enormous and unsolved.
