@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-10 18:05+CET\n"
+"POT-Creation-Date: 2021-10-11 15:59+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -8249,13 +8249,23 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
+msgid "<div dir=\"ltr\">"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "$ lsb_release -c"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
+msgid "</div>"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/operators-4/
+#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid ""
-"* As root, add the following lines to /etc/apt/sources.list. Replace "
+"* As root, add the following lines to `/etc/apt/sources.list`. Replace "
 "'version' with the version you found in the previous step:"
 msgstr ""
 
