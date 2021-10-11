@@ -22,12 +22,13 @@ Each directory authority additionally has a "directory signing key".
 The directory authorities [provide a signed list](https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt) of all the known relays, and in that list are a set of certificates from each relay (self-signed by their identity key) specifying their keys, locations, exit policies, and so on.
 So unless the adversary can control a majority of the directory authorities (as of 2021 there are 10 directory authorities), they can't trick the Tor client into using other Tor relays.
 
-How do clients know what the directory authorities are?
+### How do clients know what the directory authorities are?
 The Tor software comes with a built-in list of location and public key for each directory authority.
 So the only way to trick users into using a fake Tor network is to give them a specially modified version of the software.
 
-How do users know they've got the right software?
-When we distribute the source code or a package, we digitally sign it with [GNU Privacy Guard](http://www.gnupg.org/). See the [instructions on how to check Tor Browser's signature](../../tbb/how-to-verify-signature/).
+### How do users know they've got the right software?
+When we distribute the source code or a package, we digitally sign it with [GNU Privacy Guard](https://www.gnupg.org/).
+See the [instructions on how to check Tor Browser's signature](../../tbb/how-to-verify-signature/).
 
 In order to be certain that it's really signed by us, you need to have met us in person and gotten a copy of our GPG key fingerprint, or you need to know somebody who has.
 If you're concerned about an attack on this level, we recommend you get involved with the security community and start meeting people.
