@@ -7,7 +7,7 @@ seo_slug: what-is-snowflake
 key: 8
 ---
 description:
-Snowflake is a [pluggable transport](https://tb-manual.torproject.org/circumvention/) available in Tor Browser to defeat internet censorship.
+Snowflake is a [pluggable transport](../../glossary/pluggable-transports/) available in Tor Browser to defeat internet censorship.
 Like a Tor bridge, a user can access the open internet when even regular Tor connections are censored.
 To use Snowflake is as easy as to switch to a new bridge configuration in Tor Browser.
 
@@ -15,7 +15,7 @@ This system is composed of three components: volunteers running Snowflake proxie
 
 Volunteers willing to help users on censored networks can help by spinning short-lived proxies on their regular browsers. Check, [how can I use Snowflake?](../how-can-i-use-snowflake/)
 
-Snowflake uses the highly effective [domain fronting](https://blog.torproject.org/domain-fronting-critical-open-web) technique to make a connection to one of the thousands of snowflake proxies run by volunteers.
+Snowflake uses the highly effective [domain fronting](../../glossary/domain-fronting/) technique to make a connection to one of the thousands of snowflake proxies run by volunteers.
 These proxies are lightweight, ephemeral, and easy to run, allowing us to scale Snowflake more easily than previous techniques.
 
 For censored users, if your Snowflake proxy gets blocked, the broker will find a new proxy for you, automatically.
