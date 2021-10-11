@@ -13,7 +13,7 @@ To use Snowflake is as easy as to switch to a new bridge configuration in Tor Br
 
 This system is composed of three components: volunteers running Snowflake proxies, Tor users that want to connect to the internet, and a broker, that delivers snowflake proxies to users.
 
-Volunteers willing to help users on censored networks can help by spinning short-lived proxies on their regular browsers. Check, [how can I use Snowflake?](/censorship/how-can-i-use-snowflake/)
+Volunteers willing to help users on censored networks can help by spinning short-lived proxies on their regular browsers. Check, [how can I use Snowflake?](../how-can-i-use-snowflake/)
 
 Snowflake uses the highly effective [domain fronting](https://blog.torproject.org/domain-fronting-critical-open-web) technique to make a connection to one of the thousands of snowflake proxies run by volunteers.
 These proxies are lightweight, ephemeral, and easy to run, allowing us to scale Snowflake more easily than previous techniques.
