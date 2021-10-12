@@ -16,7 +16,7 @@ Tor only protects applications that are properly configured to send their Intern
 
 Web browsing:
   - Safe: [Tor Browser](https://www.torproject.org/download/)
-  - Unsafe: [Any other browser configured to use Tor as a proxy](/tbb/tbb-9)
+  - Unsafe: [Any other browser configured to use Tor as a proxy](../../tbb/tbb-9/)
 
 
 File sharing:
