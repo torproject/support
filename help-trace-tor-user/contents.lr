@@ -1,0 +1,28 @@
+_model: question
+---
+title: I have a compelling reason to trace a Tor user. Can you help?
+---
+key: 11
+---
+description:
+There is nothing the Tor developers can do to trace Tor users.
+The same protections that keep bad people from breaking Tor's anonymity also prevent us from figuring out what's going on.
+
+Some fans have suggested that we redesign Tor to include a [backdoor](../../about/backdoor/).
+There are two problems with this idea.
+First, it technically weakens the system too far.
+Having a central way to link users to their activities is a gaping hole for all sorts of attackers; and the policy mechanisms needed to ensure correct handling of this responsibility are enormous and unsolved.
+Second, the [bad people aren't going to get caught by this anyway](/abuse/what-about-criminals/), since they will use other means to ensure their anonymity (identity theft, compromising computers and using them as bounce points, etc).
+
+This ultimately means that it is the responsibility of site owners to protect themselves against compromise and security issues that can come from anywhere.
+This is just part of signing up for the benefits of the Internet.
+You must be prepared to secure yourself against the bad elements, wherever they may come from.
+Tracking and increased surveillance are not the answer to preventing abuse.
+
+But remember that this doesn't mean that Tor is invulnerable.
+Traditional police techniques can still be very effective against Tor, such as investigating means, motive, and opportunity, interviewing suspects, writing style analysis, technical analysis of the content itself, sting operations, keyboard taps, and other physical investigations.
+The Tor Project is also happy to work with everyone including law enforcement groups to train them how to use the Tor software to safely conduct investigations or anonymized activities online.
+---
+seo_slug: help-trace-tor-user
+---
+_slug: help-trace-tor-user
