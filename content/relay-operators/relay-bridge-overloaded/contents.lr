@@ -16,7 +16,7 @@ Note that if a relay reaches an overloaded state we show it for 72 hours after t
 
 If you notice that your relay is overloaded please:
 
-1\. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
+1. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
 
 2. Consider [tuning `sysctl` for your system](tuning-sysctl-for-network-memory-and-cpu-load) for network, memory and CPU load.
 
@@ -52,13 +52,16 @@ timeout:n
 ```
 Check ``$ man resolve.conf`` for more information.
 
-3\. Consider enabling ``MetricsPort`` to understand what is happening.
+## MetricsPort
+
+Consider enabling ``MetricsPort`` to understand what is happening.
 
 MetricsPort data for relays has been introduced since version >= 0.4.7.1-alpha,
 while the overload data has been added to the relay descriptors since 0.4.6+.
 
-It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users.
-Please take extra precaution and care when opening this port.
+It's important to understand that **exposing the tor MetricsPort publicly is dangerous for the Tor network users**.
+
+Please take extra precaution and care when opening this port, and close it when you are done debugging.
 Set a very strict access policy with ``MetricsPortPolicy`` and consider using your operating systems firewall features for defense in depth.
 
 Here is an example of what output enabling ``MetricsPort`` will produce:
@@ -157,14 +160,14 @@ DNS timeouts issues only apply to Exit nodes.
 If tor starts noticing DNS timeouts, you'll get the overload flag.
 This might not be because your relay is overloaded in terms of resources but it signals a problem on the network.
 
-DNS timeouts at the Exits are a _huge_ UX problem for tor users.
+[DNS timeouts](#dns-timeout) at the Exits are a _huge_ UX problem for tor users.
 Therefore Exit operators really need to address these issues to help the network.
 
-```tor_relay_load_oom_bytes_total{...}```
+### tor_relay_load_oom_bytes_total{...}
 
 An Out-Of-Memory invocation indicates a RAM problem.
 The relay might need more RAM or it is leaking memory.
-If you noticed that the tor process is leaking memory, please report the issue via either [GitLab](https://gitlab.torproject.org) or send an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
+If you noticed that the tor process is leaking memory, please report the issue either via [Tor gitLab](https://gitlab.torproject.org) or sending an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 
 Tor has its own OOM handler and it is invoked when 75%, of the total memory tor thinks is available, is reached.
 Thus, let say tor thinks it can use 2GB in total then at 1.5GB of memory usage, it will start freeing memory.
@@ -193,7 +196,7 @@ In this case the OS could OOM tor, without tor even noticing memory pressure.
 ### tor_relay_load_socket_total
 
 These lines indicate the relay is running out of sockets.
-The solution is to increase ``ulimit -n`` for the tor process
+The solution is to increase ``ulimit -n`` for the tor process.
 
 ### tor_relay_load_tcp_exhaustion_total
 
@@ -207,4 +210,4 @@ If this counter is incremented by some noticeable value over a short period of t
 It is likely being used as a Guard by a big onion service or for an ongoing DDoS on the network.
 
 If your relay is still overloaded and you don't know why, please get in touch with [network-report@torproject.org](mailto:network-report@torproject.org).
-You can encrypt your email using network-report [OpenPGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE).
+You can encrypt your email using [network-report OpenPGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE).
