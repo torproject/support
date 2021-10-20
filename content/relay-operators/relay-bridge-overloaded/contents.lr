@@ -18,7 +18,7 @@ If you notice that your relay is overloaded please:
 
 1. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
 
-2. Consider [tuning `sysctl` for your system](tuning-sysctl-for-network-memory-and-cpu-load) for network, memory and CPU load.
+2. Consider [tuning `sysctl` for your system](#tuning-sysctl-for-network-memory-and-cpu-load) for network, memory and CPU load.
 
 3. Consider [enabling `MetricsPort`](#metricsport) to understand what is happening.
 
