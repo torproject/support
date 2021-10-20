@@ -181,17 +181,16 @@ One might notice that tor could be called by the OS OOM handler itself.
 Because tor takes the total memory on the system when it starts, if the overall system has many other applications running using RAM, it ends up eating too much memory.
 In this case the OS could OOM tor, without tor even noticing memory pressure.
 
-```
-tor_relay_load_socket_total
+#### `tor_relay_load_socket_total`
 
+These lines indicate the relay is running out of sockets.
+The solution is to increase ``ulimit -n`` for the tor process
 
-tor_relay_load_tcp_exhaustion_total
-```
+### `tor_relay_load_tcp_exhaustion_total`
 
-These lines indicate the relay is running out of sockets or TCP ports.
-If the issue is socket related the solution is to increase ``ulimit -n`` for the tor process
+These lines indicate the relay is running out of TCP ports.
 
-If the solution is related to TCP ports exhaustion try to tune ``sysctl`` as described above.
+Try to tune ``sysctl`` as [described above](#tcp-port-exhaustion).
 
 ```
 tor_relay_load_global_rate_limit_reached_total
