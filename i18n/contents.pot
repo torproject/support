@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-11 15:59+CET\n"
+"POT-Creation-Date: 2021-10-21 10:31+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -517,6 +517,13 @@ msgid ""
 msgstr ""
 
 #: https://support.torproject.org/glossary/domain-fronting/
+#: (content/glossary/domain-fronting/contents+en.lr:word.definition)
+msgid ""
+"Fore more information see this [blogpost about domain fronting](https://blog."
+"torproject.org/domain-fronting-critical-open-web)."
+msgstr ""
+
+#: https://support.torproject.org/glossary/domain-fronting/
 #: (content/glossary/domain-fronting/contents+en.lr:word.spelling)
 msgid "No need to capitalize."
 msgstr ""
@@ -937,9 +944,10 @@ msgstr ""
 #: (content/glossary/metrics/contents+en.lr:word.definition)
 msgid ""
 "[Tor Metrics](https://metrics.torproject.org/) ([.onion](http://"
-"rougmnvswfsmd4dq.onion/)) archives historical data about the Tor ecosystem, "
-"collects data from the public Tor network and related services, and assists "
-"in developing novel approaches to safe, privacy preserving data collection."
+"hctxrvjzfpvmzh2jllqhgvvkoepxb4kfzdjm6h7egcwlumggtktiftid.onion/)) archives "
+"historical data about the Tor ecosystem, collects data from the public Tor "
+"network and related services, and assists in developing novel approaches to "
+"safe, privacy preserving data collection."
 msgstr ""
 
 #: https://support.torproject.org/glossary/middle-relay/
@@ -2188,7 +2196,8 @@ msgstr ""
 #: https://support.torproject.org/faq/staying-anonymous/
 #: (content/faq/staying-anonymous/contents+en.lr:question.description)
 msgid ""
-"- Unsafe: [Any other browser configured to use Tor as a proxy](/tbb/tbb-9)"
+"- Unsafe: [Any other browser configured to use Tor as a proxy](../../tbb/"
+"tbb-9/)"
 msgstr ""
 
 #: https://support.torproject.org/faq/staying-anonymous/
@@ -3164,7 +3173,7 @@ msgstr ""
 
 #: https://support.torproject.org/about/key-management/
 #: (content/about/key-management/contents+en.lr:question.description)
-msgid "How do clients know what the directory authorities are?"
+msgid "### How do clients know what the directory authorities are?"
 msgstr ""
 
 #: https://support.torproject.org/about/key-management/
@@ -3183,15 +3192,21 @@ msgstr ""
 
 #: https://support.torproject.org/about/key-management/
 #: (content/about/key-management/contents+en.lr:question.description)
-msgid "How do users know they've got the right software?"
+msgid "### How do users know they've got the right software?"
 msgstr ""
 
 #: https://support.torproject.org/about/key-management/
 #: (content/about/key-management/contents+en.lr:question.description)
 msgid ""
 "When we distribute the source code or a package, we digitally sign it with "
-"[GNU Privacy Guard](http://www.gnupg.org/). See the [instructions on how to "
-"check Tor Browser's signature](../../tbb/how-to-verify-signature/)."
+"[GNU Privacy Guard](https://www.gnupg.org/)."
+msgstr ""
+
+#: https://support.torproject.org/about/key-management/
+#: (content/about/key-management/contents+en.lr:question.description)
+msgid ""
+"See the [instructions on how to check Tor Browser's signature](../../tbb/how-"
+"to-verify-signature/)."
 msgstr ""
 
 #: https://support.torproject.org/about/key-management/
@@ -5624,10 +5639,10 @@ msgstr ""
 #: (content/misc/bug-or-feedback/contents+en.lr:question.description)
 #: https://support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
 #: (content/get-in-touch/why-i-cant-join-tor-channels/contents+en.lr:question.description)
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.description)
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
 msgid "```"
 msgstr ""
 
@@ -6865,25 +6880,6 @@ msgstr ""
 #: https://support.torproject.org/censorship/connecting-from-china/
 #: (content/censorship/connecting-from-china/contents+en.lr:question.description)
 msgid ""
-"1. **meek-azure:** it looks like you are browsing a Microsoft website "
-"instead of using Tor."
-msgstr ""
-
-#: https://support.torproject.org/censorship/connecting-from-china/
-#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
-msgid ""
-"However, because it has a bandwidth limitation, this option will be quite "
-"slow."
-msgstr ""
-
-#: https://support.torproject.org/censorship/connecting-from-china/
-#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
-msgid "You can select meek-azure from Tor Browser's built-in bridges dropdown."
-msgstr ""
-
-#: https://support.torproject.org/censorship/connecting-from-china/
-#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
-msgid ""
 "1. **[Snowflake](../what-is-snowflake/):** uses ephemeral proxies to connect "
 "to the Tor network."
 msgstr ""
@@ -6916,6 +6912,25 @@ msgid ""
 "It's important to note that bridges distributed by BridgeDB ([HTTPS](https://"
 "bridges.torproject.org), email), and built-in obfs4 bridges bundled in Tor "
 "Browser most likely won't work."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"1. **meek-azure:** it looks like you are browsing a Microsoft website "
+"instead of using Tor."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid ""
+"However, because it has a bandwidth limitation, this option will be quite "
+"slow."
+msgstr ""
+
+#: https://support.torproject.org/censorship/connecting-from-china/
+#: (content/censorship/connecting-from-china/contents+en.lr:question.description)
+msgid "You can select meek-azure from Tor Browser's built-in bridges dropdown."
 msgstr ""
 
 #: https://support.torproject.org/censorship/connecting-from-china/
@@ -6982,8 +6997,8 @@ msgstr ""
 msgid ""
 "GetTor will respond with an email containing links from which you can "
 "download Tor Browser, the cryptographic signature (needed for [verifying the "
-"download](/tbb/how-to-verify-signature/)), the fingerprint of the key used "
-"to make the signature, and the package’s checksum."
+"download](../../tbb/how-to-verify-signature/)), the fingerprint of the key "
+"used to make the signature, and the package’s checksum."
 msgstr ""
 
 #: https://support.torproject.org/censorship/gettor-2/
@@ -7002,8 +7017,8 @@ msgstr ""
 #: https://support.torproject.org/censorship/gettor-3/
 #: (content/censorship/gettor-3/contents+en.lr:question.description)
 msgid ""
-"GetTor via Twitter is currently under maintenance. Please use the [email](/"
-"censorship/gettor-2) instead."
+"GetTor via Twitter is currently under maintenance. Please use the [email](../"
+"gettor-2/) instead."
 msgstr ""
 
 #: https://support.torproject.org/censorship/how-can-i-use-snowflake/
@@ -7139,8 +7154,8 @@ msgstr ""
 #: https://support.torproject.org/censorship/what-is-snowflake/
 #: (content/censorship/what-is-snowflake/contents+en.lr:question.description)
 msgid ""
-"Snowflake is a [pluggable transport](https://tb-manual.torproject.org/"
-"circumvention/) available in Tor Browser to defeat internet censorship."
+"Snowflake is a [pluggable transport](../../glossary/pluggable-transports/) "
+"available in Tor Browser to defeat internet censorship."
 msgstr ""
 
 #: https://support.torproject.org/censorship/what-is-snowflake/
@@ -7170,15 +7185,15 @@ msgstr ""
 msgid ""
 "Volunteers willing to help users on censored networks can help by spinning "
 "short-lived proxies on their regular browsers. Check, [how can I use "
-"Snowflake?](/censorship/how-can-i-use-snowflake/)"
+"Snowflake?](../how-can-i-use-snowflake/)"
 msgstr ""
 
 #: https://support.torproject.org/censorship/what-is-snowflake/
 #: (content/censorship/what-is-snowflake/contents+en.lr:question.description)
 msgid ""
-"Snowflake uses the highly effective [domain fronting](https://blog."
-"torproject.org/domain-fronting-critical-open-web) technique to make a "
-"connection to one of the thousands of snowflake proxies run by volunteers."
+"Snowflake uses the highly effective [domain fronting](../../glossary/domain-"
+"fronting/) technique to make a connection to one of the thousands of "
+"snowflake proxies run by volunteers."
 msgstr ""
 
 #: https://support.torproject.org/censorship/what-is-snowflake/
@@ -8249,34 +8264,24 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
-msgid "<div dir=\"ltr\">"
-msgstr ""
-
-#: https://support.torproject.org/relay-operators/operators-4/
-#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid "$ lsb_release -c"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
-msgid "</div>"
-msgstr ""
-
-#: https://support.torproject.org/relay-operators/operators-4/
-#: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid ""
-"* As root, add the following lines to `/etc/apt/sources.list`. Replace "
+"* As root, add the following lines to /etc/apt/sources.list. Replace "
 "'version' with the version you found in the previous step:"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
-msgid "$ deb https://deb.torproject.org/torproject.org version main"
+msgid "deb https://deb.torproject.org/torproject.org version main"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
-msgid "$ deb-src https://deb.torproject.org/torproject.org version main"
+msgid "deb-src https://deb.torproject.org/torproject.org version main"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
@@ -10770,7 +10775,7 @@ msgstr ""
 
 #: https://support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lr:question.description)
-msgid "Learn how to connect to [OFTC servers](/get-in-touch/irc-help)."
+msgid "Learn how to connect to [OFTC servers](../../get-in-touch/irc-help/)."
 msgstr ""
 
 #: https://support.torproject.org/misc/bug-or-feedback/
@@ -11046,6 +11051,26 @@ msgstr ""
 #: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
 msgid "Operators"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "RPM Repository"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Glossary"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Alternate Designs"
+msgstr ""
+
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "little-t-tor"
 msgstr ""
 
 #: https://support.torproject.org/misc/menu/
@@ -11545,8 +11570,7 @@ msgstr ""
 #: https://support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
 #: (content/get-in-touch/why-i-cant-join-tor-channels/contents+en.lr:question.description)
 msgid ""
-"1. Log onto #tor. See [How can I chat with Tor Project teams?](/get-in-touch/"
-"irc-help/)"
+"1. Log onto #tor. See [How can I chat with Tor Project teams?](../irc-help/)"
 msgstr ""
 
 #: https://support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
@@ -11688,254 +11712,6 @@ msgid ""
 "channel names at the top left of the IRC window."
 msgstr ""
 
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.title)
-msgid "Why and how I can enable Tor Package Repository in Debian?"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"The Tor Project maintains its own [Debian package repository](https://deb."
-"torproject.org). Since Debian provides the LTS version of Tor, this might "
-"not always give you the latest stable Tor version. Therefore, it's "
-"recommended to install `tor` from our repository."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"Here's how you can enable Tor Package Repository in Debian based "
-"distributions:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-#: https://support.torproject.org/apt/apt-over-tor/
-#: (content/apt/apt-3/contents+en.lr:question.description)
-msgid ""
-"> **Note:** The symbol # refers to running the code as root. This means you "
-"should have access to a user account with system administration privileges, "
-"e.g your user should be in the sudo group."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "#### Prerequisite: Verify the CPU architecture"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"The package repository offers `amd64`, `arm64`, and `i386` binaries. Verify "
-"your operating system is capable of running the binary by inspecting the "
-"output of the following commend:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "# dpkg --print-architecture"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"It should output either `amd64`, `arm64`, or `i386`. The repository does not "
-"support other CPU architectures."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"> **Note on Raspbian:** The package repository does not offer 32-bit ARM "
-"architecture (`armhf`) images. You should either [build Tor from source]"
-"(https://community.torproject.org/onion-services/setup/install/#installing-"
-"tor-from-source), or install the version Debian offers."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "#### 1. Install `apt-transport-https`"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"To enable all package managers using the libapt-pkg library to access "
-"metadata and packages available in sources accessible over https (Hypertext "
-"Transfer Protocol Secure)."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "# apt install apt-transport-https"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"#### 2. Create a new file in `/etc/apt/sources.list.d/` named `tor.list`. "
-"Add the following entries:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
-"torproject.org/torproject.org <DISTRIBUTION> main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
-"torproject.org/torproject.org <DISTRIBUTION> main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"If you want to try experimental packages, add these **in addition** to the "
-"lines from above (Note, use whatever is the current experimental version "
-"instead of 0.4.6.x from the example below):"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
-"torproject.org/torproject.org tor-experimental-0.4.6.x-<DISTRIBUTION> main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
-"torproject.org/torproject.org tor-experimental-0.4.6.x-<DISTRIBUTION> main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "Or nightly builds:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
-"torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
-"torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-#: https://support.torproject.org/apt/apt-over-tor/
-#: (content/apt/apt-3/contents+en.lr:question.description)
-msgid ""
-"Replace `<DISTRIBUTION>` with your Operating System codename. Run "
-"`lsb_release -c` or `cat /etc/debian_version` to check the Operating System "
-"version."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "**Note:** Ubuntu Focal dropped support for 32-bit, so instead use:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb     [arch=amd64 signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] "
-"https://deb.torproject.org/torproject.org focal main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"deb-src [arch=amd64 signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] "
-"https://deb.torproject.org/torproject.org focal main"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "Warning symptom, when running sudo apt update:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"Skipping acquire of configured file 'main/binary-i386/Packages' as "
-"repository 'http://deb.torproject.org/torproject.org focal InRelease' "
-"doesn't support architecture 'i386'"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"#### 3. Then add the gpg key used to sign the packages by running the "
-"following command at your command prompt:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"# wget -O- https://deb.torproject.org/torproject.org/"
-"A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/"
-"share/keyrings/tor-archive-keyring.gpg >/dev/null"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "#### 4. Install tor and tor debian keyring"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid ""
-"We provide a Debian package to help you keep our signing key current. It is "
-"recommended you use it. Install it with the following commands:"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-#: https://support.torproject.org/apt/apt-over-tor/
-#: (content/apt/apt-3/contents+en.lr:question.description)
-msgid "# apt update"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-deb-repo/
-#: (content/apt/apt-1/contents+en.lr:question.description)
-msgid "# apt install tor deb.torproject.org-keyring"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-ubuntu/
-#: (content/apt/apt-2/contents+en.lr:question.title)
-msgid "Can I use tor from Ubuntu's repository?"
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-ubuntu/
-#: (content/apt/apt-2/contents+en.lr:question.description)
-msgid "**No.** Do not use the packages in Ubuntu's universe."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-ubuntu/
-#: (content/apt/apt-2/contents+en.lr:question.description)
-msgid ""
-"In the past they have not been reliably updated. That means you could be "
-"missing stability and security fixes."
-msgstr ""
-
-#: https://support.torproject.org/apt/tor-ubuntu/
-#: (content/apt/apt-2/contents+en.lr:question.description)
-msgid "Instead, please use [Tor Debian repository](/apt/tor-deb-repo)."
-msgstr ""
-
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.title)
 msgid "Can I use APT over Tor?"
@@ -11946,6 +11722,16 @@ msgstr ""
 msgid ""
 "Yes, `deb.torproject.org` is also served through via an Onion Service: "
 "http://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/"
+msgstr ""
+
+#: https://support.torproject.org/apt/apt-over-tor/
+#: (content/apt/apt-3/contents+en.lr:question.description)
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"> **Note:** The symbol # refers to running the code as root. This means you "
+"should have access to a user account with system administration privileges, "
+"e.g your user should be in the sudo group."
 msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
@@ -11991,12 +11777,250 @@ msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.description)
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"Replace `<DISTRIBUTION>` with your Operating System codename. Run "
+"`lsb_release -c` or `cat /etc/debian_version` to check the Operating System "
+"version."
+msgstr ""
+
+#: https://support.torproject.org/apt/apt-over-tor/
+#: (content/apt/apt-3/contents+en.lr:question.description)
 msgid "Now refresh your sources and try to install tor again:"
 msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.description)
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "# apt update"
+msgstr ""
+
+#: https://support.torproject.org/apt/apt-over-tor/
+#: (content/apt/apt-3/contents+en.lr:question.description)
 msgid "# apt install tor"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.title)
+msgid "Why and how I can enable Tor Package Repository in Debian?"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"The Tor Project maintains its own [Debian package repository](https://deb."
+"torproject.org). Since Debian provides the LTS version of Tor, this might "
+"not always give you the latest stable Tor version. Therefore, it's "
+"recommended to install `tor` from our repository."
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"Here's how you can enable Tor Package Repository in Debian based "
+"distributions:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "#### Prerequisite: Verify the CPU architecture"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"The package repository offers `amd64`, `arm64`, and `i386` binaries. Verify "
+"your operating system is capable of running the binary by inspecting the "
+"output of the following commend:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "# dpkg --print-architecture"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"It should output either `amd64`, `arm64`, or `i386`. The repository does not "
+"support other CPU architectures."
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"> **Note on Raspbian:** The package repository does not offer 32-bit ARM "
+"architecture (`armhf`) images. You should either [build Tor from source]"
+"(https://community.torproject.org/onion-services/setup/install/#installing-"
+"tor-from-source), or install the version Debian offers."
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "#### 1. Install `apt-transport-https`"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"To enable all package managers using the libapt-pkg library to access "
+"metadata and packages available in sources accessible over https (Hypertext "
+"Transfer Protocol Secure)."
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "# apt install apt-transport-https"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"#### 2. Create a new file in `/etc/apt/sources.list.d/` named `tor.list`. "
+"Add the following entries:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
+"torproject.org/torproject.org <DISTRIBUTION> main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
+"torproject.org/torproject.org <DISTRIBUTION> main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"If you want to try experimental packages, add these **in addition** to the "
+"lines from above (Note, use whatever is the current experimental version "
+"instead of 0.4.6.x from the example below):"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
+"torproject.org/torproject.org tor-experimental-0.4.6.x-<DISTRIBUTION> main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
+"torproject.org/torproject.org tor-experimental-0.4.6.x-<DISTRIBUTION> main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "Or nightly builds:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
+"torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb."
+"torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "**Note:** Ubuntu Focal dropped support for 32-bit, so instead use:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb     [arch=amd64 signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] "
+"https://deb.torproject.org/torproject.org focal main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"deb-src [arch=amd64 signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] "
+"https://deb.torproject.org/torproject.org focal main"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "Warning symptom, when running sudo apt update:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"Skipping acquire of configured file 'main/binary-i386/Packages' as "
+"repository 'http://deb.torproject.org/torproject.org focal InRelease' "
+"doesn't support architecture 'i386'"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"#### 3. Then add the gpg key used to sign the packages by running the "
+"following command at your command prompt:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"# wget -O- https://deb.torproject.org/torproject.org/"
+"A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/"
+"share/keyrings/tor-archive-keyring.gpg >/dev/null"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "#### 4. Install tor and tor debian keyring"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid ""
+"We provide a Debian package to help you keep our signing key current. It is "
+"recommended you use it. Install it with the following commands:"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-deb-repo/
+#: (content/apt/tor-deb-repo/contents+en.lr:question.description)
+msgid "# apt install tor deb.torproject.org-keyring"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-ubuntu/
+#: (content/apt/tor-ubuntu/contents+en.lr:question.title)
+msgid "Can I use tor from Ubuntu's repository?"
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-ubuntu/
+#: (content/apt/tor-ubuntu/contents+en.lr:question.description)
+msgid "**No.** Do not use the packages in Ubuntu's universe."
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-ubuntu/
+#: (content/apt/tor-ubuntu/contents+en.lr:question.description)
+msgid ""
+"In the past they have not been reliably updated. That means you could be "
+"missing stability and security fixes."
+msgstr ""
+
+#: https://support.torproject.org/apt/tor-ubuntu/
+#: (content/apt/tor-ubuntu/contents+en.lr:question.description)
+msgid "Instead, please use [Tor Debian repository](../tor-deb-repo/)."
 msgstr ""
 
 #: https://support.torproject.org/rpm/tor-rpm-install/
@@ -12921,21 +12945,21 @@ msgid ""
 msgstr ""
 
 #: https://support.torproject.org/abuse/nodes-banned-from-mail-server/
-#: (content/abuse/mail-server-ban/contents+en.lr:question.title)
+#: (content/abuse/nodes-banned-from-mail-server/contents+en.lr:question.title)
 msgid "Your nodes are banned from the mail server I want to use."
 msgstr ""
 
 #: https://support.torproject.org/abuse/nodes-banned-from-mail-server/
-#: (content/abuse/mail-server-ban/contents+en.lr:question.description)
+#: (content/abuse/nodes-banned-from-mail-server/contents+en.lr:question.description)
 msgid ""
-"Even though [Tor isn't useful for spamming](/abuse/what-about-spammers/), "
-"some over-zealous blocklisters seem to think that all open networks like Tor "
-"are evil — they attempt to strong-arm network administrators on policy, "
-"service, and routing issues, and then extract ransoms from victims."
+"Even though [Tor isn't useful for spamming](../what-about-spammers/), some "
+"over-zealous blocklisters seem to think that all open networks like Tor are "
+"evil — they attempt to strong-arm network administrators on policy, service, "
+"and routing issues, and then extract ransoms from victims."
 msgstr ""
 
 #: https://support.torproject.org/abuse/nodes-banned-from-mail-server/
-#: (content/abuse/mail-server-ban/contents+en.lr:question.description)
+#: (content/abuse/nodes-banned-from-mail-server/contents+en.lr:question.description)
 msgid ""
 "If your server administrators decide to make use of these blocklists to "
 "refuse incoming mail, you should have a conversation with them and explain "
@@ -14061,26 +14085,22 @@ msgid "Close banner"
 msgstr ""
 
 #: lego/templates/banner.html:11 templates/banner.html:11
-msgid "Use a Mask, Use Tor."
+msgid "Privacy is a human right"
 msgstr ""
 
-#: lego/templates/banner.html:20 templates/banner.html:20
-msgid "Resist the surveillance pandemic."
+#: lego/templates/banner.html:15 templates/banner.html:15
+msgid "Your donation will be matched by Friends of Tor, up to $150,000."
 msgstr ""
 
-#: lego/templates/banner.html:32 templates/banner.html:32
+#: lego/templates/banner.html:26 templates/banner.html:26
 msgid "Your donation will be matched by Friends of Tor, up to $100,000."
 msgstr ""
 
-#: lego/templates/banner.html:38 lego/templates/footer.html:64
-#: lego/templates/footer.html:66 lego/templates/navbar.html:18
-#: lego/templates/navbar.html:20 templates/banner.html:38
-#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:18
-#: templates/navbar.html:20
-msgid "Donate Now"
+#: lego/templates/banner.html:32 templates/banner.html:32
+msgid "Donate now"
 msgstr ""
 
-#: lego/templates/banner.html:40 templates/banner.html:40
+#: lego/templates/banner.html:34 templates/banner.html:34
 msgid "DONATE NOW"
 msgstr ""
 
@@ -14106,6 +14126,13 @@ msgid ""
 "source anonymity and privacy technologies, supporting their unrestricted "
 "availability and use, and furthering their scientific and popular "
 "understanding."
+msgstr ""
+
+#: lego/templates/footer.html:64 lego/templates/footer.html:66
+#: lego/templates/navbar.html:18 lego/templates/navbar.html:20
+#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:18
+#: templates/navbar.html:20
+msgid "Donate Now"
 msgstr ""
 
 #: lego/templates/footer.html:75 templates/footer.html:75
