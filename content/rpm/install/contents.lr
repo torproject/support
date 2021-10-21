@@ -18,7 +18,7 @@ Here's how you can enable Tor Package Repository for both CentOS and RHEL and Fe
 
 ### 1. Enable epel repository (only for CentOS and RHEL)
 
-    # dnf install epel-release -y
+    ‪# dnf install epel-release -y
 
 ### 2. Add the following to /etc/yum.repos.d/tor.repo
 
@@ -46,7 +46,7 @@ For Fedora:
 
 Then you can install the latest Tor package.
 
-    # dnf install tor -y
+    ‪# dnf install tor -y
 
 Using it for the first time, you will have to import the GPG public key.
 

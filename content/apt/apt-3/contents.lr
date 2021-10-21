@@ -14,7 +14,7 @@ Yes, `deb.torproject.org` is also served through via an Onion Service: http://ap
 To use Apt over Tor, the apt transport needs to be installed:
 
    ```
-   # apt install apt-transport-tor
+   ‪# apt install apt-transport-tor
    ```
 
 Then you need to add the following entries to `/etc/apt/sources.list` or a new file in `/etc/apt/sources.list.d/`:
@@ -32,6 +32,6 @@ Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -
 Now refresh your sources and try to install tor again:
 
    ```
-   # apt update
-   # apt install tor
+   ‪# apt update
+   ‪# apt install tor
    ```
