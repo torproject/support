@@ -50,7 +50,7 @@ In order to verify the signature you will need to type a few commands in a termi
 The Tor Browser team signs Tor Browser releases.
 Import the Tor Browser Developers signing key (0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290):
 
-    gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+    ‪# gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
 
 This should show you something like:
 
@@ -102,10 +102,10 @@ If you get error messages containing 'No such file or directory', either somethi
 
 If you encounter errors you cannot fix, feel free to [download and use this public key](https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf) instead. Alternatively, you may use the following command:
 
-    curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
+    ‪# curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
 
 Tor Browser Developers key is also available on [keys.openpgp.org](https://keys.openpgp.org/) and can be downloaded from [https://keys.openpgp.org/vks/v1/by-fingerprint/EF6E286DDA85EA2A4BA7DE684E2C6E8793298290](https://keys.openpgp.org/vks/v1/by-fingerprint/EF6E286DDA85EA2A4BA7DE684E2C6E8793298290).
 If you're using MacOS or GNU/Linux, the key can also be fetched by running the following command:  
-   `$ gpg --keyserver keys.openpgp.org --search-keys torbrowser@torproject.org`
+    ‪`$ gpg --keyserver keys.openpgp.org --search-keys torbrowser@torproject.org`
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).

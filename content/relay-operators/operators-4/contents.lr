@@ -7,12 +7,12 @@ seo_slug: using-correct-packages
 description: 
 * Do not use the packages in Ubuntu's repositories. They are not reliably updated. If you use them, you will miss important stability and security fixes.
 * Determine your Ubuntu version by running the following command:
-       $ lsb_release -c
+       ‪$ lsb_release -c
 * As root, add the following lines to /etc/apt/sources.list. Replace 'version' with the version you found in the previous step:
        deb https://deb.torproject.org/torproject.org version main
        deb-src https://deb.torproject.org/torproject.org version main
 * Add the gpg key used to sign the packages by running the following commands:
-       $ curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | sudo apt-key add -
+       ‪$ curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | sudo apt-key add -
 * Run the following commands to install tor and check its signatures:
-       $ sudo apt-get update
-       $ sudo apt-get install tor deb.torproject.org-keyring
+       ‪$ sudo apt-get update
+       ‪$ sudo apt-get install tor deb.torproject.org-keyring
