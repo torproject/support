@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-21 10:31+CET\n"
+"POT-Creation-Date: 2021-10-26 15:31+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -13,6 +13,13 @@ msgstr ""
 
 #: https://support.torproject.org/ (content/contents+en.lr:showcase.title)
 msgid "How can we help?"
+msgstr ""
+
+#: https://support.torproject.org/glossary/
+#: (content/glossary/contents+en.lr:glossary.title)
+#: https://support.torproject.org/misc/menu/
+#: (content/misc/menu/contents+en.lr:question.description)
+msgid "Glossary"
 msgstr ""
 
 #: https://support.torproject.org/faq/ (content/faq/contents+en.lr:topic.title)
@@ -3952,7 +3959,7 @@ msgstr ""
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
 msgid ""
-"gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org"
+"‪# gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
@@ -4166,11 +4173,9 @@ msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
-#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
-#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
-"curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject."
-"org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -"
+"‪# curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/"
+"torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
@@ -4192,7 +4197,7 @@ msgstr ""
 #: https://support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lr:question.description)
 msgid ""
-"`$ gpg --keyserver keys.openpgp.org --search-keys torbrowser@torproject.org`"
+"‪`$ gpg --keyserver keys.openpgp.org --search-keys torbrowser@torproject.org`"
 msgstr ""
 
 #: https://support.torproject.org/tbb/how-to-verify-signature/
@@ -4746,7 +4751,7 @@ msgstr ""
 #: (content/tbb/tbb-21/contents+en.lr:question.description)
 #: https://support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
-msgid "`./start-tor-browser.desktop --verbose`"
+msgid "‪`./start-tor-browser.desktop --verbose`"
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-21/
@@ -4760,7 +4765,7 @@ msgstr ""
 #: (content/tbb/tbb-21/contents+en.lr:question.description)
 #: https://support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lr:question.description)
-msgid "`./start-tor-browser.desktop --log [file]`"
+msgid "‪`./start-tor-browser.desktop --log [file]`"
 msgstr ""
 
 #: https://support.torproject.org/tbb/tbb-22/
@@ -7411,8 +7416,8 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/behind-nat/
 #: (content/relay-operators/behind-nat/contents+en.lr:question.description)
 msgid ""
-"Forwarding TCP connections is system dependent but the firewalled-clients "
-"FAQ entry offers some examples on how to do this."
+"Forwarding TCP connections is system dependent but the [firewalled-clients "
+"FAQ](/tbb/tbb-firewall-ports/) entry offers some examples on how to do this."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/behind-nat/
@@ -8264,7 +8269,7 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
-msgid "$ lsb_release -c"
+msgid "‪$ lsb_release -c"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
@@ -8294,7 +8299,7 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
 msgid ""
-"$ curl https://deb.torproject.org/torproject.org/"
+"‪$ curl https://deb.torproject.org/torproject.org/"
 "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | sudo apt-key add -"
 msgstr ""
 
@@ -8305,12 +8310,12 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
-msgid "$ sudo apt-get update"
+msgid "‪$ sudo apt-get update"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-4/
 #: (content/relay-operators/operators-4/contents+en.lr:question.description)
-msgid "$ sudo apt-get install tor deb.torproject.org-keyring"
+msgid "‪$ sudo apt-get install tor deb.torproject.org-keyring"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/operators-6/
@@ -8480,22 +8485,26 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "- Any Tor OOM invocation due to memory pressure"
+msgid ""
+"- [Any Tor OOM invocation due to memory pressure](#tor-relay-load-oom-bytes-"
+"total..})"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "- Any ntor onionskins are dropped"
+msgid ""
+"- [Any ntor onionskins are dropped](#tor-relay-load-onionskins-total-type-"
+"ntor-action-dropped-0)"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "- TCP port exhaustion"
+msgid "- [TCP port exhaustion](#tcp-port-exhaustion)"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "- DNS timeout reached"
+msgid "- [DNS timeout reached](#dns-timeout)"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8513,27 +8522,49 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"1\\. Check https://status.torproject.org/ for any known issues in the \"Tor "
+"1. Check https://status.torproject.org/ for any known issues in the \"Tor "
 "network\" category."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"2\\. Consider tuning ``sysctl`` for your system for network, memory and CPU "
-"load."
+"2. Consider [tuning `sysctl` for your system](#tuning-sysctl-for-network-"
+"memory-and-cpu-load) for network, memory and CPU load."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid ""
+"3. Consider [enabling `MetricsPort`](#metricsport) to understand what is "
+"happening."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "## Tuning `sysctl` for network, memory and CPU load"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "### TCP port exhaustion"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
 "If you are experiencing TCP port exhaustion consider expanding your local "
-"port range"
+"port range."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "sysctl -w net.ipv4.ip_local_port_range=\"15000 64000\""
+msgid "You can do that with"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "‪`# sysctl -w net.ipv4.ip_local_port_range=\"15000 64000\"`"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8543,7 +8574,12 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range"
+msgid "‪`# echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range`"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "### DNS timeout"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8605,7 +8641,12 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "3\\. Consider enabling ``MetricsPort`` to understand what is happening."
+msgid "## MetricsPort"
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "Consider enabling ``MetricsPort`` to understand what is happening."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8624,13 +8665,15 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"It's important to understand that exposing tor metrics publicly is dangerous "
-"to the Tor network users."
+"It's important to understand that **exposing the tor MetricsPort publicly is "
+"dangerous for the Tor network users**."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "Please take extra precaution and care when opening this port."
+msgid ""
+"Please take extra precaution and care when opening this port, and close it "
+"when you are done debugging."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8649,12 +8692,12 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"# HELP tor_relay_load_onionskins_total Total number of onionskins handled"
+"‪# HELP tor_relay_load_onionskins_total Total number of onionskins handled"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# TYPE tor_relay_load_onionskins_total counter"
+msgid "‪# TYPE tor_relay_load_onionskins_total counter"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8690,13 +8733,13 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"# HELP tor_relay_exit_dns_query_total Total number of DNS queries done by "
+"‪# HELP tor_relay_exit_dns_query_total Total number of DNS queries done by "
 "this relay"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# TYPE tor_relay_exit_dns_query_total counter"
+msgid "‪# TYPE tor_relay_exit_dns_query_total counter"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8717,13 +8760,13 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"# HELP tor_relay_exit_dns_error_total Total number of DNS errors encountered "
+"‪# HELP tor_relay_exit_dns_error_total Total number of DNS errors encountered "
 "by this relay"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# TYPE tor_relay_exit_dns_error_total counter"
+msgid "‪# TYPE tor_relay_exit_dns_error_total counter"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8911,13 +8954,13 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out "
+"‪# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out "
 "of TCP ports"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# TYPE tor_relay_load_tcp_exhaustion_total counter"
+msgid "‪# TYPE tor_relay_load_tcp_exhaustion_total counter"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8927,12 +8970,12 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# HELP tor_relay_load_socket_total Total number of sockets"
+msgid "‪# HELP tor_relay_load_socket_total Total number of sockets"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# TYPE tor_relay_load_socket_total gauge"
+msgid "‪# TYPE tor_relay_load_socket_total gauge"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8948,13 +8991,13 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"# HELP tor_relay_load_oom_bytes_total Total number of bytes the OOM has "
+"‪# HELP tor_relay_load_oom_bytes_total Total number of bytes the OOM has "
 "freed by subsystem"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# TYPE tor_relay_load_oom_bytes_total counter"
+msgid "‪# TYPE tor_relay_load_oom_bytes_total counter"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -8980,13 +9023,13 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"# HELP tor_relay_load_global_rate_limit_reached_total Total number of global "
+"‪# HELP tor_relay_load_global_rate_limit_reached_total Total number of global "
 "connection bucket limit reached"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "# TYPE tor_relay_load_global_rate_limit_reached_total counter"
+msgid "‪# TYPE tor_relay_load_global_rate_limit_reached_total counter"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9006,8 +9049,7 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid ""
-"```tor_relay_load_onionskins_total{type=\"ntor\",action=\"dropped\"} 0```"
+msgid "### tor_relay_load_onionskins_total{type=\"ntor\",action=\"dropped\"} 0"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9051,7 +9093,7 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "```tor_relay_exit_dns_error_total{...}```"
+msgid "### ‪tor_relay_exit_dns_error_total{...}"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9078,7 +9120,9 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "DNS timeouts at the Exits are a _huge_ UX problem for tor users."
+msgid ""
+"[DNS timeouts](#dns-timeout) at the Exits are a _huge_ UX problem for tor "
+"users."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9090,7 +9134,7 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "```tor_relay_load_oom_bytes_total{...}```"
+msgid "### ‪tor_relay_load_oom_bytes_total{...}"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9107,9 +9151,9 @@ msgstr ""
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
 "If you noticed that the tor process is leaking memory, please report the "
-"issue via either [GitLab](https://gitlab.torproject.org) or send an email to "
-"the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/"
-"listinfo/tor-relays)."
+"issue either via [Tor gitLab](https://gitlab.torproject.org) or sending an "
+"email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/"
+"mailman/listinfo/tor-relays)."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9219,43 +9263,44 @@ msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "tor_relay_load_socket_total"
+msgid "### tor_relay_load_socket_total"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "tor_relay_load_tcp_exhaustion_total"
+msgid "These lines indicate the relay is running out of sockets."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "These lines indicate the relay is running out of sockets or TCP ports."
+msgid "The solution is to increase ``ulimit -n`` for the tor process."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid ""
-"If the issue is socket related the solution is to increase ``ulimit -n`` for "
-"the tor process"
+msgid "### tor_relay_load_tcp_exhaustion_total"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid ""
-"If the solution is related to TCP ports exhaustion try to tune ``sysctl`` as "
-"described above."
+msgid "These lines indicate the relay is running out of TCP ports."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
-msgid "tor_relay_load_global_rate_limit_reached_total"
+msgid "Try to tune ``sysctl`` as [described above](#tcp-port-exhaustion)."
+msgstr ""
+
+#: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
+#: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
+msgid "### tor_relay_load_global_rate_limit_reached_total"
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
 "If this counter is incremented by some noticeable value over a short period "
-"of time then it indicates the relay is congested."
+"of time, the relay is congested."
 msgstr ""
 
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
@@ -9276,7 +9321,7 @@ msgstr ""
 #: https://support.torproject.org/relay-operators/relay-bridge-overloaded/
 #: (content/relay-operators/relay-bridge-overloaded/contents+en.lr:question.description)
 msgid ""
-"You can encrypt your email using network-report [OpenPGP key](https://keys."
+"You can encrypt your email using [network-report OpenPGP key](https://keys."
 "openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE)."
 msgstr ""
 
@@ -11060,11 +11105,6 @@ msgstr ""
 
 #: https://support.torproject.org/misc/menu/
 #: (content/misc/menu/contents+en.lr:question.description)
-msgid "Glossary"
-msgstr ""
-
-#: https://support.torproject.org/misc/menu/
-#: (content/misc/menu/contents+en.lr:question.description)
 msgid "Alternate Designs"
 msgstr ""
 
@@ -11741,7 +11781,7 @@ msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.description)
-msgid "# apt install apt-transport-tor"
+msgid "‪# apt install apt-transport-tor"
 msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
@@ -11794,12 +11834,12 @@ msgstr ""
 #: (content/apt/apt-3/contents+en.lr:question.description)
 #: https://support.torproject.org/apt/tor-deb-repo/
 #: (content/apt/tor-deb-repo/contents+en.lr:question.description)
-msgid "# apt update"
+msgid "‪# apt update"
 msgstr ""
 
 #: https://support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lr:question.description)
-msgid "# apt install tor"
+msgid "‪# apt install tor"
 msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
@@ -11838,7 +11878,7 @@ msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
 #: (content/apt/tor-deb-repo/contents+en.lr:question.description)
-msgid "# dpkg --print-architecture"
+msgid "‪# dpkg --print-architecture"
 msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
@@ -11872,7 +11912,7 @@ msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
 #: (content/apt/tor-deb-repo/contents+en.lr:question.description)
-msgid "# apt install apt-transport-https"
+msgid "‪# apt install apt-transport-https"
 msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
@@ -11979,7 +12019,7 @@ msgstr ""
 #: https://support.torproject.org/apt/tor-deb-repo/
 #: (content/apt/tor-deb-repo/contents+en.lr:question.description)
 msgid ""
-"# wget -O- https://deb.torproject.org/torproject.org/"
+"‪# wget -O- https://deb.torproject.org/torproject.org/"
 "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/"
 "share/keyrings/tor-archive-keyring.gpg >/dev/null"
 msgstr ""
@@ -11998,7 +12038,7 @@ msgstr ""
 
 #: https://support.torproject.org/apt/tor-deb-repo/
 #: (content/apt/tor-deb-repo/contents+en.lr:question.description)
-msgid "# apt install tor deb.torproject.org-keyring"
+msgid "‪# apt install tor deb.torproject.org-keyring"
 msgstr ""
 
 #: https://support.torproject.org/apt/tor-ubuntu/
@@ -12057,7 +12097,7 @@ msgstr ""
 
 #: https://support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lr:question.description)
-msgid "# dnf install epel-release -y"
+msgid "‪# dnf install epel-release -y"
 msgstr ""
 
 #: https://support.torproject.org/rpm/tor-rpm-install/
@@ -12137,7 +12177,7 @@ msgstr ""
 
 #: https://support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lr:question.description)
-msgid "# dnf install tor -y"
+msgid "‪# dnf install tor -y"
 msgstr ""
 
 #: https://support.torproject.org/rpm/tor-rpm-install/
@@ -13586,7 +13626,8 @@ msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
 #: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
-msgid "gpg --auto-key-locate nodefault,wkd --locate-keys nickm@torproject.org"
+msgid ""
+"‪$ gpg --auto-key-locate nodefault,wkd --locate-keys nickm@torproject.org"
 msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
@@ -13608,7 +13649,7 @@ msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
 #: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
-msgid "uid           [ unknown] Nick Mathewson <nickm@torproject.org>"
+msgid "‪uid           [ unknown] Nick Mathewson <nickm@torproject.org>"
 msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
@@ -13638,7 +13679,7 @@ msgstr ""
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
 #: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
 msgid ""
-"gpg --output ./tor.keyring --export "
+"‪$ gpg --output ./tor.keyring --export "
 "0x2133BC600AB133E1D826D173FE43009C4607B1FB"
 msgstr ""
 
@@ -13669,7 +13710,14 @@ msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
 #: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
-msgid "gpgv: Good signature from \"Nick Mathewson <nickm@torproject.org>\""
+msgid "‪gpgv: Good signature from \"Nick Mathewson <nickm@torproject.org>\""
+msgstr ""
+
+#: https://support.torproject.org/little-t-tor/verify-little-t-tor/
+#: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
+msgid ""
+"‪$ curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/"
+"torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -"
 msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
@@ -13690,7 +13738,7 @@ msgstr ""
 
 #: https://support.torproject.org/little-t-tor/verify-little-t-tor/
 #: (content/little-t-tor/verify-little-t-tor/contents+en.lr:question.description)
-msgid "$ gpg --keyserver keys.openpgp.org --search-keys nickm@torproject.org"
+msgid "‪$ gpg --keyserver keys.openpgp.org --search-keys nickm@torproject.org"
 msgstr ""
 
 #: https://support.torproject.org/alternate-designs/block-websites/
@@ -14096,17 +14144,14 @@ msgstr ""
 msgid "Your donation will be matched by Friends of Tor, up to $100,000."
 msgstr ""
 
-#: lego/templates/banner.html:32 templates/banner.html:32
+#: lego/templates/banner.html:31 lego/templates/banner.html:33
+#: templates/banner.html:31 templates/banner.html:33
 msgid "Donate now"
 msgstr ""
 
-#: lego/templates/banner.html:34 templates/banner.html:34
-msgid "DONATE NOW"
-msgstr ""
-
 #: lego/templates/footer.html:13 lego/templates/footer.html:22
-#: lego/templates/navbar.html:95 templates/footer.html:13
-#: templates/footer.html:22 templates/navbar.html:95
+#: lego/templates/navbar.html:96 templates/footer.html:13
+#: templates/footer.html:22 templates/navbar.html:96
 msgid "Download Tor Browser"
 msgstr ""
 
@@ -14129,9 +14174,9 @@ msgid ""
 msgstr ""
 
 #: lego/templates/footer.html:64 lego/templates/footer.html:66
-#: lego/templates/navbar.html:18 lego/templates/navbar.html:20
-#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:18
-#: templates/navbar.html:20
+#: lego/templates/navbar.html:19 lego/templates/navbar.html:21
+#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:19
+#: templates/navbar.html:21
 msgid "Donate Now"
 msgstr ""
 
@@ -14147,14 +14192,14 @@ msgstr ""
 msgid "Sign up"
 msgstr ""
 
-#: lego/templates/footer.html:98 templates/footer.html:98
+#: lego/templates/footer.html:101 templates/footer.html:101
 #, python-format
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our %(link_to_faq)s"
 msgstr ""
 
-#: lego/templates/navbar.html:25 templates/navbar.html:25
+#: lego/templates/navbar.html:26 templates/navbar.html:26
 msgid "Menu"
 msgstr ""
 
