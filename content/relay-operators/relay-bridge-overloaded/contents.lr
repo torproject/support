@@ -7,27 +7,35 @@ description:
 On relay search we show an amber dot next to the relay nickname when this is overloaded.
 This means that one or many of the following load metrics have been triggered:
 
-- Any Tor OOM invocation due to memory pressure
-- Any ntor onionskins are dropped
-- TCP port exhaustion
-- DNS timeout reached
+- [Any Tor OOM invocation due to memory pressure](#tor-relay-load-oom-bytes-total..})
+- [Any ntor onionskins are dropped](#tor-relay-load-onionskins-total-type-ntor-action-dropped-0)
+- [TCP port exhaustion](#tcp-port-exhaustion)
+- [DNS timeout reached](#dns-timeout)
 
 Note that if a relay reaches an overloaded state we show it for 72 hours after the relay has recovered.
 
 If you notice that your relay is overloaded please:
 
-1\. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
+1. Check https://status.torproject.org/ for any known issues in the "Tor network" category.
 
-2\. Consider tuning ``sysctl`` for your system for network, memory and CPU load.
+2. Consider [tuning `sysctl` for your system](#tuning-sysctl-for-network-memory-and-cpu-load) for network, memory and CPU load.
 
-If you are experiencing TCP port exhaustion consider expanding your local port range
-```
-‪sysctl -w net.ipv4.ip_local_port_range="15000 64000"
-```
+3. Consider [enabling `MetricsPort`](#metricsport) to understand what is happening.
+
+## Tuning `sysctl` for network, memory and CPU load
+
+### TCP port exhaustion
+
+If you are experiencing TCP port exhaustion consider expanding your local port range.
+You can do that with
+
+‪`# sysctl -w net.ipv4.ip_local_port_range="15000 64000"`
+
 or
-```
-echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range
-```
+
+‪`# echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range`
+
+### DNS timeout
 
 If you are experiencing DNS timeout, you should investigate if this is a network or a resolver issue.
 
@@ -44,13 +52,16 @@ timeout:n
 ```
 Check ``$ man resolve.conf`` for more information.
 
-3\. Consider enabling ``MetricsPort`` to understand what is happening.
+## MetricsPort
+
+Consider enabling ``MetricsPort`` to understand what is happening.
 
 MetricsPort data for relays has been introduced since version >= 0.4.7.1-alpha,
 while the overload data has been added to the relay descriptors since 0.4.6+.
 
-It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users.
-Please take extra precaution and care when opening this port.
+It's important to understand that **exposing the tor MetricsPort publicly is dangerous for the Tor network users**.
+
+Please take extra precaution and care when opening this port, and close it when you are done debugging.
 Set a very strict access policy with ``MetricsPortPolicy`` and consider using your operating systems firewall features for defense in depth.
 
 Here is an example of what output enabling ``MetricsPort`` will produce:
@@ -126,9 +137,10 @@ tor_relay_load_global_rate_limit_reached_total{side="read"} 0
 tor_relay_load_global_rate_limit_reached_total{side="write"} 0
 ```
 
+
 Let's find out what some of these lines actually mean:
 
-```tor_relay_load_onionskins_total{type="ntor",action="dropped"} 0```
+### tor_relay_load_onionskins_total{type="ntor",action="dropped"} 0
 
 When a relay starts seeing "dropped", it is a CPU/RAM problem usually.
 
@@ -140,7 +152,7 @@ It can happen that this pool starts dropping work due to memory or CPU pressure 
 
 If your server is running at capacity this will likely be triggered.
 
-‪```tor_relay_exit_dns_error_total{...}```
+### ‪tor_relay_exit_dns_error_total{...}
 
 Any counter in the "*_dns_error_total" realm indicates a DNS problem.
 
@@ -148,14 +160,14 @@ DNS timeouts issues only apply to Exit nodes.
 If tor starts noticing DNS timeouts, you'll get the overload flag.
 This might not be because your relay is overloaded in terms of resources but it signals a problem on the network.
 
-DNS timeouts at the Exits are a _huge_ UX problem for tor users.
+[DNS timeouts](#dns-timeout) at the Exits are a _huge_ UX problem for tor users.
 Therefore Exit operators really need to address these issues to help the network.
 
-‪```tor_relay_load_oom_bytes_total{...}```
+### ‪tor_relay_load_oom_bytes_total{...}
 
 An Out-Of-Memory invocation indicates a RAM problem.
 The relay might need more RAM or it is leaking memory.
-If you noticed that the tor process is leaking memory, please report the issue via either [GitLab](https://gitlab.torproject.org) or send an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
+If you noticed that the tor process is leaking memory, please report the issue either via [Tor gitLab](https://gitlab.torproject.org) or sending an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 
 Tor has its own OOM handler and it is invoked when 75%, of the total memory tor thinks is available, is reached.
 Thus, let say tor thinks it can use 2GB in total then at 1.5GB of memory usage, it will start freeing memory.
@@ -181,23 +193,21 @@ One might notice that tor could be called by the OS OOM handler itself.
 Because tor takes the total memory on the system when it starts, if the overall system has many other applications running using RAM, it ends up eating too much memory.
 In this case the OS could OOM tor, without tor even noticing memory pressure.
 
-```
-tor_relay_load_socket_total
+### tor_relay_load_socket_total
 
+These lines indicate the relay is running out of sockets.
+The solution is to increase ``ulimit -n`` for the tor process.
 
-tor_relay_load_tcp_exhaustion_total
-```
+### tor_relay_load_tcp_exhaustion_total
 
-These lines indicate the relay is running out of sockets or TCP ports.
-If the issue is socket related the solution is to increase ``ulimit -n`` for the tor process
+These lines indicate the relay is running out of TCP ports.
 
-If the solution is related to TCP ports exhaustion try to tune ``sysctl`` as described above.
+Try to tune ``sysctl`` as [described above](#tcp-port-exhaustion).
 
-```
-tor_relay_load_global_rate_limit_reached_total
-```
-If this counter is incremented by some noticeable value over a short period of time then it indicates the relay is congested.
+### tor_relay_load_global_rate_limit_reached_total
+
+If this counter is incremented by some noticeable value over a short period of time, the relay is congested.
 It is likely being used as a Guard by a big onion service or for an ongoing DDoS on the network.
 
 If your relay is still overloaded and you don't know why, please get in touch with [network-report@torproject.org](mailto:network-report@torproject.org).
-You can encrypt your email using network-report [OpenPGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE).
+You can encrypt your email using [network-report OpenPGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/01F062062766826E8D1B71771F095787CFDBF2DE).
