@@ -19,6 +19,14 @@ When sending us feedback or reporting a bug, please include as many of these as 
 
 There are several ways to reach us, so please use what works best for you.
 
+#### Tor Forum
+
+We recommend asking for help on the [Tor Forum](https://forum.torproject.net).
+You will need to create an account to submit a new topic.
+Before you ask, please review our [discussion guidelines](https://forum.torproject.net/t/welcome-to-the-tor-project-forum/).
+At the moment, for the fastest response, please write in English.
+If you found a bug, please use GitLab.
+
 #### GitLab
 
 First, check if the bug is already known.
