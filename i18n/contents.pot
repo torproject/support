@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 15:31+CET\n"
+"POT-Creation-Date: 2021-10-30 12:55+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -10692,6 +10692,40 @@ msgstr ""
 #: (content/misc/bug-or-feedback/contents+en.lr:question.description)
 msgid ""
 "There are several ways to reach us, so please use what works best for you."
+msgstr ""
+
+#: https://support.torproject.org/misc/bug-or-feedback/
+#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
+msgid "#### Tor Forum"
+msgstr ""
+
+#: https://support.torproject.org/misc/bug-or-feedback/
+#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
+msgid ""
+"We recommend asking for help on the [Tor Forum](https://forum.torproject."
+"net)."
+msgstr ""
+
+#: https://support.torproject.org/misc/bug-or-feedback/
+#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
+msgid "You will need to create an account to submit a new topic."
+msgstr ""
+
+#: https://support.torproject.org/misc/bug-or-feedback/
+#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
+msgid ""
+"Before you ask, please review our [discussion guidelines](https://forum."
+"torproject.net/t/welcome-to-the-tor-project-forum/)."
+msgstr ""
+
+#: https://support.torproject.org/misc/bug-or-feedback/
+#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
+msgid "At the moment, for the fastest response, please write in English."
+msgstr ""
+
+#: https://support.torproject.org/misc/bug-or-feedback/
+#: (content/misc/bug-or-feedback/contents+en.lr:question.description)
+msgid "If you found a bug, please use GitLab."
 msgstr ""
 
 #: https://support.torproject.org/misc/bug-or-feedback/
