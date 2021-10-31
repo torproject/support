@@ -21,7 +21,7 @@ On Windows or Linux:
 On macOS:
 * The `torrc` is in the Tor Browser Data directory at `~/Library/Application Support/TorBrowser-Data/Tor`.
 * Note the Library folder is hidden on newer versions of macOS. To navigate to this folder in Finder, select "Go to Folder..." in the "Go" menu.
-* Then type "~/Library/Application Support/" in the window and click Go.
+* Then type `~/Library/Application Support/` in the window and click Go.
 
 Close Tor Browser before you edit your `torrc`, otherwise Tor Browser may erase your modifications.
 Some options will have no effect as Tor Browser overrides them with command line options when it starts Tor.
