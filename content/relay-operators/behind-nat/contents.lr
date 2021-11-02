@@ -7,7 +7,7 @@ description:
 See [portforward.com](https://portforward.com/) for directions on how to port forward with your NAT/router device.
 
 If your relay is running on a internal net, you need to setup port forwarding.
-Forwarding TCP connections is system dependent but the [firewalled-clients FAQ](/tbb/tbb-firewall-ports/) entry offers some examples on how to do this.
+Forwarding TCP connections is system dependent but the [firewalled-clients FAQ](../../tbb/tbb-firewall-ports/) entry offers some examples on how to do this.
 
 Also, here's an example of how you would do this on GNU/Linux if you're using iptables:
 

@@ -12,7 +12,7 @@ Some fans have suggested that we redesign Tor to include a [backdoor](../../abou
 There are two problems with this idea.
 First, it technically weakens the system too far.
 Having a central way to link users to their activities is a gaping hole for all sorts of attackers; and the policy mechanisms needed to ensure correct handling of this responsibility are enormous and unsolved.
-Second, the [bad people aren't going to get caught by this anyway](/abuse/what-about-criminals/), since they will use other means to ensure their anonymity (identity theft, compromising computers and using them as bounce points, etc).
+Second, the [bad people aren't going to get caught by this anyway](../what-about-criminals/), since they will use other means to ensure their anonymity (identity theft, compromising computers and using them as bounce points, etc).
 
 This ultimately means that it is the responsibility of site owners to protect themselves against compromise and security issues that can come from anywhere.
 This is just part of signing up for the benefits of the Internet.
