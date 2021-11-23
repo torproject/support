@@ -19,7 +19,7 @@ Here's how you can enable Tor Package Repository in Debian based distributions:
 The package repository offers `amd64`, `arm64`, and `i386` binaries. Verify your operating system is capable of running the binary by inspecting the output of the following commend:
 
   ```
-  ‪# dpkg --print-architecture
+  # dpkg --print-architecture
   ```
 
 It should output either `amd64`, `arm64`, or `i386`. The repository does not support other CPU architectures.
@@ -31,7 +31,7 @@ It should output either `amd64`, `arm64`, or `i386`. The repository does not sup
 To enable all package managers using the libapt-pkg library to access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure). 
 
    ```
-   ‪# apt install apt-transport-https
+   # apt install apt-transport-https
    ```
 
 #### 2. Create a new file in `/etc/apt/sources.list.d/` named `tor.list`. Add the following entries:
@@ -51,8 +51,8 @@ If you want to try experimental packages, add these **in addition** to the lines
 Or nightly builds:
 
    ```
-   deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main
-   deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-master-<DISTRIBUTION> main
+   deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-main-<DISTRIBUTION> main
+   deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-main-<DISTRIBUTION> main
    ```
 
 Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to check the Operating System version.
@@ -73,7 +73,7 @@ Warning symptom, when running sudo apt update:
 #### 3. Then add the gpg key used to sign the packages by running the following command at your command prompt:
 
    ```
-   ‪# wget -O- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null
+   # wget -O- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null
    ```
 
 #### 4. Install tor and tor debian keyring
@@ -81,6 +81,6 @@ Warning symptom, when running sudo apt update:
 We provide a Debian package to help you keep our signing key current. It is recommended you use it. Install it with the following commands:
 
    ```
-   ‪# apt update
-   ‪# apt install tor deb.torproject.org-keyring
+   # apt update
+   # apt install tor deb.torproject.org-keyring
    ```
