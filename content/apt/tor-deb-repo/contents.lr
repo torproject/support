@@ -60,9 +60,11 @@ Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -
 **Note:** Ubuntu Focal dropped support for 32-bit, so instead use:
 
    ```
-   deb     [arch=amd64 signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org focal main
-   deb-src [arch=amd64 signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org focal main
+   deb     [arch=<ARCHITECTURE> signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org focal main
+   deb-src [arch=<ARCHITECTURE> signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org focal main
    ```
+
+Replace `<ARCHITECTURE>` with your system architecture (you found it earlier by writing `dpkg --print-architecture`).
 
 Warning symptom, when running sudo apt update:
 
