@@ -4,9 +4,22 @@ title: How can I chat with Tor Project teams?
 ---
 description:
 
-Here is how you can get onto IRC and start to chat with Tor contributors in real time:
+For a long time, the Tor community has been running many day-to-day activities using the IRC network known as OFTC.
+IRC has worked out well for us, and our community on IRC has been evolving over the years with new people joining in and new channels appearing for specific needs in the organization.
+ 
+The Tor community is opening up its day-to-day conversations by bridging our IRC community the Matrix network.
+For regular Tor users, it means that you can chat with us using a friendly App like [Element](https://app.element.io).
+The [#tor:matrix.org](https://matrix.to/#/#tor:matrix.org) room or the #tor IRC channel are connected: whichever platform you chose, your message will be shared on both platforms.
 
-1. Enter in [OFTC](https://webchat.oftc.net/?channels=tor) webchat.
+To join the conversation with Tor contributors on Matrix, you need a Matrix account. Several providers can get you one.
+One of these is the Matrix.org Foundation, which allows people to register an account for free.
+You can register an account on [app.element.io](https://app.element.io).
+
+Once you have a Matrix account, you can either [join the Tor Matrix Space](https://matrix.to/#/#tor-space:matrix.org) to browse the Tor rooms, or directly join the [#tor:matrix.org user support](https://matrix.to/#/#tor:matrix.org) room.
+
+Alternatively, if you want to use IRC you can use OFTC's web IRC client:
+
+1. Open [OFTC webchat](https://webchat.oftc.net/?channels=tor)
 
 2. Fill in the blanks: 
 
@@ -16,7 +29,7 @@ Here is how you can get onto IRC and start to chat with Tor contributors in real
 
 3. Click Enter
 
-Congratulations! You're on IRC. 
+Congratulations! You're on IRC.
 
 After a few seconds, you will automatically enter #tor, which is a chatroom with Tor developers, relay operators and other community members. There are some random people in #tor as well.
 
