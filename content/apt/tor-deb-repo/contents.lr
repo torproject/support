@@ -75,7 +75,7 @@ Warning symptom, when running sudo apt update:
 #### 3. Then add the gpg key used to sign the packages by running the following command at your command prompt:
 
    ```
-   # wget -O- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null
+   # wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null
    ```
 
 #### 4. Install tor and tor debian keyring
