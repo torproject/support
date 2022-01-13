@@ -16,7 +16,7 @@ It is probably a false positive, but it might not be since it is possible for so
 
 Cookie hijacking is possible by either physical access to your computer or by watching your network traffic.
 In theory, only physical access should compromise your system because Gmail and similar services should only send the cookie over an SSL link.
-In practice, alas, it's [way more complex than that](https://fscked.org/blog/fully-automated-active-https-cookie-hijacking).
+In practice, alas, it's [way more complex than that](https://web.archive.org/web/20200404010719/https://fscked.org/blog/fully-automated-active-https-cookie-hijacking).
 
 And if somebody did steal your Google cookie, they might end up logging in from unusual places (though of course they also might not). So the summary is that since you're using Tor Browser, this security measure that Google uses isn't so useful for you, because it's full of false positives. You'll have to use other approaches, like seeing if anything looks weird on the account, or looking at the timestamps for recent logins and wondering if you actually logged in at those times.
 
