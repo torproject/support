@@ -8,5 +8,3 @@ description:
 Tor prevents eavesdroppers from learning sites that you visit.
 However, information sent unencrypted over the internet using plain HTTP can still be intercepted by exit relay operators or anyone observing the traffic between your exit relay and your destination website.
 If the site you are visiting uses HTTPS, then the traffic leaving your exit relay will be encrypted, and won't be visible to eavesdroppers.
-
-#### This visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption.
