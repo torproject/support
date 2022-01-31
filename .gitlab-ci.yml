@@ -1,4 +1,5 @@
 variables:
+  SITE_URL: support.torproject.org
   TRANSLATION_BRANCH: "support-portal"
 
 include:
