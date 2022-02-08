@@ -11,7 +11,7 @@ Further, the Tor client establishes an ephemeral encryption key with each relay 
 Both sides discard the circuit key when the circuit ends, so logging traffic and then breaking into the relay to discover the key won't work.
 
 **Authentication**: Every Tor relay has a public decryption key called the "onion key".
-Each relay rotates its onion key once a week.
+Each relay rotates its onion key every four weeks.
 When the Tor client establishes circuits, at each step it [demands that the Tor relay prove knowledge of its onion key](https://svn-archive.torproject.org/svn/projects/design-paper/tor-design.html#subsec:circuits).
 That way the first node in the path can't just spoof the rest of the path.
 Because the Tor client chooses the path, it can make sure to get Tor's "distributed trust" property: no single relay in the path can know about both the client and what the client is doing.
