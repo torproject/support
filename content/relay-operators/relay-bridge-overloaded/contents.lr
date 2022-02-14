@@ -39,7 +39,7 @@ or
 
 If you are experiencing DNS timeout, you should investigate if this is a network or a resolver issue.
 
-In Linux in `resolve.conf` there is an option to set a timeout:
+In Linux in `resolv.conf` there is an option to set a timeout:
 
 ```
 timeout:n
@@ -50,7 +50,7 @@ timeout:n
   Measured in seconds, the default is RES_TIMEOUT (currently 5, see <resolv.h>).
   The value for this option is silently capped to 30.
 ```
-Check ``$ man resolve.conf`` for more information.
+Check ``$ man resolv.conf`` for more information.
 
 ## MetricsPort
 
