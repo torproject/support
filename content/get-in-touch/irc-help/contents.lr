@@ -6,6 +6,8 @@ description:
 
 For a long time, the Tor community has been running many day-to-day activities using the IRC network known as OFTC.
 IRC has worked out well for us, and our community on IRC has been evolving over the years with new people joining in and new channels appearing for specific needs in the organization.
+
+### Matrix bridge
  
 The Tor community is opening up its day-to-day conversations by bridging our IRC community the Matrix network.
 For regular Tor users, it means that you can chat with us using a friendly App like [Element](https://app.element.io).
@@ -16,6 +18,8 @@ One of these is the Matrix.org Foundation, which allows people to register an ac
 You can register an account on [app.element.io](https://app.element.io).
 
 Once you have a Matrix account, you can either [join the Tor Matrix Space](https://matrix.to/#/#tor-space:matrix.org) to browse the Tor rooms, or directly join the [#tor:matrix.org user support](https://matrix.to/#/#tor:matrix.org) room.
+
+### OFTC IRC network
 
 Alternatively, if you want to use IRC you can use OFTC's web IRC client:
 
