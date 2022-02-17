@@ -24,4 +24,4 @@ It's important to note that bridges distributed by BridgeDB ([HTTPS](https://bri
 However, because it has a bandwidth limitation, this option will be quite slow.
 You can select meek-azure from Tor Browser's built-in bridges dropdown.
 
-If one of these options below is not working, check your [Tor logs](../../connecting/connecting-2/) and try another option.
+If one of these options above is not working, check your [Tor logs](../../connecting/connecting-2/) and try another option.
