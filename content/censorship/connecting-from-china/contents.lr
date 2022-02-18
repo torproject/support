@@ -8,7 +8,7 @@ key: 11
 ---
 description:
 Users in China need to take a few steps to circumvent the [Great Firewall](https://en.wikipedia.org/wiki/Great_Firewall) and connect to the Tor network.
-First, get an updated version of Tor Browser: send an email to [gettor@torproject.org](mailto:gettor@torproject.org) with the subject "windows zh-cn" or other operating system (linux or macos)
+First, get an updated version of Tor Browser: send an email to [gettor@torproject.org](mailto:gettor@torproject.org) with the subject "windows zh-cn" or other operating system (linux or macos).
 
 After installing Tor Browser, you will probably not be able to connect directly to the Tor network, because the Great Firewall is blocking Tor.
 Therefore, the second step will be to obtain a bridge that works in China.
