@@ -155,7 +155,7 @@ It can happen that this pool starts dropping work due to memory or CPU pressure 
 
 If your server is running at capacity this will likely be triggered.
 
-### tor_relay_exit_dns_error_total{...}
+‪### tor_relay_exit_dns_error_total{...}
 
 Any counter in the "*_dns_error_total" realm indicates a DNS problem.
 
@@ -166,7 +166,7 @@ This might not be because your relay is overloaded in terms of resources but it 
 [DNS timeouts](#dns-timeout) at the Exits are a _huge_ UX problem for tor users.
 Therefore Exit operators really need to address these issues to help the network.
 
-### tor_relay_load_oom_bytes_total{...}
+‪### tor_relay_load_oom_bytes_total{...}
 
 An Out-Of-Memory invocation indicates a RAM problem.
 The relay might need more RAM or it is leaking memory.
