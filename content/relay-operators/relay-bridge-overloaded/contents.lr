@@ -10,7 +10,6 @@ This means that one or many of the following load metrics have been triggered:
 - [Any Tor OOM invocation due to memory pressure](#tor-relay-load-oom-bytes-total..})
 - [Any ntor onionskins are dropped](#tor-relay-load-onionskins-total-type-ntor-action-dropped-0)
 - [TCP port exhaustion](#tcp-port-exhaustion)
-- [DNS timeout reached](#dns-timeout)
 
 Note that if a relay reaches an overloaded state we show it for 72 hours after the relay has recovered.
 
@@ -29,31 +28,14 @@ If you notice that your relay is overloaded please:
 If you are experiencing TCP port exhaustion consider expanding your local port range.
 You can do that with
 
-‪`# sysctl -w net.ipv4.ip_local_port_range="15000 64000"`
+`# sysctl -w net.ipv4.ip_local_port_range="15000 64000"`
 
 or
 
-‪`# echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range`
+`# echo 15000 64000 > /proc/sys/net/ipv4/ip_local_port_range`
 
 Keep in mind that tuning `sysctl` as described is not permanent and will be lost upon restart.
 You need to add the configuration to `/etc/sysctl.conf` or to a file in `/etc/sysctl.d/` to make it permanent.
-
-### DNS timeout (exit relays only)
-
-If you are experiencing DNS timeout, you should investigate if this is a network or a resolver issue.
-
-In Linux in `resolv.conf` there is an option to set a timeout:
-
-```
-timeout:n
-  Sets  the  amount of time the resolver will wait for a response from a remote
-  name server before retrying the query via a different name server.
-  This may not be the total time taken by any resolver API call and there is no guarantee
-  that a single resolver API call maps to a single timeout.
-  Measured in seconds, the default is RES_TIMEOUT (currently 5, see <resolv.h>).
-  The value for this option is silently capped to 30.
-```
-Check ``$ man resolv.conf`` for more information.
 
 ## MetricsPort
 
@@ -70,21 +52,21 @@ Set a very strict access policy with ``MetricsPortPolicy`` and consider using yo
 Here is an example of what output enabling ``MetricsPort`` will produce:
 
 ```
-‪# HELP tor_relay_load_onionskins_total Total number of onionskins handled
-‪# TYPE tor_relay_load_onionskins_total counter
+# HELP tor_relay_load_onionskins_total Total number of onionskins handled
+# TYPE tor_relay_load_onionskins_total counter
 tor_relay_load_onionskins_total{type="tap",action="processed"} 0
 tor_relay_load_onionskins_total{type="tap",action="dropped"} 0
 tor_relay_load_onionskins_total{type="fast",action="processed"} 0
 tor_relay_load_onionskins_total{type="fast",action="dropped"} 0
 tor_relay_load_onionskins_total{type="ntor",action="processed"} 0
 tor_relay_load_onionskins_total{type="ntor",action="dropped"} 0
-‪# HELP tor_relay_exit_dns_query_total Total number of DNS queries done by this relay
-‪# TYPE tor_relay_exit_dns_query_total counter
+# HELP tor_relay_exit_dns_query_total Total number of DNS queries done by this relay
+# TYPE tor_relay_exit_dns_query_total counter
 tor_relay_exit_dns_query_total{record="A"} 0
 tor_relay_exit_dns_query_total{record="PTR"} 0
 tor_relay_exit_dns_query_total{record="AAAA"} 0
-‪# HELP tor_relay_exit_dns_error_total Total number of DNS errors encountered by this relay
-‪# TYPE tor_relay_exit_dns_error_total counter
+# HELP tor_relay_exit_dns_error_total Total number of DNS errors encountered by this relay
+# TYPE tor_relay_exit_dns_error_total counter
 tor_relay_exit_dns_error_total{record="A",reason="success"} 0
 tor_relay_exit_dns_error_total{record="A",reason="format"} 0
 tor_relay_exit_dns_error_total{record="A",reason="serverfailed"} 0
@@ -93,7 +75,7 @@ tor_relay_exit_dns_error_total{record="A",reason="notimpl"} 0
 tor_relay_exit_dns_error_total{record="A",reason="refused"} 0
 tor_relay_exit_dns_error_total{record="A",reason="truncated"} 0
 tor_relay_exit_dns_error_total{record="A",reason="unknown"} 0
-tor_relay_exit_dns_error_total{record="A",reason="timeout"} 0
+tor_relay_exit_dns_error_total{record="A",reason="tor_timeout"} 0
 tor_relay_exit_dns_error_total{record="A",reason="shutdown"} 0
 tor_relay_exit_dns_error_total{record="A",reason="cancel"} 0
 tor_relay_exit_dns_error_total{record="A",reason="nodata"} 0
@@ -105,7 +87,7 @@ tor_relay_exit_dns_error_total{record="PTR",reason="notimpl"} 0
 tor_relay_exit_dns_error_total{record="PTR",reason="refused"} 0
 tor_relay_exit_dns_error_total{record="PTR",reason="truncated"} 0
 tor_relay_exit_dns_error_total{record="PTR",reason="unknown"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="timeout"} 0
+tor_relay_exit_dns_error_total{record="PTR",reason="tor_timeout"} 0
 tor_relay_exit_dns_error_total{record="PTR",reason="shutdown"} 0
 tor_relay_exit_dns_error_total{record="PTR",reason="cancel"} 0
 tor_relay_exit_dns_error_total{record="PTR",reason="nodata"} 0
@@ -117,29 +99,28 @@ tor_relay_exit_dns_error_total{record="AAAA",reason="notimpl"} 0
 tor_relay_exit_dns_error_total{record="AAAA",reason="refused"} 0
 tor_relay_exit_dns_error_total{record="AAAA",reason="truncated"} 0
 tor_relay_exit_dns_error_total{record="AAAA",reason="unknown"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="timeout"} 0
+tor_relay_exit_dns_error_total{record="AAAA",reason="tor_timeout"} 0
 tor_relay_exit_dns_error_total{record="AAAA",reason="shutdown"} 0
 tor_relay_exit_dns_error_total{record="AAAA",reason="cancel"} 0
 tor_relay_exit_dns_error_total{record="AAAA",reason="nodata"} 0
-‪# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out of TCP ports
-‪# TYPE tor_relay_load_tcp_exhaustion_total counter
+# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out of TCP ports
+# TYPE tor_relay_load_tcp_exhaustion_total counter
 tor_relay_load_tcp_exhaustion_total 0
-‪# HELP tor_relay_load_socket_total Total number of sockets
-‪# TYPE tor_relay_load_socket_total gauge
+# HELP tor_relay_load_socket_total Total number of sockets
+# TYPE tor_relay_load_socket_total gauge
 tor_relay_load_socket_total{state="opened"} 135
 tor_relay_load_socket_total 1048544
-‪# HELP tor_relay_load_oom_bytes_total Total number of bytes the OOM has freed by subsystem
-‪# TYPE tor_relay_load_oom_bytes_total counter
+# HELP tor_relay_load_oom_bytes_total Total number of bytes the OOM has freed by subsystem
+# TYPE tor_relay_load_oom_bytes_total counter
 tor_relay_load_oom_bytes_total{subsys="cell"} 0
 tor_relay_load_oom_bytes_total{subsys="dns"} 0
 tor_relay_load_oom_bytes_total{subsys="geoip"} 0
 tor_relay_load_oom_bytes_total{subsys="hsdir"} 0
-‪# HELP tor_relay_load_global_rate_limit_reached_total Total number of global connection bucket limit reached
-‪# TYPE tor_relay_load_global_rate_limit_reached_total counter
+# HELP tor_relay_load_global_rate_limit_reached_total Total number of global connection bucket limit reached
+# TYPE tor_relay_load_global_rate_limit_reached_total counter
 tor_relay_load_global_rate_limit_reached_total{side="read"} 0
 tor_relay_load_global_rate_limit_reached_total{side="write"} 0
 ```
-
 
 Let's find out what some of these lines actually mean:
 
@@ -155,18 +136,15 @@ It can happen that this pool starts dropping work due to memory or CPU pressure 
 
 If your server is running at capacity this will likely be triggered.
 
-‪### tor_relay_exit_dns_error_total{...}
+### tor_relay_exit_dns_error_total{...}
 
-Any counter in the "*_dns_error_total" realm indicates a DNS problem.
+Any counter in the "*_dns_error_total" realm indicates a potential DNS related problem.
+However, we realized during the 0.4.7 release cycle that DNS errors are way too noisy and contain too many false positives to be useful for overload reporting purposes.
+We therefore don't use them anymore for that purpose starting with 0.4.6.9 and 0.4.7.4-alpha. However, we still keep DNS metrics around to give the relay operator insight into what is going on with their relay.
 
-DNS timeouts issues only apply to Exit nodes.
-If tor starts noticing DNS timeouts, you'll get the overload flag.
-This might not be because your relay is overloaded in terms of resources but it signals a problem on the network.
+DNS timeout issues and errors only apply to Exit nodes.
 
-[DNS timeouts](#dns-timeout) at the Exits are a _huge_ UX problem for tor users.
-Therefore Exit operators really need to address these issues to help the network.
-
-‪### tor_relay_load_oom_bytes_total{...}
+### tor_relay_load_oom_bytes_total{...}
 
 An Out-Of-Memory invocation indicates a RAM problem.
 The relay might need more RAM or it is leaking memory.
