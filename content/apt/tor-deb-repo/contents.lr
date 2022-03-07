@@ -24,11 +24,11 @@ The package repository offers `amd64`, `arm64`, and `i386` binaries. Verify your
 
 It should output either `amd64`, `arm64`, or `i386`. The repository does not support other CPU architectures.
 
-> **Note on Raspbian:** The package repository does not offer 32-bit ARM architecture (`armhf`) images. You should either [build Tor from source](https://community.torproject.org/onion-services/setup/install/#installing-tor-from-source), or install the version Debian offers.
+> **Note on Raspbian:** The package repository does not offer 32-bit ARM architecture (`armhf`) images (yet). You should either install the version Debian offers (make sure to check out Debian backports, too, as that one has often a more up-to-date Tor package), or [build Tor from source](https://community.torproject.org/onion-services/setup/install/#installing-tor-from-source).
 
 #### 1. Install `apt-transport-https`
 
-To enable all package managers using the libapt-pkg library to access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure). 
+To enable all package managers using the libapt-pkg library to access metadata and packages available in sources accessible over https (Hypertext Transfer Protocol Secure).
 
    ```
    # apt install apt-transport-https
