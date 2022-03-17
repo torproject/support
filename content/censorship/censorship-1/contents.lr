@@ -11,4 +11,4 @@ Tor Browser can certainly help people access your website in places where it is 
 Most of the time, simply downloading the [Tor Browser](https://www.torproject.org/download) and then using it to navigate to the blocked site will allow access.
 In places where there is heavy censorship we have a number of censorship circumvention options available, including [pluggable transports](https://tb-manual.torproject.org/transports/).
 
-For more information, please see the [Tor Browser User Manual](https://tb-manual.torproject.org/) section on [censorship](https://tb-manual.torproject.org/circumvention/).
+For more information, please see the [Tor Browser User Manual section on censorship circumvention](https://tb-manual.torproject.org/circumvention/).
