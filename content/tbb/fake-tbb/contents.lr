@@ -14,3 +14,37 @@ After downloading, you can make sure that you have the official version of Tor B
 If you are not able to access our website, then visit [censorship section](../../censorship/gettor-1/) to get information about alternate way of downloading Tor Browser.
 
 You can report fake Tor Browsers on frontdesk@torproject.org
+
+## Bad/Impersonating Tor Browser
+
+This is a listing of known websites providing Bad/Impersonating Tor Browser
+
+|App Name|App ID|Platform|URL|
+|--------|------|--------|---|
+|t o r browser | browser brave &vert; hubpro.adblocker.browser|Android|https://play.google.com/store/apps/details?id=hubpro.adblocker.browser|
+|TorVPN|com.torvpn.free|Android|https://play.google.com/store/apps/details?id=com.torvpn.free|
+|TOR Browser Private Web|id1444388609|iOS|https://apps.apple.com/us/app/tor-browser-private-web/id1444388609|
+|TOR Browser Anonymous web +VPN|id1450809061|iOS|https://apps.apple.com/us/app/tor-browser-anonymous-web-vpn/id1450809061|
+|Tob|id1063151782|iOS|https://apps.apple.com/us/app/tob/id1063151782|
+|Onion TOR Browser + VPN|id1227411543|iOS|https://apps.apple.com/us/app/onion-tor-browser-vpn/id1227411543|
+|TOR –Powered Web Browser + VPN|id1373180215|iOS|https://apps.apple.com/us/app/tor-powered-web-browser-vpn/id1373180215|
+|VPN + TOR Browser Private Web|id961073150|iOS|https://apps.apple.com/us/app/vpn-tor-browser-private-web/id961073150|
+|TOR browser: Anonymous Web|id1463321661|iOS|https://apps.apple.com/us/app/tor-browser-anonymous-web/id1463321661|
+| .VPN゜ · · |id1460166404|iOS|https://apps.apple.com/app/id1460166404|
+|TOR Browser - Onion VPN|id1574277154|iOS|https://apps.apple.com/us/app/tor-browser-onion-vpn/id1574277154|
+|Tor Browser|N/A|Windows|https://tor-browser.softok.info/|
+|Tor Browser|N/A|Windows/macOS/Linux|http://tor.download-windows.org/|
+|Tor Browser|N/A|Windows|https://tor-browser-windows.browser.su/|
+|Tor Browser|N/A|Windows|http://tor-browser.org/|
+|Tor Browser|N/A|Windows|http://torproect.org/|
+
+## Good Information and/or (Seemingly) Unmodified Packages
+
+These are sites that look like they are providing good information and/or unmodified packages. We should get in contact with them and find a better way of supporting each other.
+
+* https://torrbrowser.ru/
+* https://torbrowser-free.ru/
+* https://alpinefile.ru/tor-browser.html
+* https://www.filehorse.com/download-tor-browser/
+* https://rainbowsky.ru/internet/tor-browser/
+* https://torify.me/download-tor-browser/download-tor-browser-for-windows.html
