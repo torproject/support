@@ -1,9 +1,10 @@
+---
 variables:
   SITE_URL: support.torproject.org
-  TRANSLATION_BRANCH: "support-portal"
+  TRANSLATION_BRANCH: support-portal
 
 include:
   - project: tpo/tpa/ci-templates
-    file: lektor.yml
-  - project: tpo/tpa/ci-templates
-    file: static-shim-deploy.yml
+    file:
+      - lektor.yml
+      - static-shim-deploy.yml
