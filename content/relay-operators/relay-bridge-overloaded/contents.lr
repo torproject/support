@@ -39,15 +39,42 @@ You need to add the configuration to `/etc/sysctl.conf` or to a file in `/etc/sy
 
 ## MetricsPort
 
-Consider enabling ``MetricsPort`` to understand what is happening.
+To understand the well-being of Tor relays and the Tor network it is vital to
+provide and have access to relay metrics. Relay overload information has been
+added to relay descriptors since 0.4.6+ but it was not until Tor >=
+0.4.7.1-alpha that an interface, the metrics port, to the underlying relay
+metrics was available.
 
-MetricsPort data for relays has been introduced since version >= 0.4.7.1-alpha,
-while the overload data has been added to the relay descriptors since 0.4.6+.
+### Enabling MetricsPort
 
-It's important to understand that **exposing the tor MetricsPort publicly is dangerous for the Tor network users**.
+Tor provides access to the metrics port via a torrc configuration option called
+``MetricsPort``.
 
-Please take extra precaution and care when opening this port, and close it when you are done debugging.
-Set a very strict access policy with ``MetricsPortPolicy`` and consider using your operating systems firewall features for defense in depth.
+It's important to understand that **exposing the tor MetricsPort publicly is
+dangerous for the Tor network users**, which is why that port is not enabled by
+default and its access has to be governed by an access policy. Please take
+extra precaution and care when opening this port, and close it when you are done
+debugging.
+
+Let's assume you are the only user on a server that runs a Tor relay. You can
+enable the metrics port with
+```
+MetricsPort 127.0.0.1:9035
+MetricsPortPolicy accept 127.0.0.1
+```
+in your torrc file and are then able to easily retrieve the metrics with
+
+‪`# curl http://127.0.0.1:9035/metrics`
+
+which are by default in a Prometheus format. **Note:** every user on that server
+will be able to access those relay metrics in the example above. In general, set
+a very strict access policy with ``MetricsPortPolicy`` and consider using your
+operating systems firewall features for defense in depth.
+
+For a more detailed explanation about ``MetricsPort`` and ``MetricsPortPolicy``
+see tor's man page.
+
+### MetricsPort output
 
 Here is an example of what output enabling ``MetricsPort`` will produce:
 
