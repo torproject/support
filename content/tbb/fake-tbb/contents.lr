@@ -47,3 +47,7 @@ The Tor Project does not support them, and suggests users to avoid using them.
 Contrarily to Tor Browser, they do not offer additional protections to fingerprinting, FPI (First Party Isolation), etc...
 
 Moreover, switching on and off the tunneling exposes you to many possible attacks, such as traffic/identity correlation and more...
+
+## TPO Wiki
+
+We also have a ["Bad Browsers" wiki page](https://gitlab.torproject.org/tpo/applications/tor-browser/-/wikis/Bad_TorBrowsers), which may have more in-depth information than this web page.
