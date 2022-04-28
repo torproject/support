@@ -5,4 +5,25 @@ title: How do I volunteer with Tor Project?
 seo_slug: volunteer-with-tor-project
 ---
 description:
-Please see our [community page](https://community.torproject.org) for how to get involved!
+
+A few things everyone can do now:
+
+1. Please consider [running a relay](https://community.torproject.org/relay/) to help the Tor network grow.
+1. Tell your friends! Get them to run relays. Get them to run [onion services](https://community.torproject.org/onion-services/). Get them to tell their friends.
+1. If you like Tor's goals, please take a moment to [donate](https://donate.torproject.org) to support further Tor development.
+We're also looking for more sponsors - if you know any companies, NGOs, agencies, or other organizations that want anonymity / privacy / communications security, let them know about us.
+1. We're looking for more [good examples of Tor users](https://community.torproject.org/user-research/persona/) and Tor use cases.
+If you use Tor for a scenario or purpose not yet described on that page, and you're comfortable sharing it with us, we'd love to hear from you.
+
+### Documentation
+
+1. Help [localize](https://community.torproject.org/localization/) the documentation into other languages.
+See [becoming a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/) if you want to help out.
+We especially need Arabic or Farsi translations, for the many Tor users in censored areas.
+
+### Advocacy
+
+1. The Tor community uses the [Tor Forum](https://forum.torproject.net), [IRC/Matrix](https://support.torproject.org/get-in-touch/irc-help/), and [public mailing lists](https://lists.torproject.org/cgi-bin/mailman/listinfo).
+1. Create a presentation that can be used for various user [group meetings](https://community.torproject.org/training/resources/) around the world.
+1. Create a poster around a theme, such as "Tor for Human Rights!".
+1. Spread the word about Tor at a symposium or conference and use these [Tor brochures](https://community.torproject.org/outreach/kit/) as conversation starter.
