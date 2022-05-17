@@ -54,7 +54,7 @@ If your relay is not marked Running by some directory authorities:
  * Are there more than 2 relays on its IPv4 address?
 
 Otherwise, check your relay's observed bandwidth and bandwidth rate (limit).
-Look up your relay on [Metrics](https://metrics.torproject.org/rs.html#search/).
+Look up your relay on [Metrics](https://metrics.torproject.org/rs.html#search).
 Then mouse over the bandwidth heading to see the observed bandwidth and relay bandwidth rate.
 
 Here is some more detail and some examples: [Drop in consensus weight](https://lists.torproject.org/pipermail/tor-relays/2016-November/010913.html) and [Rampup speed of Exit relay](https://lists.torproject.org/pipermail/tor-relays/2016-October/010784.html).
