@@ -16,7 +16,7 @@ Here's how you can enable Tor Package Repository in Debian based distributions:
 
 #### Prerequisite: Verify the CPU architecture
 
-The package repository offers `amd64`, `arm64`, and `i386` binaries. Verify your operating system is capable of running the binary by inspecting the output of the following commend:
+The package repository offers `amd64`, `arm64`, and `i386` binaries. Verify your operating system is capable of running the binary by inspecting the output of the following command:
 
   ```
   # dpkg --print-architecture
