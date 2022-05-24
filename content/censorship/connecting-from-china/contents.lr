@@ -18,7 +18,7 @@ There are three options to unblock Tor in China:
 1. **[Snowflake](../what-is-snowflake/):** uses ephemeral proxies to connect to the Tor network.
 It's available in Tor Browser.
 You can select Snowflake from Tor Browser's [built-in bridge dropdown](../how-can-i-use-snowflake/).
-1. **Private and unlisted obfs4 bridges:** contact our Telegram Bot [@GetBridgesBot](https://t.me/@GetBridgesBot) and type `/bridges`.
+1. **Private and unlisted obfs4 bridges:** contact our Telegram Bot [@GetBridgesBot](https://t.me/GetBridgesBot) and type `/bridges`.
 Or send an email to [frontdesk@torproject.org](mailto:frontdesk@torproject.org) with the phrase "private bridge" in the subject of the email.
 If you are tech-savvy, you can run your own [obfs4 bridge](https://community.torproject.org/relay/setup/bridge/) from outside China.
 Remember that bridges distributed by [BridgeDB](https://bridges.torproject.org), and built-in obfs4 bridges bundled in Tor Browser most likely won't work.
