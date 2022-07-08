@@ -14,24 +14,32 @@ Yes, `deb.torproject.org` is also served through via an Onion Service: http://ap
 To use Apt over Tor, the apt transport needs to be installed:
 
    ```
-   ‪# apt install apt-transport-tor
+   # apt install apt-transport-tor
    ```
 
 Then you need to add the following entries to `/etc/apt/sources.list` or a new file in `/etc/apt/sources.list.d/`:
 
    ```
    # For the stable version.
-   deb tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/torproject.org <DISTRIBUTION> main
+   deb [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/torproject.org <DISTRIBUTION> main
 
    # For the unstable version.
-   deb tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/torproject.org tor-nightly-master-<DISTRIBUTION> main
+   deb [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] tor://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/torproject.org tor-nightly-main-<DISTRIBUTION> main
    ```
 
 Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to check the Operating System version.
 
-Now refresh your sources and try to install tor again:
+### Add the gpg key used to sign the packages by running the following command at your command prompt:
 
    ```
-   ‪# apt update
-   ‪# apt install tor
+   # wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null
+   ```
+
+### Install tor and tor debian keyring
+
+Now refresh your sources and try to install tor and tor debian keyring:
+
+   ```
+   # apt update
+   # apt install tor deb.torproject.org-keyring
    ```
