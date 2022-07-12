@@ -41,7 +41,7 @@ To enable all package managers using the libapt-pkg library to access metadata a
    deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org <DISTRIBUTION> main
    ```
 
-If you want to try experimental packages, add these **in addition** to the lines from above (Note, use whatever is the current experimental version instead of 0.4.6.x from the example below):
+If you want to try experimental packages, add these **in addition** to the lines from above:
 
    ```
    deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-experimental-<DISTRIBUTION> main
