@@ -6,7 +6,7 @@ key: 50
 ---
 description:
 
-If you're using Tor Browser, you can set your proxy's address, port, and authentication information in the [Network Settings](https://tb-manual.torproject.org/running-tor-browser/).
+If you're using Tor Browser, you can set your proxy's address, port, and authentication information in the [Connection Settings](https://tb-manual.torproject.org/running-tor-browser/).
 
 If you're using Tor another way, you can set the proxy information in your torrc file. Check out the `HTTPSProxy` config option in the [manual page](https://2019.www.torproject.org/docs/tor-manual.html.en#HTTPSProxy). If your proxy requires authentication, see the `HTTPSProxyAuthenticator` option. Example with authentication:
 
