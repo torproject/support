@@ -21,6 +21,6 @@ There's also a good chance a new add-on will increase the attack surface of Tor 
 This may allow sensitive data to be leaked or allow an attacker to infect Tor Browser.
 The add-on itself could even be maliciously designed to spy on you.
 
-Tor Browser already comes installed with two add-ons — [HTTPS Everywhere](https://www.eff.org/https-everywhere) and [NoScript](https://noscript.net) — and adding anything else could deanonymize you.
+Tor Browser already comes installed with one add-on — [NoScript](https://noscript.net) — and adding anything else could deanonymize you.
 
 Want to learn more about browser fingerprinting? Here's an [article](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead) on The Tor Blog all about it.

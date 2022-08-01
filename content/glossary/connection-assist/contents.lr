@@ -1,0 +1,12 @@
+_model: word
+---
+term: connection-assist
+---
+definition:
+
+A feature in Tor Browser that when required will offer to automatically apply the bridge configuration which works best in the user's location.
+
+---
+translation:
+---
+spelling:

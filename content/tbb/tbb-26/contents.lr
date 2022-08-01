@@ -7,5 +7,8 @@ seo_slug: problem-with-https-everywhere
 key: 51
 ---
 description:
+
 Please see the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq).
-If you believe this is a Tor Browser issue, please report it on our [issue tracker](https://gitlab.torproject.org/groups/tpo/-/issues).
+If you believe this is a Tor Browser for Android issue, please report it on our [issue tracker](https://gitlab.torproject.org/tpo/applications/fenix/-/issues).
+
+Since [Tor Browser 11.5](https://blog.torproject.org/new-release-tor-browser-115/), [HTTPS-Only Mode](https://tb-manual.torproject.org/secure-connections/#https-only-mode-in-tor-browser) is enabled by default for desktop, and HTTPS Everywhere is no longer bundled with Tor Browser.
