@@ -5,7 +5,9 @@ term: HTTPS Everywhere
 definition:
 
 HTTPS Everywhere is a [Firefox](../firefox), Chrome, and Opera [extension](../add-on-extension-or-plugin) that makes [HTTPS](../https) the default on websites that have set up HTTPS but have not made it the default.
-HTTPS Everywhere is installed in [Tor Browser](../tor-browser).
+HTTPS Everywhere is installed in Tor Browser for Android.
+
+Since Tor Browser 11.5, HTTPS-Only Mode is enabled by default for desktop, and HTTPS Everywhere is no longer bundled with Tor Browser.
 ---
 translation: 
 ---

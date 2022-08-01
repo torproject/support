@@ -1,0 +1,16 @@
+_model: word
+---
+term: bridge-moji
+---
+definition:
+
+A short, four emoji visualization which can be used to identify the right bridge address at a glance.
+
+Bridge-mojis are **human-readable bridge identifiers** and do **not** represent the quality of connection to the Tor network or the state of the bridge.
+
+The string of emoji characters **cannot be used as input**. Users are required to provide the complete bridge address to be able to connect with a bridge.
+
+---
+translation: 
+---
+spelling: 

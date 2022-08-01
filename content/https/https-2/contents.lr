@@ -9,4 +9,4 @@ The short answer is: **Yes, you can browse normal HTTPS sites using Tor.**
 
 HTTPS Connections are used to secure communications over computer networks.
 You can [read more about HTTPS here](https://tb-manual.torproject.org/secure-connections/).
-Tor Browser has the [HTTPS Everywhere](https://www.eff.org/https-everywhere) plugin which automatically switches thousands of sites from unencrypted "HTTP" to more private "HTTPS".
+Tor Browser's [HTTPS-Only mode](https://tb-manual.torproject.org/secure-connections/#https-only-mode-in-tor-browser) automatically switches thousands of sites from unencrypted "HTTP" to more private "HTTPS".
