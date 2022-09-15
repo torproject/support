@@ -10,6 +10,8 @@ Keeping backups of the identity keys so you can restore a relay in the future is
 This means that if you're upgrading your Tor relay and you keep the same torrc and the same DataDirectory, then the upgrade should just work and your relay will keep using the same key.
 If you need to pick a new DataDirectory, be sure to copy your old keys/ed25519_master_id_secret_key and keys/secret_id_key over.
 
+If you are a bridge operator, also make sure to copy pt_state/. It contains data required for your bridge to keep working with the same bridge line.
+
 Note: As of Tor 0.2.7 we are using new generation identities for relays based on ed25519 elliptic curve cryptography.
 Eventually they will replace the old RSA identities, but that will happen in time, to ensure compatibility with older versions.
 Until then, each relay will have both an ed25519 identity (identity key file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key file: keys/secret_id_key).
