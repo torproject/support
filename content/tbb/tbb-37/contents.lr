@@ -7,6 +7,48 @@ seo_slug: need-tor-browser-language-not-english
 key: 7
 ---
 description:
-We want everyone to be able to enjoy Tor Browser in their own language. Tor Browser is now [available in 36 different languages](https://www.torproject.org/download/languages/), and we are working to add more. Want to help us translate? [Become a Tor translator!](https://community.torproject.org/localization/becoming-tor-translator/)
+We want everyone to be able to enjoy Tor Browser in their own language. Tor Browser is now available in 35 different languages, and we are working to add more.
+
+Our current list of supported languages is:
+
+| Language |
+| -------- |
+| ﻉﺮﺒﻳﺓ (ar) |
+| Català (ca) |
+| česky (cs) |
+| Dansk (da) |
+| Deutsch (de) |
+| Ελληνικά (el) |
+| English (en) |
+| Español (es) |
+| ﻑﺍﺮﺴﯾ (fa) |
+| Français (fr) |
+| Gaeilge (ga-IE) |
+| עברית (he) |
+| Magyar nyelv (hu) |
+| Indonesia (id) |
+| Islenska (is) |
+| Italiano (it) |
+| 日本語 (ja) |
+| ქართული (ka) |
+| 한국어 (ko) |
+| lietuvių kalba (lt) |
+| македонски (mk) |
+| ﺐﻫﺎﺳ ﻡﻼﻳﻭ (ms) |
+| မြမစ (my)m ) |
+| Norsk Bokmål (nb-NO) |
+| Nederlands (nl) |
+| Polszczyzna (pl) |
+| Português Brasil(pt-BR) |
+| Română (ro) |
+| Русский (ru) |
+| Svenska (sv-SE) |
+| ภาษาไทย (th) |
+| Türkçe (tr) |
+| Tiếng Việt (vi) |
+| 简体中文 (zh-CN) |
+| 正體字 (zh-TW) |
+
+Want to help us translate? [Become a Tor translator!](https://community.torproject.org/localization/becoming-tor-translator/)
 
 You can also help us in testing the next languages we will release, by installing and testing [Tor Browser Alpha releases](https://www.torproject.org/download/alpha/).
