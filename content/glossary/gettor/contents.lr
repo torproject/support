@@ -4,9 +4,11 @@ term: GetTor
 ---
 definition:
 
-It is a service that automatically responds to messages (Email, XMPP, Twitter) with links to the latest version of [Tor Browser](../tor-browser), hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+GetTor is a service that automatically responds to messages (Email, Telegram) with links to the latest version of [Tor Browser](../tor-browser), hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
 ---
 translation: 
+Do not translate.
 ---
 spelling: 
+The second `T`is capitalized when possible: GetTor.

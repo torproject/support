@@ -7,6 +7,6 @@ definition:
 A standardized Internet domain name used by onion services that end in .onion and is designed to be [self-authenticating](../self-authenticating-address).
 
 ---
-translation: Can be partially or totally translated, i.e. for Spanish 'dirección cebolla' or 'dirección onion'.
+translation: Can be partially or totally translated, i.e. for Spanish 'dirección cebolla' or 'dirección onion'. But be careful when translating, because the actual onion addresses finish with .onion, in English.
 ---
 spelling:
