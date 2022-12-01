@@ -9,9 +9,9 @@ RewriteRule ^(es-ES|es-MX|es-CO)(.*) /es$2 [R=302,L]
 
 # we have only one translation for this locales
 RewriteRule ^(bn-BD|bn-IN)(.*) /bn$2 [R=302,L]
-RewriteRule ^ga-IE/(.*) /ga$1 [R=302,L]
+RewriteRule ^ga-IE(.*) /ga$1 [R=302,L]
 
 # Rewrites for languages that have a Tor Browser release
 # but don't have a support page
 # this languages are the translation priority for the support portal!
-RewriteRule ^(ar|cs|da|el|fa|he|hu|is|ja|ka|ko|ml|ms|mk|nb-NO|nl|pl|sv-SE|vi|zh-TW)/(.*) /$2 [R=302,L]
+RewriteRule ^(ar|cs|da|el|fa|he|hu|is|ja|ka|ko|ml|ms|mk|nb-NO|nl|pl|sq|sv-SE|vi|zh-TW)/(.*) /$2 [R=302,L]
