@@ -19,7 +19,7 @@ Because the Tor client chooses the path, it can make sure to get Tor's "distribu
 **Coordination**: How do clients know what the relays are, and how do they know that they have the right keys for them?
 Each relay has a long-term public signing key called the "identity key".
 Each directory authority additionally has a "directory signing key".
-The directory authorities [provide a signed list](https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt) of all the known relays, and in that list are a set of certificates from each relay (self-signed by their identity key) specifying their keys, locations, exit policies, and so on.
+The directory authorities [provide a signed list](https://spec.torproject.org/dir-spec) of all the known relays, and in that list are a set of certificates from each relay (self-signed by their identity key) specifying their keys, locations, exit policies, and so on.
 So unless the adversary can control a majority of the directory authorities (as of 2021 there are 10 directory authorities), they can't trick the Tor client into using other Tor relays.
 
 ### How do clients know what the directory authorities are?
