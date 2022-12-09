@@ -70,9 +70,217 @@ For a more detailed explanation about ``MetricsPort`` and ``MetricsPortPolicy`` 
 
 ### MetricsPort output
 
-Here is an example of what output enabling ``MetricsPort`` will produce:
+Here is an example of what output enabling ``MetricsPort`` will produce (we omitted any congestion control related metrics as we still need to stabilize that interface):
 
 ```
+# HELP tor_relay_connections Total number of opened connections
+# TYPE tor_relay_connections gauge
+tor_relay_connections{type="OR listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="OR listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="OR listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="OR listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="OR",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="OR",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="OR",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="OR",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Exit",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Exit",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Exit",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Exit",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Socks listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Socks listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Socks listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Socks listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Socks",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Socks",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Socks",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Socks",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Directory listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Directory listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Directory listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Directory listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Directory",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Directory",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Directory",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Directory",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Control listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Control listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Control listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Control listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Control",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Control",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Control",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Control",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Transparent pf/netfilter listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Transparent pf/netfilter listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Transparent pf/netfilter listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Transparent pf/netfilter listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Transparent natd listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Transparent natd listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Transparent natd listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Transparent natd listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="DNS listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="DNS listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="DNS listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="DNS listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Extended OR",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Extended OR",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Extended OR",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Extended OR",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Extended OR listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Extended OR listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Extended OR listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Extended OR listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="HTTP tunnel listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="HTTP tunnel listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="HTTP tunnel listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="HTTP tunnel listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Metrics listener",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Metrics listener",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Metrics listener",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Metrics listener",direction="received",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Metrics",direction="initiated",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Metrics",direction="initiated",state="opened",family="ipv6"} 0
+tor_relay_connections{type="Metrics",direction="received",state="opened",family="ipv4"} 0
+tor_relay_connections{type="Metrics",direction="received",state="opened",family="ipv6"} 0
+# HELP tor_relay_connections_total Total number of created/rejected connections
+# TYPE tor_relay_connections_total counter
+tor_relay_connections_total{type="OR listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="OR listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="OR listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="OR listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="OR listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="OR listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="OR",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="OR",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="OR",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="OR",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="OR",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="OR",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Exit",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Exit",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Exit",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Exit",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Exit",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Exit",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Socks listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Socks listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Socks listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Socks listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Socks listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Socks listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Socks",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Socks",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Socks",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Socks",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Socks",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Socks",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Directory listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Directory listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Directory listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Directory listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Directory listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Directory listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Directory",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Directory",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Directory",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Directory",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Directory",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Directory",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Control listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Control listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Control listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Control listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Control listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Control listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Control",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Control",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Control",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Control",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Control",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Control",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Transparent pf/netfilter listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Transparent pf/netfilter listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Transparent pf/netfilter listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Transparent pf/netfilter listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Transparent pf/netfilter listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Transparent pf/netfilter listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Transparent natd listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Transparent natd listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Transparent natd listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Transparent natd listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Transparent natd listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Transparent natd listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="DNS listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="DNS listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="DNS listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="DNS listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="DNS listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="DNS listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Extended OR",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Extended OR",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Extended OR",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Extended OR",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Extended OR",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Extended OR",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Extended OR listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Extended OR listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Extended OR listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Extended OR listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Extended OR listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Extended OR listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="HTTP tunnel listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="HTTP tunnel listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="HTTP tunnel listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="HTTP tunnel listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="HTTP tunnel listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="HTTP tunnel listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Metrics listener",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Metrics listener",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Metrics listener",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Metrics listener",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Metrics listener",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Metrics listener",direction="received",state="rejected",family="ipv6"} 0
+tor_relay_connections_total{type="Metrics",direction="initiated",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Metrics",direction="initiated",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Metrics",direction="received",state="created",family="ipv4"} 0
+tor_relay_connections_total{type="Metrics",direction="received",state="created",family="ipv6"} 0
+tor_relay_connections_total{type="Metrics",direction="received",state="rejected",family="ipv4"} 0
+tor_relay_connections_total{type="Metrics",direction="received",state="rejected",family="ipv6"} 0
+# HELP tor_relay_flag Relay flags from consensus
+# TYPE tor_relay_flag gauge
+tor_relay_flag{type="Fast"} 0
+tor_relay_flag{type="Exit"} 0
+tor_relay_flag{type="Authority"} 0
+tor_relay_flag{type="Stable"} 0
+tor_relay_flag{type="HSDir"} 0
+tor_relay_flag{type="Running"} 0
+tor_relay_flag{type="V2Dir"} 0
+tor_relay_flag{type="Sybil"} 0
+tor_relay_flag{type="Guard"} 0
+# HELP tor_relay_circuits_total Total number of circuits
+# TYPE tor_relay_circuits_total gauge
+tor_relay_circuits_total{state="opened"} 0
+# HELP tor_relay_streams_total Total number of streams
+# TYPE tor_relay_streams_total counter
+tor_relay_streams_total{type="BEGIN"} 0
+tor_relay_streams_total{type="BEGIN_DIR"} 0
+tor_relay_streams_total{type="RESOLVE"} 0
+# HELP tor_relay_traffic_bytes Traffic related counters
+# TYPE tor_relay_traffic_bytes counter
+tor_relay_traffic_bytes{direction="read"} 0
+tor_relay_traffic_bytes{direction="written"} 0
+# HELP tor_relay_dos_total Denial of Service defenses related counters
+# TYPE tor_relay_dos_total counter
+tor_relay_dos_total{type="circuit_rejected"} 0
+tor_relay_dos_total{type="circuit_killed_max_cell"} 0
+tor_relay_dos_total{type="circuit_killed_max_cell_outq"} 0
+tor_relay_dos_total{type="marked_address"} 0
+tor_relay_dos_total{type="marked_address_maxq"} 0
+tor_relay_dos_total{type="conn_rejected"} 0
+tor_relay_dos_total{type="concurrent_conn_rejected"} 0
+tor_relay_dos_total{type="single_hop_refused"} 0
+tor_relay_dos_total{type="introduce2_rejected"} 0
 # HELP tor_relay_load_onionskins_total Total number of onionskins handled
 # TYPE tor_relay_load_onionskins_total counter
 tor_relay_load_onionskins_total{type="tap",action="processed"} 0
@@ -81,62 +289,38 @@ tor_relay_load_onionskins_total{type="fast",action="processed"} 0
 tor_relay_load_onionskins_total{type="fast",action="dropped"} 0
 tor_relay_load_onionskins_total{type="ntor",action="processed"} 0
 tor_relay_load_onionskins_total{type="ntor",action="dropped"} 0
+tor_relay_load_onionskins_total{type="ntor_v3",action="processed"} 0
+tor_relay_load_onionskins_total{type="ntor_v3",action="dropped"} 0
 # HELP tor_relay_exit_dns_query_total Total number of DNS queries done by this relay
 # TYPE tor_relay_exit_dns_query_total counter
-tor_relay_exit_dns_query_total{record="A"} 0
-tor_relay_exit_dns_query_total{record="PTR"} 0
-tor_relay_exit_dns_query_total{record="AAAA"} 0
+tor_relay_exit_dns_query_total 0
 # HELP tor_relay_exit_dns_error_total Total number of DNS errors encountered by this relay
 # TYPE tor_relay_exit_dns_error_total counter
-tor_relay_exit_dns_error_total{record="A",reason="success"} 0
-tor_relay_exit_dns_error_total{record="A",reason="format"} 0
-tor_relay_exit_dns_error_total{record="A",reason="serverfailed"} 0
-tor_relay_exit_dns_error_total{record="A",reason="notexist"} 0
-tor_relay_exit_dns_error_total{record="A",reason="notimpl"} 0
-tor_relay_exit_dns_error_total{record="A",reason="refused"} 0
-tor_relay_exit_dns_error_total{record="A",reason="truncated"} 0
-tor_relay_exit_dns_error_total{record="A",reason="unknown"} 0
-tor_relay_exit_dns_error_total{record="A",reason="tor_timeout"} 0
-tor_relay_exit_dns_error_total{record="A",reason="shutdown"} 0
-tor_relay_exit_dns_error_total{record="A",reason="cancel"} 0
-tor_relay_exit_dns_error_total{record="A",reason="nodata"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="success"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="format"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="serverfailed"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="notexist"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="notimpl"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="refused"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="truncated"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="unknown"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="tor_timeout"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="shutdown"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="cancel"} 0
-tor_relay_exit_dns_error_total{record="PTR",reason="nodata"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="success"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="format"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="serverfailed"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="notexist"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="notimpl"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="refused"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="truncated"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="unknown"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="tor_timeout"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="shutdown"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="cancel"} 0
-tor_relay_exit_dns_error_total{record="AAAA",reason="nodata"} 0
-# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out of TCP ports
-# TYPE tor_relay_load_tcp_exhaustion_total counter
-tor_relay_load_tcp_exhaustion_total 0
-# HELP tor_relay_load_socket_total Total number of sockets
-# TYPE tor_relay_load_socket_total gauge
-tor_relay_load_socket_total{state="opened"} 135
-tor_relay_load_socket_total 1048544
+tor_relay_exit_dns_error_total{reason="success"} 0
+tor_relay_exit_dns_error_total{reason="format"} 0
+tor_relay_exit_dns_error_total{reason="serverfailed"} 0
+tor_relay_exit_dns_error_total{reason="notexist"} 0
+tor_relay_exit_dns_error_total{reason="notimpl"} 0
+tor_relay_exit_dns_error_total{reason="refused"} 0
+tor_relay_exit_dns_error_total{reason="truncated"} 0
+tor_relay_exit_dns_error_total{reason="unknown"} 0
+tor_relay_exit_dns_error_total{reason="tor_timeout"} 0
+tor_relay_exit_dns_error_total{reason="shutdown"} 0
+tor_relay_exit_dns_error_total{reason="cancel"} 0
+tor_relay_exit_dns_error_total{reason="nodata"} 0
 # HELP tor_relay_load_oom_bytes_total Total number of bytes the OOM has freed by subsystem
 # TYPE tor_relay_load_oom_bytes_total counter
 tor_relay_load_oom_bytes_total{subsys="cell"} 0
 tor_relay_load_oom_bytes_total{subsys="dns"} 0
 tor_relay_load_oom_bytes_total{subsys="geoip"} 0
 tor_relay_load_oom_bytes_total{subsys="hsdir"} 0
+# HELP tor_relay_load_socket_total Total number of sockets
+# TYPE tor_relay_load_socket_total gauge
+tor_relay_load_socket_total{state="opened"} 0
+tor_relay_load_socket_total 0
+# HELP tor_relay_load_tcp_exhaustion_total Total number of times we ran out of TCP ports
+# TYPE tor_relay_load_tcp_exhaustion_total counter
+tor_relay_load_tcp_exhaustion_total 0
 # HELP tor_relay_load_global_rate_limit_reached_total Total number of global connection bucket limit reached
 # TYPE tor_relay_load_global_rate_limit_reached_total counter
 tor_relay_load_global_rate_limit_reached_total{side="read"} 0
@@ -157,9 +341,12 @@ It can happen that this pool starts dropping work due to memory or CPU pressure 
 
 If your server is running at capacity this will likely be triggered.
 
+The ntor and ntor_v3 values will be the same at the moment which is a [bug we
+need to fix](https://gitlab.torproject.org/tpo/core/tor/-/issues/40638).
+
 ### tor_relay_exit_dns_error_total{...}
 
-Any counter in the "*_dns_error_total" realm indicates a potential DNS related problem.
+Any counter in the "*_dns_error_total" realm (apart from the one for successful queries) indicates a potential DNS related problem.
 However, we realized during the 0.4.7 release cycle that DNS errors are way too noisy and contain too many false positives to be useful for overload reporting purposes.
 We therefore don't use them anymore for that purpose starting with 0.4.6.9 and 0.4.7.4-alpha. However, we still keep DNS metrics around to give the relay operator insight into what is going on with their relay.
 
@@ -197,7 +384,7 @@ In this case the OS could OOM tor, without tor even noticing memory pressure.
 
 ### tor_relay_load_socket_total
 
-These lines indicate the relay is running out of sockets.
+If the number of opened sockets is close to or the same as total sockets available then this indicates the relay is running out of sockets.
 The solution is to increase ``ulimit -n`` for the tor process.
 
 ### tor_relay_load_tcp_exhaustion_total
