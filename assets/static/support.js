@@ -1,3 +1,14 @@
+$('.side-nav').click(function(){
+  if ($('.side-nav.active').length > 0) {
+    $('.side-nav.active').removeClass('active')
+  }
+  $(this).addClass('active');
+});
+
+if($('.show').length !== 1 ) {
+  $('.show').collapse();
+}
+
 // Coming from search result page click
 if(window.location.hash !== "") {
   // Somehow collapse is not working sync and calling show directly after
