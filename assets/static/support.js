@@ -17,6 +17,6 @@ if(window.location.hash !== "") {
     // Folds out the answer manually
     $(window.location.hash).collapse('show')
     // Avoids the answer being hidden by the floating header
-    window.scrollTo(0, $(window.location.hash).position().top)
+    window.scrollTo(0, $(window.location.hash).parent().offset().top)
   }, 500)
 }
