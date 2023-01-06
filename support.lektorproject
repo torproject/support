@@ -30,6 +30,11 @@ name = Español
 url_prefix = /es/
 locale = es
 
+[alternatives.fa]
+name = فارسی (fa)
+url_prefix = /fa/
+locale = fa
+
 [alternatives.fr]
 name = Français
 url_prefix = /fr/
@@ -50,10 +55,20 @@ name = Italiano (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ko]
+name = 한국어 (ko)
+url_prefix = /ko/
+locale = ko
+
 [alternatives.pt-BR]
 name = Português Br. (pt-BR)
 url_prefix = /pt-BR/
 locale = pt-BR
+
+[alternatives.ro]
+name = Română (ro)
+url_prefix = /ro/
+locale = ro
 
 [alternatives.ru]
 name = Русский (ru)

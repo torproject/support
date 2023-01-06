@@ -14,4 +14,4 @@ RewriteRule ^ga-IE(.*) /ga$1 [R=302,L]
 # Rewrites for languages that have a Tor Browser release
 # but don't have a support page
 # this languages are the translation priority for the support portal!
-RewriteRule ^(ar|cs|da|el|fa|he|hu|is|ja|ka|ko|ml|ms|mk|nb-NO|nl|pl|sq|sv-SE|vi|zh-TW)/(.*) /$2 [R=302,L]
+RewriteRule ^(ar|cs|da|el|he|hu|is|ja|ka|ml|ms|mk|nb-NO|nl|pl|sq|sv-SE|vi|zh-TW)/(.*) /$2 [R=302,L]
