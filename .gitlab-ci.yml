@@ -1,5 +1,6 @@
 ---
 variables:
+  LEKTOR_BUILD_FLAGS: scss
   SITE_URL: support.torproject.org
   STAGING_URL: support.staging.torproject.net
   TRANSLATION_BRANCH: support-portal
