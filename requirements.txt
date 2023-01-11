@@ -1,1 +1,2 @@
 ./lego/packages/i18n
+./packages/lektor-scss
