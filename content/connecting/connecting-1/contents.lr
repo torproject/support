@@ -7,4 +7,4 @@ seo_slug: tor-browser-wont-connect
 description: 
 One of the most common issues that causes connection errors in Tor Browser is an incorrect system clock.
 Please make sure your system clock and timezone are set accurately.
-If this doesn't fix the problem, see the Troubleshooting page on the [Tor Browser manual](https://tb-manual.torproject.org/en-US/troubleshooting).
+If this doesn't fix the problem, see the [Troubleshooting page on the Tor Browser manual](https://tb-manual.torproject.org/troubleshooting).
