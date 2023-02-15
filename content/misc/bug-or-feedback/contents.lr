@@ -78,18 +78,19 @@ For feedback on content related to Tor Browser Manual or Support website: [tor-c
 
 ### Report a security issue
 
-If you've found a security issue in one of our projects or in our infrastructure, please email tor-security@lists.torproject.org.
-If you've found a security bug in Tor or Tor Browser, feel free to submit it for our [bug bounty program](https://hackerone.com/torproject).
-If you want to encrypt your mail, you can get the GPG public key for the list by contacting tor-security-sendkey@lists.torproject.org or from pool.sks-keyservers.net. Here is the fingerprint:
+If you've found a security issue, please email security@torproject.org.
+
+If you want to encrypt your mail, you can get the OpenPGP public key for this address from [keys.openpgp.org](https://keys.openpgp.org/search?q=security%40torproject.org). Here is the current fingerprint:
 
 ```
-  gpg --fingerprint tor-security@lists.torproject.org
-  pub 4096R/1A7BF184 2017-03-13
-  Key fingerprint = 8B90 4624 C5A2 8654 E453 9BC2 E135 A8B4 1A7B F184
-  uid tor-security@lists.torproject.org
-  uid tor-security@lists.torproject.org
-  uid tor-security@lists.torproject.org
-  sub 4096R/C00942E4 2017-03-13
+  pub   rsa3072/0x3EF9EF996604DE41 2022-11-15 [SC] [expires: 2024-12-11]
+      Key fingerprint = 835B 4E04 F6F7 4211 04C4  751A 3EF9 EF99 6604 DE41
+  uid Tor Security Contact <security@torproject.org>
+  sub   rsa3072/0xF59EF1669B798C36 2022-11-15 [E] [expires: 2024-12-11]
+      Key fingerprint = A16B 0707 8A47 E0E1 E5B2  8879 F59E F166 9B79 8C36
 ```
+
+If you wish to participate in our [bug bounty program](https://hackerone.com/torproject), please be aware, submitting a security issue to a third-party website carries certain risks that we cannot control, as a result we'd prefer the report directly.
+
 ---
 seo_slug: bug-or-feedback
