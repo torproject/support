@@ -1,7 +1,0 @@
-_model: redirect
----
-target: ../../tbb/website-blocking-tor/
----
-_discoverable: no
----
-key: 26
