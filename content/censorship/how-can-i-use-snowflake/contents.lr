@@ -11,10 +11,11 @@ Snowflake is available in [Tor Browser](https://www.torproject.org/download/) st
 You can also use Snowflake with [Onion Browser](https://apps.apple.com/us/app/onion-browser/id519296448) on iOS.
 
 If you're running Tor Browser for desktop for the first time, you can click on 'Configure Connection' on the start-up screen.
-Under the "Bridges" section, locate the option "Choose from Tor Browser's one of built-in bridges" and click on "Select a Built-In Bridge" option.
+Under the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on "Select a Built-In Bridge" option.
 From the menu, select 'Snowflake'.
 Once you've selected Snowflake, scroll up and click 'Connect' to save your settings.
 
 From within the browser, you can click on the [hamburger menu ("≡")](../../glossary/hamburger-menu/), then go to 'Settings' and go to 'Connection'.
-Alternatively, you can also type `about:preferences#connection` in the URL bar. In the "Bridges" section, locate the option "Choose from Tor Browser's one of built-in bridges" and click on "Select a Built-In Bridge" option.
+Alternatively, you can also type `about:preferences#connection` in the URL bar.
+Under the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on "Select a Built-In Bridge" option.
 From the menu, select 'Snowflake'.
