@@ -1,8 +1,10 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ this.alt }}" {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}dir="rtl" {% endif %}>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ this.alt }}" {% if bag('alternatives', this.alt, 'direction'
+  )=='text-right' %}dir="rtl" {% endif %}>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
+<meta name="description"
+  content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
 <link rel="stylesheet" href="{{ '/static/css/bootstrap.css'|asseturl }}">
 <link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
 <script src="{{ '/static/support.js'|asseturl }}" defer></script>
@@ -15,13 +17,19 @@
     let btn = event.currentTarget;
     if (btn.innerHTML == "{{ _('expand') }}") {
       btn.innerHTML = "{{ _('collapse') }}";
-  } else {
-    btn.innerHTML = "{{ _('expand') }}";
+    } else {
+      btn.innerHTML = "{{ _('expand') }}";
+    }
+  }
+  function handleCollapse() {
+    if (document.querySelectorAll('.show').length === 1) {
+      document.querySelector('#expand-btn').innerHTML = "{{ _('collapse') }}";
     }
   }
 </script>
 
 <title>{% block title %}{{ this.title }} {{ this.term }} {% endblock %} | {{ _("Tor Project | Support") }}</title>
+
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
   <header>
     {% include 'navbar.html' %}
@@ -30,9 +38,9 @@
     <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
       <div class="container-fluid text-center">
         {% if this.title %}
-          <h1 class="display-4 no-border font-weight-light pt-5 pb-4">{{ this.title }}</h1>
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">{{ this.title }}</h1>
         {% elif this.term %}
-          <h1 class="display-4 no-border font-weight-light pt-5 pb-4">{{ this.term }}</h1>
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">{{ this.term }}</h1>
         {% endif %}
         {% include 'search.html' %}
       </div>
@@ -41,12 +49,13 @@
       <div class="row flex-xl-nowrap">
         {% include 'sidenav.html' %}
         {% set locale = bag('alternatives', this.alt) %}
-        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9  {{ locale.order }} {{ locale.direction }}">
+        <main role="main"
+          class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9  {{ locale.order }} {{ locale.direction }}">
           <div class="d-flex justify-content-end" style="gap: 0.5em;">
             {% if this._model == 'topic' and this.forum_link %}
-              <a href="{{ this.forum_link }}"><button class="btn btn-outline-primary float-right"><i class="fab fa-discourse pr-2"></i>View this topic on the forum</button></a>
+            <a href="{{ this.forum_link }}"><button class="btn btn-outline-primary float-right"><i class="fab fa-discourse pr-2"></i>View this topic on the forum</button></a>
             {% endif %}
-            <button class="btn btn-primary" data-toggle="collapse" data-target=".expand" aria-expanded="false" onclick="change(event)">expand</button>
+            <button class="btn btn-primary" id="expand-btn" data-toggle="collapse" data-target=".expand" aria-expanded="false" onclick="change(event)">expand</button>
           </div>
           {% block body %}{% endblock %}
         </main>
@@ -56,4 +65,5 @@
   {% include 'footer.html' %}
 
 </body>
+
 </html>
