@@ -7,6 +7,8 @@ $('.side-nav').click(function(){
 
 if($('.show').length !== 1 ) {
   $('.show').collapse();
+} else{
+  $(document).ready(handleCollapse);
 }
 
 // Coming from search result page click
