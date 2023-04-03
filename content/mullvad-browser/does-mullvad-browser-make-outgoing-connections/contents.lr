@@ -1,0 +1,17 @@
+_model: question
+---
+title: Does Mullvad Browser make any outgoing connections?
+---
+seo_slug: does-mullvad-browser-make-outgoing-connections
+---
+key: 12
+---
+description:
+Yes, here are the full list of requests Mullvad Browser makes by default:
+
+* Browser update (Mullvad)
+* Mullvad Browser Extension update (Mullvad)
+* Mullvad DoH (Mullvad)
+* NoScript/Ublock Origin update (Mozilla)
+* Certificates & Domains update (Mozilla)
+* Ublock Origin filter lists update (various lists)
