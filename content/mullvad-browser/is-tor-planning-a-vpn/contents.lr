@@ -1,0 +1,14 @@
+_model: question
+---
+title: Is Tor planning to enter the VPN space?
+---
+seo_slug: is-tor-planning-a-vpn
+---
+key: 10
+---
+description:
+Two years ago we started a project to bring a VPN-like app that connects to the Tor network for Android users.
+We know that many of the sites and services a user connects to via browser on desktop become an app when they are using the internet on mobile.
+So it is important for us to address this use case as the majority of people around the world only use a mobile device to connect to the internet.
+Especially those in the Global South and at risk situations.
+Offering a browser that connects to the internet with a trusted VPN as opposed to the Tor network is an important step in offering more alternatives when it comes to free privacy-focused browsers and can benefit Tor Browser in the future when our 'VPN-like' app has launched.

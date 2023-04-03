@@ -1,0 +1,13 @@
+_model: question
+---
+title: When should I use Mullvad Browser?
+---
+seo_slug: when-use-mullvad-browser
+---
+key: 3
+---
+description:
+You should use Mullvad Browser if you are looking for a privacy enhanced browser solution to connect with your trusted VPN.
+Its default settings and features are intended to combat mass surveillance, data mining and tracking, or other privacy violations that are commonly employed by big tech companies.
+
+While the Mullvad Browser offers similar privacy protections to Tor Browser, it is best suited for the threat model of corporate mass-surveillance by big tech companies.
