@@ -1,0 +1,16 @@
+_model: question
+---
+title: Why did the Tor Project decide to develop this browser for Mullvad VPN?
+---
+seo_slug: why-tor-project-develop-this-browser
+---
+key: 7
+---
+description:
+The Mullvad Browser fills a gap in the market for those who want to run a privacy-focused browser as good as the Tor Browser but with a trusted VPN instead of the Tor Network.
+This partnership contributes to providing people with more free privacy options for web browsing while challenging the current business model of exploiting people's data.
+It demonstrates that it is possible to develop free technology solutions that prioritize the protection of user privacy.
+Mullvad shares the same values around internet privacy and freedom and is dedicated to making privacy-enhancing technologies more widely available and rendering mass-surveillance impractical.
+
+This joint project with Mullvad has contributed to addressing legacy code issues for Tor Browser and allowed the allocation of dedicated resources to make necessary improvements that benefit both Tor and Mullvad Browsers.
+Over the last couple of years, the Tor Project has launched a number of [initiatives to increase adoption of our technologies](https://wiki.mozilla.org/Security/Tor_Uplift) and made [significant improvements](https://blog.torproject.org/tor-browser-advancing-privacy-innovation/) to the usability of our own products.
