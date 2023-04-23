@@ -68,7 +68,7 @@ After importing the key, you can save it to a file (identifying it by its finger
 
     gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
-This command results in the key being saved to a file found at the path `./tor.keyring`, i.e. in the current directory. 
+This command results in the key being saved to a file found at the path `./tor.keyring`, i.e. in the current directory.
 If `./tor.keyring` doesn't exist after running this command, something has gone wrong and you cannot continue until you've figured out why this didn't work.
 
 ### Verifying the signature
@@ -85,6 +85,10 @@ Note that these commands use example file names and yours will be different: you
 #### For macOS users:
 
     gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg.asc ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg
+
+#### For macOS users (alternative):
+
+    gpg --verify ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg.asc ~/Downloads/TorBrowser-9.0-osx64_en-US.dmg
 
 #### For GNU/Linux users (change 64 to 32 if you have the 32-bit package):
 
@@ -105,7 +109,7 @@ If you encounter errors you cannot fix, feel free to [download and use this publ
     ‪# curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
 
 Tor Browser Developers key is also available on [keys.openpgp.org](https://keys.openpgp.org/) and can be downloaded from [https://keys.openpgp.org/vks/v1/by-fingerprint/EF6E286DDA85EA2A4BA7DE684E2C6E8793298290](https://keys.openpgp.org/vks/v1/by-fingerprint/EF6E286DDA85EA2A4BA7DE684E2C6E8793298290).
-If you're using MacOS or GNU/Linux, the key can also be fetched by running the following command:  
+If you're using MacOS or GNU/Linux, the key can also be fetched by running the following command:
     ‪`$ gpg --keyserver keys.openpgp.org --search-keys torbrowser@torproject.org`
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
