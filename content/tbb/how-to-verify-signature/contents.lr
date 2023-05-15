@@ -90,13 +90,17 @@ Note that these commands use example file names and yours will be different: you
 
     gpgv --keyring ./tor.keyring ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz.asc ~/Downloads/tor-browser-linux64-9.0_en-US.tar.xz
 
-The result of the command should produce something like this:
+The result of the command should contain:
 
-    gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time
-    gpgv:                using RSA key EB774491D9FF06E2
     gpgv: Good signature from "Tor Browser Developers (signing key) <torbrowser@torproject.org>"
 
 If you get error messages containing 'No such file or directory', either something went wrong with one of the previous steps, or you forgot that these commands use example file names and yours will be a little different.
+
+#### Refreshing the PGP key
+
+Run the following command to refresh the Tor Browser Developers signing key in your local keyring from the keyserver. This will also fetch the new subkeys.
+
+    gpg --refresh-keys EF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
 #### Workaround (using a public key)
 
@@ -105,7 +109,8 @@ If you encounter errors you cannot fix, feel free to [download and use this publ
     curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
 
 Tor Browser Developers key is also available on [keys.openpgp.org](https://keys.openpgp.org/) and can be downloaded from [https://keys.openpgp.org/vks/v1/by-fingerprint/EF6E286DDA85EA2A4BA7DE684E2C6E8793298290](https://keys.openpgp.org/vks/v1/by-fingerprint/EF6E286DDA85EA2A4BA7DE684E2C6E8793298290).
-If you're using MacOS or GNU/Linux, the key can also be fetched by running the following command:  
-    `$ gpg --keyserver keys.openpgp.org --search-keys torbrowser@torproject.org`
+If you're using MacOS or GNU/Linux, the key can also be fetched by running the following command:
+
+    gpg --keyserver keys.openpgp.org --search-keys EF6E286DDA85EA2A4BA7DE684E2C6E8793298290
 
 You may also want to [learn more about GnuPG](https://www.gnupg.org/documentation/).
