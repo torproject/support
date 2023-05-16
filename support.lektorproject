@@ -4,16 +4,6 @@ url = https://support.torproject.org/
 url_style = relative
 locale = en
 
-[alternatives.bn]
-name = বাংলা ভাষা  (bn)
-url_prefix = /bn/
-locale = bn
-
-[alternatives.ca]
-name = Català
-url_prefix = /ca/
-locale = ca
-
 [alternatives.de]
 name = Deutsch
 url_prefix = /de/
@@ -39,11 +29,6 @@ locale = fa
 name = Français
 url_prefix = /fr/
 locale = fr
-
-[alternatives.ga]
-name = Gaeilge (ga)
-url_prefix = /ga/
-locale = ga
 
 [alternatives.id]
 name = Indonesia (id)
@@ -74,6 +59,11 @@ locale = ro
 name = Русский (ru)
 url_prefix = /ru/
 locale = ru
+
+[alternatives.sw]
+name = Kiswahili
+url_prefix = /sw/
+locale = sw
 
 [alternatives.tr]
 name = Turkish
