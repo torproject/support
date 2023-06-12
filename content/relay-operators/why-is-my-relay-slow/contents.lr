@@ -19,9 +19,7 @@ Most providers tell you the maximum speed of your local connection.
 But Tor has users all over the world, and our users connect to one or two Guard relays at random.
 So we need to know how well each relay can connect to the entire world.
 
-So even if all relay operators set their advertised bandwidth to their local
-connection speed, we would still need bandwidth authorities to balance the load
-between different parts of the Internet.
+So even if all relay operators set their advertised bandwidth to their local connection speed, we would still need bandwidth authorities to balance the load between different parts of the Internet.
 
 ### What is a normal relay load?
 It's normal for most relays to be loaded at 30%-80% of their capacity.
@@ -58,13 +56,14 @@ Look up your relay on [Metrics](https://metrics.torproject.org/rs.html#search).
 Then mouse over the bandwidth heading to see the observed bandwidth and relay bandwidth rate.
 
 Here is some more detail and some examples: [Drop in consensus weight](https://lists.torproject.org/pipermail/tor-relays/2016-November/010913.html) and [Rampup speed of Exit relay](https://lists.torproject.org/pipermail/tor-relays/2016-October/010784.html).
+
 #### How to fix it
 The smallest of these figures is limiting the bandwidth allocated to the relay.
 * If it's the bandwidth rate, increase the BandwidthRate/Burst or RelayBandwidthRate/Burst in your torrc.
 * If it's the observed bandwidth, your relay won't ask for more bandwidth until it sees itself getting faster.
-You need to work out why it is slow.
+  You need to work out why it is slow.
 * If it's the median measured bandwidth, your relay looks slow from a majority of bandwidth authorities.
-You need to work out why they measure it slow.
+  You need to work out why they measure it slow.
 
 ### Doing Your Own Relay Measurements
 If your relay thinks it is slow, or the bandwidth authorities think it is slow, you can test the bandwidth yourself:
