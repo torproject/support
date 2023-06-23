@@ -6,7 +6,7 @@ seo_slug: onion-location
 ---
 description:
 
-Onion-Location is a new HTTP header that web sites can use to advertise their onion counterpart.
+Onion-Location is a HTTP header that web sites can use to advertise their onion counterpart.
 If the web site that you're visiting has an onion site available, a purple suggestion pill will prompt at the URL bar saying ".onion available".
 When you click on ".onion available", the web site will be reloaded and redirected to its onion counterpart.
 At the moment, Onion-Location is available for Tor Browser desktop (Windows, macOS and GNU/Linux).
