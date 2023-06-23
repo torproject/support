@@ -7,16 +7,16 @@ seo_slug: address-bar-onion-icons
 description:
 When browsing an Onion Service, Tor Browser displays different onion icons in the address bar indicating the security of the current webpage.
 
-![Image of an onion](/static/images/black-onion.png)
+![Image of an onion](/static/images/onion-site.png)
 An onion means:
 - The Onion Service is served over HTTP, or HTTPS with a CA-Issued certificate.
 - The Onion Service is served over HTTPS with a Self-Signed certificate.
 
-![Image of an onion with a red slash](/static/images/black-onion-with-red-slash.png)
+![Image of an onion with a red slash](/static/images/onion-site-broken.png)
 An onion with a red slash means:
 - The Onion Service is served with a script from an insecure URL.
 
-![Image of an onion with a caution sign](/static/images/black-onion-with-caution.png)
+![Image of an onion with a caution sign](/static/images/onion-site-warning.png)
 An onion with caution sign means:
 - The Onion Service is served over HTTPS with an expired Certificate.
 - The Onion Service is served over HTTPS with a wrong Domain.
