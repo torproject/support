@@ -21,4 +21,4 @@ These proxies are lightweight, ephemeral, and easy to run, allowing us to scale 
 For censored users, if your Snowflake proxy gets blocked, the broker will find a new proxy for you, automatically.
 
 If you're interested in the technical details and specification, see the [Snowflake Technical Overview](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview) and the [project page](https://snowflake.torproject.org/).
-For other discussions about Snowflake, please visit the [Tor Forum](https://forum.torproject.net) and follow up the [Snowflake tag](https://forum.torproject.net/tag/snowflake). 
+For other discussions about Snowflake, please visit the [Tor Forum](https://forum.torproject.org) and follow up the [Snowflake tag](https://forum.torproject.org/tag/snowflake).
