@@ -8,8 +8,8 @@ key: 29
 ---
 description:
 Most antivirus or malware protection allows the user to "allowlist" certain processes that would otherwise be blocked.
-Please open your antivirus or malware protection software and look in the settings for a "allowlist" or something similar.
-Next, exclude the following processes:
+Please open your antivirus or malware protection software and look in the settings for an "allowlist" or something similar.
+Next, include the following processes:
 
 * For Windows
   * firefox.exe
