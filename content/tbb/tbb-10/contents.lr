@@ -14,14 +14,14 @@ Next, include the following processes:
 * For Windows
   * firefox.exe
   * tor.exe
-  * obfs4proxy.exe (if you use bridges)
+  * lyrebird.exe (if you use bridges)
   * snowflake-client.exe
 
 
 * For macOS
   * TorBrowser
   * tor.real
-  * obfs4proxy (if you use bridges)
+  * lyrebird (if you use bridges)
   * snowflake-client
 
 Finally, restart Tor Browser.
