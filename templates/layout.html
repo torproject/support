@@ -53,9 +53,9 @@
           class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9  {{ locale.order }} {{ locale.direction }}">
           <div class="d-flex justify-content-end" style="gap: 0.5em;">
             {% if this._model == 'topic' and this.forum_link %}
-            <a href="{{ this.forum_link }}"><button class="btn btn-outline-primary float-right"><i class="fab fa-discourse pr-2"></i>View this topic on the forum</button></a>
+	    <a href="{{ this.forum_link }}"><button class="btn btn-outline-primary float-right"><i class="fab fa-discourse pr-2"></i>{{_('View this topic on the forum') }}</button></a>
             {% endif %}
-            <button class="btn btn-primary" id="expand-btn" data-toggle="collapse" data-target=".expand" aria-expanded="false" onclick="change(event)">expand</button>
+	    <button class="btn btn-primary" id="expand-btn" data-toggle="collapse" data-target=".expand" aria-expanded="false" onclick="change(event)">{{_('expand') }}</button>
           </div>
           {% block body %}{% endblock %}
         </main>
