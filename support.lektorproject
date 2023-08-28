@@ -4,6 +4,11 @@ url = https://support.torproject.org/
 url_style = relative
 locale = en
 
+[alternatives.ar]
+name = ﻉﺮﺒﻳﺓ (ar)
+url_prefix = /ar/
+locale = ar
+
 [alternatives.de]
 name = Deutsch
 url_prefix = /de/
@@ -75,7 +80,18 @@ name = українська (uk)
 url_prefix = /uk/
 locale = uk
 
+[alternatives.vi]
+name = Tiếng Việt (vi)
+url_prefix = /vi/
+locale = vi
+
 [alternatives.zh-CN]
 name = 简体中文 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
+
+[zh-TW]
+direction = text-left
+order = order-last
+url = /zh-TW/
+language = 正體中文 (zh-TW)
