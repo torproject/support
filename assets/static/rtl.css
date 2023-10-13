@@ -1,6 +1,6 @@
 .content {
     text-align: right !important;
 }
-.content .code {
+.content  pre, code {
     direction: ltr !important;
 }
