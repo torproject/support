@@ -2,5 +2,6 @@
     text-align: right !important;
 }
 .content  pre, code {
-    direction: ltr !important;
+    direction: ltr;
+    unicode-bidi: isolate;
 }
