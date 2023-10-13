@@ -1,0 +1,6 @@
+.content {
+    text-align: right !important;
+}
+.content .code {
+    direction: ltr !important;
+}
