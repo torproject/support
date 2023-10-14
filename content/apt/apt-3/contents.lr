@@ -7,7 +7,7 @@ seo_slug: apt-over-tor
 _slug: apt-over-tor
 ---
 description:
-Yes, `deb.torproject.org` is also served through via an Onion Service: http://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/
+Yes, `deb.torproject.org` is also served through via an Onion Service: <http://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/>
 
 > **Note:** The symbol # refers to running the code as root. This means you should have access to a user account with system administration privileges, i.e. your user should be in the sudo group.
 
