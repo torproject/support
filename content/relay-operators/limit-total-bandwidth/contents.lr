@@ -17,7 +17,7 @@ This specifies when the accounting should reset. For instance, to setup a total 
     AccountingMax 500 GBytes
 ```
 
-This specifies the maximum amount of data your relay will send during an accounting period, and the maximum amount of data your relay will receive during an account period.
+This specifies the maximum amount of data your relay will send during an accounting period, and the maximum amount of data your relay will receive during an accounting period.
 When the accounting period resets (from AccountingStart), then the counters for AccountingMax are reset to 0.
 
 Example: Let's say you want to allow 50 GB of traffic every day in each direction and the accounting should reset at noon each day:
