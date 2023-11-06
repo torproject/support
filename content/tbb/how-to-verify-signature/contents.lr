@@ -84,7 +84,7 @@ Note that these commands use example file names and yours will be different: you
 
 #### For macOS users:
 
-    gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-12.5-macos_ALL.dmg.asc ~/Downloads/TorBrowser-12.5-macos_ALL.dmg.dmg
+    gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-12.5-macos_ALL.dmg.asc ~/Downloads/TorBrowser-12.5-macos_ALL.dmg
 
 #### For GNU/Linux users (change 64 to 32 if you have the 32-bit package):
 
