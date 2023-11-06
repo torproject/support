@@ -16,7 +16,7 @@ However, if you want to redistribute the Tor software you must follow our [LICEN
 Essentially this means that you need to include our LICENSE file along with whatever part of the Tor software you're distributing.
 
 Most people who ask us this question don't want to distribute just the Tor software, though.
-They want to distribute the Tor Browser.
+They want to distribute Tor Browser.
 This includes [Firefox Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/) and the NoScript extension.
 You will need to follow the license for those programs as well.
 Both of those Firefox extensions are distributed under the [GNU General Public License](https://www.fsf.org/licensing/licenses/gpl.html), while Firefox ESR is released under the Mozilla Public License.
