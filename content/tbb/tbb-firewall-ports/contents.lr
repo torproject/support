@@ -13,6 +13,5 @@ You can select a different set of ports with the FirewallPorts torrc option.
 If you want to be more fine-grained with your controls, you can also use the ReachableAddresses config options, e.g.:
 
 ```
-ReachableDirAddresses *:80
-ReachableORAddresses *:443
+ReachableAddresses *:443
 ```

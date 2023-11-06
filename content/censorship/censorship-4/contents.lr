@@ -7,8 +7,8 @@ seo_slug: cannot-connect-to-tor-browser-network-censored
 key: 11
 ---
 description: 
-You might be on a network that is blocking the Tor network, and so you should try using bridges.
-Some bridges are built in to Tor Browser and requires only a few steps to enable it.
+If your internet connection might be blocking the Tor network, you can try using bridges.
+Some bridges are built in to Tor Browser and require only a few steps to enable it.
 To use a pluggable transport, click "Configure Connection" when starting Tor Browser for the first time.
 Under the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on "Select a Built-In Bridge" option.
 From the menu, select whichever [pluggable transport](https://tb-manual.torproject.org/circumvention/) you'd like to use.
