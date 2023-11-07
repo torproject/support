@@ -10,6 +10,8 @@ description:
 If your internet access is not censored, you should consider installing the Snowflake extension to help users in censored networks.
 When you run Snowflake on your regular browser, you will proxy traffic between censored users and an entry node in the Tor network, and that’s all.
 
+Due to censorship of VPN servers in some countries, we kindly ask you to not run a snowflake proxy while connected to a VPN.
+
 #### Add-on
 Firstly make sure you have WebRTC enabled.
 Then you can install this [extension for Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/) or the [extension for Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie) which will let you become a Snowflake proxy.
