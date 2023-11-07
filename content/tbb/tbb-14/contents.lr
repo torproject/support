@@ -12,10 +12,10 @@ It's strongly discouraged to install new add-ons in Tor Browser, because they ca
 Installing new add-ons may affect Tor Browser in unforeseen ways and potentially make your Tor Browser fingerprint unique.
 If your copy of Tor Browser has a unique fingerprint, your browsing activities can be deanonymized and tracked even though you are using Tor Browser.
 
-Basically, each browser's settings and features create what is called a "browser fingerprint".
+Each browser's settings and features create what is called a "browser fingerprint".
 Most browsers inadvertently create a unique fingerprint for each user which can be tracked across the internet.
 Tor Browser is specifically engineered to have a nearly identical (we're not perfect!) fingerprint across its users.
-This means each Tor Browser user looks like every other Tor Browser user, making it difficult to track any individual user.
+This means each Tor Browser user looks like many other Tor Browser users, making it difficult to track any individual user.
 
 There's also a good chance a new add-on will increase the attack surface of Tor Browser.
 This may allow sensitive data to be leaked or allow an attacker to infect Tor Browser.
