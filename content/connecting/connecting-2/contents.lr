@@ -1,12 +1,12 @@
 _model: question
 ---
-title: I am having trouble connecting to Tor, and I can’t figure out what’s wrong.
+title: I am having trouble connecting to Tor, and I can't figure out what's wrong.
 ---
 seo_slug: having-trouble-connecting-to-tor
 ---
 description:
 
-If you’re having trouble connecting, an error message may appear and you can select the option to "copy Tor log to clipboard".
+If you're having trouble connecting, an error message may appear and you can select the option to "copy Tor log to clipboard".
 Then paste the Tor log into a text file or other document.
 
 If you don't see this option and you have Tor Browser open, you can navigate to the [hamburger menu ("≡")](../../glossary/hamburger-menu), then click on "Settings", and finally on "Connection" in the side bar.
@@ -30,10 +30,10 @@ You should see one of these common log errors (look for the following lines in y
     2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect to xx..xxx..xxx.xx:xxxxx ("general SOCKS server failure")
 
 If you see lines like these in your Tor log, it means you are failing to connect to a SOCKS proxy.
-If a SOCKS proxy is required for your network setup, then please make sure you’ve entered your proxy details correctly.
-If a SOCKS proxy is not required, or you’re not sure, please try connecting to the Tor network without a SOCKS proxy.
+If a SOCKS proxy is required for your network setup, then please make sure you've entered your proxy details correctly.
+If a SOCKS proxy is not required, or you're not sure, please try connecting to the Tor network without a SOCKS proxy.
 
-#### Common log error #2: Can’t reach guard relays
+#### Common log error #2: Can't reach guard relays
 
     11/1/2017 21:11:43 PM.500 [NOTICE] Opening Socks listener on 127.0.0.1:9150
     11/1/2017 21:11:44 PM.300 [NOTICE] Bootstrapped 80%: Connecting to the Tor network
@@ -42,7 +42,7 @@ If a SOCKS proxy is not required, or you’re not sure, please try connecting to
     11/1/2017 21:11:45 PM.300 [WARN] Failed to find node for hop 0 of our path. Discarding this circuit.
 
 If you see lines like these in your Tor log, it means your Tor failed to connect to the first node in the Tor circuit.
-This could mean that you’re on a network that’s censored.
+This could mean that you're on a network that's censored.
 
 Please try connecting with bridges, and that should fix the problem.
 

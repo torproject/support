@@ -4,7 +4,7 @@ term: Tor log
 ---
 definition:
 
-"Tor log" is an automatically-generated list of [Tor](../tor-tor-network-core-tor)’s activity that can help diagnose problems.
+"Tor log" is an automatically-generated list of [Tor](../tor-tor-network-core-tor)'s activity that can help diagnose problems.
 When something goes wrong with Tor, you may see an option with the error message to "copy Tor log to clipboard".
 You should see an option to copy the log to your clipboard, which you can then paste to a document to show whoever is helping you troubleshoot.
 
