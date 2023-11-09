@@ -1,5 +1,7 @@
 _model: redirect
 ---
+key: 11
+---
 target: /censorship/censorship-1
 ---
 _discoverable: no

@@ -1,5 +1,7 @@
 _model: redirect
 ---
+key: 5
+---
 target: /tbb/tbb-31
 ---
 _discoverable: no

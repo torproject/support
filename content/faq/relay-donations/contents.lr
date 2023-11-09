@@ -2,6 +2,8 @@ _model: question
 ---
 title: Can I donate for a relay rather than run my own?
 ---
+key: 13
+---
 description:
 
 Sure! We have a [list of organizations that run Tor relays](https://community.torproject.org/relay/community-resources/relay-associations/) that are happy to turn your donations into better speed and anonymity for the Tor network.

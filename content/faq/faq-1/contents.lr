@@ -1,5 +1,7 @@
 _model: redirect
 ---
+key: 1
+---
 target: /tbb/tbb-3
 ---
 _discoverable: no
