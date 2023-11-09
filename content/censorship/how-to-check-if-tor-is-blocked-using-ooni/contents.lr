@@ -7,12 +7,11 @@ seo_slug: how-to-check-if-tor-is-blocked-using-ooni
 key: 3
 ---
 description:
-
 If you suspect that your government or Internet Service Provider (ISP) has implemented some form of Internet censorship or filtering, you can test whether the Tor network is being blocked by using [OONI Probe](https://ooni.org/).
 OONI Probe is a free and open source application developed by the Open Observatory of Network Interference (OONI).
 It is designed to test and measure which websites, messaging apps, and circumvention tools may be blocked.
 
-Before you run these measurements tests, please read carefully OONI's security recommendations and [risk assessment](https://ooni.org/about/risks/).
+Before you run these measurement tests, please carefully read OONI's security recommendations and [risk assessment](https://ooni.org/about/risks/).
 As any other testing tool, please be aware of [false positive](https://ooni.org/support/glossary/#false-positive) tests with OONI.
 
 To check if Tor is blocked, you can [install OONI Probe](https://ooni.org/install/) on your mobile device or on your desktop, and run the ["Circumvention Test"](https://ooni.org/support/ooni-probe-mobile#measuring-the-blocking-of-circumvention-tools).
