@@ -6,7 +6,7 @@ description:
 
 Tor guesses its IP address by asking the computer for its hostname, and then resolving that hostname. Often people have old entries in their /etc/hosts file that point to old IP addresses.
 
-If that doesn't fix it, you should use the "Address" config option to specify the IP you want it to pick. If your computer is behind a NAT and it only has an internal IP address, see the following Support entry on dynamic IP addresses.
+If that doesn't fix it, you should use the "Address" config option to specify the IP address you want it to pick. If your computer is behind a NAT and it only has an internal IP address, see the following Support entry on dynamic IP addresses.
 
 Also, if you have many addresses, you might also want to set "OutboundBindAddress" so external connections come from the IP you intend to present to the world. 
 ---
