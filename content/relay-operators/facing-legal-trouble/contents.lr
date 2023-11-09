@@ -3,7 +3,7 @@ _model: question
 title: I'm facing legal trouble. How do I prove that my server was a Tor relay at a given time?
 ---
 description:
-[Exonerator](https://exonerator.torproject.org/) is a web service that can check if an IP address was a relay at a given time.
+[Exonerator](https://exonerator.torproject.org/) is a web service that can check if an IP address was a relay on a given date.
 We can also [provide a signed letter](https://www.torproject.org/contact/) if needed.
 ---
 seo_slug: facing-legal-trouble
