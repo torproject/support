@@ -5,12 +5,10 @@ title: Does Tor get much abuse?
 key: 5
 ---
 description:
-Not much, in the grand scheme of things.
-The network has been running since October 2003, and it's only generated a handful of complaints.
-Of course, like all privacy-oriented networks on the net, it attracts its share of jerks.
-Tor's exit policies help separate the role of "willing to donate resources to the network" from the role of "willing to deal with exit abuse complaints", so we hope our network is more sustainable than past attempts at anonymity networks.
+Tor has implemented exit policies. Each Tor relay has an exit policy that specifies what sort of outbound connections are allowed or refused from that relay. This way each relay can decide the services, hosts, and networks it wants to allow connections to, based on abuse potential and its own situation. We also have a dedicated team, Network Health, to investigate bad relay behavior and kick them out of the network. 
 
-Since Tor has [many good uses as well](https://community.torproject.org/user-research/persona/), we feel that we're doing pretty well at striking a balance currently. 
+It is important to note that while we can combate some type of abuse like bad relays in our network, we can’t see or manage what users do on the network and that is by design. This design overwhelmingly allows for beneficial uses by providing human rights activists, journalists, domestic violence survivors, whistleblowers, law enforcement officers, and many others with as much privacy and anonymity as possible. Learn more about [our users and Tor's beneficial use cases here](https://community.torproject.org/user-research/personas/).
+
 ---
 seo_slug: does-tor-get-much-abuse
 ---
