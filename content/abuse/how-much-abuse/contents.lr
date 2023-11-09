@@ -10,7 +10,7 @@ Each Tor relay has an exit policy that specifies what sort of outbound connectio
 This way each relay can decide the services, hosts, and networks it wants to allow connections to, based on abuse potential and its own situation.
 We also have a dedicated team, Network Health, to investigate bad relay behavior and kick them out of the network.
 
-It is important to note that while we can combate some type of abuse like bad relays in our network, we can’t see or manage what users do on the network and that is by design.
+It is important to note that while we can combat some type of abuse like bad relays in our network, we can't see or manage what users do on the network and that is by design.
 This design overwhelmingly allows for beneficial uses by providing human rights activists, journalists, domestic violence survivors, whistleblowers, law enforcement officers, and many others with as much privacy and anonymity as possible.
 Learn more about [our users and Tor's beneficial use cases here](https://community.torproject.org/user-research/personas/).
 ---
