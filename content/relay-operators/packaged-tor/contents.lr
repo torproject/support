@@ -4,12 +4,12 @@ title: Should I install Tor from my package manager, or build from source?
 ---
 description:
 
-If you're using Debian or Ubuntu especially, there are a number of benefits to installing Tor from the [Tor Project's repository](../../apt/tor-deb-repo/).
+If you're using Debian or Ubuntu especially, please use the [Tor Project's repository](../../apt/tor-deb-repo/), so you can easily receive updates.
+In addition, using the package provides other conveniences:
 
-* Your `ulimit -n` gets set to 32768  high enough for Tor to keep open all the connections it needs.
-* A user profile is created just for Tor, so Tor doesn't need to run as root.
-* An init script is included so that Tor runs at boot.
-* Tor runs with `--verify-config`, so that most problems with your config file get caught.
-* Tor can bind to low level ports, then drop privileges.
+* Your `ulimit -n` gets set to a high number, so Tor can keep open all the connections it needs.
+* The package creates and uses a separate user, so you don't need to run Tor as your own user.
+* The package includes an init script so Tor runs at boot.
+* Tor can bind to low-numbered ports, then drop privileges.
 ---
 seo_slug: packaged-tor
