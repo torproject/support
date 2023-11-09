@@ -1,13 +1,13 @@
 _model: question
 ---
-title: What is the Mullvad Browser?
+title: What is Mullvad Browser?
 ---
 seo_slug: what-is-mullvad-browser
 ---
 key: 1
 ---
 description:
-The Mullvad Browser is Tor Browser without the Tor Network - that allows anyone to take advantage of all the privacy features Tor created.
+Mullvad Browser is Tor Browser without the Tor Network - that allows anyone to take advantage of all the privacy features Tor created.
 If people want to connect the browser with a VPN they trust, they can easily do so.
 
 The browser's 'out-of-the-box' configurations and settings will mask many parameters and features commonly used to extract information from a person's device, including fonts, rendered content, and several hardware APIs.

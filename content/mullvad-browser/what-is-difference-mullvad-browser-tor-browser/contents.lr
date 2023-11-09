@@ -7,11 +7,11 @@ seo_slug: what-is-difference-mullvad-browser-tor-browser
 key: 2
 ---
 description:
-The Mullvad Browser is free and open-source software that connects to the internet (if you use it together with Mullvad VPN) through the encrypted VPN tunnels and VPN servers of Mullvad.
+Mullvad Browser is free and open-source software that connects to the internet (if you use it together with Mullvad VPN) through the encrypted VPN tunnels and VPN servers of Mullvad.
 You can use it without or with any VPN, but you should make sure to use a VPN provider you can trust.
 Aside from the way that both browsers connect users to the internet (Tor network vs trusted VPN connection) the differences between both browsers are very small and come down to individual preference and use cases for the end-user.
 
-As a benefit of connecting to the internet using the Tor network, various Tor specific features are closely integrated with our own browser that the Mullvad Browser does not offer, including:
+As a benefit of connecting to the internet using the Tor network, various Tor specific features are closely integrated with our own browser that Mullvad Browser does not offer, including:
 
 * Circuit isolation and the integration with new-identity
 * Access to Onion Services (i.e. onionsites, Onion-Location redirects, onion authentication, and SecureDrop integration)
