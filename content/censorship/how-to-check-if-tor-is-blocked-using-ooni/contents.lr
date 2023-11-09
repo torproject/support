@@ -8,7 +8,7 @@ key: 3
 ---
 description:
 
-If you suspect that your government or ISP has implemented some form of Internet censorship or filtering, you can test whether the Tor network is being blocked by using [OONI Probe](https://ooni.org/).
+If you suspect that your government or Internet Service Provider (ISP) has implemented some form of Internet censorship or filtering, you can test whether the Tor network is being blocked by using [OONI Probe](https://ooni.org/).
 OONI Probe is a free and open source application developed by the Open Observatory of Network Interference (OONI).
 It is designed to test and measure which websites, messaging apps, and circumvention tools may be blocked.
 
@@ -16,7 +16,4 @@ Before you run these measurements tests, please read carefully OONI's security r
 As any other testing tool, please be aware of [false positive](https://ooni.org/support/glossary/#false-positive) tests with OONI.
 
 To check if Tor is blocked, you can [install OONI Probe](https://ooni.org/install/) on your mobile device or on your desktop, and run the ["Circumvention Test"](https://ooni.org/support/ooni-probe-mobile#measuring-the-blocking-of-circumvention-tools).
-
-An OONI Tor Test can serve as an indication of a potential block against the Tor network, but a thorough analysis by our developers is crucial for a conclusive evaluation.
-
-If you are concerned about the possibility of Tor being blocked in your country, you can [share your test results](https://ooni.org/support/ooni-probe-mobile#sharing-your-ooni-probe-test-results) with our [user support team](https://tb-manual.torproject.org/support/).
+An OONI Tor Test can serve as an indication of a potential block of the Tor network, but a thorough analysis by our developers is crucial for a conclusive evaluation.
