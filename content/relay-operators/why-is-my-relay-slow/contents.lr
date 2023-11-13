@@ -67,5 +67,33 @@ The smallest of these figures is limiting the bandwidth allocated to the relay.
 
 ### Doing Your Own Relay Measurements
 If your relay thinks it is slow, or the bandwidth authorities think it is slow, you can test the bandwidth yourself:
-* [Run a test using tor](https://lists.torproject.org/pipermail/tor-relays/2016-September/010173.html) to see how fast tor can get on your network/CPU.
-* Run a test using tor and [chutney](https://gitweb.torproject.org/chutney.git/tree/README.md#n105) to find out how fast tor can get on your CPU. Keep increasing the data volume until the bandwidth stops increasing.
+* Run a test using tor to see how fast tor can get on your network
+
+  For this, you need to configure a tor client to use use your relay as entry.
+  If your relay has only `Guard` flag, set `EntryNodes` with your relay fingerprint in `torrc`.
+  If your relay doesn't have `Guard` flag or it has `Guard` and `Exit` flags,
+  you can't set your relay as an entry node (see https://gitlab.torproject.org/tpo/core/tor/-/issues/22204),
+  but you can set it as your bridge, even if it is not a bridge.
+  To set your relay as a bridge, add to your `torrc`:
+
+  ```
+  Bridge <ip>:<port>
+  UseBridge 1
+  ```
+
+  Then download a large file using your `SocksPort` as a socks proxy.
+  For this, you can use `curl`, eg:
+  ```
+  curl https://target/path --proxy socks5h://<user>:<password>@127.0.0.1:<socks-port>
+  ```
+
+  Using different `user`/`password` guarantees different circuits. You can use `$RANDOM`.
+
+  That will give you some idea of how much traffic your relay can sustain.
+
+  Alternatively, you can run [relay_bw](https://gitlab.torproject.org/juga/relay_bw)
+  to test your relay using 2 hops circuits, in a similar way as [sbws](https://tpo.pages.torproject.net/network-health/sbws/) does.
+
+* Run a test using tor and [chutney](https://gitlab.torproject.org/tpo/core/chutney/-/blob/c4f6789ad2558dcbfeb7d024c6481d8112bfb6c2/README.md#L143)
+  to find out how fast tor can get on your CPU.
+  Keep increasing the data volume until the bandwidth stops increasing.
