@@ -5,8 +5,9 @@ title: Can I run Tor Browser on an iOS device?
 seo_slug: run-tor-on-ios
 ---
 description:
-We recommend an iOS app called Onion Browser, which is open source, uses Tor routing, and is developed by someone who works closely with the Tor Project.
+We recommend iOS app [Onion Browser](https://onionbrowser.com/) which relies on [Orbot](https://orbot.app/) for a secure connection to Tor.
+Onion Browser and Orbot are open source, use Tor routing, and are developed by someone who works closely with the Tor Project.
 However, Apple requires browsers on iOS to use something called Webkit, which prevents Onion Browser from having the same privacy protections as Tor Browser.
 
 [Learn more about Onion Browser](https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor).
-Download Onion Browser from the [App Store](https://itunes.apple.com/us/app/onion-browser/id519296448).
+Download [Onion Browser](https://apps.apple.com/us/app/onion-browser/id519296448) and [Orbot](https://apps.apple.com/us/app/orbot/id1609461599) from the App Store.
