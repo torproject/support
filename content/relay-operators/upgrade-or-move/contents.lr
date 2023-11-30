@@ -4,9 +4,9 @@ title: I want to upgrade/move my relay. How do I keep the same identity?
 ---
 description:
 
-When upgrading your Tor relay, or moving it to a different computer, be sure to keep the same identity keys (stored in "keys/ed25519_master_id_secret_key" and "keys/secret_id_key" in your DataDirectory).
+When upgrading your Tor relay, or moving it to a different computer, be sure to keep the same identity keys (stored in `keys/ed25519_master_id_secret_key` and `keys/secret_id_key` in your DataDirectory).
 
-If you are a bridge operator, also make sure to keep pt_state/. It contains data required for your bridge to keep working with the same bridge line.
+If you are a bridge operator, also make sure to keep `pt_state/`. It contains data required for your bridge to keep working with the same bridge line.
 
 For simplicity, just copying over the entire DataDirectory should work too.
 
