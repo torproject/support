@@ -341,8 +341,6 @@ It can happen that this pool starts dropping work due to memory or CPU pressure 
 
 If your server is running at capacity this will likely be triggered.
 
-The ntor and ntor_v3 values will be the same at the moment which is a [bug we need to fix](https://gitlab.torproject.org/tpo/core/tor/-/issues/40638).
-
 ### tor_relay_exit_dns_error_total{...}
 
 Any counter in the "*_dns_error_total" realm (apart from the one for successful queries) indicates a potential DNS related problem.
