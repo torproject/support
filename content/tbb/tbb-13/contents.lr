@@ -10,4 +10,4 @@ description:
 Only Tor Browser's traffic will be routed over the Tor network.
 Any other application on your system (including other browsers) will not have their connections routed over the Tor network, and will not be protected.
 They need to be configured separately to use Tor.
-If you need to be sure that all traffic will go through the Tor network, take a look at the [Tails live operating system](https://tails.boum.org/) which you can start on almost any computer from a USB stick or a DVD.
+If you need to be sure that all traffic will go through the Tor network, take a look at the [Tails live operating system](https://tails.net/) which you can start on almost any computer from a USB stick or a DVD.
