@@ -1,11 +1,11 @@
-<!--{% macro gettor_email() %}-->
+{% macro gettor_email() %}
 <div>
   <select class="os-select" onchange="event.target.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${event.target.value}`">
     <option value="windows">{{ _('Windows') }}</option>
     <option value="macos">{{ _('MacOS') }}</option>
     <option value="linux">{{ _('Linux') }}</option>
   </select>
-  <a href="mailto:gettor@torproject.org?body=windows" class="mailto">Click here for a mailto link</a>
+  <a href="mailto:gettor@torproject.org?body=windows" class="mailto">{{ _('Click here to email gettor') }}</a>
   <script>
     console.log(document.currentScript);
     let osName = "windows";
@@ -32,4 +32,4 @@
     document.currentScript.parentElement.getElementsByClassName('os-select')[0].value = osName;
   </script>
 </div>
-<!--{% endmacro %}-->
+{% endmacro %}
