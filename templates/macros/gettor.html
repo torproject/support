@@ -1,0 +1,10 @@
+<!--{% macro gettor_email() %}-->
+<div>
+  <select onchange="event.target.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${event.target.value}`">
+    <option value="windows">{{ _('Windows') }}</option>
+    <option value="macos">{{ _('MacOS') }}</option>
+    <option value="linux">{{ _('Linux') }}</option>
+  </select>
+  <a href="mailto:gettor@torproject.org?body=windows" class="mailto">Click here for a mailto link</a>
+</div>
+<!--{% endmacro %}-->
