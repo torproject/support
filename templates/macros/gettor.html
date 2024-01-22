@@ -1,10 +1,35 @@
 <!--{% macro gettor_email() %}-->
 <div>
-  <select onchange="event.target.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${event.target.value}`">
+  <select class="os-select" onchange="event.target.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${event.target.value}`">
     <option value="windows">{{ _('Windows') }}</option>
     <option value="macos">{{ _('MacOS') }}</option>
     <option value="linux">{{ _('Linux') }}</option>
   </select>
   <a href="mailto:gettor@torproject.org?body=windows" class="mailto">Click here for a mailto link</a>
+  <script>
+    console.log(document.currentScript);
+    let osName = "windows";
+    switch((window.navigator.userAgentData || {platform: ''}).platform.toLowerCase()) {
+      case 'windows':
+        osName = 'windows';
+        break;
+      case 'macos':
+        osName = 'macos';
+        break;
+      case 'linux':
+        osName = 'linux';
+        break;
+      default:
+        let ua = window.navigator.userAgent.toLowerCase()
+        if (ua.includes('windows')) {
+          osName = 'windows';
+        } else if (ua.includes('linux')) {
+          osName = 'linux';
+        } else if (ua.includes('mac')) {
+          osName = 'macos';
+        }
+    }
+    document.currentScript.parentElement.getElementsByClassName('os-select')[0].value = osName;
+  </script>
 </div>
 <!--{% endmacro %}-->
