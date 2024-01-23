@@ -1,13 +1,20 @@
 {% macro gettor_email() %}
 <div>
-  <select class="os-select" onchange="event.target.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${event.target.value}`">
-    <option value="windows">{{ _('Windows') }}</option>
-    <option value="macos">{{ _('MacOS') }}</option>
-    <option value="linux">{{ _('Linux') }}</option>
-  </select>
+  <label>
+    Select your operating system:
+    <select class="os-select">
+      <option value="windows">{{ _('Windows') }}</option>
+      <option value="macos">{{ _('MacOS') }}</option>
+      <option value="linux">{{ _('Linux') }}</option>
+    </select>
+  </label>
+  <br>
   <a href="mailto:gettor@torproject.org?body=windows" class="mailto">{{ _('Click here to email gettor') }}</a>
-  <script>
-    console.log(document.currentScript);
+</div>
+{% endmacro %}
+
+{% macro gettor_email_script() %}
+<script>
     let osName = "windows";
     switch((window.navigator.userAgentData || {platform: ''}).platform.toLowerCase()) {
       case 'windows':
@@ -28,8 +35,20 @@
         } else if (ua.includes('mac')) {
           osName = 'macos';
         }
-    }
-    document.currentScript.parentElement.getElementsByClassName('os-select')[0].value = osName;
-  </script>
-</div>
+      }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.gettor-email').forEach(div => {
+        div.style.display = 'inline-block';
+        let template = document.createElement('template');
+        template.innerHTML = `{{ gettor_email() }}`.trim();
+        div.append(...template.content.children);
+      });
+      document.querySelectorAll('.gettor-email .os-select').forEach(select => {
+          select.addEventListener('change', (event) => {console.log(event); event.target.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${event.target.value}`;});
+          select.value = osName;
+          select.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${osName}`;
+        });
+  });
+</script>
 {% endmacro %}

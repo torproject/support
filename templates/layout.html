@@ -1,4 +1,5 @@
 <!doctype html>
+{% import 'macros/gettor.html' as gettor %}
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ this.alt }}" {% if bag('alternatives', this.alt, 'direction'
   )=='text-right' %}dir="rtl" {% endif %}>
 <meta charset="utf-8">
@@ -27,6 +28,8 @@
     }
   }
 </script>
+
+{{ gettor.gettor_email_script() }}
 
 <title>{% block title %}{{ this.title }} {{ this.term }} {% endblock %} | {{ _("Tor Project | Support") }}</title>
 

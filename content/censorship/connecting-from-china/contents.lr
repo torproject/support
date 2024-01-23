@@ -12,6 +12,8 @@ Users in China need to take a few steps to circumvent the [Great Firewall](https
 To get an updated version of Tor Browser, try the Telegram bot first: [https://t.me/gettor_bot](https://t.me/gettor_bot).
 If that doesn't work, you can send an email to [gettor@torproject.org](mailto:gettor@torproject.org) with the subject "windows", "macos", or "linux" for the respective operating system.
 
+<div class="gettor-email"></div>
+
 After the installation, Tor Browser will try to connect to the Tor network.
 If Tor is blocked in your location, Connection Assist will try to automatically connect using a bridge or Snowflake.
 But if that doesn't work, the second step will be to obtain a bridge that works in China.
