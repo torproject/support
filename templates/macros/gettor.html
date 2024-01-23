@@ -47,7 +47,7 @@
       document.querySelectorAll('.gettor-email .os-select').forEach(select => {
           select.addEventListener('change', (event) => {console.log(event); event.target.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${event.target.value}`;});
           select.value = osName;
-          select.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${osName}`;
+          select.parentElement.parentElement.getElementsByClassName('mailto')[0].href=`mailto:gettor@torproject.org?body=${osName}`;
         });
   });
 </script>
