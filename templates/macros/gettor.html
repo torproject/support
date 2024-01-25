@@ -1,15 +1,19 @@
 {% macro gettor_email() %}
-<div>
+<div class="p-3 mb-3" style="border: 2px solid var(--primary);">
+  <span class="h5">Email gettor</span>
+  <hr style="border: 1px solid var(--primary);">
   <label>
     Select your operating system:
-    <select class="os-select">
+    <select class="custom-select os-select">
       <option value="windows">{{ _('Windows') }}</option>
       <option value="macos">{{ _('MacOS') }}</option>
       <option value="linux">{{ _('Linux') }}</option>
     </select>
   </label>
   <br>
-  <a href="mailto:gettor@torproject.org?body=windows" class="mailto">{{ _('Click here to email gettor') }}</a>
+  <a href="mailto:gettor@torproject.org?body=windows" class="mailto btn btn-primary w-100">{{ _('Click here to email gettor') }}</a>
+  <br>
+  <button class="gettor-copy-button btn btn-primary mt-1 w-100"><span class="fa fa-copy pr-1"></span>Copy email link to clipboard</button>
 </div>
 {% endmacro %}
 
