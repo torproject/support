@@ -4,7 +4,8 @@ term: HashRing
 ---
 definition:
 
-A hashring is a distributed structure used to store a set of keys and associated values. In the case of Tor, the keys are generally derived from the name of an onion service, and the values are information a client needs to connect to that service.
+A hashring is a distributed structure used to store a set of keys and associated values.
+In the case of Tor, the keys are generally derived from the name of an onion service, and the values are information a client needs to connect to that service.
 ---
 translation: Do not translate this application name.
 ---
