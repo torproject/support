@@ -1,0 +1,11 @@
+_model: word
+---
+term: HashRing
+---
+definition:
+
+[Read more about Orfox](https://blog.torproject.org/orfox-paved-way-tor-browser-android/).
+---
+translation: Do not translate this application name.
+---
+spelling: Note that this is not `hashing`, is a ring of hashes instead.
