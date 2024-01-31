@@ -49,14 +49,14 @@
       div.append(...template.content.children);
     });
     document.querySelectorAll('.gettor-email .os-select').forEach(select => {
-        select.addEventListener('change', (event) => {
-          let mailto = event.target.closest('.gettor-email').getElementsByClassName('mailto')[0];
-          mailto.href=`mailto:gettor@torproject.org?body=${event.target.value}`;
-        });
-        select.value = osName;
-        let mailto = select.closest('.gettor-email').getElementsByClassName('mailto')[0];
-        mailto.href=`mailto:gettor@torproject.org?body=${osName}`;
+      select.addEventListener('change', (event) => {
+        let mailto = event.target.closest('.gettor-email').getElementsByClassName('mailto')[0];
+        mailto.href=`mailto:gettor@torproject.org?body=${event.target.value}`;
       });
+      select.value = osName;
+      let mailto = select.closest('.gettor-email').getElementsByClassName('mailto')[0];
+      mailto.href=`mailto:gettor@torproject.org?body=${osName}`;
+    });
     document.querySelectorAll('.gettor-copy-button').forEach(button => {
       button.addEventListener('click', async (e) => {
         let osSelect = event.target.closest('.gettor-email').getElementsByClassName('os-select')[0];
