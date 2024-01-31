@@ -57,6 +57,17 @@
         let mailto = select.closest('.gettor-email').getElementsByClassName('mailto')[0];
         mailto.href=`mailto:gettor@torproject.org?body=${osName}`;
       });
+    document.querySelectorAll('.gettor-copy-button').forEach(button => {
+      button.addEventListener('click', async (e) => {
+        let osSelect = event.target.closest('.gettor-email').getElementsByClassName('os-select')[0];
+        let text = `mailto:gettor@torproject.org?body=${osSelect.value}`;
+        try {
+          await navigator.clipboard.writeText(text);
+        } catch (error) {
+          console.log(error);
+        }
+      });
+    });
   });
 </script>
 {% endmacro %}
