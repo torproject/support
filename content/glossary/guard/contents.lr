@@ -5,6 +5,7 @@ term: guard
 definition:
 
 The first [relay](../relay) in the [Tor circuit](../circuit), unless using a [bridge](../bridge). When using a bridge, the bridge takes the place of the guard.
+To learn more about this type of relays, please read [What are Entry Guards?](../../about/entry-guards) 
 ---
 translation: 
 ---
