@@ -1,0 +1,34 @@
+_model: question
+---
+title: How can I check what version of Tor Browser I have installed?
+---
+seo_slug: how-to-check-tor-browser-version
+---
+key: 57
+---
+description:
+
+It is often important to know what version of Tor Browser you are using, to help you troubleshoot a problem or just to know if Tor Browser is up to date.
+This is important information to share when raising a [support](https://tb-manual.torproject.org/support/) ticket.
+
+### Tor Browser Desktop
+
+* When you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](../../glossary/hamburger-menu).
+* Scroll down to the "Tor Browser Updates" section where the version number is listed.
+
+### Tor Browser for Android
+
+#### From the app
+
+* When you have Tor Browser for Android running, tap on 'Settings'.
+* Scroll to the bottom of the page.
+* Tap on 'About Tor Browser'.
+* The version number should be listed on this page.
+
+#### From Android menu
+
+* Navigate to Android's Settings.
+* Tap on 'Apps' to open the list of apps installed on your device.
+* Find 'Tor Browser' from the list of apps.
+* Tap on 'Tor Browser'.
+* Scroll down to the very bottom of the page where the version number will be listed.
