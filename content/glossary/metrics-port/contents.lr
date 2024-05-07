@@ -1,0 +1,12 @@
+_model: word
+---
+term: MetricsPort
+---
+definition:
+
+Tor configuration option used mainly by tor relay operators that captures the information sent to Tor Metrics to help diagnose connection issues.
+
+---
+translation: Do not translate.
+---
+spelling: 
