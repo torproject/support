@@ -37,6 +37,7 @@ or
 Keep in mind that tuning `sysctl` as described is not permanent and will be lost upon restart.
 You need to add the configuration to `/etc/sysctl.conf` or to a file in `/etc/sysctl.d/` to make it permanent.
 
+<a name="metricsport">
 ## MetricsPort
 
 To understand the well-being of Tor relays and the Tor network it is vital to provide and have access to relay metrics.
