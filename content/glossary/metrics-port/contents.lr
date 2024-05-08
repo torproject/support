@@ -4,7 +4,11 @@ term: MetricsPort
 ---
 definition:
 
-Tor configuration option used mainly by tor relay operators that captures the information sent to Tor Metrics to help diagnose connection issues.
+MetricsPort is a Tor configuration option.
+Is used mainly by tor relay operators to read the information sent to Tor Metrics.
+This helps to diagnose problems with the relay.
+
+For more information please read the MetricsPort section on the article about [overloaded relays](../../relay-operators/relay-bridge-overloaded/#metricsport).
 
 ---
 translation: Do not translate.
