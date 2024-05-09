@@ -25,7 +25,7 @@ Lektor is the static site generator behind this website. Documentation can be fo
 
 ## Translations
 
-To translate the Support Portal, please join the Tor Project project in Weblate. Learn how you can [become a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/).
+To translate the Support Portal, please join the Tor Project in Weblate. Learn how you can [become a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/).
 The Tor Project in weblate can be accessed here: https://hosted.weblate.org/projects/tor/
 
 The translation statistics for this website can be seen at https://tpo.pages.torproject.net/community/l10n/stats.html
