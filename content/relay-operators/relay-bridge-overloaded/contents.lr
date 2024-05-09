@@ -356,10 +356,10 @@ The relay might need more RAM or it is leaking memory.
 If you noticed that the tor process is leaking memory, please report the issue either via [Tor gitLab](https://gitlab.torproject.org) or sending an email to the [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 
 Tor has its own OOM handler and it is invoked when 75%, of the total memory tor thinks is available, is reached.
-Thus, let say tor thinks it can use 2GB in total then at 1.5GB of memory usage, it will start freeing memory.
+Thus, let's say tor thinks it can use 2GB in total then at 1.5GB of memory usage, it will start freeing memory.
 That is considered an overload state.
 
-To estimate the amount of memory it has available, when tor starts, it will use MaxMemInQueues or, if not set, will look at the total RAM available on the system and apply this algorithm:
+To estimate the amount of memory it has available, when tor starts, it will use `MaxMemInQueues` or, if not set, will look at the total RAM available on the system and apply this algorithm:
 ```
     if RAM >= 8GB {
       memory = RAM * 40%
@@ -374,6 +374,7 @@ To estimate the amount of memory it has available, when tor starts, it will use 
 
 To avoid an overloaded state we recommend to run a relay above 2GB of RAM on 64bit.
 4GB is advised, although of course it doesn't hurt to add more RAM if you can.
+**Note:** If you are running a powerful server with lots of RAM then you might end up in an overloaded state due to the default queue size limit of 8GB even though you still have plenty of RAM unused. Add an appropriate `MaxMemInQueues` entry to your `torrc` configuration in that case.
 
 One might notice that tor could be called by the OS OOM handler itself.
 Because tor takes the total memory on the system when it starts, if the overall system has many other applications running using RAM, it ends up eating too much memory.
