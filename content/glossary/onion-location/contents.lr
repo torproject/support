@@ -1,0 +1,13 @@
+_model: word
+---
+term: Onion-Location
+---
+definition:
+
+Onion-Location is a non-standard HTTP header that websites can use to advertise their onion counterpart.
+If the website that you are visiting has an onion site available, a purple suggestion pill will prompt at the URL bar in Tor Browser displaying ".onion available".
+When you click on ".onion available", the website will be reloaded and redirected to its onion counterpart.
+---
+translation: Do not translate.
+---
+spelling:
