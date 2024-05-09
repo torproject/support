@@ -1,0 +1,14 @@
+_model: word
+---
+term: letterboxing
+---
+definition:
+    
+Letterboxing is a Tor Browser feature that conceals a user's real window size from websites. 
+It achieves this by adding margins to the browser window. 
+The feature helps prevent [fingerprinting](../browser-fingerprinting) users based on their window or screen size.
+
+---
+translation:
+---
+spelling: 
