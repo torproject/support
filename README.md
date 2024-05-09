@@ -25,10 +25,10 @@ Lektor is the static site generator behind this website. Documentation can be fo
 
 ## Translations
 
-To translate the Support Portal, please join the Tor Project team in Transifex. Learn how you can [become a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/).
-The transifex link is: https://www.transifex.com/otf/tor-project-support-community-portal/support-portal/
+To translate the Support Portal, please join the Tor Project in Weblate. Learn how you can [become a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/).
+The Tor Project in weblate can be accessed here: https://hosted.weblate.org/projects/tor/
 
-The translation statistics for this website can be seen at https://torpat.ch/support-locales (courtesy of [arthuredelstein](https://github.com/arthuredelstein/))
+The translation statistics for this website can be seen at https://tpo.pages.torproject.net/community/l10n/stats.html
 
 Translations are managed with the i18n plugin:
 https://github.com/numericube/lektor-i18n-plugin
