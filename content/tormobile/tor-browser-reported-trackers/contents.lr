@@ -1,0 +1,14 @@
+_model: question
+---
+title: Why Tor Browser for Android is being reported to have trackers?
+---
+seo_slug: tor-browser-reported-trackers
+---
+key: 8
+---
+description:
+
+The tracking code being reported is carried over from Firefox for Android as Tor Browser is based on Firefox.
+[Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.torproject.torbrowser/latest/) and other analysis tools have conducted static analysis of this tracking code, which does not verify whether the tracking code is active or disabled.
+All of the tracking code is [disabled](https://bugs.torproject.org/tpo/applications/fenix/40009) in Tor Browser for Android.
+Additionally, a complete removal of the tracking code is [planned](https://bugs.torproject.org/tpo/applications/tor-browser/41180).
