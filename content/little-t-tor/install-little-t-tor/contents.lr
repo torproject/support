@@ -20,51 +20,51 @@ To open a root terminal you have several options: sudo su, or sudo -i, or su -i.
 
 ### Debian / Ubuntu
 
-**Do not use the packages in Ubuntu's universe**. 
+**Do not use the packages in Ubuntu's universe**.
 In the past they have not reliably been updated. That means you could be missing stability and security fixes.
 
-1. Configure Tor package repository
+* Configure Tor package repository
 
 Enable the Tor Project APT repository by following the [instructions](../../apt/tor-deb-repo/).
 
-2. Package installation
+* Package installation
 
-    # apt install tor
+`# apt install tor`
 
 ### Fedora
 
-1. Configure Tor Package repository
+* Configure Tor Package repository
 
 Enable the Tor Project's RPM package repository by following the [instructions](../../rpm/tor-rpm-install/).
 
-2. Package installation
+* Package installation
 
-   # dnf install tor
+`# dnf install tor`
 
 ### FreeBSD
 
-1. Package installation
+* Package installation
 
-   # pkg install tor
+`# pkg install tor`
 
 ### OpenBSD
 
-1. Package installation
+* Package installation
 
-   # pkg_add tor
+`# pkg_add tor`
 
 ### macOS
 
-1. Install a package manager
+* Install a package manager
 
 There are two package manager on OS X: Homebrew and Macports.
 You can use the package manager of your choice.
 
 To install Homebrew follow the instructions on [brew.sh](https://brew.sh/).
 
-To install Macports follow the instructions on [macports.org/install.php](https://www.macports.org/install.php). 
+To install Macports follow the instructions on [macports.org/install.php](https://www.macports.org/install.php).
 
-2. Package installation
+* Package installation
 
 If you are using Homebrew in a Terminal window, run:
 
@@ -76,7 +76,7 @@ If you are using Macports in a Terminal window, run:
 
 ### Arch Linux
 
-1. To install the `tor` package on Arch Linux, run:
+* To install the `tor` package on Arch Linux, run:
 
 ```
 # pacman -Syu tor
@@ -84,7 +84,7 @@ If you are using Macports in a Terminal window, run:
 
 ### DragonFlyBSD
 
-1. Bootstrap `pkg`
+* Bootstrap `pkg`
 
 DragonFlyBSD's daily snapshots and releases (starting with 3.4) come with `pkg` already installed. Upgrades from earlier releases, however, will not have it. If `pkg` is missing on the system for any reason, it can be quickly bootstrapped without having to build it from source or even having **DPorts** installed:
 
@@ -96,7 +96,7 @@ DragonFlyBSD's daily snapshots and releases (starting with 3.4) come with `pkg` 
 # rehash
 ```
 
-1.1 Recommended steps to setup `pkg`
+* Recommended steps to setup `pkg`
 
 Here, it will be similar to what we have on a **FreeBSD** system, and we are going to use HTTPS to fetch our packages, and updates - so here we also need an extra package to help us out (`ca_root_nss`).
 
@@ -122,7 +122,7 @@ After applying all these changes, we update the packages list again and try to c
 # pkg upgrade -y -f
 ```
 
-2. Package installation
+* Package installation
 
 Install the `tor` package:
 
@@ -132,7 +132,7 @@ Install the `tor` package:
 
 ### NetBSD
 
-1. Setup `pkg_add`
+* Setup `pkg_add`
 
 Modern versions of the NetBSD operating system can be set to use `pkgin`, which is a piece of software aimed to be like `apt` or `yum` for managing pkgsrc binary packages. We are not convering its setup here, and opt to use plain `pkg_add` instead.
 
@@ -140,7 +140,7 @@ Modern versions of the NetBSD operating system can be set to use `pkgin`, which 
 # echo "PKG_PATH=http://cdn.netbsd.org/pub/pkgsrc/packages/NetBSD/$(uname -m)/$(uname -r)/All" > /etc/pkg_install.conf
 ```
 
-2. Package installation
+* Package installation
 
 Install `tor` NetBSD's package:
 
@@ -158,13 +158,13 @@ To install the `tor` package on Void Linux, please run:
 
 ### Installing Tor from source
 
-1. Download latest release and dependencies
+* Download latest release and dependencies
 
 The latest release of Tor can be found on the [download](https://www.torproject.org/download/tor/) page.
 
 If you're building from source, first install [libevent](http://www.monkey.org/~provos/libevent/), and make sure you have openssl and zlib (including the -devel packages if applicable). 
 
-2. Install Tor
+* Install Tor
 
     tar -xzf tor-0.4.3.6.tar.gz; cd tor-0.4.3.6
 
