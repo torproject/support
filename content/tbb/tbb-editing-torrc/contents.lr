@@ -26,6 +26,6 @@ On macOS:
 Close Tor Browser before you edit your `torrc`, otherwise Tor Browser may erase your modifications.
 Some options will have no effect as Tor Browser overrides them with command line options when it starts Tor.
 
-Have a look at the [sample `torrc`](https://gitweb.torproject.org/tor.git/tree/src/config/torrc.sample.in) file for hints on common configurations.
+Have a look at the [sample `torrc`](https://gitlab.torproject.org/tpo/core/tor/-/blob/HEAD/src/config/torrc.sample.in) file for hints on common configurations.
 For other configuration options you can use, see the [Tor manual page](https://2019.www.torproject.org/docs/tor-manual.html.en).
 Remember, all lines beginning with `#` in torrc are treated as comments and have no effect on Tor's configuration.
