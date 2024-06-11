@@ -7,6 +7,6 @@ definition:
 FTE (format-transforming encryption) was a pluggable transport that disguised [Tor traffic](../traffic) as ordinary web (HTTP) traffic.
 It is not used anymore.
 ---
-translation: Do not translate
+translation: Do not translate.
 ---
 spelling: 
