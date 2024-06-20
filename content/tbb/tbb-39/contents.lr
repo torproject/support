@@ -8,5 +8,5 @@ key: 28
 ---
 description:
 Sometimes JavaScript-heavy websites can have functional issues over Tor Browser.
-The simplest fix is to click on the Security icon (the small gray shield at the top-right of the screen), then click "Change..."
-Set your security to "Standard".
+The simplest fix is to click on the Security icon (the small gray shield at the top-right of the screen), then click "Settings..."
+Set your security level to "Standard".

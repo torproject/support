@@ -9,7 +9,7 @@ key: 11
 description:
 Users in China need to take a few steps to circumvent the [Great Firewall](https://en.wikipedia.org/wiki/Great_Firewall) and connect to the Tor network.
 
-To get an updated version of Tor Browser, try the Telegram bot first: [https://t.me/gettor_bot](https://t.me/gettor_bot).
+To get an updated version of Tor Browser, try the Telegram bot first: [@gettor_bot](https://t.me/gettor_bot).
 If that doesn't work, you can send an email to [gettor@torproject.org](mailto:gettor@torproject.org) with the subject "windows", "macos", or "linux" for the respective operating system.
 
 After the installation, Tor Browser will try to connect to the Tor network.
@@ -31,4 +31,4 @@ You can select meek-azure from Tor Browser's built-in bridges dropdown.
 
 If one of these options above is not working, check your [Tor logs](../../connecting/connecting-2/) and try another option.
 
-If you need help, you can also get support on Telegram [https://t.me/TorProjectSupportBot](https://t.me/TorProjectSupportBot) and [Signal](https://signal.me/#p/+17787431312).
+If you need help, you can contact our support team on Telegram [Tor Project Support](https://t.me/TorProjectSupportBot) and [Signal](https://signal.me/#p/+17787431312).

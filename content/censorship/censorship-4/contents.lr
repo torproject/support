@@ -1,4 +1,4 @@
-_model: question 
+_model: question
 ---
 title: Tor Browser can't connect. Is my network censored?
 ---
@@ -6,18 +6,20 @@ seo_slug: cannot-connect-to-tor-browser-network-censored
 ---
 key: 11
 ---
-description: 
-If your internet connection might be blocking the Tor network, you can try using bridges.
-Some bridges are built in to Tor Browser and require only a few steps to enable them.
-To use a pluggable transport, click "Configure Connection" when starting Tor Browser for the first time.
-Under the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on "Select a Built-In Bridge" option.
-From the menu, select whichever [pluggable transport](https://tb-manual.torproject.org/circumvention/) you'd like to use.
+description:
+If you have exhausted general [troubleshooting](https://tb-manual.torproject.org/troubleshooting/) steps, it's possible that your connection to Tor is censored.
+In that case, connecting with one of the [built-in censorship circumvention](https://tb-manual.torproject.org/circumvention/) methods in Tor Browser can help.
+[Connection Assist](https://tb-manual.torproject.org/running-tor-browser/) can automatically choose one for you using your location.
 
-Once you've selected the pluggable transport, scroll up and click "Connect" to save your settings.
+If Connection Assist is unable to facilitate the connection to Tor, you can configure Tor Browser to use one of the built-in circumvention methods manually.
+To use bridges and access other censorship circumvention related settings, click "Configure Connection" when starting Tor Browser for the first time.
+In the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on the "Select a built-In bridge" option.
+From the menu, select a [censorship circumvention method](https://tb-manual.torproject.org/circumvention/) you would like to use.
 
 Or, if you have Tor Browser running, click on "Settings" in the hamburger menu (≡) and then on "Connection" in the sidebar.
-Under the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on "Select a Built-In Bridge" option.
-Choose whichever pluggable transport you'd like to use from the menu. Your settings will automatically be saved once you close the tab.
+In the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on the "Select a built-In bridge" option.
+Choose whichever censorship circumvention method you would like to use from the menu.
+Your settings will automatically be saved once you close the tab.
 
-If you need other bridges, you can get them at our [Bridges website](https://bridges.torproject.org/).
-For more information about bridges, see the [Tor Browser manual](https://tb-manual.torproject.org/bridges).
+If you need other bridges, you can get them from our [Bridges website](https://bridges.torproject.org/).
+For more information about bridges, please refer to the [Tor Browser user manual](https://tb-manual.torproject.org/bridges).
