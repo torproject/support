@@ -37,22 +37,22 @@ To enable all package managers using the libapt-pkg library to access metadata a
 #### 2. Create a new file in `/etc/apt/sources.list.d/` named `tor.list`. Add the following entries:
 
    ```
-   deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org <DISTRIBUTION> main
-   deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org <DISTRIBUTION> main
+   deb     [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org <DISTRIBUTION> main
+   deb-src [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org <DISTRIBUTION> main
    ```
 
 If you want to try experimental packages, add these **in addition** to the lines from above:
 
    ```
-   deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-experimental-<DISTRIBUTION> main
-   deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-experimental-<DISTRIBUTION> main
+   deb     [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org tor-experimental-<DISTRIBUTION> main
+   deb-src [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org tor-experimental-<DISTRIBUTION> main
    ```
 
 Or nightly builds:
 
    ```
-   deb     [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-main-<DISTRIBUTION> main
-   deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-main-<DISTRIBUTION> main
+   deb     [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-main-<DISTRIBUTION> main
+   deb-src [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org tor-nightly-main-<DISTRIBUTION> main
    ```
 
 Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -c` or `cat /etc/debian_version` to check the Operating System version.
@@ -60,8 +60,8 @@ Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -
 **Note:** Ubuntu Focal dropped support for 32-bit, so instead use:
 
    ```
-   deb     [arch=<ARCHITECTURE> signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org focal main
-   deb-src [arch=<ARCHITECTURE> signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org focal main
+   deb     [arch=<ARCHITECTURE> signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org focal main
+   deb-src [arch=<ARCHITECTURE> signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org focal main
    ```
 
 Replace `<ARCHITECTURE>` with your system architecture (you found it earlier by writing `dpkg --print-architecture`).
@@ -75,7 +75,7 @@ Warning symptom, when running sudo apt update:
 #### 3. Then add the gpg key used to sign the packages by running the following command at your command prompt:
 
    ```
-   # wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null
+   # wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/deb.torproject.org-keyring.gpg >/dev/null
    ```
 
 #### 4. Install tor and tor debian keyring
