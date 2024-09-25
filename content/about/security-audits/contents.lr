@@ -12,15 +12,15 @@ Please note while that each audit we've performed only focused on specific areas
 
 Because Tor cares about being transparent, these reports include the discovered security issues. Because we also care about user safety, we are sure to mitigate those issues before we make the reports public.
 
-Security Audits:
+**Security Audits**:
 
-[Cure53 - March, 2023](/static/reports/Cure53_audit_march_2023.pdf)
-[Radically Open Security - August, 2023](/static/reports/ROS_audit_aug_2023.pdf)
-[Cure53 - Jan, 2024](/static/reports/Cure53_audit_jan_2024.pdf)
+- [Cure53 - March, 2023](/static/reports/Cure53_audit_march_2023.pdf)
+- [Radically Open Security - August, 2023](/static/reports/ROS_audit_aug_2023.pdf)
+- [Cure53 - Jan, 2024](/static/reports/Cure53_audit_jan_2024.pdf)
 
-Privacy Impact Assessments:
+**Privacy Impact Assessments**:
 
-[7aSecurity - August, 2024](/static/reports/7aSecurity_PIA_aug_2024.pdf)
+- [7aSecurity - August, 2024](/static/reports/7aSecurity_PIA_aug_2024.pdf)
 
 ---
 seo_slug: security-audits
