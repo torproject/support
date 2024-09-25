@@ -1,0 +1,28 @@
+title: Have there ever been security audits of Tor?
+---
+description:
+
+Yes, there have been, and you can find links to read the reports below.
+
+In general, security auditors have remarked that Tor, adopts an “admirably robust and hardened security posture and sound design decisions”, and that we work “towards a considerable defense-in-depth security posture”, but please see for yourself by reading the reports.
+
+Tor has many different components and over time we have been engaging with auditors to audit those different components. As we obtain more audits, we will update these pages with the reports.
+
+Please note while that each audit we've performed only focused on specific areas of Tor, it is not feasible to cover everything in any one audit. The areas covered are comprehensively described in the audit reports. For example, in one audit that you can find below, we had the auditors look at Tor Browser and Tor Browser for Android, exposed metrics services, monitoring and alerting infrastructure, bandwidth authority scanning, and exit relays, however that audit did not cover the C tor implementation, or many of the censorship circumvention tools. 
+
+Because Tor cares about being transparent, these reports include the discovered security issues. Because we also care about user safety, we are sure to mitigate those issues before we make the reports public.
+
+Security Audits:
+
+[Cure53 - March, 2023](/static/reports/Cure53_audit_march_2023.pdf)
+[Radically Open Security - August, 2023](/static/reports/ROS_audit_aug_2023.pdf)
+[Cure53 - Jan, 2024](/static/reports/Cure53_audit_jan_2024.pdf)
+
+Privacy Impact Assessments:
+
+[7aSecurity - August, 2024](/static/reports/7aSecurity_PIA_aug_2024.pdf)
+
+---
+seo_slug: security-audits
+---
+_slug: security-audits
