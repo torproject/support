@@ -57,10 +57,10 @@ This should show you something like:
     gpg: key 4E2C6E8793298290: public key "Tor Browser Developers (signing key) <torbrowser@torproject.org>" imported
     gpg: Total number processed: 1
     gpg:               imported: 1
-    pub   rsa4096 2014-12-15 [C] [expires: 2025-07-21]
           EF6E286DDA85EA2A4BA7DE684E2C6E8793298290
     uid           [ unknown] Tor Browser Developers (signing key) <torbrowser@torproject.org>
-    sub   rsa4096 2018-05-26 [S] [expires: 2020-12-19]
+
+NOTE: Your output may deviate somewhat from the above (eg. expiration dates), however you should see the key correctly imported.
 
 If you get an error message, something has gone wrong and you cannot continue until you've figured out why this didn't work. You might be able to import the key using the **Workaround (using a public key)** section instead.
 
