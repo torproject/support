@@ -1,0 +1,22 @@
+_model: question
+---
+title: Why is Tor Browser dropping support for legacy operating systems?
+---
+seo_slug: tor-browser-and-legacy-os
+---
+key: 59
+---
+description:
+
+Legacy operating systems are unsupported versions of operating systems.
+For instance, Microsoft ended official support for Windows 7, 8 and 8.1 in January of 2023.
+Legacy unsupported operating systems receive no security updates and may have known security vulnerabilities.
+With no official support and Firefox (Tor Browser is based on Firefox ESR) dropping support for legacy operating systems, maintaining Tor Browser for obsolete operating systems becomes unfeasible and a security risk for users.
+
+Support for Windows 8.1 or lower and macOS 10.14 or lower will be discontinued with the release of Tor Browser 14, scheduled for the end of 2024.
+Users on Windows 7, 8 and 8.1 and macOS 10.12 to 10.14 will continue receiving security updates for Tor Browser 13.5 for a limited time until at least March of 2025, pending a [re-](https://support.mozilla.org/en-US/kb/firefox-users-windows-7-8-and-81-moving-extended-support)[evaluation](https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support) by Firefox.
+
+Users on legacy operating systems are strongly advised to upgrade their operating system for access to Tor Browser 14 and later and for the latest security updates and new features in Tor Browser.
+Windows users are recommended to upgrade to Windows 10 or 11.
+macOS users are recommended to upgrade to macOS 10.15 (Catalina) or later.
+In some cases, it may require newer hardware in order to support the newer operating system.
