@@ -35,6 +35,11 @@ name = Français
 url_prefix = /fr/
 locale = fr
 
+[alternatives.ga]
+name = Gaeilge (ga)
+url_prefix = /ga/
+locale = ga
+
 [alternatives.id]
 name = Indonesia (id)
 url_prefix = /id/
@@ -45,10 +50,20 @@ name = Italiano (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ja]
+name = 日本語 (ja)
+url_prefix = /ja/
+locale = ja
+
 [alternatives.ko]
 name = 한국어 (ko)
 url_prefix = /ko/
 locale = ko
+
+[alternatives.pl]
+name = polski (pl)
+url_prefix = /pl/
+locale = pl
 
 [alternatives.pt-BR]
 name = Português Br. (pt-BR)
