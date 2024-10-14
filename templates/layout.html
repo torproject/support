@@ -31,10 +31,10 @@
 <title>{% block title %}{{ this.title }} {{ this.term }} {% endblock %} | {{ _("Tor Project | Support") }}</title>
 
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
-  {% include 'banner.html' ignore missing %}
   <header>
     {% include 'navbar.html' %}
   </header>
+  {% include 'banner.html' ignore missing %}
   <div class="page">
     <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
       <div class="container-fluid text-center">
