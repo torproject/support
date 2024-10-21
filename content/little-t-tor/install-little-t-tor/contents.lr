@@ -13,78 +13,74 @@ description:
 **Attention: These instructions are meant for installing `tor` the network daemon i.e. [little-t-tor](../../glossary/little-t-tor/).**
 **For instructions on installing Tor Browser, refer to [Tor Browser user manual](https://tb-manual.torproject.org/installation/).**
 
-**Admin access:** To install Tor you need root privileges.
-Below all commands that need to be run as root user like apt and dpkg are prepended with '#', while commands to be run as user with '$' resembling the standard prompt in a terminal.
-To open a root terminal you have several options: sudo su, or sudo -i, or su -i. Note that sudo asks for your user password, while su expects the root password of your system.
+**Admin access: To install Tor you need root privileges.**
+Below all commands that need to be run as root user like apt and dpkg are prepended with '`#`', while commands to be run as user with '`$`' resembling the standard prompt in a terminal.
 
-
-### Debian / Ubuntu
+## Debian / Ubuntu
 
 **Do not use the packages in Ubuntu's universe**.
-In the past they have not reliably been updated. That means you could be missing stability and security fixes.
+In the past they have not reliably been updated.
+That means you could be missing stability and security fixes.
 
-* Configure Tor package repository
-
+#### Configure Tor package repository. 
 Enable the Tor Project APT repository by following the [instructions](../../apt/tor-deb-repo/).
 
-* Package installation
+#### Package installation
 
 `# apt install tor`
 
-### Fedora
+## Fedora
 
-* Configure Tor Package repository
+#### Configure Tor Package repository
 
 Enable the Tor Project's RPM package repository by following the [instructions](../../rpm/tor-rpm-install/).
 
-* Package installation
+#### Package installation
 
 `# dnf install tor`
 
-### FreeBSD
+## FreeBSD
 
-* Package installation
+#### Package installation
 
 `# pkg install tor`
 
-### OpenBSD
+## OpenBSD
 
-* Package installation
+#### Package installation
 
 `# pkg_add tor`
 
-### macOS
+## macOS
 
-* Install a package manager
+#### Install a package manager
 
-There are two package manager on OS X: Homebrew and Macports.
+There are two package managers on OS X: Homebrew and Macports.
 You can use the package manager of your choice.
 
 To install Homebrew follow the instructions on [brew.sh](https://brew.sh/).
 
-To install Macports follow the instructions on [macports.org/install.php](https://www.macports.org/install.php).
+To install Macports follow the instructions on [macports.org](https://www.macports.org/install.php).
 
-* Package installation
+#### Package installation
 
 If you are using Homebrew in a Terminal window, run:
 
-    # brew install tor
+`# brew install tor`
 
 If you are using Macports in a Terminal window, run:
 
-    $ sudo port install tor
+`$ sudo port install tor`
 
-### Arch Linux
+## Arch Linux
 
-* To install the `tor` package on Arch Linux, run:
+To install the `tor` package on Arch Linux, run:
 
-```
-# pacman -Syu tor
-```
+`# pacman -Syu tor`
 
-### DragonFlyBSD
+## DragonFlyBSD
 
-* Bootstrap `pkg`
+#### Bootstrap `pkg`
 
 DragonFlyBSD's daily snapshots and releases (starting with 3.4) come with `pkg` already installed. Upgrades from earlier releases, however, will not have it. If `pkg` is missing on the system for any reason, it can be quickly bootstrapped without having to build it from source or even having **DPorts** installed:
 
@@ -96,15 +92,13 @@ DragonFlyBSD's daily snapshots and releases (starting with 3.4) come with `pkg` 
 # rehash
 ```
 
-* Recommended steps to setup `pkg`
+#### Recommended steps to setup `pkg`
 
 Here, it will be similar to what we have on a **FreeBSD** system, and we are going to use HTTPS to fetch our packages, and updates - so here we also need an extra package to help us out (`ca_root_nss`).
 
-Installing the `ca_root_nss` package:
+#### Installing the `ca_root_nss` package:
 
-```
-# pkg install ca_root_nss
-```
+`# pkg install ca_root_nss`
 
 For fresh installations, the file `/usr/local/etc/pkg/repos/df-latest.conf.sample` is copied to `/usr/local/etc/pkg/repos/df-latest`. The files ending in the ".sample" extension are ignored; pkg(8) only reads files that end in ".conf" and it will read as many as it finds.
 
@@ -122,52 +116,46 @@ After applying all these changes, we update the packages list again and try to c
 # pkg upgrade -y -f
 ```
 
-* Package installation
+#### Package installation
 
 Install the `tor` package:
 
-```
-# pkg install tor
-```
+`# pkg install tor`
 
-### NetBSD
+## NetBSD
 
-* Setup `pkg_add`
+#### Setup `pkg_add`
 
 Modern versions of the NetBSD operating system can be set to use `pkgin`, which is a piece of software aimed to be like `apt` or `yum` for managing pkgsrc binary packages. We are not convering its setup here, and opt to use plain `pkg_add` instead.
 
-```
-# echo "PKG_PATH=http://cdn.netbsd.org/pub/pkgsrc/packages/NetBSD/$(uname -m)/$(uname -r)/All" > /etc/pkg_install.conf
-```
+`# echo "PKG_PATH=http://cdn.netbsd.org/pub/pkgsrc/packages/NetBSD/$(uname -m)/$(uname -r)/All" > /etc/pkg_install.conf`
 
-* Package installation
+#### Package installation
 
 Install `tor` NetBSD's package:
 
-```
-# pkg_add tor
-```
+`# pkg_add tor`
 
-### Void Linux
+## Void Linux
 
 To install the `tor` package on Void Linux, please run:
 
-```
-# xbps-install -S tor
-```
+`# xbps-install -S tor`
 
-### Installing Tor from source
+#### Installing Tor from source
 
-* Download latest release and dependencies
+##### Download latest release and dependencies
 
 The latest release of Tor can be found on the [download](https://www.torproject.org/download/tor/) page.
 
 If you're building from source, first install [libevent](http://www.monkey.org/~provos/libevent/), and make sure you have openssl and zlib (including the -devel packages if applicable). 
 
-* Install Tor
+##### Install `tor`
 
-    tar -xzf tor-0.4.3.6.tar.gz; cd tor-0.4.3.6
+` tar -xzf tor-<version>.tar.gz; cd tor-<version>`
 
-    ./configure && make
+**Replace `<version>` with the latest version of `tor`, for example, `tor-0.4.8.12`**
 
-Now you can run tor as src/app/tor (0.4.3.x and later), or you can run `make install` (as root if necessary) to install it into /usr/local/, and then you can start it just by running tor.
+`./configure && make`
+
+Now you can run tor as `src/app/tor` (0.4.3.x and later), or you can run `make install` (as root if necessary) to install it into `/usr/local/`, and then you can start it just by running tor.
