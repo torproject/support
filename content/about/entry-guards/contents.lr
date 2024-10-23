@@ -11,7 +11,7 @@ In this case, the research community knows no practical low-latency design that 
 So, what should we do? 
 Suppose the attacker controls, or can observe, C relays.
 Suppose there are N relays total.
-If you select new entry and exit relays each time you use the network, the attacker will be able to correlate all traffic you send with probability around (c/n)2.
+If you select new entry and exit relays each time you use the network, the attacker will be able to correlate all traffic you send with probability around (c/n)^2.
 But profiling is, for most users, as bad as being traced all the time: they want to do something often without an attacker noticing, and the attacker noticing once is as bad as the attacker noticing more often.
 Thus, choosing many random entries and exits gives the user no chance of escaping profiling by this kind of attacker.
 
