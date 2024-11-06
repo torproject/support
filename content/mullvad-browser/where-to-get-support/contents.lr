@@ -7,5 +7,5 @@ seo_slug: where-to-get-support
 key: 5
 ---
 description:
-For any and all support inquiries, please email: [support@mullvad.net](mailto:support@mullvad.net).
-User support is currently only available via email.
+For any and all support inquiries, please email: [support@mullvadvpn.net](mailto:support@mullvadvpn.net).
+User support is available via email or via [Github issues](https://github.com/mullvad/mullvad-browser/issues).
