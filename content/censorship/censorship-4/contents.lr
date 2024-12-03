@@ -14,12 +14,13 @@ In that case, connecting with one of the [built-in censorship circumvention](htt
 If Connection Assist is unable to facilitate the connection to Tor, you can configure Tor Browser to use one of the built-in circumvention methods manually.
 To use bridges and access other censorship circumvention related settings, click "Configure Connection" when starting Tor Browser for the first time.
 In the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on the "Select a built-In bridge" option.
-From the menu, select a [censorship circumvention method](https://tb-manual.torproject.org/circumvention/) you would like to use.
+From the menu, select a [censorship circumvention method](https://tb-manual.torproject.org/circumvention/).
 
 Or, if you have Tor Browser running, click on "Settings" in the hamburger menu (≡) and then on "Connection" in the sidebar.
 In the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on the "Select a built-In bridge" option.
-Choose whichever censorship circumvention method you would like to use from the menu.
+Select a censorship circumvention method from the menu.
 Your settings will automatically be saved once you close the tab.
 
-If you need other bridges, you can get them from our [Bridges website](https://bridges.torproject.org/).
-For more information about bridges, please refer to the [Tor Browser user manual](https://tb-manual.torproject.org/bridges).
+If Tor fails to connect, you might have to try other methods of getting bridges.
+Please refer to the [Tor Browser User Manual](https://tb-manual.torproject.org/bridges) for further instructions and more information about bridges.
+If you have Tor Browser installed type `about:manual#bridges` in the address bar of Tor Browser to read the offline manual.
