@@ -90,11 +90,7 @@ If you've found a security issue, please email security@torproject.org.
 If you want to encrypt your mail, you can get the OpenPGP public key for this address from [keys.openpgp.org](https://keys.openpgp.org/search?q=security%40torproject.org). Here is the current fingerprint:
 
 ```
-  pub   rsa3072/0x3EF9EF996604DE41 2022-11-15 [SC] [expires: 2024-12-11]
-      Key fingerprint = 835B 4E04 F6F7 4211 04C4  751A 3EF9 EF99 6604 DE41
-  uid Tor Security Contact <security@torproject.org>
-  sub   rsa3072/0xF59EF1669B798C36 2022-11-15 [E] [expires: 2024-12-11]
-      Key fingerprint = A16B 0707 8A47 E0E1 E5B2  8879 F59E F166 9B79 8C36
+     835B 4E04 F6F7 4211 04C4  751A 3EF9 EF99 6604 DE41
 ```
 
 If you wish to participate in our [bug bounty program](https://hackerone.com/torproject), please be aware, submitting a security issue to a third-party website carries certain risks that we cannot control, as a result we'd prefer the report directly.
