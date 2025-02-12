@@ -10,4 +10,4 @@ description:
 Tor Browser is a modified version of Firefox specifically designed for use with Tor.
 A lot of work has been put into making Tor Browser, including the use of extra patches to enhance privacy and security.
 While it is technically possible to use Tor with other browsers, you may open yourself up to potential attacks or information leakage, so we strongly discourage it.
-[Learn more about the design of Tor Browser](https://www.torproject.org/projects/torbrowser/design/).
+[Learn more about the design of Tor Browser](https://gitlab.torproject.org/tpo/applications/wiki/-/wikis/Design-Documents/Tor-Browser-Design-Doc).
