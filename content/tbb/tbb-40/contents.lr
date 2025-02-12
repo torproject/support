@@ -8,4 +8,4 @@ key: 45
 ---
 description:
 In Tor Browser, every new domain gets its own circuit.
-[The Design and Implementation of Tor Browser](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability) document further explains the thinking behind this design.
+[The Design and Implementation of Tor Browser](https://gitlab.torproject.org/tpo/applications/wiki/-/wikis/Design-Documents/Tor-Browser-Design-Doc#22-privacy-requirements) document further explains the thinking behind this design.
