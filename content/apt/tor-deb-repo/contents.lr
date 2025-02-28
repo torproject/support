@@ -66,7 +66,7 @@ Replace `<DISTRIBUTION>` with your Operating System codename. Run `lsb_release -
 
 Replace `<ARCHITECTURE>` with your system architecture (you found it earlier by writing `dpkg --print-architecture`).
 
-Warning symptom, when running `sudo apt update`:
+Warning symptom when running `sudo apt update`:
 
    ```
    Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'http://deb.torproject.org/torproject.org focal InRelease' doesn't support architecture 'i386'
