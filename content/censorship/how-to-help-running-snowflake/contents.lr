@@ -19,5 +19,5 @@ It can also inform you about how many people you have helped in the last 24 hour
 
 #### Web page
 In a browser where WebRTC is enabled:
-If you don't want to add Snowflake to your browser, you can go to https://snowflake.torproject.org/embed and toggle the button to opt in to being a proxy.
+If you don't want to add Snowflake to your browser, you can go to [embed-snowflake.torproject.org](https://embed-snowflake.torproject.org/) and toggle the button to opt in to being a proxy.
 You shouldn't close that page if you want to remain a Snowflake proxy.
