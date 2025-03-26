@@ -68,14 +68,15 @@ UseBridges 1
 # Uncomment the line below for Linux and include the path to the pluggable transport executable (Example: /home/user/Downloads/tor/pluggable_transports/snowflake-client)
 #ClientTransportPlugin snowflake exec <path-of-executable>
     
-Bridge snowflake 192.0.2.3:80 2B280B23E1107BB62ABFC40DDCC8824814F80A72 fingerprint=2B280B23E1107BB62ABFC40DDCC8824814F80A72 url=https://1098762253.rsc.cdn77.org front=www.phpmyadmin.net,cdn.zk.mk ice=stun:stun.antisip.com:3478,stun:stun.epygi.com:3478,stun:stun.uls.co.za:3478,stun:stun.voipgate.com:3478,stun:stun.mixvoip.com:3478,stun:stun.nextcloud.com:3478,stun:stun.bethesda.net:3478,stun:stun.nextcloud.com:443 utls-imitate=hellorandomizedalpncom:3478,stun:stun.mixvoip.com:3478,stun:stun.nextcloud.com:3478,stun:stun.bethesda.net:3478,stun:stun.nextcloud.com:443 utls-imitate=hellorandomizedalpn
-
+Bridge snowflake 192.0.2.3:80 2B280B23E1107BB62ABFC40DDCC8824814F80A72 fingerprint=2B280B23E1107BB62ABFC40DDCC8824814F80A72 url=https://1098762253.rsc.cdn77.org front=www.phpmyadmin.net,cdn.zk.mk ice=stun:stun.antisip.com:3478,stun:stun.epygi.com:3478,stun:stun.uls.co.za:3478,stun:stun.voipgate.com:3478,stun:stun.mixvoip.com:3478,stun:stun.nextcloud.com:3478,stun:stun.bethesda.net:3478,stun:stun.nextcloud.com:443 utls-imitate=hellorandomizedalpn
 ```
+
 * Save the `torrc` file.
 
 * Run `tor` from the command line:
   `./tor -f torrc`
-  * If you have [installed](../../little-t-tor/install-little-t-tor/) little-t tor on Linux and modified the default `torrc`, you will have to restart the daemon.
+
+* Note: If you have [installed](../../little-t-tor/install-little-t-tor/) little-t tor on Linux and modified the default `torrc`, you will have to restart the daemon.
 
 #### Troubleshooting
 
