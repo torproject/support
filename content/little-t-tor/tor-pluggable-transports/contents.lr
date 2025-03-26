@@ -1,0 +1,86 @@
+_model: question
+---
+title: How to use pluggable transports with little-t tor?
+---
+seo_slug: tor-pluggable-transports
+---
+key: 3
+---
+_slug: tor-pluggable-transports
+---
+description:
+
+**Attention**: These instructions are meant for using pluggable transports with tor, the network daemon i.e. [little-t tor](../../glossary/little-t-tor/).
+For instructions on using pluggable transports with Tor Browser, refer to the [Tor Browser user manual](https://tb-manual.torproject.org/circumvention/).
+
+Direct access to the Tor network may sometimes be blocked.
+Tor can be used with circumvention tools, known as [pluggable transports](../../glossary/pluggable-transports/), for getting around these blocks.
+[obfs4](../../glossary/obfs4/), [Snowflake](../../glossary/snowflake/) and WebTunnel are some pluggable transports available to use with Tor.
+Tor can be configured to use pluggable transports by modifying Tor's configuration file i.e. [torrc](../../glossary/torrc/).
+
+
+Steps to configure `tor` to use pluggable transports for different operating systems are as follows.
+
+* Download and [install](../../little-t-tor/install-little-t-tor/) `tor` or the [Tor Expert Bundle](https://www.torproject.org/download/tor/) for your operating system.
+If access to the Tor Project website is blocked, use an official Tor Project [mirror](../../censorship/gettor-1/).
+
+* If you have `tor` installed, [pluggable transport](../../glossary/pluggable-transports/) binaries can be downloaded as part of the [Tor Expert Bundle](https://www.torproject.org/download/tor/). Pluggable transport binaries available as part of the Tor Expert Bundle:
+  * [lyrebird](../../tbb/lyrebird/) : implements several pluggable transport protocols, including obfs4 and WebTunnel.  
+  * snowflake-client : implements the Snowflake pluggable transport.
+
+* Extract the Tor Expert Bundle to a directory of your choice.
+
+* For pluggable transports, obfs4 and WebTunnel, [obtain bridges](https://tb-manual.torproject.org/bridges/) from the [bridges website](https://bridges.torproject.org/options), via [Email](mailto:bridges@torproject.org) or via [Telegram](https://t.me/GetBridgesBot).
+
+* Modify Tor's configuration file, i.e. [torrc](../../glossary/torrc/).
+Copy and modify the following sample `torrc` according to the operating system.
+If you have [installed](../../little-t-tor/install-little-t-tor/) little-t tor on Linux, you will have to modify the default `torrc`.
+
+  
+#### Configuring `tor` to use obfs4 or WebTunnel
+  
+```
+UseBridges 1
+# Uncomment the line below for Windows and include the path to the pluggable transport executable (Example: C:\Users\user\Downloads\tor\pluggable_transports\lyrebird.exe)
+#ClientTransportPlugin meek_lite,obfs4,webtunnel exec <path-of-executable>
+   
+# Uncomment the line below for macOS and include the path to the pluggable transport executable (Example: /Users/user/Downloads/tor/pluggable_transports/lyrebird)
+#ClientTransportPlugin meek_lite,obfs4,webtunnel exec <path-of-executable>
+
+# Uncomment the line below for Linux and include the path to the pluggable transport executable (Example: /home/user/Downloads/tor/pluggable_transports/lyrebird)
+#ClientTransportPlugin meek_lite,obfs4,webtunnel exec <path-of-executable>
+    
+Bridge obfs4 <IP ADDRESS>:<PORT> <FINGERPRINT> cert=<CERTIFICATE> iat-mode=0
+Bridge webtunnel <IP ADDRESS>:<PORT> <FINGERPRINT> url=<URL> ver=0.0.1
+    
+```
+
+#### Configuring `tor` to use Snowflake
+
+```
+UseBridges 1
+# Uncomment the line below for Windows and include the path to the pluggable transport executable (Example: C:\username\Browser\TorBrowser\tor\pluggable_transports\snowflake-client.exe)
+#ClientTransportPlugin snowflake exec <path-of-executable>
+    
+# Uncomment the line below for macOS and include the path to the pluggable transport executable (Example: /Users/user/Downloads/tor/pluggable_transports/snowflake-client)
+#ClientTransportPlugin snowflake exec <path-of-executable>
+    
+# Uncomment the line below for Linux and include the path to the pluggable transport executable (Example: /home/user/Downloads/tor/pluggable_transports/snowflake-client)
+#ClientTransportPlugin snowflake exec <path-of-executable>
+    
+Bridge snowflake 192.0.2.3:80 2B280B23E1107BB62ABFC40DDCC8824814F80A72 fingerprint=2B280B23E1107BB62ABFC40DDCC8824814F80A72 url=https://1098762253.rsc.cdn77.org front=www.phpmyadmin.net,cdn.zk.mk ice=stun:stun.antisip.com:3478,stun:stun.epygi.com:3478,stun:stun.uls.co.za:3478,stun:stun.voipgate.com:3478,stun:stun.mixvoip.com:3478,stun:stun.nextcloud.com:3478,stun:stun.bethesda.net:3478,stun:stun.nextcloud.com:443 utls-imitate=hellorandomizedalpncom:3478,stun:stun.mixvoip.com:3478,stun:stun.nextcloud.com:3478,stun:stun.bethesda.net:3478,stun:stun.nextcloud.com:443 utls-imitate=hellorandomizedalpn
+
+```
+* Save the `torrc` file.
+
+* Run `tor` from the command line:
+  `./tor -f torrc`
+  * If you have [installed](../../little-t-tor/install-little-t-tor/) little-t tor on Linux and modified the default `torrc`, you will have to restart the daemon.
+
+#### Troubleshooting
+
+* If Tor fails to connect, check that the `torrc` file is correctly formatted.
+* If `tor` is installed from the Tor Expert Bundle ensure the `torrc` file is in the same folder as the `tor` binary. 
+* Check the Tor logs for [errors](../../connecting/connecting-2/).
+* After exhausting these common troubleshooting steps, if the connection still fails, the bridges you received may be offline or blocked.
+Obtain new set of bridges from the [bridges website](https://bridges.torproject.org/options), via [Email](mailto:bridges@torproject.org) or via [Telegram](https://t.me/GetBridgesBot).
