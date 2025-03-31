@@ -24,7 +24,7 @@ You can select Snowflake from Tor Browser's [built-in bridge menu](../how-can-i-
 1. **Private and unlisted obfs4 bridges:** contact our Telegram Bot [@GetBridgesBot](https://t.me/GetBridgesBot) and type `/bridges`.
 Or send an email to [frontdesk@torproject.org](mailto:frontdesk@torproject.org) with the phrase "private bridge cn" in the subject of the email.
 If you are tech-savvy, you can run your own [obfs4 bridge](https://community.torproject.org/relay/setup/bridge/) from outside China.
-Remember that bridges distributed by [BridgeDB](https://bridges.torproject.org), and built-in obfs4 bridges bundled in Tor Browser most likely won't work.
+Remember that bridges distributed from the Tor [bridges website](https://bridges.torproject.org), and built-in obfs4 bridges bundled in Tor Browser most likely won't work.
 1. **meek-azure:** makes it look like you are browsing a Microsoft website instead of using Tor.
 However, because it has a bandwidth limitation, this option will be quite slow.
 You can select meek-azure from Tor Browser's built-in bridges dropdown.
