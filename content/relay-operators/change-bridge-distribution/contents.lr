@@ -4,13 +4,13 @@ title: How do I change my bridge distribution method?
 ---
 description:
 
-BridgeDB implements [six mechanisms](https://bridges.torproject.org/info) to distribute bridges: HTTPS, Moat, Email, Telegram, Settings and Reserved.
+Bridges are distributed via six mechanisms : HTTPS, Moat, Email, Telegram, Settings and Reserved.
 Bridge operators can check which mechanism their bridge is using, on the [Relay Search](https://metrics.torproject.org/rs.html#search).
 Enter the bridge's `<HASHED FINGERPRINT>` in the form and click "Search".
 
 Operators can also choose which distribution method their bridge uses.
 To change the method, modify the `BridgeDistribution` setting in the torrc file to one of these: https, moat, email, telegram, settings, lox, none, any.
-You can find a description of each distributor in the [rdsys distributors documentation](https://gitlab.torproject.org/tpo/anti-censorship/rdsys/-/blob/main/doc/distributors.md).
+You can find a description of each distributor in the [Bridge distribution documentation](https://gitlab.torproject.org/tpo/anti-censorship/rdsys/-/blob/main/doc/distributors.md).
 
 Read more on the Bridges [post-install](https://community.torproject.org/relay/setup/bridge/post-install/) guide.
 ---
