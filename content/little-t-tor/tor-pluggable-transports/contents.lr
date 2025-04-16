@@ -24,9 +24,8 @@ Steps to configure `tor` to use pluggable transports for different operating sys
 * Download and [install](../../little-t-tor/install-little-t-tor/) `tor` or the [Tor Expert Bundle](https://www.torproject.org/download/tor/) for your operating system.
 If access to the Tor Project website is blocked, use an official Tor Project [mirror](../../censorship/gettor-1/).
 
-* If you have `tor` installed, [pluggable transport](../../glossary/pluggable-transports/) binaries can be downloaded as part of the [Tor Expert Bundle](https://www.torproject.org/download/tor/). Pluggable transport binaries available as part of the Tor Expert Bundle:
-  * [lyrebird](../../tbb/lyrebird/) : implements several pluggable transport protocols, including obfs4 and WebTunnel.  
-  * snowflake-client : implements the Snowflake pluggable transport.
+* If you have `tor` installed, the [pluggable transport](../../glossary/pluggable-transports/) binary, [lyrebird](../../tbb/lyrebird/), can be downloaded as part of the [Tor Expert Bundle](https://www.torproject.org/download/tor/).
+`lyrebird` implements several pluggable transport protocols, including obfs4, Snowflake and WebTunnel.  
 
 * Extract the Tor Expert Bundle to a directory of your choice.
 
@@ -37,38 +36,23 @@ Copy and modify the following sample `torrc` according to the operating system.
 If you have [installed](../../little-t-tor/install-little-t-tor/) little-t tor on Linux, you will have to modify the default `torrc`.
 
   
-#### Configuring `tor` to use obfs4 or WebTunnel
+#### Configuring `tor` to use obfs4, Snowflake or WebTunnel
   
 ```
 UseBridges 1
 # Uncomment the line below for Windows and include the path to the pluggable transport executable (Example: C:\Users\user\Downloads\tor\pluggable_transports\lyrebird.exe)
-#ClientTransportPlugin meek_lite,obfs4,webtunnel exec <path-of-executable>
+#ClientTransportPlugin meek_lite,obfs4,snowflake,webtunnel exec <path-of-executable>
    
 # Uncomment the line below for macOS and include the path to the pluggable transport executable (Example: /Users/user/Downloads/tor/pluggable_transports/lyrebird)
-#ClientTransportPlugin meek_lite,obfs4,webtunnel exec <path-of-executable>
+#ClientTransportPlugin meek_lite,obfs4,snowflake,webtunnel exec <path-of-executable>
 
 # Uncomment the line below for Linux and include the path to the pluggable transport executable (Example: /home/user/Downloads/tor/pluggable_transports/lyrebird)
-#ClientTransportPlugin meek_lite,obfs4,webtunnel exec <path-of-executable>
+#ClientTransportPlugin meek_lite,obfs4,snowflake,webtunnel exec <path-of-executable>
     
 Bridge obfs4 <IP ADDRESS>:<PORT> <FINGERPRINT> cert=<CERTIFICATE> iat-mode=0
 Bridge webtunnel <IP ADDRESS>:<PORT> <FINGERPRINT> url=<URL> ver=0.0.1
-    
-```
-
-#### Configuring `tor` to use Snowflake
-
-```
-UseBridges 1
-# Uncomment the line below for Windows and include the path to the pluggable transport executable (Example: C:\username\Browser\TorBrowser\tor\pluggable_transports\snowflake-client.exe)
-#ClientTransportPlugin snowflake exec <path-of-executable>
-    
-# Uncomment the line below for macOS and include the path to the pluggable transport executable (Example: /Users/user/Downloads/tor/pluggable_transports/snowflake-client)
-#ClientTransportPlugin snowflake exec <path-of-executable>
-    
-# Uncomment the line below for Linux and include the path to the pluggable transport executable (Example: /home/user/Downloads/tor/pluggable_transports/snowflake-client)
-#ClientTransportPlugin snowflake exec <path-of-executable>
-    
 Bridge snowflake 192.0.2.3:80 2B280B23E1107BB62ABFC40DDCC8824814F80A72 fingerprint=2B280B23E1107BB62ABFC40DDCC8824814F80A72 url=https://1098762253.rsc.cdn77.org front=www.phpmyadmin.net,cdn.zk.mk ice=stun:stun.antisip.com:3478,stun:stun.epygi.com:3478,stun:stun.uls.co.za:3478,stun:stun.voipgate.com:3478,stun:stun.mixvoip.com:3478,stun:stun.nextcloud.com:3478,stun:stun.bethesda.net:3478,stun:stun.nextcloud.com:443 utls-imitate=hellorandomizedalpn
+    
 ```
 
 * Save the `torrc` file.
