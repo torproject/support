@@ -14,15 +14,13 @@ Next, include the following processes:
 * For Windows
   * firefox.exe
   * tor.exe
-  * lyrebird.exe (if you use bridges)
-  * snowflake-client.exe
+  * [lyrebird.exe](../../tbb/lyrebird/)
 
 
 * For macOS
   * TorBrowser
   * tor.real
-  * lyrebird (if you use bridges)
-  * snowflake-client
+  * [lyrebird](../../tbb/lyrebird/)
 
 Finally, restart Tor Browser.
 This should fix the issues you're experiencing.

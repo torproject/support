@@ -8,5 +8,5 @@ key: 58
 ---
 description:
 
-[Lyrebird](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird) is the name of Tor's obfs4proxy that implements several [pluggable transport](../../glossary/pluggable-transports/) protocols, including obfs4, meek and WebTunnel.
+[Lyrebird](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird) is the name of Tor's obfs4proxy that implements several [pluggable transport](../../glossary/pluggable-transports/) protocols, including obfs4, meek, Snowflake and WebTunnel.
 In Tor Browser, it also implements the feature to [request bridges](https://tb-manual.torproject.org/bridges/) and the circumvention API for [Connection Assist](../../glossary/connection-assist/).
