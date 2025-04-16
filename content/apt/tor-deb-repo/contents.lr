@@ -72,13 +72,19 @@ Warning symptom, when running sudo apt update:
    Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'http://deb.torproject.org/torproject.org focal InRelease' doesn't support architecture 'i386'
    ```
 
-#### 3. Then add the gpg key used to sign the packages by running the following command at your command prompt:
+#### 3. Install GnuPG if not already installed:
+
+   ```
+   # apt install gnupg
+   ```
+
+#### 4. Then add the gpg key used to sign the packages by running the following command at your command prompt:
 
    ```
    # wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/deb.torproject.org-keyring.gpg >/dev/null
    ```
 
-#### 4. Install tor and tor debian keyring
+#### 5. Install tor and tor debian keyring
 
 We provide a Debian package to help you keep our signing key current. It is recommended you use it. Install it with the following commands:
 
