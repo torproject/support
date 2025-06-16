@@ -16,19 +16,25 @@ After the installation, Tor Browser will try to connect to the Tor network.
 If Tor is blocked in your location, Connection Assist will try to automatically connect using a bridge or Snowflake.
 But if that doesn't work, the second step will be to obtain a bridge that works in China.
 
-There are three options to unblock Tor in China:
+There are following options to unblock Tor in China:
 
+1. **[WebTunnel](../../glossary/webtunnel):** makes the [traffic](../../glossary/traffic) look like a regular HTTPS connection to a webpage server giving the impression that the user is simply browsing the web.
+To obtain WebTunnel bridges, visit our [bridges website](https://bridges.torproject.org/options).
+From the "Advanced options" select "WebTunnel", from the dropdown, as the [pluggable transport](../../glossary/pluggable-transports).
+Then click on "Get Bridges".
+Support for WebTunnel bridges is only available on Tor Browser for Desktop and Android.
 1. **[Snowflake](../what-is-snowflake/):** uses ephemeral proxies to connect to the Tor network.
 It's available in Tor Browser and other Tor powered apps like Orbot.
 You can select Snowflake from Tor Browser's [built-in bridge menu](../how-can-i-use-snowflake/).
 1. **Private and unlisted obfs4 bridges:** contact our Telegram Bot [@GetBridgesBot](https://t.me/GetBridgesBot) and type `/bridges`.
 Or send an email to [frontdesk@torproject.org](mailto:frontdesk@torproject.org) with the phrase "private bridge cn" in the subject of the email.
 If you are tech-savvy, you can run your own [obfs4 bridge](https://community.torproject.org/relay/setup/bridge/) from outside China.
-Remember that bridges distributed from the Tor [bridges website](https://bridges.torproject.org), and built-in obfs4 bridges bundled in Tor Browser most likely won't work.
-1. **meek-azure:** makes it look like you are browsing a Microsoft website instead of using Tor.
+Remember that obfs4 bridges distributed from the Tor [bridges website](https://bridges.torproject.org), and built-in obfs4 bridges bundled in Tor Browser most likely won't work.
+1. **meek-azure:** makes it look like you are browsing a website instead of using Tor.
 However, because it has a bandwidth limitation, this option will be quite slow.
 You can select meek-azure from Tor Browser's built-in bridges dropdown.
 
-If one of these options above is not working, check your [Tor logs](../../connecting/connecting-2/) and try another option.
+For obfs4 or WebTunnel bridges obtained via email or from the Bridges website, follow instructions on the Tor Browser User Manual to [enter the bridge addresses](https://tb-manual.torproject.org/bridges/) in Tor Browser.   
 
+If one of these options above is not working, check your [Tor logs](../../connecting/connecting-2/) and try another option.
 If you need help, you can contact our support team on Telegram [Tor Project Support](https://t.me/TorProjectSupportBot) and [Signal](https://signal.me/#p/+17787431312).

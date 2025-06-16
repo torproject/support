@@ -1,0 +1,13 @@
+_model: word
+---
+term: WebTunnel
+---
+definition:
+    
+WebTunnel is a censorship-resistant [pluggable transport](../pluggable-transports) designed to mimic encrypted web traffic (HTTPS).
+For someone monitoring the network, it makes the [traffic](../traffic) look like a regular HTTPS connection to a webpage server giving the impression that the user is simply browsing the web.
+
+---
+translation:
+---
+spelling:
