@@ -12,21 +12,15 @@
 <link rel="icon" type="image/x-icon" href="{{ '/static/images/favicon.ico'|asseturl }}">
 <!-- Recommended favicon format -->
 <link rel="icon" type="image/png" href="{{ '/static/images/favicon.png'|asseturl }}">
-<script>
-  function change(event) {
-    let btn = event.currentTarget;
-    if (btn.innerHTML == "{{ _('expand') }}") {
-      btn.innerHTML = "{{ _('collapse') }}";
-    } else {
-      btn.innerHTML = "{{ _('expand') }}";
-    }
-  }
-  function handleCollapse() {
-    if (document.querySelectorAll('.show').length === 1) {
-      document.querySelector('#expand-btn').innerHTML = "{{ _('collapse') }}";
-    }
-  }
-</script>
+
+<style type="text/css">
+.btn-collapse-text::before {
+  content: "{{ _('collapse') }}";
+}
+.btn-expand-text::before {
+  content: "{{ _('expand') }}"
+}
+</style>
 
 <title>{% block title %}{{ this.title }} {{ this.term }} {% endblock %} | {{ _("Tor Project | Support") }}</title>
 
@@ -56,7 +50,7 @@
             {% if this._model == 'topic' and this.forum_link %}
 	    <a href="{{ this.forum_link }}"><button class="btn btn-outline-primary float-right"><i class="fab fa-discourse pr-2"></i>{{_('View this topic on the forum') }}</button></a>
             {% endif %}
-	    <button class="btn btn-primary" id="expand-btn" data-toggle="collapse" data-target=".expand" aria-expanded="false" onclick="change(event)">{{_('expand') }}</button>
+	    <button class="btn btn-primary btn-expand-text" id="expand-btn"></button>
           </div>
           {% block body %}{% endblock %}
         </main>

@@ -5,10 +5,13 @@ $('.side-nav').click(function(){
   $(this).addClass('active');
 });
 
+// collapse by default if page has multiple entries
 if($('.show').length !== 1 ) {
   $('.show').collapse();
 } else{
-  $(document).ready(handleCollapse);
+  expandbtn = document.querySelector('#expand-btn')
+  expandbtn.classList.remove("btn-expand-text");
+  expandbtn.classList.add("btn-collapse-text");
 }
 
 // Coming from search result page click
@@ -22,3 +25,21 @@ if(window.location.hash !== "") {
     window.scrollTo(0, $(window.location.hash).parent().offset().top)
   }, 500)
 }
+
+// expand all/collapse all button
+document.querySelector('#expand-btn').addEventListener("click", function () {
+  expandable = document.querySelectorAll(".expand");
+  if (this.classList.contains("btn-expand-text")) {
+    expandable.forEach(function (item) {
+        $(item).collapse('show');
+    });
+    this.classList.remove("btn-expand-text");
+    this.classList.add("btn-collapse-text");
+  } else {
+    expandable.forEach(function (item) {
+        $(item).collapse('hide');
+    });
+    this.classList.remove("btn-collapse-text");
+    this.classList.add("btn-expand-text");
+  }
+});
