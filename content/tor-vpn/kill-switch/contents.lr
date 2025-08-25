@@ -1,0 +1,17 @@
+_model: question
+---
+title: Kill Switch
+---
+seo_slug: kill-switch
+---
+key: 8
+---
+description:
+
+The 'Kill switch' can be used to block apps from connecting to the internet if the Tor network cannot be reached.
+To activate the 'Kill switch':
+
+* Launch the Tor VPN app and tap on 'Configure'.
+* Tap on 'Kill switch'.
+* Tap on Tor VPN settings (⚙️).
+* Toggle on 'Always-on VPN'.

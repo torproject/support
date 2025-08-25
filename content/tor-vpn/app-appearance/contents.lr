@@ -1,0 +1,20 @@
+_model: question
+---
+title: App Appearance
+---
+seo_slug: app-appearance
+---
+key: 9
+---
+description:
+
+#### App icon and name
+
+To change the appearance of the App icon and name of the application:  
+
+* After launching Tor VPN, tap on "Configure".
+* Tap on "App icon".
+* Select from the choices.
+* Tor VPN will still be visible on the home screen, from the notifications, search, the App Library and the App store page.
+
+![Configuring app appearance](/static/images/tor-vpn/app-appearance.png)

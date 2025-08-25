@@ -1,0 +1,32 @@
+_model: question
+---
+title: First Launch
+---
+seo_slug: first-launch
+---
+key: 3
+---
+description:
+
+Once installed, you can launch Tor VPN from the Play Store by clicking on "Open" or from the list of applications installed on your phone.
+On the "Connect" screen, by default, all applications installed on the phone are configured to route through Tor VPN with the option "All apps protected" toggled on.
+
+* Tap on "Connect" to initiate the connection.
+* A "Connection request" prompt will open up for Tor VPN to establish a VPN connection.
+* Tap on "OK".
+
+![Launch Tor VPN](/static/images/tor-vpn/first-launch.png) 
+
+![VPN connection request prompt](/static/images/tor-vpn/vpn-connection-request.png)
+
+![Tor VPN connection established](/static/images/tor-vpn/vpn-connect.png)
+
+
+#### Connect Automatically
+
+You can configure Tor VPN to connect to the Tor network automatically with the previously saved connection settings, every time the app is launched.
+
+* When launching Tor VPN, tap on "Configure".
+* Toggle on "Connect automatically".
+
+![Tor VPN connect automatically](/static/images/tor-vpn/configure.png)

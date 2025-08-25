@@ -1,0 +1,40 @@
+_model: question
+---
+title: Introduction
+---
+seo_slug: introduction
+---
+key: 1
+---
+description:
+
+⚠️  **WARNING**: Tor VPN is beta software.
+Do not rely on it for anything other than testing.
+It may leak information and should not be relied on for anything sensitive.
+
+### Tor
+
+The Tor network network can be understood as a network of virtual tunnels that allows you to improve your privacy and security on the Internet.
+Tor works by sending your traffic through three random servers (also known as relays) in the Tor network.
+The last relay in the circuit (the "exit relay") then sends the traffic out onto the public Internet. 
+Using the Tor network, makes it difficult to track a user's internet activity by preventing any single point on the network from being able to view both where the traffic originated from and where it is ultimately going to.
+It conceals the destination of the traffic (i.e. names and addresses of websites you visit) from your Internet Service Provider (ISP) and anyone watching your connection locally and the operators of the websites and services that you access and anyone watching them will see a connection coming from the Tor network instead of your real Internet (IP) address.
+
+### Tor VPN
+
+Tor VPN, a free and open source software developed by the [Tor Project](https://www.torproject.org/), is a Tor-powered app which can be used to route other apps on users' device through the Tor network.
+Tor VPN leverages the use of the Tor network routing the traffic through relays in the Tor network.
+Some major uses and advantages of using Tor VPN:
+
+* **Privacy**.
+The operators of the websites and services that you access, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address and geographic location, and will not know who you are unless you explicitly identify yourself.
+
+* **Stumps surveillance**.
+Your internet service provider (ISP) or anyone monitoring the network will not be able to track your internet activity.  
+
+* **Censorship resistance**. 
+Tor VPN allows you to access websites and apps in places where they might be blocked and access the free internet in places where government or Internet Service Provider (ISP) has implemented some form of Internet censorship or filtering.
+
+* **Access to Onion services**.
+[Onion services](https://community.torproject.org/onion-services/) are services that can only be accessed over the Tor network.
+Onion services allow people to browse and to publish anonymously, and are also relied on for metadata-free chat and file sharing like [OnionShare](https://onionshare.org/), safer interaction between journalists and their sources like with [SecureDrop](https://securedrop.org/), [safer software updates](https://blog.torproject.org/debian-and-tor-services-available-onion-services/), and [more secure](https://community.torproject.org/onion-services/overview/) ways to reach [popular websites](https://community.torproject.org/onion-services/#featured-onions).
