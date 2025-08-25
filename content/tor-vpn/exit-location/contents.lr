@@ -1,0 +1,22 @@
+_model: question
+---
+title: Configure Exit location of the Tor connections
+---
+seo_slug: exit-location
+---
+key: 7
+---
+description:
+
+While connecting with the Tor network, websites and apps will think you are connecting from the same country as your Tor exit relay.
+Exit relay is the final hop in each of your Tor circuits.
+You can configure Tor VPN to only choose exit relays from one particular country.
+
+To configure the exit location of the Tor connections:
+* Tap on the "Globe" icon from the "Connect" screen.
+Or when launching Tor VPN, tap on "Configure" and then tap on "Exit location".
+* By default, the option is set to "Random per circuit".
+With this option checked, each application configured gets a random Tor circuit.
+* Tap and select the country from the list.
+
+![Configure exit location of the Tor connections](/static/images/tor-vpn/exit-location.png)

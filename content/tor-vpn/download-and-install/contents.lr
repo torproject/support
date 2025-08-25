@@ -1,0 +1,25 @@
+_model: question
+---
+title: Download and Install
+---
+seo_slug: download-and-install
+---
+key: 2
+---
+description:
+
+Tor VPN is free software.
+Free, both as in libre software, and, available free of charge.
+To make sure you are installing the correct Tor VPN, please only download from the official sources as mentioned below.
+
+#### Minimum System Requirements
+
+Tor VPN is only available for the Android operating system and requires:
+* Android 7.0 or newer.
+* Android device supporting Aarch64, Arm, x86_64 or x86 architecture.
+
+Android Tablets and Chromebooks are not supported.
+
+#### Google Play Store
+
+Tor VPN can be downloaded and installed from the Google Play Store.

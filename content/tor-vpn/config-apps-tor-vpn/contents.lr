@@ -1,0 +1,20 @@
+_model: question
+---
+title: Configure apps to use Tor VPN
+---
+seo_slug: config-apps-tor-vpn
+---
+key: 6
+---
+description:
+
+By default, all applications installed on your phone are configured to route through Tor VPN, except any of the Tor powered apps, like the Tor Browser for Android and Orbot.
+It is also possible to permit only certain apps to use Tor VPN and route them through the Tor network.
+
+#### How to configure Tor connection settings for specific applications
+* Tap on the "Apps" option.
+Or when launching Tor VPN, tap on "Configure" and then tap on "Apps".
+* Toggle off "Protect all apps".
+* Toggle on the option to use Tor VPN for each individual app.
+
+![Configuring applications to use Tor VPN](/static/images/tor-vpn/apps-vpn-setting.png)

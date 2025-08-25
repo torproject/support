@@ -1,0 +1,66 @@
+_model: question
+---
+title: Feedback and Support
+---
+seo_slug: support
+---
+key: 12
+---
+description:
+
+If you encounter an issue that's not answered by our documentation, please try the [Troubleshooting](../troubleshoot) steps.
+If that does not work, please file a bug report or contact our support team.
+
+When sending us a support request, feedback or reporting a bug, please include as much information possible:
+
+1. Android version.
+2. Tor VPN version.
+3. Step by step of how you got to the issue, so we can reproduce it. 
+4. A screenshot of the problem.
+5. Tor logs.
+6. Country or region you are connecting to Tor from.
+7. If you know or suspect Tor is censored in your region or network, please mention that.
+
+### Feedback and reporting a bug
+
+#### Tor Forum
+
+On [Tor Forum](https://forum.torproject.org/), create an account to submit a new topic. 
+Please review our [discussion guidelines](https://forum.torproject.org/t/welcome-to-the-tor-project-forum/) and check the existing topics before posting.
+
+#### Tor GitLab
+
+If reporting a bug, please report it on our [bug tracker](https://gitlab.torproject.org).
+Please check if the bug has already been reported.
+To search and view all bug reports related to Tor VPN, please navigate to the [Tor VPN repository](https://gitlab.torproject.org/tpo/applications/vpn/-/issues).
+
+To create a new bug report, please request a [new account](https://anonticket.torproject.org/user/gitlab-account/create/) to access Tor Project's GitLab instance.
+File the bug report in the [Tor VPN repository](https://gitlab.torproject.org/tpo/applications/vpn/-/issues/new).
+
+### Contact Support
+
+* Our user support channels via Email, Telegram, WhatsApp, and Signal are operational through Monday to Thursday.
+From Friday to Sunday, the helpline is closed but please rest assured our team will get back to your messages.
+* All of our support channels are available in English, Russian and Farsi.
+If none of these languages work for you, please write in any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it.
+* Our support channels on Telegram, WhatsApp and Signal are only available over text messages; videos or calls are not supported.
+
+#### Telegram
+
+Send us a message on [@TorProjectSupportBot](https://t.me/TorProjectSupportBot).
+
+#### Email
+
+Send us an email to [frontdesk@torproject.org](mailto:frontdesk@torproject.org)
+
+In the subject line of your email, please tell us what you are reporting.
+The more specific your subject line is, the easier it will be for us to understand and follow up.
+Sometimes when we receive emails without subject lines, they're marked as spam.
+
+#### WhatsApp 
+
+Send us a message on [+447421000612](https://wa.me/447421000612).
+
+#### Signal
+
+Send us a message on [+17787431312](https://signal.me/#p/+17787431312).

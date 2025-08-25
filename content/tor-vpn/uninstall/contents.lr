@@ -1,0 +1,27 @@
+_model: question
+---
+title: Uninstall
+---
+seo_slug: uninstall
+---
+key: 5
+---
+description:
+
+Tor VPN can be uninstalled directly from Google Play or from your mobile device's application settings.
+
+#### Google Play Store
+
+* Open the Google Play Store app.
+* At the top right, tap the profile icon.
+* Tap on 'Manage apps and devices'.
+* Tap on the 'Manage' tab.
+* Tap on Tor VPN from the list of apps installed on your device.
+* Tap on 'Uninstall'.
+
+#### Device settings
+
+* Navigate to the device settings.
+* Navigate to the section "Apps" or "Applications".
+* Select Tor VPN.
+* Tap on "Uninstall".
