@@ -9,7 +9,7 @@ key: 10
 description:
 
 Direct access to the Tor network may sometimes be blocked.
-Tor VPN can be used with censorship circumvention tools, known as Bridges.
+When this happens, Tor VPN can be used with censorship circumvention tools known as Bridges.
 
 After exhausting common troubleshooting steps, if Tor VPN fails to initiate a connection to the Tor network, it is possible that your connection to Tor is censored.
 In that case, connecting with one of the built-in censorship circumvention methods might help.
@@ -26,7 +26,7 @@ Tor VPN ships with two types of built-in bridges:
 
 - **Snowflake**: Snowflake routes your connection through volunteer-operated proxies to make it look like you're placing a video call instead of using Tor.
 
-Depending on where you are, one type of bridge may work better than than the other.
+Depending on where you are, one type of bridge may work better than the other.
 
 If using the built-in censorship circumvention methods does not work, you will have to request other bridges.
 Since bridge addresses are not public, you will need to request them yourself directly from the app:
