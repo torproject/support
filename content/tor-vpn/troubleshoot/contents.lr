@@ -1,14 +1,14 @@
 _model: question
 ---
-title: Troubleshoot
+title: Troubleshooting
 ---
-seo_slug: troubleshoot
+seo_slug: troubleshooting
 ---
 key: 11
 ---
 description:
 
-If Tor VPN is unable to connect, you might see a error message.
+If Tor VPN is unable to connect, you might see a error message:
 
 ![Connection Error](/static/images/tor-vpn/connection-error.png)
 
