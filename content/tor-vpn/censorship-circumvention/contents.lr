@@ -31,8 +31,9 @@ Depending on where you are, one type of bridge may work better than the other.
 If using the built-in censorship circumvention methods does not work, you will have to request other bridges.
 Since bridge addresses are not public, you will need to request them yourself directly from the app:
 
-#### Obtain bridges via the Bridge Bot
+#### Obtain bridges via the Telegram Bot
 
+* Contact the [Telegram Bot @GetBridgesBot](https://t.me/GetBridgesBot)
 * Tap on "Request bridges".  
 * Tap on "I need new bridges".  
 * After the bridge bot fetches the bridge addresses, tap on "Use bridges".
